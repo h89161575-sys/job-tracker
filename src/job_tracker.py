@@ -51,8 +51,21 @@ UNIQA_RSS_URL = (
         {"locale": "de_DE", "keywords": "(Jurist) AND locationSearch:(Wien)"}
     )
 )
+KARRIERE_SEARCH_URL = (
+    "https://www.karriere.at/jobs/jus/wien?"
+    "jobFields%5B%5D=4048&employmentTypes%5B%5D=3960&homeoffice=true&salary%5B%5D=10007"
+)
+KARRIERE_LOAD_MORE_BASE_URL = "https://www.karriere.at/jobs"
+KARRIERE_LOAD_MORE_PARAMS = (
+    ("keywords", "jus"),
+    ("locations", "wien"),
+    ("jobFields[]", "4048"),
+    ("employmentTypes[]", "3960"),
+    ("homeoffice", "true"),
+    ("salary[]", "10007"),
+)
 
-DEFAULT_SOURCE_NAMES = ("jusjobs", "erste_bank", "uniqa", "lawfinder", "derstandard")
+DEFAULT_SOURCE_NAMES = ("jusjobs", "erste_bank", "uniqa", "lawfinder", "derstandard", "karriere_at")
 OPTIONAL_SOURCE_NAMES: Tuple[str, ...] = ()
 
 FetchResult = Tuple[List[Dict[str, Any]], List[str]]
@@ -776,6 +789,139 @@ def fetch_derstandard_jobs() -> FetchResult:
     return dedupe_jobs(jobs), []
 
 
+def _extract_karriere_initial_state(html: str) -> Tuple[Optional[Dict[str, Any]], Optional[str]]:
+    match = re.search(
+        r"window\.VUE_INITIAL_STATE\s*=\s*(\{.*?\})\s*;\s*</script>",
+        html,
+        re.IGNORECASE | re.DOTALL,
+    )
+    if not match:
+        return None, "karriere.at VUE_INITIAL_STATE not found"
+    try:
+        return json.loads(match.group(1)), None
+    except json.JSONDecodeError as exc:
+        return None, f"karriere.at VUE_INITIAL_STATE parse error: {exc}"
+
+
+def parse_karriere_jobs_from_state(state: Dict[str, Any], fetched_at: Optional[str] = None) -> List[Dict[str, Any]]:
+    fetched_at = fetched_at or utc_now()
+    jobs_search_list = state.get("jobsSearchList") if isinstance(state, dict) else {}
+    items = ((jobs_search_list or {}).get("activeItems") or {}).get("items") or []
+    jobs: List[Dict[str, Any]] = []
+
+    for item in items:
+        raw = (item or {}).get("jobsItem") if isinstance(item, dict) else {}
+        if not isinstance(raw, dict):
+            continue
+
+        raw_id = normalize_text(raw.get("id"))
+        if not raw_id:
+            continue
+
+        locations = []
+        for location in raw.get("locations") or []:
+            if isinstance(location, dict):
+                location_name = normalize_text(location.get("name"))
+                if location_name:
+                    locations.append(location_name)
+        location_text = ", ".join(locations)
+        if location_text and "wien" not in location_text.lower():
+            continue
+
+        company = raw.get("company") or {}
+        jobs.append(
+            finalize_job(
+                {
+                    "id": f"karriere_at:{raw_id}",
+                    "source": "karriere_at",
+                    "title": raw.get("title"),
+                    "company": company.get("name") if isinstance(company, dict) else None,
+                    "location": location_text or "Wien",
+                    "url": _absolute_url("https://www.karriere.at/", raw.get("link") or f"/jobs/{raw_id}"),
+                    "salary": raw.get("salary"),
+                    "employment_type": raw.get("employmentTypes"),
+                    "published_at": raw.get("date"),
+                    "snippet": raw.get("snippet") or raw.get("summary"),
+                    "first_seen": fetched_at,
+                },
+                fetched_at,
+            )
+        )
+
+    return dedupe_jobs(jobs)
+
+
+def _karriere_load_more_url(page: int) -> str:
+    params = list(KARRIERE_LOAD_MORE_PARAMS) + [("page", str(page))]
+    return f"{KARRIERE_LOAD_MORE_BASE_URL}?{urllib.parse.urlencode(params)}"
+
+
+def fetch_karriere_at_jobs() -> FetchResult:
+    warnings: List[str] = []
+    all_jobs: List[Dict[str, Any]] = []
+    fetched_at = utc_now()
+
+    html, err = fetch_url(KARRIERE_SEARCH_URL)
+    if err:
+        return [], [f"karriere.at error: {err}"]
+    if not html:
+        return [], ["karriere.at returned an empty response"]
+
+    state, state_error = _extract_karriere_initial_state(html)
+    if state_error or not state:
+        return [], [state_error or "karriere.at state missing"]
+
+    all_jobs.extend(parse_karriere_jobs_from_state(state, fetched_at))
+    load_more = ((state.get("jobsSearchList") or {}).get("loadMoreJobsButton") or {})
+    next_page = load_more.get("next") if load_more.get("active") else None
+
+    pages_seen = 1
+    while next_page and pages_seen < MAX_PAGES_PER_SOURCE:
+        try:
+            page_number = int(next_page)
+        except (TypeError, ValueError):
+            warnings.append(f"karriere.at invalid next page marker: {next_page!r}")
+            break
+
+        data, page_err = fetch_url(
+            _karriere_load_more_url(page_number),
+            is_json=True,
+            accept="application/json,text/plain,*/*",
+            headers={
+                "Referer": KARRIERE_SEARCH_URL,
+                "X-Requested-With": "XMLHttpRequest",
+            },
+        )
+        if page_err:
+            warnings.append(f"karriere.at page {page_number} error: {page_err}")
+            break
+
+        page_state = data.get("data") if isinstance(data, dict) and isinstance(data.get("data"), dict) else data
+        if not isinstance(page_state, dict):
+            warnings.append(f"karriere.at page {page_number} returned an unexpected payload")
+            break
+
+        page_jobs = parse_karriere_jobs_from_state(page_state, fetched_at)
+        if not page_jobs:
+            warnings.append(f"karriere.at page {page_number} contained no parseable jobs")
+            break
+
+        before_count = len(dedupe_jobs(all_jobs))
+        all_jobs.extend(page_jobs)
+        all_jobs = dedupe_jobs(all_jobs)
+        after_count = len(all_jobs)
+
+        load_more = ((page_state.get("jobsSearchList") or {}).get("loadMoreJobsButton") or {})
+        next_page = load_more.get("next") if load_more.get("active") else None
+        pages_seen += 1
+
+        if after_count == before_count:
+            warnings.append(f"karriere.at page {page_number} did not add new job IDs")
+            break
+
+    return dedupe_jobs(all_jobs), warnings
+
+
 def build_source_registry(fetchers: Optional[Dict[str, Fetcher]] = None) -> Dict[str, SourceConfig]:
     registry = {
         "jusjobs": SourceConfig("jusjobs", "JusJobs", fetch_jusjobs_jobs, True),
@@ -783,6 +929,7 @@ def build_source_registry(fetchers: Optional[Dict[str, Fetcher]] = None) -> Dict
         "uniqa": SourceConfig("uniqa", "UNIQA", fetch_uniqa_jobs, True),
         "lawfinder": SourceConfig("lawfinder", "LawFinder", fetch_lawfinder_jobs, True),
         "derstandard": SourceConfig("derstandard", "DER STANDARD Jobs", fetch_derstandard_jobs, True),
+        "karriere_at": SourceConfig("karriere_at", "karriere.at", fetch_karriere_at_jobs, True),
     }
     if fetchers:
         for name, fetcher in fetchers.items():
@@ -925,7 +1072,31 @@ def run_job_tracker(
         if old_job:
             job["first_seen"] = old_job.get("first_seen") or job.get("first_seen") or timestamp
 
-    new_jobs = [] if first_run else compare_new_jobs(old_jobs, all_jobs)
+    if first_run:
+        new_jobs = []
+    else:
+        known_sources = {
+            normalize_text(source_name)
+            for source_name in old_sources.keys()
+            if normalize_text(source_name)
+        }
+        known_sources.update(
+            normalize_text(job.get("source"))
+            for job in old_jobs
+            if normalize_text(job.get("source"))
+        )
+        detected_new_jobs = compare_new_jobs(old_jobs, all_jobs)
+        new_jobs = [
+            job
+            for job in detected_new_jobs
+            if normalize_text(job.get("source")) in known_sources
+        ]
+        suppressed_new_source_jobs = len(detected_new_jobs) - len(new_jobs)
+        if suppressed_new_source_jobs:
+            print(
+                "[jobs] Baseline only for newly added source(s): "
+                f"{suppressed_new_source_jobs} existing job(s) not alerted"
+            )
     snapshot = build_snapshot_data(all_jobs, sources_status, timestamp)
 
     if dry_run:

@@ -12,12 +12,14 @@ from job_tracker import (  # noqa: E402
     filter_erste_bank_jobs,
     job_fingerprint,
     normalize_text,
+    parse_karriere_jobs_from_state,
     parse_jusjobs_jobs_from_html,
     parse_uniqa_rss_jobs,
     run_job_tracker,
     save_snapshot,
     slugify,
 )
+import notifier  # noqa: E402
 
 
 def assert_equal(actual, expected, label):
@@ -128,6 +130,43 @@ def test_uniqa_rss_filter():
     assert_equal(jobs[0]["id"], "uniqa:999", "uniqa id")
 
 
+def test_karriere_at_state_filter():
+    state = {
+        "jobsSearchList": {
+            "activeItems": {
+                "items": [
+                    {
+                        "jobsItem": {
+                            "id": "10021048",
+                            "link": "https://www.karriere.at/jobs/10021048",
+                            "title": "Jurist*in",
+                            "company": {"name": "Test AG"},
+                            "locations": [{"name": "Wien"}],
+                            "employmentTypes": "Vollzeit",
+                            "salary": "ab 43.400 € jährlich",
+                            "date": "Heute veröffentlicht",
+                            "snippet": "Legal role",
+                        }
+                    },
+                    {
+                        "jobsItem": {
+                            "id": "999",
+                            "link": "https://www.karriere.at/jobs/999",
+                            "title": "Jurist*in Salzburg",
+                            "company": {"name": "Andere AG"},
+                            "locations": [{"name": "Salzburg"}],
+                        }
+                    },
+                ]
+            }
+        }
+    }
+    jobs = parse_karriere_jobs_from_state(state, "2026-06-18T00:00:00Z")
+    assert_equal(len(jobs), 1, "karriere.at wien-only count")
+    assert_equal(jobs[0]["id"], "karriere_at:10021048", "karriere.at id")
+    assert_equal(jobs[0]["salary"], "ab 43.400 € jährlich", "karriere.at salary")
+
+
 def test_compare_new_jobs():
     old_jobs = [sample_job("1"), sample_job("2")]
     current_jobs = [sample_job("1"), sample_job("2"), sample_job("3")]
@@ -183,14 +222,70 @@ def test_run_job_tracker_snapshot_flow():
         assert_equal(len(snapshot["data"]["jobs"]), 2, "snapshot updated in temp dir")
 
 
+def test_new_source_is_baselined_without_alert():
+    with tempfile.TemporaryDirectory() as tmp:
+        old_snapshot = {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "data": {
+                "schema_version": 2,
+                "sources": {"jusjobs": {"label": "JusJobs", "count": 1}},
+                "jobs": [sample_job("1")],
+            },
+        }
+        save_snapshot(JOB_SNAPSHOT_NAME, old_snapshot, tmp)
+        fetchers = {
+            "jusjobs": lambda: ([sample_job("1"), sample_job("2")], []),
+            "karriere_at": lambda: ([sample_job("k1", source="karriere_at")], []),
+        }
+        result = run_job_tracker(
+            source_names=["jusjobs", "karriere_at"],
+            snapshot_dir=tmp,
+            dry_run=False,
+            notify=False,
+            fetchers=fetchers,
+        )
+        assert_equal([job["id"] for job in result.new_jobs], ["jusjobs:2"], "new source baseline alert suppression")
+        assert_true(
+            any(job["source"] == "karriere_at" for job in result.all_jobs),
+            "new source persisted to snapshot",
+        )
+
+
+def test_discord_notifier_sends_all_jobs_in_batches():
+    payloads = []
+    original_post = notifier._post_discord_payload
+
+    def fake_post(_webhook_url, payload):
+        payloads.append(payload)
+        return True
+
+    try:
+        notifier._post_discord_payload = fake_post
+        jobs = [sample_job(str(index)) for index in range(13)]
+        ok = notifier.send_new_jobs_notification("https://example.invalid/webhook", jobs)
+    finally:
+        notifier._post_discord_payload = original_post
+
+    assert_true(ok, "notifier returns success")
+    assert_equal(len(payloads), 2, "notifier batch count")
+    field_count = sum(len(payload["embeds"][0]["fields"]) for payload in payloads)
+    assert_equal(field_count, 13, "all jobs included in discord payloads")
+    descriptions = "\n".join(payload["embeds"][0]["description"] for payload in payloads)
+    assert_true("1-10 von 13" in descriptions, "first batch range")
+    assert_true("11-13 von 13" in descriptions, "second batch range")
+
+
 def run_tests():
     tests = [
         test_normalization,
         test_jusjobs_parser,
         test_erste_bank_filter,
         test_uniqa_rss_filter,
+        test_karriere_at_state_filter,
         test_compare_new_jobs,
         test_run_job_tracker_snapshot_flow,
+        test_new_source_is_baselined_without_alert,
+        test_discord_notifier_sends_all_jobs_in_batches,
     ]
     for test in tests:
         test()

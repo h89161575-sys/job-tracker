@@ -9,6 +9,7 @@ Tracks selected legal job searches and sends Discord notifications when new jobs
 - UNIQA: Jurist + Wien RSS search
 - LawFinder: Wien with company type filters
 - DER STANDARD Jobs: Wien + Jurist + full time + home office + legal category
+- karriere.at: JUS + Wien + Rechtswesen + Vollzeit + Homeoffice + salary filter
 
 ## GitHub setup
 
