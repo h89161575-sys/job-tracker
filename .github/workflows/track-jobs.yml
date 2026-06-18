@@ -1,0 +1,44 @@
+name: Track Jobs
+
+on:
+  schedule:
+    - cron: '7/15 * * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - '.github/workflows/**'
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Run job tracker
+        env:
+          JOB_DISCORD_WEBHOOK_URL: ${{ secrets.JOB_DISCORD_WEBHOOK_URL }}
+          JOB_TRACKER_SOURCES: jusjobs,erste_bank,uniqa,lawfinder,derstandard
+        run: python src/job_tracker.py
+      - name: Commit snapshot updates
+        run: |
+          if [ -n "$(git status --porcelain data/snapshots)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/snapshots
+            git commit -m "Update job tracker snapshots"
+            git push
+          else
+            echo "No snapshot changes."
+          fi
