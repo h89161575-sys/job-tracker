@@ -270,6 +270,126 @@ def dedupe_jobs(jobs: Iterable[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return deduped
 
 
+TITLE_MATCH_STOPWORDS = {
+    "all",
+    "alle",
+    "at",
+    "d",
+    "der",
+    "die",
+    "das",
+    "fuer",
+    "fur",
+    "in",
+    "im",
+    "m",
+    "mit",
+    "schwerpunkt",
+    "teilzeit",
+    "und",
+    "vollzeit",
+    "w",
+    "x",
+}
+
+COMPANY_MATCH_STOPWORDS = {
+    "ag",
+    "aktiengesellschaft",
+    "co",
+    "gesmbh",
+    "gmbh",
+    "group",
+    "holding",
+    "inc",
+    "kg",
+    "ltd",
+    "mbh",
+    "og",
+}
+
+
+def _tokenize_match_text(text: Any, stopwords: set[str]) -> List[str]:
+    tokens = [
+        token
+        for token in slugify(normalize_text(text)).split("-")
+        if len(token) > 1 and token not in stopwords
+    ]
+    return tokens
+
+
+def _company_match_key(company: Any) -> str:
+    return "-".join(_tokenize_match_text(company, COMPANY_MATCH_STOPWORDS))
+
+
+def _location_match_key(location: Any) -> str:
+    location_slug = slugify(normalize_text(location))
+    if "wien" in location_slug.split("-") or location_slug.endswith("-wien") or "wien" in location_slug:
+        return "wien"
+    return location_slug
+
+
+def _title_tokens(job: Dict[str, Any]) -> set[str]:
+    return set(_tokenize_match_text(job.get("title"), TITLE_MATCH_STOPWORDS))
+
+
+def _title_similarity(left: Dict[str, Any], right: Dict[str, Any]) -> float:
+    left_tokens = _title_tokens(left)
+    right_tokens = _title_tokens(right)
+    if not left_tokens or not right_tokens:
+        return 0.0
+    shared = left_tokens & right_tokens
+    if not shared:
+        return 0.0
+
+    smaller = min(len(left_tokens), len(right_tokens))
+    larger = max(len(left_tokens), len(right_tokens))
+    if len(shared) == smaller and smaller <= 2:
+        return len(shared) / larger
+    return len(shared) / len(left_tokens | right_tokens)
+
+
+def is_cross_source_duplicate(left: Dict[str, Any], right: Dict[str, Any]) -> bool:
+    left_source = normalize_text(left.get("source"))
+    right_source = normalize_text(right.get("source"))
+    if left_source and right_source and left_source == right_source:
+        return False
+
+    left_company = _company_match_key(left.get("company"))
+    right_company = _company_match_key(right.get("company"))
+    if not left_company or left_company != right_company:
+        return False
+
+    left_location = _location_match_key(left.get("location"))
+    right_location = _location_match_key(right.get("location"))
+    if left_location and right_location and left_location != right_location:
+        return False
+
+    return _title_similarity(left, right) >= 0.72
+
+
+def find_cross_source_duplicate(
+    job: Dict[str, Any],
+    candidates: Iterable[Dict[str, Any]],
+) -> Optional[Dict[str, Any]]:
+    for candidate in candidates:
+        if not isinstance(candidate, dict):
+            continue
+        if is_cross_source_duplicate(job, candidate):
+            return candidate
+    return None
+
+
+def dedupe_cross_source_jobs(jobs: Iterable[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    deduped: List[Dict[str, Any]] = []
+    for job in jobs:
+        if not isinstance(job, dict):
+            continue
+        if find_cross_source_duplicate(job, deduped):
+            continue
+        deduped.append(job)
+    return deduped
+
+
 def _ssl_context() -> Optional[ssl.SSLContext]:
     if os.environ.get("JOB_TRACKER_ALLOW_INSECURE_SSL") == "1":
         return ssl._create_unverified_context()
@@ -1061,7 +1181,7 @@ def run_job_tracker(
         }
         print(f"[jobs] {source.label}: {len(normalized_jobs)} job(s)")
 
-    all_jobs = dedupe_jobs(all_jobs)
+    all_jobs = dedupe_cross_source_jobs(dedupe_jobs(all_jobs))
     old_by_id = {
         normalize_text(job.get("id")): job
         for job in old_jobs
@@ -1069,6 +1189,8 @@ def run_job_tracker(
     }
     for job in all_jobs:
         old_job = old_by_id.get(normalize_text(job.get("id")))
+        if not old_job:
+            old_job = find_cross_source_duplicate(job, old_jobs)
         if old_job:
             job["first_seen"] = old_job.get("first_seen") or job.get("first_seen") or timestamp
 
@@ -1085,7 +1207,11 @@ def run_job_tracker(
             for job in old_jobs
             if normalize_text(job.get("source"))
         )
-        detected_new_jobs = compare_new_jobs(old_jobs, all_jobs)
+        detected_new_jobs = [
+            job
+            for job in compare_new_jobs(old_jobs, all_jobs)
+            if not find_cross_source_duplicate(job, old_jobs)
+        ]
         new_jobs = [
             job
             for job in detected_new_jobs

@@ -9,7 +9,9 @@ sys.path.insert(0, os.path.dirname(__file__))
 from job_tracker import (  # noqa: E402
     JOB_SNAPSHOT_NAME,
     compare_new_jobs,
+    dedupe_cross_source_jobs,
     filter_erste_bank_jobs,
+    find_cross_source_duplicate,
     job_fingerprint,
     normalize_text,
     parse_karriere_jobs_from_state,
@@ -174,6 +176,37 @@ def test_compare_new_jobs():
     assert_equal([job["id"] for job in new_jobs], ["jusjobs:3"], "new job ids")
 
 
+def test_cross_source_dedupe_same_position():
+    derstandard_job = {
+        "id": "derstandard:100",
+        "source": "derstandard",
+        "title": "Legal Counsel Arbeitsrecht (w/m/d)",
+        "company": "Test GmbH",
+        "location": "Wien",
+        "url": "https://jobs.derstandard.at/job/100",
+    }
+    lawfinder_job = {
+        "id": "lawfinder:200",
+        "source": "lawfinder",
+        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht",
+        "company": "Test GmbH",
+        "location": "Wien",
+        "url": "https://www.lawfinder.at/jobs/200",
+    }
+    different_role = {
+        "id": "lawfinder:201",
+        "source": "lawfinder",
+        "title": "Legal Counsel Datenschutz",
+        "company": "Test GmbH",
+        "location": "Wien",
+        "url": "https://www.lawfinder.at/jobs/201",
+    }
+
+    deduped = dedupe_cross_source_jobs([derstandard_job, lawfinder_job, different_role])
+    assert_equal([job["id"] for job in deduped], ["derstandard:100", "lawfinder:201"], "cross-source dedupe")
+    assert_true(find_cross_source_duplicate(lawfinder_job, [derstandard_job]), "cross-source duplicate lookup")
+
+
 def test_run_job_tracker_snapshot_flow():
     with tempfile.TemporaryDirectory() as tmp:
         fetchers = {"jusjobs": lambda: ([sample_job("1")], [])}
@@ -222,6 +255,53 @@ def test_run_job_tracker_snapshot_flow():
         assert_equal(len(snapshot["data"]["jobs"]), 2, "snapshot updated in temp dir")
 
 
+def test_cross_source_duplicate_old_snapshot_does_not_alert():
+    with tempfile.TemporaryDirectory() as tmp:
+        old_snapshot = {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "data": {
+                "schema_version": 2,
+                "sources": {"derstandard": {"label": "DER STANDARD Jobs", "count": 1}},
+                "jobs": [
+                    {
+                        "id": "derstandard:100",
+                        "source": "derstandard",
+                        "title": "Legal Counsel Arbeitsrecht (w/m/d)",
+                        "company": "Test GmbH",
+                        "location": "Wien",
+                        "url": "https://jobs.derstandard.at/job/100",
+                        "first_seen": "2026-06-18T00:00:00Z",
+                    }
+                ],
+            },
+        }
+        save_snapshot(JOB_SNAPSHOT_NAME, old_snapshot, tmp)
+        fetchers = {
+            "lawfinder": lambda: (
+                [
+                    {
+                        "id": "lawfinder:200",
+                        "source": "lawfinder",
+                        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht",
+                        "company": "Test GmbH",
+                        "location": "Wien",
+                        "url": "https://www.lawfinder.at/jobs/200",
+                    }
+                ],
+                [],
+            )
+        }
+        result = run_job_tracker(
+            source_names=["lawfinder"],
+            snapshot_dir=tmp,
+            dry_run=False,
+            notify=False,
+            fetchers=fetchers,
+        )
+        assert_equal(result.new_jobs, [], "cross-source duplicate suppresses alert")
+        assert_equal(result.all_jobs[0]["first_seen"], "2026-06-18T00:00:00Z", "cross-source first_seen preserved")
+
+
 def test_new_source_is_baselined_without_alert():
     with tempfile.TemporaryDirectory() as tmp:
         old_snapshot = {
@@ -235,7 +315,7 @@ def test_new_source_is_baselined_without_alert():
         save_snapshot(JOB_SNAPSHOT_NAME, old_snapshot, tmp)
         fetchers = {
             "jusjobs": lambda: ([sample_job("1"), sample_job("2")], []),
-            "karriere_at": lambda: ([sample_job("k1", source="karriere_at")], []),
+            "karriere_at": lambda: ([sample_job("k1", title="Legal Counsel Datenschutz", source="karriere_at")], []),
         }
         result = run_job_tracker(
             source_names=["jusjobs", "karriere_at"],
@@ -283,7 +363,9 @@ def run_tests():
         test_uniqa_rss_filter,
         test_karriere_at_state_filter,
         test_compare_new_jobs,
+        test_cross_source_dedupe_same_position,
         test_run_job_tracker_snapshot_flow,
+        test_cross_source_duplicate_old_snapshot_does_not_alert,
         test_new_source_is_baselined_without_alert,
         test_discord_notifier_sends_all_jobs_in_batches,
     ]
