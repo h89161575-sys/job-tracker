@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '7/15 * * * *'
   workflow_dispatch:
+    inputs:
+      test_discord:
+        description: 'Send a Discord test notification instead of running the tracker'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
   push:
     branches:
       - main
@@ -27,11 +36,18 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run job tracker
+        if: ${{ github.event.inputs.test_discord != 'true' }}
         env:
           JOB_DISCORD_WEBHOOK_URL: ${{ secrets.JOB_DISCORD_WEBHOOK_URL }}
           JOB_TRACKER_SOURCES: jusjobs,erste_bank,uniqa,lawfinder,derstandard
         run: python src/job_tracker.py
+      - name: Send Discord test notification
+        if: ${{ github.event.inputs.test_discord == 'true' }}
+        env:
+          JOB_DISCORD_WEBHOOK_URL: ${{ secrets.JOB_DISCORD_WEBHOOK_URL }}
+        run: python src/job_tracker.py --test-notify
       - name: Commit snapshot updates
+        if: ${{ github.event.inputs.test_discord != 'true' }}
         run: |
           if [ -n "$(git status --porcelain data/snapshots)" ]; then
             git config user.name "github-actions[bot]"

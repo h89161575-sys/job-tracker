@@ -18,6 +18,9 @@ def send_new_jobs_notification(webhook_url: str, new_jobs: List[Dict[str, Any]])
         "jusjobs": "JusJobs",
         "erste_bank": "Erste Bank / Sparkasse",
         "uniqa": "UNIQA",
+        "lawfinder": "LawFinder",
+        "derstandard": "DER STANDARD Jobs",
+        "test": "Webhook-Test",
     }
     fields = []
     for job in new_jobs[:10]:
