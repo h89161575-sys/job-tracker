@@ -1,43 +1,43 @@
 {
-  "timestamp": "2026-06-19T16:26:24.747890Z",
+  "timestamp": "2026-06-19T18:20:29.125186Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-06-19T16:26:24.747890Z",
+        "last_success": "2026-06-19T18:20:29.125186Z",
         "last_error": null,
         "count": 20
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-06-19T16:26:24.747890Z",
+        "last_success": "2026-06-19T18:20:29.125186Z",
         "last_error": null,
         "count": 0
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-06-19T16:26:24.747890Z",
+        "last_success": "2026-06-19T18:20:29.125186Z",
         "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-06-19T16:26:24.747890Z",
+        "last_success": "2026-06-19T18:20:29.125186Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-06-19T16:26:24.747890Z",
+        "last_success": "2026-06-19T18:20:29.125186Z",
         "last_error": null,
         "count": 8
       },
       "karriere_at": {
         "label": "karriere.at",
         "last_success": "2026-06-19T16:26:24.747890Z",
-        "last_error": null,
-        "count": 61
+        "last_error": "karriere.at page 2 error: TimeoutError: The read operation timed out",
+        "count": 58
       }
     },
     "jobs": [
@@ -256,11 +256,11 @@
         "company": "Bank Austria - Member of Unicredit",
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/785065",
-        "salary": "€ 3.071 bis € 3.071",
+        "salary": "€ 3.071",
         "employment_type": "Vollzeit",
         "snippet": "Benefits: Firmenlaptop und Firmenhandy Zeitliche Flexibilität Restaurant- oder Lebensmittelgutscheinkarte Sozialzulagen Öffi-Ticket Jobrad Kindergarten Sonneninsel am Austria Camp",
         "first_seen": "2026-06-18T11:58:20.988656Z",
-        "fingerprint": "6ac573999034143717ad47c2df87ea0556457eef846d2a5f2010b37b47edd076"
+        "fingerprint": "16b88ee7eaa600fbcf64843cee478e717668160eece3b964aec87246c99282cf"
       },
       {
         "id": "jusjobs:1783473",
