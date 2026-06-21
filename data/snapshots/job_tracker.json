@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-06-21T10:43:44.869267Z",
+  "timestamp": "2026-06-21T12:58:44.122166Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-06-21T10:43:44.869267Z",
+        "last_success": "2026-06-21T12:58:44.122166Z",
         "last_error": null,
         "count": 21
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-06-21T10:43:44.869267Z",
+        "last_success": "2026-06-21T12:58:44.122166Z",
         "last_error": null,
         "count": 0
       },
       "uniqa": {
         "label": "UNIQA",
         "last_success": "2026-06-21T10:43:44.869267Z",
-        "last_error": null,
+        "last_error": "UNIQA RSS error: URL error: timed out",
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-06-21T10:43:44.869267Z",
+        "last_success": "2026-06-21T12:58:44.122166Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-06-21T10:43:44.869267Z",
+        "last_success": "2026-06-21T12:58:44.122166Z",
         "last_error": null,
         "count": 8
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-06-21T10:43:44.869267Z",
+        "last_success": "2026-06-21T12:58:44.122166Z",
         "last_error": null,
         "count": 59
       }
@@ -395,20 +395,6 @@
         "fingerprint": "cf6e2bfb4f03d772ef56b863346615c02f097031a96ff672087707b2fa6c92e1"
       },
       {
-        "id": "karriere_at:7792946",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) Corporate / M&A",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "1010 Wien",
-        "url": "https://www.karriere.at/jobs/7792946",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
-        "snippet": "Ihre Aufgaben: Laufende Rechtsberatung unserer nationalen und internationalen Mandanten, Beratung von Start-up Unternehmen und deren Investoren, Venture Capital-Beratung, Umfassende Betreuung von Private Clients und Privatstiftungen...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "cd0f34a6ab70a15c0bd758614676f055fe2bb8a6893762e4037294785ca2e204"
-      },
-      {
         "id": "karriere_at:7821674",
         "source": "karriere_at",
         "title": "Legal Counsel (m/w/d) - befristeter Karenzersatz",
@@ -421,6 +407,20 @@
         "snippet": "Ihre Aufgaben: Rechtsberatung: (Energie-)Regulatorische Fragestellungen bearbeiten (Fokus EU-Recht) Rechtliche Unterstützung: Networkcodes überarbeiten und auf Unternehmensebene implementieren,...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "ed6ab8eb42708259ee2d689a0a16dfeb17393c5d391fdfbf2cbf54fa3b6cb51e"
+      },
+      {
+        "id": "karriere_at:7792946",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) Corporate / M&A",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "1010 Wien",
+        "url": "https://www.karriere.at/jobs/7792946",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Ihre Aufgaben: Laufende Rechtsberatung unserer nationalen und internationalen Mandanten, Beratung von Start-up Unternehmen und deren Investoren, Venture Capital-Beratung, Umfassende Betreuung von Private Clients und Privatstiftungen...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "cd0f34a6ab70a15c0bd758614676f055fe2bb8a6893762e4037294785ca2e204"
       },
       {
         "id": "karriere_at:10022806",
@@ -473,10 +473,10 @@
         "url": "https://www.karriere.at/jobs/10023528",
         "salary": "77.000 € – 83.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T14:42:58.393788Z",
-        "fingerprint": "6a1f78b0b278504a43e0254dba2985c9f5d71ff6d5ed330a5b9256dc3fd30018"
+        "fingerprint": "679ceb0e815471d944110ac935f48bdcc9534cba701466e071ccb1baf481ef80"
       },
       {
         "id": "karriere_at:10021048",
@@ -1131,10 +1131,10 @@
         "url": "https://www.karriere.at/jobs/7826204",
         "salary": "ab 5.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "881d18c150cdbeb659d745d32d0304c7a7c6c8c76f4129d51901a59c0a8d064a"
+        "fingerprint": "1a63821fe13412c111ddd162f65e2786a406a4595ac5b97949afaa65838867ee"
       },
       {
         "id": "karriere_at:7663272",
