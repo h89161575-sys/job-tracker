@@ -1,43 +1,43 @@
 {
-  "timestamp": "2026-06-24T09:49:19.660386Z",
+  "timestamp": "2026-06-24T12:13:10.652307Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-06-24T09:49:19.660386Z",
+        "last_success": "2026-06-24T12:13:10.652307Z",
         "last_error": null,
         "count": 20
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-06-24T09:49:19.660386Z",
+        "last_success": "2026-06-24T12:13:10.652307Z",
         "last_error": null,
         "count": 0
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-06-24T09:49:19.660386Z",
+        "last_success": "2026-06-24T12:13:10.652307Z",
         "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-06-24T09:49:19.660386Z",
+        "last_success": "2026-06-24T12:13:10.652307Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-06-24T09:49:19.660386Z",
+        "last_success": "2026-06-24T12:13:10.652307Z",
         "last_error": null,
-        "count": 9
+        "count": 8
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-06-24T09:49:19.660386Z",
+        "last_success": "2026-06-24T12:13:10.652307Z",
         "last_error": null,
-        "count": 61
+        "count": 60
       }
     },
     "jobs": [
@@ -120,19 +120,6 @@
         "fingerprint": "73f53b61459378bac5ce7f6a65a6dcd8930ac1905822f1decf1c46c29ecad0b8"
       },
       {
-        "id": "jusjobs:1799425",
-        "source": "jusjobs",
-        "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
-        "company": "Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1799425",
-        "salary": "€ 3.838",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie AWG-Eva",
-        "first_seen": "2026-06-23T21:20:48.227418Z",
-        "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
-      },
-      {
         "id": "jusjobs:1799423",
         "source": "jusjobs",
         "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
@@ -144,6 +131,19 @@
         "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht, mi",
         "first_seen": "2026-06-23T21:20:48.227418Z",
         "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
+      },
+      {
+        "id": "jusjobs:1799425",
+        "source": "jusjobs",
+        "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
+        "company": "Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1799425",
+        "salary": "€ 3.838",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie AWG-Eva",
+        "first_seen": "2026-06-23T21:20:48.227418Z",
+        "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
       },
       {
         "id": "jusjobs:1799391",
@@ -300,16 +300,6 @@
         "snippet": "Unbefristete Vollzeitstelle als Staatsanwältin beziehungsweise Staatsanwalt im Sprengel der Oberstaatsanwaltschaft Wien mit Monatsentgelt von 5.644 Euro brutto.",
         "first_seen": "2026-06-20T14:39:46.339366Z",
         "fingerprint": "6f509c7541aeae4d59de435ab5ea1798abe0d0cafa588ca7f8d2598e1e2ad636"
-      },
-      {
-        "id": "derstandard:a4e10e16-0a16-3623-a095-f1cc0ecc4ede",
-        "source": "derstandard",
-        "title": "Jurist:in in der Abteilung Recht, Compliance und Datenschutz (m/w/x)",
-        "company": "Österreichischer Wissenschaftsfonds FWF",
-        "location": "1010 Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/a4e10e16-0a16-3623-a095-f1cc0ecc4ede",
-        "first_seen": "2026-06-18T11:48:53.539163Z",
-        "fingerprint": "824e0e58ef53b8259860efddb009ebe7c0621f64ed1ed05792d11e65e637667e"
       },
       {
         "id": "derstandard:32cbb839-aa9e-3566-8bd9-f869113832bf",
@@ -730,20 +720,6 @@
         "snippet": "Jetzt bewerben Jurist:in Gesellschafts- und Vertragsrecht ÖBB-Personenverkehr AG Wien-Favoriten, Wien, 1100, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25499 Wir möchten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "fc6f51f819411775f62c65f0bee5c16eaca3993db5cf9e87638de2ea4ebbfe90"
-      },
-      {
-        "id": "karriere_at:7808420",
-        "source": "karriere_at",
-        "title": "Jurist:in in der Abteilung Recht, Compliance und Datenschutz (m/w/x)",
-        "company": "FWF Fonds zur Förderung der wissenschaftlichen Forschung",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/7808420",
-        "salary": "ab 3.900 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": "Der Wissenschaftsfonds FWF ist Österreichs führende Organisation zur themenoffenen Förderung der Grundlagenforschung sowie der künstlerisch-wissenschaftlichen Forschung...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "2351e75be220f13b7347e85daf176ab92251ceb1c6fbc76fcba9c7a19cdf0fde"
       },
       {
         "id": "karriere_at:7815443",
