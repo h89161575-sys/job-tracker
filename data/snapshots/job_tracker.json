@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-06-25T15:57:28.935531Z",
+  "timestamp": "2026-06-25T18:23:09.911781Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-06-25T15:57:28.935531Z",
+        "last_success": "2026-06-25T18:23:09.911781Z",
         "last_error": null,
-        "count": 18
+        "count": 19
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-06-25T15:57:28.935531Z",
+        "last_success": "2026-06-25T18:23:09.911781Z",
         "last_error": null,
         "count": 0
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-06-25T13:13:34.987333Z",
-        "last_error": "UNIQA RSS error: URL error: timed out",
+        "last_success": "2026-06-25T18:23:09.911781Z",
+        "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-06-25T15:57:28.935531Z",
+        "last_success": "2026-06-25T18:23:09.911781Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-06-25T15:57:28.935531Z",
+        "last_success": "2026-06-25T18:23:09.911781Z",
         "last_error": null,
         "count": 8
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-06-25T15:57:28.935531Z",
+        "last_success": "2026-06-25T18:23:09.911781Z",
         "last_error": null,
         "count": 60
       }
@@ -133,6 +133,19 @@
         "fingerprint": "96b37a9a3e978878748b97cb7727612433b1709cfc1e954df7d0b616f973f1a3"
       },
       {
+        "id": "jusjobs:1625057",
+        "source": "jusjobs",
+        "title": "Legal Counsel (m/w/d), Graz und Wien, (AT)",
+        "company": "Neuroth AG",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1625057",
+        "salary": "€ 3.800",
+        "employment_type": "Vollzeit",
+        "snippet": "Aufgaben: Prüfung, Erstellung und Verhandlung von Verträgen Beratung der Fachbereiche sowie Tochtergesellschaften in allen rechtlichen Belangen Corporate Housekeeping und Unterstüt",
+        "first_seen": "2026-06-18T11:58:20.988656Z",
+        "fingerprint": "6722a712cf9a96444eb5005e9f01af006e7df98166a01ee8fc9475ec0399f3a8"
+      },
+      {
         "id": "jusjobs:1235995",
         "source": "jusjobs",
         "title": "RECHTSANWALTSANWÄRTER*IN Vollzeit (m/w/x) und/oder JURIST*IN Vollzeit/Teilzeit (m/w/x)",
@@ -172,19 +185,6 @@
         "fingerprint": "6f509c7541aeae4d59de435ab5ea1798abe0d0cafa588ca7f8d2598e1e2ad636"
       },
       {
-        "id": "jusjobs:1799423",
-        "source": "jusjobs",
-        "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
-        "company": "Bundesministerium für Landesverteidigung und Sport",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1799423",
-        "salary": "€ 3.519",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht, mi",
-        "first_seen": "2026-06-23T21:20:48.227418Z",
-        "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
-      },
-      {
         "id": "jusjobs:1799425",
         "source": "jusjobs",
         "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
@@ -196,6 +196,19 @@
         "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie AWG-Eva",
         "first_seen": "2026-06-23T21:20:48.227418Z",
         "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
+      },
+      {
+        "id": "jusjobs:1799423",
+        "source": "jusjobs",
+        "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
+        "company": "Bundesministerium für Landesverteidigung und Sport",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1799423",
+        "salary": "€ 3.519",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht, mi",
+        "first_seen": "2026-06-23T21:20:48.227418Z",
+        "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
       },
       {
         "id": "jusjobs:1799391",
@@ -257,10 +270,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1765222",
         "salary": "€ 3.500",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Schadenreferent:in / Jurist:in Haftpflichtschaden bei UNIQA in Salzburg oder Wien mit Fokus auf Versicherungsrecht, Haftungsprüfung und Schadenregulierung.",
         "first_seen": "2026-06-18T11:58:20.988656Z",
-        "fingerprint": "1f1c02f0e1e771c28585c9098e21ac59f679925e65bd22681c0e93e666300513"
+        "fingerprint": "38cbf85f4c3370c5e6e1b1660ed6a3989104a1f19b4dcdd632005325dc0c074f"
       },
       {
         "id": "jusjobs:1787243",
@@ -270,10 +283,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1787243",
         "salary": "€ 4.800",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Vollzeitstelle als Jurist*in mit Schwerpunkt Vertragsrecht bei ISS Österreich in Wien mit Homeoffice-Möglichkeit und Bruttomonatsgehalt ab 4.800 Euro.",
         "first_seen": "2026-06-18T11:58:20.988656Z",
-        "fingerprint": "a5480639a059110be188f49fa0a53f2aa6afe8a7ae85b1be44d786bd01a09289"
+        "fingerprint": "f10ef2c6110f80e823cc8bfdfcf7557aa3287f23087c0b924717029fab7a9b33"
       },
       {
         "id": "derstandard:32cbb839-aa9e-3566-8bd9-f869113832bf",
@@ -346,20 +359,6 @@
         "fingerprint": "cf6e2bfb4f03d772ef56b863346615c02f097031a96ff672087707b2fa6c92e1"
       },
       {
-        "id": "karriere_at:10021048",
-        "source": "karriere_at",
-        "title": "Jurist*in",
-        "company": "Österreichische Galerie Belvedere",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10021048",
-        "salary": "ab 43.400 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "c8349eec7589b4d545c8bd45c776def8a349d22b072adfd0ead37bc0080a12bc"
-      },
-      {
         "id": "karriere_at:7825238",
         "source": "karriere_at",
         "title": "Juristin / Jurist (m/w/d)",
@@ -372,6 +371,20 @@
         "snippet": "Juristin / Jurist (m/w/d) Wien Vollzeit Wir sind die NÖVOG. Mit unseren sechs Bahnen und zwei Seilbahnen, unseren regionalen Busangeboten und bedarfsgerechten Mobilitätskonzepten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "accf600f87988dc7f2d2222993ae2739f629a7cebc951125e12e284e0974334a"
+      },
+      {
+        "id": "karriere_at:10021048",
+        "source": "karriere_at",
+        "title": "Jurist*in",
+        "company": "Österreichische Galerie Belvedere",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10021048",
+        "salary": "ab 43.400 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "c8349eec7589b4d545c8bd45c776def8a349d22b072adfd0ead37bc0080a12bc"
       },
       {
         "id": "karriere_at:10022360",
@@ -526,20 +539,6 @@
         "snippet": "Tolles Team sucht tolle:n Kolleg:in. Unser Auftraggeber ist ein international agierendes Unternehmen der Finanzdienstleistungsbranche mit Sitz in Wien. Menschen mit wachem und wendigem...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "09322ae15ce5a9115c47f83980e090abbd1444bd63de4f72b6d2ba105bd95a50"
-      },
-      {
-        "id": "karriere_at:7822166",
-        "source": "karriere_at",
-        "title": "Legal Counsel (m/w/d), Graz und Wien,",
-        "company": "Neuroth",
-        "location": "Graz, Wien",
-        "url": "https://www.karriere.at/jobs/7822166",
-        "salary": "ab 3.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "17.6.2026",
-        "snippet": "Deine Aufgaben: Prüfung, Erstellung und Verhandlung von Verträgen, Beratung der Fachbereiche sowie Tochtergesellschaften in allen rechtlichen Belangen, Corporate Housekeeping und Unterstützung in...",
-        "first_seen": "2026-06-18T11:58:20.988656Z",
-        "fingerprint": "4fefad24eb501717288c2f389288fe49c173fdd2a6ee791b14c69bc771667ac4"
       },
       {
         "id": "karriere_at:7809287",
