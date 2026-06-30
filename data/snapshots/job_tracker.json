@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-06-30T17:20:04.929740Z",
+  "timestamp": "2026-06-30T19:15:01.828188Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-06-30T17:20:04.929740Z",
+        "last_success": "2026-06-30T19:15:01.828188Z",
         "last_error": null,
         "count": 16
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-06-30T17:20:04.929740Z",
+        "last_success": "2026-06-30T19:15:01.828188Z",
         "last_error": null,
         "count": 0
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-06-30T15:17:27.847992Z",
-        "last_error": "UNIQA RSS error: URL error: timed out",
+        "last_success": "2026-06-30T19:15:01.828188Z",
+        "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-06-30T17:20:04.929740Z",
+        "last_success": "2026-06-30T19:15:01.828188Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-06-30T17:20:04.929740Z",
+        "last_success": "2026-06-30T19:15:01.828188Z",
         "last_error": null,
         "count": 8
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-06-30T17:20:04.929740Z",
+        "last_success": "2026-06-30T19:15:01.828188Z",
         "last_error": null,
         "count": 61
       }
@@ -81,6 +81,19 @@
         "fingerprint": "e22c2f28aad48ba93f2a70026490e3e94de88fbf939606420dc0541ff70eab63"
       },
       {
+        "id": "jusjobs:785065",
+        "source": "jusjobs",
+        "title": "Privatkundenberater:in Junior (w/m/d) in Wien - BestStart-Programm",
+        "company": "Bank Austria - Member of Unicredit",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/785065",
+        "salary": "€ 3.071",
+        "employment_type": "Vollzeit",
+        "snippet": "Benefits: Firmenlaptop und Firmenhandy Zeitliche Flexibilität Restaurant- oder Lebensmittelgutscheinkarte Sozialzulagen Öffi-Ticket Kindergarten Sonneninsel am Austria Campus…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "16b88ee7eaa600fbcf64843cee478e717668160eece3b964aec87246c99282cf"
+      },
+      {
         "id": "jusjobs:970720",
         "source": "jusjobs",
         "title": "Mitarbeiter / In (m/w/d) für juristische Tätigkeiten",
@@ -105,6 +118,19 @@
         "snippet": "Aufgaben: Prüfung, Erstellung und Verhandlung von Verträgen Beratung der Fachbereiche sowie Tochtergesellschaften in allen rechtlichen Belangen Corporate Housekeeping und…",
         "first_seen": "2026-06-18T11:58:20.988656Z",
         "fingerprint": "6722a712cf9a96444eb5005e9f01af006e7df98166a01ee8fc9475ec0399f3a8"
+      },
+      {
+        "id": "jusjobs:1802957",
+        "source": "jusjobs",
+        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
+        "company": "Medved & Partner OG",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1802957",
+        "salary": "€ 5.714",
+        "employment_type": "Vollzeit",
+        "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
       },
       {
         "id": "jusjobs:1803129",
@@ -133,19 +159,6 @@
         "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
       },
       {
-        "id": "jusjobs:1802957",
-        "source": "jusjobs",
-        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
-        "company": "Medved & Partner OG",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1802957",
-        "salary": "€ 5.714",
-        "employment_type": "Vollzeit",
-        "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
-      },
-      {
         "id": "jusjobs:1782441",
         "source": "jusjobs",
         "title": "Juristische/r Mitarbeiter/in Rechtsschutzversicherung (mensch*) - (VZ/38,5 Std.)",
@@ -170,19 +183,6 @@
         "snippet": "Aufgaben ▪ Projektbezogene Einbindung in unsere spannenden Mandate ▪ Umfassende juristische Unterstützung unserer Rechtsanwält*innen ▪ Nach einer Einarbeitungsphase…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "605ac7bdec378a7677b2c9e0fe35c16ce1221091386bdf09dd871c262dbd07ac"
-      },
-      {
-        "id": "jusjobs:785065",
-        "source": "jusjobs",
-        "title": "Privatkundenberater:in Junior (w/m/d) in Wien - BestStart-Programm",
-        "company": "Bank Austria - Member of Unicredit",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/785065",
-        "salary": "€ 3.071",
-        "employment_type": "Vollzeit",
-        "snippet": "Benefits: Firmenlaptop und Firmenhandy Zeitliche Flexibilität Restaurant- oder Lebensmittelgutscheinkarte Sozialzulagen Öffi-Ticket Jobrad Kindergarten Sonneninsel am Austria…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "16b88ee7eaa600fbcf64843cee478e717668160eece3b964aec87246c99282cf"
       },
       {
         "id": "jusjobs:1783473",
