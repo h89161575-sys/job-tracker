@@ -66,10 +66,9 @@ KARRIERE_LOAD_MORE_PARAMS = (
     ("salary[]", "10007"),
 )
 STEPSTONE_BASE_URL = "https://www.stepstone.at/"
-STEPSTONE_SEARCH_URL = (
-    "https://www.stepstone.at/jobs/jurist/in-wien?"
-    "whereType=autosuggest&radius=30&page=1&wci=417961&searchOrigin=Resultlist_top-search"
-)
+STEPSTONE_SEARCH_URL = "https://www.stepstone.at/jobs/jurist/in-wien?page=1"
+STEPSTONE_TIMEOUT_SECONDS = 90
+STEPSTONE_FETCH_ATTEMPTS = 2
 
 DEFAULT_SOURCE_NAMES = (
     "jusjobs",
@@ -448,6 +447,7 @@ def fetch_url(
     headers: Optional[Dict[str, str]] = None,
     is_json: bool = False,
     accept: Optional[str] = None,
+    timeout_seconds: int = REQUEST_TIMEOUT_SECONDS,
 ) -> Tuple[Optional[Any], Optional[str]]:
     request_headers = {
         "User-Agent": (
@@ -466,9 +466,9 @@ def fetch_url(
         req = urllib.request.Request(url, headers=request_headers)
         context = _ssl_context()
         if context is None:
-            response_cm = urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_SECONDS)
+            response_cm = urllib.request.urlopen(req, timeout=timeout_seconds)
         else:
-            response_cm = urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_SECONDS, context=context)
+            response_cm = urllib.request.urlopen(req, timeout=timeout_seconds, context=context)
 
         with response_cm as response:
             raw = response.read()
@@ -1339,6 +1339,18 @@ def parse_stepstone_jobs_from_html(html: str, fetched_at: Optional[str] = None) 
     return dedupe_jobs(jobs), warnings
 
 
+def fetch_stepstone_page(url: str) -> Tuple[Optional[str], Optional[str]]:
+    last_error: Optional[str] = None
+    for attempt in range(1, STEPSTONE_FETCH_ATTEMPTS + 1):
+        html, err = fetch_url(url, timeout_seconds=STEPSTONE_TIMEOUT_SECONDS)
+        if not err and html:
+            return html, None
+        last_error = err or "empty response"
+        if attempt < STEPSTONE_FETCH_ATTEMPTS:
+            print(f"[jobs][warn] StepStone fetch attempt {attempt} failed, retrying: {last_error}")
+    return None, last_error
+
+
 def fetch_stepstone_jobs() -> FetchResult:
     fetched_at = utc_now()
     warnings: List[str] = []
@@ -1352,7 +1364,7 @@ def fetch_stepstone_jobs() -> FetchResult:
             break
         seen_page_urls.add(url)
 
-        html, err = fetch_url(url)
+        html, err = fetch_stepstone_page(url)
         if err:
             if jobs:
                 warnings.append(f"StepStone pagination stopped after {len(jobs)} job(s): {err}")
@@ -1547,7 +1559,8 @@ def run_job_tracker(
     else:
         known_sources = {
             normalize_text(source_name)
-            for source_name in old_sources.keys()
+            for source_name, status in old_sources.items()
+            if isinstance(status, dict) and normalize_text(status.get("last_success"))
             if normalize_text(source_name)
         }
         known_sources.update(

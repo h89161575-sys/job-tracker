@@ -406,6 +406,41 @@ def test_new_source_is_baselined_without_alert():
         )
 
 
+def test_failed_source_first_success_is_baselined_without_alert():
+    with tempfile.TemporaryDirectory() as tmp:
+        old_snapshot = {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "data": {
+                "schema_version": 2,
+                "sources": {
+                    "stepstone": {
+                        "label": "StepStone",
+                        "last_success": None,
+                        "last_error": "TimeoutError",
+                        "count": 0,
+                    }
+                },
+                "jobs": [],
+            },
+        }
+        save_snapshot(JOB_SNAPSHOT_NAME, old_snapshot, tmp)
+        fetchers = {
+            "stepstone": lambda: ([sample_job("s1", title="Jurist:in Datenschutz", source="stepstone")], []),
+        }
+        result = run_job_tracker(
+            source_names=["stepstone"],
+            snapshot_dir=tmp,
+            dry_run=False,
+            notify=False,
+            fetchers=fetchers,
+        )
+        assert_equal(result.new_jobs, [], "failed source first success baseline")
+        assert_true(
+            any(job["source"] == "stepstone" for job in result.all_jobs),
+            "failed source first success persisted",
+        )
+
+
 def test_discord_notifier_sends_all_jobs_in_batches():
     payloads = []
     original_post = notifier._post_discord_payload
@@ -443,6 +478,7 @@ def run_tests():
         test_run_job_tracker_snapshot_flow,
         test_cross_source_duplicate_old_snapshot_does_not_alert,
         test_new_source_is_baselined_without_alert,
+        test_failed_source_first_success_is_baselined_without_alert,
         test_discord_notifier_sends_all_jobs_in_batches,
     ]
     for test in tests:
