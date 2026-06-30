@@ -5,6 +5,7 @@ import json
 import os
 import re
 import ssl
+import subprocess
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -27,6 +28,11 @@ from notifier import send_new_jobs_notification
 JOB_SNAPSHOT_NAME = "job_tracker"
 MAX_PAGES_PER_SOURCE = 20
 REQUEST_TIMEOUT_SECONDS = 30
+REQUEST_USER_AGENT = (
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+)
+DEFAULT_ACCEPT_LANGUAGE = "de-AT,de;q=0.9,en;q=0.5"
 
 JUSJOBS_SEARCH_URL = (
     "https://www.jusjobs.at/jobs?"
@@ -67,8 +73,9 @@ KARRIERE_LOAD_MORE_PARAMS = (
 )
 STEPSTONE_BASE_URL = "https://www.stepstone.at/"
 STEPSTONE_SEARCH_URL = "https://www.stepstone.at/jobs/jurist/in-wien?page=1"
-STEPSTONE_TIMEOUT_SECONDS = 90
-STEPSTONE_FETCH_ATTEMPTS = 2
+STEPSTONE_TIMEOUT_SECONDS = 30
+STEPSTONE_CURL_TIMEOUT_SECONDS = 75
+STEPSTONE_FETCH_ATTEMPTS = 1
 
 DEFAULT_SOURCE_NAMES = (
     "jusjobs",
@@ -450,13 +457,10 @@ def fetch_url(
     timeout_seconds: int = REQUEST_TIMEOUT_SECONDS,
 ) -> Tuple[Optional[Any], Optional[str]]:
     request_headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        ),
+        "User-Agent": REQUEST_USER_AGENT,
         "Accept": accept
         or ("application/json,text/plain,*/*" if is_json else "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"),
-        "Accept-Language": "de-AT,de;q=0.9,en;q=0.5",
+        "Accept-Language": DEFAULT_ACCEPT_LANGUAGE,
         "Accept-Encoding": "gzip, deflate",
     }
     if headers:
@@ -499,6 +503,70 @@ def fetch_url(
         return None, f"JSON decode error: {exc}"
     except Exception as exc:
         return None, f"{type(exc).__name__}: {exc}"
+
+
+def fetch_url_with_curl(
+    url: str,
+    *,
+    headers: Optional[Dict[str, str]] = None,
+    is_json: bool = False,
+    accept: Optional[str] = None,
+    timeout_seconds: int = REQUEST_TIMEOUT_SECONDS,
+) -> Tuple[Optional[Any], Optional[str]]:
+    request_headers = {
+        "Accept": accept
+        or ("application/json,text/plain,*/*" if is_json else "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"),
+        "Accept-Language": DEFAULT_ACCEPT_LANGUAGE,
+    }
+    if headers:
+        request_headers.update(headers)
+
+    curl_binary = "curl.exe" if os.name == "nt" else "curl"
+    args = [curl_binary]
+    if os.name == "nt":
+        args.append("--ssl-no-revoke")
+    args.extend(
+        [
+            "-L",
+            "--compressed",
+            "--fail",
+            "-sS",
+            "--http1.1",
+            "--max-time",
+            str(timeout_seconds),
+            "-A",
+            REQUEST_USER_AGENT,
+        ]
+    )
+    for key, value in request_headers.items():
+        args.extend(["-H", f"{key}: {value}"])
+    args.append(url)
+
+    try:
+        completed = subprocess.run(
+            args,
+            capture_output=True,
+            timeout=timeout_seconds + 10,
+            check=False,
+        )
+    except FileNotFoundError:
+        return None, f"{curl_binary} not found"
+    except subprocess.TimeoutExpired:
+        return None, f"{curl_binary} timed out after {timeout_seconds}s"
+    except Exception as exc:
+        return None, f"{type(exc).__name__}: {exc}"
+
+    if completed.returncode != 0:
+        stderr = decode_response_body(completed.stderr or b"", "utf-8").strip()
+        return None, f"{curl_binary} exit {completed.returncode}: {stderr[:200] or 'request failed'}"
+
+    decoded = decode_response_body(completed.stdout or b"", "utf-8")
+    if is_json:
+        try:
+            return json.loads(decoded), None
+        except json.JSONDecodeError as exc:
+            return None, f"JSON decode error: {exc}"
+    return decoded, None
 
 
 def _absolute_url(base: str, href: str) -> str:
@@ -1348,7 +1416,15 @@ def fetch_stepstone_page(url: str) -> Tuple[Optional[str], Optional[str]]:
         last_error = err or "empty response"
         if attempt < STEPSTONE_FETCH_ATTEMPTS:
             print(f"[jobs][warn] StepStone fetch attempt {attempt} failed, retrying: {last_error}")
-    return None, last_error
+
+    print(f"[jobs][warn] StepStone urllib fetch failed, trying curl fallback: {last_error}")
+    html, curl_err = fetch_url_with_curl(
+        url,
+        timeout_seconds=STEPSTONE_CURL_TIMEOUT_SECONDS,
+    )
+    if not curl_err and html:
+        return html, None
+    return None, f"{last_error}; curl fallback: {curl_err or 'empty response'}"
 
 
 def fetch_stepstone_jobs() -> FetchResult:
