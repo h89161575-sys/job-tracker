@@ -17,6 +17,7 @@ from job_tracker import (  # noqa: E402
     normalize_text,
     parse_karriere_jobs_from_state,
     parse_jusjobs_jobs_from_html,
+    parse_stepstone_jobs_from_html,
     parse_uniqa_rss_jobs,
     run_job_tracker,
     save_snapshot,
@@ -183,6 +184,59 @@ def test_karriere_at_state_filter():
     assert_equal(len(jobs), 1, "karriere.at wien-only count")
     assert_equal(jobs[0]["id"], "karriere_at:10021048", "karriere.at id")
     assert_equal(jobs[0]["salary"], "ab 43.400 € jährlich", "karriere.at salary")
+
+
+def test_stepstone_html_filter():
+    html = """
+    <html>
+      <head>
+        <link rel="next" href="https://www.stepstone.at/jobs/jurist/in-wien?page=2" />
+      </head>
+      <body>
+        <article id="job-item-633580" data-at="job-item">
+          <a data-at="job-item-title" href="/stellenangebote--Unternehmensjuristen-Inhouse-Legal-m-w-D-Wien-Landstrasse--633580-inline.html">
+            <span>Unternehmensjuristen/Inhouse Legal (m/w/d) | Wien</span>
+          </a>
+          <span data-at="job-item-company-name">LBG Österreich GmbH</span>
+          <span data-at="job-item-location">Wien-Landstraße</span>
+          <span data-at="job-item-work-from-home">Teilweise Home-Office</span>
+          <span data-at="job-item-badge">Schnelle Bewerbung</span>
+          <span data-at="job-item-timeago"><time>vor 20 Stunden</time></span>
+          <p>Feste Anstellung, Vollzeit, EUR 4.000 brutto</p>
+        </article>
+        <article id="job-item-1030" data-at="job-item">
+          <a data-at="job-item-title" href="/stellenangebote--Jurist-in-Wien--1030-inline.html">
+            <span>Jurist:in Datenschutz</span>
+          </a>
+          <span data-at="job-item-company-name">Test AG</span>
+          <span data-at="job-item-location">Guglgasse 7-9, Wien, 1030</span>
+          <span data-at="job-item-timeago">vor 1 Tag</span>
+          <p>Teilzeit, Vollzeit</p>
+        </article>
+        <article id="job-item-2700" data-at="job-item">
+          <a data-at="job-item-title" href="/stellenangebote--Legal-Counsel-Wiener-Neustadt--2700-inline.html">
+            <span>Legal Counsel</span>
+          </a>
+          <span data-at="job-item-company-name">Andere AG</span>
+          <span data-at="job-item-location">Wiener Neustadt</span>
+        </article>
+        <article id="job-item-9999" data-at="job-item">
+          <a data-at="job-item-title" href="/stellenangebote--Legal-Counsel-Wien-Umgebung--9999-inline.html">
+            <span>Legal Counsel</span>
+          </a>
+          <span data-at="job-item-company-name">Umland AG</span>
+          <span data-at="job-item-location">Wien Umgebung</span>
+        </article>
+      </body>
+    </html>
+    """
+    jobs, warnings = parse_stepstone_jobs_from_html(html, "2026-06-18T00:00:00Z")
+    assert_equal([job["id"] for job in jobs], ["stepstone:633580", "stepstone:1030"], "stepstone wien-only ids")
+    assert_equal(jobs[0]["title"], "Unternehmensjuristen/Inhouse Legal (m/w/d)", "stepstone title cleanup")
+    assert_equal(jobs[0]["location"], "Wien-Landstraße", "stepstone district location")
+    assert_equal(jobs[0]["salary"], "EUR 4.000 brutto", "stepstone salary")
+    assert_true("Schnelle Bewerbung" in (jobs[0].get("department") or ""), "stepstone labels")
+    assert_true(warnings and "non-Wien" in warnings[0], "stepstone non-wien warning")
 
 
 def test_compare_new_jobs():
@@ -383,6 +437,7 @@ def run_tests():
         test_erste_bank_filter,
         test_uniqa_rss_filter,
         test_karriere_at_state_filter,
+        test_stepstone_html_filter,
         test_compare_new_jobs,
         test_cross_source_dedupe_same_position,
         test_run_job_tracker_snapshot_flow,

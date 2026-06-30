@@ -10,6 +10,7 @@ Tracks selected legal job searches and sends Discord notifications when new jobs
 - LawFinder: Wien with company type filters
 - DER STANDARD Jobs: Wien + Jurist + full time + home office + legal category
 - karriere.at: JUS + Wien + Rechtswesen + Vollzeit + Homeoffice + salary filter
+- StepStone: Jurist/in + Wien + 30 km radius, with local Wien filtering for district/address cases
 
 ## GitHub setup
 

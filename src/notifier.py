@@ -12,6 +12,7 @@ SOURCE_LABELS = {
     "lawfinder": "LawFinder",
     "derstandard": "DER STANDARD Jobs",
     "karriere_at": "karriere.at",
+    "stepstone": "StepStone",
     "test": "Webhook-Test",
 }
 

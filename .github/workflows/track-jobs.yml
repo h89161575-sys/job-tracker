@@ -39,7 +39,7 @@ jobs:
         if: ${{ github.event.inputs.test_discord != 'true' }}
         env:
           JOB_DISCORD_WEBHOOK_URL: ${{ secrets.JOB_DISCORD_WEBHOOK_URL }}
-          JOB_TRACKER_SOURCES: jusjobs,erste_bank,uniqa,lawfinder,derstandard,karriere_at
+          JOB_TRACKER_SOURCES: jusjobs,erste_bank,uniqa,lawfinder,derstandard,karriere_at,stepstone
         run: python src/job_tracker.py
       - name: Send Discord test notification
         if: ${{ github.event.inputs.test_discord == 'true' }}

@@ -13,6 +13,7 @@ import zlib
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from html import unescape
+from html.parser import HTMLParser
 from typing import Any, Callable, Dict, Iterable, List, Optional, Tuple
 
 from config import (
@@ -64,8 +65,21 @@ KARRIERE_LOAD_MORE_PARAMS = (
     ("homeoffice", "true"),
     ("salary[]", "10007"),
 )
+STEPSTONE_BASE_URL = "https://www.stepstone.at/"
+STEPSTONE_SEARCH_URL = (
+    "https://www.stepstone.at/jobs/jurist/in-wien?"
+    "whereType=autosuggest&radius=30&page=1&wci=417961&searchOrigin=Resultlist_top-search"
+)
 
-DEFAULT_SOURCE_NAMES = ("jusjobs", "erste_bank", "uniqa", "lawfinder", "derstandard", "karriere_at")
+DEFAULT_SOURCE_NAMES = (
+    "jusjobs",
+    "erste_bank",
+    "uniqa",
+    "lawfinder",
+    "derstandard",
+    "karriere_at",
+    "stepstone",
+)
 OPTIONAL_SOURCE_NAMES: Tuple[str, ...] = ()
 
 FetchResult = Tuple[List[Dict[str, Any]], List[str]]
@@ -1079,6 +1093,302 @@ def fetch_karriere_at_jobs() -> FetchResult:
     return dedupe_jobs(all_jobs), warnings
 
 
+STEPSTONE_CARD_FIELDS = {
+    "job-item-title",
+    "job-item-company-name",
+    "job-item-location",
+    "job-item-timeago",
+    "job-item-work-from-home",
+    "job-item-badge",
+    "job-item-top-label",
+}
+
+HTML_VOID_TAGS = {
+    "area",
+    "base",
+    "br",
+    "col",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "link",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr",
+}
+
+
+class StepstoneJobCardParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.cards: List[Dict[str, Any]] = []
+        self.current: Optional[Dict[str, Any]] = None
+        self.stack: List[Tuple[str, Optional[str]]] = []
+        self.skip_depth = 0
+
+    def handle_starttag(self, tag: str, attrs: List[Tuple[str, Optional[str]]]) -> None:
+        attrs_dict = {key: value or "" for key, value in attrs}
+        data_at = attrs_dict.get("data-at")
+
+        if tag in {"script", "style"}:
+            self.skip_depth += 1
+
+        if tag == "article" and data_at == "job-item":
+            if self.current:
+                self.cards.append(self.current)
+            raw_id = ""
+            id_match = re.search(r"job-item-(\d+)", attrs_dict.get("id", ""))
+            if id_match:
+                raw_id = id_match.group(1)
+            self.current = {"id": raw_id, "fields": {}, "text": [], "url": ""}
+            self.stack = []
+
+        if not self.current:
+            return
+
+        if tag == "a":
+            href = attrs_dict.get("href", "")
+            if data_at == "job-item-title" or "/stellenangebote--" in href:
+                self.current["url"] = href
+
+        field = data_at if data_at in STEPSTONE_CARD_FIELDS else None
+        if tag not in HTML_VOID_TAGS:
+            self.stack.append((tag, field))
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.current:
+            match_index: Optional[int] = None
+            for index in range(len(self.stack) - 1, -1, -1):
+                if self.stack[index][0] == tag:
+                    match_index = index
+                    break
+            if match_index is not None:
+                del self.stack[match_index:]
+
+            if tag == "article":
+                self.cards.append(self.current)
+                self.current = None
+                self.stack = []
+
+        if tag in {"script", "style"} and self.skip_depth:
+            self.skip_depth -= 1
+
+    def handle_data(self, data: str) -> None:
+        if not self.current or self.skip_depth:
+            return
+        text = data.strip()
+        if not text:
+            return
+
+        self.current["text"].append(text)
+        for _tag, field in reversed(self.stack):
+            if field:
+                self.current["fields"].setdefault(field, []).append(text)
+                break
+
+
+def _stepstone_field(card: Dict[str, Any], field_name: str) -> str:
+    fields = card.get("fields") if isinstance(card, dict) else {}
+    values = fields.get(field_name, []) if isinstance(fields, dict) else []
+    if isinstance(values, list):
+        return normalize_text(" ".join(str(value) for value in values))
+    return normalize_text(values)
+
+
+def _clean_stepstone_title(title: str) -> str:
+    title = normalize_text(title)
+    title = re.sub(r"\s+[|–-]\s*(?:wien|vienna|1[0-2]\d{2}\s+wien)\s*$", "", title, flags=re.IGNORECASE)
+    return normalize_text(title)
+
+
+def _has_vienna_postcode(text: Any) -> bool:
+    for match in re.finditer(r"\b(1[0-2]\d{2})\b", normalize_text(text)):
+        try:
+            postcode = int(match.group(1))
+        except ValueError:
+            continue
+        if 1010 <= postcode <= 1230 and postcode % 10 == 0:
+            return True
+    return False
+
+
+def _is_stepstone_wien_location(location: Any) -> bool:
+    location_text = normalize_text(location)
+    if not location_text:
+        return False
+    if _has_vienna_postcode(location_text):
+        return True
+
+    parts = set(slugify(location_text).split("-"))
+    if "vienna" in parts:
+        return True
+    if "wien" not in parts:
+        return False
+    if parts & {"umgebung", "umland", "neustadt", "neudorf"}:
+        return False
+    return True
+
+
+def _extract_stepstone_salary(text: str) -> Optional[str]:
+    match = re.search(
+        r"((?:€|EUR)\s*[0-9][0-9.\s,]*(?:\s*(?:bis|-|–)\s*(?:€|EUR)?\s*[0-9][0-9.\s,]*)?"
+        r"(?:\s*(?:brutto|jährlich|monatlich|p\.a\.|pro\s+jahr))?)",
+        normalize_text(text),
+        re.IGNORECASE,
+    )
+    return normalize_text(match.group(1)) if match else None
+
+
+def _extract_stepstone_employment_type(text: str) -> Optional[str]:
+    types = []
+    normalized = normalize_text(text)
+    for pattern, label in (
+        (r"\bVollzeit\b", "Vollzeit"),
+        (r"\bTeilzeit\b", "Teilzeit"),
+        (r"\bHome Office\b|\bHome-Office\b", "Home Office"),
+        (r"\bFeste Anstellung\b", "Feste Anstellung"),
+        (r"\bBefristeter Vertrag\b", "Befristeter Vertrag"),
+        (r"\bPraktikum\b", "Praktikum"),
+    ):
+        if re.search(pattern, normalized, re.IGNORECASE) and label not in types:
+            types.append(label)
+    return ", ".join(types) or None
+
+
+def _extract_stepstone_expected_count(html: str) -> Optional[int]:
+    text = normalize_text(html)
+    patterns = (
+        r"Aktuell\s+gibt\s+es\s+.*?\b(\d+)\s+offene\s+Stellenanzeigen",
+        r"\b(\d+)\s+offene\s+Stellenanzeigen",
+        r"\b(\d+)\s+Stellenangebote",
+        r"\b(\d+)\s+Jobs?\s+in\s+Wien",
+    )
+    for pattern in patterns:
+        match = re.search(pattern, text, re.IGNORECASE)
+        if match:
+            try:
+                return int(match.group(1))
+            except ValueError:
+                continue
+    return None
+
+
+def _extract_stepstone_next_url(html: str) -> Optional[str]:
+    for link_match in re.finditer(r"<link\b[^>]*>", html, re.IGNORECASE):
+        tag = link_match.group(0)
+        if not re.search(r'rel=["\']next["\']', tag, re.IGNORECASE):
+            continue
+        href_match = re.search(r'href=["\']([^"\']+)["\']', tag, re.IGNORECASE)
+        if href_match:
+            return _absolute_url(STEPSTONE_BASE_URL, href_match.group(1))
+    return None
+
+
+def parse_stepstone_jobs_from_html(html: str, fetched_at: Optional[str] = None) -> Tuple[List[Dict[str, Any]], List[str]]:
+    fetched_at = fetched_at or utc_now()
+    parser = StepstoneJobCardParser()
+    parser.feed(html or "")
+
+    warnings: List[str] = []
+    jobs: List[Dict[str, Any]] = []
+    skipped_non_wien = 0
+    for card in parser.cards:
+        raw_id = normalize_text(card.get("id"))
+        url = _absolute_url(STEPSTONE_BASE_URL, normalize_text(card.get("url")))
+        if not raw_id and not url:
+            continue
+
+        title = _clean_stepstone_title(_stepstone_field(card, "job-item-title"))
+        company = _stepstone_field(card, "job-item-company-name")
+        location = _stepstone_field(card, "job-item-location")
+        if location and not _is_stepstone_wien_location(location):
+            skipped_non_wien += 1
+            continue
+
+        all_text = normalize_text(" ".join(str(item) for item in card.get("text", [])))
+        homeoffice = _stepstone_field(card, "job-item-work-from-home")
+        badge = _stepstone_field(card, "job-item-badge")
+        top_label = _stepstone_field(card, "job-item-top-label")
+        labels = ", ".join(label for label in (homeoffice, badge, top_label) if label)
+
+        jobs.append(
+            finalize_job(
+                {
+                    "id": f"stepstone:{raw_id}" if raw_id else "",
+                    "source": "stepstone",
+                    "title": title,
+                    "company": company,
+                    "location": location or "Wien",
+                    "url": url,
+                    "salary": _extract_stepstone_salary(all_text),
+                    "employment_type": _extract_stepstone_employment_type(all_text),
+                    "published_at": _stepstone_field(card, "job-item-timeago"),
+                    "department": labels or None,
+                    "snippet": all_text,
+                    "first_seen": fetched_at,
+                },
+                fetched_at,
+            )
+        )
+
+    if skipped_non_wien:
+        warnings.append(f"StepStone skipped {skipped_non_wien} non-Wien job card(s)")
+    return dedupe_jobs(jobs), warnings
+
+
+def fetch_stepstone_jobs() -> FetchResult:
+    fetched_at = utc_now()
+    warnings: List[str] = []
+    jobs: List[Dict[str, Any]] = []
+    seen_page_urls: set[str] = set()
+    url: Optional[str] = STEPSTONE_SEARCH_URL
+    expected_count: Optional[int] = None
+
+    for _page in range(MAX_PAGES_PER_SOURCE):
+        if not url or url in seen_page_urls:
+            break
+        seen_page_urls.add(url)
+
+        html, err = fetch_url(url)
+        if err:
+            if jobs:
+                warnings.append(f"StepStone pagination stopped after {len(jobs)} job(s): {err}")
+                break
+            return [], [f"StepStone fetch error: {err}"]
+        if not html:
+            break
+
+        if expected_count is None:
+            expected_count = _extract_stepstone_expected_count(html)
+
+        page_jobs, page_warnings = parse_stepstone_jobs_from_html(html, fetched_at)
+        warnings.extend(page_warnings)
+
+        before_count = len(dedupe_jobs(jobs))
+        jobs.extend(page_jobs)
+        jobs = dedupe_jobs(jobs)
+        after_count = len(jobs)
+
+        next_url = _extract_stepstone_next_url(html)
+        if not next_url:
+            break
+        if after_count == before_count:
+            warnings.append(f"StepStone page did not add new job IDs: {url}")
+            break
+        url = next_url
+
+    if expected_count is not None and len(jobs) != expected_count:
+        warnings.append(
+            f"StepStone expected {expected_count} result(s) but retained {len(jobs)} Wien job card(s)"
+        )
+    for warning in warnings:
+        print(f"[jobs][warn] {warning}")
+    return dedupe_jobs(jobs), []
+
+
 def build_source_registry(fetchers: Optional[Dict[str, Fetcher]] = None) -> Dict[str, SourceConfig]:
     registry = {
         "jusjobs": SourceConfig("jusjobs", "JusJobs", fetch_jusjobs_jobs, True),
@@ -1087,6 +1397,7 @@ def build_source_registry(fetchers: Optional[Dict[str, Fetcher]] = None) -> Dict
         "lawfinder": SourceConfig("lawfinder", "LawFinder", fetch_lawfinder_jobs, True),
         "derstandard": SourceConfig("derstandard", "DER STANDARD Jobs", fetch_derstandard_jobs, True),
         "karriere_at": SourceConfig("karriere_at", "karriere.at", fetch_karriere_at_jobs, True),
+        "stepstone": SourceConfig("stepstone", "StepStone", fetch_stepstone_jobs, True),
     }
     if fetchers:
         for name, fetcher in fetchers.items():
