@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-06-30T21:10:00.588732Z",
+  "timestamp": "2026-06-30T22:45:01.363021Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-06-30T21:10:00.588732Z",
+        "last_success": "2026-06-30T22:45:01.363021Z",
         "last_error": null,
         "count": 16
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-06-30T21:10:00.588732Z",
+        "last_success": "2026-06-30T22:45:01.363021Z",
         "last_error": null,
         "count": 0
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-06-30T20:53:47.291136Z",
-        "last_error": "UNIQA RSS error: URL error: timed out",
+        "last_success": "2026-06-30T22:45:01.363021Z",
+        "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-06-30T21:10:00.588732Z",
+        "last_success": "2026-06-30T22:45:01.363021Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-06-30T21:10:00.588732Z",
+        "last_success": "2026-06-30T22:45:01.363021Z",
         "last_error": null,
         "count": 8
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-06-30T21:10:00.588732Z",
+        "last_success": "2026-06-30T22:45:01.363021Z",
         "last_error": null,
-        "count": 61
+        "count": 60
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-06-30T20:53:47.291136Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75000 milliseconds with 0 bytes received",
-        "count": 34
+        "last_success": "2026-06-30T22:45:01.363021Z",
+        "last_error": null,
+        "count": 35
       }
     },
     "jobs": [
@@ -204,19 +204,6 @@
         "fingerprint": "c268bc6fda9650cdd1965e1e0458d81bb60ec3c0eb1cf569dddb2ad0d597e9ad"
       },
       {
-        "id": "jusjobs:1799423",
-        "source": "jusjobs",
-        "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
-        "company": "Bundesministerium für Landesverteidigung und Sport",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1799423",
-        "salary": "€ 3.519",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht,…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
-      },
-      {
         "id": "jusjobs:1799425",
         "source": "jusjobs",
         "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
@@ -228,6 +215,19 @@
         "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
+      },
+      {
+        "id": "jusjobs:1799423",
+        "source": "jusjobs",
+        "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
+        "company": "Bundesministerium für Landesverteidigung und Sport",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1799423",
+        "salary": "€ 3.519",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht,…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
       },
       {
         "id": "jusjobs:1798865",
@@ -336,6 +336,20 @@
         "fingerprint": "cf6e2bfb4f03d772ef56b863346615c02f097031a96ff672087707b2fa6c92e1"
       },
       {
+        "id": "karriere_at:10023528",
+        "source": "karriere_at",
+        "title": "Unternehmensjurist (m/w/d)",
+        "company": "jorda & partners HR CONSULTING",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10023528",
+        "salary": "77.000 € – 83.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T14:42:58.393788Z",
+        "fingerprint": "a5c7be303eba030cab352a219c4b2aa3ecf7ce2f4e6ee50ee07cdb1e67154246"
+      },
+      {
         "id": "karriere_at:10022360",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
@@ -344,10 +358,10 @@
         "url": "https://www.karriere.at/jobs/10022360",
         "salary": "ab 4.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "23.6.2026",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a6e30583335d86592e9f63e99faf038b90d4516dd85f5487175f96bab3005529"
+        "fingerprint": "84f47b9c3ccc2267453c6a77d5ddc80f31daafbd7e37b9b5d52faf590c3228bf"
       },
       {
         "id": "karriere_at:10024281",
@@ -358,10 +372,10 @@
         "url": "https://www.karriere.at/jobs/10024281",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-29T09:57:01.141761Z",
-        "fingerprint": "cffc166acebd14f75a01d70c9b41efc7e1d22b67bea0ea0026245bdf5acc7004"
+        "fingerprint": "f001439b5322ea0f9b56a980d26c23c5a7d8eec9d91806d6278cab4c5fc5dd40"
       },
       {
         "id": "karriere_at:10022806",
@@ -372,10 +386,10 @@
         "url": "https://www.karriere.at/jobs/10022806",
         "salary": "ab 3.267 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "5159bdb90e36fd9ce96b58de2ddc8a292b7c34251a66d0b072135c28308a613a"
+        "fingerprint": "a58c2cbf7834d7e4fd7452b4203009d968bc0e08c18c8ee04e06a8df9ca53e5c"
       },
       {
         "id": "karriere_at:10022629",
@@ -386,24 +400,10 @@
         "url": "https://www.karriere.at/jobs/10022629",
         "salary": "ab 3.650 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "ca9e0881fd8ad23f872cf2be89b03ded49463dcf98b9577393b2b2ee95cf7d72"
-      },
-      {
-        "id": "karriere_at:10023528",
-        "source": "karriere_at",
-        "title": "Unternehmensjurist (m/w/d)",
-        "company": "jorda & partners HR CONSULTING",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10023528",
-        "salary": "77.000 € – 83.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T14:42:58.393788Z",
-        "fingerprint": "0dd9601c30c953101505f820e467183d57dbcb36734fc71bb426d721547fa05b"
+        "fingerprint": "30086748e4014d502114956dd53fee77e4396c43ba71f240376d3068669cbbef"
       },
       {
         "id": "karriere_at:10021048",
@@ -414,24 +414,10 @@
         "url": "https://www.karriere.at/jobs/10021048",
         "salary": "ab 43.400 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "697c1aad35c391f66af766c86b7f8f2f6d560abd08bc74e7d7353edc4e352f32"
-      },
-      {
-        "id": "karriere_at:10021559",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter:in",
-        "company": "Dr. Lucas Prunbauer Rechtsanwalt GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10021559",
-        "salary": "ab 3.500 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "21.6.2026",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "8be1a747104e71981ec0badc82fb09525a727dc2604bbae8afc62ac3df971ce0"
+        "fingerprint": "ca93e62016cf23e8fb9484f0d25cf24845e3d76d85457f6125a76e93d188b996"
       },
       {
         "id": "karriere_at:7835189",
@@ -442,10 +428,10 @@
         "url": "https://www.karriere.at/jobs/7835189",
         "salary": "ab 4.785 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Legal Counsel, Vollzeit, Hybrid, Wien, Österreich, Mit Berufserfahrung, 30.06.26 Über uns Axians ICT Austria GmbH arbeitet in strategischen Partnerschaften in der IT-Dienstleistung...",
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "521923d39aa87b8222053f626c74d05d989e717d9c1d932e5784718b491a570c"
+        "fingerprint": "dc169fca84e5ea4deae272d5be84a8a28e72e3bd986cf5ff67a570475384de26"
       },
       {
         "id": "karriere_at:7821674",
@@ -456,10 +442,10 @@
         "url": "https://www.karriere.at/jobs/7821674",
         "salary": "ab 4.738,62 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Rechtsberatung: (Energie-)Regulatorische Fragestellungen bearbeiten (Fokus EU-Recht) Rechtliche Unterstützung: Networkcodes überarbeiten und auf Unternehmensebene implementieren,...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "40a06c6d17ca054e56a7590efa71fffcd366390af36e5fab682a6028acb3bb64"
+        "fingerprint": "4e6e3036415408b61d3d8ae7db8feeb454d8b95c6131cb2934e8c209422a43ba"
       },
       {
         "id": "karriere_at:7821314",
@@ -470,10 +456,10 @@
         "url": "https://www.karriere.at/jobs/7821314",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Sie begleiten das Sales-Team bei strategisch wichtigen Kunden im Segment größerer Beratungsunternehmen, Rechtsabteilungen und juristischer Organisationen. Sie sprechen mit relevanten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "5fedb2570b1f6f1d2973aeaf9a842663761892163aeb3213c6103650fc90b257"
+        "fingerprint": "fc34dd7cb2a903b87872115f06ef201e999fd20d0db9f22728d7ee0aeb17a0ad"
       },
       {
         "id": "karriere_at:7824842",
@@ -484,10 +470,10 @@
         "url": "https://www.karriere.at/jobs/7824842",
         "salary": "2.400 € – 4.000 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "85be5ae6600db8b545d4ff1346825717a8ad63ef972c71a85626e2b6be865476"
+        "fingerprint": "ee570738391e7ecc02823232778112ad8d00c37369b8fc1bfd1445553326e220"
       },
       {
         "id": "karriere_at:7834001",
@@ -498,10 +484,10 @@
         "url": "https://www.karriere.at/jobs/7834001",
         "salary": "ab 60.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Vielseitig wie der Handel, Sie steuern zentrale Themen im Datenschutz- und Vertragsrecht, entwickeln klare Leitlinien und stellen deren wirksame Umsetzung im jö Bonus Club sicher. In dieser...",
         "first_seen": "2026-06-29T09:57:01.141761Z",
-        "fingerprint": "69cafa1439d1f128c86211e81cd8728c1aba0e5af6ef28c3734077083ea14b9f"
+        "fingerprint": "f9d3007531a91e20a247dbea262bbceec0369d48eab5b013260ec5e5482e0687"
       },
       {
         "id": "karriere_at:7809287",
@@ -540,10 +526,10 @@
         "url": "https://www.karriere.at/jobs/7835258",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihr Aufgabengebiet: Ausarbeitung und Bearbeitung datenschutzrechtlicher Fragestellungen sowie Durchführung von internen rechtlichen Schulungen im Unternehmen, Ansprechpartner für Datenschutz- und IT-Recht, Betreuung...",
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "91719da7a79cdc0e84c8399116c4c16d0822111882b5e6b98c22eeeb5b05677f"
+        "fingerprint": "4e2765447800a615a34d91e904033eb7668eb2965757a5986254b80e851a602e"
       },
       {
         "id": "karriere_at:7811402",
@@ -554,10 +540,10 @@
         "url": "https://www.karriere.at/jobs/7811402",
         "salary": "ab 55.307 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Jetzt bewerben Jurist:in Gesellschafts- und Vertragsrecht ÖBB-Personenverkehr AG Wien-Favoriten, Wien, 1100, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25499 Wir möchten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "0de71ed10c6f061b2c69725cd5a46ddc80532b449a478ca78082d6dfd94ede14"
+        "fingerprint": "a058f64c37fcd44bbb6b932cdf6c57e1553890588f9fa5a7b0e3c422ac8b051f"
       },
       {
         "id": "karriere_at:7822337",
@@ -568,10 +554,10 @@
         "url": "https://www.karriere.at/jobs/7822337",
         "salary": "ab 1.967 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Teamassistenz (w/m/d) mit Schwerpunkt Recht Standort: Wien | Stundenausmaß: Vollzeit oder Teilzeit (ab 25 Wochenstunden) | ab sofort In dieser Position trifft Organisationstalent...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "3a6d0a3c56f64bed4b8aeca6e58f6775981d605a591faa5b542723aabbd58de5"
+        "fingerprint": "5e9813bfb9536bed93ca33c5a7e7f64452fb4c83fac4f77e86646d0b968ac63d"
       },
       {
         "id": "karriere_at:7825238",
@@ -764,10 +750,10 @@
         "url": "https://www.karriere.at/jobs/7831688",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Teamwork. Network. Dream work. Rechtsanwalt Immobilienwirtschaftsrecht (m/w/d) Location: Wien Position: Full-time employee, as of now Compensation: Leistungsabhängiges Honorar...",
         "first_seen": "2026-06-24T09:49:31.016103Z",
-        "fingerprint": "047541e18175ee6d6a62bfe9b36dd891fd2881294cb998ab92aa283737bbe1c7"
+        "fingerprint": "faec4202c0d93b6cd39c8770afb391fb17f86c3ae6373827ee0c2301c515c477"
       },
       {
         "id": "karriere_at:7819184",
@@ -848,10 +834,10 @@
         "url": "https://www.karriere.at/jobs/10024650",
         "salary": "ab 2.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "aad4848c2aaa499f76286f9a58a221b4d1d9b986c081a1d11030da7508848d99"
+        "fingerprint": "8b2bb39e11640131b2ef4cf32c57c009b36ae873b3c08be616009e4cc6ae6034"
       },
       {
         "id": "karriere_at:7816376",
@@ -862,10 +848,10 @@
         "url": "https://www.karriere.at/jobs/7816376",
         "salary": "ab 49.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Associate Manager (all genders) Audit mit Fokus Private & Midmarket Wien, Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der führende...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "aa16a020320687fc4efa61f944e6eaf7f5c15e8e1c0138afa96f53289bcc9007"
+        "fingerprint": "84488f968b21ced5b39eedbc33438a365bd1cab13f4b7eff6947ddc7729a6cba"
       },
       {
         "id": "karriere_at:7794164",
@@ -876,10 +862,10 @@
         "url": "https://www.karriere.at/jobs/7794164",
         "salary": "ab 3.157,47 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Analyse fachlicher Anforderungen und Übersetzung in technische Lösungen, Strukturierung und Priorisierung von Requirements (z. B. User Stories, Use Cases...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "8e8db8c80fcc225c74a42ad594a234b7ccf0dfcc118575b236c292c2066fb108"
+        "fingerprint": "40c462b111479f986fecaea377edc4f5a7d09a530f8eb174295348a6c4f3f22a"
       },
       {
         "id": "karriere_at:7663251",
@@ -890,10 +876,10 @@
         "url": "https://www.karriere.at/jobs/7663251",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "(Senior) Associate Tax (m/w/d) GREAT, WENN DICH DIESE AUFGABEN FREUEN: Erstellung von Steuererklärungen und Jahresabschlüssen sowie Bearbeitung diverser Spezialprojekte, Erstellung...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "96bf6ce36fb222580e0972d469fcaf83a058249ba67b01fc0d67830756e29119"
+        "fingerprint": "5f9979f8ad293a14bab28b26b3fae24c75734a2ff3054fa49e466b73f711c55c"
       },
       {
         "id": "karriere_at:7663254",
@@ -904,10 +890,10 @@
         "url": "https://www.karriere.at/jobs/7663254",
         "salary": "ab 5.000 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "(Senior) Manager:in Tax/ Steuerberater:in, International Tax/ Transfer Pricing (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Beratungstätigkeiten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "b6ea02a03e76d7b2bf89b391c4ecf23909de80023ff75118d330e417f8fa7e9b"
+        "fingerprint": "c76e2a960831bf267737c3f44930dad18d04d0296fa1a56f7c1b5e144de7a8cd"
       },
       {
         "id": "karriere_at:7816349",
@@ -918,10 +904,10 @@
         "url": "https://www.karriere.at/jobs/7816349",
         "salary": "ab 42.840 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "(Junior) Consultant (all genders) Banking Advisory / Regulatory Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der führende...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "0190ce1ef7f883ed49af3a1f803233f71f1a27188de2a5465a73645f8db6ffb8"
+        "fingerprint": "7c25896b26a4200965d40ee128f71882bd8e98c1a0717462c963c752bcadc406"
       },
       {
         "id": "karriere_at:7816346",
@@ -932,10 +918,10 @@
         "url": "https://www.karriere.at/jobs/7816346",
         "salary": "ab 42.840 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "(Junior) Consultant (all genders) Advisory/Governance, Risk & Internal Controls Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "289aae8d693eeef227bd87831de2078397fe601a39e7aafc7d7eb7ba3418cf57"
+        "fingerprint": "fb1ade22734653900a902a0d2916fab3604e08a67319d7aefd34c05975c3f959"
       },
       {
         "id": "karriere_at:7816337",
@@ -946,10 +932,10 @@
         "url": "https://www.karriere.at/jobs/7816337",
         "salary": "ab 46.200 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Consultant Advisory/ Risikosteuerung Banken Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der führende Anbieter von Professional...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "60070175ee13db02853d6b4a95affce0ac0db509f7455bbefa4122611ff389a6"
+        "fingerprint": "ce993548abb02aa35482187150e3d60246fd39605b46ebe93e5c1b0935e47017"
       },
       {
         "id": "karriere_at:7632699",
@@ -960,10 +946,10 @@
         "url": "https://www.karriere.at/jobs/7632699",
         "salary": "ab 3.080 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "(Senior) Associate Tax (w/m/d) Standorte: Wien, Linz, Salzburg & Klagenfurt | Stundenausmaß: Teilzeit (ab 20h) oder Vollzeit | ab sofort Gesucht: Studierende | Absolvent:innen...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "6551717dbf9bae5786fd42f86833cd440cbbd57e546ba13ab4ad62daa5761154"
+        "fingerprint": "4aabb1beea1bb7cec35f00a81d049f68b3dafcd0d25b8eb3c942cd5367f3e767"
       },
       {
         "id": "karriere_at:7811600",
@@ -988,10 +974,10 @@
         "url": "https://www.karriere.at/jobs/10022516",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "acba9a7cc6c0ca5f25ba5c87c6ae6f26141b0c93bb0d2275f8cabad1939315b4"
+        "fingerprint": "a04efc0efeea2e07b4a26a73ad83165c9ad6658ec30a9a3adcd64e04ff3ee813"
       },
       {
         "id": "karriere_at:7663323",
@@ -1186,11 +1172,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-AI-Workflow-Specialist-w-m-d-Wien-l-m-executive-search-consulting-gmbh--985843-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Home Office, Feste Anstellung",
-        "published_at": "vor 1 Tag",
+        "published_at": "vor 2 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Legal AI Workflow Specialist (w/m/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... mehr vor 1 Tag",
+        "snippet": "Legal AI Workflow Specialist (w/m/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... mehr vor 2 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "93fdd527bc770a016b9590b9f3a1901c10a04c9f94f65c69552d2a1a7800b2e1"
+        "fingerprint": "903891541d96daa2249b9375a3a6a567c42f49436abb7b669a5e0e9f860c17b3"
       },
       {
         "id": "stepstone:986256",
@@ -1456,11 +1442,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Anwaltsassistent-in-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947468-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 1 Tag",
+        "published_at": "vor 2 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Anwaltsassistent:in (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. mehr vor 1 Tag",
+        "snippet": "Anwaltsassistent:in (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. mehr vor 2 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "624f9186cc06ff889cc35d0ada51848ca8f6097f701426193d3df2ce408713a5"
+        "fingerprint": "f0bd9a92654ad9bf4becf14c98d3db6fb3a2d30e34e66ad33e4b365f3d09ecbb"
       },
       {
         "id": "stepstone:989038",
@@ -1486,11 +1472,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Recruiting-Specialist-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--951147-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 3 Tagen",
+        "published_at": "vor 4 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Recruiting Specialist (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. mehr vor 3 Tagen",
+        "snippet": "Recruiting Specialist (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. mehr vor 4 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "bdb6a1a7bf28a88e09ab8b2ac6f7f4b0d4b4b859b4e4f646bb486262dacfc1bf"
+        "fingerprint": "39ae76363b400ce7042b75417cf23d52b0c1b11f3a0a6a1c882323414ed50ed1"
       },
       {
         "id": "stepstone:988268",
@@ -1576,11 +1562,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Wirtschaftsingenieur-Ingenieur-Betriebswirt-m-w-d-als-Kundenberater-in-im-Vertriebsinnen-und-Aussendienst-Wien-Oesterreich-Intermas-Austria-Gesellschaft-m-b-H--968445-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Feste Anstellung",
-        "published_at": "vor 1 Tag",
+        "published_at": "vor 2 Tagen",
         "department": null,
-        "snippet": "Wirtschaftsingenieur / Ingenieur / Betriebswirt (m/w/d) als Kundenberater/in im Vertriebsinnen- und Außendienst Intermas Austria Gesellschaft m.b.H. Wien, Österreich Intermas Austria Gesellschaft m.b.H. * Wien, Österreich * Feste Anstellung * Vollzeit - Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. * Beratung der Kunden am Telefon und bei Bedarf vor Ort * Vorkalkulation der kundenspezifischen Projekte * Erstellen von Angeboten * Bearbeitung von Aufträgen * Projektmanagement * Teilnahme an Fachmessen * eine fundierte technische Ausbildung mit gutem kaufmännischen Verständnis * Erfahrung im Verkauf von technischen Produkten * sicheres Auftreten * Verhandlungsgeschick * Team- und Kommunikationsfähigkeit * Reisebereitschaft - Außerdem bringen Sie Verantwortungsbereitschaft und Eigeninitiative ebenso mit wie Einsatzbereitschaft und Belastbarkeit. Mit den gängigen MS-Office-Anwendungen sind Sie vertraut. Aufgrund unserer internationalen Ausrichtung sind gute Englischkenntnisse Voraussetzung. Intermas Austria Gesellschaft m.b.H. * Wien, Österreich * Feste Anstellung * Vollzeit - Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. * Beratung der Kunden am Telefon und bei Bedarf vor Ort * Vorkalkulation der kundenspezifischen Projekte * Erstellen von Angeboten * Bearbeitung von Aufträgen * Projektmanagement * Teilnahme an Fachmessen * eine fundierte technische Ausbildung mit gutem kaufmännischen Verständnis * Erfahrung im Verkauf von technischen Produkten * sicheres Auftreten * Verhandlungsgeschick * Team- und Kommunikationsfähigkeit * Reisebereitschaft - Außerdem bringen Sie Verantwortungsbereitschaft und Eigeninitiative ebenso mit wie Einsatzbereitschaft und Belastbarkeit. Mit den gängigen MS-Office-Anwendungen sind Sie vertraut. Aufgrund unserer internationalen Ausrichtung sind gute Englischkenntnisse Voraussetzung. mehr vor 1 Tag",
+        "snippet": "Wirtschaftsingenieur / Ingenieur / Betriebswirt (m/w/d) als Kundenberater/in im Vertriebsinnen- und Außendienst Intermas Austria Gesellschaft m.b.H. Wien, Österreich Intermas Austria Gesellschaft m.b.H. * Wien, Österreich * Feste Anstellung * Vollzeit - Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. * Beratung der Kunden am Telefon und bei Bedarf vor Ort * Vorkalkulation der kundenspezifischen Projekte * Erstellen von Angeboten * Bearbeitung von Aufträgen * Projektmanagement * Teilnahme an Fachmessen * eine fundierte technische Ausbildung mit gutem kaufmännischen Verständnis * Erfahrung im Verkauf von technischen Produkten * sicheres Auftreten * Verhandlungsgeschick * Team- und Kommunikationsfähigkeit * Reisebereitschaft - Außerdem bringen Sie Verantwortungsbereitschaft und Eigeninitiative ebenso mit wie Einsatzbereitschaft und Belastbarkeit. Mit den gängigen MS-Office-Anwendungen sind Sie vertraut. Aufgrund unserer internationalen Ausrichtung sind gute Englischkenntnisse Voraussetzung. Intermas Austria Gesellschaft m.b.H. * Wien, Österreich * Feste Anstellung * Vollzeit - Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. * Beratung der Kunden am Telefon und bei Bedarf vor Ort * Vorkalkulation der kundenspezifischen Projekte * Erstellen von Angeboten * Bearbeitung von Aufträgen * Projektmanagement * Teilnahme an Fachmessen * eine fundierte technische Ausbildung mit gutem kaufmännischen Verständnis * Erfahrung im Verkauf von technischen Produkten * sicheres Auftreten * Verhandlungsgeschick * Team- und Kommunikationsfähigkeit * Reisebereitschaft - Außerdem bringen Sie Verantwortungsbereitschaft und Eigeninitiative ebenso mit wie Einsatzbereitschaft und Belastbarkeit. Mit den gängigen MS-Office-Anwendungen sind Sie vertraut. Aufgrund unserer internationalen Ausrichtung sind gute Englischkenntnisse Voraussetzung. mehr vor 2 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "2861d7e2a634efb5e272cbd48bb300db58588a637e11e4a93d83d52cd2b8809d"
+        "fingerprint": "42b75c8b7d8f1ddc4a98a329beab1ad5d54e4a285842e47768b4680122e13a44"
       },
       {
         "id": "stepstone:984225",
@@ -1621,11 +1607,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Mitarbeiterin-Forderungsmanagement-w-m-d-bank99-Wien-bank99-AG--986189-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Feste Anstellung",
-        "published_at": "vor 6 Tagen",
+        "published_at": "vor 1 Woche",
         "department": null,
-        "snippet": "Mitarbeiter*in Forderungsmanagement (w/m/d) - bank99 bank99 AG Wien bank99 AG * Wien * Feste Anstellung * Vollzeit - Das sind wir - Bei der bank99 arbeiten wir daran, Banking einfach, transparent und flexibel zu gestalten. Wir verbinden digitale Lösungen mit persönlicher Betreuung und einem starken Netzwerk – und wollen für unsere Kund*innen genau dann da sein, wenn sie uns brauchen. Damit Banking nicht nur funktioniert, sondern auch zu ihrem Leben passt. Dieses Kund*innenversprechen möchten wir weiter stärken. Deshalb suchen wir Menschen, die sich mit Engagement, Verlässlichkeit, praktischen Lösungen und Qualität einbringen. Worauf es in diesem Job ankommt * Du sicherst die Einbringlichkeit von Forderungen bei notleidenden und laufenden Produkten. * Du entscheidest eigenständig über Zahlungsvereinbarungen und Abschreibungen bis 300.000 EUR. * Du steuerst Inkasso- und Klagsfälle inklusive Fälligstellungen. bank99 AG * Wien * Feste Anstellung * Vollzeit - Das sind wir - Bei der bank99 arbeiten wir daran, Banking einfach, transparent und flexibel zu gestalten. Wir verbinden digitale Lösungen mit persönlicher Betreuung und einem starken Netzwerk – und wollen für unsere Kund*innen genau dann da sein, wenn sie uns brauchen. Damit Banking nicht nur funktioniert, sondern auch zu ihrem Leben passt. Dieses Kund*innenversprechen möchten wir weiter stärken. Deshalb suchen wir Menschen, die sich mit Engagement, Verlässlichkeit, praktischen Lösungen und Qualität einbringen. Worauf es in diesem Job ankommt * Du sicherst die Einbringlichkeit von Forderungen bei notleidenden und laufenden Produkten. * Du entscheidest eigenständig über Zahlungsvereinbarungen und Abschreibungen bis 300.000 EUR. * Du steuerst Inkasso- und Klagsfälle inklusive Fälligstellungen. mehr vor 6 Tagen",
+        "snippet": "Mitarbeiter*in Forderungsmanagement (w/m/d) - bank99 bank99 AG Wien bank99 AG * Wien * Feste Anstellung * Vollzeit - Das sind wir - Bei der bank99 arbeiten wir daran, Banking einfach, transparent und flexibel zu gestalten. Wir verbinden digitale Lösungen mit persönlicher Betreuung und einem starken Netzwerk – und wollen für unsere Kund*innen genau dann da sein, wenn sie uns brauchen. Damit Banking nicht nur funktioniert, sondern auch zu ihrem Leben passt. Dieses Kund*innenversprechen möchten wir weiter stärken. Deshalb suchen wir Menschen, die sich mit Engagement, Verlässlichkeit, praktischen Lösungen und Qualität einbringen. Worauf es in diesem Job ankommt * Du sicherst die Einbringlichkeit von Forderungen bei notleidenden und laufenden Produkten. * Du entscheidest eigenständig über Zahlungsvereinbarungen und Abschreibungen bis 300.000 EUR. * Du steuerst Inkasso- und Klagsfälle inklusive Fälligstellungen. bank99 AG * Wien * Feste Anstellung * Vollzeit - Das sind wir - Bei der bank99 arbeiten wir daran, Banking einfach, transparent und flexibel zu gestalten. Wir verbinden digitale Lösungen mit persönlicher Betreuung und einem starken Netzwerk – und wollen für unsere Kund*innen genau dann da sein, wenn sie uns brauchen. Damit Banking nicht nur funktioniert, sondern auch zu ihrem Leben passt. Dieses Kund*innenversprechen möchten wir weiter stärken. Deshalb suchen wir Menschen, die sich mit Engagement, Verlässlichkeit, praktischen Lösungen und Qualität einbringen. Worauf es in diesem Job ankommt * Du sicherst die Einbringlichkeit von Forderungen bei notleidenden und laufenden Produkten. * Du entscheidest eigenständig über Zahlungsvereinbarungen und Abschreibungen bis 300.000 EUR. * Du steuerst Inkasso- und Klagsfälle inklusive Fälligstellungen. mehr vor 1 Woche",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "df82487d20b1b55abc792440a60e4f221ef954075209f6f4b42e4801cc2e2404"
+        "fingerprint": "cd843670d1ed02de88af253a379e57c2070a76bdc0be6fab735899d740870745"
       },
       {
         "id": "stepstone:978610",
@@ -1651,11 +1637,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Unternehmensjuristen-Inhouse-Legal-m-w-D-Wien-Landstrasse-LBG-Oesterreich-GmbH-Wirtschaftspruefung-Steuerberatung--633580-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Feste Anstellung",
-        "published_at": "vor 22 Stunden",
-        "department": "NEU",
-        "snippet": "Unternehmensjuristen/Inhouse Legal (m/w/D) LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung Wien-Landstraße LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung * Wien-Landstraße * Feste Anstellung * Vollzeit - Herzlich willkommen im Team bei LBG Österreich. Wir arbeiten seit mehr als 80 Jahren mit großem Engagement und Erfolg am Puls der österreichischen Wirtschaft. Tagtäglich sind wir gefordert, wenn's um wirtschaftlich und steuerlich durchdachte Lösungen im Unternehmensalltag geht, bei der Kalkulation und Planung, bei Investitionen und der Finanzierung, bei Kauf und Verkauf, bei der Gründung und Nachfolge und vielem mehr. Wir führen das Finanz- und Rechnungswesen unserer Kunden, erarbeiten aussagekräftige betriebswirtschaftliche Auswertungen und zeigen Handlungsmöglichkeiten auf, erstellen Jahresabschlüsse und Steuererklärungen, sorgen für zuverlässige Jahresabschluss- und Sonderprüfungen, führen die Personalverrechnung und beraten in lohnsteuerlichen, sozialversicherungs- ... LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung * Wien-Landstraße * Feste Anstellung * Vollzeit - Herzlich willkommen im Team bei LBG Österreich. Wir arbeiten seit mehr als 80 Jahren mit großem Engagement und Erfolg am Puls der österreichischen Wirtschaft. Tagtäglich sind wir gefordert, wenn's um wirtschaftlich und steuerlich durchdachte Lösungen im Unternehmensalltag geht, bei der Kalkulation und Planung, bei Investitionen und der Finanzierung, bei Kauf und Verkauf, bei der Gründung und Nachfolge und vielem mehr. Wir führen das Finanz- und Rechnungswesen unserer Kunden, erarbeiten aussagekräftige betriebswirtschaftliche Auswertungen und zeigen Handlungsmöglichkeiten auf, erstellen Jahresabschlüsse und Steuererklärungen, sorgen für zuverlässige Jahresabschluss- und Sonderprüfungen, führen die Personalverrechnung und beraten in lohnsteuerlichen, sozialversicherungs- ... mehr vor 22 Stunden NEU",
+        "published_at": "vor 1 Tag",
+        "department": null,
+        "snippet": "Unternehmensjuristen/Inhouse Legal (m/w/D) LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung Wien-Landstraße LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung * Wien-Landstraße * Feste Anstellung * Vollzeit - Herzlich willkommen im Team bei LBG Österreich. Wir arbeiten seit mehr als 80 Jahren mit großem Engagement und Erfolg am Puls der österreichischen Wirtschaft. Tagtäglich sind wir gefordert, wenn's um wirtschaftlich und steuerlich durchdachte Lösungen im Unternehmensalltag geht, bei der Kalkulation und Planung, bei Investitionen und der Finanzierung, bei Kauf und Verkauf, bei der Gründung und Nachfolge und vielem mehr. Wir führen das Finanz- und Rechnungswesen unserer Kunden, erarbeiten aussagekräftige betriebswirtschaftliche Auswertungen und zeigen Handlungsmöglichkeiten auf, erstellen Jahresabschlüsse und Steuererklärungen, sorgen für zuverlässige Jahresabschluss- und Sonderprüfungen, führen die Personalverrechnung und beraten in lohnsteuerlichen, sozialversicherungs- ... LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung * Wien-Landstraße * Feste Anstellung * Vollzeit - Herzlich willkommen im Team bei LBG Österreich. Wir arbeiten seit mehr als 80 Jahren mit großem Engagement und Erfolg am Puls der österreichischen Wirtschaft. Tagtäglich sind wir gefordert, wenn's um wirtschaftlich und steuerlich durchdachte Lösungen im Unternehmensalltag geht, bei der Kalkulation und Planung, bei Investitionen und der Finanzierung, bei Kauf und Verkauf, bei der Gründung und Nachfolge und vielem mehr. Wir führen das Finanz- und Rechnungswesen unserer Kunden, erarbeiten aussagekräftige betriebswirtschaftliche Auswertungen und zeigen Handlungsmöglichkeiten auf, erstellen Jahresabschlüsse und Steuererklärungen, sorgen für zuverlässige Jahresabschluss- und Sonderprüfungen, führen die Personalverrechnung und beraten in lohnsteuerlichen, sozialversicherungs- ... mehr vor 1 Tag",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "39443e28fb13e8cd6193eb1b2ae2d2b9ec26ae6d0724674ad96a4689be79ba3e"
+        "fingerprint": "df7d9e15fe3e70947615d097fcecfba4d52becc2f010a1d8c22dc59c317f87f1"
       }
     ]
   }
