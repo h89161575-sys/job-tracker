@@ -9,6 +9,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from job_tracker import (  # noqa: E402
     JOB_SNAPSHOT_NAME,
     compare_new_jobs,
+    decode_response_body,
     dedupe_cross_source_jobs,
     filter_erste_bank_jobs,
     find_cross_source_duplicate,
@@ -48,7 +49,13 @@ def sample_job(job_id, title="Jurist:in", source="jusjobs"):
 
 def test_normalization():
     assert_equal(normalize_text("<b> Legal&nbsp; Counsel </b>"), "Legal Counsel", "normalize_text")
+    assert_equal(normalize_text("\u00c3\u201e\u0072ztekammer f\u00c3\u00bc\u0072 Wien \u00e2\u201a\u00ac 3.500"), "\u00c4rztekammer f\u00fcr Wien \u20ac 3.500", "mojibake repair")
     assert_equal(slugify("Jurist:in für Vertrags- & Gesellschaftsrecht"), "jurist-in-fuer-vertrags-gesellschaftsrecht", "slugify")
+    assert_equal(
+        decode_response_body("Rechtsanwaltsanw\u00e4rter:in \u2013 \u20ac".encode("cp1252"), "utf-8"),
+        "Rechtsanwaltsanw\u00e4rter:in \u2013 \u20ac",
+        "decode cp1252 fallback",
+    )
     first = job_fingerprint(sample_job("1"))
     second = job_fingerprint(sample_job("1"))
     assert_equal(first, second, "stable fingerprint")
@@ -159,6 +166,15 @@ def test_karriere_at_state_filter():
                             "locations": [{"name": "Salzburg"}],
                         }
                     },
+                    {
+                        "jobsItem": {
+                            "id": "1000",
+                            "link": "https://www.karriere.at/jobs/1000",
+                            "title": "Jurist*in Wiener Neustadt",
+                            "company": {"name": "Andere AG"},
+                            "locations": [{"name": "Wiener Neustadt"}],
+                        }
+                    },
                 ]
             }
         }
@@ -205,6 +221,11 @@ def test_cross_source_dedupe_same_position():
     deduped = dedupe_cross_source_jobs([derstandard_job, lawfinder_job, different_role])
     assert_equal([job["id"] for job in deduped], ["derstandard:100", "lawfinder:201"], "cross-source dedupe")
     assert_true(find_cross_source_duplicate(lawfinder_job, [derstandard_job]), "cross-source duplicate lookup")
+    wiener_neustadt_job = dict(lawfinder_job, id="lawfinder:202", location="Wiener Neustadt")
+    assert_true(
+        not find_cross_source_duplicate(wiener_neustadt_job, [derstandard_job]),
+        "wiener neustadt is not wien for dedupe",
+    )
 
 
 def test_run_job_tracker_snapshot_flow():

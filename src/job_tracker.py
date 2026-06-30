@@ -110,6 +110,9 @@ def _repair_common_utf8_mojibake(text: str) -> str:
         return text
 
     markers = (
+        "Ã",
+        "Â",
+        "â",
         "Ã¢â‚¬â„¢",
         "Ã¢â‚¬Å“",
         "Ã¢â‚¬Â",
@@ -137,6 +140,30 @@ def _repair_common_utf8_mojibake(text: str) -> str:
             best_hits = repaired_hits
 
     return best_text
+
+
+def _text_decode_score(text: str) -> int:
+    mojibake_markers = ("�", "Ã", "Â", "â")
+    return sum(text.count(marker) for marker in mojibake_markers)
+
+
+def decode_response_body(raw: bytes, charset: Optional[str]) -> str:
+    encodings: List[str] = []
+    for encoding in (charset, "utf-8", "cp1252", "latin-1"):
+        if encoding and encoding.lower() not in [item.lower() for item in encodings]:
+            encodings.append(encoding)
+
+    candidates: List[Tuple[int, str]] = []
+    for encoding in encodings:
+        try:
+            decoded = raw.decode(encoding)
+        except UnicodeDecodeError:
+            decoded = raw.decode(encoding, errors="replace")
+        candidates.append((_text_decode_score(decoded), decoded))
+
+    if not candidates:
+        return raw.decode("utf-8", errors="replace")
+    return min(candidates, key=lambda item: item[0])[1]
 
 
 def slugify(text: str) -> str:
@@ -321,9 +348,14 @@ def _company_match_key(company: Any) -> str:
     return "-".join(_tokenize_match_text(company, COMPANY_MATCH_STOPWORDS))
 
 
+def _is_wien_location_text(location: Any) -> bool:
+    parts = slugify(normalize_text(location)).split("-")
+    return "wien" in parts or "vienna" in parts
+
+
 def _location_match_key(location: Any) -> str:
     location_slug = slugify(normalize_text(location))
-    if "wien" in location_slug.split("-") or location_slug.endswith("-wien") or "wien" in location_slug:
+    if _is_wien_location_text(location):
         return "wien"
     return location_slug
 
@@ -436,7 +468,7 @@ def fetch_url(
                     raw = zlib.decompress(raw, -zlib.MAX_WBITS)
 
             charset = response.headers.get_content_charset() or "utf-8"
-            decoded = raw.decode(charset, errors="replace")
+            decoded = decode_response_body(raw, charset)
             if is_json:
                 return json.loads(decoded), None
             return decoded, None
@@ -541,6 +573,11 @@ def parse_jusjobs_jobs_from_html(html: str, fetched_at: Optional[str] = None) ->
             r"(€\s*[0-9][0-9.,]*(?:\s*(?:bis|-|–)\s*€?\s*[0-9][0-9.,]*)?)",
             card_text,
         )
+        if not salary_match:
+            salary_match = re.search(
+                r"(\u20ac\s*[0-9][0-9.,]*(?:\s*(?:bis|-|\u2013)\s*\u20ac?\s*[0-9][0-9.,]*)?)",
+                card_text,
+            )
         employment_match = re.search(r"\b(Vollzeit|Teilzeit|Praktikum|Trainee)\b", card_text, re.IGNORECASE)
 
         jobs.append(
@@ -945,7 +982,7 @@ def parse_karriere_jobs_from_state(state: Dict[str, Any], fetched_at: Optional[s
                 if location_name:
                     locations.append(location_name)
         location_text = ", ".join(locations)
-        if location_text and "wien" not in location_text.lower():
+        if location_text and not _is_wien_location_text(location_text):
             continue
 
         company = raw.get("company") or {}
