@@ -1,48 +1,48 @@
 {
-  "timestamp": "2026-07-02T11:58:25.682258Z",
+  "timestamp": "2026-07-02T14:25:53.912793Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-02T11:58:25.682258Z",
+        "last_success": "2026-07-02T14:25:53.912793Z",
         "last_error": null,
         "count": 16
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-02T11:58:25.682258Z",
+        "last_success": "2026-07-02T14:25:53.912793Z",
         "last_error": null,
         "count": 0
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-02T11:58:25.682258Z",
+        "last_success": "2026-07-02T14:25:53.912793Z",
         "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-02T11:58:25.682258Z",
+        "last_success": "2026-07-02T14:25:53.912793Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-02T11:58:25.682258Z",
+        "last_success": "2026-07-02T14:25:53.912793Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-02T11:58:25.682258Z",
+        "last_success": "2026-07-02T14:25:53.912793Z",
         "last_error": null,
         "count": 58
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-01T22:09:25.538884Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 34
       }
     },
@@ -152,19 +152,6 @@
         "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
       },
       {
-        "id": "jusjobs:1802957",
-        "source": "jusjobs",
-        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
-        "company": "Medved & Partner OG",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1802957",
-        "salary": "€ 5.714",
-        "employment_type": "Vollzeit",
-        "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
-      },
-      {
         "id": "jusjobs:1803129",
         "source": "jusjobs",
         "title": "Jurist:in",
@@ -176,6 +163,19 @@
         "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
+      },
+      {
+        "id": "jusjobs:1802957",
+        "source": "jusjobs",
+        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
+        "company": "Medved & Partner OG",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1802957",
+        "salary": "€ 5.714",
+        "employment_type": "Vollzeit",
+        "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
       },
       {
         "id": "jusjobs:1782441",
@@ -738,10 +738,10 @@
         "url": "https://www.karriere.at/jobs/7832501",
         "salary": "ab 56.854 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "24.6.2026",
         "snippet": "Jetzt bewerben Jurist:in mit Schwerpunkt IT-Vertragsrecht ÖBB-BCC GmbH Wien-Leopoldstadt, Wien, 1020, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25594 Wir möchten neue Wege...",
         "first_seen": "2026-06-24T15:14:16.915261Z",
-        "fingerprint": "37367de00d5107975243010536bdd920dd82f4d072ecb33cdf0ded6b4dc4ecf7"
+        "fingerprint": "dbc3cd377527bb1a48bec2bd1185a4201589ffd7c1e8f9495ceb6c0700be0ff9"
       },
       {
         "id": "karriere_at:7825559",
