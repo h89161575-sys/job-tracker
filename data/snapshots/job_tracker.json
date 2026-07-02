@@ -1,48 +1,48 @@
 {
-  "timestamp": "2026-07-02T09:39:20.745850Z",
+  "timestamp": "2026-07-02T11:58:25.682258Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-02T09:39:20.745850Z",
+        "last_success": "2026-07-02T11:58:25.682258Z",
         "last_error": null,
-        "count": 17
+        "count": 16
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-02T09:39:20.745850Z",
+        "last_success": "2026-07-02T11:58:25.682258Z",
         "last_error": null,
         "count": 0
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-02T09:39:20.745850Z",
+        "last_success": "2026-07-02T11:58:25.682258Z",
         "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-02T09:39:20.745850Z",
+        "last_success": "2026-07-02T11:58:25.682258Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-02T09:39:20.745850Z",
+        "last_success": "2026-07-02T11:58:25.682258Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-02T09:39:20.745850Z",
+        "last_success": "2026-07-02T11:58:25.682258Z",
         "last_error": null,
         "count": 58
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-01T22:09:25.538884Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 34
       }
     },
@@ -137,19 +137,6 @@
         "snippet": "Tätigkeiten 30 Wochenstunden oder Vollzeit Wir sind eine renommierte österreichische Anwaltsgesellschaft mit Hauptstandorten in Wien und Linz, sowie ständigen Kooperationsbüros in…",
         "first_seen": "2026-06-18T11:58:20.988656Z",
         "fingerprint": "f225efd1a1024f0a529b5c2c587c559291f7e2a6dbd0db4093c28b01a8ea6638"
-      },
-      {
-        "id": "jusjobs:1625057",
-        "source": "jusjobs",
-        "title": "Legal Counsel (m/w/d), Graz und Wien, (AT)",
-        "company": "Neuroth AG",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1625057",
-        "salary": "€ 3.800",
-        "employment_type": "Vollzeit",
-        "snippet": "Aufgaben: Prüfung, Erstellung und Verhandlung von Verträgen Beratung der Fachbereiche sowie Tochtergesellschaften in allen rechtlichen Belangen Corporate Housekeeping und…",
-        "first_seen": "2026-06-18T11:58:20.988656Z",
-        "fingerprint": "6722a712cf9a96444eb5005e9f01af006e7df98166a01ee8fc9475ec0399f3a8"
       },
       {
         "id": "jusjobs:1803039",
@@ -401,10 +388,10 @@
         "url": "https://www.karriere.at/jobs/7835189",
         "salary": "ab 4.785 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Legal Counsel, Vollzeit, Hybrid, Wien, Österreich, Mit Berufserfahrung, 30.06.26 Über uns Axians ICT Austria GmbH arbeitet in strategischen Partnerschaften in der IT-Dienstleistung...",
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "8329d01e8b73ece56b1128bf8f8b821cf6a09fc1df7fef8560321518188ae546"
+        "fingerprint": "2306811f5337154005fbbfd32ef5d70cdc8010c9b643703f67b0b3f4d7524e47"
       },
       {
         "id": "karriere_at:7821314",
@@ -447,6 +434,20 @@
         "snippet": "Ihre Aufgaben: Vielseitig wie der Handel, Sie steuern zentrale Themen im Datenschutz- und Vertragsrecht, entwickeln klare Leitlinien und stellen deren wirksame Umsetzung im jö Bonus Club sicher. In dieser...",
         "first_seen": "2026-06-29T09:57:01.141761Z",
         "fingerprint": "defce3f78e8901bdba1523ddf66162995f300acb9593d64abd8b0a8377d3353d"
+      },
+      {
+        "id": "karriere_at:7822166",
+        "source": "karriere_at",
+        "title": "Legal Counsel (m/w/d), Graz und Wien,",
+        "company": "Neuroth",
+        "location": "Graz, Wien",
+        "url": "https://www.karriere.at/jobs/7822166",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Deine Aufgaben: Prüfung, Erstellung und Verhandlung von Verträgen, Beratung der Fachbereiche sowie Tochtergesellschaften in allen rechtlichen Belangen, Corporate Housekeeping und Unterstützung in...",
+        "first_seen": "2026-06-18T11:58:20.988656Z",
+        "fingerprint": "daac60dd74225e7492ab8f21a30643f29fd60346264d93584a25ff1a7a689b7b"
       },
       {
         "id": "karriere_at:7809287",
@@ -541,10 +542,10 @@
         "url": "https://www.karriere.at/jobs/7835258",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabengebiet: Ausarbeitung und Bearbeitung datenschutzrechtlicher Fragestellungen sowie Durchführung von internen rechtlichen Schulungen im Unternehmen, Ansprechpartner für Datenschutz- und IT-Recht, Betreuung...",
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "2f477d4f7bd6e7a9522041599b52e362802cf8884c693e8231573454e5e33582"
+        "fingerprint": "557dfba34c6f1c40c185710c2102b08e1750f44e9b5535b3c5d6f5ef08855910"
       },
       {
         "id": "karriere_at:7811402",
@@ -849,10 +850,10 @@
         "url": "https://www.karriere.at/jobs/10024650",
         "salary": "ab 2.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "b733d0c39186655f321b5e0b4d9304426322afc3c0403517511280c50c27bfbd"
+        "fingerprint": "8ec773114e9304afe4ffa0f222d6eaffb0ee9828e286a7b24726b4b5c2c366c2"
       },
       {
         "id": "karriere_at:7816376",
