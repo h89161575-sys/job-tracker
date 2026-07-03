@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-03T05:34:09.937185Z",
+  "timestamp": "2026-07-03T08:38:56.336125Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-03T05:34:09.937185Z",
+        "last_success": "2026-07-03T08:38:56.336125Z",
         "last_error": null,
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-03T05:34:09.937185Z",
+        "last_success": "2026-07-03T08:38:56.336125Z",
         "last_error": null,
         "count": 0
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-03T05:34:09.937185Z",
+        "last_success": "2026-07-03T08:38:56.336125Z",
         "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-03T05:34:09.937185Z",
+        "last_success": "2026-07-03T08:38:56.336125Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-03T05:34:09.937185Z",
+        "last_success": "2026-07-03T08:38:56.336125Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-03T05:34:09.937185Z",
+        "last_success": "2026-07-03T08:38:56.336125Z",
         "last_error": null,
         "count": 57
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-03T05:34:09.937185Z",
-        "last_error": null,
-        "count": 34
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 32
       }
     },
     "jobs": [
@@ -152,6 +152,19 @@
         "fingerprint": "f225efd1a1024f0a529b5c2c587c559291f7e2a6dbd0db4093c28b01a8ea6638"
       },
       {
+        "id": "jusjobs:1803039",
+        "source": "jusjobs",
+        "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
+        "company": "Wiener Wohnen Hausbetreuung GmbH",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1803039",
+        "salary": "€ 3.800",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
+      },
+      {
         "id": "jusjobs:1802957",
         "source": "jusjobs",
         "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
@@ -176,19 +189,6 @@
         "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
-      },
-      {
-        "id": "jusjobs:1803039",
-        "source": "jusjobs",
-        "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
-        "company": "Wiener Wohnen Hausbetreuung GmbH",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1803039",
-        "salary": "€ 3.800",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
       },
       {
         "id": "jusjobs:1782441",
@@ -345,10 +345,10 @@
         "url": "https://www.karriere.at/jobs/10024281",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-29T09:57:01.141761Z",
-        "fingerprint": "3c92a7d65c7dca44c55f73ebdcd95181bf63d046dfe56221280c997e5ced3c1d"
+        "fingerprint": "9bfda7f946f169e4899b6bad2d5c57f774d78837da78aeeed914fc18b184eaf9"
       },
       {
         "id": "karriere_at:10022360",
@@ -583,10 +583,10 @@
         "url": "https://www.karriere.at/jobs/7836029",
         "salary": "ab 47.600 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Bei uns im Team: Unterstütze und berate intern im Tagesgeschäft zu diversen rechtlichen Themen mit dem Schwerpunkt Arbeitsrecht, Recherchiere zu ausgewählten Rechtsfragen und erarbeite...",
         "first_seen": "2026-07-01T08:44:53.200651Z",
-        "fingerprint": "e5761b1d0975756024a08f5b233395e1f86c02987c5606417698072c35e36974"
+        "fingerprint": "852422674c1efb79d1feb376f3ee76c7be283fb5f1a7a19f1b7f2a1390b10096"
       },
       {
         "id": "karriere_at:7835258",
