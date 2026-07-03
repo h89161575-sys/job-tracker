@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-03T13:19:11.052886Z",
+  "timestamp": "2026-07-03T15:32:05.166076Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-03T13:19:11.052886Z",
+        "last_success": "2026-07-03T15:32:05.166076Z",
         "last_error": null,
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-03T13:19:11.052886Z",
+        "last_success": "2026-07-03T15:32:05.166076Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-03T13:19:11.052886Z",
+        "last_success": "2026-07-03T15:32:05.166076Z",
         "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-03T13:19:11.052886Z",
+        "last_success": "2026-07-03T15:32:05.166076Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-03T13:19:11.052886Z",
+        "last_success": "2026-07-03T15:32:05.166076Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-03T13:19:11.052886Z",
+        "last_success": "2026-07-03T15:32:05.166076Z",
         "last_error": null,
         "count": 57
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-07-03T11:20:43.870862Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 32
+        "last_success": "2026-07-03T15:32:05.166076Z",
+        "last_error": null,
+        "count": 34
       }
     },
     "jobs": [
@@ -152,17 +152,17 @@
         "fingerprint": "f225efd1a1024f0a529b5c2c587c559291f7e2a6dbd0db4093c28b01a8ea6638"
       },
       {
-        "id": "jusjobs:1803039",
+        "id": "jusjobs:1803129",
         "source": "jusjobs",
-        "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
-        "company": "Wiener Wohnen Hausbetreuung GmbH",
+        "title": "Jurist:in",
+        "company": "Österreichische Bundesfinanzierungsagentur (OeBFA)",
         "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1803039",
-        "salary": "€ 3.800",
+        "url": "https://www.jusjobs.at/job/1803129",
+        "salary": "€ 3.000",
         "employment_type": "Vollzeit",
-        "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
+        "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
+        "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
       },
       {
         "id": "jusjobs:1802957",
@@ -178,17 +178,17 @@
         "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
       },
       {
-        "id": "jusjobs:1803129",
+        "id": "jusjobs:1803039",
         "source": "jusjobs",
-        "title": "Jurist:in",
-        "company": "Österreichische Bundesfinanzierungsagentur (OeBFA)",
+        "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
+        "company": "Wiener Wohnen Hausbetreuung GmbH",
         "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1803129",
-        "salary": "€ 3.000",
+        "url": "https://www.jusjobs.at/job/1803039",
+        "salary": "€ 3.800",
         "employment_type": "Vollzeit",
-        "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
+        "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
+        "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
       },
       {
         "id": "jusjobs:1782441",
@@ -230,19 +230,6 @@
         "fingerprint": "c268bc6fda9650cdd1965e1e0458d81bb60ec3c0eb1cf569dddb2ad0d597e9ad"
       },
       {
-        "id": "jusjobs:1799425",
-        "source": "jusjobs",
-        "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
-        "company": "Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1799425",
-        "salary": "€ 3.838",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
-      },
-      {
         "id": "jusjobs:1799423",
         "source": "jusjobs",
         "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
@@ -254,6 +241,19 @@
         "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht,…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
+      },
+      {
+        "id": "jusjobs:1799425",
+        "source": "jusjobs",
+        "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
+        "company": "Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1799425",
+        "salary": "€ 3.838",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
       },
       {
         "id": "jusjobs:1798865",
@@ -1100,11 +1100,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Jurist-in-26-6-FSW-Guglgasse-7-9-Wien-1030-Fonds-Soziales-Wien--987797-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Teilzeit, Befristeter Vertrag",
-        "published_at": "vor 18 Stunden",
+        "published_at": "vor 11 Stunden",
         "department": "NEU",
-        "snippet": "Jurist:in (26/6/FSW) Fonds Soziales Wien Guglgasse 7-9, Wien, 1030 Fonds Soziales Wien * Guglgasse 7-9, Wien, 1030 * Befristeter Vertrag * Teilzeit, Vollzeit - Sei einer der ersten Bewerber (24 bzw. 40 Wochenstunden - befristet) Der Bereich Recht begleitet und unterstützt in rechtlichen Belangen rund um spezielle Anforderungen im Sozialwesen. Mit Ihrem fundierten juristischen Blick und Ihrem praktischen Verständnis für unternehmerische Prozesse schaffen Sie Struktur, minimieren Risiken und gestalten Verträge verständlich. Ihr Talent heißt Lösungsfindung - Unser Talent heißt Vielfalt. Gestalten Sie mit uns eine soziale Zukunft * Mit Ihrem Fachwissen und Ihrer Erfahrung betreuen Sie die FSW-Unternehmensgruppe umfassend in rechtlichen Belangen. * Mit Ihrem juristischen Feingefühl beantworten Sie interne rechtliche Anfragen sowohl im Bereich des Zivil- als auch des öffentlichen Rechts und begleiten Projekte - lösungsorientiert, verständlich und ... Fonds Soziales Wien * Guglgasse 7-9, Wien, 1030 * Befristeter Vertrag * Teilzeit, Vollzeit - Sei einer der ersten Bewerber (24 bzw. 40 Wochenstunden - befristet) Der Bereich Recht begleitet und unterstützt in rechtlichen Belangen rund um spezielle Anforderungen im Sozialwesen. Mit Ihrem fundierten juristischen Blick und Ihrem praktischen Verständnis für unternehmerische Prozesse schaffen Sie Struktur, minimieren Risiken und gestalten Verträge verständlich. Ihr Talent heißt Lösungsfindung - Unser Talent heißt Vielfalt. Gestalten Sie mit uns eine soziale Zukunft * Mit Ihrem Fachwissen und Ihrer Erfahrung betreuen Sie die FSW-Unternehmensgruppe umfassend in rechtlichen Belangen. * Mit Ihrem juristischen Feingefühl beantworten Sie interne rechtliche Anfragen sowohl im Bereich des Zivil- als auch des öffentlichen Rechts und begleiten Projekte - lösungsorientiert, verständlich und ... mehr vor 18 Stunden NEU",
+        "snippet": "Jurist:in (26/6/FSW) Fonds Soziales Wien Guglgasse 7-9, Wien, 1030 Fonds Soziales Wien * Guglgasse 7-9, Wien, 1030 * Befristeter Vertrag * Teilzeit, Vollzeit - Sei einer der ersten Bewerber (24 bzw. 40 Wochenstunden - befristet) Der Bereich Recht begleitet und unterstützt in rechtlichen Belangen rund um spezielle Anforderungen im Sozialwesen. Mit Ihrem fundierten juristischen Blick und Ihrem praktischen Verständnis für unternehmerische Prozesse schaffen Sie Struktur, minimieren Risiken und gestalten Verträge verständlich. Ihr Talent heißt Lösungsfindung - Unser Talent heißt Vielfalt. Gestalten Sie mit uns eine soziale Zukunft * Mit Ihrem Fachwissen und Ihrer Erfahrung betreuen Sie die FSW-Unternehmensgruppe umfassend in rechtlichen Belangen. * Mit Ihrem juristischen Feingefühl beantworten Sie interne rechtliche Anfragen sowohl im Bereich des Zivil- als auch des öffentlichen Rechts und begleiten Projekte - lösungsorientiert, verständlich und ... Fonds Soziales Wien * Guglgasse 7-9, Wien, 1030 * Befristeter Vertrag * Teilzeit, Vollzeit - Sei einer der ersten Bewerber (24 bzw. 40 Wochenstunden - befristet) Der Bereich Recht begleitet und unterstützt in rechtlichen Belangen rund um spezielle Anforderungen im Sozialwesen. Mit Ihrem fundierten juristischen Blick und Ihrem praktischen Verständnis für unternehmerische Prozesse schaffen Sie Struktur, minimieren Risiken und gestalten Verträge verständlich. Ihr Talent heißt Lösungsfindung - Unser Talent heißt Vielfalt. Gestalten Sie mit uns eine soziale Zukunft * Mit Ihrem Fachwissen und Ihrer Erfahrung betreuen Sie die FSW-Unternehmensgruppe umfassend in rechtlichen Belangen. * Mit Ihrem juristischen Feingefühl beantworten Sie interne rechtliche Anfragen sowohl im Bereich des Zivil- als auch des öffentlichen Rechts und begleiten Projekte - lösungsorientiert, verständlich und ... mehr vor 11 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "bfbf4956a6d62fc2bfe1dc612aaa0c9ccec280fa4beab56f67ce931dc1e22679"
+        "fingerprint": "a6ef8beb0804d607071ec8985098e4068f9d8845871d66dba5c90ba8399a1046"
       },
       {
         "id": "stepstone:981046",
@@ -1145,41 +1145,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-AI-Workflow-Specialist-w-m-d-Wien-l-m-executive-search-consulting-gmbh--985843-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Home Office, Feste Anstellung",
-        "published_at": "vor 4 Tagen",
+        "published_at": "vor 3 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Legal AI Workflow Specialist (w/m/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... mehr vor 4 Tagen",
+        "snippet": "Legal AI Workflow Specialist (w/m/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... mehr vor 3 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "d4f469c3edd51ea745ca61234ebf3c24888583fb7d361352fb27a9bc5c52cc26"
-      },
-      {
-        "id": "stepstone:934778",
-        "source": "stepstone",
-        "title": "Rechtsanwält:in Corporate Restructuring (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Corporate-Restructuring-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934778-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "vor 2 Stunden",
-        "department": "Teilweise Home-Office, NEU",
-        "snippet": "Rechtsanwält:in Corporate Restructuring (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung mehr vor 2 Stunden NEU",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "3ceb38649bfc1d8e58f8db89d9d81c9428f6572df78a10dee07fe3b90acb4dfa"
-      },
-      {
-        "id": "stepstone:934776",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Restrukturierung (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Restrukturierung-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934776-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "vor 3 Stunden",
-        "department": "Teilweise Home-Office, NEU",
-        "snippet": "Rechtsanwaltsanwärter:in Restrukturierung (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung mehr vor 3 Stunden NEU",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "db1d73351313fb0bc79d257e5cee95614d6259b5bede713f772f15cd70956295"
+        "fingerprint": "aec1d61d764539eda7dc3b54e7b9902794e81486b592d1f4373a38d2c2950bdd"
       },
       {
         "id": "stepstone:981820",
@@ -1235,11 +1205,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 5 Tagen",
+        "published_at": "vor 4 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung mehr vor 5 Tagen",
+        "snippet": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung mehr vor 4 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "2d61b4e3f7048d2e862440d9e380353510a5ddc68efb587c5f9d9fbd1ca826a5"
+        "fingerprint": "53cae58c3628be621ecf6d0357f3970e508b2abb727de5b885348fb5aa1339ab"
       },
       {
         "id": "stepstone:984200",
@@ -1250,11 +1220,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-Economic-Affairs-m-w-d-Wien-l-m-executive-search-consulting-gmbh--984200-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Home Office, Feste Anstellung",
-        "published_at": "vor 12 Stunden",
+        "published_at": "vor 5 Stunden",
         "department": "Teilweise Home-Office, NEU",
-        "snippet": "Legal Counsel - Economic Affairs (m/w/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine etablierte Interessenvertretung mit zentraler Rolle an der Schnittstelle zwischen Wirtschaft, Politik und europäischer Regulierung. Für den Standort in zentraler Lage in Wien suchen wir eine engagierte Persönlichkeit als Legal Counsel – Economic Affairs (m/w/d) In dieser spannenden Funktion begleitest du wirtschaftsrechtliche und regulatorische Fragestellungen, wirkst an nationalen und europäischen Entwicklungen mit und vertrittst zentrale wirtschaftspolitische Interessen in einem dynamischen Umfeld - Deine Aufgaben * Juristische Beratung interner und externer Stakeholder zu wirtschaftsrechtlichen und regulatorischen Fragestellungen einschließlich der Prüfung ... l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine etablierte Interessenvertretung mit zentraler Rolle an der Schnittstelle zwischen Wirtschaft, Politik und europäischer Regulierung. Für den Standort in zentraler Lage in Wien suchen wir eine engagierte Persönlichkeit als Legal Counsel – Economic Affairs (m/w/d) In dieser spannenden Funktion begleitest du wirtschaftsrechtliche und regulatorische Fragestellungen, wirkst an nationalen und europäischen Entwicklungen mit und vertrittst zentrale wirtschaftspolitische Interessen in einem dynamischen Umfeld - Deine Aufgaben * Juristische Beratung interner und externer Stakeholder zu wirtschaftsrechtlichen und regulatorischen Fragestellungen einschließlich der Prüfung ... mehr vor 12 Stunden NEU",
+        "snippet": "Legal Counsel - Economic Affairs (m/w/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine etablierte Interessenvertretung mit zentraler Rolle an der Schnittstelle zwischen Wirtschaft, Politik und europäischer Regulierung. Für den Standort in zentraler Lage in Wien suchen wir eine engagierte Persönlichkeit als Legal Counsel – Economic Affairs (m/w/d) In dieser spannenden Funktion begleitest du wirtschaftsrechtliche und regulatorische Fragestellungen, wirkst an nationalen und europäischen Entwicklungen mit und vertrittst zentrale wirtschaftspolitische Interessen in einem dynamischen Umfeld - Deine Aufgaben * Juristische Beratung interner und externer Stakeholder zu wirtschaftsrechtlichen und regulatorischen Fragestellungen einschließlich der Prüfung ... l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine etablierte Interessenvertretung mit zentraler Rolle an der Schnittstelle zwischen Wirtschaft, Politik und europäischer Regulierung. Für den Standort in zentraler Lage in Wien suchen wir eine engagierte Persönlichkeit als Legal Counsel – Economic Affairs (m/w/d) In dieser spannenden Funktion begleitest du wirtschaftsrechtliche und regulatorische Fragestellungen, wirkst an nationalen und europäischen Entwicklungen mit und vertrittst zentrale wirtschaftspolitische Interessen in einem dynamischen Umfeld - Deine Aufgaben * Juristische Beratung interner und externer Stakeholder zu wirtschaftsrechtlichen und regulatorischen Fragestellungen einschließlich der Prüfung ... mehr vor 5 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "a244d17eaa226d97b7630e88eaf5be523aaa50c4ae39ba01c991906db2adf59f"
+        "fingerprint": "023220bc8a4720bfca80dc145a39ca5df03ad7dc3c3253e495681adb55ec34ba"
       },
       {
         "id": "stepstone:990738",
@@ -1265,11 +1235,41 @@
         "url": "https://www.stepstone.at/stellenangebote--Conversion-Rate-Optimization-CRO-Specialist-f-m-d-Wien-HEROLD-Business-Data-GmbH--990738-inline.html",
         "salary": "€ 4.000,",
         "employment_type": "Vollzeit, Home Office, Feste Anstellung",
-        "published_at": "vor 16 Stunden",
+        "published_at": "vor 9 Stunden",
         "department": "Teilweise Home-Office, NEU",
-        "snippet": "Conversion Rate Optimization (CRO) Specialist (f/m/d) HEROLD Business Data GmbH Wien Teilweise Home-Office HEROLD Business Data GmbH * Wien * Feste Anstellung * Home Office, Vollzeit - Sei einer der ersten Bewerber - Werde Teil der group.one – The One Group to win online! Arbeitsort: Wien - Unternehmen: easyname (Schwestergesellschaft von Herold) - group.one - Arbeitszeit: 38,5 Stunden/Woche - Gehalt: ab € 4.000,- brutto/Monat bei 38,5h/Woche - Homeoffice: bis zu 2 Tage möglich - Start: 03. August 2026 - Du verstehst, wie aus Website-Besuchern Kund:innen werden? Dann gestalte als CRO Specialist anspruchsvolle Optimierungsprojekte, treibe datenbasierte Experimente voran und verbessere nachhaltig Nutzererlebnis, Conversion Rates und Geschäftserfolg. Du bist das Bindeglied zwischen Daten, Design und Inhalt. Du übersetzt Erkenntnisse aus der Datenanalyse in konkrete Optimierungsvorschläge und weißt, wie man Hypothesen testet. Dein Ziel ist es die Konversionsraten auf unseren Websites nachhaltig zu steigern, ... HEROLD Business Data GmbH * Wien * Feste Anstellung * Home Office, Vollzeit - Sei einer der ersten Bewerber - Werde Teil der group.one – The One Group to win online! Arbeitsort: Wien - Unternehmen: easyname (Schwestergesellschaft von Herold) - group.one - Arbeitszeit: 38,5 Stunden/Woche - Gehalt: ab € 4.000,- brutto/Monat bei 38,5h/Woche - Homeoffice: bis zu 2 Tage möglich - Start: 03. August 2026 - Du verstehst, wie aus Website-Besuchern Kund:innen werden? Dann gestalte als CRO Specialist anspruchsvolle Optimierungsprojekte, treibe datenbasierte Experimente voran und verbessere nachhaltig Nutzererlebnis, Conversion Rates und Geschäftserfolg. Du bist das Bindeglied zwischen Daten, Design und Inhalt. Du übersetzt Erkenntnisse aus der Datenanalyse in konkrete Optimierungsvorschläge und weißt, wie man Hypothesen testet. Dein Ziel ist es die Konversionsraten auf unseren Websites nachhaltig zu steigern, ... mehr vor 16 Stunden NEU",
+        "snippet": "Conversion Rate Optimization (CRO) Specialist (f/m/d) HEROLD Business Data GmbH Wien Teilweise Home-Office HEROLD Business Data GmbH * Wien * Feste Anstellung * Home Office, Vollzeit - Sei einer der ersten Bewerber - Werde Teil der group.one – The One Group to win online! Arbeitsort: Wien - Unternehmen: easyname (Schwestergesellschaft von Herold) - group.one - Arbeitszeit: 38,5 Stunden/Woche - Gehalt: ab € 4.000,- brutto/Monat bei 38,5h/Woche - Homeoffice: bis zu 2 Tage möglich - Start: 03. August 2026 - Du verstehst, wie aus Website-Besuchern Kund:innen werden? Dann gestalte als CRO Specialist anspruchsvolle Optimierungsprojekte, treibe datenbasierte Experimente voran und verbessere nachhaltig Nutzererlebnis, Conversion Rates und Geschäftserfolg. Du bist das Bindeglied zwischen Daten, Design und Inhalt. Du übersetzt Erkenntnisse aus der Datenanalyse in konkrete Optimierungsvorschläge und weißt, wie man Hypothesen testet. Dein Ziel ist es die Konversionsraten auf unseren Websites nachhaltig zu steigern, ... HEROLD Business Data GmbH * Wien * Feste Anstellung * Home Office, Vollzeit - Sei einer der ersten Bewerber - Werde Teil der group.one – The One Group to win online! Arbeitsort: Wien - Unternehmen: easyname (Schwestergesellschaft von Herold) - group.one - Arbeitszeit: 38,5 Stunden/Woche - Gehalt: ab € 4.000,- brutto/Monat bei 38,5h/Woche - Homeoffice: bis zu 2 Tage möglich - Start: 03. August 2026 - Du verstehst, wie aus Website-Besuchern Kund:innen werden? Dann gestalte als CRO Specialist anspruchsvolle Optimierungsprojekte, treibe datenbasierte Experimente voran und verbessere nachhaltig Nutzererlebnis, Conversion Rates und Geschäftserfolg. Du bist das Bindeglied zwischen Daten, Design und Inhalt. Du übersetzt Erkenntnisse aus der Datenanalyse in konkrete Optimierungsvorschläge und weißt, wie man Hypothesen testet. Dein Ziel ist es die Konversionsraten auf unseren Websites nachhaltig zu steigern, ... mehr vor 9 Stunden NEU",
         "first_seen": "2026-07-02T18:17:39.286485Z",
-        "fingerprint": "679bc2f822e2ca3196c0455768e62a765d017859df8a95aa1e6b61de9c38abb7"
+        "fingerprint": "44a8ea2d4834fb8dcf59e7d5c4427a59a547f7bdb4707478713bb832b012ebf7"
+      },
+      {
+        "id": "stepstone:934778",
+        "source": "stepstone",
+        "title": "Rechtsanwält:in Corporate Restructuring (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Corporate-Restructuring-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934778-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "vor 1 Woche",
+        "department": "Teilweise Home-Office",
+        "snippet": "Rechtsanwält:in Corporate Restructuring (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung mehr vor 1 Woche",
+        "first_seen": "2026-06-30T20:54:00.747169Z",
+        "fingerprint": "5b04d1b2993932f1c5023dc45128c68966f08a94353d19a5921881d2703e65cc"
+      },
+      {
+        "id": "stepstone:934776",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Restrukturierung (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Restrukturierung-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934776-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "vor 1 Woche",
+        "department": "Teilweise Home-Office",
+        "snippet": "Rechtsanwaltsanwärter:in Restrukturierung (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung mehr vor 1 Woche",
+        "first_seen": "2026-06-30T20:54:00.747169Z",
+        "fingerprint": "3bc966c4495cf8b9a658c24202172aeded974a7a9a15b4d9a6f34e159f9efa23"
       },
       {
         "id": "stepstone:980825",
@@ -1325,11 +1325,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Senior-Rechtsanwaltsanwaerter-in-Oeffentliches-Recht-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--984362-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 5 Tagen",
+        "published_at": "vor 4 Tagen",
         "department": null,
-        "snippet": "Senior Rechtsanwaltsanwärter:in Öffentliches Recht (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung mehr vor 5 Tagen",
+        "snippet": "Senior Rechtsanwaltsanwärter:in Öffentliches Recht (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. * Moderne Büroräumlichkeiten in Wiener Top-Lage neben dem Juridicum mit Einzelbüros für unsere Jurist :innen und sehr guter Verkehrsanbindung mehr vor 4 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "db46e3f7fbe6af18376d7892879eedadfa3be3d0145adfd2f5cc95301deae2ee"
+        "fingerprint": "d550965fc0061a5580345413ae3b8d85da5b2b96783ae014bd7bcde30d37abe3"
       },
       {
         "id": "stepstone:986685",
@@ -1340,11 +1340,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Projektabwickler-m-w-d-Niederlassung-Wien-Wien-Austro-Holding-GmbH--986685-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Feste Anstellung",
-        "published_at": "vor 1 Woche",
+        "published_at": "vor 6 Tagen",
         "department": "Schnelle Bewerbung",
-        "snippet": "Projektabwickler (m/w/d) - Niederlassung Wien Austro Holding GmbH Wien Schnelle Bewerbung Austro Holding GmbH * Wien * Feste Anstellung * Vollzeit - Sei einer der ersten Bewerber - Schnelle Bewerbung „Die passende Küchenlösung für jede Art von Gastronomie“ Seit jeher ist die Gastronomie ein Ort des Austauschs, des Genusses und der Begegnung. Diese besondere Atmosphäre zu schaffen und nachhaltig zu unterstützen, ist unser Anspruch. Neben der Entwicklung robuster und benutzerfreundlicher Kücheneinrichtungen spielen heute weitere entscheidende Faktoren eine zentrale Rolle: Energieeffizienz, optimaler Raumeinsatz, ganzheitliche Systemlösungen, Mitarbeitereffizienz, kurze Produktionszeiten, verlässlicher Kundendienst sowie nachhaltige Konzepte im Einklang mit wirtschaftlichen Rahmenbedingungen. Eine durchdacht geplante Küche bildet das Herzstück jedes gastronomischen Betriebs – sie steht für Wirtschaftlichkeit, Sicherheit und Langlebigkeit. Austro Holding GmbH * Wien * Feste Anstellung * Vollzeit - Sei einer der ersten Bewerber - Schnelle Bewerbung „Die passende Küchenlösung für jede Art von Gastronomie“ Seit jeher ist die Gastronomie ein Ort des Austauschs, des Genusses und der Begegnung. Diese besondere Atmosphäre zu schaffen und nachhaltig zu unterstützen, ist unser Anspruch. Neben der Entwicklung robuster und benutzerfreundlicher Kücheneinrichtungen spielen heute weitere entscheidende Faktoren eine zentrale Rolle: Energieeffizienz, optimaler Raumeinsatz, ganzheitliche Systemlösungen, Mitarbeitereffizienz, kurze Produktionszeiten, verlässlicher Kundendienst sowie nachhaltige Konzepte im Einklang mit wirtschaftlichen Rahmenbedingungen. Eine durchdacht geplante Küche bildet das Herzstück jedes gastronomischen Betriebs – sie steht für Wirtschaftlichkeit, Sicherheit und Langlebigkeit. mehr vor 1 Woche",
+        "snippet": "Projektabwickler (m/w/d) - Niederlassung Wien Austro Holding GmbH Wien Schnelle Bewerbung Austro Holding GmbH * Wien * Feste Anstellung * Vollzeit - Sei einer der ersten Bewerber - Schnelle Bewerbung „Die passende Küchenlösung für jede Art von Gastronomie“ Seit jeher ist die Gastronomie ein Ort des Austauschs, des Genusses und der Begegnung. Diese besondere Atmosphäre zu schaffen und nachhaltig zu unterstützen, ist unser Anspruch. Neben der Entwicklung robuster und benutzerfreundlicher Kücheneinrichtungen spielen heute weitere entscheidende Faktoren eine zentrale Rolle: Energieeffizienz, optimaler Raumeinsatz, ganzheitliche Systemlösungen, Mitarbeitereffizienz, kurze Produktionszeiten, verlässlicher Kundendienst sowie nachhaltige Konzepte im Einklang mit wirtschaftlichen Rahmenbedingungen. Eine durchdacht geplante Küche bildet das Herzstück jedes gastronomischen Betriebs – sie steht für Wirtschaftlichkeit, Sicherheit und Langlebigkeit. Austro Holding GmbH * Wien * Feste Anstellung * Vollzeit - Sei einer der ersten Bewerber - Schnelle Bewerbung „Die passende Küchenlösung für jede Art von Gastronomie“ Seit jeher ist die Gastronomie ein Ort des Austauschs, des Genusses und der Begegnung. Diese besondere Atmosphäre zu schaffen und nachhaltig zu unterstützen, ist unser Anspruch. Neben der Entwicklung robuster und benutzerfreundlicher Kücheneinrichtungen spielen heute weitere entscheidende Faktoren eine zentrale Rolle: Energieeffizienz, optimaler Raumeinsatz, ganzheitliche Systemlösungen, Mitarbeitereffizienz, kurze Produktionszeiten, verlässlicher Kundendienst sowie nachhaltige Konzepte im Einklang mit wirtschaftlichen Rahmenbedingungen. Eine durchdacht geplante Küche bildet das Herzstück jedes gastronomischen Betriebs – sie steht für Wirtschaftlichkeit, Sicherheit und Langlebigkeit. mehr vor 6 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "0696caec2c4f03c92e4afda1a946b3ad6b4454ce7559db746b92c644c65bd1d2"
+        "fingerprint": "9c58c618f6c63d974737615f9199441f0ca766633661d7a8fca862b8f1954e7d"
       },
       {
         "id": "stepstone:929613",
@@ -1385,11 +1385,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Anwaltsassistent-in-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947468-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 4 Tagen",
+        "published_at": "vor 3 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Anwaltsassistent:in (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. mehr vor 4 Tagen",
+        "snippet": "Anwaltsassistent:in (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. mehr vor 3 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "3d64a4391442705a38e7a0cdeea8725f3b3f6ddbff8494e9c9ddc6008298eb86"
+        "fingerprint": "d0b75bababbd76b4054642b0ba29edc60415cd86d64c97450d6771483cc2ba56"
       },
       {
         "id": "stepstone:989038",
@@ -1415,11 +1415,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Recruiting-Specialist-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--951147-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 6 Tagen",
+        "published_at": "vor 5 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Recruiting Specialist (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. mehr vor 6 Tagen",
+        "snippet": "Recruiting Specialist (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. mehr vor 5 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "bc5de758d678072e11790ada2d04fbce03906b3e09091c05b6f36ec8d9b14fe3"
+        "fingerprint": "071e04c47bf98f45440f13605b1bb14549146f57df34028581f819ace0d06dea"
       },
       {
         "id": "stepstone:988268",
@@ -1490,11 +1490,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-Wien-Vavrovsky-Heine-Marth-Rechtsanwaelte-GmbH--984225-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Feste Anstellung",
-        "published_at": "vor 11 Stunden",
+        "published_at": "vor 4 Stunden",
         "department": "Schnelle Bewerbung, NEU",
-        "snippet": "Rechtsanwaltsassistent:in Vavrovsky Heine Marth Rechtsanwälte GmbH Wien Schnelle Bewerbung Vavrovsky Heine Marth Rechtsanwälte GmbH * Wien * Feste Anstellung * Vollzeit - Schnelle Bewerbung - Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs mit Büros in Wien, Linz und Salzburg. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung, vor allem auch ein positives Arbeitsumfeld und Teamgeist. Neben Immobilienrecht sind wir auf nationale und internationale Konfliktlösung spezialisiert. Aufgrund der Individualität der einzelnen Verfahren werden besonders auf Assistenzebene aktives Management und Organisationstalent benötigt. Daher legen wir unseren Fokus auf eine fundierte Ausbildung und bieten hervorragende persönliche und fachliche Weiterbildungsmöglichkeiten. Ihre Aufgaben - Zur Verstärkung unseres Teams suchen wir eine:n - für unseren Standort in Wien im Ausmaß von 38 Stunden/Woche. Vavrovsky Heine Marth Rechtsanwälte GmbH * Wien * Feste Anstellung * Vollzeit - Schnelle Bewerbung - Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs mit Büros in Wien, Linz und Salzburg. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung, vor allem auch ein positives Arbeitsumfeld und Teamgeist. Neben Immobilienrecht sind wir auf nationale und internationale Konfliktlösung spezialisiert. Aufgrund der Individualität der einzelnen Verfahren werden besonders auf Assistenzebene aktives Management und Organisationstalent benötigt. Daher legen wir unseren Fokus auf eine fundierte Ausbildung und bieten hervorragende persönliche und fachliche Weiterbildungsmöglichkeiten. Ihre Aufgaben - Zur Verstärkung unseres Teams suchen wir eine:n - für unseren Standort in Wien im Ausmaß von 38 Stunden/Woche. mehr vor 11 Stunden NEU",
+        "snippet": "Rechtsanwaltsassistent:in Vavrovsky Heine Marth Rechtsanwälte GmbH Wien Schnelle Bewerbung Vavrovsky Heine Marth Rechtsanwälte GmbH * Wien * Feste Anstellung * Vollzeit - Schnelle Bewerbung - Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs mit Büros in Wien, Linz und Salzburg. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung, vor allem auch ein positives Arbeitsumfeld und Teamgeist. Neben Immobilienrecht sind wir auf nationale und internationale Konfliktlösung spezialisiert. Aufgrund der Individualität der einzelnen Verfahren werden besonders auf Assistenzebene aktives Management und Organisationstalent benötigt. Daher legen wir unseren Fokus auf eine fundierte Ausbildung und bieten hervorragende persönliche und fachliche Weiterbildungsmöglichkeiten. Ihre Aufgaben - Zur Verstärkung unseres Teams suchen wir eine:n - für unseren Standort in Wien im Ausmaß von 38 Stunden/Woche. Vavrovsky Heine Marth Rechtsanwälte GmbH * Wien * Feste Anstellung * Vollzeit - Schnelle Bewerbung - Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs mit Büros in Wien, Linz und Salzburg. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung, vor allem auch ein positives Arbeitsumfeld und Teamgeist. Neben Immobilienrecht sind wir auf nationale und internationale Konfliktlösung spezialisiert. Aufgrund der Individualität der einzelnen Verfahren werden besonders auf Assistenzebene aktives Management und Organisationstalent benötigt. Daher legen wir unseren Fokus auf eine fundierte Ausbildung und bieten hervorragende persönliche und fachliche Weiterbildungsmöglichkeiten. Ihre Aufgaben - Zur Verstärkung unseres Teams suchen wir eine:n - für unseren Standort in Wien im Ausmaß von 38 Stunden/Woche. mehr vor 4 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "d91ea17797e8bdc9b9252c2b52517dceff0ec337df6cb1b45225c4ec4df99d6c"
+        "fingerprint": "6aafd8c7b3a6486dd52a29fb7cf7b3a807d36997d832ffe4915afe432e2f00e8"
       },
       {
         "id": "stepstone:987873",
@@ -1520,11 +1520,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Wirtschaftsingenieur-Ingenieur-Betriebswirt-m-w-d-als-Kundenberater-in-im-Vertriebsinnen-und-Aussendienst-Wien-Oesterreich-Intermas-Austria-Gesellschaft-m-b-H--968445-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Feste Anstellung",
-        "published_at": "vor 4 Tagen",
+        "published_at": "vor 3 Tagen",
         "department": null,
-        "snippet": "Wirtschaftsingenieur / Ingenieur / Betriebswirt (m/w/d) als Kundenberater/in im Vertriebsinnen- und Außendienst Intermas Austria Gesellschaft m.b.H. Wien, Österreich Intermas Austria Gesellschaft m.b.H. * Wien, Österreich * Feste Anstellung * Vollzeit - Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. * Beratung der Kunden am Telefon und bei Bedarf vor Ort * Vorkalkulation der kundenspezifischen Projekte * Erstellen von Angeboten * Bearbeitung von Aufträgen * Projektmanagement * Teilnahme an Fachmessen * eine fundierte technische Ausbildung mit gutem kaufmännischen Verständnis * Erfahrung im Verkauf von technischen Produkten * sicheres Auftreten * Verhandlungsgeschick * Team- und Kommunikationsfähigkeit * Reisebereitschaft - Außerdem bringen Sie Verantwortungsbereitschaft und Eigeninitiative ebenso mit wie Einsatzbereitschaft und Belastbarkeit. Mit den gängigen MS-Office-Anwendungen sind Sie vertraut. Aufgrund unserer internationalen Ausrichtung sind gute Englischkenntnisse Voraussetzung. Intermas Austria Gesellschaft m.b.H. * Wien, Österreich * Feste Anstellung * Vollzeit - Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. * Beratung der Kunden am Telefon und bei Bedarf vor Ort * Vorkalkulation der kundenspezifischen Projekte * Erstellen von Angeboten * Bearbeitung von Aufträgen * Projektmanagement * Teilnahme an Fachmessen * eine fundierte technische Ausbildung mit gutem kaufmännischen Verständnis * Erfahrung im Verkauf von technischen Produkten * sicheres Auftreten * Verhandlungsgeschick * Team- und Kommunikationsfähigkeit * Reisebereitschaft - Außerdem bringen Sie Verantwortungsbereitschaft und Eigeninitiative ebenso mit wie Einsatzbereitschaft und Belastbarkeit. Mit den gängigen MS-Office-Anwendungen sind Sie vertraut. Aufgrund unserer internationalen Ausrichtung sind gute Englischkenntnisse Voraussetzung. mehr vor 4 Tagen",
+        "snippet": "Wirtschaftsingenieur / Ingenieur / Betriebswirt (m/w/d) als Kundenberater/in im Vertriebsinnen- und Außendienst Intermas Austria Gesellschaft m.b.H. Wien, Österreich Intermas Austria Gesellschaft m.b.H. * Wien, Österreich * Feste Anstellung * Vollzeit - Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. * Beratung der Kunden am Telefon und bei Bedarf vor Ort * Vorkalkulation der kundenspezifischen Projekte * Erstellen von Angeboten * Bearbeitung von Aufträgen * Projektmanagement * Teilnahme an Fachmessen * eine fundierte technische Ausbildung mit gutem kaufmännischen Verständnis * Erfahrung im Verkauf von technischen Produkten * sicheres Auftreten * Verhandlungsgeschick * Team- und Kommunikationsfähigkeit * Reisebereitschaft - Außerdem bringen Sie Verantwortungsbereitschaft und Eigeninitiative ebenso mit wie Einsatzbereitschaft und Belastbarkeit. Mit den gängigen MS-Office-Anwendungen sind Sie vertraut. Aufgrund unserer internationalen Ausrichtung sind gute Englischkenntnisse Voraussetzung. Intermas Austria Gesellschaft m.b.H. * Wien, Österreich * Feste Anstellung * Vollzeit - Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. * Beratung der Kunden am Telefon und bei Bedarf vor Ort * Vorkalkulation der kundenspezifischen Projekte * Erstellen von Angeboten * Bearbeitung von Aufträgen * Projektmanagement * Teilnahme an Fachmessen * eine fundierte technische Ausbildung mit gutem kaufmännischen Verständnis * Erfahrung im Verkauf von technischen Produkten * sicheres Auftreten * Verhandlungsgeschick * Team- und Kommunikationsfähigkeit * Reisebereitschaft - Außerdem bringen Sie Verantwortungsbereitschaft und Eigeninitiative ebenso mit wie Einsatzbereitschaft und Belastbarkeit. Mit den gängigen MS-Office-Anwendungen sind Sie vertraut. Aufgrund unserer internationalen Ausrichtung sind gute Englischkenntnisse Voraussetzung. mehr vor 3 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "db160b742cf8a9a418b2a6d931b48cefe2e8164bc44fcc170eb17b7e85281786"
+        "fingerprint": "6880cc8f7451981807a0b6deedf97630fb0d8b3d4a1f730b401eef09c4973104"
       },
       {
         "id": "stepstone:986189",
@@ -1565,11 +1565,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Unternehmensjuristen-Inhouse-Legal-m-w-D-Wien-Landstrasse-LBG-Oesterreich-GmbH-Wirtschaftspruefung-Steuerberatung--633580-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Feste Anstellung",
-        "published_at": "vor 3 Tagen",
+        "published_at": "vor 2 Tagen",
         "department": null,
-        "snippet": "Unternehmensjuristen/Inhouse Legal (m/w/D) LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung Wien-Landstraße LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung * Wien-Landstraße * Feste Anstellung * Vollzeit - Herzlich willkommen im Team bei LBG Österreich. Wir arbeiten seit mehr als 80 Jahren mit großem Engagement und Erfolg am Puls der österreichischen Wirtschaft. Tagtäglich sind wir gefordert, wenn's um wirtschaftlich und steuerlich durchdachte Lösungen im Unternehmensalltag geht, bei der Kalkulation und Planung, bei Investitionen und der Finanzierung, bei Kauf und Verkauf, bei der Gründung und Nachfolge und vielem mehr. Wir führen das Finanz- und Rechnungswesen unserer Kunden, erarbeiten aussagekräftige betriebswirtschaftliche Auswertungen und zeigen Handlungsmöglichkeiten auf, erstellen Jahresabschlüsse und Steuererklärungen, sorgen für zuverlässige Jahresabschluss- und Sonderprüfungen, führen die Personalverrechnung und beraten in lohnsteuerlichen, sozialversicherungs- ... LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung * Wien-Landstraße * Feste Anstellung * Vollzeit - Herzlich willkommen im Team bei LBG Österreich. Wir arbeiten seit mehr als 80 Jahren mit großem Engagement und Erfolg am Puls der österreichischen Wirtschaft. Tagtäglich sind wir gefordert, wenn's um wirtschaftlich und steuerlich durchdachte Lösungen im Unternehmensalltag geht, bei der Kalkulation und Planung, bei Investitionen und der Finanzierung, bei Kauf und Verkauf, bei der Gründung und Nachfolge und vielem mehr. Wir führen das Finanz- und Rechnungswesen unserer Kunden, erarbeiten aussagekräftige betriebswirtschaftliche Auswertungen und zeigen Handlungsmöglichkeiten auf, erstellen Jahresabschlüsse und Steuererklärungen, sorgen für zuverlässige Jahresabschluss- und Sonderprüfungen, führen die Personalverrechnung und beraten in lohnsteuerlichen, sozialversicherungs- ... mehr vor 3 Tagen",
+        "snippet": "Unternehmensjuristen/Inhouse Legal (m/w/D) LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung Wien-Landstraße LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung * Wien-Landstraße * Feste Anstellung * Vollzeit - Herzlich willkommen im Team bei LBG Österreich. Wir arbeiten seit mehr als 80 Jahren mit großem Engagement und Erfolg am Puls der österreichischen Wirtschaft. Tagtäglich sind wir gefordert, wenn's um wirtschaftlich und steuerlich durchdachte Lösungen im Unternehmensalltag geht, bei der Kalkulation und Planung, bei Investitionen und der Finanzierung, bei Kauf und Verkauf, bei der Gründung und Nachfolge und vielem mehr. Wir führen das Finanz- und Rechnungswesen unserer Kunden, erarbeiten aussagekräftige betriebswirtschaftliche Auswertungen und zeigen Handlungsmöglichkeiten auf, erstellen Jahresabschlüsse und Steuererklärungen, sorgen für zuverlässige Jahresabschluss- und Sonderprüfungen, führen die Personalverrechnung und beraten in lohnsteuerlichen, sozialversicherungs- ... LBG Österreich GmbH Wirtschaftsprüfung & Steuerberatung * Wien-Landstraße * Feste Anstellung * Vollzeit - Herzlich willkommen im Team bei LBG Österreich. Wir arbeiten seit mehr als 80 Jahren mit großem Engagement und Erfolg am Puls der österreichischen Wirtschaft. Tagtäglich sind wir gefordert, wenn's um wirtschaftlich und steuerlich durchdachte Lösungen im Unternehmensalltag geht, bei der Kalkulation und Planung, bei Investitionen und der Finanzierung, bei Kauf und Verkauf, bei der Gründung und Nachfolge und vielem mehr. Wir führen das Finanz- und Rechnungswesen unserer Kunden, erarbeiten aussagekräftige betriebswirtschaftliche Auswertungen und zeigen Handlungsmöglichkeiten auf, erstellen Jahresabschlüsse und Steuererklärungen, sorgen für zuverlässige Jahresabschluss- und Sonderprüfungen, führen die Personalverrechnung und beraten in lohnsteuerlichen, sozialversicherungs- ... mehr vor 2 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "37d7c10d7c4267e097da8ef9ca108c51ee7b552719044f7a0b3a67f918ecacee"
+        "fingerprint": "d5cb175d0a7a38df64c14171160ed74372e5700eb927f26ae081ea99ea365a51"
       }
     ]
   }
