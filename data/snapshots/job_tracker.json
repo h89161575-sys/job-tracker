@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-03T17:01:38.667386Z",
+  "timestamp": "2026-07-03T18:22:46.028088Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-03T17:01:38.667386Z",
+        "last_success": "2026-07-03T18:22:46.028088Z",
         "last_error": null,
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-03T17:01:38.667386Z",
+        "last_success": "2026-07-03T18:22:46.028088Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
         "last_success": "2026-07-03T17:01:38.667386Z",
-        "last_error": null,
+        "last_error": "UNIQA RSS error: URL error: timed out",
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-03T17:01:38.667386Z",
+        "last_success": "2026-07-03T18:22:46.028088Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-03T17:01:38.667386Z",
+        "last_success": "2026-07-03T18:22:46.028088Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-03T17:01:38.667386Z",
+        "last_success": "2026-07-03T18:22:46.028088Z",
         "last_error": null,
         "count": 57
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-03T17:01:38.667386Z",
-        "last_error": null,
-        "count": 34
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 32
       }
     },
     "jobs": [
@@ -322,20 +322,6 @@
         "fingerprint": "cf6e2bfb4f03d772ef56b863346615c02f097031a96ff672087707b2fa6c92e1"
       },
       {
-        "id": "karriere_at:10021048",
-        "source": "karriere_at",
-        "title": "Jurist*in",
-        "company": "Österreichische Galerie Belvedere",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10021048",
-        "salary": "ab 43.400 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "c8349eec7589b4d545c8bd45c776def8a349d22b072adfd0ead37bc0080a12bc"
-      },
-      {
         "id": "karriere_at:7825238",
         "source": "karriere_at",
         "title": "Juristin / Jurist (m/w/d)",
@@ -348,6 +334,20 @@
         "snippet": "Juristin / Jurist (m/w/d) Wien Vollzeit Wir sind die NÖVOG. Mit unseren sechs Bahnen und zwei Seilbahnen, unseren regionalen Busangeboten und bedarfsgerechten Mobilitätskonzepten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "accf600f87988dc7f2d2222993ae2739f629a7cebc951125e12e284e0974334a"
+      },
+      {
+        "id": "karriere_at:10021048",
+        "source": "karriere_at",
+        "title": "Jurist*in",
+        "company": "Österreichische Galerie Belvedere",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10021048",
+        "salary": "ab 43.400 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "c8349eec7589b4d545c8bd45c776def8a349d22b072adfd0ead37bc0080a12bc"
       },
       {
         "id": "karriere_at:10024281",
