@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-05T10:49:18.097083Z",
+  "timestamp": "2026-07-05T12:08:23.690460Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-05T10:49:18.097083Z",
+        "last_success": "2026-07-05T12:08:23.690460Z",
         "last_error": null,
         "count": 16
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-05T10:49:18.097083Z",
+        "last_success": "2026-07-05T12:08:23.690460Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-05T10:49:18.097083Z",
+        "last_success": "2026-07-05T12:08:23.690460Z",
         "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-05T10:49:18.097083Z",
+        "last_success": "2026-07-05T12:08:23.690460Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-05T10:49:18.097083Z",
+        "last_success": "2026-07-05T12:08:23.690460Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-05T10:49:18.097083Z",
+        "last_success": "2026-07-05T12:08:23.690460Z",
         "last_error": null,
         "count": 56
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-05T10:49:18.097083Z",
-        "last_error": null,
-        "count": 34
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 32
       }
     },
     "jobs": [
@@ -863,10 +863,10 @@
         "url": "https://www.karriere.at/jobs/10024650",
         "salary": "ab 2.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "8fd317b9504acee601a589aa4df314baa6407e45481d0c28cb5ade7ef73b90c7"
+        "fingerprint": "d67c28e5cf94112287505178e5a11bbc3f33b01cfe0f2f3bb2ad8d6794189acf"
       },
       {
         "id": "karriere_at:7816376",
