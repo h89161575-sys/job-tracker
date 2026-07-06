@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-06T06:57:14.106710Z",
+  "timestamp": "2026-07-06T11:42:54.863626Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-06T06:57:14.106710Z",
+        "last_success": "2026-07-06T11:42:54.863626Z",
         "last_error": null,
-        "count": 16
+        "count": 18
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-06T06:57:14.106710Z",
+        "last_success": "2026-07-06T11:42:54.863626Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-06T06:57:14.106710Z",
+        "last_success": "2026-07-06T11:42:54.863626Z",
         "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-06T06:57:14.106710Z",
+        "last_success": "2026-07-06T11:42:54.863626Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-06T06:57:14.106710Z",
+        "last_success": "2026-07-06T11:42:54.863626Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-06T06:57:14.106710Z",
+        "last_success": "2026-07-06T11:42:54.863626Z",
         "last_error": null,
         "count": 57
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-07-05T22:44:19.526569Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 32
+        "last_success": "2026-07-06T11:42:54.863626Z",
+        "last_error": null,
+        "count": 34
       }
     },
     "jobs": [
@@ -85,6 +85,32 @@
         "snippet": "Wir bieten Ihnen: eine spannende Tätigkeit mit zahlreichen Möglichkeiten, sich in der Finanzbranche zu vernetzen (Wertpapierunternehmen, Leasingunternehmen, Anbieter von…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "36a47cbbfe1567e9b2095ea04e693aaec2a2f87223887aa3048759f5709ef1db"
+      },
+      {
+        "id": "jusjobs:785065",
+        "source": "jusjobs",
+        "title": "Privatkundenberater:in Junior (w/m/d) in Wien - BestStart-Programm",
+        "company": "Bank Austria - Member of Unicredit",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/785065",
+        "salary": "€ 3.071",
+        "employment_type": "Vollzeit",
+        "snippet": "Benefits: Firmenlaptop und Firmenhandy Zeitliche Flexibilität Restaurant- oder Lebensmittelgutscheinkarte Sozialzulagen Öffi-Ticket Kindergarten Sonneninsel am Austria Campus…",
+        "first_seen": "2026-07-06T11:42:54.863647Z",
+        "fingerprint": "16b88ee7eaa600fbcf64843cee478e717668160eece3b964aec87246c99282cf"
+      },
+      {
+        "id": "jusjobs:1813323",
+        "source": "jusjobs",
+        "title": "111371-Jurist (w/m/d)",
+        "company": "ISG Personalmanagement GmbH",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1813323",
+        "salary": "€ 4.000",
+        "employment_type": "Vollzeit",
+        "snippet": "Aufgaben: Eigenständige Bearbeitung komplexer juristischer Fragestellungen Erstellung, Prüfung und Verhandlung von Verträgen Rechtliche Begleitung und Unterstützung von Projekten…",
+        "first_seen": "2026-07-06T11:42:54.863647Z",
+        "fingerprint": "54e569295b423d06cc168add73760c930d797376322160176b4c9656ab70f57e"
       },
       {
         "id": "jusjobs:1625057",
@@ -250,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1798865",
         "salary": "€ 3.928",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Vollzeitstelle als (Senior) Legal Counsel mit Schwerpunkt Arbeitsrecht bei ProSiebenSat.1 PULS 4 in Wien. Fokus auf arbeitsrechtliche Beratung, Vertragsprüfung, allgemeines…",
         "first_seen": "2026-06-27T08:19:55.009508Z",
-        "fingerprint": "ad07a7187c12ca213abac1cafcc76d9bcf225d96c843c5988246b8457a7a5c46"
+        "fingerprint": "747857be320b75ec18d0ef62b7ee695dd347f0577c0789c5478f7e404fec09dd"
       },
       {
         "id": "erste_bank:33517",
@@ -317,10 +343,10 @@
         "url": "https://www.karriere.at/jobs/10024281",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-29T09:57:01.141761Z",
-        "fingerprint": "42b210f9f80740f22f695da8687c5de0bfdc15026c00a2f1a7f95c93ab7bc6fa"
+        "fingerprint": "7d53840014007e3ede2e79f29010144f1dd91a63bea3fe1d5eb2034b19a32b22"
       },
       {
         "id": "karriere_at:10023528",
@@ -379,20 +405,6 @@
         "fingerprint": "075606ee7436c04d2dc0ff239625c6afab4d82364c080cc3680fae9ab4bfcd19"
       },
       {
-        "id": "karriere_at:10022629",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter:in für den Bereich Litigation",
-        "company": "BRANDL TALOS Rechtsanwält:innen GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10022629",
-        "salary": "ab 3.650 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "345cc526f50ef1cb0de443671b0bfc2ddaa184108fd031b8d58a1e9017fb6152"
-      },
-      {
         "id": "karriere_at:7838207",
         "source": "karriere_at",
         "title": "Mitarbeiter Regulatory Management (Rechtsabteilung)",
@@ -429,10 +441,10 @@
         "url": "https://www.karriere.at/jobs/7835189",
         "salary": "ab 4.785 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Legal Counsel, Vollzeit, Hybrid, Wien, Österreich, Mit Berufserfahrung, 30.06.26 Über uns Axians ICT Austria GmbH arbeitet in strategischen Partnerschaften in der IT-Dienstleistung...",
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "25c10419279606a24dff3ca779dba9f8d68a43f7b522dae82f87bcc338f2e7ff"
+        "fingerprint": "f596d625897f83c96a72ca2afc92094b298c4bd4f61bd9c614dda42f128b5bf9"
       },
       {
         "id": "karriere_at:7821314",
@@ -709,10 +721,10 @@
         "url": "https://www.karriere.at/jobs/7835258",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabengebiet: Ausarbeitung und Bearbeitung datenschutzrechtlicher Fragestellungen sowie Durchführung von internen rechtlichen Schulungen im Unternehmen, Ansprechpartner für Datenschutz- und IT-Recht, Betreuung...",
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "2ed5921f5074aacc856b7130b6396705812df85e5d4a281a1d1ce4d7f123e60e"
+        "fingerprint": "6cb7cc46793111d23ffddd1c6dea735291bc280c6b3291f4b363db5bba2f51f8"
       },
       {
         "id": "karriere_at:7811402",
