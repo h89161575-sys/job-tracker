@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-06T11:42:54.863626Z",
+  "timestamp": "2026-07-06T14:46:55.947134Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-06T11:42:54.863626Z",
+        "last_success": "2026-07-06T14:46:55.947134Z",
         "last_error": null,
         "count": 18
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-06T11:42:54.863626Z",
+        "last_success": "2026-07-06T14:46:55.947134Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-06T11:42:54.863626Z",
+        "last_success": "2026-07-06T14:46:55.947134Z",
         "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-06T11:42:54.863626Z",
+        "last_success": "2026-07-06T14:46:55.947134Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-06T11:42:54.863626Z",
+        "last_success": "2026-07-06T14:46:55.947134Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-06T11:42:54.863626Z",
+        "last_success": "2026-07-06T14:46:55.947134Z",
         "last_error": null,
         "count": 57
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-06T11:42:54.863626Z",
-        "last_error": null,
-        "count": 34
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 32
       }
     },
     "jobs": [
@@ -165,19 +165,6 @@
         "fingerprint": "f225efd1a1024f0a529b5c2c587c559291f7e2a6dbd0db4093c28b01a8ea6638"
       },
       {
-        "id": "jusjobs:1802957",
-        "source": "jusjobs",
-        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
-        "company": "Medved & Partner OG",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1802957",
-        "salary": "€ 5.714",
-        "employment_type": "Vollzeit",
-        "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
-      },
-      {
         "id": "jusjobs:1803039",
         "source": "jusjobs",
         "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
@@ -189,6 +176,19 @@
         "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
+      },
+      {
+        "id": "jusjobs:1802957",
+        "source": "jusjobs",
+        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
+        "company": "Medved & Partner OG",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1802957",
+        "salary": "€ 5.714",
+        "employment_type": "Vollzeit",
+        "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
       },
       {
         "id": "jusjobs:1803129",
@@ -243,19 +243,6 @@
         "fingerprint": "c268bc6fda9650cdd1965e1e0458d81bb60ec3c0eb1cf569dddb2ad0d597e9ad"
       },
       {
-        "id": "jusjobs:1799423",
-        "source": "jusjobs",
-        "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
-        "company": "Bundesministerium für Landesverteidigung und Sport",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1799423",
-        "salary": "€ 3.519",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht,…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
-      },
-      {
         "id": "jusjobs:1799425",
         "source": "jusjobs",
         "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
@@ -267,6 +254,19 @@
         "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
+      },
+      {
+        "id": "jusjobs:1799423",
+        "source": "jusjobs",
+        "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
+        "company": "Bundesministerium für Landesverteidigung und Sport",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1799423",
+        "salary": "€ 3.519",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht,…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
       },
       {
         "id": "jusjobs:1798865",
@@ -503,6 +503,20 @@
         "fingerprint": "f05b57ba657d02d37e65e835dd2efe561fbd3a0c840e703e46f3f7f028b62500"
       },
       {
+        "id": "karriere_at:7839059",
+        "source": "karriere_at",
+        "title": "Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7839059",
+        "salary": null,
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Full-time employee, as of now Compensation: Leistungsabhängiges...",
+        "first_seen": "2026-07-06T14:47:03.475158Z",
+        "fingerprint": "5350b0dfde7a9195d4743309828b6494544ead68bd7d437867be39ec8a223b1e"
+      },
+      {
         "id": "karriere_at:7825238",
         "source": "karriere_at",
         "title": "Juristin / Jurist (m/w/d)",
@@ -529,20 +543,6 @@
         "snippet": "Tax Advisor | Internationales Steuerrecht und M&A (w/m/d) Standorte: Wien oder Linz | Stundenausmaß: Vollzeit oder Teilzeit (ab 30 Wochenstunden) | ab sofort Begleite nationale...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "d8bbf1372b7b975c6b55b556e99aa9c7d2b947e4a598daffb6265d9a507d9d4a"
-      },
-      {
-        "id": "karriere_at:7814174",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter Kartell-/Wettbewerbs-/Beihilferecht (m/w/d)",
-        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7814174",
-        "salary": "ab 3.500 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
-        "snippet": "Make your way to the top. Rechtsanwaltsanwärter Kartell-/Wettbewerbs-/Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.500,- brutto (All-in-Gehalt...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "c4d317135162c3f33a11fd6c096305bc27be24185fee044281218a5c96d2f1d5"
       },
       {
         "id": "karriere_at:7807160",
@@ -917,10 +917,10 @@
         "url": "https://www.karriere.at/jobs/10024650",
         "salary": "ab 2.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "d67c28e5cf94112287505178e5a11bbc3f33b01cfe0f2f3bb2ad8d6794189acf"
+        "fingerprint": "9d0df8ed275f4cbe444ee6375ecbbf6633fdc35002a30cb97c32d1826f8f0626"
       },
       {
         "id": "karriere_at:7816376",
