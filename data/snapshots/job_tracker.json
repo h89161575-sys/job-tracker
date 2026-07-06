@@ -1,48 +1,48 @@
 {
-  "timestamp": "2026-07-06T22:41:37.233263Z",
+  "timestamp": "2026-07-06T23:53:03.252317Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-06T22:41:37.233263Z",
+        "last_success": "2026-07-06T23:53:03.252317Z",
         "last_error": null,
-        "count": 18
+        "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-06T22:41:37.233263Z",
+        "last_success": "2026-07-06T23:53:03.252317Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-06T22:41:37.233263Z",
+        "last_success": "2026-07-06T23:53:03.252317Z",
         "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-06T22:41:37.233263Z",
+        "last_success": "2026-07-06T23:53:03.252317Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-06T22:41:37.233263Z",
+        "last_success": "2026-07-06T23:53:03.252317Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-06T22:41:37.233263Z",
+        "last_success": "2026-07-06T23:53:03.252317Z",
         "last_error": null,
         "count": 57
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-06T11:42:54.863626Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 32
       }
     },
@@ -100,19 +100,6 @@
         "fingerprint": "16b88ee7eaa600fbcf64843cee478e717668160eece3b964aec87246c99282cf"
       },
       {
-        "id": "jusjobs:1813323",
-        "source": "jusjobs",
-        "title": "111371-Jurist (w/m/d)",
-        "company": "ISG Personalmanagement GmbH",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1813323",
-        "salary": "€ 4.000",
-        "employment_type": "Vollzeit",
-        "snippet": "Aufgaben: Eigenständige Bearbeitung komplexer juristischer Fragestellungen Erstellung, Prüfung und Verhandlung von Verträgen Rechtliche Begleitung und Unterstützung von Projekten…",
-        "first_seen": "2026-07-06T11:42:54.863647Z",
-        "fingerprint": "54e569295b423d06cc168add73760c930d797376322160176b4c9656ab70f57e"
-      },
-      {
         "id": "jusjobs:1625057",
         "source": "jusjobs",
         "title": "Legal Counsel (m/w/d), Graz und Wien, (AT)",
@@ -165,19 +152,6 @@
         "fingerprint": "f225efd1a1024f0a529b5c2c587c559291f7e2a6dbd0db4093c28b01a8ea6638"
       },
       {
-        "id": "jusjobs:1803129",
-        "source": "jusjobs",
-        "title": "Jurist:in",
-        "company": "Österreichische Bundesfinanzierungsagentur (OeBFA)",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1803129",
-        "salary": "€ 3.000",
-        "employment_type": "Vollzeit",
-        "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
-      },
-      {
         "id": "jusjobs:1803039",
         "source": "jusjobs",
         "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
@@ -202,6 +176,19 @@
         "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
+      },
+      {
+        "id": "jusjobs:1803129",
+        "source": "jusjobs",
+        "title": "Jurist:in",
+        "company": "Österreichische Bundesfinanzierungsagentur (OeBFA)",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1803129",
+        "salary": "€ 3.000",
+        "employment_type": "Vollzeit",
+        "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
       },
       {
         "id": "jusjobs:1782441",
@@ -276,10 +263,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1798865",
         "salary": "€ 3.928",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Vollzeitstelle als (Senior) Legal Counsel mit Schwerpunkt Arbeitsrecht bei ProSiebenSat.1 PULS 4 in Wien. Fokus auf arbeitsrechtliche Beratung, Vertragsprüfung, allgemeines…",
         "first_seen": "2026-06-27T08:19:55.009508Z",
-        "fingerprint": "747857be320b75ec18d0ef62b7ee695dd347f0577c0789c5478f7e404fec09dd"
+        "fingerprint": "ad07a7187c12ca213abac1cafcc76d9bcf225d96c843c5988246b8457a7a5c46"
       },
       {
         "id": "erste_bank:33517",
