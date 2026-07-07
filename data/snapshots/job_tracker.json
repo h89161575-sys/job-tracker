@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-07-07T04:13:36.949667Z",
+  "timestamp": "2026-07-07T07:56:18.394663Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-07T04:13:36.949667Z",
+        "last_success": "2026-07-07T07:56:18.394663Z",
         "last_error": null,
         "count": 16
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-07T04:13:36.949667Z",
+        "last_success": "2026-07-07T07:56:18.394663Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-06T23:53:03.252317Z",
-        "last_error": "UNIQA RSS error: URL error: timed out",
+        "last_success": "2026-07-07T07:56:18.394663Z",
+        "last_error": null,
         "count": 0
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-07T04:13:36.949667Z",
+        "last_success": "2026-07-07T07:56:18.394663Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-07T04:13:36.949667Z",
+        "last_success": "2026-07-07T07:56:18.394663Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-07T04:13:36.949667Z",
+        "last_success": "2026-07-07T07:56:18.394663Z",
         "last_error": null,
         "count": 57
       },
@@ -139,19 +139,6 @@
         "fingerprint": "f225efd1a1024f0a529b5c2c587c559291f7e2a6dbd0db4093c28b01a8ea6638"
       },
       {
-        "id": "jusjobs:1803129",
-        "source": "jusjobs",
-        "title": "Jurist:in",
-        "company": "Österreichische Bundesfinanzierungsagentur (OeBFA)",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1803129",
-        "salary": "€ 3.000",
-        "employment_type": "Vollzeit",
-        "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
-      },
-      {
         "id": "jusjobs:1802957",
         "source": "jusjobs",
         "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
@@ -176,6 +163,19 @@
         "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
+      },
+      {
+        "id": "jusjobs:1803129",
+        "source": "jusjobs",
+        "title": "Jurist:in",
+        "company": "Österreichische Bundesfinanzierungsagentur (OeBFA)",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1803129",
+        "salary": "€ 3.000",
+        "employment_type": "Vollzeit",
+        "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
       },
       {
         "id": "jusjobs:1782441",
@@ -709,10 +709,10 @@
         "url": "https://www.karriere.at/jobs/7836029",
         "salary": "ab 47.600 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Bei uns im Team: Unterstütze und berate intern im Tagesgeschäft zu diversen rechtlichen Themen mit dem Schwerpunkt Arbeitsrecht, Recherchiere zu ausgewählten Rechtsfragen und erarbeite...",
         "first_seen": "2026-07-01T08:44:53.200651Z",
-        "fingerprint": "cd1c647d3ffe5d182ee87d8e02502c03e083d4a39226bb3050f02931c0bfc7b0"
+        "fingerprint": "7078f113826b8761ec2ad4162e868b0d3df54d07b6402b468ed9792309a473fa"
       },
       {
         "id": "karriere_at:7835258",
@@ -845,14 +845,14 @@
         "source": "karriere_at",
         "title": "Berufsanwärter:in in der Steuerberatung (m/w/d)",
         "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
-        "location": "Wien, Graz, Wolfsberg, Eisenstadt, Schlins",
+        "location": "Wien, Graz, Eisenstadt, Schlins",
         "url": "https://www.karriere.at/jobs/7663272",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
         "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Berufsanwärter:in in der Steuerberatung (m/w/d) ..hier findest du nähere Infos zur Steuerberatung. GREAT, WENN DICH DIESE AUFGABEN FREUEN: Laufende steuerliche und betriebswirtschaftliche...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a63550bd88746c51bcc47676aaa77563cf91896bf621aee09dc0f4d413045f25"
+        "fingerprint": "93fee8a100915ad2c3faffc999d7af9ed85e8dd77043ed0a77b8ac7fa60a6b3b"
       },
       {
         "id": "karriere_at:7826204",
