@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-08T12:57:56.371901Z",
+  "timestamp": "2026-07-08T15:31:01.517490Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-08T12:57:56.371901Z",
+        "last_success": "2026-07-08T15:31:01.517490Z",
         "last_error": null,
-        "count": 16
+        "count": 15
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-08T12:57:56.371901Z",
+        "last_success": "2026-07-08T15:31:01.517490Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-08T12:57:56.371901Z",
+        "last_success": "2026-07-08T15:31:01.517490Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-08T12:57:56.371901Z",
+        "last_success": "2026-07-08T15:31:01.517490Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-08T12:57:56.371901Z",
+        "last_success": "2026-07-08T15:31:01.517490Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-08T12:57:56.371901Z",
+        "last_success": "2026-07-08T15:31:01.517490Z",
         "last_error": null,
         "count": 54
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-08T12:57:56.371901Z",
-        "last_error": null,
-        "count": 33
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 31
       }
     },
     "jobs": [
@@ -72,19 +72,6 @@
         "snippet": "Wohnservice Wien ist eine Service-Einrichtung der Stadt Wien. Wir stehen allen Wiener*innen mit den Bereichen MieterHilfe, Wohnberatung Wien und wohnpartner als wichtige und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "9cfdb2c585f7c5d19d53a8444d2e18b474ad3d2b19a3eb5e7d37e3da1962085d"
-      },
-      {
-        "id": "jusjobs:1782637",
-        "source": "jusjobs",
-        "title": "Jurist:in für die Geschäftsstelle der Fachorganisationen Finanzdienstleister",
-        "company": "Wirtschaftskammer Österreich",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1782637",
-        "salary": "€ 4.714",
-        "employment_type": "Vollzeit",
-        "snippet": "Wir bieten Ihnen: eine spannende Tätigkeit mit zahlreichen Möglichkeiten, sich in der Finanzbranche zu vernetzen (Wertpapierunternehmen, Leasingunternehmen, Anbieter von…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "36a47cbbfe1567e9b2095ea04e693aaec2a2f87223887aa3048759f5709ef1db"
       },
       {
         "id": "jusjobs:1799423",
@@ -549,10 +536,10 @@
         "url": "https://www.karriere.at/jobs/7839059",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
         "first_seen": "2026-07-06T14:47:03.475158Z",
-        "fingerprint": "1a23d5865f9d48ec28b7a610d863205615b959d4790957c1fc7db4ca5f7cd6d3"
+        "fingerprint": "f6b6f02321ab0a5e2666e6249e3ea488a0bf2115905722c7d2ca575e27ef4c32"
       },
       {
         "id": "karriere_at:7825238",
