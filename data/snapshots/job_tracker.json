@@ -1,48 +1,48 @@
 {
-  "timestamp": "2026-07-07T23:12:27.460774Z",
+  "timestamp": "2026-07-08T00:16:16.394537Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-07T23:12:27.460774Z",
+        "last_success": "2026-07-08T00:16:16.394537Z",
         "last_error": null,
-        "count": 16
+        "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-07T23:12:27.460774Z",
+        "last_success": "2026-07-08T00:16:16.394537Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-07T23:12:27.460774Z",
+        "last_success": "2026-07-08T00:16:16.394537Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-07T23:12:27.460774Z",
+        "last_success": "2026-07-08T00:16:16.394537Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-07T23:12:27.460774Z",
+        "last_success": "2026-07-08T00:16:16.394537Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-07T23:12:27.460774Z",
+        "last_success": "2026-07-08T00:16:16.394537Z",
         "last_error": null,
         "count": 57
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-07T13:29:43.997700Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 31
       }
     },
@@ -85,6 +85,19 @@
         "snippet": "Wir bieten Ihnen: eine spannende Tätigkeit mit zahlreichen Möglichkeiten, sich in der Finanzbranche zu vernetzen (Wertpapierunternehmen, Leasingunternehmen, Anbieter von…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "36a47cbbfe1567e9b2095ea04e693aaec2a2f87223887aa3048759f5709ef1db"
+      },
+      {
+        "id": "jusjobs:1816519",
+        "source": "jusjobs",
+        "title": "Jurist:in Compliance",
+        "company": "UNIQA Insurance Group AG",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1816519",
+        "salary": "€ 5.000",
+        "employment_type": "Vollzeit",
+        "snippet": "Jurist:in Compliance für Policy-Management, Compliance-Regelwerke, Schulungen, Prüfungen und Berichte bei UNIQA in Wien.",
+        "first_seen": "2026-07-08T00:16:16.394554Z",
+        "fingerprint": "cd6b6a58d9e795c8a4a8dab8ed1f860a2cb8b7f9a2c8b7f5612b51a4a3b58b1d"
       },
       {
         "id": "jusjobs:1625057",
@@ -152,19 +165,6 @@
         "fingerprint": "f225efd1a1024f0a529b5c2c587c559291f7e2a6dbd0db4093c28b01a8ea6638"
       },
       {
-        "id": "jusjobs:1803039",
-        "source": "jusjobs",
-        "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
-        "company": "Wiener Wohnen Hausbetreuung GmbH",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1803039",
-        "salary": "€ 3.800",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
-      },
-      {
         "id": "jusjobs:1802957",
         "source": "jusjobs",
         "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
@@ -189,6 +189,19 @@
         "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
+      },
+      {
+        "id": "jusjobs:1803039",
+        "source": "jusjobs",
+        "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
+        "company": "Wiener Wohnen Hausbetreuung GmbH",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1803039",
+        "salary": "€ 3.800",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
       },
       {
         "id": "jusjobs:1782441",
@@ -793,6 +806,20 @@
         "fingerprint": "aa240c44ce59cdac0a4d25c4b498910b23ca842a691d067e034e3fcf4b8a3e8f"
       },
       {
+        "id": "karriere_at:10022516",
+        "source": "karriere_at",
+        "title": "Berufsanwärter/-in Combined Tax/Audit",
+        "company": "PKF Österreicher & Partner GmbH & Co KG",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10022516",
+        "salary": "ab 3.500 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "d8e360a4b579318f84420f6873abd876168802c0699967b577e847f5bf08687e"
+      },
+      {
         "id": "karriere_at:7739792",
         "source": "karriere_at",
         "title": "(Senior) Associate – Konzernsteuerrecht und Umgründungen (m/w/d)",
@@ -1071,20 +1098,6 @@
         "snippet": "Ihr Aufgabengebiet: Dich erwartet ein abwechslungsreicher Mix aus allgemeinen steuerlichen Tätigkeiten (z.B. Erstellung von Steuererklärungen), spannenden Sonderprojekten, wie Tax Due Diligences, der Möglichkeit...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "4a7e4fe2cca60422952923083a38d1ea76c78f0f0e0da0b8b4d32e286e2878d6"
-      },
-      {
-        "id": "karriere_at:10022516",
-        "source": "karriere_at",
-        "title": "Berufsanwärter/-in Combined Tax/Audit",
-        "company": "PKF Österreicher & Partner GmbH & Co KG",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10022516",
-        "salary": "ab 3.500 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "28.6.2026",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "b5a7c2735dc83442839185f4c0c15e13d240d305b7b81049036b5b6d3b5c3136"
       },
       {
         "id": "stepstone:991399",
