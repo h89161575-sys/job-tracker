@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-08T17:04:41.682659Z",
+  "timestamp": "2026-07-08T18:41:56.101727Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-08T17:04:41.682659Z",
+        "last_success": "2026-07-08T18:41:56.101727Z",
         "last_error": null,
-        "count": 15
+        "count": 14
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-08T17:04:41.682659Z",
+        "last_success": "2026-07-08T18:41:56.101727Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-08T17:04:41.682659Z",
+        "last_success": "2026-07-08T18:41:56.101727Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-08T17:04:41.682659Z",
+        "last_success": "2026-07-08T18:41:56.101727Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-08T17:04:41.682659Z",
+        "last_success": "2026-07-08T18:41:56.101727Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-08T17:04:41.682659Z",
+        "last_success": "2026-07-08T18:41:56.101727Z",
         "last_error": null,
         "count": 54
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-08T17:04:41.682659Z",
-        "last_error": null,
-        "count": 33
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 31
       }
     },
     "jobs": [
@@ -74,19 +74,6 @@
         "fingerprint": "9cfdb2c585f7c5d19d53a8444d2e18b474ad3d2b19a3eb5e7d37e3da1962085d"
       },
       {
-        "id": "jusjobs:1799423",
-        "source": "jusjobs",
-        "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
-        "company": "Bundesministerium für Landesverteidigung und Sport",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1799423",
-        "salary": "€ 3.519",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht,…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
-      },
-      {
         "id": "jusjobs:1799425",
         "source": "jusjobs",
         "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
@@ -100,6 +87,19 @@
         "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
       },
       {
+        "id": "jusjobs:1799423",
+        "source": "jusjobs",
+        "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
+        "company": "Bundesministerium für Landesverteidigung und Sport",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1799423",
+        "salary": "€ 3.519",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht,…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
+      },
+      {
         "id": "jusjobs:1816519",
         "source": "jusjobs",
         "title": "Jurist:in Compliance",
@@ -111,19 +111,6 @@
         "snippet": "UNIQA sucht eine:n Jurist:in Compliance in Wien mit abgeschlossenem Studium der Rechtswissenschaften oder Wirtschaftsrecht und mindestens 3 Jahren einschlägiger Berufserfahrung.",
         "first_seen": "2026-07-08T12:57:56.371920Z",
         "fingerprint": "cd6b6a58d9e795c8a4a8dab8ed1f860a2cb8b7f9a2c8b7f5612b51a4a3b58b1d"
-      },
-      {
-        "id": "jusjobs:1625057",
-        "source": "jusjobs",
-        "title": "Legal Counsel (m/w/d), Graz und Wien, (AT)",
-        "company": "Neuroth AG",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1625057",
-        "salary": "€ 3.800",
-        "employment_type": "Vollzeit",
-        "snippet": "Aufgaben: Prüfung, Erstellung und Verhandlung von Verträgen Beratung der Fachbereiche sowie Tochtergesellschaften in allen rechtlichen Belangen Corporate Housekeeping und…",
-        "first_seen": "2026-06-18T11:58:20.988656Z",
-        "fingerprint": "6722a712cf9a96444eb5005e9f01af006e7df98166a01ee8fc9475ec0399f3a8"
       },
       {
         "id": "jusjobs:785065",
@@ -191,19 +178,6 @@
         "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
       },
       {
-        "id": "jusjobs:1802957",
-        "source": "jusjobs",
-        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
-        "company": "Medved & Partner OG",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1802957",
-        "salary": "€ 5.714",
-        "employment_type": "Vollzeit",
-        "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
-      },
-      {
         "id": "jusjobs:1803129",
         "source": "jusjobs",
         "title": "Jurist:in",
@@ -215,6 +189,19 @@
         "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
+      },
+      {
+        "id": "jusjobs:1802957",
+        "source": "jusjobs",
+        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
+        "company": "Medved & Partner OG",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1802957",
+        "salary": "€ 5.714",
+        "employment_type": "Vollzeit",
+        "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
       },
       {
         "id": "jusjobs:1782441",
@@ -414,6 +401,20 @@
         "snippet": "Ihre Aufgaben: Sie begleiten das Sales-Team bei strategisch wichtigen Kunden im Segment größerer Beratungsunternehmen, Rechtsabteilungen und juristischer Organisationen. Sie sprechen mit relevanten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "fc34dd7cb2a903b87872115f06ef201e999fd20d0db9f22728d7ee0aeb17a0ad"
+      },
+      {
+        "id": "karriere_at:7822166",
+        "source": "karriere_at",
+        "title": "Legal Counsel (m/w/d), Graz und Wien,",
+        "company": "Neuroth",
+        "location": "Graz, Wien",
+        "url": "https://www.karriere.at/jobs/7822166",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Gestern veröffentlicht",
+        "snippet": "Deine Aufgaben: Prüfung, Erstellung und Verhandlung von Verträgen, Beratung der Fachbereiche sowie Tochtergesellschaften in allen rechtlichen Belangen, Corporate Housekeeping und Unterstützung in...",
+        "first_seen": "2026-06-18T11:58:20.988656Z",
+        "fingerprint": "2c3baadfc12baf8a717b1b3e2e46411588d5bda1c38c1a582a09919ea7e5f9ac"
       },
       {
         "id": "karriere_at:7838207",
