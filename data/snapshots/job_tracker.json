@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-08T21:35:14.508564Z",
+  "timestamp": "2026-07-08T22:41:46.648086Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-08T21:35:14.508564Z",
+        "last_success": "2026-07-08T22:41:46.648086Z",
         "last_error": null,
         "count": 14
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-08T21:35:14.508564Z",
+        "last_success": "2026-07-08T22:41:46.648086Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-08T21:35:14.508564Z",
+        "last_success": "2026-07-08T22:41:46.648086Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-08T21:35:14.508564Z",
+        "last_success": "2026-07-08T22:41:46.648086Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-08T21:35:14.508564Z",
+        "last_success": "2026-07-08T22:41:46.648086Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-08T21:35:14.508564Z",
+        "last_success": "2026-07-08T22:41:46.648086Z",
         "last_error": null,
         "count": 54
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-08T21:35:14.508564Z",
-        "last_error": null,
-        "count": 33
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 31
       }
     },
     "jobs": [
@@ -74,19 +74,6 @@
         "fingerprint": "9cfdb2c585f7c5d19d53a8444d2e18b474ad3d2b19a3eb5e7d37e3da1962085d"
       },
       {
-        "id": "jusjobs:1799425",
-        "source": "jusjobs",
-        "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
-        "company": "Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1799425",
-        "salary": "€ 3.838",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
-      },
-      {
         "id": "jusjobs:1799423",
         "source": "jusjobs",
         "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
@@ -98,6 +85,19 @@
         "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht,…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
+      },
+      {
+        "id": "jusjobs:1799425",
+        "source": "jusjobs",
+        "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
+        "company": "Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1799425",
+        "salary": "€ 3.838",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
       },
       {
         "id": "jusjobs:1816519",
@@ -178,19 +178,6 @@
         "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
       },
       {
-        "id": "jusjobs:1802957",
-        "source": "jusjobs",
-        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
-        "company": "Medved & Partner OG",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1802957",
-        "salary": "€ 5.714",
-        "employment_type": "Vollzeit",
-        "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
-      },
-      {
         "id": "jusjobs:1803039",
         "source": "jusjobs",
         "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
@@ -202,6 +189,19 @@
         "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
+      },
+      {
+        "id": "jusjobs:1802957",
+        "source": "jusjobs",
+        "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
+        "company": "Medved & Partner OG",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1802957",
+        "salary": "€ 5.714",
+        "employment_type": "Vollzeit",
+        "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
       },
       {
         "id": "jusjobs:1782441",
@@ -313,10 +313,10 @@
         "url": "https://www.karriere.at/jobs/10022360",
         "salary": "ab 4.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "1.7.2026",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a6e30583335d86592e9f63e99faf038b90d4516dd85f5487175f96bab3005529"
+        "fingerprint": "719c3247ab6050bd9b8cb1c94191afc04bd4d02112b23573ff37e2952b6460c0"
       },
       {
         "id": "karriere_at:10023528",
@@ -327,10 +327,10 @@
         "url": "https://www.karriere.at/jobs/10023528",
         "salary": "77.000 € – 83.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T14:42:58.393788Z",
-        "fingerprint": "0dd9601c30c953101505f820e467183d57dbcb36734fc71bb426d721547fa05b"
+        "fingerprint": "a5c7be303eba030cab352a219c4b2aa3ecf7ce2f4e6ee50ee07cdb1e67154246"
       },
       {
         "id": "karriere_at:10021048",
@@ -341,10 +341,10 @@
         "url": "https://www.karriere.at/jobs/10021048",
         "salary": "ab 43.400 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "697c1aad35c391f66af766c86b7f8f2f6d560abd08bc74e7d7353edc4e352f32"
+        "fingerprint": "ca93e62016cf23e8fb9484f0d25cf24845e3d76d85457f6125a76e93d188b996"
       },
       {
         "id": "karriere_at:10022806",
@@ -383,10 +383,10 @@
         "url": "https://www.karriere.at/jobs/7834001",
         "salary": "ab 60.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Vielseitig wie der Handel, Sie steuern zentrale Themen im Datenschutz- und Vertragsrecht, entwickeln klare Leitlinien und stellen deren wirksame Umsetzung im jö Bonus Club sicher. In dieser...",
         "first_seen": "2026-06-29T09:57:01.141761Z",
-        "fingerprint": "ebd15eeff599f755e19add55c95ae2ee4f47e6be89b2d8ba9b262b86d036d26e"
+        "fingerprint": "69cafa1439d1f128c86211e81cd8728c1aba0e5af6ef28c3734077083ea14b9f"
       },
       {
         "id": "karriere_at:7821314",
@@ -397,10 +397,10 @@
         "url": "https://www.karriere.at/jobs/7821314",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Sie begleiten das Sales-Team bei strategisch wichtigen Kunden im Segment größerer Beratungsunternehmen, Rechtsabteilungen und juristischer Organisationen. Sie sprechen mit relevanten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "fc34dd7cb2a903b87872115f06ef201e999fd20d0db9f22728d7ee0aeb17a0ad"
+        "fingerprint": "d5c5dbea96c794dbf3854d4e8943daccaefa8d4ab83b403b078a09cd01a79135"
       },
       {
         "id": "karriere_at:7822166",
@@ -411,10 +411,10 @@
         "url": "https://www.karriere.at/jobs/7822166",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Prüfung, Erstellung und Verhandlung von Verträgen, Beratung der Fachbereiche sowie Tochtergesellschaften in allen rechtlichen Belangen, Corporate Housekeeping und Unterstützung in...",
         "first_seen": "2026-06-18T11:58:20.988656Z",
-        "fingerprint": "2c3baadfc12baf8a717b1b3e2e46411588d5bda1c38c1a582a09919ea7e5f9ac"
+        "fingerprint": "63d4c346af0c8d40f1454b3e0f624607b8c347485465666135580f27b907c109"
       },
       {
         "id": "karriere_at:7838207",
@@ -425,10 +425,10 @@
         "url": "https://www.karriere.at/jobs/7838207",
         "salary": "ab 3.375,40 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Ihre Rolle: Administration von Fondsmaßnahmen und Anzeigen & Veröffentlichungen, Erstellung der rechtlichen Fondsdokumente, Korrespondenz mit Prüfern, OeKB, Fondsverband, Interne Revision...",
         "first_seen": "2026-07-06T06:57:19.722943Z",
-        "fingerprint": "7fe90a4a3335984228148d8b14cfa25ef6312403bdca5a7992ea80629b1f12d1"
+        "fingerprint": "afd59b42d16adf587d5f494d73879062d8db83dd7ae31a65d76419031fd03306"
       },
       {
         "id": "karriere_at:7831523",
@@ -495,10 +495,10 @@
         "url": "https://www.karriere.at/jobs/7823936",
         "salary": "ab 4.257 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihr Aufgabengebiet: Sie beraten im Vergaberecht und unterstützen alle Einkaufsprozesse, Sie entwickeln Vergabestrategien und steuern EU‑weite Verfahren, Sie prüfen Ausschreibungen und sichern Rechts‑...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "91b9880e976d7a98b5aed2d8c7c7217039582907e0c417ddbe39ccb9772b5b17"
+        "fingerprint": "3c3816b5e77d357b9c1c46899eeee3ebb58ae99726de361d7d869dea92473676"
       },
       {
         "id": "karriere_at:7815443",
@@ -509,10 +509,10 @@
         "url": "https://www.karriere.at/jobs/7815443",
         "salary": "ab 4.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "9f4b95789bb1740fd372af4190ca8a1b2d729a9dbe5414cbef50fc6c50dc3bd4"
+        "fingerprint": "c343608f3b5e5b522444e63788586e5ca739dfdc0a54e49d9f8103a0584b4281"
       },
       {
         "id": "karriere_at:7811402",
@@ -523,10 +523,10 @@
         "url": "https://www.karriere.at/jobs/7811402",
         "salary": "ab 55.307 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Jetzt bewerben Jurist:in Gesellschafts- und Vertragsrecht ÖBB-Personenverkehr AG Wien-Favoriten, Wien, 1100, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25499 Wir möchten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "083e92c9cf8697a7e0a17e709f400d651dcdd5b7a3c830bf1ec26f406b92aeb3"
+        "fingerprint": "0de71ed10c6f061b2c69725cd5a46ddc80532b449a478ca78082d6dfd94ede14"
       },
       {
         "id": "karriere_at:7839059",
@@ -705,10 +705,10 @@
         "url": "https://www.karriere.at/jobs/7836770",
         "salary": "ab 49.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Schadenreferent:in/ Jurist:in Haftpflichtschaden Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft...",
         "first_seen": "2026-07-02T06:08:07.645199Z",
-        "fingerprint": "7471a9155b812e42291d439a5537638b6f7d12b9458540b101e7512495de558b"
+        "fingerprint": "1b5b49ce9d60de5eef9c2f7d422258393d0e04fb9f1472d111478587e027e7d7"
       },
       {
         "id": "karriere_at:7836029",
@@ -761,10 +761,10 @@
         "url": "https://www.karriere.at/jobs/7811600",
         "salary": "ab 5.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihr Aufgabengebiet: Dich erwartet ein abwechslungsreicher Mix aus allgemeinen steuerlichen Tätigkeiten (z.B. Erstellung von Steuererklärungen), spannenden Sonderprojekten, wie Tax Due Diligences, der Möglichkeit...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "efc24519cc7386d09f904bc3603ff06c14b05253840413a6855070dbca837988"
+        "fingerprint": "31838704484e051bb53306e43f40b3ee29d633a863d54468b018129d91e4ca80"
       },
       {
         "id": "karriere_at:10022516",
@@ -775,10 +775,10 @@
         "url": "https://www.karriere.at/jobs/10022516",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "d8e360a4b579318f84420f6873abd876168802c0699967b577e847f5bf08687e"
+        "fingerprint": "e5ec2eb6844a8da343c9a95f3e31bb35c83c0cb0fcfb6666456ea9b0c63b3b2f"
       },
       {
         "id": "karriere_at:7739792",
@@ -789,10 +789,10 @@
         "url": "https://www.karriere.at/jobs/7739792",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "(Senior) Associate, Konzernsteuerrecht und Umgründungen (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Durchführung juristischer...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "53833af0d72838fdcc2b41f5308ff6810b0c0ae16c5fe7b5dfc6db5dad0baa5d"
+        "fingerprint": "f2fc99a88a6e445598a255588d817d8e5e5d0bc3737987953159d6ee5e32782b"
       },
       {
         "id": "karriere_at:7724378",
@@ -803,10 +803,10 @@
         "url": "https://www.karriere.at/jobs/7724378",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Du übernimmst die eigenständige Betreuung von Klienten vorwiegend aus dem Gesundheitsbereich. Du bist u.a. zuständig für die Betreuung von großen Gruppenpraxen und Primärversorgungszentren...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "f4c9b07a59a0d50841883e537b155e2293dc4c031ae4235bf325c25b8d003dee"
+        "fingerprint": "9c9f6370583eb4bf15bb6fb59b321fa4cb7ba372641e328593acfa9057d73063"
       },
       {
         "id": "karriere_at:7663329",
