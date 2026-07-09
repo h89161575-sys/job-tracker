@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-09T16:36:21.556776Z",
+  "timestamp": "2026-07-09T18:25:25.971155Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-09T16:36:21.556776Z",
+        "last_success": "2026-07-09T18:25:25.971155Z",
         "last_error": null,
         "count": 16
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-09T16:36:21.556776Z",
+        "last_success": "2026-07-09T18:25:25.971155Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-09T16:36:21.556776Z",
+        "last_success": "2026-07-09T18:25:25.971155Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-09T16:36:21.556776Z",
+        "last_success": "2026-07-09T18:25:25.971155Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-09T16:36:21.556776Z",
+        "last_success": "2026-07-09T18:25:25.971155Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-09T16:36:21.556776Z",
+        "last_success": "2026-07-09T18:25:25.971155Z",
         "last_error": null,
         "count": 54
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-09T16:36:21.556776Z",
-        "last_error": null,
-        "count": 32
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 30
       }
     },
     "jobs": [
@@ -100,19 +100,6 @@
         "fingerprint": "6722a712cf9a96444eb5005e9f01af006e7df98166a01ee8fc9475ec0399f3a8"
       },
       {
-        "id": "jusjobs:1799425",
-        "source": "jusjobs",
-        "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
-        "company": "Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1799425",
-        "salary": "€ 3.838",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
-      },
-      {
         "id": "jusjobs:1799423",
         "source": "jusjobs",
         "title": "Verwaltungspraktikant:in im Bundesministerium für Landesverteidigung",
@@ -124,6 +111,19 @@
         "snippet": "Juristisches Verwaltungspraktikum beim Bundesministerium für Landesverteidigung in Wien zur Unterstützung im Amt für Rüstung und Wehrtechnik bei Disziplinarrecht, Vertragsrecht,…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "6de0eb5ab353b31177abdfd53d0a579b2fada98e23dbb514e926a76e5909cd17"
+      },
+      {
+        "id": "jusjobs:1799425",
+        "source": "jusjobs",
+        "title": "Juristische Planstelle in der Abteilung V/2 Abfall- und Altlastenrecht",
+        "company": "Bundesministerium für Land- und Forstwirtschaft, Regionen und Wasserwirtschaft",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1799425",
+        "salary": "€ 3.838",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristische Vollzeitposition im BMLUK in Wien für Abfall- und Altlastenrecht, Legistik, Deponieverordnung, EU-Recht, Abfallrahmenrichtlinie, Chemie- und POP-VO-Themen sowie…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "ad54495c3c9a1ac50186fa49edf38c1a382e6a92017f9a6b9f332d56dae34bce"
       },
       {
         "id": "jusjobs:1822405",
@@ -191,19 +191,6 @@
         "fingerprint": "f225efd1a1024f0a529b5c2c587c559291f7e2a6dbd0db4093c28b01a8ea6638"
       },
       {
-        "id": "jusjobs:1803039",
-        "source": "jusjobs",
-        "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
-        "company": "Wiener Wohnen Hausbetreuung GmbH",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1803039",
-        "salary": "€ 3.800",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
-      },
-      {
         "id": "jusjobs:1802957",
         "source": "jusjobs",
         "title": "Legal Counsel mit Schwerpunkt Arbeitsrecht (w/m/d)",
@@ -215,6 +202,19 @@
         "snippet": "Legal-Counsel-Position in Wien mit Schwerpunkt österreichisches und internationales Arbeitsrecht in einem Finanzdienstleistungsunternehmen, hohem Home-Office-Anteil und…",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
+      },
+      {
+        "id": "jusjobs:1803039",
+        "source": "jusjobs",
+        "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
+        "company": "Wiener Wohnen Hausbetreuung GmbH",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1803039",
+        "salary": "€ 3.800",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristische Position bei Wiener Wohnen Hausbetreuung in Wien mit Datenschutz, Vertragsrecht, IT-Recht, Datenschutzmanagement, Schulungen, Behördenkommunikation und…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "979dbaf1d34fda1b522b687a3e7678c7b17158d56710ea83d843f4c22702a7df"
       },
       {
         "id": "jusjobs:1803129",
@@ -341,20 +341,6 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:10022360",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10022360",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "84fdbc4901bfd133b7ba83c8ef0a5cd0edc2dfcd107184ff192c4d82caf26ec9"
-      },
-      {
         "id": "karriere_at:10023528",
         "source": "karriere_at",
         "title": "Unternehmensjurist (m/w/d)",
@@ -367,6 +353,20 @@
         "snippet": null,
         "first_seen": "2026-06-18T14:42:58.393788Z",
         "fingerprint": "a5c7be303eba030cab352a219c4b2aa3ecf7ce2f4e6ee50ee07cdb1e67154246"
+      },
+      {
+        "id": "karriere_at:10022360",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10022360",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "84fdbc4901bfd133b7ba83c8ef0a5cd0edc2dfcd107184ff192c4d82caf26ec9"
       },
       {
         "id": "karriere_at:10021048",
