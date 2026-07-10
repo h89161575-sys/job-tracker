@@ -1,4 +1,5 @@
 import json
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any, Dict, List
 import urllib.error
@@ -15,6 +16,23 @@ SOURCE_LABELS = {
     "stepstone": "StepStone",
     "test": "Webhook-Test",
 }
+
+DISCORD_EMBED_CHARACTER_LIMIT = 6000
+DISCORD_FIELD_CHARACTER_BUDGET = 5300
+DISCORD_MAX_JOB_FIELDS_PER_MESSAGE = 10
+
+
+@dataclass(frozen=True)
+class NotificationDeliveryResult:
+    delivered_job_ids: List[str]
+    failed_job_ids: List[str]
+
+    @property
+    def success(self) -> bool:
+        return not self.failed_job_ids
+
+    def __bool__(self) -> bool:
+        return self.success
 
 
 def _truncate(text: str, limit: int) -> str:
@@ -69,16 +87,65 @@ def _build_job_field(job: Dict[str, Any], add_spacing: bool) -> Dict[str, Any]:
     }
 
 
-def send_new_jobs_notification(webhook_url: str, new_jobs: List[Dict[str, Any]]) -> bool:
-    if not webhook_url or not new_jobs:
-        return False
+def _job_delivery_id(job: Dict[str, Any], fallback_index: int) -> str:
+    return str(job.get("id") or job.get("url") or f"delivery:{fallback_index}")
 
-    batch_size = 10
-    all_ok = True
+
+def _embed_character_count(embed: Dict[str, Any]) -> int:
+    parts = [
+        str(embed.get("title") or ""),
+        str(embed.get("description") or ""),
+        str((embed.get("footer") or {}).get("text") or ""),
+        str((embed.get("author") or {}).get("name") or ""),
+    ]
+    for field in embed.get("fields") or []:
+        parts.append(str(field.get("name") or ""))
+        parts.append(str(field.get("value") or ""))
+    return sum(len(part) for part in parts)
+
+
+def _build_job_batches(new_jobs: List[Dict[str, Any]]) -> List[List[Dict[str, Any]]]:
+    batches: List[List[Dict[str, Any]]] = []
+    current: List[Dict[str, Any]] = []
+    current_characters = 0
+
+    for job in new_jobs:
+        field = _build_job_field(job, add_spacing=True)
+        field_characters = len(field["name"]) + len(field["value"])
+        if current and (
+            len(current) >= DISCORD_MAX_JOB_FIELDS_PER_MESSAGE
+            or current_characters + field_characters > DISCORD_FIELD_CHARACTER_BUDGET
+        ):
+            batches.append(current)
+            current = []
+            current_characters = 0
+        current.append(job)
+        current_characters += field_characters
+
+    if current:
+        batches.append(current)
+    return batches
+
+
+def deliver_new_jobs_notification(
+    webhook_url: str,
+    new_jobs: List[Dict[str, Any]],
+) -> NotificationDeliveryResult:
+    if not new_jobs:
+        return NotificationDeliveryResult([], [])
+    if not webhook_url:
+        return NotificationDeliveryResult(
+            [],
+            [_job_delivery_id(job, index) for index, job in enumerate(new_jobs)],
+        )
+
+    batches = _build_job_batches(new_jobs)
+    delivered_job_ids: List[str] = []
+    failed_job_ids: List[str] = []
     total = len(new_jobs)
+    batch_start = 0
 
-    for batch_start in range(0, total, batch_size):
-        batch = new_jobs[batch_start : batch_start + batch_size]
+    for batch in batches:
         batch_end = batch_start + len(batch)
         fields = [
             _build_job_field(job, add_spacing=len(batch) > 1)
@@ -100,6 +167,22 @@ def send_new_jobs_notification(webhook_url: str, new_jobs: List[Dict[str, Any]])
                 "footer": {"text": "Job Tracker"},
             }]
         }
-        all_ok = _post_discord_payload(webhook_url, payload) and all_ok
+        embed = payload["embeds"][0]
+        if _embed_character_count(embed) > DISCORD_EMBED_CHARACTER_LIMIT:
+            raise ValueError("Discord embed exceeds the 6000 character limit")
 
-    return all_ok
+        batch_ids = [
+            _job_delivery_id(job, batch_start + index)
+            for index, job in enumerate(batch)
+        ]
+        if _post_discord_payload(webhook_url, payload):
+            delivered_job_ids.extend(batch_ids)
+        else:
+            failed_job_ids.extend(batch_ids)
+        batch_start = batch_end
+
+    return NotificationDeliveryResult(delivered_job_ids, failed_job_ids)
+
+
+def send_new_jobs_notification(webhook_url: str, new_jobs: List[Dict[str, Any]]) -> bool:
+    return bool(deliver_new_jobs_notification(webhook_url, new_jobs))

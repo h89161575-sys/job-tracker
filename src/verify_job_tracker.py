@@ -15,6 +15,7 @@ from job_tracker import (  # noqa: E402
     find_cross_source_duplicate,
     job_fingerprint,
     normalize_text,
+    parse_lawfinder_jobs_from_html,
     parse_karriere_jobs_from_state,
     parse_jusjobs_jobs_from_html,
     parse_stepstone_jobs_from_html,
@@ -24,6 +25,7 @@ from job_tracker import (  # noqa: E402
     slugify,
 )
 import notifier  # noqa: E402
+import job_tracker as job_tracker_module  # noqa: E402
 
 
 def assert_equal(actual, expected, label):
@@ -88,6 +90,51 @@ def test_jusjobs_parser():
     assert_equal(len(jobs), 2, "jusjobs job count")
     assert_equal(jobs[0]["id"], "jusjobs:1507775", "jusjobs id")
     assert_equal(jobs[0]["salary"], "€ 3.500", "jusjobs salary")
+
+
+def test_jusjobs_stale_advertised_count_is_only_a_warning():
+    html = """
+    <div id="jobSearchResults">
+      <span id="number">2</span>
+      <div class="row jobResult">
+        <h4><a href="/job/1507775">Legal Counsel</a></h4>
+      </div>
+    </div>
+    <div class="col p-0 whiteBg"></div>
+    """
+    original_fetch = job_tracker_module.fetch_url
+    calls = []
+    try:
+        job_tracker_module.fetch_url = lambda url: (calls.append(url) or html, None)
+        jobs, errors = job_tracker_module.fetch_jusjobs_jobs()
+    finally:
+        job_tracker_module.fetch_url = original_fetch
+
+    assert_equal(errors, [], "stale JusJobs result count is not a parser failure")
+    assert_equal([job["id"] for job in jobs], ["jusjobs:1507775"], "rendered JusJobs card retained")
+    assert_equal(len(calls), 2, "JusJobs pagination checks for the advertised missing result")
+
+
+def test_jusjobs_unparsed_rendered_card_is_an_error():
+    html = """
+    <div id="jobSearchResults">
+      <span id="number">2</span>
+      <div class="row jobResult">
+        <h4><a href="/job/1507775">Legal Counsel</a></h4>
+      </div>
+      <div class="row jobResult"><h4>Broken result without a link</h4></div>
+    </div>
+    <div class="col p-0 whiteBg"></div>
+    """
+    original_fetch = job_tracker_module.fetch_url
+    try:
+        job_tracker_module.fetch_url = lambda _url: (html, None)
+        jobs, errors = job_tracker_module.fetch_jusjobs_jobs()
+    finally:
+        job_tracker_module.fetch_url = original_fetch
+
+    assert_equal([job["id"] for job in jobs], [], "partial JusJobs page is not accepted")
+    assert_true(any("rendered 2 result card" in error for error in errors), "missing parsed card reported")
 
 
 def test_erste_bank_filter():
@@ -237,6 +284,23 @@ def test_stepstone_html_filter():
     assert_equal(jobs[0]["salary"], "EUR 4.000 brutto", "stepstone salary")
     assert_true("Schnelle Bewerbung" in (jobs[0].get("department") or ""), "stepstone labels")
     assert_true(warnings and "non-Wien" in warnings[0], "stepstone non-wien warning")
+
+
+def test_lawfinder_next_flight_parser():
+    raw_jobs = [{
+        "id": "lf-1",
+        "title": "Legal Counsel",
+        "employer": {"title": "Test GmbH"},
+        "jobLocations": [{"title": "Wien"}],
+    }]
+    decoded_payload = "1:" + json.dumps({"data": raw_jobs}, ensure_ascii=False) + "\n"
+    escaped_payload = json.dumps(decoded_payload, ensure_ascii=False)[1:-1]
+    html = f'<script>self.__next_f.push([1,"{escaped_payload}"])</script>'
+
+    jobs, errors = parse_lawfinder_jobs_from_html(html, "2026-06-18T00:00:00Z")
+
+    assert_equal(errors, [], "lawfinder parser errors")
+    assert_equal([job["id"] for job in jobs], ["lawfinder:lf-1"], "lawfinder parsed ids")
 
 
 def test_compare_new_jobs():
@@ -441,6 +505,46 @@ def test_failed_source_first_success_is_baselined_without_alert():
         )
 
 
+def test_schema_migration_baselines_previously_empty_source():
+    with tempfile.TemporaryDirectory() as tmp:
+        old_snapshot = {
+            "timestamp": "2026-06-18T00:00:00Z",
+            "data": {
+                "schema_version": 2,
+                "sources": {
+                    "lawfinder": {
+                        "label": "LawFinder",
+                        "last_success": "2026-06-18T00:00:00Z",
+                        "last_error": None,
+                        "count": 0,
+                    }
+                },
+                "jobs": [],
+            },
+        }
+        save_snapshot(JOB_SNAPSHOT_NAME, old_snapshot, tmp)
+        current_jobs = [sample_job("lf1", title="Legal Counsel", source="lawfinder")]
+        fetchers = {"lawfinder": lambda: (list(current_jobs), [])}
+
+        migrated = run_job_tracker(
+            source_names=["lawfinder"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers=fetchers,
+        )
+        assert_equal(migrated.new_jobs, [], "schema migration baselines repaired empty source")
+        assert_equal(migrated.snapshot["data"]["schema_version"], 3, "schema migration version")
+
+        current_jobs.append(sample_job("lf2", title="Compliance Counsel", source="lawfinder"))
+        later = run_job_tracker(
+            source_names=["lawfinder"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers=fetchers,
+        )
+        assert_equal([job["id"] for job in later.new_jobs], ["lawfinder:lf2"], "post-migration new job alerts")
+
+
 def test_discord_notifier_sends_all_jobs_in_batches():
     payloads = []
     original_post = notifier._post_discord_payload
@@ -464,22 +568,199 @@ def test_discord_notifier_sends_all_jobs_in_batches():
     assert_true("1-10 von 13" in descriptions, "first batch range")
     assert_true("11-13 von 13" in descriptions, "second batch range")
 
+    payloads.clear()
+    long_jobs = []
+    for index in range(13):
+        job = sample_job(f"long-{index}", title="T" * 300)
+        job.update({
+            "company": "C" * 220,
+            "location": "L" * 220,
+            "salary": "S" * 220,
+            "employment_type": "E" * 220,
+            "published_at": "P" * 220,
+            "snippet": "N" * 500,
+        })
+        long_jobs.append(job)
+
+    try:
+        notifier._post_discord_payload = fake_post
+        delivery = notifier.deliver_new_jobs_notification(
+            "https://example.invalid/webhook",
+            long_jobs,
+        )
+    finally:
+        notifier._post_discord_payload = original_post
+
+    assert_true(delivery.success, "long notifier delivery success")
+    assert_equal(len(delivery.delivered_job_ids), 13, "long notifier delivered ids")
+    assert_true(
+        all(
+            notifier._embed_character_count(payload["embeds"][0])
+            <= notifier.DISCORD_EMBED_CHARACTER_LIMIT
+            for payload in payloads
+        ),
+        "all embeds stay under Discord total character limit",
+    )
+
+
+def test_failed_notification_is_retried_from_outbox():
+    with tempfile.TemporaryDirectory() as tmp:
+        current_jobs = [sample_job("1")]
+        fetchers = {"jusjobs": lambda: (list(current_jobs), [])}
+        run_job_tracker(
+            source_names=["jusjobs"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers=fetchers,
+        )
+
+        current_jobs.append(sample_job("2"))
+        calls = []
+        original_delivery = job_tracker_module.deliver_new_jobs_notification
+
+        def fail_delivery(_webhook_url, jobs):
+            calls.append([job["id"] for job in jobs])
+            return notifier.NotificationDeliveryResult([], [job["id"] for job in jobs])
+
+        def succeed_delivery(_webhook_url, jobs):
+            calls.append([job["id"] for job in jobs])
+            return notifier.NotificationDeliveryResult([job["id"] for job in jobs], [])
+
+        try:
+            job_tracker_module.deliver_new_jobs_notification = fail_delivery
+            failed = run_job_tracker(
+                source_names=["jusjobs"],
+                snapshot_dir=tmp,
+                notify=True,
+                webhook_url="https://example.invalid/webhook",
+                fetchers=fetchers,
+            )
+            assert_true(not failed.healthy, "failed notification marks run unhealthy")
+            assert_equal([job["id"] for job in failed.pending_jobs], ["jusjobs:2"], "failed job queued")
+
+            job_tracker_module.deliver_new_jobs_notification = succeed_delivery
+            retried = run_job_tracker(
+                source_names=["jusjobs"],
+                snapshot_dir=tmp,
+                notify=True,
+                webhook_url="https://example.invalid/webhook",
+                fetchers=fetchers,
+            )
+        finally:
+            job_tracker_module.deliver_new_jobs_notification = original_delivery
+
+        assert_true(retried.healthy, "successful retry restores healthy state")
+        assert_equal(retried.pending_jobs, [], "successful retry clears outbox")
+        assert_equal(calls, [["jusjobs:2"], ["jusjobs:2"]], "only failed job retried")
+
+
+def test_subset_run_preserves_other_sources():
+    with tempfile.TemporaryDirectory() as tmp:
+        current = {
+            "jusjobs": [sample_job("j1")],
+            "uniqa": [sample_job("u1", title="Datenschutzjurist:in", source="uniqa")],
+        }
+        fetchers = {
+            "jusjobs": lambda: (list(current["jusjobs"]), []),
+            "uniqa": lambda: (list(current["uniqa"]), []),
+        }
+        run_job_tracker(
+            source_names=["jusjobs", "uniqa"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers=fetchers,
+        )
+        subset = run_job_tracker(
+            source_names=["jusjobs"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers=fetchers,
+        )
+        assert_equal(
+            sorted(job["id"] for job in subset.all_jobs),
+            ["jusjobs:j1", "uniqa:u1"],
+            "subset run keeps unselected jobs",
+        )
+        assert_true("uniqa" in subset.sources, "subset run keeps unselected source status")
+
+        current["uniqa"].append(sample_job("u2", title="Compliance Jurist:in", source="uniqa"))
+        full = run_job_tracker(
+            source_names=["jusjobs", "uniqa"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers=fetchers,
+        )
+        assert_equal([job["id"] for job in full.new_jobs], ["uniqa:u2"], "only genuinely new job alerts")
+
+
+def test_empty_success_preserves_previous_source_state():
+    with tempfile.TemporaryDirectory() as tmp:
+        run_job_tracker(
+            source_names=["jusjobs"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers={"jusjobs": lambda: ([sample_job("1")], [])},
+        )
+        failed = run_job_tracker(
+            source_names=["jusjobs"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers={"jusjobs": lambda: ([], [])},
+        )
+        assert_true(not failed.healthy, "empty result after non-empty source is unhealthy")
+        assert_equal([job["id"] for job in failed.all_jobs], ["jusjobs:1"], "empty result preserves baseline")
+
+
+def test_seen_ids_suppress_reappearing_jobs():
+    with tempfile.TemporaryDirectory() as tmp:
+        current_jobs = [sample_job("1")]
+        fetchers = {"jusjobs": lambda: (list(current_jobs), [])}
+        run_job_tracker(
+            source_names=["jusjobs"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers=fetchers,
+        )
+        current_jobs[:] = [sample_job("2")]
+        run_job_tracker(
+            source_names=["jusjobs"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers=fetchers,
+        )
+        current_jobs[:] = [sample_job("1"), sample_job("2")]
+        reappeared = run_job_tracker(
+            source_names=["jusjobs"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers=fetchers,
+        )
+        assert_equal(reappeared.new_jobs, [], "previously seen id does not alert again")
+
 
 def run_tests():
     tests = [
         test_normalization,
         test_jusjobs_parser,
+        test_jusjobs_stale_advertised_count_is_only_a_warning,
+        test_jusjobs_unparsed_rendered_card_is_an_error,
         test_erste_bank_filter,
         test_uniqa_rss_filter,
         test_karriere_at_state_filter,
         test_stepstone_html_filter,
+        test_lawfinder_next_flight_parser,
         test_compare_new_jobs,
         test_cross_source_dedupe_same_position,
         test_run_job_tracker_snapshot_flow,
         test_cross_source_duplicate_old_snapshot_does_not_alert,
         test_new_source_is_baselined_without_alert,
         test_failed_source_first_success_is_baselined_without_alert,
+        test_schema_migration_baselines_previously_empty_source,
         test_discord_notifier_sends_all_jobs_in_batches,
+        test_failed_notification_is_retried_from_outbox,
+        test_subset_run_preserves_other_sources,
+        test_empty_success_preserves_previous_source_state,
+        test_seen_ids_suppress_reappearing_jobs,
     ]
     for test in tests:
         test()

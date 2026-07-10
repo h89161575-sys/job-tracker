@@ -18,7 +18,15 @@ Create a repository secret:
 
 - `JOB_DISCORD_WEBHOOK_URL`: your Discord webhook URL
 
-The workflow runs every 15 minutes at minute `7/15` and commits snapshot updates in `data/snapshots`.
+Optional fallback secret:
+
+- `SPARKASSE_JOBLIST_AUTHORIZATION`: authorization header used only when the Sparkasse page configuration cannot be discovered dynamically
+
+The workflow runs every 15 minutes at minute `7/15`, serializes overlapping runs,
+runs the regression verifier, and commits snapshot updates in `data/snapshots`.
+Failed Discord batches remain in the snapshot outbox and are retried on the next run.
+Source or notification failures produce a red workflow after the preserved state has
+been committed.
 
 ## Local checks
 

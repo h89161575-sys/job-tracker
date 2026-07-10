@@ -22,7 +22,7 @@ from config import (
     JOB_TRACKER_ENABLED,
     SNAPSHOTS_DIR,
 )
-from notifier import send_new_jobs_notification
+from notifier import deliver_new_jobs_notification, send_new_jobs_notification
 
 
 JOB_SNAPSHOT_NAME = "job_tracker"
@@ -49,7 +49,6 @@ SPARKASSE_JOBLIST_API_FALLBACK_URL = (
     "cfapps.eu11.hana.ondemand.com/list?language=de_DE"
 )
 SPARKASSE_JOBLIST_FALLBACK_HEADERS = {
-    "Authorization": "Basic ZXJzdGU6TE1kW1I4UzkuQw==",
     "Referer": "https://www.sparkasse.at/",
 }
 UNIQA_RSS_URL = (
@@ -92,6 +91,14 @@ FetchResult = Tuple[List[Dict[str, Any]], List[str]]
 Fetcher = Callable[[], FetchResult]
 
 
+def _sparkasse_fallback_headers() -> Dict[str, str]:
+    headers = dict(SPARKASSE_JOBLIST_FALLBACK_HEADERS)
+    authorization = normalize_text(os.environ.get("SPARKASSE_JOBLIST_AUTHORIZATION"))
+    if authorization:
+        headers["Authorization"] = authorization
+    return headers
+
+
 @dataclass(frozen=True)
 class SourceConfig:
     name: str
@@ -107,6 +114,12 @@ class JobRunResult:
     all_jobs: List[Dict[str, Any]]
     snapshot: Dict[str, Any]
     sources: Dict[str, Dict[str, Any]]
+    pending_jobs: List[Dict[str, Any]]
+    run_errors: List[str]
+
+    @property
+    def healthy(self) -> bool:
+        return not self.run_errors
 
 
 def utc_now() -> str:
@@ -606,6 +619,21 @@ def _extract_jusjobs_expected_count(html: str) -> Optional[int]:
     return None
 
 
+def _count_jusjobs_result_cards(html: str) -> int:
+    result_html = _extract_between_markers(
+        html.replace("<!-- -->", ""),
+        r'id=["\']jobSearchResults["\']',
+        r'<div[^>]+class=["\'][^"\']*\bwhiteBg\b',
+    )
+    return len(
+        re.findall(
+            r'<div[^>]+class=["\'][^"\']*\bjobResult\b[^"\']*["\']',
+            result_html,
+            re.IGNORECASE,
+        )
+    )
+
+
 def parse_jusjobs_jobs_from_html(html: str, fetched_at: Optional[str] = None) -> Tuple[List[Dict[str, Any]], List[str]]:
     fetched_at = fetched_at or utc_now()
     warnings: List[str] = []
@@ -702,16 +730,21 @@ def fetch_jusjobs_jobs() -> FetchResult:
         html, err = fetch_url(url)
         if err:
             if jobs:
-                print(f"[jobs][warn] JusJobs pagination stopped at offset {offset}: {err}")
-                break
+                return jobs, [f"JusJobs pagination incomplete at offset {offset}: {err}"]
             return [], [f"JusJobs fetch error: {err}"]
         if not html:
-            break
+            return jobs, [f"JusJobs returned an empty page at offset {offset}"]
 
         if expected_count is None:
             expected_count = _extract_jusjobs_expected_count(html)
 
         page_jobs, _warnings = parse_jusjobs_jobs_from_html(html, fetched_at)
+        rendered_card_count = _count_jusjobs_result_cards(html)
+        if rendered_card_count != len(page_jobs):
+            return jobs, [
+                f"JusJobs rendered {rendered_card_count} result card(s) at offset {offset} "
+                f"but parsed {len(page_jobs)} unique job link(s)"
+            ]
         added = 0
         for job in page_jobs:
             job_id = normalize_text(job.get("id"))
@@ -728,9 +761,11 @@ def fetch_jusjobs_jobs() -> FetchResult:
 
     if expected_count is not None and expected_count != len(jobs):
         print(
-            f"[jobs][warn] JusJobs expected {expected_count} result(s) "
-            f"but extracted {len(jobs)} unique job link(s)"
+            f"[jobs][warn] JusJobs advertises {expected_count} result(s), "
+            f"but its rendered result cards contain {len(jobs)} unique job(s)"
         )
+    if expected_count is None and not jobs:
+        return [], ["JusJobs response contained no recognizable result count or job links"]
     return jobs, []
 
 
@@ -755,7 +790,7 @@ def discover_sparkasse_joblist_api() -> Tuple[str, Dict[str, str], str]:
         print(f"[jobs][warn] Sparkasse page config discovery failed, using documented fallback API: {err}")
         return (
             SPARKASSE_JOBLIST_API_FALLBACK_URL,
-            dict(SPARKASSE_JOBLIST_FALLBACK_HEADERS),
+            _sparkasse_fallback_headers(),
             "/erstebank/karriere-spk/job-detail",
         )
 
@@ -776,7 +811,7 @@ def discover_sparkasse_joblist_api() -> Tuple[str, Dict[str, str], str]:
     print("[jobs][warn] Sparkasse joblist config not found, using documented fallback API")
     return (
         SPARKASSE_JOBLIST_API_FALLBACK_URL,
-        dict(SPARKASSE_JOBLIST_FALLBACK_HEADERS),
+        _sparkasse_fallback_headers(),
         "/erstebank/karriere-spk/job-detail",
     )
 
@@ -917,22 +952,18 @@ def fetch_uniqa_jobs() -> FetchResult:
         return [], [f"UNIQA RSS parse error: {exc}"]
 
 
-def fetch_lawfinder_jobs() -> FetchResult:
+def parse_lawfinder_jobs_from_html(
+    html: str,
+    fetched_at: Optional[str] = None,
+) -> FetchResult:
     jobs: List[Dict[str, Any]] = []
-    url = (
-        "https://www.lawfinder.at/jobs?bundesland=wien&firmentyp=versicherung&"
-        "firmentyp=unternehmen&firmentyp=universitaet&firmentyp=oeffentlicher-dienst&firmentyp=verein"
-    )
-    html, err = fetch_url(url)
-    if err:
-        return [], [f"LawFinder error: {err}"]
-    if not html:
-        return [], ["LawFinder returned an empty response"]
-
-    fetched_at = utc_now()
-    for push in re.findall(r'self\.__next_f\.push\(\[1,\s*"(.*?)"\s*\]\)', html, re.DOTALL):
+    fetched_at = fetched_at or utc_now()
+    flight_chunks = re.findall(r'self\.__next_f\.push\(\[1,\s*"(.*?)"\s*\]\)', html, re.DOTALL)
+    decoded_job_lists = 0
+    parse_errors: List[str] = []
+    for push in flight_chunks:
         try:
-            payload = push.replace('\\"', '"').replace("\\\\", "\\").replace("\\/", "/").strip()
+            payload = json.loads(f'"{push}"')
             colon_idx = payload.find(":")
             if colon_idx == -1 or colon_idx >= 10:
                 continue
@@ -943,6 +974,7 @@ def fetch_lawfinder_jobs() -> FetchResult:
             raw_jobs = data.get("data")
             if not isinstance(raw_jobs, list):
                 continue
+            decoded_job_lists += 1
             for raw in raw_jobs:
                 raw_id = normalize_text(raw.get("id"))
                 if not raw_id:
@@ -968,9 +1000,29 @@ def fetch_lawfinder_jobs() -> FetchResult:
                         fetched_at,
                     )
                 )
-        except Exception:
+        except (json.JSONDecodeError, TypeError, ValueError) as exc:
+            parse_errors.append(str(exc))
             continue
+    if decoded_job_lists == 0:
+        detail = f"; last parse error: {parse_errors[-1]}" if parse_errors else ""
+        return [], [
+            f"LawFinder found {len(flight_chunks)} Next.js flight chunk(s) "
+            f"but no parseable job list{detail}"
+        ]
     return dedupe_jobs(jobs), []
+
+
+def fetch_lawfinder_jobs() -> FetchResult:
+    url = (
+        "https://www.lawfinder.at/jobs?bundesland=wien&firmentyp=versicherung&"
+        "firmentyp=unternehmen&firmentyp=universitaet&firmentyp=oeffentlicher-dienst&firmentyp=verein"
+    )
+    html, err = fetch_url(url)
+    if err:
+        return [], [f"LawFinder error: {err}"]
+    if not html:
+        return [], ["LawFinder returned an empty response"]
+    return parse_lawfinder_jobs_from_html(html)
 
 
 def fetch_derstandard_jobs() -> FetchResult:
@@ -1443,11 +1495,10 @@ def fetch_stepstone_jobs() -> FetchResult:
         html, err = fetch_stepstone_page(url)
         if err:
             if jobs:
-                warnings.append(f"StepStone pagination stopped after {len(jobs)} job(s): {err}")
-                break
+                return jobs, [f"StepStone pagination incomplete after {len(jobs)} job(s): {err}"]
             return [], [f"StepStone fetch error: {err}"]
         if not html:
-            break
+            return jobs, [f"StepStone returned an empty page after {len(jobs)} job(s)"]
 
         if expected_count is None:
             expected_count = _extract_stepstone_expected_count(html)
@@ -1464,8 +1515,7 @@ def fetch_stepstone_jobs() -> FetchResult:
         if not next_url:
             break
         if after_count == before_count:
-            warnings.append(f"StepStone page did not add new job IDs: {url}")
-            break
+            return jobs, [f"StepStone pagination page did not add new job IDs: {url}"]
         url = next_url
 
     if expected_count is not None and len(jobs) != expected_count:
@@ -1474,6 +1524,8 @@ def fetch_stepstone_jobs() -> FetchResult:
         )
     for warning in warnings:
         print(f"[jobs][warn] {warning}")
+    if expected_count and not jobs:
+        return [], [f"StepStone expected {expected_count} result(s) but parsed none"]
     return dedupe_jobs(jobs), []
 
 
@@ -1522,8 +1574,7 @@ def load_snapshot(name: str = JOB_SNAPSHOT_NAME, snapshot_dir: str = SNAPSHOTS_D
         with open(path, "r", encoding="utf-8") as handle:
             return json.load(handle)
     except Exception as exc:
-        print(f"[jobs] Error loading snapshot {path}: {exc}")
-        return None
+        raise RuntimeError(f"Could not load snapshot {path}: {exc}") from exc
 
 
 def save_snapshot(
@@ -1533,8 +1584,12 @@ def save_snapshot(
 ) -> None:
     os.makedirs(snapshot_dir, exist_ok=True)
     path = get_snapshot_path(name, snapshot_dir)
-    with open(path, "w", encoding="utf-8") as handle:
+    temporary_path = f"{path}.tmp"
+    with open(temporary_path, "w", encoding="utf-8") as handle:
         json.dump(data, handle, indent=2, ensure_ascii=False)
+        handle.flush()
+        os.fsync(handle.fileno())
+    os.replace(temporary_path, path)
     print(f"[jobs] Saved snapshot: {path}")
 
 
@@ -1547,13 +1602,18 @@ def build_snapshot_data(
     jobs: List[Dict[str, Any]],
     sources_status: Dict[str, Dict[str, Any]],
     timestamp: str,
+    *,
+    seen_ids: Iterable[str],
+    pending_jobs: List[Dict[str, Any]],
 ) -> Dict[str, Any]:
     return {
         "timestamp": timestamp,
         "data": {
-            "schema_version": 2,
+            "schema_version": 3,
             "sources": sources_status,
             "jobs": jobs,
+            "seen_ids": sorted({normalize_text(job_id) for job_id in seen_ids if normalize_text(job_id)}),
+            "pending_jobs": pending_jobs,
         },
     }
 
@@ -1576,30 +1636,79 @@ def run_job_tracker(
     old_snapshot = load_snapshot(JOB_SNAPSHOT_NAME, snapshot_dir)
     first_run = old_snapshot is None
     old_data = old_snapshot.get("data", {}) if isinstance(old_snapshot, dict) else {}
-    old_jobs = old_data.get("jobs", []) if isinstance(old_data, dict) else []
-    old_sources = old_data.get("sources", {}) if isinstance(old_data, dict) else {}
+    old_jobs_value = old_data.get("jobs", []) if isinstance(old_data, dict) else []
+    old_jobs = [job for job in old_jobs_value if isinstance(job, dict)] if isinstance(old_jobs_value, list) else []
+    old_sources_value = old_data.get("sources", {}) if isinstance(old_data, dict) else {}
+    old_sources = old_sources_value if isinstance(old_sources_value, dict) else {}
+    old_pending_value = old_data.get("pending_jobs", []) if isinstance(old_data, dict) else []
+    old_pending_jobs = [
+        job for job in old_pending_value if isinstance(job, dict)
+    ] if isinstance(old_pending_value, list) else []
+    old_seen_value = old_data.get("seen_ids", []) if isinstance(old_data, dict) else []
+    try:
+        old_schema_version = int(old_data.get("schema_version") or 0) if isinstance(old_data, dict) else 0
+    except (TypeError, ValueError):
+        old_schema_version = 0
+    seen_ids = {
+        normalize_text(job_id)
+        for job_id in old_seen_value
+        if normalize_text(job_id)
+    } if isinstance(old_seen_value, list) else set()
+    seen_ids.update(
+        normalize_text(job.get("id"))
+        for job in old_jobs
+        if normalize_text(job.get("id"))
+    )
+    seen_ids.update(
+        normalize_text(job.get("id"))
+        for job in old_pending_jobs
+        if normalize_text(job.get("id"))
+    )
 
     timestamp = utc_now()
-    all_jobs: List[Dict[str, Any]] = []
-    sources_status: Dict[str, Dict[str, Any]] = {}
+    enabled_set = set(enabled_names)
+    all_jobs: List[Dict[str, Any]] = [
+        dict(job)
+        for job in old_jobs
+        if normalize_text(job.get("source")) not in enabled_set
+    ]
+    sources_status: Dict[str, Dict[str, Any]] = {
+        normalize_text(source_name): dict(status)
+        for source_name, status in old_sources.items()
+        if normalize_text(source_name) not in enabled_set and isinstance(status, dict)
+    }
+    run_errors: List[str] = []
 
     for source_name in enabled_names:
         source = registry[source_name]
+        old_source_jobs = [job for job in old_jobs if job.get("source") == source_name]
+        old_source_status = old_sources.get(source_name) or {}
         print(f"[jobs] Fetching source: {source.label} ({source.name})")
         try:
             jobs, errors = source.fetcher()
         except Exception as exc:
             jobs, errors = [], [f"{type(exc).__name__}: {exc}"]
 
+        previous_count = old_source_status.get("count") if isinstance(old_source_status, dict) else 0
+        try:
+            previous_count = int(previous_count or 0)
+        except (TypeError, ValueError):
+            previous_count = len(old_source_jobs)
+        if not errors and not jobs and (old_source_jobs or previous_count > 0):
+            errors = [
+                f"{source.label} returned 0 jobs after previously returning "
+                f"{max(previous_count, len(old_source_jobs))}; preserving the prior baseline"
+            ]
+
         if errors:
-            old_source_jobs = [job for job in old_jobs if job.get("source") == source_name]
             all_jobs.extend(old_source_jobs)
             sources_status[source_name] = {
                 "label": source.label,
-                "last_success": (old_sources.get(source_name) or {}).get("last_success"),
+                "last_success": old_source_status.get("last_success") if isinstance(old_source_status, dict) else None,
                 "last_error": errors[0],
                 "count": len(old_source_jobs),
             }
+            run_errors.append(f"{source.label}: {errors[0]}")
             print(f"[jobs] {source.label} failed: {errors[0]}")
             continue
 
@@ -1626,12 +1735,17 @@ def run_job_tracker(
     for job in all_jobs:
         old_job = old_by_id.get(normalize_text(job.get("id")))
         if not old_job:
-            old_job = find_cross_source_duplicate(job, old_jobs)
+            old_job = find_cross_source_duplicate(job, old_jobs + old_pending_jobs)
         if old_job:
             job["first_seen"] = old_job.get("first_seen") or job.get("first_seen") or timestamp
 
     if first_run:
         new_jobs = []
+        seen_ids.update(
+            normalize_text(job.get("id"))
+            for job in all_jobs
+            if normalize_text(job.get("id"))
+        )
     else:
         known_sources = {
             normalize_text(source_name)
@@ -1644,15 +1758,31 @@ def run_job_tracker(
             for job in old_jobs
             if normalize_text(job.get("source"))
         )
+        migration_baseline_sources = {
+            normalize_text(source_name)
+            for source_name, status in old_sources.items()
+            if old_schema_version < 3
+            and isinstance(status, dict)
+            and not status.get("count")
+            and not any(job.get("source") == source_name for job in old_jobs)
+            and normalize_text(source_name)
+        }
+        unseen_jobs = [
+            job
+            for job in all_jobs
+            if normalize_text(job.get("id"))
+            and normalize_text(job.get("id")) not in seen_ids
+        ]
         detected_new_jobs = [
             job
-            for job in compare_new_jobs(old_jobs, all_jobs)
-            if not find_cross_source_duplicate(job, old_jobs)
+            for job in unseen_jobs
+            if not find_cross_source_duplicate(job, old_jobs + old_pending_jobs)
         ]
         new_jobs = [
             job
             for job in detected_new_jobs
             if normalize_text(job.get("source")) in known_sources
+            and normalize_text(job.get("source")) not in migration_baseline_sources
         ]
         suppressed_new_source_jobs = len(detected_new_jobs) - len(new_jobs)
         if suppressed_new_source_jobs:
@@ -1660,24 +1790,71 @@ def run_job_tracker(
                 "[jobs] Baseline only for newly added source(s): "
                 f"{suppressed_new_source_jobs} existing job(s) not alerted"
             )
-    snapshot = build_snapshot_data(all_jobs, sources_status, timestamp)
+        seen_ids.update(
+            normalize_text(job.get("id"))
+            for job in unseen_jobs
+            if normalize_text(job.get("id"))
+        )
+
+    pending_by_id: Dict[str, Dict[str, Any]] = {}
+    for index, job in enumerate(old_pending_jobs + new_jobs):
+        pending_id = normalize_text(job.get("id")) or normalize_text(job.get("url")) or f"pending:{index}"
+        pending_by_id[pending_id] = dict(job)
+    pending_jobs = list(pending_by_id.values())
+
+    if first_run:
+        print("[jobs] First run: baseline only, no alerts sent")
+        pending_jobs = []
+    else:
+        if new_jobs:
+            print(f"[jobs] New jobs detected: {len(new_jobs)}")
+        if pending_jobs and notify and not dry_run:
+            print(f"[jobs] Delivering {len(pending_jobs)} pending/new job notification(s)")
+            target_webhook = webhook_url or JOB_DISCORD_WEBHOOK_URL
+            if target_webhook:
+                try:
+                    delivery = deliver_new_jobs_notification(target_webhook, pending_jobs)
+                    failed_ids = set(delivery.failed_job_ids)
+                    pending_jobs = [
+                        job
+                        for index, job in enumerate(pending_jobs)
+                        if normalize_text(job.get("id")) in failed_ids
+                        or (
+                            not normalize_text(job.get("id"))
+                            and normalize_text(job.get("url")) in failed_ids
+                        )
+                        or (
+                            not normalize_text(job.get("id"))
+                            and not normalize_text(job.get("url"))
+                            and f"delivery:{index}" in failed_ids
+                        )
+                    ]
+                    if pending_jobs:
+                        run_errors.append(
+                            f"Discord delivery failed for {len(pending_jobs)} job notification(s)"
+                        )
+                except Exception as exc:
+                    run_errors.append(f"Discord delivery error: {type(exc).__name__}: {exc}")
+            else:
+                run_errors.append(
+                    f"No job Discord webhook configured; {len(pending_jobs)} notification(s) remain pending"
+                )
+        elif pending_jobs and not notify and not dry_run:
+            print(f"[jobs] Notifications disabled; queued {len(pending_jobs)} job(s) for a later run")
+    snapshot = build_snapshot_data(
+        all_jobs,
+        sources_status,
+        timestamp,
+        seen_ids=seen_ids,
+        pending_jobs=pending_jobs,
+    )
 
     if dry_run:
         print("[jobs] Dry run: snapshot not saved and Discord not notified")
     else:
         save_snapshot(JOB_SNAPSHOT_NAME, snapshot, snapshot_dir)
 
-    if first_run:
-        print("[jobs] First run: baseline only, no alerts sent")
-    elif new_jobs:
-        print(f"[jobs] New jobs detected: {len(new_jobs)}")
-        if notify and not dry_run:
-            target_webhook = webhook_url or JOB_DISCORD_WEBHOOK_URL
-            if target_webhook:
-                send_new_jobs_notification(target_webhook, new_jobs)
-            else:
-                print("[jobs] No job Discord webhook configured; notification skipped")
-    else:
+    if not first_run and not new_jobs and not pending_jobs:
         print("[jobs] No new jobs found")
 
     return JobRunResult(
@@ -1686,6 +1863,8 @@ def run_job_tracker(
         all_jobs=all_jobs,
         snapshot=snapshot,
         sources=sources_status,
+        pending_jobs=pending_jobs,
+        run_errors=run_errors,
     )
 
 
@@ -1694,6 +1873,8 @@ def track_jobs() -> bool:
         print("[jobs] Job tracker is disabled. Set JOB_TRACKER_ENABLED=1 to enable it.")
         return False
     result = run_job_tracker(dry_run=False, notify=True)
+    if not result.healthy:
+        raise RuntimeError("; ".join(result.run_errors))
     return bool(result.new_jobs)
 
 
@@ -1706,6 +1887,11 @@ def _print_run_summary(result: JobRunResult) -> None:
         print(f"  - {label}: {status.get('count', 0)} job(s){suffix}")
     print(f"  Total jobs: {len(result.all_jobs)}")
     print(f"  New jobs: {len(result.new_jobs)}")
+    print(f"  Pending notifications: {len(result.pending_jobs)}")
+    if result.run_errors:
+        print("  Health errors:")
+        for error in result.run_errors:
+            print(f"    ! {error}")
     for job in result.new_jobs[:10]:
         print(f"    + {job.get('title')} | {job.get('company')} | {job.get('url')}")
 
@@ -1713,7 +1899,11 @@ def _print_run_summary(result: JobRunResult) -> None:
 def main(argv: Optional[List[str]] = None) -> int:
     parser = argparse.ArgumentParser(description="Run the legal job tracker")
     parser.add_argument("--dry-run", action="store_true", help="Fetch and compare without saving snapshots or notifying Discord")
-    parser.add_argument("--no-notify", action="store_true", help="Save snapshots but skip Discord notifications")
+    parser.add_argument(
+        "--no-notify",
+        action="store_true",
+        help="Save snapshots and queue new notifications for a later normal run",
+    )
     parser.add_argument(
         "--source",
         action="append",
@@ -1748,7 +1938,7 @@ def main(argv: Optional[List[str]] = None) -> int:
         notify=not args.no_notify,
     )
     _print_run_summary(result)
-    return 0
+    return 0 if result.healthy else 1
 
 
 if __name__ == "__main__":

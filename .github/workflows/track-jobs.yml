@@ -20,6 +20,10 @@ on:
       - 'src/**'
       - '.github/workflows/**'
 
+concurrency:
+  group: job-tracker-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   track:
     runs-on: ubuntu-latest
@@ -35,10 +39,15 @@ jobs:
           cache: 'pip'
       - name: Install dependencies
         run: pip install -r requirements.txt
+      - name: Verify job tracker
+        run: python src/verify_job_tracker.py
       - name: Run job tracker
+        id: tracker
+        continue-on-error: true
         if: ${{ github.event.inputs.test_discord != 'true' }}
         env:
           JOB_DISCORD_WEBHOOK_URL: ${{ secrets.JOB_DISCORD_WEBHOOK_URL }}
+          SPARKASSE_JOBLIST_AUTHORIZATION: ${{ secrets.SPARKASSE_JOBLIST_AUTHORIZATION }}
           JOB_TRACKER_SOURCES: jusjobs,erste_bank,uniqa,lawfinder,derstandard,karriere_at,stepstone
         run: python src/job_tracker.py
       - name: Send Discord test notification
@@ -47,7 +56,7 @@ jobs:
           JOB_DISCORD_WEBHOOK_URL: ${{ secrets.JOB_DISCORD_WEBHOOK_URL }}
         run: python src/job_tracker.py --test-notify
       - name: Commit snapshot updates
-        if: ${{ github.event.inputs.test_discord != 'true' }}
+        if: ${{ always() && github.event.inputs.test_discord != 'true' }}
         run: |
           if [ -n "$(git status --porcelain data/snapshots)" ]; then
             git config user.name "github-actions[bot]"
@@ -58,3 +67,6 @@ jobs:
           else
             echo "No snapshot changes."
           fi
+      - name: Fail when the tracker is unhealthy
+        if: ${{ always() && github.event.inputs.test_discord != 'true' && steps.tracker.outcome == 'failure' }}
+        run: exit 1
