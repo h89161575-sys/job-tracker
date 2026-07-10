@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-09T23:35:33.807459Z",
+  "timestamp": "2026-07-10T01:14:40.947309Z",
   "data": {
     "schema_version": 2,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-07-09T23:35:33.807459Z",
+        "last_success": "2026-07-10T01:14:40.947309Z",
         "last_error": null,
-        "count": 17
+        "count": 18
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-09T23:35:33.807459Z",
+        "last_success": "2026-07-10T01:14:40.947309Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-09T23:35:33.807459Z",
+        "last_success": "2026-07-10T01:14:40.947309Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-09T23:35:33.807459Z",
+        "last_success": "2026-07-10T01:14:40.947309Z",
         "last_error": null,
         "count": 0
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-09T23:35:33.807459Z",
+        "last_success": "2026-07-10T01:14:40.947309Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-09T23:35:33.807459Z",
+        "last_success": "2026-07-10T01:14:40.947309Z",
         "last_error": null,
         "count": 54
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-09T23:35:33.807459Z",
-        "last_error": null,
-        "count": 34
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 32
       }
     },
     "jobs": [
@@ -72,6 +72,19 @@
         "snippet": "Wohnservice Wien ist eine Service-Einrichtung der Stadt Wien. Wir stehen allen Wiener*innen mit den Bereichen MieterHilfe, Wohnberatung Wien und wohnpartner als wichtige und…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
         "fingerprint": "9cfdb2c585f7c5d19d53a8444d2e18b474ad3d2b19a3eb5e7d37e3da1962085d"
+      },
+      {
+        "id": "jusjobs:1842991",
+        "source": "jusjobs",
+        "title": "Juristin / Jurist (m/w/d)",
+        "company": "Niederösterreichische Verkehrsorganisationsges.m.b.H. (NÖVOG)",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1842991",
+        "salary": "€ 3.273",
+        "employment_type": "Vollzeit",
+        "snippet": "Aufgaben? Du bereitest öffentliche Ausschreibungen vor und betreust diese, sowohl im Ausschreibungsprozess als auch in der laufenden Vertragsabwicklung. Du monitorst rechtliche…",
+        "first_seen": "2026-07-10T01:14:40.947330Z",
+        "fingerprint": "e102d95360cbd0a61309fbd527ebf8566987e5d0608e7efcd79d7ba5f3d277cd"
       },
       {
         "id": "jusjobs:1832119",
@@ -204,6 +217,19 @@
         "fingerprint": "f225efd1a1024f0a529b5c2c587c559291f7e2a6dbd0db4093c28b01a8ea6638"
       },
       {
+        "id": "jusjobs:1803129",
+        "source": "jusjobs",
+        "title": "Jurist:in",
+        "company": "Österreichische Bundesfinanzierungsagentur (OeBFA)",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1803129",
+        "salary": "€ 3.000",
+        "employment_type": "Vollzeit",
+        "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
+        "first_seen": "2026-06-26T19:11:54.995343Z",
+        "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
+      },
+      {
         "id": "jusjobs:1803039",
         "source": "jusjobs",
         "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht",
@@ -230,19 +256,6 @@
         "fingerprint": "a9b50ea552245b249c8464bf02dd3af059b4fa6e54e6066f6e7e84f114bdc26c"
       },
       {
-        "id": "jusjobs:1803129",
-        "source": "jusjobs",
-        "title": "Jurist:in",
-        "company": "Österreichische Bundesfinanzierungsagentur (OeBFA)",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1803129",
-        "salary": "€ 3.000",
-        "employment_type": "Vollzeit",
-        "snippet": "Vollzeitstelle als Jurist:in in der Rechtsabteilung mit Schwerpunkt Wertpapier- und Kapitalmarktrecht, Vertragsgestaltung, Derivate-Rahmenverträge, rechtliche Recherchen und…",
-        "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "fa332015c0cb4c8d4c7eae401f7a6ca668e8ba484f72c938572d9b18dd962553"
-      },
-      {
         "id": "jusjobs:1782441",
         "source": "jusjobs",
         "title": "Juristische/r Mitarbeiter/in Rechtsschutzversicherung (mensch*) - (VZ/38,5 Std.)",
@@ -263,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1235995",
         "salary": "€ 3.000",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Aufgaben ▪ Projektbezogene Einbindung in unsere spannenden Mandate ▪ Umfassende juristische Unterstützung unserer Rechtsanwält*innen ▪ Nach einer Einarbeitungsphase…",
         "first_seen": "2026-06-26T19:11:54.995343Z",
-        "fingerprint": "605ac7bdec378a7677b2c9e0fe35c16ce1221091386bdf09dd871c262dbd07ac"
+        "fingerprint": "4477386fd9077ea07948e3fdfd6bfd8511f1e2a33a961b2052f310878d6597dd"
       },
       {
         "id": "erste_bank:33517",
@@ -358,6 +371,20 @@
         "fingerprint": "eeed0cf2552cd12968ae1adbab48c1cd3738632b3ea3d4eebc5d6cb09076b852"
       },
       {
+        "id": "karriere_at:10022806",
+        "source": "karriere_at",
+        "title": "Jurist mit Schwerpunkt Vergaberecht und Datenschutz (w/m/d)",
+        "company": "ANKÖ Service Ges.m.b.H.",
+        "location": "Wien 15. Bezirk (Rudolfsheim-Fünfhaus)",
+        "url": "https://www.karriere.at/jobs/10022806",
+        "salary": "ab 3.267 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "5159bdb90e36fd9ce96b58de2ddc8a292b7c34251a66d0b072135c28308a613a"
+      },
+      {
         "id": "karriere_at:10022360",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
@@ -384,20 +411,6 @@
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "307a4606525988d6ed872a0fe5a941b20897502143a3b7d9c69547fb7308268c"
-      },
-      {
-        "id": "karriere_at:10022806",
-        "source": "karriere_at",
-        "title": "Jurist mit Schwerpunkt Vergaberecht und Datenschutz (w/m/d)",
-        "company": "ANKÖ Service Ges.m.b.H.",
-        "location": "Wien 15. Bezirk (Rudolfsheim-Fünfhaus)",
-        "url": "https://www.karriere.at/jobs/10022806",
-        "salary": "ab 3.267 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "30.6.2026",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "36a31449c8816ddfc7bf31df8749e50e9a537db0fb27bb28f5f429da712a9617"
       },
       {
         "id": "karriere_at:10024281",
