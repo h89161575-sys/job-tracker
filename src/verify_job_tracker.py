@@ -707,8 +707,74 @@ def test_empty_success_preserves_previous_source_state():
             notify=False,
             fetchers={"jusjobs": lambda: ([], [])},
         )
-        assert_true(not failed.healthy, "empty result after non-empty source is unhealthy")
+        assert_true(not failed.healthy, "the only selected source failing is fatal")
+        assert_true(failed.degraded, "source outage is reported as degraded")
         assert_equal([job["id"] for job in failed.all_jobs], ["jusjobs:1"], "empty result preserves baseline")
+
+
+def test_partial_source_failure_still_delivers_other_source_jobs():
+    with tempfile.TemporaryDirectory() as tmp:
+        current = {
+            "jusjobs": [sample_job("j1")],
+            "uniqa": [sample_job("u1", title="Datenschutzjurist:in", source="uniqa")],
+        }
+        run_job_tracker(
+            source_names=["jusjobs", "uniqa"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers={
+                "jusjobs": lambda: (list(current["jusjobs"]), []),
+                "uniqa": lambda: (list(current["uniqa"]), []),
+            },
+        )
+
+        current["uniqa"].append(sample_job("u2", title="Compliance Jurist:in", source="uniqa"))
+        delivered = []
+        original_delivery = job_tracker_module.deliver_new_jobs_notification
+
+        def succeed_delivery(_webhook_url, jobs):
+            delivered.extend(job["id"] for job in jobs)
+            return notifier.NotificationDeliveryResult([job["id"] for job in jobs], [])
+
+        try:
+            job_tracker_module.deliver_new_jobs_notification = succeed_delivery
+            result = run_job_tracker(
+                source_names=["jusjobs", "uniqa"],
+                snapshot_dir=tmp,
+                notify=True,
+                webhook_url="https://example.invalid/webhook",
+                fetchers={
+                    "jusjobs": lambda: ([], ["temporary timeout"]),
+                    "uniqa": lambda: (list(current["uniqa"]), []),
+                },
+            )
+        finally:
+            job_tracker_module.deliver_new_jobs_notification = original_delivery
+
+        assert_true(result.healthy, "partial source failure does not fail the whole run")
+        assert_true(result.degraded, "partial source failure remains visible")
+        assert_equal(delivered, ["uniqa:u2"], "new job from healthy source is delivered")
+        assert_equal(result.pending_jobs, [], "successful delivery clears the outbox")
+        assert_equal(
+            sorted(job["id"] for job in result.all_jobs),
+            ["jusjobs:j1", "uniqa:u1", "uniqa:u2"],
+            "failed source baseline is preserved alongside healthy source updates",
+        )
+
+
+def test_all_sources_failed_is_fatal():
+    with tempfile.TemporaryDirectory() as tmp:
+        result = run_job_tracker(
+            source_names=["jusjobs", "uniqa"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers={
+                "jusjobs": lambda: ([], ["timeout"]),
+                "uniqa": lambda: ([], ["timeout"]),
+            },
+        )
+        assert_true(not result.healthy, "all selected sources failing is fatal")
+        assert_true(result.degraded, "all source failures remain visible")
 
 
 def test_seen_ids_suppress_reappearing_jobs():
@@ -760,6 +826,8 @@ def run_tests():
         test_failed_notification_is_retried_from_outbox,
         test_subset_run_preserves_other_sources,
         test_empty_success_preserves_previous_source_state,
+        test_partial_source_failure_still_delivers_other_source_jobs,
+        test_all_sources_failed_is_fatal,
         test_seen_ids_suppress_reappearing_jobs,
     ]
     for test in tests:

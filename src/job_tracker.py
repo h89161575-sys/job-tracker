@@ -115,11 +115,16 @@ class JobRunResult:
     snapshot: Dict[str, Any]
     sources: Dict[str, Dict[str, Any]]
     pending_jobs: List[Dict[str, Any]]
+    source_errors: List[str]
     run_errors: List[str]
 
     @property
     def healthy(self) -> bool:
         return not self.run_errors
+
+    @property
+    def degraded(self) -> bool:
+        return bool(self.source_errors)
 
 
 def utc_now() -> str:
@@ -1677,7 +1682,9 @@ def run_job_tracker(
         for source_name, status in old_sources.items()
         if normalize_text(source_name) not in enabled_set and isinstance(status, dict)
     }
+    source_errors: List[str] = []
     run_errors: List[str] = []
+    successful_source_count = 0
 
     for source_name in enabled_names:
         source = registry[source_name]
@@ -1708,7 +1715,7 @@ def run_job_tracker(
                 "last_error": errors[0],
                 "count": len(old_source_jobs),
             }
-            run_errors.append(f"{source.label}: {errors[0]}")
+            source_errors.append(f"{source.label}: {errors[0]}")
             print(f"[jobs] {source.label} failed: {errors[0]}")
             continue
 
@@ -1724,7 +1731,11 @@ def run_job_tracker(
             "last_error": None,
             "count": len(normalized_jobs),
         }
+        successful_source_count += 1
         print(f"[jobs] {source.label}: {len(normalized_jobs)} job(s)")
+
+    if enabled_names and successful_source_count == 0:
+        run_errors.append("All selected job sources failed")
 
     all_jobs = dedupe_cross_source_jobs(dedupe_jobs(all_jobs))
     old_by_id = {
@@ -1864,6 +1875,7 @@ def run_job_tracker(
         snapshot=snapshot,
         sources=sources_status,
         pending_jobs=pending_jobs,
+        source_errors=source_errors,
         run_errors=run_errors,
     )
 
@@ -1888,6 +1900,10 @@ def _print_run_summary(result: JobRunResult) -> None:
     print(f"  Total jobs: {len(result.all_jobs)}")
     print(f"  New jobs: {len(result.new_jobs)}")
     print(f"  Pending notifications: {len(result.pending_jobs)}")
+    if result.source_errors:
+        print("  Source warnings (other sources were still processed):")
+        for error in result.source_errors:
+            print(f"    ~ {error}")
     if result.run_errors:
         print("  Health errors:")
         for error in result.run_errors:
