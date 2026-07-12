@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-07-12T12:43:46.649737Z",
+  "timestamp": "2026-07-12T14:19:11.559826Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": null,
+        "last_error": "JusJobs returned 0 jobs after previously returning 17; preserving the prior baseline",
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-12T12:43:46.649737Z",
+        "last_success": "2026-07-12T14:19:11.559826Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-12T12:43:46.649737Z",
+        "last_success": "2026-07-12T14:19:11.559826Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-12T12:43:46.649737Z",
+        "last_success": "2026-07-12T14:19:11.559826Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-12T12:43:46.649737Z",
+        "last_success": "2026-07-12T14:19:11.559826Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-12T12:43:46.649737Z",
+        "last_success": "2026-07-12T14:19:11.559826Z",
         "last_error": null,
         "count": 55
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": null,
-        "count": 34
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 32
       }
     },
     "jobs": [
@@ -464,20 +464,6 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:7804418",
-        "source": "karriere_at",
-        "title": "Jurist (w/m/d)",
-        "company": "EuroTeleSites",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7804418",
-        "salary": "ab 3.107 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Jurist (w/m/d) Wien, Lassallestraße 9 Jetzt bewerben Wir sind viel mehr als nur ein Funkturmunternehmen. Als unabhängiger Betreiber von Mobilfunkinfrastruktur gestalten wir...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "ae2632bc892ee056e408b3746bcb2051d0f5efcaeec768dadd607fe3dd283edf"
-      },
-      {
         "id": "karriere_at:10021048",
         "source": "karriere_at",
         "title": "Jurist*in",
@@ -490,6 +476,20 @@
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "e6a7a0c4519a0a4395b3a35b2d695e85f990acbdb22c2a2f60dcfb96f41d2f8c"
+      },
+      {
+        "id": "karriere_at:7804418",
+        "source": "karriere_at",
+        "title": "Jurist (w/m/d)",
+        "company": "EuroTeleSites",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7804418",
+        "salary": "ab 3.107 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Gestern veröffentlicht",
+        "snippet": "Jurist (w/m/d) Wien, Lassallestraße 9 Jetzt bewerben Wir sind viel mehr als nur ein Funkturmunternehmen. Als unabhängiger Betreiber von Mobilfunkinfrastruktur gestalten wir...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "ae2632bc892ee056e408b3746bcb2051d0f5efcaeec768dadd607fe3dd283edf"
       },
       {
         "id": "karriere_at:10023528",
@@ -808,10 +808,10 @@
         "url": "https://www.karriere.at/jobs/7839059",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
         "first_seen": "2026-07-06T14:47:03.475158Z",
-        "fingerprint": "82c899f2ee1ee4f55e9dd18f9ba870afcc32bd420b28194223d78d2d0f09aa3e"
+        "fingerprint": "0c5b0a0fc640e552f9849e08112d4a740b5263ffcfff24a8ac49a4a2a417a890"
       },
       {
         "id": "karriere_at:7825238",
