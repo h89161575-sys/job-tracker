@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T06:30:32.966143Z",
+  "timestamp": "2026-07-14T08:52:15.737982Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-14T06:30:32.966143Z",
+        "last_success": "2026-07-14T08:52:15.737982Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-14T06:30:32.966143Z",
+        "last_success": "2026-07-14T08:52:15.737982Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-14T06:30:32.966143Z",
+        "last_success": "2026-07-14T08:52:15.737982Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-14T06:30:32.966143Z",
+        "last_success": "2026-07-14T08:52:15.737982Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-14T06:30:32.966143Z",
+        "last_success": "2026-07-14T08:52:15.737982Z",
         "last_error": null,
-        "count": 57
+        "count": 58
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-13T19:44:59.635898Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 32
       }
     },
@@ -490,10 +490,10 @@
         "url": "https://www.karriere.at/jobs/10025968",
         "salary": "ab 3.599,52 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "5e3abbfcb9ef851a4696563807e16fbbc31148f5d0b058c2a29ee00d215a93a2"
+        "fingerprint": "d08dbe433353c506b1b79ea31500dee89f2947ac30cbae642b1fd19011be757c"
       },
       {
         "id": "karriere_at:10022360",
@@ -522,6 +522,20 @@
         "snippet": null,
         "first_seen": "2026-06-29T09:57:01.141761Z",
         "fingerprint": "d4716370188e1249f08a598d5a307af5aeefba829a9b418157cef9a59205627a"
+      },
+      {
+        "id": "karriere_at:7844045",
+        "source": "karriere_at",
+        "title": "Senior Compliance Legal Counsel (m|f|x)",
+        "company": "Schönherr Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7844045",
+        "salary": "ab 6.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
+        "first_seen": "2026-07-14T08:52:20.449998Z",
+        "fingerprint": "6a8a300e2c48aa7cf06821a05809607feb80f66b896b2f8f0d3ed875c92bee77"
       },
       {
         "id": "karriere_at:7844024",
@@ -1771,6 +1785,7 @@
       "karriere_at:7842650",
       "karriere_at:7843574",
       "karriere_at:7844024",
+      "karriere_at:7844045",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
