@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-15T06:32:57.806564Z",
+  "timestamp": "2026-07-15T08:58:11.593714Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-15T06:32:57.806564Z",
+        "last_success": "2026-07-15T08:58:11.593714Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-15T06:32:57.806564Z",
+        "last_success": "2026-07-15T08:58:11.593714Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-15T06:32:57.806564Z",
+        "last_success": "2026-07-15T08:58:11.593714Z",
         "last_error": null,
-        "count": 10
+        "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-15T06:32:57.806564Z",
+        "last_success": "2026-07-15T08:58:11.593714Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-15T06:32:57.806564Z",
+        "last_success": "2026-07-15T08:58:11.593714Z",
         "last_error": null,
         "count": 57
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-15T06:32:57.806564Z",
-        "last_error": null,
-        "count": 35
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 33
       }
     },
     "jobs": [
@@ -294,6 +294,16 @@
         "fingerprint": "335705cdae5e12440d98d4a8acfe5a7accb5c519a34048ff2cf0804345b835a0"
       },
       {
+        "id": "lawfinder:cmrltpnok000004jth1a5bsnv",
+        "source": "lawfinder",
+        "title": "Referent:in für Datenschutz - Abteilung I/Präs. 13 - Vergabe- und Vertragsrecht, Datenschutz",
+        "company": "Bundesministerium für Innovation, Mobilität und Infrastruktur",
+        "location": "Wien",
+        "url": "https://www.lawfinder.at/jobs/cmrltpnok000004jth1a5bsnv",
+        "first_seen": "2026-07-15T08:58:15.575933Z",
+        "fingerprint": "8f04fb72a4005bc3af7f9ec9b4bd2bf4c4cc077f4c62a99ad8132f544ea71a64"
+      },
+      {
         "id": "lawfinder:cmmnclx3q000004joqfgyuu0k",
         "source": "lawfinder",
         "title": "Senior Tax Manager:in - Tax Reporting and Transfer Pricing",
@@ -344,16 +354,6 @@
         "fingerprint": "39d7ec1d32d3ef3a44d671fc84c2438d17c778b08baf68e00b863824586060d2"
       },
       {
-        "id": "lawfinder:cmr94cxm9000804jvcg3o4yrq",
-        "source": "lawfinder",
-        "title": "Verwaltungspraktikum im Bundesministerium für Landesverteidigung (Jurist:in)",
-        "company": "Bundesministerium für Landesverteidigung",
-        "location": "Wien",
-        "url": "https://www.lawfinder.at/jobs/cmr94cxm9000804jvcg3o4yrq",
-        "first_seen": "2026-07-10T15:08:54.549445Z",
-        "fingerprint": "091405a6eb84a6fbbc37ddcaf70585da8cba20a5f2cb6337aa6d161b05e563cb"
-      },
-      {
         "id": "lawfinder:cmr93tm2v000204jvd6n65tv1",
         "source": "lawfinder",
         "title": "Verwaltungspraktikum in der Anwaltschaft für Gleichbehandlung Wien",
@@ -362,6 +362,16 @@
         "url": "https://www.lawfinder.at/jobs/cmr93tm2v000204jvd6n65tv1",
         "first_seen": "2026-07-10T15:08:54.549445Z",
         "fingerprint": "ca1f4623332bb46b9af0aa31dfb5bdb3522d0c330e5b8a3b281c239876c2a88b"
+      },
+      {
+        "id": "lawfinder:cmr94cxm9000804jvcg3o4yrq",
+        "source": "lawfinder",
+        "title": "Verwaltungspraktikum im Bundesministerium für Landesverteidigung (Jurist:in)",
+        "company": "Bundesministerium für Landesverteidigung",
+        "location": "Wien",
+        "url": "https://www.lawfinder.at/jobs/cmr94cxm9000804jvcg3o4yrq",
+        "first_seen": "2026-07-10T15:08:54.549445Z",
+        "fingerprint": "091405a6eb84a6fbbc37ddcaf70585da8cba20a5f2cb6337aa6d161b05e563cb"
       },
       {
         "id": "lawfinder:cmmd8odci0000i904sr2a7875",
@@ -452,10 +462,10 @@
         "url": "https://www.karriere.at/jobs/10025968",
         "salary": "ab 3.599,52 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "d08dbe433353c506b1b79ea31500dee89f2947ac30cbae642b1fd19011be757c"
+        "fingerprint": "f02a57f8541f0bee044441ce43bce30f1fc19da37add8f37bfd5f959748d59f6"
       },
       {
         "id": "karriere_at:10023528",
@@ -1788,6 +1798,7 @@
       "lawfinder:cmr93tm2v000204jvd6n65tv1",
       "lawfinder:cmr946wa4000704jvt0waktct",
       "lawfinder:cmr94cxm9000804jvcg3o4yrq",
+      "lawfinder:cmrltpnok000004jth1a5bsnv",
       "stepstone:633580",
       "stepstone:929613",
       "stepstone:934776",
