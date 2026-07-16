@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T04:24:52.800288Z",
+  "timestamp": "2026-07-16T07:06:32.733920Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-16T04:24:52.800288Z",
+        "last_success": "2026-07-16T07:06:32.733920Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-16T04:24:52.800288Z",
+        "last_success": "2026-07-16T07:06:32.733920Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-16T04:24:52.800288Z",
+        "last_success": "2026-07-16T07:06:32.733920Z",
         "last_error": null,
         "count": 10
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-16T04:24:52.800288Z",
+        "last_success": "2026-07-16T07:06:32.733920Z",
         "last_error": null,
-        "count": 4
+        "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-16T04:24:52.800288Z",
+        "last_success": "2026-07-16T07:06:32.733920Z",
         "last_error": null,
-        "count": 58
+        "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-15T21:12:07.634218Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 33
       }
     },
@@ -434,18 +434,14 @@
         "fingerprint": "d968927ad012eeddc7dd63e8bff779a4eb829ab38ad20e9c78f765ddeeb74a40"
       },
       {
-        "id": "karriere_at:10022360",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10022360",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "84fdbc4901bfd133b7ba83c8ef0a5cd0edc2dfcd107184ff192c4d82caf26ec9"
+        "id": "derstandard:f9351baf-d587-3a65-a827-7bd585e06f79",
+        "source": "derstandard",
+        "title": "Senior Tax Associate: Schwerpunkt International Tax & Transfer Pricing (m/w/d)",
+        "company": "Grant Thornton Austria",
+        "location": "Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/f9351baf-d587-3a65-a827-7bd585e06f79",
+        "first_seen": "2026-07-16T07:06:38.088651Z",
+        "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
         "id": "karriere_at:10025968",
@@ -460,6 +456,34 @@
         "snippet": null,
         "first_seen": "2026-07-10T08:45:47.820748Z",
         "fingerprint": "f02a57f8541f0bee044441ce43bce30f1fc19da37add8f37bfd5f959748d59f6"
+      },
+      {
+        "id": "karriere_at:10022360",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10022360",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "84fdbc4901bfd133b7ba83c8ef0a5cd0edc2dfcd107184ff192c4d82caf26ec9"
+      },
+      {
+        "id": "karriere_at:10026561",
+        "source": "karriere_at",
+        "title": "Legal Officer (w/m/d)",
+        "company": "Bechtle Austria GmbH",
+        "location": "Traun, Wien, Wiener Neudorf",
+        "url": "https://www.karriere.at/jobs/10026561",
+        "salary": "ab 70.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-16T07:06:38.089637Z",
+        "fingerprint": "ca0b8e4313ad1b44e949487d2e459448e4ca8d4066a1e96275c0cc4f91bfb5c6"
       },
       {
         "id": "karriere_at:10024281",
@@ -554,10 +578,10 @@
         "url": "https://www.karriere.at/jobs/7844024",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Rechtliche Begleitung von Kapitalmarktprojekten, Unterstützung in der Kapitalmarktcompliance und -kommunikation, Verstärkung im Bereich Compliance/Governance, Koordinierung des Beteiligungsmanagements...",
         "first_seen": "2026-07-14T06:30:38.747341Z",
-        "fingerprint": "d2480d5ec787f4d17e7a259efc42538fc38ab47999fd7ea2b32bb697ffc141b4"
+        "fingerprint": "f2e215b87e1d4a644e5452547efac03e5d18123e545e8b3a4ffeafa0a82a8984"
       },
       {
         "id": "karriere_at:7838207",
@@ -922,6 +946,20 @@
         "snippet": "Jetzt bewerben Jurist:in Gesellschafts- und Vertragsrecht ÖBB-Personenverkehr AG Wien-Favoriten, Wien, 1100, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25499 Wir möchten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "28c09b66af9a68f4d9aa2832f144e6590978f6e093ddffee8bd2d479b3209469"
+      },
+      {
+        "id": "karriere_at:7845569",
+        "source": "karriere_at",
+        "title": "Mitarbeiter:in (w/m/d) für die Prüfungsabteilung",
+        "company": "Kammer der Steuerberater:innen und Wirtschaftsprüfer:innen",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7845569",
+        "salary": "ab 39.200 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Ihre Aufgaben: Eigenverantwortliche Bearbeitung komplexer Anfragen rund um Prüfungsverfahren und Bestellung von Steuerberater:innen und Wirtschaftsprüfer:innen, Rechtlich fundierte Auslegung und...",
+        "first_seen": "2026-07-16T07:06:38.089637Z",
+        "fingerprint": "47c1e40db69600dcd16fd1399b200273fec07aec8873c33a20b02133f6cc8c4c"
       },
       {
         "id": "karriere_at:7663323",
@@ -1732,6 +1770,7 @@
       "karriere_at:10024281",
       "karriere_at:10024650",
       "karriere_at:10025968",
+      "karriere_at:10026561",
       "karriere_at:7663251",
       "karriere_at:7663254",
       "karriere_at:7663257",
@@ -1782,6 +1821,7 @@
       "karriere_at:7844024",
       "karriere_at:7844045",
       "karriere_at:7845209",
+      "karriere_at:7845569",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
