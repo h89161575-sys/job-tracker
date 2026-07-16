@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-16T12:57:56.504004Z",
+  "timestamp": "2026-07-16T15:11:10.461029Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-16T12:57:56.504004Z",
+        "last_success": "2026-07-16T15:11:10.461029Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-16T12:57:56.504004Z",
+        "last_success": "2026-07-16T15:11:10.461029Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-16T12:57:56.504004Z",
+        "last_success": "2026-07-16T15:11:10.461029Z",
         "last_error": null,
         "count": 10
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-16T12:57:56.504004Z",
+        "last_success": "2026-07-16T15:11:10.461029Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-16T12:57:56.504004Z",
+        "last_success": "2026-07-16T15:11:10.461029Z",
         "last_error": null,
-        "count": 59
+        "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-16T11:20:27.583443Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 33
       }
     },
@@ -444,20 +444,6 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:10025968",
-        "source": "karriere_at",
-        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
-        "company": "Kommunalkredit Public Consulting GmbH",
-        "location": "Wien 19. Bezirk (Döbling)",
-        "url": "https://www.karriere.at/jobs/10025968",
-        "salary": "ab 3.599,52 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "ac48b62ed391d1b3188208d6c2b6381e7d52fdc79f58b532e4e8cfe87864d693"
-      },
-      {
         "id": "karriere_at:10022360",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
@@ -470,6 +456,20 @@
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "84fdbc4901bfd133b7ba83c8ef0a5cd0edc2dfcd107184ff192c4d82caf26ec9"
+      },
+      {
+        "id": "karriere_at:10025968",
+        "source": "karriere_at",
+        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
+        "company": "Kommunalkredit Public Consulting GmbH",
+        "location": "Wien 19. Bezirk (Döbling)",
+        "url": "https://www.karriere.at/jobs/10025968",
+        "salary": "ab 3.599,52 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-10T08:45:47.820748Z",
+        "fingerprint": "ac48b62ed391d1b3188208d6c2b6381e7d52fdc79f58b532e4e8cfe87864d693"
       },
       {
         "id": "karriere_at:10026661",
@@ -666,6 +666,20 @@
         "snippet": "Ihre Aufgaben: Vielseitig wie der Handel, Sie steuern zentrale Themen im Datenschutz- und Vertragsrecht, entwickeln klare Leitlinien und stellen deren wirksame Umsetzung im jö Bonus Club sicher. In dieser...",
         "first_seen": "2026-06-29T09:57:01.141761Z",
         "fingerprint": "6c1454001b95a00dd7ba4a89000b9fec25b6f1e7e228a66e262f3c8a829347a3"
+      },
+      {
+        "id": "karriere_at:7846127",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter Disputes (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7846127",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Make your way to the top. Rechtsanwaltsanwärter Disputes (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply Now! Wir suchen...",
+        "first_seen": "2026-07-16T15:11:16.877320Z",
+        "fingerprint": "2e4aaf92269b278eb8ab322cb6acca3aa81e6c69b316e50bfceb90364476445a"
       },
       {
         "id": "karriere_at:7839059",
@@ -1823,6 +1837,7 @@
       "karriere_at:7844045",
       "karriere_at:7845209",
       "karriere_at:7845569",
+      "karriere_at:7846127",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
