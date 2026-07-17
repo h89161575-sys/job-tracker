@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T22:28:07.673220Z",
+  "timestamp": "2026-07-17T23:31:05.670002Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-17T22:28:07.673220Z",
+        "last_success": "2026-07-17T23:31:05.670002Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-17T22:28:07.673220Z",
+        "last_success": "2026-07-17T23:31:05.670002Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-17T22:28:07.673220Z",
+        "last_success": "2026-07-17T23:31:05.670002Z",
         "last_error": null,
         "count": 10
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-17T22:28:07.673220Z",
+        "last_success": "2026-07-17T23:31:05.670002Z",
         "last_error": null,
-        "count": 5
+        "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-17T22:28:07.673220Z",
+        "last_success": "2026-07-17T23:31:05.670002Z",
         "last_error": null,
         "count": 55
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-17T21:27:55.389724Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 33
       }
     },
@@ -412,16 +412,6 @@
         "url": "https://jobs.derstandard.at/job/8f1ba88f-9a44-3649-aee7-467c9c481a60",
         "first_seen": "2026-06-18T11:48:53.539163Z",
         "fingerprint": "cf6e2bfb4f03d772ef56b863346615c02f097031a96ff672087707b2fa6c92e1"
-      },
-      {
-        "id": "derstandard:95688895-7734-3724-a843-557e8f37b042",
-        "source": "derstandard",
-        "title": "Policy-Expert:in (all genders) im Bereich Geldwäscherei, Terrorismusfinanzierung und Finanzsanktionen",
-        "company": "Finanzmarktaufsicht (FMA)",
-        "location": "Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/95688895-7734-3724-a843-557e8f37b042",
-        "first_seen": "2026-07-17T22:28:12.339791Z",
-        "fingerprint": "a327bb7b36841067c50ba76c71491ae6b494ddbe6145bec38f226b1d011a3a36"
       },
       {
         "id": "derstandard:493881e6-0fb9-314e-8516-5e773697b397",
