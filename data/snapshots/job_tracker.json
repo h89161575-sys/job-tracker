@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-17T09:18:37.402760Z",
+  "timestamp": "2026-07-17T11:00:23.878996Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,7 +11,7 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-17T09:18:37.402760Z",
+        "last_success": "2026-07-17T11:00:23.878996Z",
         "last_error": null,
         "count": 1
       },
@@ -23,27 +23,27 @@
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-17T09:18:37.402760Z",
+        "last_success": "2026-07-17T11:00:23.878996Z",
         "last_error": null,
         "count": 10
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-17T09:18:37.402760Z",
+        "last_success": "2026-07-17T11:00:23.878996Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-17T09:18:37.402760Z",
+        "last_success": "2026-07-17T11:00:23.878996Z",
         "last_error": null,
-        "count": 58
+        "count": 56
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-17T09:18:37.402760Z",
-        "last_error": null,
-        "count": 35
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 33
       }
     },
     "jobs": [
@@ -444,20 +444,6 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:10022360",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10022360",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "4741006a87e0f1d742debdb6d91d37611ecb5b0b27df994492840fb0a9179372"
-      },
-      {
         "id": "karriere_at:10023528",
         "source": "karriere_at",
         "title": "Unternehmensjurist (m/w/d)",
@@ -470,6 +456,20 @@
         "snippet": null,
         "first_seen": "2026-06-18T14:42:58.393788Z",
         "fingerprint": "a5c7be303eba030cab352a219c4b2aa3ecf7ce2f4e6ee50ee07cdb1e67154246"
+      },
+      {
+        "id": "karriere_at:10022360",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10022360",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Gestern veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "4741006a87e0f1d742debdb6d91d37611ecb5b0b27df994492840fb0a9179372"
       },
       {
         "id": "karriere_at:10026661",
@@ -780,20 +780,6 @@
         "fingerprint": "aaf9576cea570ecf2c648075c6ed78efee4717ab98179acadea74f0adde097cb"
       },
       {
-        "id": "karriere_at:7825559",
-        "source": "karriere_at",
-        "title": "Schadenreferent:in Rechtsschutz (Befristet auf 2 Jahre)",
-        "company": "UNIQA Insurance Group AG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7825559",
-        "salary": "ab 51.358,86 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Schadenreferent:in Rechtsschutz (Befristet auf 2 Jahre) Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "2745e86956d78ff8ab06d7d6afcee221338888b9b7d6c493ffa362c5bd3a36ad"
-      },
-      {
         "id": "karriere_at:7832501",
         "source": "karriere_at",
         "title": "Jurist:in mit Schwerpunkt IT-Vertragsrecht",
@@ -890,20 +876,6 @@
         "snippet": "Teamassistenz (w/m/d) mit Schwerpunkt Recht Standort: Wien | Stundenausmaß: Vollzeit oder Teilzeit (ab 25 Wochenstunden) | ab sofort In dieser Position trifft Organisationstalent...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "c52dee161e5d2a09b2f6c2c03ecd0ad672b94ac9e2b2ae31079e038b5cafce4e"
-      },
-      {
-        "id": "karriere_at:7835258",
-        "source": "karriere_at",
-        "title": "Jurist*in mit Schwerpunkt Datenschutz & Vertragsrecht (ab 35 bis 40 Stunden/Woche)",
-        "company": "Wiener Wohnen Hausbetreuung GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7835258",
-        "salary": "ab 3.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "9.7.2026",
-        "snippet": "Ihr Aufgabengebiet: Ausarbeitung und Bearbeitung datenschutzrechtlicher Fragestellungen sowie Durchführung von internen rechtlichen Schulungen im Unternehmen, Ansprechpartner für Datenschutz- und IT-Recht, Betreuung...",
-        "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "6b4e04206d4923ee7ad46170d42a2111686bc84aca17ed193db674af371f6fa5"
       },
       {
         "id": "karriere_at:7823936",
