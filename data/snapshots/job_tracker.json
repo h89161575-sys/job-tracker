@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-18T06:25:55.527713Z",
+  "timestamp": "2026-07-18T08:25:58.766464Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-18T06:25:55.527713Z",
+        "last_success": "2026-07-18T08:25:58.766464Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-18T06:25:55.527713Z",
+        "last_success": "2026-07-18T08:25:58.766464Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-18T06:25:55.527713Z",
+        "last_success": "2026-07-18T08:25:58.766464Z",
         "last_error": null,
         "count": 10
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-18T06:25:55.527713Z",
+        "last_success": "2026-07-18T08:25:58.766464Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-18T06:25:55.527713Z",
+        "last_success": "2026-07-18T08:25:58.766464Z",
         "last_error": null,
         "count": 55
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-18T06:25:55.527713Z",
-        "last_error": null,
-        "count": 35
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 33
       }
     },
     "jobs": [
@@ -592,10 +592,10 @@
         "url": "https://www.karriere.at/jobs/7844045",
         "salary": "ab 6.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-07-14T08:52:20.449998Z",
-        "fingerprint": "ed7f0dbf3e415cf86d4e9a0c32e28c69622aca76a1d17315b9a41318285ada0f"
+        "fingerprint": "dab668627467fd538076f37190ffa44721dc4549fcff75b911d6d240255463b0"
       },
       {
         "id": "karriere_at:7844024",
