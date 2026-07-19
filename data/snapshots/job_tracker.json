@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-18T23:33:21.576772Z",
+  "timestamp": "2026-07-19T01:08:13.162542Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-18T23:33:21.576772Z",
+        "last_success": "2026-07-19T01:08:13.162542Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-18T23:33:21.576772Z",
+        "last_success": "2026-07-19T01:08:13.162542Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-18T23:33:21.576772Z",
+        "last_success": "2026-07-19T01:08:13.162542Z",
         "last_error": null,
         "count": 10
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-18T23:33:21.576772Z",
+        "last_success": "2026-07-19T01:08:13.162542Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-18T23:33:21.576772Z",
+        "last_success": "2026-07-19T01:08:13.162542Z",
         "last_error": null,
-        "count": 55
+        "count": 54
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-18T23:33:21.576772Z",
-        "last_error": null,
-        "count": 35
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75000 milliseconds with 0 bytes received",
+        "count": 33
       }
     },
     "jobs": [
@@ -444,20 +444,6 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:7825238",
-        "source": "karriere_at",
-        "title": "Juristin / Jurist (m/w/d)",
-        "company": "NÖVOG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7825238",
-        "salary": "ab 3.273,03 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Juristin / Jurist (m/w/d) Wien Vollzeit Wir sind die NÖVOG. Mit unseren sechs Bahnen und zwei Seilbahnen, unseren regionalen Busangeboten und bedarfsgerechten Mobilitätskonzepten...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "439f25dd3059fa6cc08881745a892890d2cb729ccaf06ed39724252df0d45dc0"
-      },
-      {
         "id": "karriere_at:7838207",
         "source": "karriere_at",
         "title": "Mitarbeiter Regulatory Management (Rechtsabteilung)",
@@ -480,10 +466,24 @@
         "url": "https://www.karriere.at/jobs/10021048",
         "salary": "ab 43.400 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "11.7.2026",
+        "published_at": "Heute veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a839e224afb21da0a53c8c516ee10a95682cb5daeadbb28564afac2ebce8d328"
+        "fingerprint": "c8349eec7589b4d545c8bd45c776def8a349d22b072adfd0ead37bc0080a12bc"
+      },
+      {
+        "id": "karriere_at:7825238",
+        "source": "karriere_at",
+        "title": "Juristin / Jurist (m/w/d)",
+        "company": "NÖVOG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7825238",
+        "salary": "ab 3.273,03 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 4 Tagen veröffentlicht",
+        "snippet": "Juristin / Jurist (m/w/d) Wien Vollzeit Wir sind die NÖVOG. Mit unseren sechs Bahnen und zwei Seilbahnen, unseren regionalen Busangeboten und bedarfsgerechten Mobilitätskonzepten...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "439f25dd3059fa6cc08881745a892890d2cb729ccaf06ed39724252df0d45dc0"
       },
       {
         "id": "karriere_at:10025968",
@@ -892,6 +892,20 @@
         "fingerprint": "d1acc1127a6d828c5fed251217c05e86308478f45ebfefdb24fd7a3751d2b0ce"
       },
       {
+        "id": "karriere_at:10024650",
+        "source": "karriere_at",
+        "title": "Teamassistent:in mit dem Blick für Details (m/w/d)",
+        "company": "E+H Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10024650",
+        "salary": "ab 2.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-30T12:22:21.686649Z",
+        "fingerprint": "aad4848c2aaa499f76286f9a58a221b4d1d9b986c081a1d11030da7508848d99"
+      },
+      {
         "id": "karriere_at:7816349",
         "source": "karriere_at",
         "title": "(Junior) Consultant (all genders) Banking Advisory / Regulatory",
@@ -932,20 +946,6 @@
         "snippet": "Ihre Aufgaben: Im Überblick. Unser Motto? Mit den Aufgaben wachsen. Sie entwickeln lokale und internationale Angebote (Pitch-Unterlagen) in Zusammenarbeit mit unseren Anwält:innen, Sie koordinieren...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "b9eaa9624c61e577edf755068c626153fc143a4c7f41fd423af8f76e0ccae5f0"
-      },
-      {
-        "id": "karriere_at:7724378",
-        "source": "karriere_at",
-        "title": "Berufsanwärter Fokus Gesundheitswesen (m/w/d)",
-        "company": "Ecovis Austria Wirtschaftsprüfungs- und Steuerberatungsgesellschaft m.b.H.",
-        "location": "Wien, St. Pölten",
-        "url": "https://www.karriere.at/jobs/7724378",
-        "salary": "ab 3.100 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
-        "snippet": "Deine Aufgaben: Du übernimmst die eigenständige Betreuung von Klienten vorwiegend aus dem Gesundheitsbereich. Du bist u.a. zuständig für die Betreuung von großen Gruppenpraxen und Primärversorgungszentren...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "9c9f6370583eb4bf15bb6fb59b321fa4cb7ba372641e328593acfa9057d73063"
       },
       {
         "id": "karriere_at:7811600",
@@ -1170,20 +1170,6 @@
         "snippet": "(Junior) Consultant (all genders) Advisory/Governance, Risk & Internal Controls Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "0558225757b5d3387150e645f7397923170828e7764c372e67f930cca8c42fc8"
-      },
-      {
-        "id": "karriere_at:10024650",
-        "source": "karriere_at",
-        "title": "Teamassistent:in mit dem Blick für Details (m/w/d)",
-        "company": "E+H Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10024650",
-        "salary": "ab 2.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "9.7.2026",
-        "snippet": null,
-        "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "ee05d450b78a3ae35df13a7cae6d64cf2fb8425ed979166dc4eafde1f31855d2"
       },
       {
         "id": "stepstone:992085",
