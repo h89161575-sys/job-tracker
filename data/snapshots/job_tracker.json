@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T01:08:13.162542Z",
+  "timestamp": "2026-07-19T04:39:46.707097Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-19T01:08:13.162542Z",
+        "last_success": "2026-07-19T04:39:46.707097Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-19T01:08:13.162542Z",
+        "last_success": "2026-07-19T04:39:46.707097Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-19T01:08:13.162542Z",
+        "last_success": "2026-07-19T04:39:46.707097Z",
         "last_error": null,
         "count": 10
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-19T01:08:13.162542Z",
+        "last_success": "2026-07-19T04:39:46.707097Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-19T01:08:13.162542Z",
+        "last_success": "2026-07-19T04:39:46.707097Z",
         "last_error": null,
         "count": 54
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-18T23:33:21.576772Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75000 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 33
       }
     },
@@ -444,18 +444,18 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:7838207",
+        "id": "karriere_at:7825238",
         "source": "karriere_at",
-        "title": "Mitarbeiter Regulatory Management (Rechtsabteilung)",
-        "company": "Liechtensteinische Landesbank (Österreich) AG",
+        "title": "Juristin / Jurist (m/w/d)",
+        "company": "NÖVOG",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7838207",
-        "salary": "ab 3.375,40 € monatlich",
+        "url": "https://www.karriere.at/jobs/7825238",
+        "salary": "ab 3.273,03 € monatlich",
         "employment_type": "Vollzeit",
         "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Ihre Rolle: Administration von Fondsmaßnahmen und Anzeigen & Veröffentlichungen, Erstellung der rechtlichen Fondsdokumente, Korrespondenz mit Prüfern, OeKB, Fondsverband, Interne Revision...",
-        "first_seen": "2026-07-06T06:57:19.722943Z",
-        "fingerprint": "f0f7c8ec784426979cc6cfca6bcdede49a49a1276f1f914a64f58c1523a28fad"
+        "snippet": "Juristin / Jurist (m/w/d) Wien Vollzeit Wir sind die NÖVOG. Mit unseren sechs Bahnen und zwei Seilbahnen, unseren regionalen Busangeboten und bedarfsgerechten Mobilitätskonzepten...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "accf600f87988dc7f2d2222993ae2739f629a7cebc951125e12e284e0974334a"
       },
       {
         "id": "karriere_at:10021048",
@@ -472,18 +472,18 @@
         "fingerprint": "c8349eec7589b4d545c8bd45c776def8a349d22b072adfd0ead37bc0080a12bc"
       },
       {
-        "id": "karriere_at:7825238",
+        "id": "karriere_at:7838207",
         "source": "karriere_at",
-        "title": "Juristin / Jurist (m/w/d)",
-        "company": "NÖVOG",
+        "title": "Mitarbeiter Regulatory Management (Rechtsabteilung)",
+        "company": "Liechtensteinische Landesbank (Österreich) AG",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7825238",
-        "salary": "ab 3.273,03 € monatlich",
+        "url": "https://www.karriere.at/jobs/7838207",
+        "salary": "ab 3.375,40 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Juristin / Jurist (m/w/d) Wien Vollzeit Wir sind die NÖVOG. Mit unseren sechs Bahnen und zwei Seilbahnen, unseren regionalen Busangeboten und bedarfsgerechten Mobilitätskonzepten...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "439f25dd3059fa6cc08881745a892890d2cb729ccaf06ed39724252df0d45dc0"
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": "Ihre Rolle: Administration von Fondsmaßnahmen und Anzeigen & Veröffentlichungen, Erstellung der rechtlichen Fondsdokumente, Korrespondenz mit Prüfern, OeKB, Fondsverband, Interne Revision...",
+        "first_seen": "2026-07-06T06:57:19.722943Z",
+        "fingerprint": "ccb0fdc7bfa286c77dfd94da9da609d64b31692f3b7945db99a4dda75f10b571"
       },
       {
         "id": "karriere_at:10025968",
@@ -570,6 +570,20 @@
         "fingerprint": "6119fb416dfe5800a6066eb32abf0097a58c0258abc8aac165733b4d1f33ab93"
       },
       {
+        "id": "karriere_at:7835189",
+        "source": "karriere_at",
+        "title": "Legal Counsel",
+        "company": "Axians ICT Austria GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7835189",
+        "salary": "ab 4.785 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Legal Counsel, Vollzeit, Hybrid, Wien, Österreich, Mit Berufserfahrung, 30.06.26 Über uns Axians ICT Austria GmbH arbeitet in strategischen Partnerschaften in der IT-Dienstleistung...",
+        "first_seen": "2026-06-30T12:22:21.686649Z",
+        "fingerprint": "521923d39aa87b8222053f626c74d05d989e717d9c1d932e5784718b491a570c"
+      },
+      {
         "id": "karriere_at:7834001",
         "source": "karriere_at",
         "title": "Legal Counsel (m/w/x)",
@@ -592,10 +606,10 @@
         "url": "https://www.karriere.at/jobs/7809287",
         "salary": "56.854 € – 98.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Job ID: 11659 Senior IT Legal Adviser (m/w/d) Internationale Technologie- & Rechtsberatung, Home-Office, Flexible Arbeitszeiten, Gutes Arbeitsklima, Moderner Arbeitsplatz, Essens-zuschuss...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "f8adf618d9089b25955d87d3d32af2459c1c84d0dec511727e54683c82ff4be3"
+        "fingerprint": "5fe601ab728db9f2e4b30ec5d9af0264ddd469f289a58e64315b9e3137cc6179"
       },
       {
         "id": "karriere_at:7821314",
@@ -606,10 +620,10 @@
         "url": "https://www.karriere.at/jobs/7821314",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Sie begleiten das Sales-Team bei strategisch wichtigen Kunden im Segment größerer Beratungsunternehmen, Rechtsabteilungen und juristischer Organisationen. Sie sprechen mit relevanten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "d3be887964d0060620f58b16ec735e28a8e67a58ffa2d73ea4fb189df9b8500b"
+        "fingerprint": "0df25ba5abf67216e53a5db3bf03796aca618a85a6427871c300bb3fceb17047"
       },
       {
         "id": "karriere_at:7844045",
@@ -648,24 +662,10 @@
         "url": "https://www.karriere.at/jobs/7831523",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Rechtliche Beratung interner Stakeholder und Abteilungen in nationalen und internationalen Rechtsfragen, Vertragsmanagement inklusive Erstellung, Prüfung und Verhandlung verschiedenster Vertragstypen...",
         "first_seen": "2026-06-23T15:42:08.384868Z",
-        "fingerprint": "af809df371ae343fc907cb43daaa3f1aa18c727b1988bdfbcbae2afba770cd6b"
-      },
-      {
-        "id": "karriere_at:7835189",
-        "source": "karriere_at",
-        "title": "Legal Counsel",
-        "company": "Axians ICT Austria GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7835189",
-        "salary": "ab 4.785 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "10.7.2026",
-        "snippet": "Legal Counsel, Vollzeit, Hybrid, Wien, Österreich, Mit Berufserfahrung, 30.06.26 Über uns Axians ICT Austria GmbH arbeitet in strategischen Partnerschaften in der IT-Dienstleistung...",
-        "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "909393b0329bd34b8d1234c3339da67d5fd7ee7588c14488897b7592b8d3ea3f"
+        "fingerprint": "0ee134ea505a235ae2c61dd5fa87d075a2e42d744b4cb9ca51f1a270f29f4a8b"
       },
       {
         "id": "karriere_at:7824842",
@@ -680,6 +680,34 @@
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "e9c1f3e52bbb6566a821978ffdbb89fb8d6be0b4af55ab194aa00d8f4c853ee2"
+      },
+      {
+        "id": "karriere_at:7804418",
+        "source": "karriere_at",
+        "title": "Jurist (w/m/d)",
+        "company": "EuroTeleSites",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7804418",
+        "salary": "ab 3.107 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Jurist (w/m/d) Wien, Lassallestraße 9 Jetzt bewerben Wir sind viel mehr als nur ein Funkturmunternehmen. Als unabhängiger Betreiber von Mobilfunkinfrastruktur gestalten wir...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "be04d73498c6646b3449b253e5511274bfdcafc27b846e6deeb6d80a4e86f09d"
+      },
+      {
+        "id": "karriere_at:7842086",
+        "source": "karriere_at",
+        "title": "Leiter*in Recht",
+        "company": "Wiener Stadtwerke GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7842086",
+        "salary": "ab 8.796,11 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Leiter*in Recht ab sofort, Vollzeit (37,5 Std), Standort: Thomas-Klestil-Platz 13, 1030 Wien Jetzt bewerben Die Wiener Stadtwerke sind mit fast 19.000 Mitarbeiter*innen der...",
+        "first_seen": "2026-07-10T08:45:47.820748Z",
+        "fingerprint": "96ea0e42d3d4751ca58f9ca2f48b07ed60ba341948727290dd576d8bdf6630c5"
       },
       {
         "id": "karriere_at:7815443",
@@ -732,10 +760,10 @@
         "url": "https://www.karriere.at/jobs/7839059",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
         "first_seen": "2026-07-06T14:47:03.475158Z",
-        "fingerprint": "f6b6f02321ab0a5e2666e6249e3ea488a0bf2115905722c7d2ca575e27ef4c32"
+        "fingerprint": "dd63bef7348e71308423f09c3f4d610cb0301d15a63d03e8be9d634862e4f763"
       },
       {
         "id": "karriere_at:7810469",
@@ -746,10 +774,10 @@
         "url": "https://www.karriere.at/jobs/7810469",
         "salary": "ab 6.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "c5aa71128c008c79da07519d7067af6c93c71496cfcae78216a75e58cd32e779"
+        "fingerprint": "9f8615ca80a32b093832ca4bfb7a8140632eebd2f5eb3e7d10f0e97986468632"
       },
       {
         "id": "karriere_at:7845209",
@@ -774,10 +802,10 @@
         "url": "https://www.karriere.at/jobs/7814168",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Make your way to the top. Rechtsanwalt Kartell-/ Wettbewerbs-/ Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges Honorar entsprechend...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "af1ab74710a830b7de882ec51842239a6df41de63a679786d1c1c5ec3ddac0d2"
+        "fingerprint": "abba92df2bc1e5b72a754384a9f96b3e73af4eaa0a7e0cbb08955c5cb5d5454e"
       },
       {
         "id": "karriere_at:7807157",
@@ -788,10 +816,10 @@
         "url": "https://www.karriere.at/jobs/7807157",
         "salary": "ab 42.546,91 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Jetzt bewerben Jurist:in Arbeitsrecht Prozessführung ÖBB-BCC GmbH Wien-Leopoldstadt, Wien, 1020, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25461 Wir möchten neue Wege...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "184385d1e4b5a10f2a122e2cce1623b036d67f864cf59daf3e7bbab2e4591748"
+        "fingerprint": "978ca937d6f366984b30bd3be07c583c150140c4debda7155117f95908827bbb"
       },
       {
         "id": "karriere_at:7807160",
@@ -802,10 +830,10 @@
         "url": "https://www.karriere.at/jobs/7807160",
         "salary": "ab 53.003,91 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Jetzt bewerben Jurist:in Arbeitsrecht ÖBB-BCC GmbH Wien-Leopoldstadt, Wien, 1020, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25462 Wir möchten neue Wege gehen. Und neue...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "bc85e56537c6c117694f740fbf0718f0d0c559edd7bb396f64c51bca1beacc34"
+        "fingerprint": "9f298c7d7d1c0b48fb235323419499ed8a30f2fd1abf59b863496ae63083fc86"
       },
       {
         "id": "karriere_at:7832501",
@@ -816,10 +844,10 @@
         "url": "https://www.karriere.at/jobs/7832501",
         "salary": "ab 56.854 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Jetzt bewerben Jurist:in mit Schwerpunkt IT-Vertragsrecht ÖBB-BCC GmbH Wien-Leopoldstadt, Wien, 1020, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25594 Wir möchten neue Wege...",
         "first_seen": "2026-06-24T15:14:16.915261Z",
-        "fingerprint": "125452d6b83fd913058437555974da7cedf0f7ea9b09a675c153a96acefba104"
+        "fingerprint": "70eb130deebc0ea9b9b8980660d1139bbc788726fa0132f887e9ec5274662583"
       },
       {
         "id": "karriere_at:7836770",
@@ -830,10 +858,10 @@
         "url": "https://www.karriere.at/jobs/7836770",
         "salary": "ab 49.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Schadenreferent:in/ Jurist:in Haftpflichtschaden Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft...",
         "first_seen": "2026-07-02T06:08:07.645199Z",
-        "fingerprint": "7471a9155b812e42291d439a5537638b6f7d12b9458540b101e7512495de558b"
+        "fingerprint": "1b5b49ce9d60de5eef9c2f7d422258393d0e04fb9f1472d111478587e027e7d7"
       },
       {
         "id": "karriere_at:7819184",
@@ -844,24 +872,10 @@
         "url": "https://www.karriere.at/jobs/7819184",
         "salary": "ab 4.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Rechtsanwaltsanwärter:in im Bereich Öffentliches Recht Standort: Wien | Stundenausmaß: Vollzeit | ab sofort Wenn Datenschutz, wirtschaftliches Know-How und rechtliche...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "b56fbe18d1d11d8838c16d244e2faa2839fef05f560d713197dddb1926a871ce"
-      },
-      {
-        "id": "karriere_at:7804418",
-        "source": "karriere_at",
-        "title": "Jurist (w/m/d)",
-        "company": "EuroTeleSites",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7804418",
-        "salary": "ab 3.107 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
-        "snippet": "Jurist (w/m/d) Wien, Lassallestraße 9 Jetzt bewerben Wir sind viel mehr als nur ein Funkturmunternehmen. Als unabhängiger Betreiber von Mobilfunkinfrastruktur gestalten wir...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "b3b9d1f14e887bfa5771c53ed59e7fa4afbb0d389cc3921db36e0d1719a763ce"
+        "fingerprint": "bf575efdff2b23dd080ecb3603281dcf437e5fb26e99935388fe854a03ac4385"
       },
       {
         "id": "karriere_at:7836029",
@@ -878,18 +892,46 @@
         "fingerprint": "01d5bd3a4386ec4086d963a1fe486290b4d7d9469e68ae9de39d48caff46101b"
       },
       {
-        "id": "karriere_at:7842086",
+        "id": "karriere_at:7816346",
         "source": "karriere_at",
-        "title": "Leiter*in Recht",
-        "company": "Wiener Stadtwerke GmbH",
+        "title": "(Junior) Consultant (all genders) Advisory/Governance, Risk & Internal Controls",
+        "company": "Deloitte",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7842086",
-        "salary": "ab 8.796,11 € monatlich",
+        "url": "https://www.karriere.at/jobs/7816346",
+        "salary": "ab 42.840 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "10.7.2026",
-        "snippet": "Leiter*in Recht ab sofort, Vollzeit (37,5 Std), Standort: Thomas-Klestil-Platz 13, 1030 Wien Jetzt bewerben Die Wiener Stadtwerke sind mit fast 19.000 Mitarbeiter*innen der...",
-        "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "d1acc1127a6d828c5fed251217c05e86308478f45ebfefdb24fd7a3751d2b0ce"
+        "published_at": "Heute veröffentlicht",
+        "snippet": "(Junior) Consultant (all genders) Advisory/Governance, Risk & Internal Controls Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "289aae8d693eeef227bd87831de2078397fe601a39e7aafc7d7eb7ba3418cf57"
+      },
+      {
+        "id": "karriere_at:7816337",
+        "source": "karriere_at",
+        "title": "Consultant Advisory/ Risikosteuerung Banken",
+        "company": "Deloitte",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7816337",
+        "salary": "ab 46.200 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Consultant Advisory/ Risikosteuerung Banken Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der führende Anbieter von Professional...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "223b7cb16bfd974865c4843b59a9daf81152da6c06dcae31c110e05b22c2b5f3"
+      },
+      {
+        "id": "karriere_at:7663251",
+        "source": "karriere_at",
+        "title": "(Senior) Associate Tax (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien, Linz, Bruck an der Leitha",
+        "url": "https://www.karriere.at/jobs/7663251",
+        "salary": "ab 3.100 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "(Senior) Associate Tax (m/w/d) GREAT, WENN DICH DIESE AUFGABEN FREUEN: Erstellung von Steuererklärungen und Jahresabschlüssen sowie Bearbeitung diverser Spezialprojekte, Erstellung...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "96bf6ce36fb222580e0972d469fcaf83a058249ba67b01fc0d67830756e29119"
       },
       {
         "id": "karriere_at:10024650",
@@ -942,10 +984,10 @@
         "url": "https://www.karriere.at/jobs/7812653",
         "salary": "ab 46.200 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Im Überblick. Unser Motto? Mit den Aufgaben wachsen. Sie entwickeln lokale und internationale Angebote (Pitch-Unterlagen) in Zusammenarbeit mit unseren Anwält:innen, Sie koordinieren...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "b9eaa9624c61e577edf755068c626153fc143a4c7f41fd423af8f76e0ccae5f0"
+        "fingerprint": "27cf256f1cc616502bd2652761e92cefc247ab2f2fb00231fa66c8f8a21999d1"
       },
       {
         "id": "karriere_at:7811600",
@@ -956,10 +998,10 @@
         "url": "https://www.karriere.at/jobs/7811600",
         "salary": "ab 5.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabengebiet: Dich erwartet ein abwechslungsreicher Mix aus allgemeinen steuerlichen Tätigkeiten (z.B. Erstellung von Steuererklärungen), spannenden Sonderprojekten, wie Tax Due Diligences, der Möglichkeit...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a65c5e43e3d79059234846a1579b5c2eb3841b5a51f0fd73ede9861a0c63d669"
+        "fingerprint": "ca58405bc3e0dc37c88a77e4226c9b65e7abecf8341046f35e8d6ef3fcf5bd4d"
       },
       {
         "id": "karriere_at:10022516",
@@ -998,10 +1040,10 @@
         "url": "https://www.karriere.at/jobs/7663323",
         "salary": "ab 3.700 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Senior Associate Audit (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Planung und Durchführung von Jahres- und Konzernabschlussprüfungen...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "fd08796204698bad68dffc4925eec76a089588294188732b9a0b423c225bccb3"
+        "fingerprint": "7bc1cb0599430eb1e52fb1966b97deb91aef0e199986683adf014ac75d6559bf"
       },
       {
         "id": "karriere_at:7739792",
@@ -1012,10 +1054,10 @@
         "url": "https://www.karriere.at/jobs/7739792",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "(Senior) Associate, Konzernsteuerrecht und Umgründungen (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Durchführung juristischer...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "212da0b37d0c4c1584cc6af76a2a8e5eff47d9504e5472e3a534584876617728"
+        "fingerprint": "1cbd1f726a44b46294d95595e8a9495bd898ca139bafcba1290d7a31c57ec53d"
       },
       {
         "id": "karriere_at:7663329",
@@ -1026,10 +1068,10 @@
         "url": "https://www.karriere.at/jobs/7663329",
         "salary": "ab 3.700 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Senior Associate Combined mit Fokus Audit (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Abschlussprüfung und prüferische...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "e98fca6b07ac9664b8ce041a7c4df70a3c9841f7f8b74ebe7fb34ef0259271b9"
+        "fingerprint": "d56f5e789bf81e1e6dcc1734d4d2c39eefe64d4fb9f8c102685568b4032584da"
       },
       {
         "id": "karriere_at:7826204",
@@ -1040,10 +1082,10 @@
         "url": "https://www.karriere.at/jobs/7826204",
         "salary": "ab 5.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "63df47c8623a84f1335aa43bd23240e935770df238e11b98f7da028415f64e18"
+        "fingerprint": "881d18c150cdbeb659d745d32d0304c7a7c6c8c76f4129d51901a59c0a8d064a"
       },
       {
         "id": "karriere_at:7663272",
@@ -1054,10 +1096,10 @@
         "url": "https://www.karriere.at/jobs/7663272",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Berufsanwärter:in in der Steuerberatung (m/w/d) ..hier findest du nähere Infos zur Steuerberatung. GREAT, WENN DICH DIESE AUFGABEN FREUEN: Laufende steuerliche und betriebswirtschaftliche...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "cc5f4f53d2a63b5264e23e4a71c207f9a8a3afc303e2fe173ae1b2d0324f7db8"
+        "fingerprint": "34c839c6ddbeb7fcb6e1e802cd4c525b894f33d09963d1d54c7aab88ab93f675"
       },
       {
         "id": "karriere_at:7739918",
@@ -1068,10 +1110,10 @@
         "url": "https://www.karriere.at/jobs/7739918",
         "salary": "ab 3.170 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "(Lead) Specialist im Bereich Zoll, Verbrauchsteuern & Nachhaltigkeit (m/w/d) Standorte: Wien, Linz oder Klagenfurt | Stundenausmaß: Vollzeit oder Teilzeit (ab 20 Wochenstunden...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "dd0865bb67fc35b8ab0c7341c7386cb080189c69440eccf251b9dd227cffd0bf"
+        "fingerprint": "60fbd83a2cc6fd94194b38281ee0b82d9956dfc5681f00636ceaad1d09c58338"
       },
       {
         "id": "karriere_at:7779857",
@@ -1082,10 +1124,10 @@
         "url": "https://www.karriere.at/jobs/7779857",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Unterstützung bei der Ermittlung und Beratung zu Verdachtsfällen wie Geldwäsche, Betrug oder Bestechung in Unternehmen und Organisationen, Analyse möglicher...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "fcbfd489ee7770566ae6569ab8d1d4e9cddc1a43b69a948e09d76cd1b0b21b02"
+        "fingerprint": "eeaa2f51e27f71776953480b19144676b21e927fdc165040d32369baad5d054a"
       },
       {
         "id": "karriere_at:7663257",
@@ -1096,10 +1138,10 @@
         "url": "https://www.karriere.at/jobs/7663257",
         "salary": "ab 5.000 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "11.7.2026",
         "snippet": "(Senior) Manager:in Tax/Steuerberater:in mit Fokus Immobilien (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Fundierte Beratung von...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "0f54240032516cb58afa78572077e02d247b90a5a702fba941b586f15ebdccee"
+        "fingerprint": "3cd6b632640186c2b936a38a003178056ff8b2a94c1f341da405a11ec2ae7238"
       },
       {
         "id": "karriere_at:7794164",
@@ -1128,48 +1170,6 @@
         "snippet": "Associate Manager (all genders) Audit mit Fokus Private & Midmarket Wien, Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der führende...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "9e619f3b3e80cc848a3c8acda8c8a337047dec6370a65948cbbe1a3ffe6966a3"
-      },
-      {
-        "id": "karriere_at:7816337",
-        "source": "karriere_at",
-        "title": "Consultant Advisory/ Risikosteuerung Banken",
-        "company": "Deloitte",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7816337",
-        "salary": "ab 46.200 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "9.7.2026",
-        "snippet": "Consultant Advisory/ Risikosteuerung Banken Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der führende Anbieter von Professional...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "60224678491fa4c5f2cb09a778138677640e1c3ea2637cb5bb7d48857304a9b2"
-      },
-      {
-        "id": "karriere_at:7663251",
-        "source": "karriere_at",
-        "title": "(Senior) Associate Tax (m/w/d)",
-        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
-        "location": "Wien, Linz, Bruck an der Leitha",
-        "url": "https://www.karriere.at/jobs/7663251",
-        "salary": "ab 3.100 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "9.7.2026",
-        "snippet": "(Senior) Associate Tax (m/w/d) GREAT, WENN DICH DIESE AUFGABEN FREUEN: Erstellung von Steuererklärungen und Jahresabschlüssen sowie Bearbeitung diverser Spezialprojekte, Erstellung...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "f81d2565edd8f451708294a515e297c9db100f964955fbd5efe0e5b5e62a7e31"
-      },
-      {
-        "id": "karriere_at:7816346",
-        "source": "karriere_at",
-        "title": "(Junior) Consultant (all genders) Advisory/Governance, Risk & Internal Controls",
-        "company": "Deloitte",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7816346",
-        "salary": "ab 42.840 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "9.7.2026",
-        "snippet": "(Junior) Consultant (all genders) Advisory/Governance, Risk & Internal Controls Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "0558225757b5d3387150e645f7397923170828e7764c372e67f930cca8c42fc8"
       },
       {
         "id": "stepstone:992085",
