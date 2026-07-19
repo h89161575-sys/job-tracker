@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T07:17:37.404622Z",
+  "timestamp": "2026-07-19T09:22:38.663094Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-19T07:17:37.404622Z",
+        "last_success": "2026-07-19T09:22:38.663094Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-19T07:17:37.404622Z",
+        "last_success": "2026-07-19T09:22:38.663094Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-19T07:17:37.404622Z",
+        "last_success": "2026-07-19T09:22:38.663094Z",
         "last_error": null,
         "count": 10
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-19T07:17:37.404622Z",
+        "last_success": "2026-07-19T09:22:38.663094Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-19T07:17:37.404622Z",
+        "last_success": "2026-07-19T09:22:38.663094Z",
         "last_error": null,
         "count": 54
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-19T07:17:37.404622Z",
-        "last_error": null,
-        "count": 35
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 33
       }
     },
     "jobs": [
@@ -444,18 +444,18 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:7825238",
+        "id": "karriere_at:7838207",
         "source": "karriere_at",
-        "title": "Juristin / Jurist (m/w/d)",
-        "company": "NÖVOG",
+        "title": "Mitarbeiter Regulatory Management (Rechtsabteilung)",
+        "company": "Liechtensteinische Landesbank (Österreich) AG",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7825238",
-        "salary": "ab 3.273,03 € monatlich",
+        "url": "https://www.karriere.at/jobs/7838207",
+        "salary": "ab 3.375,40 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Juristin / Jurist (m/w/d) Wien Vollzeit Wir sind die NÖVOG. Mit unseren sechs Bahnen und zwei Seilbahnen, unseren regionalen Busangeboten und bedarfsgerechten Mobilitätskonzepten...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "accf600f87988dc7f2d2222993ae2739f629a7cebc951125e12e284e0974334a"
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": "Ihre Rolle: Administration von Fondsmaßnahmen und Anzeigen & Veröffentlichungen, Erstellung der rechtlichen Fondsdokumente, Korrespondenz mit Prüfern, OeKB, Fondsverband, Interne Revision...",
+        "first_seen": "2026-07-06T06:57:19.722943Z",
+        "fingerprint": "ccb0fdc7bfa286c77dfd94da9da609d64b31692f3b7945db99a4dda75f10b571"
       },
       {
         "id": "karriere_at:10021048",
@@ -472,18 +472,18 @@
         "fingerprint": "c8349eec7589b4d545c8bd45c776def8a349d22b072adfd0ead37bc0080a12bc"
       },
       {
-        "id": "karriere_at:7838207",
+        "id": "karriere_at:7825238",
         "source": "karriere_at",
-        "title": "Mitarbeiter Regulatory Management (Rechtsabteilung)",
-        "company": "Liechtensteinische Landesbank (Österreich) AG",
+        "title": "Juristin / Jurist (m/w/d)",
+        "company": "NÖVOG",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7838207",
-        "salary": "ab 3.375,40 € monatlich",
+        "url": "https://www.karriere.at/jobs/7825238",
+        "salary": "ab 3.273,03 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": "Ihre Rolle: Administration von Fondsmaßnahmen und Anzeigen & Veröffentlichungen, Erstellung der rechtlichen Fondsdokumente, Korrespondenz mit Prüfern, OeKB, Fondsverband, Interne Revision...",
-        "first_seen": "2026-07-06T06:57:19.722943Z",
-        "fingerprint": "ccb0fdc7bfa286c77dfd94da9da609d64b31692f3b7945db99a4dda75f10b571"
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Juristin / Jurist (m/w/d) Wien Vollzeit Wir sind die NÖVOG. Mit unseren sechs Bahnen und zwei Seilbahnen, unseren regionalen Busangeboten und bedarfsgerechten Mobilitätskonzepten...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "accf600f87988dc7f2d2222993ae2739f629a7cebc951125e12e284e0974334a"
       },
       {
         "id": "karriere_at:10025968",
@@ -634,10 +634,10 @@
         "url": "https://www.karriere.at/jobs/7844045",
         "salary": "ab 6.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-07-14T08:52:20.449998Z",
-        "fingerprint": "dab668627467fd538076f37190ffa44721dc4549fcff75b911d6d240255463b0"
+        "fingerprint": "a7a85ad7f7d936dd8c7b437484618d3d43b08783eae45b6d2c9232404a7f2937"
       },
       {
         "id": "karriere_at:7844024",
