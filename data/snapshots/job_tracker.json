@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-20T12:54:33.330039Z",
+  "timestamp": "2026-07-20T15:18:59.197619Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-20T12:54:33.330039Z",
+        "last_success": "2026-07-20T15:18:59.197619Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-20T12:54:33.330039Z",
+        "last_success": "2026-07-20T15:18:59.197619Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-20T12:54:33.330039Z",
+        "last_success": "2026-07-20T15:18:59.197619Z",
         "last_error": null,
         "count": 10
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-20T12:54:33.330039Z",
+        "last_success": "2026-07-20T15:18:59.197619Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-20T12:54:33.330039Z",
+        "last_success": "2026-07-20T15:18:59.197619Z",
         "last_error": null,
         "count": 54
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-07-20T07:48:33.500251Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 33
+        "last_success": "2026-07-20T15:18:59.197619Z",
+        "last_error": null,
+        "count": 35
       }
     },
     "jobs": [
@@ -444,20 +444,6 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:10021048",
-        "source": "karriere_at",
-        "title": "Jurist*in",
-        "company": "Österreichische Galerie Belvedere",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10021048",
-        "salary": "ab 43.400 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "e6a7a0c4519a0a4395b3a35b2d695e85f990acbdb22c2a2f60dcfb96f41d2f8c"
-      },
-      {
         "id": "karriere_at:7804418",
         "source": "karriere_at",
         "title": "Jurist (w/m/d)",
@@ -470,6 +456,20 @@
         "snippet": "Jurist (w/m/d) Wien, Lassallestraße 9 Jetzt bewerben Wir sind viel mehr als nur ein Funkturmunternehmen. Als unabhängiger Betreiber von Mobilfunkinfrastruktur gestalten wir...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "ae2632bc892ee056e408b3746bcb2051d0f5efcaeec768dadd607fe3dd283edf"
+      },
+      {
+        "id": "karriere_at:10021048",
+        "source": "karriere_at",
+        "title": "Jurist*in",
+        "company": "Österreichische Galerie Belvedere",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10021048",
+        "salary": "ab 43.400 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Gestern veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "e6a7a0c4519a0a4395b3a35b2d695e85f990acbdb22c2a2f60dcfb96f41d2f8c"
       },
       {
         "id": "karriere_at:10023528",
@@ -746,10 +746,10 @@
         "url": "https://www.karriere.at/jobs/7846127",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Make your way to the top. Rechtsanwaltsanwärter Disputes (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply Now! Wir suchen...",
         "first_seen": "2026-07-16T15:11:16.877320Z",
-        "fingerprint": "f170df09e9e4a0e57ef0b7bde73b2f7f10eccded231bfe912f0183b50cc18781"
+        "fingerprint": "f495710a7c4c9609fc0d91f809d7c1f1b0737b14df3f6b5d4397be5434b0b68f"
       },
       {
         "id": "karriere_at:7839059",
