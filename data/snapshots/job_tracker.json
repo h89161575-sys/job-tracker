@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-20T04:48:07.379885Z",
+  "timestamp": "2026-07-20T07:48:33.500251Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-20T04:48:07.379885Z",
+        "last_success": "2026-07-20T07:48:33.500251Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-20T04:48:07.379885Z",
+        "last_success": "2026-07-20T07:48:33.500251Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-20T04:48:07.379885Z",
+        "last_success": "2026-07-20T07:48:33.500251Z",
         "last_error": null,
         "count": 10
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-20T04:48:07.379885Z",
+        "last_success": "2026-07-20T07:48:33.500251Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-20T04:48:07.379885Z",
+        "last_success": "2026-07-20T07:48:33.500251Z",
         "last_error": null,
-        "count": 53
+        "count": 54
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-07-20T00:59:12.018360Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 33
+        "last_success": "2026-07-20T07:48:33.500251Z",
+        "last_error": null,
+        "count": 35
       }
     },
     "jobs": [
@@ -444,20 +444,6 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:7804418",
-        "source": "karriere_at",
-        "title": "Jurist (w/m/d)",
-        "company": "EuroTeleSites",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7804418",
-        "salary": "ab 3.107 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Jurist (w/m/d) Wien, Lassallestraße 9 Jetzt bewerben Wir sind viel mehr als nur ein Funkturmunternehmen. Als unabhängiger Betreiber von Mobilfunkinfrastruktur gestalten wir...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "ae2632bc892ee056e408b3746bcb2051d0f5efcaeec768dadd607fe3dd283edf"
-      },
-      {
         "id": "karriere_at:10021048",
         "source": "karriere_at",
         "title": "Jurist*in",
@@ -470,6 +456,20 @@
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "e6a7a0c4519a0a4395b3a35b2d695e85f990acbdb22c2a2f60dcfb96f41d2f8c"
+      },
+      {
+        "id": "karriere_at:7804418",
+        "source": "karriere_at",
+        "title": "Jurist (w/m/d)",
+        "company": "EuroTeleSites",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7804418",
+        "salary": "ab 3.107 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Gestern veröffentlicht",
+        "snippet": "Jurist (w/m/d) Wien, Lassallestraße 9 Jetzt bewerben Wir sind viel mehr als nur ein Funkturmunternehmen. Als unabhängiger Betreiber von Mobilfunkinfrastruktur gestalten wir...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "ae2632bc892ee056e408b3746bcb2051d0f5efcaeec768dadd607fe3dd283edf"
       },
       {
         "id": "karriere_at:10023528",
@@ -522,10 +522,10 @@
         "url": "https://www.karriere.at/jobs/10026561",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-16T07:06:38.089637Z",
-        "fingerprint": "b8634fd417ce068ddc437e002f500f2e79ef907f1ce705295466872de0f0ba62"
+        "fingerprint": "c600e47a6289c2053c9a511e556a0d26a4955abfc44250b6ac7bcd88b12a2397"
       },
       {
         "id": "karriere_at:10024281",
@@ -620,10 +620,10 @@
         "url": "https://www.karriere.at/jobs/7844045",
         "salary": "ab 6.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-07-14T08:52:20.449998Z",
-        "fingerprint": "a7a85ad7f7d936dd8c7b437484618d3d43b08783eae45b6d2c9232404a7f2937"
+        "fingerprint": "e85944f2142ea265e34abf6cbceaaeec0e4604ca5c13ca0546a6f605f06ed586"
       },
       {
         "id": "karriere_at:7844024",
@@ -634,10 +634,10 @@
         "url": "https://www.karriere.at/jobs/7844024",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Rechtliche Begleitung von Kapitalmarktprojekten, Unterstützung in der Kapitalmarktcompliance und -kommunikation, Verstärkung im Bereich Compliance/Governance, Koordinierung des Beteiligungsmanagements...",
         "first_seen": "2026-07-14T06:30:38.747341Z",
-        "fingerprint": "21ceff60decd8db901e68bd21ab00b40bfe6e8c1db949933d29b4dcfbe215fee"
+        "fingerprint": "c8d50e3a1170757cd345424f8965292c3346f566f9ac0341d2cb47f86b6d2944"
       },
       {
         "id": "karriere_at:7838207",
@@ -680,6 +680,20 @@
         "snippet": "Deine Aufgaben: Bei uns im Team: Unterstütze und berate intern im Tagesgeschäft zu diversen rechtlichen Themen mit dem Schwerpunkt Arbeitsrecht, Recherchiere zu ausgewählten Rechtsfragen und erarbeite...",
         "first_seen": "2026-07-01T08:44:53.200651Z",
         "fingerprint": "53b737ac2beb22f1235f61014863248b7e6be834e3f81ce602825406be5352b0"
+      },
+      {
+        "id": "karriere_at:7846877",
+        "source": "karriere_at",
+        "title": "Jurist:in Betrug & Regress",
+        "company": "UNIQA Insurance Group AG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7846877",
+        "salary": "ab 60.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Jurist:in Betrug & Regress Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein...",
+        "first_seen": "2026-07-20T07:48:38.987255Z",
+        "fingerprint": "995564d4deffe14cd4749fbebf94e93e9f0c9821118171dd5996f51823fe4cfe"
       },
       {
         "id": "karriere_at:7842086",
@@ -1040,10 +1054,10 @@
         "url": "https://www.karriere.at/jobs/7845569",
         "salary": "ab 39.200 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Eigenverantwortliche Bearbeitung komplexer Anfragen rund um Prüfungsverfahren und Bestellung von Steuerberater:innen und Wirtschaftsprüfer:innen, Rechtlich fundierte Auslegung und...",
         "first_seen": "2026-07-16T07:06:38.089637Z",
-        "fingerprint": "629f4e36ae116039a0e293472a4cda25a2602fbc78c48431166be58f14142463"
+        "fingerprint": "42c9e7e874213e05f878381f51d6f6fa202514ce2e074db40afd7abd3c380e65"
       },
       {
         "id": "karriere_at:7663323",
@@ -1740,6 +1754,7 @@
       "karriere_at:7845209",
       "karriere_at:7845569",
       "karriere_at:7846127",
+      "karriere_at:7846877",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
