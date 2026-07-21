@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T10:06:16.228085Z",
+  "timestamp": "2026-07-21T11:58:46.425811Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-21T10:06:16.228085Z",
+        "last_success": "2026-07-21T11:58:46.425811Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-21T10:06:16.228085Z",
+        "last_success": "2026-07-21T11:58:46.425811Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-21T10:06:16.228085Z",
+        "last_success": "2026-07-21T11:58:46.425811Z",
         "last_error": null,
         "count": 7
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-21T10:06:16.228085Z",
+        "last_success": "2026-07-21T11:58:46.425811Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-21T10:06:16.228085Z",
+        "last_success": "2026-07-21T11:58:46.425811Z",
         "last_error": null,
-        "count": 54
+        "count": 57
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-07-21T07:24:22.796387Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
-        "count": 31
+        "last_success": "2026-07-21T11:58:46.425811Z",
+        "last_error": null,
+        "count": 33
       }
     },
     "jobs": [
@@ -464,10 +464,10 @@
         "url": "https://www.karriere.at/jobs/10026661",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-16T11:20:32.476615Z",
-        "fingerprint": "0726b8bbc7a671b6708a257eaceae899116c01ee943356edadbcd82d36dafd83"
+        "fingerprint": "e1907462c8aa2e16a1a22cd4fbda34ebc5428d538e8652957f9add5105d299e8"
       },
       {
         "id": "karriere_at:10026561",
@@ -624,6 +624,34 @@
         "fingerprint": "9bbdd7a84662e7956098910a6ee194d684023b2c17856c3c5e9d5b90e0fe0db5"
       },
       {
+        "id": "karriere_at:7847957",
+        "source": "karriere_at",
+        "title": "Rechtsanwält:in oder Rechtsanwaltsanwärter:in für Banken- und Finanzrecht",
+        "company": "KPMG Österreich",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7847957",
+        "salary": "ab 3.500 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Ihre Aufgaben: Direkter Mandantenkontakt, spannende Projekte und ein Team, das Zusammenarbeit, Eigenverantwortung und Weiterentwicklung großschreibt. Zur Verstärkung unseres Teams suchen wir ab...",
+        "first_seen": "2026-07-21T11:58:52.130473Z",
+        "fingerprint": "816c95d4033ad9a9ff68622687a013f569d4048b5c8713649d84688c21f21d02"
+      },
+      {
+        "id": "karriere_at:7847951",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsassistent:in bei Buchberger Ettmayer Rechtsanwälte GmbH",
+        "company": "KPMG Österreich",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7847951",
+        "salary": "ab 35.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Tätigkeiten: Administrative und organisatorische Unterstützung unserer Rechtsanwält:innen und juristischen Mitarbeiter:innen, Klassische Sekretariatsagenden wie Terminkoordination, Reisemanagement, Postbearbeitung...",
+        "first_seen": "2026-07-21T11:58:52.130473Z",
+        "fingerprint": "aa395745c11644a641ca9b06f574b4397e7c65d67e322d3483c9e1cc5eb62efe"
+      },
+      {
         "id": "karriere_at:7819184",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter:in im Bereich Öffentliches Recht",
@@ -772,10 +800,10 @@
         "url": "https://www.karriere.at/jobs/7845209",
         "salary": "ab 6.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Die Ludwig Boltzmann Gesellschaft (LBG) ist eine der zentralen österreichischen außeruniversitären Forschungsorganisationen. Eine Arbeitgeberin, die Wissenschaft bewegt...",
         "first_seen": "2026-07-15T12:23:15.130127Z",
-        "fingerprint": "6af8e66cb07423b6bca653016471c2884bdaee2c8c20abf54e9d146250f668e4"
+        "fingerprint": "955678a58005fa649a90626859c743a84a0c47e9cd8fa051778dfd30c10dee20"
       },
       {
         "id": "karriere_at:7814168",
@@ -860,6 +888,20 @@
         "snippet": "Schadenreferent:in/ Jurist:in Haftpflichtschaden Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft...",
         "first_seen": "2026-07-02T06:08:07.645199Z",
         "fingerprint": "1794425f94d705ec1170b172f5d5d0f974690c78a7452f8aef3bc627675f9714"
+      },
+      {
+        "id": "karriere_at:7847945",
+        "source": "karriere_at",
+        "title": "Berufseinsteiger:in Trade & Customs - Zoll- und Außenwirtschaftsberatung",
+        "company": "KPMG Österreich",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7847945",
+        "salary": "ab 41.762 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Ihre Aufgaben: Beratung unserer (inter-) nationalen Mandanten zu Zoll- und Handelsvorschriften, insbesondere zu Zollwert, Klassifizierung und Ursprung Unterstützung bei Trade- und Customs-Compliance...",
+        "first_seen": "2026-07-21T11:58:52.130473Z",
+        "fingerprint": "d3953fc9cb924f2590e53da3125640e80b9b39731ffbb6f7ca25a7b5781dfe97"
       },
       {
         "id": "karriere_at:7663257",
@@ -1180,11 +1222,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-AI-Workflow-Specialist-w-m-d-Wien-l-m-executive-search-consulting-gmbh--985843-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Home Office, Feste Anstellung",
-        "published_at": "vor 20 Stunden",
+        "published_at": "vor 23 Stunden",
         "department": "Teilweise Home-Office, NEU",
-        "snippet": "Legal AI Workflow Specialist (w/m/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... mehr vor 20 Stunden NEU",
+        "snippet": "Legal AI Workflow Specialist (w/m/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser , einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den Einsatz von KI nicht nur beobachten, sondern aktiv vorantreiben? Dann könnte diese Rolle genau die richtige für Sie sein. Als - arbeiten Sie an der Schnittstelle von Technologie, Kundentransformation und Recht. Sie begleiten führende Wirtschaftstreuhänder, Rechtsanwaltskanzleien und Unternehmensberatungen sowie Rechtsabteilungen und juristische Organisationen in D-A-CH sowie im CEE-Raum dabei, ihre Arbeitsweise mit modernen KI-Lösungen neu zu denken — von der ersten strategischen Diskussion bis zur erfolgreichen ... mehr vor 23 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "20b623f7963c79487b5b390cb17ccae8814ee6c040f85a03c1f4256e21bd9a0d"
+        "fingerprint": "6e66d63df66255026bc9e045876272a3f4e7a01869c6ba744a8565750b5b4e3c"
       },
       {
         "id": "stepstone:982028",
@@ -1195,11 +1237,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-w-m-d-mit-gesellschaftsrechtlicher-Expertise-Wien-l-m-executive-search-consulting-gmbh--982028-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Home Office, Feste Anstellung",
-        "published_at": "vor 12 Stunden",
+        "published_at": "vor 15 Stunden",
         "department": "Teilweise Home-Office, NEU",
-        "snippet": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise l & m executive search & consulting gmbh Wien Teilweise Home-Office l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - Sei einer der ersten Bewerber - lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrecht an der Schnittstelle zum Versicherungsrecht sucht die Kanzlei einen engagierten - Rechtsanwalt (w/m/d) mit ausgeprägtem Bezug zur Versicherungswirtschaft und gesellschaftsrechtlicher Expertise - Die Position bietet Ihnen die Möglichkeit, in einem etablierten Umfeld Ihre Expertise einzubringen, die genannten Fachbereiche maßgeblich mitzugestalten und Ihre Karriere auf die nächste Stufe zu heben. l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - Sei einer der ersten Bewerber - lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrecht an der Schnittstelle zum Versicherungsrecht sucht die Kanzlei einen engagierten - Rechtsanwalt (w/m/d) mit ausgeprägtem Bezug zur Versicherungswirtschaft und gesellschaftsrechtlicher Expertise - Die Position bietet Ihnen die Möglichkeit, in einem etablierten Umfeld Ihre Expertise einzubringen, die genannten Fachbereiche maßgeblich mitzugestalten und Ihre Karriere auf die nächste Stufe zu heben. mehr vor 12 Stunden NEU",
+        "snippet": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise l & m executive search & consulting gmbh Wien Teilweise Home-Office l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - Sei einer der ersten Bewerber - lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrecht an der Schnittstelle zum Versicherungsrecht sucht die Kanzlei einen engagierten - Rechtsanwalt (w/m/d) mit ausgeprägtem Bezug zur Versicherungswirtschaft und gesellschaftsrechtlicher Expertise - Die Position bietet Ihnen die Möglichkeit, in einem etablierten Umfeld Ihre Expertise einzubringen, die genannten Fachbereiche maßgeblich mitzugestalten und Ihre Karriere auf die nächste Stufe zu heben. l & m executive search & consulting gmbh * Wien * Feste Anstellung * Home Office, Vollzeit - Sei einer der ersten Bewerber - lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrecht an der Schnittstelle zum Versicherungsrecht sucht die Kanzlei einen engagierten - Rechtsanwalt (w/m/d) mit ausgeprägtem Bezug zur Versicherungswirtschaft und gesellschaftsrechtlicher Expertise - Die Position bietet Ihnen die Möglichkeit, in einem etablierten Umfeld Ihre Expertise einzubringen, die genannten Fachbereiche maßgeblich mitzugestalten und Ihre Karriere auf die nächste Stufe zu heben. mehr vor 15 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "48b93c7a429862102ba53ccab7562aaf142e7aa5f4a9ef73ac42b8982f9ac34b"
+        "fingerprint": "d3a9feffc9a38dfae590f12986d552a5746f7966dcdfd61722a128936b1ae124"
       },
       {
         "id": "stepstone:945281",
@@ -1450,11 +1492,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Anwaltsassistent-in-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947468-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 20 Stunden",
+        "published_at": "vor 22 Stunden",
         "department": "Teilweise Home-Office, NEU",
-        "snippet": "Anwaltsassistent:in (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. mehr vor 20 Stunden NEU",
+        "snippet": "Anwaltsassistent:in (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. Mit rund 140 Mitarbeiter:innen, davon über 70 Jurist :innen, bieten wir unseren Mandant:innen in interdisziplinären Praxisgroups die perfekte Mischung aus fachspezifischem Know-how und jahrelanger Erfahrung. mehr vor 22 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "6bb6c10e86d5298be8a7aa84ab82555f8cea10b1fd635628498479e4d4aba37d"
+        "fingerprint": "2b57a4bedd731c433a519c94df5128e140b7004cfa5aa9fb8c224e52e2c4c6ff"
       },
       {
         "id": "stepstone:951147",
@@ -1696,6 +1738,9 @@
       "karriere_at:7846127",
       "karriere_at:7846877",
       "karriere_at:7847546",
+      "karriere_at:7847945",
+      "karriere_at:7847951",
+      "karriere_at:7847957",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
