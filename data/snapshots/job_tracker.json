@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T11:58:46.425811Z",
+  "timestamp": "2026-07-21T14:17:13.767688Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-21T11:58:46.425811Z",
+        "last_success": "2026-07-21T14:17:13.767688Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-21T11:58:46.425811Z",
+        "last_success": "2026-07-21T14:17:13.767688Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-21T11:58:46.425811Z",
+        "last_success": "2026-07-21T14:17:13.767688Z",
         "last_error": null,
         "count": 7
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-21T11:58:46.425811Z",
+        "last_success": "2026-07-21T14:17:13.767688Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-21T11:58:46.425811Z",
+        "last_success": "2026-07-21T14:17:13.767688Z",
         "last_error": null,
-        "count": 57
+        "count": 55
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-21T11:58:46.425811Z",
-        "last_error": null,
-        "count": 33
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 31
       }
     },
     "jobs": [
@@ -762,34 +762,6 @@
         "snippet": "Teamassistenz (w/m/d) mit Schwerpunkt Recht Standort: Wien | Stundenausmaß: Vollzeit oder Teilzeit (ab 25 Wochenstunden) | ab sofort In dieser Position trifft Organisationstalent...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "3a38553640e80e256e44c4301d95af87df8d0ab01a6f91ac5899fb2286f458c3"
-      },
-      {
-        "id": "karriere_at:7846127",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter Disputes (m/w/d)",
-        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7846127",
-        "salary": "ab 3.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Make your way to the top. Rechtsanwaltsanwärter Disputes (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply Now! Wir suchen...",
-        "first_seen": "2026-07-16T15:11:16.877320Z",
-        "fingerprint": "f495710a7c4c9609fc0d91f809d7c1f1b0737b14df3f6b5d4397be5434b0b68f"
-      },
-      {
-        "id": "karriere_at:7839059",
-        "source": "karriere_at",
-        "title": "Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d)",
-        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7839059",
-        "salary": null,
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
-        "first_seen": "2026-07-06T14:47:03.475158Z",
-        "fingerprint": "82c899f2ee1ee4f55e9dd18f9ba870afcc32bd420b28194223d78d2d0f09aa3e"
       },
       {
         "id": "karriere_at:7845209",
