@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T07:24:22.796387Z",
+  "timestamp": "2026-07-21T10:06:16.228085Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-21T07:24:22.796387Z",
+        "last_success": "2026-07-21T10:06:16.228085Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-21T07:24:22.796387Z",
+        "last_success": "2026-07-21T10:06:16.228085Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-21T07:24:22.796387Z",
+        "last_success": "2026-07-21T10:06:16.228085Z",
         "last_error": null,
         "count": 7
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-21T07:24:22.796387Z",
+        "last_success": "2026-07-21T10:06:16.228085Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-21T07:24:22.796387Z",
+        "last_success": "2026-07-21T10:06:16.228085Z",
         "last_error": null,
         "count": 54
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-21T07:24:22.796387Z",
-        "last_error": null,
-        "count": 33
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 31
       }
     },
     "jobs": [
@@ -590,10 +590,10 @@
         "url": "https://www.karriere.at/jobs/7844045",
         "salary": "ab 6.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-07-14T08:52:20.449998Z",
-        "fingerprint": "e85944f2142ea265e34abf6cbceaaeec0e4604ca5c13ca0546a6f605f06ed586"
+        "fingerprint": "fe3ba39f0f5153c471353ab076c4cdb07327f8e1dcc5c7dd956926393e0d90c1"
       },
       {
         "id": "karriere_at:7844024",
