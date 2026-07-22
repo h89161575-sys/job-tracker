@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T04:38:56.214887Z",
+  "timestamp": "2026-07-22T07:26:38.660409Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-22T04:38:56.214887Z",
+        "last_success": "2026-07-22T07:26:38.660409Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-22T04:38:56.214887Z",
+        "last_success": "2026-07-22T07:26:38.660409Z",
         "last_error": null,
         "count": 1
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-22T04:38:56.214887Z",
+        "last_success": "2026-07-22T07:26:38.660409Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-22T04:38:56.214887Z",
+        "last_success": "2026-07-22T07:26:38.660409Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-22T04:38:56.214887Z",
+        "last_success": "2026-07-22T07:26:38.660409Z",
         "last_error": null,
-        "count": 55
+        "count": 58
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-22T04:38:56.214887Z",
-        "last_error": null,
-        "count": 32
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 30
       }
     },
     "jobs": [
@@ -458,10 +458,10 @@
         "url": "https://www.karriere.at/jobs/10026561",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-16T07:06:38.089637Z",
-        "fingerprint": "dd40cccbbfc3b81024d7cd7426c48d272cb2d58f45326c7908ae52b9f561f10d"
+        "fingerprint": "01d97ccd45fe2d40f1c3983a58ab68ce639b963c54afaa254863a2beccbfb73c"
       },
       {
         "id": "karriere_at:10024281",
@@ -584,10 +584,10 @@
         "url": "https://www.karriere.at/jobs/7844024",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "14.7.2026",
         "snippet": "Ihre Aufgaben: Rechtliche Begleitung von Kapitalmarktprojekten, Unterstützung in der Kapitalmarktcompliance und -kommunikation, Verstärkung im Bereich Compliance/Governance, Koordinierung des Beteiligungsmanagements...",
         "first_seen": "2026-07-14T06:30:38.747341Z",
-        "fingerprint": "d2c388422509ca80dd8d93d0299df2d95b6993a372ad4b26e5a68d17938a4410"
+        "fingerprint": "81d84a9b1469be145d28addadea64aab00eef4148b2a185cc77deb3d0c35f8dc"
       },
       {
         "id": "karriere_at:7831523",
@@ -644,6 +644,20 @@
         "snippet": "Jetzt bewerben Jurist:in mit Schwerpunkt IT-Vertragsrecht ÖBB-BCC GmbH Wien-Leopoldstadt, Wien, 1020, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25594 Wir möchten neue Wege...",
         "first_seen": "2026-06-24T15:14:16.915261Z",
         "fingerprint": "43030e2c441137a249d9f1390bfc8159bc038d11cc85a8dfe3f9ee8b95b83791"
+      },
+      {
+        "id": "karriere_at:7848419",
+        "source": "karriere_at",
+        "title": "Rechtsanwalt / Steuerberater im Bereich Tax (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7848419",
+        "salary": null,
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
+        "first_seen": "2026-07-22T07:26:46.145818Z",
+        "fingerprint": "ba85310ecfa4094a990cbf3aa4eb7d8b297bb26891553e9562b81aad6da1dd82"
       },
       {
         "id": "karriere_at:7847957",
@@ -842,6 +856,20 @@
         "fingerprint": "148044c663dc4b1bad287e19092b896318ed91570240e96ca8d35ed4ac2c9ecc"
       },
       {
+        "id": "karriere_at:7848584",
+        "source": "karriere_at",
+        "title": "Berufsanwärter Fokus Gesundheitswesen (m/w/d)",
+        "company": "Ecovis Austria Wirtschaftsprüfungs- und Steuerberatungsgesellschaft m.b.H.",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7848584",
+        "salary": "ab 3.100 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Deine Aufgaben: Du übernimmst die eigenständige Betreuung von Klienten vorwiegend aus dem Gesundheitsbereich. Du bist u.a. zuständig für die Betreuung von großen Gruppenpraxen und Primärversorgungszentren...",
+        "first_seen": "2026-07-22T07:26:46.145818Z",
+        "fingerprint": "52001608f2dd206548fcf6ab53e3d5efcd1ede062638181a55fc9a461dfd00bb"
+      },
+      {
         "id": "karriere_at:7779857",
         "source": "karriere_at",
         "title": "Consultant Forensic & Integrity Services (w/m/d)",
@@ -868,6 +896,20 @@
         "snippet": "(Lead) Specialist im Bereich Zoll, Verbrauchsteuern & Nachhaltigkeit (m/w/d) Standorte: Wien, Linz oder Klagenfurt | Stundenausmaß: Vollzeit oder Teilzeit (ab 20 Wochenstunden...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "c40ec78124453c2da4b2448ad4e4c7a93f89624a6a78408f429914222dd6df57"
+      },
+      {
+        "id": "karriere_at:7848359",
+        "source": "karriere_at",
+        "title": "(Senior) Associate Tax (w/m/d)",
+        "company": "EY Österreich",
+        "location": "Wien, Linz, Salzburg (Stadt), Klagenfurt, Graz",
+        "url": "https://www.karriere.at/jobs/7848359",
+        "salary": "3.100 € – 5.300 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Deine Aufgaben: Verantwortlichkeiten, Bearbeitung abwechslungsreicher steuerlicher Fragestellungen in spezialisierten Tax-Teams, etwa in den Bereichen internationales Steuerrecht, Verrechnungspreise, Transaktionen...",
+        "first_seen": "2026-07-22T07:26:46.145818Z",
+        "fingerprint": "cfc9c0eff33455a5e56d2697f0415be9b527dd9bf127478e2be073496455d168"
       },
       {
         "id": "karriere_at:7847945",
@@ -1060,10 +1102,10 @@
         "url": "https://www.karriere.at/jobs/7845569",
         "salary": "ab 39.200 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Eigenverantwortliche Bearbeitung komplexer Anfragen rund um Prüfungsverfahren und Bestellung von Steuerberater:innen und Wirtschaftsprüfer:innen, Rechtlich fundierte Auslegung und...",
         "first_seen": "2026-07-16T07:06:38.089637Z",
-        "fingerprint": "078755cb9dac04c759a8e334f2c7d49050e6800f83f786cc3c9bc769f032b068"
+        "fingerprint": "75ed92ade7866d0a2253b77b2c811b337594857212d0746decfdd8b98df80d90"
       },
       {
         "id": "karriere_at:7663323",
@@ -1678,6 +1720,9 @@
       "karriere_at:7847945",
       "karriere_at:7847951",
       "karriere_at:7847957",
+      "karriere_at:7848359",
+      "karriere_at:7848419",
+      "karriere_at:7848584",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
