@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-23T14:26:39.866720Z",
+  "timestamp": "2026-07-23T16:11:58.086020Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-23T14:26:39.866720Z",
+        "last_success": "2026-07-23T16:11:58.086020Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-23T14:26:39.866720Z",
+        "last_success": "2026-07-23T16:11:58.086020Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-23T14:26:39.866720Z",
+        "last_success": "2026-07-23T16:11:58.086020Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-23T14:26:39.866720Z",
+        "last_success": "2026-07-23T16:11:58.086020Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-23T14:26:39.866720Z",
+        "last_success": "2026-07-23T16:11:58.086020Z",
         "last_error": null,
-        "count": 59
+        "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-23T14:26:39.866720Z",
-        "last_error": null,
-        "count": 32
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 30
       }
     },
     "jobs": [
@@ -418,6 +418,20 @@
         "snippet": null,
         "first_seen": "2026-07-10T08:45:47.820748Z",
         "fingerprint": "f02a57f8541f0bee044441ce43bce30f1fc19da37add8f37bfd5f959748d59f6"
+      },
+      {
+        "id": "karriere_at:10027445",
+        "source": "karriere_at",
+        "title": "(Senior) Legal Counsel (m/w/d)",
+        "company": "STANDARD Medien AG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10027445",
+        "salary": "3.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-23T16:12:04.483078Z",
+        "fingerprint": "955a68f842be302793c83305ceb3aec468f1c47f4837a57fa10ffa1097f2ab82"
       },
       {
         "id": "karriere_at:10023528",
@@ -1689,6 +1703,7 @@
       "karriere_at:10025968",
       "karriere_at:10026561",
       "karriere_at:10026661",
+      "karriere_at:10027445",
       "karriere_at:7663251",
       "karriere_at:7663254",
       "karriere_at:7663257",
