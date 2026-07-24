@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-23T23:35:15.208503Z",
+  "timestamp": "2026-07-24T01:06:15.709311Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-23T23:35:15.208503Z",
+        "last_success": "2026-07-24T01:06:15.709311Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-23T23:35:15.208503Z",
+        "last_success": "2026-07-24T01:06:15.709311Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-23T23:35:15.208503Z",
+        "last_success": "2026-07-24T01:06:15.709311Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-23T23:35:15.208503Z",
+        "last_success": "2026-07-24T01:06:15.709311Z",
         "last_error": null,
-        "count": 5
+        "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-23T23:35:15.208503Z",
+        "last_success": "2026-07-24T01:06:15.709311Z",
         "last_error": null,
         "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-23T23:35:15.208503Z",
-        "last_error": null,
-        "count": 32
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 30
       }
     },
     "jobs": [
@@ -396,16 +396,6 @@
         "fingerprint": "d968927ad012eeddc7dd63e8bff779a4eb829ab38ad20e9c78f765ddeeb74a40"
       },
       {
-        "id": "derstandard:1c3288ca-3174-33f0-a29c-773e674044d6",
-        "source": "derstandard",
-        "title": "Consultant Forensic & Integrity Services (w/m/d)",
-        "company": "EY (Ernst & Young)",
-        "location": "1220 Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/1c3288ca-3174-33f0-a29c-773e674044d6",
-        "first_seen": "2026-07-23T23:35:20.758114Z",
-        "fingerprint": "a3e9145a049f929efd69eda85ba55f5247aa8dbb5cab0ac2c3395bf7be51cff2"
-      },
-      {
         "id": "derstandard:f9351baf-d587-3a65-a827-7bd585e06f79",
         "source": "derstandard",
         "title": "Senior Tax Associate: Schwerpunkt International Tax & Transfer Pricing (m/w/d)",
@@ -414,20 +404,6 @@
         "url": "https://jobs.derstandard.at/job/f9351baf-d587-3a65-a827-7bd585e06f79",
         "first_seen": "2026-07-16T07:06:38.088651Z",
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
-      },
-      {
-        "id": "karriere_at:10022360",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10022360",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "16.7.2026",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "dd0a787794cfd345a3efc078bd6f331d8734971403c8361a4df64f16f566bfa4"
       },
       {
         "id": "karriere_at:10025968",
@@ -442,6 +418,20 @@
         "snippet": null,
         "first_seen": "2026-07-10T08:45:47.820748Z",
         "fingerprint": "ac48b62ed391d1b3188208d6c2b6381e7d52fdc79f58b532e4e8cfe87864d693"
+      },
+      {
+        "id": "karriere_at:10022360",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10022360",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "84fdbc4901bfd133b7ba83c8ef0a5cd0edc2dfcd107184ff192c4d82caf26ec9"
       },
       {
         "id": "karriere_at:10027445",
