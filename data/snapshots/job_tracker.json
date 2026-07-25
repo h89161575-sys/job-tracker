@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-25T04:34:03.597902Z",
+  "timestamp": "2026-07-25T07:00:30.148612Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -17,33 +17,33 @@
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-25T04:34:03.597902Z",
+        "last_success": "2026-07-25T07:00:30.148612Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-25T04:34:03.597902Z",
+        "last_success": "2026-07-25T07:00:30.148612Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-25T04:34:03.597902Z",
+        "last_success": "2026-07-25T07:00:30.148612Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-25T04:34:03.597902Z",
+        "last_success": "2026-07-25T07:00:30.148612Z",
         "last_error": null,
         "count": 61
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-25T04:34:03.597902Z",
-        "last_error": null,
-        "count": 32
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 30
       }
     },
     "jobs": [
@@ -1054,10 +1054,10 @@
         "url": "https://www.karriere.at/jobs/7848584",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Du übernimmst die eigenständige Betreuung von Klienten vorwiegend aus dem Gesundheitsbereich. Du bist u.a. zuständig für die Betreuung von großen Gruppenpraxen und Primärversorgungszentren...",
         "first_seen": "2026-07-22T07:26:46.145818Z",
-        "fingerprint": "0aa3faf325bfde6ec382499430bf99b23a82873f13a043094ed03b37037f3f2d"
+        "fingerprint": "6df9ef5f62eec47aeea6dc49612c92980df17dfd6d54d6b78c29718e78f58bcb"
       },
       {
         "id": "karriere_at:7779857",
