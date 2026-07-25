@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-24T23:38:48.486115Z",
+  "timestamp": "2026-07-25T01:15:39.758696Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -17,32 +17,32 @@
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-24T23:38:48.486115Z",
+        "last_success": "2026-07-25T01:15:39.758696Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-24T23:38:48.486115Z",
+        "last_success": "2026-07-25T01:15:39.758696Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-24T23:38:48.486115Z",
+        "last_success": "2026-07-25T01:15:39.758696Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-24T23:38:48.486115Z",
+        "last_success": "2026-07-25T01:15:39.758696Z",
         "last_error": null,
         "count": 61
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-24T22:32:27.695492Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 31
       }
     },
@@ -444,6 +444,34 @@
         "fingerprint": "a5c7be303eba030cab352a219c4b2aa3ecf7ce2f4e6ee50ee07cdb1e67154246"
       },
       {
+        "id": "karriere_at:10026661",
+        "source": "karriere_at",
+        "title": "Legal Manager (m/w/d)",
+        "company": "Arbeitgeber verdeckt",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10026661",
+        "salary": "ab 70.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-16T11:20:32.476615Z",
+        "fingerprint": "cec30363b990fdde97e03c22928ead19aa61d2c42dc258c262406906e3993035"
+      },
+      {
+        "id": "karriere_at:10026561",
+        "source": "karriere_at",
+        "title": "Legal Officer (w/m/d)",
+        "company": "Bechtle Austria GmbH",
+        "location": "Traun, Wien, Wiener Neudorf",
+        "url": "https://www.karriere.at/jobs/10026561",
+        "salary": "ab 70.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-16T07:06:38.089637Z",
+        "fingerprint": "ca0b8e4313ad1b44e949487d2e459448e4ca8d4066a1e96275c0cc4f91bfb5c6"
+      },
+      {
         "id": "karriere_at:10027445",
         "source": "karriere_at",
         "title": "(Senior) Legal Counsel (m/w/d)",
@@ -484,34 +512,6 @@
         "snippet": null,
         "first_seen": "2026-07-10T08:45:47.820748Z",
         "fingerprint": "d42bdf2ccb3ba3054b1ccd50ae0e4bab835f9bda343b54432b42f6d9f7d7a306"
-      },
-      {
-        "id": "karriere_at:10026661",
-        "source": "karriere_at",
-        "title": "Legal Manager (m/w/d)",
-        "company": "Arbeitgeber verdeckt",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10026661",
-        "salary": "ab 70.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "16.7.2026",
-        "snippet": null,
-        "first_seen": "2026-07-16T11:20:32.476615Z",
-        "fingerprint": "35e6aaaa7b895a851cad826465c361da5ff306f0e8dbd4aa7918886504c8a509"
-      },
-      {
-        "id": "karriere_at:10026561",
-        "source": "karriere_at",
-        "title": "Legal Officer (w/m/d)",
-        "company": "Bechtle Austria GmbH",
-        "location": "Traun, Wien, Wiener Neudorf",
-        "url": "https://www.karriere.at/jobs/10026561",
-        "salary": "ab 70.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "16.7.2026",
-        "snippet": null,
-        "first_seen": "2026-07-16T07:06:38.089637Z",
-        "fingerprint": "cfbd37e3080c389f7c4741a866444e094a68cf8db978a48ac09d9cb7f455ad04"
       },
       {
         "id": "karriere_at:10024281",
