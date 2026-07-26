@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-25T23:45:40.172698Z",
+  "timestamp": "2026-07-26T01:18:41.108851Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -17,32 +17,32 @@
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-25T23:45:40.172698Z",
+        "last_success": "2026-07-26T01:18:41.108851Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-25T23:45:40.172698Z",
+        "last_success": "2026-07-26T01:18:41.108851Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-25T23:45:40.172698Z",
+        "last_success": "2026-07-26T01:18:41.108851Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-25T23:45:40.172698Z",
+        "last_success": "2026-07-26T01:18:41.108851Z",
         "last_error": null,
-        "count": 61
+        "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-25T10:48:52.441213Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 30
       }
     },
@@ -430,6 +430,20 @@
         "fingerprint": "eeed0cf2552cd12968ae1adbab48c1cd3738632b3ea3d4eebc5d6cb09076b852"
       },
       {
+        "id": "karriere_at:10025968",
+        "source": "karriere_at",
+        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
+        "company": "Kommunalkredit Public Consulting GmbH",
+        "location": "Wien 19. Bezirk (Döbling)",
+        "url": "https://www.karriere.at/jobs/10025968",
+        "salary": "ab 3.599,52 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-10T08:45:47.820748Z",
+        "fingerprint": "bde68f24efb5e911ebd8e42c6b4022bad92aaa2f63aae45337733472cc7dfb0f"
+      },
+      {
         "id": "karriere_at:10026661",
         "source": "karriere_at",
         "title": "Legal Manager (m/w/d)",
@@ -484,20 +498,6 @@
         "snippet": null,
         "first_seen": "2026-07-23T16:12:04.483078Z",
         "fingerprint": "c901b0ff24c8b7c36c16e2dfca2951924a38d615747992e4bf902b645bf85867"
-      },
-      {
-        "id": "karriere_at:10025968",
-        "source": "karriere_at",
-        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
-        "company": "Kommunalkredit Public Consulting GmbH",
-        "location": "Wien 19. Bezirk (Döbling)",
-        "url": "https://www.karriere.at/jobs/10025968",
-        "salary": "ab 3.599,52 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "18.7.2026",
-        "snippet": null,
-        "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "391de0e836de005b1e5d0f3cdb687f21f6d96f026e1c81a7fc289fff5cdd58de"
       },
       {
         "id": "karriere_at:10024281",
@@ -934,6 +934,20 @@
         "fingerprint": "1eea11d45243e0fd2c17585b18c754c8607f3874c2f24fbce7b2872a43b601a6"
       },
       {
+        "id": "karriere_at:10022516",
+        "source": "karriere_at",
+        "title": "Berufsanwärter/-in Combined Tax/Audit",
+        "company": "PKF Österreicher & Partner GmbH & Co KG",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10022516",
+        "salary": "ab 3.500 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "d8e360a4b579318f84420f6873abd876168802c0699967b577e847f5bf08687e"
+      },
+      {
         "id": "karriere_at:7845569",
         "source": "karriere_at",
         "title": "Karrierestart (w/m/d) im Prüfungswesen",
@@ -1002,20 +1016,6 @@
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "92a67a5dc4df9fa0adda59c6c6f6a63a6f7bfde2327e38fe186791df36c4c228"
-      },
-      {
-        "id": "karriere_at:7812653",
-        "source": "karriere_at",
-        "title": "Business Development Coordinator (w/m/d)",
-        "company": "CMS Reich-Rohrwig Hainz Rechtsanwälte GmbH",
-        "location": "1010 Wien",
-        "url": "https://www.karriere.at/jobs/7812653",
-        "salary": "ab 46.200 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
-        "snippet": "Ihre Aufgaben: Im Überblick. Unser Motto? Mit den Aufgaben wachsen. Sie entwickeln lokale und internationale Angebote (Pitch-Unterlagen) in Zusammenarbeit mit unseren Anwält:innen, Sie koordinieren...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "b9eaa9624c61e577edf755068c626153fc143a4c7f41fd423af8f76e0ccae5f0"
       },
       {
         "id": "karriere_at:7663272",
@@ -1240,20 +1240,6 @@
         "snippet": "Ihr Aufgabengebiet: Dich erwartet ein abwechslungsreicher Mix aus allgemeinen steuerlichen Tätigkeiten (z.B. Erstellung von Steuererklärungen), spannenden Sonderprojekten, wie Tax Due Diligences, der Möglichkeit...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "f2d49475d64722ddab7c379c43800646a3d957b417b3e8709c14a0f51c37789f"
-      },
-      {
-        "id": "karriere_at:10022516",
-        "source": "karriere_at",
-        "title": "Berufsanwärter/-in Combined Tax/Audit",
-        "company": "PKF Österreicher & Partner GmbH & Co KG",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10022516",
-        "salary": "ab 3.500 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "17.7.2026",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "7e565b1f6468188aca41ac5d926e11e26656a12be35ac5ee0bf4c723cf0567a0"
       },
       {
         "id": "stepstone:992085",
