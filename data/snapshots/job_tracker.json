@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-26T11:08:44.291288Z",
+  "timestamp": "2026-07-26T12:33:53.781684Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -17,33 +17,33 @@
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-26T11:08:44.291288Z",
+        "last_success": "2026-07-26T12:33:53.781684Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-26T11:08:44.291288Z",
+        "last_success": "2026-07-26T12:33:53.781684Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-26T11:08:44.291288Z",
+        "last_success": "2026-07-26T12:33:53.781684Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-26T11:08:44.291288Z",
+        "last_success": "2026-07-26T12:33:53.781684Z",
         "last_error": null,
         "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-26T11:08:44.291288Z",
-        "last_error": null,
-        "count": 31
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 29
       }
     },
     "jobs": [
@@ -536,10 +536,10 @@
         "url": "https://www.karriere.at/jobs/7849607",
         "salary": "80.000 € – 90.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Sie beraten und unterstützen die Fachabteilungen und Beteiligungen der Bank bei rechtlichen Fragestellungen (Corporate Inhouse) und bearbeiten unterschiedlichste Fragestellungen im Zivil-...",
         "first_seen": "2026-07-23T12:00:35.888489Z",
-        "fingerprint": "f1dcefee9fc97b9fa2fd579f62658c156ead979ede0369fb53d1e3254ba2ea4d"
+        "fingerprint": "40de37feaa84b7b0015213472b9f1694f54d1fff7e9defc73f07d7ff15dad880"
       },
       {
         "id": "karriere_at:7821314",
