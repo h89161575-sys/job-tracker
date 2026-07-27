@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-27T12:01:20.839689Z",
+  "timestamp": "2026-07-27T15:08:40.465405Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -17,33 +17,33 @@
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-27T12:01:20.839689Z",
+        "last_success": "2026-07-27T15:08:40.465405Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-27T12:01:20.839689Z",
+        "last_success": "2026-07-27T15:08:40.465405Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-27T12:01:20.839689Z",
+        "last_success": "2026-07-27T15:08:40.465405Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-27T12:01:20.839689Z",
+        "last_success": "2026-07-27T15:08:40.465405Z",
         "last_error": null,
-        "count": 60
+        "count": 62
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-07-26T21:09:03.017895Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 29
+        "last_success": "2026-07-27T15:08:40.465405Z",
+        "last_error": null,
+        "count": 31
       }
     },
     "jobs": [
@@ -434,6 +434,20 @@
         "fingerprint": "accf600f87988dc7f2d2222993ae2739f629a7cebc951125e12e284e0974334a"
       },
       {
+        "id": "karriere_at:10027709",
+        "source": "karriere_at",
+        "title": "Jurist:in Digitale Dienste (m/w/d)",
+        "company": "Rundfunk und Telekom Regulierungs-GmbH (RTR)",
+        "location": "Wien 6. Bezirk (Mariahilf)",
+        "url": "https://www.karriere.at/jobs/10027709",
+        "salary": "ab 47.446 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-27T15:08:46.560804Z",
+        "fingerprint": "f6f1742f7094226be40ed9a91225b8f35f6f3084c303d80f55841b1cdde0ff08"
+      },
+      {
         "id": "karriere_at:10027642",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter:in (all genders) im Kartellrecht",
@@ -526,10 +540,10 @@
         "url": "https://www.karriere.at/jobs/10027445",
         "salary": "3.700 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-23T16:12:04.483078Z",
-        "fingerprint": "a5fea4918bb5f657db51adb9500227cad4d0c17939bdb475de41e8d473a6ee4b"
+        "fingerprint": "4e045f925bc3ffb279923e6be398b04d9353897ad4514021ca3f1d3a97c8c581"
       },
       {
         "id": "karriere_at:10024281",
@@ -544,6 +558,20 @@
         "snippet": null,
         "first_seen": "2026-06-29T09:57:01.141761Z",
         "fingerprint": "14314786e40805cc1857ab6c6815d51f86ab732379aeeb2bf6dceac953517580"
+      },
+      {
+        "id": "karriere_at:7850915",
+        "source": "karriere_at",
+        "title": "Senior Legal Counsel (w/m/d)",
+        "company": "Bundesrechenzentrum GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7850915",
+        "salary": "ab 66.806,88 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Ihre Aufgaben: Ansprechperson für Vertrags- und IP- Recht mit Schwerpunkt auf Software- und Hardware sowie IT-Dienstleistungen, Betreuung von Kundenaccounts in rechtlichen Angelegenheiten und Begleitung der...",
+        "first_seen": "2026-07-27T15:08:46.560804Z",
+        "fingerprint": "616d22843c9733a223aba410517cba2741dcc0ea5e9cc8c87436c786ab886fdf"
       },
       {
         "id": "karriere_at:7844024",
@@ -1240,11 +1268,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Juristin-w-m-d-Wien-Aerztekammer-fuer-Wien--992085-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 2 Tagen",
+        "published_at": "vor 4 Tagen",
         "department": "Schnelle Bewerbung",
-        "snippet": "Jurist*in (w/m/d) Ärztekammer für Wien Wien Schnelle Bewerbung Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi mehr vor 2 Tagen",
+        "snippet": "Jurist*in (w/m/d) Ärztekammer für Wien Wien Schnelle Bewerbung Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi mehr vor 4 Tagen",
         "first_seen": "2026-07-09T22:06:32.958030Z",
-        "fingerprint": "9cee5f95bb3c772e505962c85a99ecc57a0eb45623626da1bdf9d6697335a9d1"
+        "fingerprint": "243774700f6df05799d432ee42952c4f382ca65220fbbaad9c7d682a922e0d09"
       },
       {
         "id": "stepstone:991399",
@@ -1255,71 +1283,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Jurist-w-m-d-Wien-ISG-Personalmanagement-GmbH--991399-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Home Office",
-        "published_at": "vor 4 Tagen",
+        "published_at": "vor 6 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Jurist (w/m/d) ISG Personalmanagement GmbH Wien Teilweise Home-Office Jurist (w/m/d) Schwerpunkt Vertrags-, Gesundheits- & OrganisationsrechtWien/Vollzeit Im Auftrag einer führenden Organisation im österreichischen Gesundheitswesen suchen wir eine engagierte Persönlichkeit für den Bereich Ausbildungsangelegenheiten im medizinischen Umfeld. Jurist (w/m/d) Schwerpunkt Vertrags-, Gesundheits- & OrganisationsrechtWien/Vollzeit Im Auftrag einer führenden Organisation im österreichischen Gesundheitswesen suchen wir eine engagierte Persönlichkeit für den Bereich Ausbildungsangelegenheiten im medizinischen Umfeld. mehr vor 4 Tagen",
+        "snippet": "Jurist (w/m/d) ISG Personalmanagement GmbH Wien Teilweise Home-Office Jurist (w/m/d) Schwerpunkt Vertrags-, Gesundheits- & OrganisationsrechtWien/Vollzeit Im Auftrag einer führenden Organisation im österreichischen Gesundheitswesen suchen wir eine engagierte Persönlichkeit für den Bereich Ausbildungsangelegenheiten im medizinischen Umfeld. Jurist (w/m/d) Schwerpunkt Vertrags-, Gesundheits- & OrganisationsrechtWien/Vollzeit Im Auftrag einer führenden Organisation im österreichischen Gesundheitswesen suchen wir eine engagierte Persönlichkeit für den Bereich Ausbildungsangelegenheiten im medizinischen Umfeld. mehr vor 6 Tagen",
         "first_seen": "2026-07-07T13:29:53.215549Z",
-        "fingerprint": "b17aee8c93e90b8359b2fc091fb64d2efdb73980fa333e4a36d54f702d5e55ef"
-      },
-      {
-        "id": "stepstone:934778",
-        "source": "stepstone",
-        "title": "Rechtsanwält:in Corporate Restructuring (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Corporate-Restructuring-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934778-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "vor 2 Tagen",
-        "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwält:in Corporate Restructuring (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 2 Tagen",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "0503a541e50c29b18fafaa94d916387f2bc6a4a0ce917c4f6e68d48246d0acd9"
-      },
-      {
-        "id": "stepstone:934776",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Restrukturierung (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Restrukturierung-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934776-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "vor 2 Tagen",
-        "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwaltsanwärter:in Restrukturierung (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 2 Tagen",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "ba84a91bca2b3769ae0e1eb787c530779767b07ee68206926232fbf7fc6b776f"
-      },
-      {
-        "id": "stepstone:945281",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Real Estate (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Real-Estate-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--945281-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "vor 3 Tagen",
-        "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwaltsanwärter:in Real Estate (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 3 Tagen",
-        "first_seen": "2026-07-04T08:13:32.144750Z",
-        "fingerprint": "df8c1a1c8975a87e7e4c56ab73eb884b1b29e957bdb2258c071dbb7a13675805"
-      },
-      {
-        "id": "stepstone:981820",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Zivilrecht (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Zivilrecht-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--981820-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "vor 4 Tagen",
-        "department": null,
-        "snippet": "Rechtsanwaltsanwärter:in Zivilrecht (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 4 Tagen",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "e023baee7934734fd817b88885de3a397d5846a93d2746f432d04271ed82bebf"
+        "fingerprint": "70f68f1e7bca6850a046344940a7a06084818216eb8c0f7780b3a35a11d5c8c4"
       },
       {
         "id": "stepstone:985843",
@@ -1330,11 +1298,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-AI-Workflow-Specialist-w-m-d-Wien-l-m-executive-search-consulting-gmbh--985843-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 6 Tagen",
-        "department": "Teilweise Home-Office",
-        "snippet": "Legal AI Workflow Specialist (w/m/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser Auftraggeberin, einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser Auftraggeberin, einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den mehr vor 6 Tagen",
+        "published_at": "vor 17 Stunden",
+        "department": "Teilweise Home-Office, NEU",
+        "snippet": "Legal AI Workflow Specialist (w/m/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser Auftraggeberin, einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Gestalten Sie mit unser Auftraggeberin, einem internationalen IT-Dienstleister, die Zukunft juristischer Arbeit Sie kommen aus der juristischen Praxis, sind Experte (w/m/d) für Legal Tech und möchten den mehr vor 17 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "9269c6a32419f19984b4d8704c90b052eeac4ab081b832d589d86359f5447818"
+        "fingerprint": "8dda0ce66d8f32152a06e8f3add93a638d5f53744addc7dba1f15a9ce26aa285"
       },
       {
         "id": "stepstone:982028",
@@ -1345,26 +1313,71 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-w-m-d-mit-gesellschaftsrechtlicher-Expertise-Wien-l-m-executive-search-consulting-gmbh--982028-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 6 Tagen",
-        "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech mehr vor 6 Tagen",
+        "published_at": "vor 9 Stunden",
+        "department": "Teilweise Home-Office, NEU",
+        "snippet": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech mehr vor 9 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "f489752690caf4a7006fc0f03ecf9bc9f2bcea3d22e00b493d0f7800358daf7f"
+        "fingerprint": "c61a3dadb2c9beb622f0851fdfa41aa89f3dfad8f0960fb38a4cd0a641016496"
       },
       {
-        "id": "stepstone:992718",
+        "id": "stepstone:934778",
         "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW",
-        "company": "Iro&Partners Personal- u.ManagementberatungsgmbH Zentrale Salzburg",
+        "title": "Rechtsanwält:in Corporate Restructuring (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
         "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Arbeitsrecht-w-m-d-Kinner-Korenjak-LAW-Wien-IroPartners-Personal-u-ManagementberatungsgmbH-Zentrale-Salzburg--992718-inline.html",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Corporate-Restructuring-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934778-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "vor 3 Tagen",
+        "department": "Teilweise Home-Office",
+        "snippet": "Rechtsanwält:in Corporate Restructuring (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 3 Tagen",
+        "first_seen": "2026-06-30T20:54:00.747169Z",
+        "fingerprint": "9c6a83f1d2addf1af6b3f8297fa7c83fcaaf2c75aaedbb810909366ae2f77537"
+      },
+      {
+        "id": "stepstone:934776",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Restrukturierung (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Restrukturierung-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934776-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "vor 3 Tagen",
+        "department": "Teilweise Home-Office",
+        "snippet": "Rechtsanwaltsanwärter:in Restrukturierung (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 3 Tagen",
+        "first_seen": "2026-06-30T20:54:00.747169Z",
+        "fingerprint": "375350e08e6c24d7cf2a0645b2ebde542053fbf829d30667d7291a453ffc4c6a"
+      },
+      {
+        "id": "stepstone:945281",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Real Estate (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Real-Estate-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--945281-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "vor 4 Tagen",
+        "department": "Teilweise Home-Office",
+        "snippet": "Rechtsanwaltsanwärter:in Real Estate (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 4 Tagen",
+        "first_seen": "2026-07-04T08:13:32.144750Z",
+        "fingerprint": "5d05ff573d89417945acd6a1ebb845073cb7a5d8cab7d0dcb907cce080d9f5dc"
+      },
+      {
+        "id": "stepstone:981820",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Zivilrecht (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Zivilrecht-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--981820-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 1 Woche",
-        "department": "Schnelle Bewerbung",
-        "snippet": "Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Iro&Partners Personal- u.ManagementberatungsgmbH Zentrale Salzburg Wien Schnelle Bewerbung Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Kinner Korenjak LAW ist eine anerkannte, stetig wachsende Kanzlei für Arbeitsrecht mit Sitz in 1010 Wien. Zu unseren Mandant:innen zählen inländische und internationale Unternehmen sowie Führungskräfte. Zur Verstärkung unseres T Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Kinner Korenjak LAW ist eine anerkannte, stetig wachsende Kanzlei für Arbeitsrecht mit Sitz in 1010 Wien. Zu unseren Mandant:innen zählen inländische und internationale Unternehmen sowie Führungskräfte. Zur Verstärkung unseres T mehr vor 1 Woche",
-        "first_seen": "2026-07-14T21:11:21.667881Z",
-        "fingerprint": "e5c46ac6db7211a4d9b68744ed700def9e9cda41b957b1be6b4a870a6d186f59"
+        "published_at": "vor 5 Tagen",
+        "department": null,
+        "snippet": "Rechtsanwaltsanwärter:in Zivilrecht (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 5 Tagen",
+        "first_seen": "2026-06-30T20:54:00.747169Z",
+        "fingerprint": "92ab7d549185cc72432f79f2f0e54b04f752aa9151439e8b50c13fb1276d6e1f"
       },
       {
         "id": "stepstone:993277",
@@ -1382,6 +1395,21 @@
         "fingerprint": "bcbb708ecdba0792157e24e0d9b7ad420e5507ea885bd6a881a4c5e2b49312f0"
       },
       {
+        "id": "stepstone:992718",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW",
+        "company": "Iro&Partners Personal- u.ManagementberatungsgmbH Zentrale Salzburg",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Arbeitsrecht-w-m-d-Kinner-Korenjak-LAW-Wien-IroPartners-Personal-u-ManagementberatungsgmbH-Zentrale-Salzburg--992718-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "vor 2 Wochen",
+        "department": "Schnelle Bewerbung",
+        "snippet": "Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Iro&Partners Personal- u.ManagementberatungsgmbH Zentrale Salzburg Wien Schnelle Bewerbung Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Kinner Korenjak LAW ist eine anerkannte, stetig wachsende Kanzlei für Arbeitsrecht mit Sitz in 1010 Wien. Zu unseren Mandant:innen zählen inländische und internationale Unternehmen sowie Führungskräfte. Zur Verstärkung unseres T Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Kinner Korenjak LAW ist eine anerkannte, stetig wachsende Kanzlei für Arbeitsrecht mit Sitz in 1010 Wien. Zu unseren Mandant:innen zählen inländische und internationale Unternehmen sowie Führungskräfte. Zur Verstärkung unseres T mehr vor 2 Wochen",
+        "first_seen": "2026-07-14T21:11:21.667881Z",
+        "fingerprint": "2ebd77151c393f77e55d5c414c986608f8ca028dde547ccf7b52e344e1e02eda"
+      },
+      {
         "id": "stepstone:977608",
         "source": "stepstone",
         "title": "Rechtsanwaltsanwärter:innen im Bereich International Arbitration",
@@ -1390,11 +1418,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-innen-im-Bereich-International-Arbitration-Wien-Vavrovsky-Heine-Marth-Rechtsanwaelte-GmbH--977608-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 3 Tagen",
+        "published_at": "vor 5 Tagen",
         "department": "Schnelle Bewerbung",
-        "snippet": "Rechtsanwaltsanwärter:innen im Bereich International Arbitration Vavrovsky Heine Marth Rechtsanwälte GmbH Wien Schnelle Bewerbung Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs. Wir sind schwerpunktmäßig in den Bereichen Dispute Resolution und Real Estate tätig. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung vor allem auch ein positive Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs. Wir sind schwerpunktmäßig in den Bereichen Dispute Resolution und Real Estate tätig. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung vor allem auch ein positive mehr vor 3 Tagen",
+        "snippet": "Rechtsanwaltsanwärter:innen im Bereich International Arbitration Vavrovsky Heine Marth Rechtsanwälte GmbH Wien Schnelle Bewerbung Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs. Wir sind schwerpunktmäßig in den Bereichen Dispute Resolution und Real Estate tätig. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung vor allem auch ein positive Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs. Wir sind schwerpunktmäßig in den Bereichen Dispute Resolution und Real Estate tätig. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung vor allem auch ein positive mehr vor 5 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "1b075b00545b8a32a65b6daf40a973acebead3b524feb5d03ca73e59cd21be50"
+        "fingerprint": "d0e0e95af437d91249a3536f870439a619999137c91bcc93a950250aa529afb8"
       },
       {
         "id": "stepstone:976441",
@@ -1420,11 +1448,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsschutzexpert-in-Wien-Gewerkschaft-Vida--989494-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 18 Stunden",
-        "department": "Schnelle Bewerbung, NEU",
-        "snippet": "Rechtsschutzexpert:in Gewerkschaft Vida Wien Schnelle Bewerbung Die Gewerkschaft vida setzt sich mit Leidenschaft für die Rechte und Interessen von Arbeitnehmer:innen ein. vida sucht Rechtsschutzexpert:in Die Gewerkschaft vida setzt sich mit Leidenschaft für die Rechte und Interessen von Arbeitnehmer:innen ein. vida sucht Rechtsschutzexpert:in mehr vor 18 Stunden NEU",
+        "published_at": "vor 2 Tagen",
+        "department": "Schnelle Bewerbung",
+        "snippet": "Rechtsschutzexpert:in Gewerkschaft Vida Wien Schnelle Bewerbung Die Gewerkschaft vida setzt sich mit Leidenschaft für die Rechte und Interessen von Arbeitnehmer:innen ein. vida sucht Rechtsschutzexpert:in Die Gewerkschaft vida setzt sich mit Leidenschaft für die Rechte und Interessen von Arbeitnehmer:innen ein. vida sucht Rechtsschutzexpert:in mehr vor 2 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "86e9ddf9823a40adaa1c3639c3e56659db0798281b273218ea123f4a464183b4"
+        "fingerprint": "b3c77863d6d5d3b64ce74ae2d8bdc0a416e4b3cf08965b9ef5fd6a19318cb9bd"
       },
       {
         "id": "stepstone:992067",
@@ -1435,11 +1463,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-joe-Bonus-Club-m-w-x-Wien-REWE-Group-Oesterreich--992067-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 1 Tag",
+        "published_at": "vor 3 Tagen",
         "department": "Teilweise Home-Office, Schnelle Bewerbung",
-        "snippet": "Legal Counsel | jö Bonus Club (m/w/x) REWE Group Österreich Wien Teilweise Home-Office Schnelle Bewerbung Die REWE Group prägt mit ihren Handelsunternehmen BILLA, PENNY, BIPA und ADEG den österreichischen Lebensmittelhandel maßgeblich. Diesen Erfolg verdanken wir unseren rund 47.000 Mitarbeiter:innen. Einen besonderen Stellenwert innerhalb der Unternehmensgruppe nimmt der jö Bonus Club ein – eines der e Die REWE Group prägt mit ihren Handelsunternehmen BILLA, PENNY, BIPA und ADEG den österreichischen Lebensmittelhandel maßgeblich. Diesen Erfolg verdanken wir unseren rund 47.000 Mitarbeiter:innen. Einen besonderen Stellenwert innerhalb der Unternehmensgruppe nimmt der jö Bonus Club ein – eines der e mehr vor 1 Tag",
+        "snippet": "Legal Counsel | jö Bonus Club (m/w/x) REWE Group Österreich Wien Teilweise Home-Office Schnelle Bewerbung Die REWE Group prägt mit ihren Handelsunternehmen BILLA, PENNY, BIPA und ADEG den österreichischen Lebensmittelhandel maßgeblich. Diesen Erfolg verdanken wir unseren rund 47.000 Mitarbeiter:innen. Einen besonderen Stellenwert innerhalb der Unternehmensgruppe nimmt der jö Bonus Club ein – eines der e Die REWE Group prägt mit ihren Handelsunternehmen BILLA, PENNY, BIPA und ADEG den österreichischen Lebensmittelhandel maßgeblich. Diesen Erfolg verdanken wir unseren rund 47.000 Mitarbeiter:innen. Einen besonderen Stellenwert innerhalb der Unternehmensgruppe nimmt der jö Bonus Club ein – eines der e mehr vor 3 Tagen",
         "first_seen": "2026-07-09T22:06:32.958030Z",
-        "fingerprint": "38a6cd9403651644bfe68947712beff887ca3811d2f75a46a0b4012fb83ceca9"
+        "fingerprint": "364dab749be395572e269adbf5765c972a56be8faf2e8e104577db4ce60b0637"
       },
       {
         "id": "stepstone:984200",
@@ -1450,11 +1478,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-Economic-Affairs-m-w-d-Wien-l-m-executive-search-consulting-gmbh--984200-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 2 Tagen",
+        "published_at": "vor 4 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Legal Counsel - Economic Affairs (m/w/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine etablierte Interessenvertretung mit zentraler Rolle an der Schnittstelle zwischen Wirtschaft, Politik und europäischer Regulierung. Für den Standort in zentraler Lage in Wi lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine etablierte Interessenvertretung mit zentraler Rolle an der Schnittstelle zwischen Wirtschaft, Politik und europäischer Regulierung. Für den Standort in zentraler Lage in Wi mehr vor 2 Tagen",
+        "snippet": "Legal Counsel - Economic Affairs (m/w/d) l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine etablierte Interessenvertretung mit zentraler Rolle an der Schnittstelle zwischen Wirtschaft, Politik und europäischer Regulierung. Für den Standort in zentraler Lage in Wi lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine etablierte Interessenvertretung mit zentraler Rolle an der Schnittstelle zwischen Wirtschaft, Politik und europäischer Regulierung. Für den Standort in zentraler Lage in Wi mehr vor 4 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "19c44569e626a9549b25b4c51df4b36fbffae7011a20cc5472c41fe67ddf3b52"
+        "fingerprint": "af685441b7e0e682c6a71e779b03e2e37ca8b6a41968f6974cde6a8066b75a2d"
       },
       {
         "id": "stepstone:994290",
@@ -1465,11 +1493,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--994290-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 3 Tagen",
+        "published_at": "vor 4 Tagen",
         "department": null,
-        "snippet": "Legal Counsel (m/w/d) Iventa. The Human Management Group Wien RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i mehr vor 3 Tagen",
+        "snippet": "Legal Counsel (m/w/d) Iventa. The Human Management Group Wien RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i mehr vor 4 Tagen",
         "first_seen": "2026-07-24T15:04:22.076391Z",
-        "fingerprint": "a71a8e4184b9dd1e7e28da23f8fec033a0320b3fd389733b3cd2b5fb6425fb88"
+        "fingerprint": "6b0260eab519cdfd212a40eac203b382b2c1b4dc1711bd57a48b37911fd11811"
       },
       {
         "id": "stepstone:990738",
@@ -1495,11 +1523,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-ROXCEL-Trading-GmbH--992618-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 1 Woche",
+        "published_at": "vor 2 Wochen",
         "department": null,
-        "snippet": "Legal Counsel (m/w/d) ROXCEL Trading GmbH Wien Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Legal Counsel arbeiten Sie eng mit dem General Counsel der Gruppe zusammen und beraten die Unternehmensgruppe in rech Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Legal Counsel arbeiten Sie eng mit dem General Counsel der Gruppe zusammen und beraten die Unternehmensgruppe in rech mehr vor 1 Woche",
+        "snippet": "Legal Counsel (m/w/d) ROXCEL Trading GmbH Wien Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Legal Counsel arbeiten Sie eng mit dem General Counsel der Gruppe zusammen und beraten die Unternehmensgruppe in rech Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Legal Counsel arbeiten Sie eng mit dem General Counsel der Gruppe zusammen und beraten die Unternehmensgruppe in rech mehr vor 2 Wochen",
         "first_seen": "2026-07-13T16:01:26.483901Z",
-        "fingerprint": "134f6fa4cd381b461c009f57223db6a785a50812a3704b163a1d525c110b4c1c"
+        "fingerprint": "3ef0d5be2cd0e62942f0dd71b2e24346d98959abf527e3e760dc978e77981ba1"
       },
       {
         "id": "stepstone:929613",
@@ -1525,11 +1553,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Assistentin-Rechtsabteilung-m-w-d-Wien-OERAG-Oesterreichische-Realitaeten-AG--992308-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 21 Stunden",
-        "department": "NEU",
-        "snippet": "Assistent*in Rechtsabteilung (m/w/d) ÖRAG Österreichische Realitäten AG Wien Seit 1871 hat sich die ÖRAG stetig weiterentwickelt. Wir sind mit unserem engagierten Mitarbeiter*innen gewachsen und können uns seither als umfassender Immobiliendienstleister stolz am Markt präsentieren. Wir sind erfolgreich in der Vermittlung, der Verwaltung, der Bewertung, im Facility Management Seit 1871 hat sich die ÖRAG stetig weiterentwickelt. Wir sind mit unserem engagierten Mitarbeiter*innen gewachsen und können uns seither als umfassender Immobiliendienstleister stolz am Markt präsentieren. Wir sind erfolgreich in der Vermittlung, der Verwaltung, der Bewertung, im Facility Management mehr vor 21 Stunden NEU",
+        "published_at": "vor 2 Tagen",
+        "department": null,
+        "snippet": "Assistent*in Rechtsabteilung (m/w/d) ÖRAG Österreichische Realitäten AG Wien Seit 1871 hat sich die ÖRAG stetig weiterentwickelt. Wir sind mit unserem engagierten Mitarbeiter*innen gewachsen und können uns seither als umfassender Immobiliendienstleister stolz am Markt präsentieren. Wir sind erfolgreich in der Vermittlung, der Verwaltung, der Bewertung, im Facility Management Seit 1871 hat sich die ÖRAG stetig weiterentwickelt. Wir sind mit unserem engagierten Mitarbeiter*innen gewachsen und können uns seither als umfassender Immobiliendienstleister stolz am Markt präsentieren. Wir sind erfolgreich in der Vermittlung, der Verwaltung, der Bewertung, im Facility Management mehr vor 2 Tagen",
         "first_seen": "2026-07-10T22:13:48.954971Z",
-        "fingerprint": "2ce6fe285c214da7428c6c9f7f7ecc7506af1309d419d72289add7b894868278"
+        "fingerprint": "a89424da063cea9ba61ac0da599ffbc2de855fb06bc8b5bc142ec2fe7437a760"
       },
       {
         "id": "stepstone:947468",
@@ -1540,11 +1568,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Anwaltsassistent-in-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947468-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 6 Tagen",
+        "published_at": "vor 1 Woche",
         "department": "Teilweise Home-Office",
-        "snippet": "Anwaltsassistent:in (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 6 Tagen",
+        "snippet": "Anwaltsassistent:in (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 1 Woche",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "8bcb158c7f30272f650642a732d7dc3b9bc962e8b44c4b89efb292e490ca52d3"
+        "fingerprint": "72fe07739de35ccfab319642e598e6950686b21319f117d885446917e190a9b3"
       },
       {
         "id": "stepstone:951147",
@@ -1585,11 +1613,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Mitarbeiterin-im-Forderungs-und-Auftragsmanagement-m-w-d-Unternehmenszentrale-BampF-Wien-BF-Wien-Bestattung-Friedhoefe-GmbH--987361-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 2 Tagen",
+        "published_at": "vor 3 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Mitarbeiterin im Forderungs- und Auftragsmanagement (m/w/d) B&F Wien - Bestattung & Friedhöfe GmbH Unternehmenszentrale B&F Wien Teilweise Home-Office Bestattung und Friedhöfe GmbH verantwortet die strategische und administrative Führung der zugehörigen Unternehmen (Bestattung, Friedhöfe, Bestattungsservice, Tierfriedhof) und ist verlässlicher Partner bei der Bewältigung sensibler Herausforderungen. Bestattung und Friedhöfe GmbH verantwortet die strategische und administrative Führung der zugehörigen Unternehmen (Bestattung, Friedhöfe, Bestattungsservice, Tierfriedhof) und ist verlässlicher Partner bei der Bewältigung sensibler Herausforderungen. mehr vor 2 Tagen",
+        "snippet": "Mitarbeiterin im Forderungs- und Auftragsmanagement (m/w/d) B&F Wien - Bestattung & Friedhöfe GmbH Unternehmenszentrale B&F Wien Teilweise Home-Office Bestattung und Friedhöfe GmbH verantwortet die strategische und administrative Führung der zugehörigen Unternehmen (Bestattung, Friedhöfe, Bestattungsservice, Tierfriedhof) und ist verlässlicher Partner bei der Bewältigung sensibler Herausforderungen. Bestattung und Friedhöfe GmbH verantwortet die strategische und administrative Führung der zugehörigen Unternehmen (Bestattung, Friedhöfe, Bestattungsservice, Tierfriedhof) und ist verlässlicher Partner bei der Bewältigung sensibler Herausforderungen. mehr vor 3 Tagen",
         "first_seen": "2026-07-24T15:04:22.076391Z",
-        "fingerprint": "fe254d4f045fdd71b2e6b23d2b56423b3a8ba7735f108a93d0327e9520093acb"
+        "fingerprint": "b0cc64f47715da03c3e999d64d6a8bf7aa2612d717f18c7a8081eccd870ebd58"
       },
       {
         "id": "stepstone:984225",
@@ -1600,11 +1628,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-Wien-Vavrovsky-Heine-Marth-Rechtsanwaelte-GmbH--984225-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 2 Tagen",
+        "published_at": "vor 4 Tagen",
         "department": "Schnelle Bewerbung",
-        "snippet": "Rechtsanwaltsassistent:in Vavrovsky Heine Marth Rechtsanwälte GmbH Wien Schnelle Bewerbung Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs mit Büros in Wien, Linz und Salzburg. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung, vor allem auch ein positives Arbeitsumfeld und Teamgeist. Neben Immobilie Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs mit Büros in Wien, Linz und Salzburg. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung, vor allem auch ein positives Arbeitsumfeld und Teamgeist. Neben Immobilie mehr vor 2 Tagen",
+        "snippet": "Rechtsanwaltsassistent:in Vavrovsky Heine Marth Rechtsanwälte GmbH Wien Schnelle Bewerbung Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs mit Büros in Wien, Linz und Salzburg. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung, vor allem auch ein positives Arbeitsumfeld und Teamgeist. Neben Immobilie Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs mit Büros in Wien, Linz und Salzburg. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung, vor allem auch ein positives Arbeitsumfeld und Teamgeist. Neben Immobilie mehr vor 4 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "91dea5986710fd4ddc7c75abdd1da09bd10aaf4508befaf9d9744a46b7c8c977"
+        "fingerprint": "d197fa667dc4d2c722ee2ada4c2ea90d8a3cdd367200369b8f419b9e26936d87"
       },
       {
         "id": "stepstone:991754",
@@ -1615,11 +1643,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-m-w-d-Wien-BLS-Rechtsanwaelte-GmbH--991754-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Home Office",
-        "published_at": "vor 2 Tagen",
+        "published_at": "vor 4 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwaltsassistent:in (m/w/d) BLS Rechtsanwälte GmbH Wien Teilweise Home-Office Rechtsanwaltsassistent:in (m/w/d) Vollzeit Unser Unternehmen Rechtsanwaltsassistent:in (m/w/d) Vollzeit Sie haben auch Freude am Erfolg und wollen sich einer mittelständischen Rechtsanwaltskanzlei mit mehr als 50-jähriger Erfahrung anschließen? Dann bewerben Sie sich noch heute bei uns als Assistenz Rechtsanwaltsassistent:in (m/w/d) Vollzeit Unser Unternehmen Rechtsanwaltsassistent:in (m/w/d) Vollzeit Sie haben auch Freude am Erfolg und wollen sich einer mittelständischen Rechtsanwaltskanzlei mit mehr als 50-jähriger Erfahrung anschließen? Dann bewerben Sie sich noch heute bei uns als Assistenz mehr vor 2 Tagen",
+        "snippet": "Rechtsanwaltsassistent:in (m/w/d) BLS Rechtsanwälte GmbH Wien Teilweise Home-Office Rechtsanwaltsassistent:in (m/w/d) Vollzeit Unser Unternehmen Rechtsanwaltsassistent:in (m/w/d) Vollzeit Sie haben auch Freude am Erfolg und wollen sich einer mittelständischen Rechtsanwaltskanzlei mit mehr als 50-jähriger Erfahrung anschließen? Dann bewerben Sie sich noch heute bei uns als Assistenz Rechtsanwaltsassistent:in (m/w/d) Vollzeit Unser Unternehmen Rechtsanwaltsassistent:in (m/w/d) Vollzeit Sie haben auch Freude am Erfolg und wollen sich einer mittelständischen Rechtsanwaltskanzlei mit mehr als 50-jähriger Erfahrung anschließen? Dann bewerben Sie sich noch heute bei uns als Assistenz mehr vor 4 Tagen",
         "first_seen": "2026-07-09T08:05:06.886485Z",
-        "fingerprint": "c7ad9e98d89abcea9246d8aaa5a0c58b717eabb0911b7dcb692aa744def7458c"
+        "fingerprint": "b5eec037f283dca3f686f7ad024960e0fd3d45587dc12ab96382729b7f846e20"
       },
       {
         "id": "stepstone:968445",
@@ -1645,11 +1673,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-w-m-x-Vienna-Taylor-Wessing-Austria--978610-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 5 Tagen",
+        "published_at": "vor 6 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwaltsassistent:in (w/m/x) Taylor Wessing Austria Vienna Teilweise Home-Office Taylor Wessing ist eine globale Anwaltssozietät, die den innovativsten Menschen und Unternehmen der Welt beratend zur Seite steht. Unsere 26 Offices in 16 Jurisdiktionen verbinden das Beste aus lokalem Business-, Industrie- und Kultur Know-how mit internationaler Erfahrung, um unseren Mandant:innen Taylor Wessing ist eine globale Anwaltssozietät, die den innovativsten Menschen und Unternehmen der Welt beratend zur Seite steht. Unsere 26 Offices in 16 Jurisdiktionen verbinden das Beste aus lokalem Business-, Industrie- und Kultur Know-how mit internationaler Erfahrung, um unseren Mandant:innen mehr vor 5 Tagen",
+        "snippet": "Rechtsanwaltsassistent:in (w/m/x) Taylor Wessing Austria Vienna Teilweise Home-Office Taylor Wessing ist eine globale Anwaltssozietät, die den innovativsten Menschen und Unternehmen der Welt beratend zur Seite steht. Unsere 26 Offices in 16 Jurisdiktionen verbinden das Beste aus lokalem Business-, Industrie- und Kultur Know-how mit internationaler Erfahrung, um unseren Mandant:innen Taylor Wessing ist eine globale Anwaltssozietät, die den innovativsten Menschen und Unternehmen der Welt beratend zur Seite steht. Unsere 26 Offices in 16 Jurisdiktionen verbinden das Beste aus lokalem Business-, Industrie- und Kultur Know-how mit internationaler Erfahrung, um unseren Mandant:innen mehr vor 6 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "2b9f6815d7f3bcb7151406c99c3bb0b23b81ffd23e1106b6636991632c2e75a7"
+        "fingerprint": "fb2f4164834af93d3120a9a4f9d08250a1e82656b411b1b78cadbf1b5651cf06"
       },
       {
         "id": "stepstone:633580",
@@ -1706,6 +1734,7 @@
       "karriere_at:10026661",
       "karriere_at:10027445",
       "karriere_at:10027642",
+      "karriere_at:10027709",
       "karriere_at:7663251",
       "karriere_at:7663254",
       "karriere_at:7663257",
@@ -1772,6 +1801,7 @@
       "karriere_at:7849607",
       "karriere_at:7850279",
       "karriere_at:7850282",
+      "karriere_at:7850915",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
