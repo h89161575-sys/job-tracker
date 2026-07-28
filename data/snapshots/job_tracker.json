@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-27T23:50:45.700447Z",
+  "timestamp": "2026-07-28T01:53:07.091700Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -17,32 +17,32 @@
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-27T23:50:45.700447Z",
+        "last_success": "2026-07-28T01:53:07.091700Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-27T23:50:45.700447Z",
+        "last_success": "2026-07-28T01:53:07.091700Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-27T23:50:45.700447Z",
+        "last_success": "2026-07-28T01:53:07.091700Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-27T23:50:45.700447Z",
+        "last_success": "2026-07-28T01:53:07.091700Z",
         "last_error": null,
         "count": 62
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-27T22:38:42.470545Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 29
       }
     },
@@ -952,6 +952,20 @@
         "fingerprint": "97e68f3a1daf4386fe0300be32cd412788b7664e6c71fb8f171fd738e2811794"
       },
       {
+        "id": "karriere_at:10024650",
+        "source": "karriere_at",
+        "title": "Teamassistent:in mit dem Blick für Details (m/w/d)",
+        "company": "E+H Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10024650",
+        "salary": "ab 2.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-30T12:22:21.686649Z",
+        "fingerprint": "aad4848c2aaa499f76286f9a58a221b4d1d9b986c081a1d11030da7508848d99"
+      },
+      {
         "id": "karriere_at:7811600",
         "source": "karriere_at",
         "title": "Tax Manager:in / Steuerberater:in (all genders)",
@@ -1230,20 +1244,6 @@
         "snippet": "(Senior) Associate Tax (m/w/d) GREAT, WENN DICH DIESE AUFGABEN FREUEN: Erstellung von Steuererklärungen und Jahresabschlüssen sowie Bearbeitung diverser Spezialprojekte, Erstellung...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "d6c3b941edc5fc46eca95986fd5eafc869d3aed050e0ddd57a8f505b96de1dc6"
-      },
-      {
-        "id": "karriere_at:10024650",
-        "source": "karriere_at",
-        "title": "Teamassistent:in mit dem Blick für Details (m/w/d)",
-        "company": "E+H Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10024650",
-        "salary": "ab 2.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "19.7.2026",
-        "snippet": null,
-        "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "240b1ee2d042fbaf623f02867c18541fd088714ae075dd7913028323d355cad7"
       },
       {
         "id": "karriere_at:7816349",
