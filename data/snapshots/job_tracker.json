@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-29T04:27:29.134050Z",
+  "timestamp": "2026-07-29T07:25:15.068331Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -17,32 +17,32 @@
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-29T04:27:29.134050Z",
+        "last_success": "2026-07-29T07:25:15.068331Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-29T04:27:29.134050Z",
+        "last_success": "2026-07-29T07:25:15.068331Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-29T04:27:29.134050Z",
+        "last_success": "2026-07-29T07:25:15.068331Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-29T04:27:29.134050Z",
+        "last_success": "2026-07-29T07:25:15.068331Z",
         "last_error": null,
-        "count": 59
+        "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-07-28T23:27:13.227694Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 26
       }
     },
@@ -428,10 +428,10 @@
         "url": "https://www.karriere.at/jobs/10027642",
         "salary": "ab 48.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-27T08:43:23.853673Z",
-        "fingerprint": "490ebfe489b84d246e7431d1bfca48a96084c2375cc3eac9f451832877404087"
+        "fingerprint": "833d7523cdcd758d8b95ad6c96f021774e485b6fe760fe6143b8bb6f1bd402d1"
       },
       {
         "id": "karriere_at:10023528",
@@ -656,6 +656,20 @@
         "snippet": "Juristin / Jurist (m/w/d) Wien Vollzeit Wir sind die NÖVOG. Mit unseren sechs Bahnen und zwei Seilbahnen, unseren regionalen Busangeboten und bedarfsgerechten Mobilitätskonzepten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "bd0ad8980efa788ea2194bcf197a91ee7000bf519d6f0b0bbc9adfc29a1611b3"
+      },
+      {
+        "id": "karriere_at:7851911",
+        "source": "karriere_at",
+        "title": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht",
+        "company": "EY Law – Pelzmann Gall Größ Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7851911",
+        "salary": null,
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 5-köpfige Team rund um Andreas Lopatka-Sint...",
+        "first_seen": "2026-07-29T07:25:22.524862Z",
+        "fingerprint": "e017093a0aa9f456a7758aa6163e53b7e4a28ba9da65b72d1fdc9d3a03426663"
       },
       {
         "id": "karriere_at:7851650",
@@ -1128,10 +1142,10 @@
         "url": "https://www.karriere.at/jobs/7848584",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Du übernimmst die eigenständige Betreuung von Klienten vorwiegend aus dem Gesundheitsbereich. Du bist u.a. zuständig für die Betreuung von großen Gruppenpraxen und Primärversorgungszentren...",
         "first_seen": "2026-07-22T07:26:46.145818Z",
-        "fingerprint": "80e8feb1cebaed0bd13f8242fefef2569b825ca9da87de54a72ddb28daf5682d"
+        "fingerprint": "21ae6fa9c8449ea1948f05c382b917a3d60ecbe16f0c8fc289e45c3bfdd18a02"
       },
       {
         "id": "karriere_at:7779857",
@@ -1718,6 +1732,7 @@
       "karriere_at:7850915",
       "karriere_at:7851566",
       "karriere_at:7851650",
+      "karriere_at:7851911",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
