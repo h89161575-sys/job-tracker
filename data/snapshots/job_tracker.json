@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-30T11:42:33.677066Z",
+  "timestamp": "2026-07-30T13:17:39.542562Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,31 +11,31 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-07-24T07:14:15.622800Z",
-        "last_error": "Erste Bank / Sparkasse returned 0 jobs after previously returning 1; preserving the prior baseline",
+        "last_success": "2026-07-30T13:17:39.542562Z",
+        "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-07-30T11:42:33.677066Z",
+        "last_success": "2026-07-30T13:17:39.542562Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-07-30T11:42:33.677066Z",
+        "last_success": "2026-07-30T13:17:39.542562Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-07-30T11:42:33.677066Z",
+        "last_success": "2026-07-30T13:17:39.542562Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-07-30T11:42:33.677066Z",
+        "last_success": "2026-07-30T13:17:39.542562Z",
         "last_error": null,
         "count": 60
       },
@@ -269,17 +269,17 @@
         "fingerprint": "f225efd1a1024f0a529b5c2c587c559291f7e2a6dbd0db4093c28b01a8ea6638"
       },
       {
-        "id": "erste_bank:33517",
+        "id": "erste_bank:33808",
         "source": "erste_bank",
-        "title": "Mitarbeiter (w/m/d) Legal Operations",
+        "title": "Legal Specialist (all genders) - fixed term position",
         "company": "Erste Group Bank AG",
         "location": "Wien",
-        "url": "https://www.sparkasse.at/erstebank/karriere-spk/job-detail/mitarbeiter-w-m-d-legal-operations/33517",
+        "url": "https://www.sparkasse.at/erstebank/karriere-spk/job-detail/legal-specialist-all-genders-fixed-term-position/33808",
         "employment_type": "Vollzeit",
-        "department": "Non-Banking Legal",
-        "published_at": "03.07.2026",
-        "first_seen": "2026-07-03T11:20:46.591176Z",
-        "fingerprint": "2c67c14816e974632d38e037e7511c49cc3def8ebbf8e5d6c2e4e3f82fda9b87"
+        "department": "Regul.Advisory & Markets Legal",
+        "published_at": "30.07.2026",
+        "first_seen": "2026-07-30T13:17:42.442682Z",
+        "fingerprint": "0e712b328e6f9e565d4a60f702d4815c5459a34cca7428216bfcfb26c773d076"
       },
       {
         "id": "uniqa:85274a4a8c59d054",
@@ -462,10 +462,10 @@
         "url": "https://www.karriere.at/jobs/10027709",
         "salary": "ab 47.446 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-27T15:08:46.560804Z",
-        "fingerprint": "bc3a8033f8216913171eda9dce6c7339f2c4d41a8bac2329f6a88a6a62e34215"
+        "fingerprint": "c6b6cede5b7efa2bf223d07330ba7eddc75666c3f1ca99e2a92e63216b6b69bb"
       },
       {
         "id": "karriere_at:10027642",
@@ -1670,6 +1670,7 @@
       "derstandard:beba0bc1-b0b5-3c6b-97e1-eed8e00fa1ff",
       "derstandard:f9351baf-d587-3a65-a827-7bd585e06f79",
       "erste_bank:33517",
+      "erste_bank:33808",
       "jusjobs:1235995",
       "jusjobs:1625057",
       "jusjobs:1769381",
