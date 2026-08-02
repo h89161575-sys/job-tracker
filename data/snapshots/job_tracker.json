@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T11:04:23.328303Z",
+  "timestamp": "2026-08-02T12:12:57.867654Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-02T11:04:23.328303Z",
+        "last_success": "2026-08-02T12:12:57.867654Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-02T11:04:23.328303Z",
+        "last_success": "2026-08-02T12:12:57.867654Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-02T11:04:23.328303Z",
+        "last_success": "2026-08-02T12:12:57.867654Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-02T11:04:23.328303Z",
+        "last_success": "2026-08-02T12:12:57.867654Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-02T11:04:23.328303Z",
+        "last_success": "2026-08-02T12:12:57.867654Z",
         "last_error": null,
         "count": 60
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-02T09:27:10.819440Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 27
+        "last_success": "2026-08-02T12:12:57.867654Z",
+        "last_error": null,
+        "count": 31
       }
     },
     "jobs": [
@@ -426,6 +426,20 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
+        "id": "karriere_at:10022360",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10022360",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 2 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "2f1febe5ad35417009ee161f3517321a53437832479c6994c23e65b1e0f586be"
+      },
+      {
         "id": "karriere_at:10023528",
         "source": "karriere_at",
         "title": "Unternehmensjurist (m/w/d)",
@@ -452,20 +466,6 @@
         "snippet": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 5-köpfige Team rund um Andreas Lopatka-Sint...",
         "first_seen": "2026-07-29T07:25:22.524862Z",
         "fingerprint": "b32fb18d7fb9930481f014aa83195f2a6ee1aa7b48a986c497e01f54016fdb57"
-      },
-      {
-        "id": "karriere_at:10022360",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10022360",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "2f1febe5ad35417009ee161f3517321a53437832479c6994c23e65b1e0f586be"
       },
       {
         "id": "karriere_at:10027445",
