@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T09:27:10.819440Z",
+  "timestamp": "2026-08-02T11:04:23.328303Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-02T09:27:10.819440Z",
+        "last_success": "2026-08-02T11:04:23.328303Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-02T09:27:10.819440Z",
+        "last_success": "2026-08-02T11:04:23.328303Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-02T09:27:10.819440Z",
+        "last_success": "2026-08-02T11:04:23.328303Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-02T09:27:10.819440Z",
+        "last_success": "2026-08-02T11:04:23.328303Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-02T09:27:10.819440Z",
+        "last_success": "2026-08-02T11:04:23.328303Z",
         "last_error": null,
         "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-02T09:27:10.819440Z",
-        "last_error": null,
-        "count": 31
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 27
       }
     },
     "jobs": [
@@ -426,6 +426,20 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
+        "id": "karriere_at:10023528",
+        "source": "karriere_at",
+        "title": "Unternehmensjurist (m/w/d)",
+        "company": "jorda & partners HR CONSULTING",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10023528",
+        "salary": "77.000 € – 83.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T14:42:58.393788Z",
+        "fingerprint": "eeed0cf2552cd12968ae1adbab48c1cd3738632b3ea3d4eebc5d6cb09076b852"
+      },
+      {
         "id": "karriere_at:7851911",
         "source": "karriere_at",
         "title": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht",
@@ -454,20 +468,6 @@
         "fingerprint": "2f1febe5ad35417009ee161f3517321a53437832479c6994c23e65b1e0f586be"
       },
       {
-        "id": "karriere_at:10023528",
-        "source": "karriere_at",
-        "title": "Unternehmensjurist (m/w/d)",
-        "company": "jorda & partners HR CONSULTING",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10023528",
-        "salary": "77.000 € – 83.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T14:42:58.393788Z",
-        "fingerprint": "eeed0cf2552cd12968ae1adbab48c1cd3738632b3ea3d4eebc5d6cb09076b852"
-      },
-      {
         "id": "karriere_at:10027445",
         "source": "karriere_at",
         "title": "(Senior) Legal Counsel (m/w/d)",
@@ -490,10 +490,10 @@
         "url": "https://www.karriere.at/jobs/10028134",
         "salary": "4.300 € – 4.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-30T11:42:39.752850Z",
-        "fingerprint": "c47f10b4f05493433ed83895a348e7f89dde6d1a8226bfcbeb02c74b2ec9c126"
+        "fingerprint": "413e9b51129007df94d3007f8cd5287d5aca0d8b8425af0338c5a464458227f4"
       },
       {
         "id": "karriere_at:10027709",
@@ -602,10 +602,10 @@
         "url": "https://www.karriere.at/jobs/7852397",
         "salary": "ab 55.881 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabenbereich: In der abwechslungsreichen Aufgabe als Jurist:in der Abteilung Vertragspartnermanagement der SVS-Hauptstelle betreuen Sie eigenständig Themenbereiche der Krankenversicherung durch Verhandlung und...",
         "first_seen": "2026-07-29T12:25:48.811560Z",
-        "fingerprint": "d61cc9306e95a64109439114ddef5aed8c58bcc028777b627008c11f8bd2086e"
+        "fingerprint": "a6a8d8922cba4cb9138a3f95515cd59c8d42d734f7602a15d402418b37d71198"
       },
       {
         "id": "karriere_at:7835189",
@@ -644,10 +644,10 @@
         "url": "https://www.karriere.at/jobs/7851566",
         "salary": "ab 53.200 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Unterstützung bei der rechtlichen Beratung unserer Divisionen und Fachabteilungen in laufenden wirtschaftsrechtlichen Fragestellungen, Mitwirkung bei der Erstellung, Prüfung, Verhandlung und...",
         "first_seen": "2026-07-28T12:27:04.652167Z",
-        "fingerprint": "56c2c82b8f8767fd079f1ab160cc2df918adfce893b62fd82f59f5262e764ccc"
+        "fingerprint": "740f5414d5b1ff9c334f060a15ef277992bf6d08cf613c677556fbbdfa025c01"
       },
       {
         "id": "karriere_at:7834001",
@@ -1008,10 +1008,10 @@
         "url": "https://www.karriere.at/jobs/7853675",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Rechtsanwält:in für Datenschutzrecht/ IT all genders Standort(e): Wien ﹟teamKPMGLaw: Persönlichkeiten, die mit Leidenschaft, Innovation und Weitblick die Zukunft...",
         "first_seen": "2026-07-31T11:44:32.140177Z",
-        "fingerprint": "7778e843a6e4882c06cefafdb224207e6dacb6199ac15d51818af8a10ef8a933"
+        "fingerprint": "191dae5b05ee2c07ba2631dcc5049f6304bc861a23dd9abe4994edb667f8ac00"
       },
       {
         "id": "karriere_at:7847945",
