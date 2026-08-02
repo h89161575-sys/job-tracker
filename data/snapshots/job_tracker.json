@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-01T23:15:43.416612Z",
+  "timestamp": "2026-08-02T01:02:27.327945Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-01T23:15:43.416612Z",
+        "last_success": "2026-08-02T01:02:27.327945Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-01T23:15:43.416612Z",
+        "last_success": "2026-08-02T01:02:27.327945Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-01T23:15:43.416612Z",
+        "last_success": "2026-08-02T01:02:27.327945Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-01T23:15:43.416612Z",
+        "last_success": "2026-08-02T01:02:27.327945Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-01T23:15:43.416612Z",
+        "last_success": "2026-08-02T01:02:27.327945Z",
         "last_error": null,
         "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-01T20:01:33.641287Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 27
       }
     },
@@ -468,6 +468,20 @@
         "fingerprint": "b32fb18d7fb9930481f014aa83195f2a6ee1aa7b48a986c497e01f54016fdb57"
       },
       {
+        "id": "karriere_at:10027445",
+        "source": "karriere_at",
+        "title": "(Senior) Legal Counsel (m/w/d)",
+        "company": "STANDARD Medien AG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10027445",
+        "salary": "3.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-23T16:12:04.483078Z",
+        "fingerprint": "955a68f842be302793c83305ceb3aec468f1c47f4837a57fa10ffa1097f2ab82"
+      },
+      {
         "id": "karriere_at:10028134",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter:in im Bereich Bank- und Kapitalmarktrecht (w/m/d)",
@@ -550,20 +564,6 @@
         "snippet": null,
         "first_seen": "2026-07-16T07:06:38.089637Z",
         "fingerprint": "69d8f5fac2c3cfdd9317169a97f0da9c215d153fbf92c384847faff59305c182"
-      },
-      {
-        "id": "karriere_at:10027445",
-        "source": "karriere_at",
-        "title": "(Senior) Legal Counsel (m/w/d)",
-        "company": "STANDARD Medien AG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10027445",
-        "salary": "3.700 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "23.7.2026",
-        "snippet": null,
-        "first_seen": "2026-07-23T16:12:04.483078Z",
-        "fingerprint": "ad239bdd8faa8cac7650389935d8d0534fea63073ea3982e73c8a62fde2655db"
       },
       {
         "id": "karriere_at:7849607",
