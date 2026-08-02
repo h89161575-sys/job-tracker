@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T21:07:37.058665Z",
+  "timestamp": "2026-08-02T22:14:13.068428Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-02T21:07:37.058665Z",
+        "last_success": "2026-08-02T22:14:13.068428Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-02T21:07:37.058665Z",
+        "last_success": "2026-08-02T22:14:13.068428Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-02T21:07:37.058665Z",
+        "last_success": "2026-08-02T22:14:13.068428Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-02T21:07:37.058665Z",
+        "last_success": "2026-08-02T22:14:13.068428Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-02T21:07:37.058665Z",
+        "last_success": "2026-08-02T22:14:13.068428Z",
         "last_error": null,
         "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-02T21:07:37.058665Z",
-        "last_error": null,
-        "count": 31
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75000 milliseconds with 0 bytes received",
+        "count": 27
       }
     },
     "jobs": [
@@ -426,20 +426,6 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:7851911",
-        "source": "karriere_at",
-        "title": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht",
-        "company": "EY Law – Pelzmann Gall Größ Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7851911",
-        "salary": null,
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 5-köpfige Team rund um Andreas Lopatka-Sint...",
-        "first_seen": "2026-07-29T07:25:22.524862Z",
-        "fingerprint": "b32fb18d7fb9930481f014aa83195f2a6ee1aa7b48a986c497e01f54016fdb57"
-      },
-      {
         "id": "karriere_at:10023528",
         "source": "karriere_at",
         "title": "Unternehmensjurist (m/w/d)",
@@ -448,24 +434,24 @@
         "url": "https://www.karriere.at/jobs/10023528",
         "salary": "77.000 € – 83.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T14:42:58.393788Z",
-        "fingerprint": "eeed0cf2552cd12968ae1adbab48c1cd3738632b3ea3d4eebc5d6cb09076b852"
+        "fingerprint": "6119fb416dfe5800a6066eb32abf0097a58c0258abc8aac165733b4d1f33ab93"
       },
       {
-        "id": "karriere_at:10022360",
+        "id": "karriere_at:7851911",
         "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10022360",
-        "salary": "ab 4.000 € monatlich",
+        "title": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht",
+        "company": "EY Law – Pelzmann Gall Größ Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7851911",
+        "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "2f1febe5ad35417009ee161f3517321a53437832479c6994c23e65b1e0f586be"
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 5-köpfige Team rund um Andreas Lopatka-Sint...",
+        "first_seen": "2026-07-29T07:25:22.524862Z",
+        "fingerprint": "2a600327659705ad48d20edd19fff47d4d2790ceb8814e0fc85acc43f8d6b90b"
       },
       {
         "id": "karriere_at:10027445",
@@ -476,10 +462,24 @@
         "url": "https://www.karriere.at/jobs/10027445",
         "salary": "3.700 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-23T16:12:04.483078Z",
-        "fingerprint": "955a68f842be302793c83305ceb3aec468f1c47f4837a57fa10ffa1097f2ab82"
+        "fingerprint": "44286ed055e3ee02bb9e9f9a58b58286322f89039e127f36b7ab8bc67836d4e6"
+      },
+      {
+        "id": "karriere_at:10022360",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10022360",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 3 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "6a07aab31d8460225385bd4048d961507958e93016ca7c1011a0ca6be0eeda50"
       },
       {
         "id": "karriere_at:10028134",
@@ -532,10 +532,10 @@
         "url": "https://www.karriere.at/jobs/10025968",
         "salary": "ab 3.599,52 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "26.7.2026",
         "snippet": null,
         "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "d42bdf2ccb3ba3054b1ccd50ae0e4bab835f9bda343b54432b42f6d9f7d7a306"
+        "fingerprint": "9ee1c626b7c571a910cf9e473e346594d886c5cbf5bceeea50c293285058441a"
       },
       {
         "id": "karriere_at:10026661",
@@ -700,10 +700,10 @@
         "url": "https://www.karriere.at/jobs/7832501",
         "salary": "ab 56.854 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Jetzt bewerben Jurist:in mit Schwerpunkt IT-Vertragsrecht ÖBB-BCC GmbH Wien-Leopoldstadt, Wien, 1020, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25594 Wir möchten neue Wege...",
         "first_seen": "2026-06-24T15:14:16.915261Z",
-        "fingerprint": "75e456ea3938e8b91718413a809844bc70603d59b70703378ca575315b30beff"
+        "fingerprint": "47986081727aa64562297201c788169d299e7dfc1a06970e8e85fe41174d4002"
       },
       {
         "id": "karriere_at:7848419",
@@ -714,10 +714,10 @@
         "url": "https://www.karriere.at/jobs/7848419",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
         "first_seen": "2026-07-22T07:26:46.145818Z",
-        "fingerprint": "8be4342a8421d2e19e33bc46c3bc8eb839c63effb981ed704c0fa8debe309bed"
+        "fingerprint": "fbb942f4438332b33af484e25da30226bf278282d955672abdc02ce86949aa2b"
       },
       {
         "id": "karriere_at:7836770",
@@ -728,10 +728,10 @@
         "url": "https://www.karriere.at/jobs/7836770",
         "salary": "ab 49.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Schadenreferent:in/ Jurist:in Haftpflichtschaden Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft...",
         "first_seen": "2026-07-02T06:08:07.645199Z",
-        "fingerprint": "80dfe85faac4b99fc6371f3917a5f4964d13ff98202b9bd2d0f03de84ae22450"
+        "fingerprint": "17091eac78da5e36a7e5f0c45d283c5c890492bff2c99e8686155f40b32ac1a0"
       },
       {
         "id": "karriere_at:7847957",
@@ -826,10 +826,10 @@
         "url": "https://www.karriere.at/jobs/7851650",
         "salary": "ab 3.450 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Beratung und Unterstützung der Wissenschafter:innen und der Universitätsleitung in den Bereichen Vertrags- und Datenschutzrecht mit Schwerpunkt Forschung, Prüfung und Verhandlung...",
         "first_seen": "2026-07-28T22:14:20.778569Z",
-        "fingerprint": "22792bed9879c14546467ffd7b36db2eea99c48e7ba45f078caecbaa0ece8087"
+        "fingerprint": "9b336090a518dd6bb84d9cbef4e4d98321ccf4bd97ca9dda7c369e9e13cfe8ca"
       },
       {
         "id": "karriere_at:7850675",
@@ -840,10 +840,10 @@
         "url": "https://www.karriere.at/jobs/7850675",
         "salary": "ab 6.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-07-28T22:14:20.778569Z",
-        "fingerprint": "c43ec51063f8574b99eee79785ff0aaa52bb933d91cb610372ce1c49dc754426"
+        "fingerprint": "6ff2f0308b0564589533333038d64f711df2678745fcdf83fe256b4bed65f4b0"
       },
       {
         "id": "karriere_at:7804418",
@@ -938,10 +938,10 @@
         "url": "https://www.karriere.at/jobs/7845815",
         "salary": "ab 46.200 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Im Überblick. Unser Motto? Mit den Aufgaben wachsen. Sie entwickeln lokale und internationale Angebote (Pitch-Unterlagen) in Zusammenarbeit mit unseren Anwält:innen, Sie koordinieren...",
         "first_seen": "2026-07-25T22:40:06.267807Z",
-        "fingerprint": "1eea11d45243e0fd2c17585b18c754c8607f3874c2f24fbce7b2872a43b601a6"
+        "fingerprint": "7c56c75a75c1f3834dcc5fd0f3ec8d808c6e9e5e74c2ad058f93c9053773deaf"
       },
       {
         "id": "karriere_at:7826204",
@@ -952,10 +952,10 @@
         "url": "https://www.karriere.at/jobs/7826204",
         "salary": "ab 5.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "c086ad5b4b1c13c2b741ba687be722cc8f1ec84f3e54dff4398cf421fd804add"
+        "fingerprint": "3d50d86ea19042eb86162b0e13e5c1a5ecce771f4cc1a91fb69e40d6ceafe01c"
       },
       {
         "id": "karriere_at:7848584",
@@ -966,10 +966,10 @@
         "url": "https://www.karriere.at/jobs/7848584",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Du übernimmst die eigenständige Betreuung von Klienten vorwiegend aus dem Gesundheitsbereich. Du bist u.a. zuständig für die Betreuung von großen Gruppenpraxen und Primärversorgungszentren...",
         "first_seen": "2026-07-22T07:26:46.145818Z",
-        "fingerprint": "6941e902bed39e2422de5a509cd2e71515e39f90e69829e1bcc8418d9f7923eb"
+        "fingerprint": "ea4847288dba27915e525e952c274e77222ef01c0065e751c37925819b7feae4"
       },
       {
         "id": "karriere_at:7848359",
@@ -980,10 +980,10 @@
         "url": "https://www.karriere.at/jobs/7848359",
         "salary": "3.100 € – 5.300 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Bearbeitung abwechslungsreicher steuerlicher Fragestellungen in spezialisierten Tax-Teams, etwa in den Bereichen internationales Steuerrecht, Verrechnungspreise, Transaktionen...",
         "first_seen": "2026-07-22T07:26:46.145818Z",
-        "fingerprint": "66099b7cb689b839a31efacc6494322c57db30152b7450e3a19f857a2dc750c2"
+        "fingerprint": "210e135f041b5f1bfe1629e25c88332b7c889dabc58916ddc5a9e57024eab148"
       },
       {
         "id": "karriere_at:7779857",
@@ -994,10 +994,10 @@
         "url": "https://www.karriere.at/jobs/7779857",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Unterstützung bei der Ermittlung und Beratung zu Verdachtsfällen wie Geldwäsche, Betrug oder Bestechung in Unternehmen und Organisationen, Analyse möglicher...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "eff2b2b585c7588d03a7fe609da1e0550f3fda7d69caf3551817cb99a4bb4b55"
+        "fingerprint": "e3387773932df16091198c18faec110ed87141c8b47277bc320bd805bd182fec"
       },
       {
         "id": "karriere_at:7853675",
@@ -1036,10 +1036,10 @@
         "url": "https://www.karriere.at/jobs/7853291",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Rechtsanwält:in im Bereich Regulatory / FinTech / Banking Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 24-köpfige Team rund um Martin Hanzl berät nationale...",
         "first_seen": "2026-07-31T06:33:51.169127Z",
-        "fingerprint": "cc407c51fdfce4afbbb54814dfe0c54e90d2556f04115fff2e09cf178019307f"
+        "fingerprint": "fa0b84a85f35908be08f7f9f32d2c1b81d42b2821bbe2840b7e18308652c1e4d"
       },
       {
         "id": "karriere_at:7794164",
@@ -1134,10 +1134,10 @@
         "url": "https://www.karriere.at/jobs/10024650",
         "salary": "ab 2.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "d67c28e5cf94112287505178e5a11bbc3f33b01cfe0f2f3bb2ad8d6794189acf"
+        "fingerprint": "9d0df8ed275f4cbe444ee6375ecbbf6633fdc35002a30cb97c32d1826f8f0626"
       },
       {
         "id": "karriere_at:7663254",
@@ -1162,10 +1162,10 @@
         "url": "https://www.karriere.at/jobs/10022516",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "26.7.2026",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "3af4a7b57ec3dcfede140b5a36a578f2bab1626b225731087c3bb0a4d09dfb59"
+        "fingerprint": "753a17c6c09eacca86a45af941d1b1e565ab9bd3c6aee2b65f2b52e735e5ad54"
       },
       {
         "id": "karriere_at:7845569",
