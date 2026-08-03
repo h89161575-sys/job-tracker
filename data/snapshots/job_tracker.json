@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-08-03T12:06:15.690785Z",
+  "timestamp": "2026-08-03T15:13:45.320147Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": "JusJobs returned 0 jobs after previously returning 17; preserving the prior baseline",
+        "last_error": "JusJobs rendered 1 result card(s) at offset 0 but parsed 0 unique job link(s)",
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-03T12:06:15.690785Z",
+        "last_success": "2026-08-03T15:13:45.320147Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-03T12:06:15.690785Z",
+        "last_success": "2026-08-03T15:13:45.320147Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-03T12:06:15.690785Z",
+        "last_success": "2026-08-03T15:13:45.320147Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-03T12:06:15.690785Z",
+        "last_success": "2026-08-03T15:13:45.320147Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-03T12:06:15.690785Z",
+        "last_success": "2026-08-03T15:13:45.320147Z",
         "last_error": null,
         "count": 64
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-03T12:06:15.690785Z",
+        "last_success": "2026-08-03T15:13:45.320147Z",
         "last_error": null,
         "count": 31
       }
@@ -426,20 +426,6 @@
         "fingerprint": "db4fd77fe20aa1315cad69b44d80e71d28ffe4bac9b97e366aa987e9c7af0980"
       },
       {
-        "id": "karriere_at:7851911",
-        "source": "karriere_at",
-        "title": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht",
-        "company": "EY Law – Pelzmann Gall Größ Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7851911",
-        "salary": null,
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 5-köpfige Team rund um Andreas Lopatka-Sint...",
-        "first_seen": "2026-07-29T07:25:22.524862Z",
-        "fingerprint": "2a600327659705ad48d20edd19fff47d4d2790ceb8814e0fc85acc43f8d6b90b"
-      },
-      {
         "id": "karriere_at:10023528",
         "source": "karriere_at",
         "title": "Unternehmensjurist (m/w/d)",
@@ -452,6 +438,20 @@
         "snippet": null,
         "first_seen": "2026-06-18T14:42:58.393788Z",
         "fingerprint": "6119fb416dfe5800a6066eb32abf0097a58c0258abc8aac165733b4d1f33ab93"
+      },
+      {
+        "id": "karriere_at:7851911",
+        "source": "karriere_at",
+        "title": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht",
+        "company": "EY Law – Pelzmann Gall Größ Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7851911",
+        "salary": null,
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 5-köpfige Team rund um Andreas Lopatka-Sint...",
+        "first_seen": "2026-07-29T07:25:22.524862Z",
+        "fingerprint": "2a600327659705ad48d20edd19fff47d4d2790ceb8814e0fc85acc43f8d6b90b"
       },
       {
         "id": "karriere_at:10028461",
@@ -532,10 +532,10 @@
         "url": "https://www.karriere.at/jobs/10027709",
         "salary": "ab 47.446 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-27T15:08:46.560804Z",
-        "fingerprint": "7cff42897e177c550ee2c6cf57d0815eee890c6eb957ad84895dba78d3dd5bca"
+        "fingerprint": "39a5c2eb22fe26c90faf47665e3275c8d2185b2deba7c43d4de2808964197c74"
       },
       {
         "id": "karriere_at:10027642",
@@ -700,10 +700,10 @@
         "url": "https://www.karriere.at/jobs/7850915",
         "salary": "ab 66.806,88 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Ansprechperson für Vertrags- und IP- Recht mit Schwerpunkt auf Software- und Hardware sowie IT-Dienstleistungen, Betreuung von Kundenaccounts in rechtlichen Angelegenheiten und Begleitung der...",
         "first_seen": "2026-07-27T15:08:46.560804Z",
-        "fingerprint": "07f77a796feef6171c2bcdb3461918628e53ff064a075e6e69a69af9a6b9fbb1"
+        "fingerprint": "84786095d722ffd852f03f188fa2142dd809c5a2103c1581889404c594911870"
       },
       {
         "id": "karriere_at:7854545",
