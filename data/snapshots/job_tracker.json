@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T08:39:45.976518Z",
+  "timestamp": "2026-08-03T12:06:15.690785Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-03T08:39:45.976518Z",
+        "last_success": "2026-08-03T12:06:15.690785Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-03T08:39:45.976518Z",
+        "last_success": "2026-08-03T12:06:15.690785Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-03T08:39:45.976518Z",
+        "last_success": "2026-08-03T12:06:15.690785Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-03T08:39:45.976518Z",
+        "last_success": "2026-08-03T12:06:15.690785Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-03T08:39:45.976518Z",
+        "last_success": "2026-08-03T12:06:15.690785Z",
         "last_error": null,
-        "count": 62
+        "count": 64
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-02T21:07:37.058665Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75000 milliseconds with 0 bytes received",
-        "count": 27
+        "last_success": "2026-08-03T12:06:15.690785Z",
+        "last_error": null,
+        "count": 31
       }
     },
     "jobs": [
@@ -454,6 +454,20 @@
         "fingerprint": "6119fb416dfe5800a6066eb32abf0097a58c0258abc8aac165733b4d1f33ab93"
       },
       {
+        "id": "karriere_at:10028461",
+        "source": "karriere_at",
+        "title": "IT-affine/r Unternehmensjurist:in (m/w/d)",
+        "company": "Sportsbook Software GmbH",
+        "location": "Wien 22. Bezirk (Donaustadt)",
+        "url": "https://www.karriere.at/jobs/10028461",
+        "salary": "ab 70.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-03T12:06:23.866938Z",
+        "fingerprint": "3b6d04949dd3a5d0c13d38a4721f6c24eab8e7d6b5cfe217f7165bb024f76ae7"
+      },
+      {
         "id": "karriere_at:10025968",
         "source": "karriere_at",
         "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
@@ -504,10 +518,10 @@
         "url": "https://www.karriere.at/jobs/10028134",
         "salary": "4.300 € – 4.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-30T11:42:39.752850Z",
-        "fingerprint": "413e9b51129007df94d3007f8cd5287d5aca0d8b8425af0338c5a464458227f4"
+        "fingerprint": "5cdb99c4ab89e7c467c9ab3365e0576bf1a74f1794ec851b5e9738888cfe473c"
       },
       {
         "id": "karriere_at:10027709",
@@ -616,10 +630,10 @@
         "url": "https://www.karriere.at/jobs/7852397",
         "salary": "ab 55.881 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabenbereich: In der abwechslungsreichen Aufgabe als Jurist:in der Abteilung Vertragspartnermanagement der SVS-Hauptstelle betreuen Sie eigenständig Themenbereiche der Krankenversicherung durch Verhandlung und...",
         "first_seen": "2026-07-29T12:25:48.811560Z",
-        "fingerprint": "a6a8d8922cba4cb9138a3f95515cd59c8d42d734f7602a15d402418b37d71198"
+        "fingerprint": "48f5ab3b034b31e7121cec3732b2cc387a5f94d81894db9e420443929d6cd21e"
       },
       {
         "id": "karriere_at:7835189",
@@ -658,10 +672,10 @@
         "url": "https://www.karriere.at/jobs/7851566",
         "salary": "ab 53.200 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Unterstützung bei der rechtlichen Beratung unserer Divisionen und Fachabteilungen in laufenden wirtschaftsrechtlichen Fragestellungen, Mitwirkung bei der Erstellung, Prüfung, Verhandlung und...",
         "first_seen": "2026-07-28T12:27:04.652167Z",
-        "fingerprint": "740f5414d5b1ff9c334f060a15ef277992bf6d08cf613c677556fbbdfa025c01"
+        "fingerprint": "99d2b865264826656d19a8ad46aa440baf8f8d0a095c21c0b438070e3040e662"
       },
       {
         "id": "karriere_at:7834001",
@@ -690,6 +704,20 @@
         "snippet": "Ihre Aufgaben: Ansprechperson für Vertrags- und IP- Recht mit Schwerpunkt auf Software- und Hardware sowie IT-Dienstleistungen, Betreuung von Kundenaccounts in rechtlichen Angelegenheiten und Begleitung der...",
         "first_seen": "2026-07-27T15:08:46.560804Z",
         "fingerprint": "07f77a796feef6171c2bcdb3461918628e53ff064a075e6e69a69af9a6b9fbb1"
+      },
+      {
+        "id": "karriere_at:7854545",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter Disputes (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7854545",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Make your way to the top. Rechtsanwaltsanwärter Disputes (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply Now! Wir suchen...",
+        "first_seen": "2026-08-03T12:06:23.866938Z",
+        "fingerprint": "d5aeb00990ebbd9d2e03edab4dbae716da042a9c70535565f2aad9f7a424ee61"
       },
       {
         "id": "karriere_at:7854395",
@@ -1106,10 +1134,10 @@
         "url": "https://www.karriere.at/jobs/7853675",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Rechtsanwält:in für Datenschutzrecht/ IT all genders Standort(e): Wien ﹟teamKPMGLaw: Persönlichkeiten, die mit Leidenschaft, Innovation und Weitblick die Zukunft...",
         "first_seen": "2026-07-31T11:44:32.140177Z",
-        "fingerprint": "191dae5b05ee2c07ba2631dcc5049f6304bc861a23dd9abe4994edb667f8ac00"
+        "fingerprint": "eb6b5e56a2485bc204d7fadbefafd88a4750aa7fc4cb903a9e1ed81ef450d53f"
       },
       {
         "id": "karriere_at:7847945",
@@ -1716,6 +1744,7 @@
       "karriere_at:10027642",
       "karriere_at:10027709",
       "karriere_at:10028134",
+      "karriere_at:10028461",
       "karriere_at:7663251",
       "karriere_at:7663254",
       "karriere_at:7663257",
@@ -1793,6 +1822,7 @@
       "karriere_at:7853675",
       "karriere_at:7854056",
       "karriere_at:7854395",
+      "karriere_at:7854545",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
