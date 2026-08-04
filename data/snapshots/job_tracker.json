@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T10:05:40.534409Z",
+  "timestamp": "2026-08-04T12:16:42.678877Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-04T10:05:40.534409Z",
+        "last_success": "2026-08-04T12:16:42.678877Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-04T10:05:40.534409Z",
+        "last_success": "2026-08-04T12:16:42.678877Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-04T10:05:40.534409Z",
+        "last_success": "2026-08-04T12:16:42.678877Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-04T10:05:40.534409Z",
+        "last_success": "2026-08-04T12:16:42.678877Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-04T10:05:40.534409Z",
+        "last_success": "2026-08-04T12:16:42.678877Z",
         "last_error": null,
         "count": 62
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-04T10:05:40.534409Z",
-        "last_error": null,
-        "count": 33
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 27
       }
     },
     "jobs": [
@@ -546,10 +546,10 @@
         "url": "https://www.karriere.at/jobs/10028134",
         "salary": "4.300 € – 4.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-30T11:42:39.752850Z",
-        "fingerprint": "5cdb99c4ab89e7c467c9ab3365e0576bf1a74f1794ec851b5e9738888cfe473c"
+        "fingerprint": "ae31373b65d5be10f5b573c78b0ce8361e855033486897e3b2c3ddb5f22fc846"
       },
       {
         "id": "karriere_at:10027709",
@@ -630,10 +630,10 @@
         "url": "https://www.karriere.at/jobs/7852397",
         "salary": "ab 55.881 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabenbereich: In der abwechslungsreichen Aufgabe als Jurist:in der Abteilung Vertragspartnermanagement der SVS-Hauptstelle betreuen Sie eigenständig Themenbereiche der Krankenversicherung durch Verhandlung und...",
         "first_seen": "2026-07-29T12:25:48.811560Z",
-        "fingerprint": "48f5ab3b034b31e7121cec3732b2cc387a5f94d81894db9e420443929d6cd21e"
+        "fingerprint": "1d5c5ac6eadc5d3138efd4c8089a5eab54eff2a00e3b85aa1d5d346e07322690"
       },
       {
         "id": "karriere_at:7835189",
@@ -672,10 +672,10 @@
         "url": "https://www.karriere.at/jobs/7851566",
         "salary": "ab 53.200 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Unterstützung bei der rechtlichen Beratung unserer Divisionen und Fachabteilungen in laufenden wirtschaftsrechtlichen Fragestellungen, Mitwirkung bei der Erstellung, Prüfung, Verhandlung und...",
         "first_seen": "2026-07-28T12:27:04.652167Z",
-        "fingerprint": "99d2b865264826656d19a8ad46aa440baf8f8d0a095c21c0b438070e3040e662"
+        "fingerprint": "588877e3e784eb5bbdd6d1c6baa803211d1753cec93642be7e28e7a334f5fb67"
       },
       {
         "id": "karriere_at:7834001",
@@ -1120,10 +1120,10 @@
         "url": "https://www.karriere.at/jobs/7853675",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Rechtsanwält:in für Datenschutzrecht/ IT all genders Standort(e): Wien ﹟teamKPMGLaw: Persönlichkeiten, die mit Leidenschaft, Innovation und Weitblick die Zukunft...",
         "first_seen": "2026-07-31T11:44:32.140177Z",
-        "fingerprint": "eb6b5e56a2485bc204d7fadbefafd88a4750aa7fc4cb903a9e1ed81ef450d53f"
+        "fingerprint": "35555fa30b10da11e852a02efd9652e4a611f9497720876fcd9257f5e294ecfb"
       },
       {
         "id": "karriere_at:7847945",
