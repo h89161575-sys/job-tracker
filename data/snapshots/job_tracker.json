@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T07:20:44.325434Z",
+  "timestamp": "2026-08-05T10:03:54.186157Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-05T07:20:44.325434Z",
+        "last_success": "2026-08-05T10:03:54.186157Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-05T07:20:44.325434Z",
+        "last_success": "2026-08-05T10:03:54.186157Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-05T07:20:44.325434Z",
+        "last_success": "2026-08-05T10:03:54.186157Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-05T07:20:44.325434Z",
+        "last_success": "2026-08-05T10:03:54.186157Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-05T07:20:44.325434Z",
+        "last_success": "2026-08-05T10:03:54.186157Z",
         "last_error": null,
         "count": 64
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-05T07:20:44.325434Z",
-        "last_error": null,
-        "count": 33
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 27
       }
     },
     "jobs": [
@@ -440,20 +440,6 @@
         "fingerprint": "2ccfc6431ab667238ecf7b06d9e37b31564105f9fadb52b0f35a31a05560fd09"
       },
       {
-        "id": "karriere_at:7849607",
-        "source": "karriere_at",
-        "title": "Senior Legal Counsel (m/w/d)",
-        "company": "Kommunalkredit Austria AG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7849607",
-        "salary": "80.000 € – 90.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Ihre Aufgaben: Sie beraten und unterstützen die Fachabteilungen und Beteiligungen der Bank bei rechtlichen Fragestellungen (Corporate Inhouse) und bearbeiten unterschiedlichste Fragestellungen im Zivil-...",
-        "first_seen": "2026-07-23T12:00:35.888489Z",
-        "fingerprint": "3a448dc17a5974703c7b67fa7c071935f8cabdf522b345977c8b9be827806b85"
-      },
-      {
         "id": "karriere_at:7851911",
         "source": "karriere_at",
         "title": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht",
@@ -466,6 +452,20 @@
         "snippet": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 5-köpfige Team rund um Andreas Lopatka-Sint...",
         "first_seen": "2026-07-29T07:25:22.524862Z",
         "fingerprint": "8f746bc660c43ce6eaf6f4abcf3336c3a82662c0e0df5cea6c2d96775f4638cf"
+      },
+      {
+        "id": "karriere_at:7849607",
+        "source": "karriere_at",
+        "title": "Senior Legal Counsel (m/w/d)",
+        "company": "Kommunalkredit Austria AG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7849607",
+        "salary": "80.000 € – 90.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Ihre Aufgaben: Sie beraten und unterstützen die Fachabteilungen und Beteiligungen der Bank bei rechtlichen Fragestellungen (Corporate Inhouse) und bearbeiten unterschiedlichste Fragestellungen im Zivil-...",
+        "first_seen": "2026-07-23T12:00:35.888489Z",
+        "fingerprint": "3a448dc17a5974703c7b67fa7c071935f8cabdf522b345977c8b9be827806b85"
       },
       {
         "id": "karriere_at:10028644",
@@ -756,10 +756,10 @@
         "url": "https://www.karriere.at/jobs/7854395",
         "salary": "ab 3.575,31 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Arbeits- und insolvenzrechtliche Beurteilung von Ansprüchen, Rasches und serviceorientiertes Ermitteln und Entscheiden im rechtlichen Rahmen, Erstellung von Bescheiden betreffend Gewährung bzw...",
         "first_seen": "2026-07-07T13:29:53.215549Z",
-        "fingerprint": "fa3788580071d519bdfbb3d7de637462b0d3bae0bdf8d8c9d108b725e7e915a4"
+        "fingerprint": "c53b0774a8bf30a7efecc2fe8e79902e24a809a1ac05fe97f86c8d3dcb93e46d"
       },
       {
         "id": "karriere_at:7850282",
