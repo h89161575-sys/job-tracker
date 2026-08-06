@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-05T23:34:35.503471Z",
+  "timestamp": "2026-08-06T01:02:12.056774Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-05T23:34:35.503471Z",
+        "last_success": "2026-08-06T01:02:12.056774Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-05T23:34:35.503471Z",
+        "last_success": "2026-08-06T01:02:12.056774Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-05T23:34:35.503471Z",
+        "last_success": "2026-08-06T01:02:12.056774Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-05T23:34:35.503471Z",
+        "last_success": "2026-08-06T01:02:12.056774Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-05T23:34:35.503471Z",
+        "last_success": "2026-08-06T01:02:12.056774Z",
         "last_error": null,
         "count": 64
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-05T21:22:14.680798Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 27
       }
     },
@@ -986,6 +986,20 @@
         "fingerprint": "7c099b6772937c3c89c5dedf63ad88333ff00316de7499740341495a9aeffbfe"
       },
       {
+        "id": "karriere_at:10024650",
+        "source": "karriere_at",
+        "title": "Teamassistent:in mit dem Blick für Details (m/w/d)",
+        "company": "E+H Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10024650",
+        "salary": "ab 2.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-06-30T12:22:21.686649Z",
+        "fingerprint": "aad4848c2aaa499f76286f9a58a221b4d1d9b986c081a1d11030da7508848d99"
+      },
+      {
         "id": "karriere_at:10022516",
         "source": "karriere_at",
         "title": "Berufsanwärter/-in Combined Tax/Audit",
@@ -1278,20 +1292,6 @@
         "snippet": "(Junior) Consultant (all genders) Advisory/Governance, Risk & Internal Controls Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
         "fingerprint": "c67a9d57455c0e06a62272430b4999b13776ffa49fcd30092b96659e618535a4"
-      },
-      {
-        "id": "karriere_at:10024650",
-        "source": "karriere_at",
-        "title": "Teamassistent:in mit dem Blick für Details (m/w/d)",
-        "company": "E+H Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10024650",
-        "salary": "ab 2.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "28.7.2026",
-        "snippet": null,
-        "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "526e31269580b2348742bc3f244f9a2c445b289f14bc751261f08c16674a7ab5"
       },
       {
         "id": "karriere_at:7663254",
