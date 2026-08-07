@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T12:25:26.293133Z",
+  "timestamp": "2026-08-07T13:55:40.124491Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-07T12:25:26.293133Z",
+        "last_success": "2026-08-07T13:55:40.124491Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-07T12:25:26.293133Z",
+        "last_success": "2026-08-07T13:55:40.124491Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-07T12:25:26.293133Z",
+        "last_success": "2026-08-07T13:55:40.124491Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-07T12:25:26.293133Z",
+        "last_success": "2026-08-07T13:55:40.124491Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-07T12:25:26.293133Z",
+        "last_success": "2026-08-07T13:55:40.124491Z",
         "last_error": null,
-        "count": 64
+        "count": 63
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-07T08:09:18.663157Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 29
       }
     },
@@ -830,20 +830,6 @@
         "snippet": "Die Ludwig Boltzmann Gesellschaft (LBG) ist eine der zentralen österreichischen außeruniversitären Forschungsorganisationen. Eine Arbeitgeberin, die Wissenschaft bewegt...",
         "first_seen": "2026-07-15T12:23:15.130127Z",
         "fingerprint": "0d53777699820eebc8cc80d8130030d3884c2b9195d24e5c3e84690a1a58846e"
-      },
-      {
-        "id": "karriere_at:7807160",
-        "source": "karriere_at",
-        "title": "Jurist:in Arbeitsrecht",
-        "company": "ÖBB-Konzern",
-        "location": "Wien 2. Bezirk (Leopoldstadt)",
-        "url": "https://www.karriere.at/jobs/7807160",
-        "salary": "ab 53.003,91 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Jetzt bewerben Jurist:in Arbeitsrecht ÖBB-BCC GmbH Wien-Leopoldstadt, Wien, 1020, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25462 Wir möchten neue Wege gehen. Und neue...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "9f298c7d7d1c0b48fb235323419499ed8a30f2fd1abf59b863496ae63083fc86"
       },
       {
         "id": "karriere_at:7807157",
