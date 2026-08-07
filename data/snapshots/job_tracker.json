@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T21:51:38.070587Z",
+  "timestamp": "2026-08-07T22:29:32.345131Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-07T21:51:38.070587Z",
+        "last_success": "2026-08-07T22:29:32.345131Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-07T21:51:38.070587Z",
+        "last_success": "2026-08-07T22:29:32.345131Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-07T21:51:38.070587Z",
+        "last_success": "2026-08-07T22:29:32.345131Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-07T21:51:38.070587Z",
+        "last_success": "2026-08-07T22:29:32.345131Z",
         "last_error": null,
-        "count": 7
+        "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-07T21:51:38.070587Z",
+        "last_success": "2026-08-07T22:29:32.345131Z",
         "last_error": null,
-        "count": 63
+        "count": 61
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-07T20:54:35.330565Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 29
+        "last_success": "2026-08-07T22:29:32.345131Z",
+        "last_error": null,
+        "count": 35
       }
     },
     "jobs": [
@@ -416,16 +416,6 @@
         "fingerprint": "f4d8488b76d20d9817a3ea197abe36d68a2859cdf728c5b0e9079af1790afba6"
       },
       {
-        "id": "derstandard:bf69b400-5e8d-3e05-973e-b3cea79add1d",
-        "source": "derstandard",
-        "title": "Senior Associate Tax (m/w/d)",
-        "company": "Grant Thornton Austria Holding GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
-        "location": "Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/bf69b400-5e8d-3e05-973e-b3cea79add1d",
-        "first_seen": "2026-08-07T20:54:41.214685Z",
-        "fingerprint": "2f0a8b80d113c9478a8f0ea3f64ddbda2317601bac782e0035f87eca4a611fd9"
-      },
-      {
         "id": "derstandard:f9351baf-d587-3a65-a827-7bd585e06f79",
         "source": "derstandard",
         "title": "Senior Tax Associate: Schwerpunkt International Tax & Transfer Pricing (m/w/d)",
@@ -436,6 +426,20 @@
         "fingerprint": "35dd05f7bd17a1fc30c4690dae81a55a414c9eae4e567af3dbbc3a8742ec4fa9"
       },
       {
+        "id": "karriere_at:10025968",
+        "source": "karriere_at",
+        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
+        "company": "Kommunalkredit Public Consulting GmbH",
+        "location": "Wien 19. Bezirk (Döbling)",
+        "url": "https://www.karriere.at/jobs/10025968",
+        "salary": "ab 3.599,52 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-10T08:45:47.820748Z",
+        "fingerprint": "f02a57f8541f0bee044441ce43bce30f1fc19da37add8f37bfd5f959748d59f6"
+      },
+      {
         "id": "karriere_at:10028990",
         "source": "karriere_at",
         "title": "Assistent:in in der Rechtsabteilung (m/w/d)",
@@ -444,24 +448,10 @@
         "url": "https://www.karriere.at/jobs/10028990",
         "salary": "ab 2.700 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-07T09:28:00.453961Z",
-        "fingerprint": "161736eeed413ec048013642e48b06b3768e45c7322340452aabdda3a4274c11"
-      },
-      {
-        "id": "karriere_at:10022360",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Dispute Resolution White Collar Crime",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10022360",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "84fdbc4901bfd133b7ba83c8ef0a5cd0edc2dfcd107184ff192c4d82caf26ec9"
+        "fingerprint": "ebe2128977526a6cc356101624d31157d929b466f42bb0247049ede0b64bd815"
       },
       {
         "id": "karriere_at:10028867",
@@ -472,10 +462,10 @@
         "url": "https://www.karriere.at/jobs/10028867",
         "salary": "ab 3.599,53 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-06T10:15:37.840805Z",
-        "fingerprint": "72fa17ab7c0e157ce890af7be5b259cb93d74bf2f42686304db03d826efee6b5"
+        "fingerprint": "d9002a04a8a615e31cea4409a6b5166fc9f9c63f12fda3f93cdd1b5c49d226b4"
       },
       {
         "id": "karriere_at:10028644",
@@ -500,10 +490,10 @@
         "url": "https://www.karriere.at/jobs/10027709",
         "salary": "ab 47.446 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-27T15:08:46.560804Z",
-        "fingerprint": "bc3a8033f8216913171eda9dce6c7339f2c4d41a8bac2329f6a88a6a62e34215"
+        "fingerprint": "c6b6cede5b7efa2bf223d07330ba7eddc75666c3f1ca99e2a92e63216b6b69bb"
       },
       {
         "id": "karriere_at:10027642",
@@ -514,10 +504,10 @@
         "url": "https://www.karriere.at/jobs/10027642",
         "salary": "ab 48.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-27T08:43:23.853673Z",
-        "fingerprint": "833d7523cdcd758d8b95ad6c96f021774e485b6fe760fe6143b8bb6f1bd402d1"
+        "fingerprint": "ff2bfdd3d075a342e94eda17dd2cbf58955b3d18af7707e6af957e40361f7316"
       },
       {
         "id": "karriere_at:10026661",
@@ -528,10 +518,10 @@
         "url": "https://www.karriere.at/jobs/10026661",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-16T11:20:32.476615Z",
-        "fingerprint": "36682c6932c307bf82e29d5b3f599fa05d5f628422ee5f9eb79d2a23abe7f328"
+        "fingerprint": "0726b8bbc7a671b6708a257eaceae899116c01ee943356edadbcd82d36dafd83"
       },
       {
         "id": "karriere_at:10026561",
@@ -542,10 +532,10 @@
         "url": "https://www.karriere.at/jobs/10026561",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-16T07:06:38.089637Z",
-        "fingerprint": "b8634fd417ce068ddc437e002f500f2e79ef907f1ce705295466872de0f0ba62"
+        "fingerprint": "c600e47a6289c2053c9a511e556a0d26a4955abfc44250b6ac7bcd88b12a2397"
       },
       {
         "id": "karriere_at:10023528",
@@ -556,10 +546,10 @@
         "url": "https://www.karriere.at/jobs/10023528",
         "salary": "77.000 € – 83.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T14:42:58.393788Z",
-        "fingerprint": "679ceb0e815471d944110ac935f48bdcc9534cba701466e071ccb1baf481ef80"
+        "fingerprint": "0dd9601c30c953101505f820e467183d57dbcb36734fc71bb426d721547fa05b"
       },
       {
         "id": "karriere_at:10028461",
@@ -576,20 +566,6 @@
         "fingerprint": "0b22dec3297b2b8410936b4e2188d5fb59425dd99a9d03c49827c9fb85579997"
       },
       {
-        "id": "karriere_at:10025968",
-        "source": "karriere_at",
-        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
-        "company": "Kommunalkredit Public Consulting GmbH",
-        "location": "Wien 19. Bezirk (Döbling)",
-        "url": "https://www.karriere.at/jobs/10025968",
-        "salary": "ab 3.599,52 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "d08dbe433353c506b1b79ea31500dee89f2947ac30cbae642b1fd19011be757c"
-      },
-      {
         "id": "karriere_at:10027445",
         "source": "karriere_at",
         "title": "(Senior) Legal Counsel (m/w/d)",
@@ -598,10 +574,10 @@
         "url": "https://www.karriere.at/jobs/10027445",
         "salary": "3.700 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-23T16:12:04.483078Z",
-        "fingerprint": "723de20bb78855a4fa23d43843704a5def287628265177c9d53cf02e88b22169"
+        "fingerprint": "a8f47adeb053d984276af2735130c783ab97be52b1f95c7115097582e37f13ea"
       },
       {
         "id": "karriere_at:10028134",
@@ -626,10 +602,10 @@
         "url": "https://www.karriere.at/jobs/7821314",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Sie begleiten das Sales-Team bei strategisch wichtigen Kunden im Segment größerer Beratungsunternehmen, Rechtsabteilungen und juristischer Organisationen. Sie sprechen mit relevanten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "5fedb2570b1f6f1d2973aeaf9a842663761892163aeb3213c6103650fc90b257"
+        "fingerprint": "fc34dd7cb2a903b87872115f06ef201e999fd20d0db9f22728d7ee0aeb17a0ad"
       },
       {
         "id": "karriere_at:7851566",
@@ -640,24 +616,10 @@
         "url": "https://www.karriere.at/jobs/7851566",
         "salary": "ab 53.200 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Unterstützung bei der rechtlichen Beratung unserer Divisionen und Fachabteilungen in laufenden wirtschaftsrechtlichen Fragestellungen, Mitwirkung bei der Erstellung, Prüfung, Verhandlung und...",
         "first_seen": "2026-07-28T12:27:04.652167Z",
-        "fingerprint": "931ba096c554200d7e59d1a32faf6d8520b088ad9d7c30077e2fc77a394d5089"
-      },
-      {
-        "id": "karriere_at:7835189",
-        "source": "karriere_at",
-        "title": "Legal Counsel",
-        "company": "Axians ICT Austria GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7835189",
-        "salary": "ab 4.785 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
-        "snippet": "Legal Counsel, Vollzeit, Hybrid, Wien, Österreich, Mit Berufserfahrung, 30.06.26 Über uns Axians ICT Austria GmbH arbeitet in strategischen Partnerschaften in der IT-Dienstleistung...",
-        "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "521923d39aa87b8222053f626c74d05d989e717d9c1d932e5784718b491a570c"
+        "fingerprint": "5f9ef82288070202d260687d4542f1c8537d9292cfaf61100a2cfd5504673471"
       },
       {
         "id": "karriere_at:7834001",
@@ -668,10 +630,10 @@
         "url": "https://www.karriere.at/jobs/7834001",
         "salary": "ab 60.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Vielseitig wie der Handel, Sie steuern zentrale Themen im Datenschutz- und Vertragsrecht, entwickeln klare Leitlinien und stellen deren wirksame Umsetzung im jö Bonus Club sicher. In dieser...",
         "first_seen": "2026-06-29T09:57:01.141761Z",
-        "fingerprint": "ebd15eeff599f755e19add55c95ae2ee4f47e6be89b2d8ba9b262b86d036d26e"
+        "fingerprint": "69cafa1439d1f128c86211e81cd8728c1aba0e5af6ef28c3734077083ea14b9f"
       },
       {
         "id": "karriere_at:7850915",
@@ -682,10 +644,10 @@
         "url": "https://www.karriere.at/jobs/7850915",
         "salary": "ab 66.806,88 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Ansprechperson für Vertrags- und IP- Recht mit Schwerpunkt auf Software- und Hardware sowie IT-Dienstleistungen, Betreuung von Kundenaccounts in rechtlichen Angelegenheiten und Begleitung der...",
         "first_seen": "2026-07-27T15:08:46.560804Z",
-        "fingerprint": "9c4202a0b04562e1926593e6b1348d4b17372edbc7c9f76d8eedfbf01c64cf70"
+        "fingerprint": "a6408cbbe99315e903b3a6e47100927867f061448819573a0a2ab7167330043d"
       },
       {
         "id": "karriere_at:7844024",
@@ -752,10 +714,10 @@
         "url": "https://www.karriere.at/jobs/7851911",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 5-köpfige Team rund um Andreas Lopatka-Sint...",
         "first_seen": "2026-07-29T07:25:22.524862Z",
-        "fingerprint": "e017093a0aa9f456a7758aa6163e53b7e4a28ba9da65b72d1fdc9d3a03426663"
+        "fingerprint": "fbe710be8e4e630b319e758abb27bf0262b68ccd37243cca6f9ec5f4ca0cfab9"
       },
       {
         "id": "karriere_at:7850675",
@@ -766,10 +728,10 @@
         "url": "https://www.karriere.at/jobs/7850675",
         "salary": "ab 6.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-07-28T22:14:20.778569Z",
-        "fingerprint": "8f035a2542309c9d462712ba0cb9e3466cc15c8ce42537caa7c02ab729451c2c"
+        "fingerprint": "014a296808e603c3cad2d3476f5eac36d7ea51046f9956ec33018895d44f13ec"
       },
       {
         "id": "karriere_at:7825238",
@@ -864,10 +826,10 @@
         "url": "https://www.karriere.at/jobs/7854056",
         "salary": "ab 3.764 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabenbereich: Bearbeitung von Themen aus den Bereichen des Gesellschaftsrechts, Gemeinnützigkeitsrechts, Hochschulrechts, Vergaberechts und Vertragsrechts, Erstellung, Prüfung und Kommentierung von Verträgen...",
         "first_seen": "2026-08-03T08:39:52.634951Z",
-        "fingerprint": "b95388d23716492c6290babd6f22ee5b9e929b79ee3e511d03a52020cd1fb801"
+        "fingerprint": "ea897338a5c254a06ec92082ff890d48ccedf2ece8633f4ba7dd1cb26c38b555"
       },
       {
         "id": "karriere_at:7832501",
@@ -990,10 +952,10 @@
         "url": "https://www.karriere.at/jobs/7816349",
         "salary": "ab 42.840 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "(Junior) Consultant (all genders) Banking Advisory / Regulatory Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der führende...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "0190ce1ef7f883ed49af3a1f803233f71f1a27188de2a5465a73645f8db6ffb8"
+        "fingerprint": "7c25896b26a4200965d40ee128f71882bd8e98c1a0717462c963c752bcadc406"
       },
       {
         "id": "karriere_at:7663254",
@@ -1004,10 +966,10 @@
         "url": "https://www.karriere.at/jobs/7663254",
         "salary": "ab 5.000 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "(Senior) Manager:in Tax/ Steuerberater:in, International Tax/ Transfer Pricing (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Beratungstätigkeiten...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "c76e2a960831bf267737c3f44930dad18d04d0296fa1a56f7c1b5e144de7a8cd"
+        "fingerprint": "ad7fbda2051cf6b6a46c75c246e80151d78aa37e8fb5a6cbeeb449acf6f9d601"
       },
       {
         "id": "karriere_at:7816346",
@@ -1018,10 +980,10 @@
         "url": "https://www.karriere.at/jobs/7816346",
         "salary": "ab 42.840 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "(Junior) Consultant (all genders) Advisory/Governance, Risk & Internal Controls Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "fb1ade22734653900a902a0d2916fab3604e08a67319d7aefd34c05975c3f959"
+        "fingerprint": "53b24a7ae23536ce5ea72d5504cbb60598857cc3af3d7b87e6b0c7a21f625007"
       },
       {
         "id": "karriere_at:10024650",
@@ -1032,10 +994,10 @@
         "url": "https://www.karriere.at/jobs/10024650",
         "salary": "ab 2.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-30T12:22:21.686649Z",
-        "fingerprint": "8b2bb39e11640131b2ef4cf32c57c009b36ae873b3c08be616009e4cc6ae6034"
+        "fingerprint": "8ec773114e9304afe4ffa0f222d6eaffb0ee9828e286a7b24726b4b5c2c366c2"
       },
       {
         "id": "karriere_at:10022516",
@@ -1046,10 +1008,10 @@
         "url": "https://www.karriere.at/jobs/10022516",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "acba9a7cc6c0ca5f25ba5c87c6ae6f26141b0c93bb0d2275f8cabad1939315b4"
+        "fingerprint": "a04efc0efeea2e07b4a26a73ad83165c9ad6658ec30a9a3adcd64e04ff3ee813"
       },
       {
         "id": "karriere_at:7739792",
@@ -1242,10 +1204,10 @@
         "url": "https://www.karriere.at/jobs/7853291",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "31.7.2026",
         "snippet": "Rechtsanwält:in im Bereich Regulatory / FinTech / Banking Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 24-köpfige Team rund um Martin Hanzl berät nationale...",
         "first_seen": "2026-07-31T06:33:51.169127Z",
-        "fingerprint": "edab8d5567d7547724a4e0ace3436afd89af6b209d89e95a163644d61ad8d4d9"
+        "fingerprint": "4e06200669576cabc640bacdcc1016b27606facf89946572ebca3285ac429f83"
       },
       {
         "id": "karriere_at:7794164",
@@ -1312,11 +1274,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Jurist-in-Insolvenzreferent-in-m-w-d-Wien-Wien-AKV-EUROPA-Alpenlaendischer-Kreditorenverband--996435-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 12 Stunden",
-        "department": "Teilweise Home-Office, NEU",
-        "snippet": "Jurist:in - Insolvenzreferent/in (m/w/d) Wien AKV EUROPA - Alpenländischer Kreditorenverband Wien Teilweise Home-Office Der AKV EUROPA zählt zu den führenden österreichischen Gläubigerschutzverbänden und verbindet langjährige Erfahrung mit moderner Dienstleistung. Wir betreuen unsere Mitglieder und Mandant:innen erfolgreich in den Bereichen Insolvenz, Inkasso, Auskunft, Treuhand und Beratung. Der AKV EUROPA zählt zu den führenden österreichischen Gläubigerschutzverbänden und verbindet langjährige Erfahrung mit moderner Dienstleistung. Wir betreuen unsere Mitglieder und Mandant:innen erfolgreich in den Bereichen Insolvenz, Inkasso, Auskunft, Treuhand und Beratung. mehr vor 12 Stunden NEU",
+        "published_at": "vor 1 Tag",
+        "department": "Teilweise Home-Office",
+        "snippet": "Jurist:in - Insolvenzreferent/in (m/w/d) Wien AKV EUROPA - Alpenländischer Kreditorenverband Wien Teilweise Home-Office Der AKV EUROPA zählt zu den führenden österreichischen Gläubigerschutzverbänden und verbindet langjährige Erfahrung mit moderner Dienstleistung. Wir betreuen unsere Mitglieder und Mandant:innen erfolgreich in den Bereichen Insolvenz, Inkasso, Auskunft, Treuhand und Beratung. Der AKV EUROPA zählt zu den führenden österreichischen Gläubigerschutzverbänden und verbindet langjährige Erfahrung mit moderner Dienstleistung. Wir betreuen unsere Mitglieder und Mandant:innen erfolgreich in den Bereichen Insolvenz, Inkasso, Auskunft, Treuhand und Beratung. mehr vor 1 Tag",
         "first_seen": "2026-08-07T08:09:31.554703Z",
-        "fingerprint": "f0270fd65af2186b50f0d26f6d66a44878fdd340645998da4b0517c489907fe6"
+        "fingerprint": "7397c4a577cbb42ce29ad0bb8f0f35cb20852914246bad6dcffa0096581eff53"
       },
       {
         "id": "stepstone:992085",
@@ -1327,11 +1289,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Juristin-w-m-d-Wien-Aerztekammer-fuer-Wien--992085-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 13 Stunden",
-        "department": "Schnelle Bewerbung, NEU",
-        "snippet": "Jurist*in (w/m/d) Ärztekammer für Wien Wien Schnelle Bewerbung Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi mehr vor 13 Stunden NEU",
+        "published_at": "vor 1 Tag",
+        "department": "Schnelle Bewerbung",
+        "snippet": "Jurist*in (w/m/d) Ärztekammer für Wien Wien Schnelle Bewerbung Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi mehr vor 1 Tag",
         "first_seen": "2026-07-09T22:06:32.958030Z",
-        "fingerprint": "ff61409356a1584fc0225c24215d04a8d93c4fa0826de1b856d1fa3b3dc6ddfd"
+        "fingerprint": "879df2d8427b92dda5c467cef04db75fe5986b469f1ca9f7a254dd3c9e1e0d2b"
       },
       {
         "id": "stepstone:996041",
@@ -1342,11 +1304,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Junior-Legal-Counsel-Unternehmensjurist-Junior-m-w-d-Wien-Roxcel-Holding-GmbH--996041-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 2 Tagen",
+        "published_at": "vor 3 Tagen",
         "department": null,
-        "snippet": "Junior Legal Counsel / Unternehmensjurist (Junior) (m/w/d) Roxcel Holding GmbH Wien Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel / Unternehmensjurist (Junior) sind Sie Teil der Group Legal Abteilung und arbeiten eng mit dem G Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel / Unternehmensjurist (Junior) sind Sie Teil der Group Legal Abteilung und arbeiten eng mit dem G mehr vor 2 Tagen",
+        "snippet": "Junior Legal Counsel / Unternehmensjurist (Junior) (m/w/d) Roxcel Holding GmbH Wien Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel / Unternehmensjurist (Junior) sind Sie Teil der Group Legal Abteilung und arbeiten eng mit dem G Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel / Unternehmensjurist (Junior) sind Sie Teil der Group Legal Abteilung und arbeiten eng mit dem G mehr vor 3 Tagen",
         "first_seen": "2026-08-05T21:22:28.870558Z",
-        "fingerprint": "9f6c5a02b4ec751926ee7d18cc886609cdfcce0c432534a7259629f7d4934a24"
+        "fingerprint": "7609921509674bc10e66e3b7d1910fbc74997bad1f9587d71c402567a7094102"
       },
       {
         "id": "stepstone:995186",
@@ -1357,11 +1319,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-Transaktionen-w-m-d-Wien-l-m-executive-search-consulting-gmbh--995186-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 1 Tag",
+        "published_at": "vor 2 Tagen",
         "department": null,
-        "snippet": "Rechtsanwalt Transaktionen (w/m/d) l & m executive search & consulting gmbh Wien lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Wir verstärken aktuell eine renommierte Wiener Anwaltskanzlei, die für exzellente Beratung im Bereich M&A und Gesellschaftsrecht steht. Auf Basis einer gewachsenen Sozietätsstruktur werden hier kompl lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Wir verstärken aktuell eine renommierte Wiener Anwaltskanzlei, die für exzellente Beratung im Bereich M&A und Gesellschaftsrecht steht. Auf Basis einer gewachsenen Sozietätsstruktur werden hier kompl mehr vor 1 Tag",
+        "snippet": "Rechtsanwalt Transaktionen (w/m/d) l & m executive search & consulting gmbh Wien lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Wir verstärken aktuell eine renommierte Wiener Anwaltskanzlei, die für exzellente Beratung im Bereich M&A und Gesellschaftsrecht steht. Auf Basis einer gewachsenen Sozietätsstruktur werden hier kompl lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Wir verstärken aktuell eine renommierte Wiener Anwaltskanzlei, die für exzellente Beratung im Bereich M&A und Gesellschaftsrecht steht. Auf Basis einer gewachsenen Sozietätsstruktur werden hier kompl mehr vor 2 Tagen",
         "first_seen": "2026-07-29T16:37:27.029091Z",
-        "fingerprint": "d24efa20da91282d33a839177fc7b57c92b64f29604567626a4ffac52e0af8a5"
+        "fingerprint": "00256c09b0d5739154456db97a4ecdde3142304f53d3d2d77db27f8a5e544a97"
       },
       {
         "id": "stepstone:995185",
@@ -1372,11 +1334,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-erfahrenenen-Rechtsanwaltsanwaerter-w-m-d-Regulatorisches-Bankenrecht-Kapitalmarktrecht-Wien-l-m-executive-search-consulting-gmbh--995185-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 1 Tag",
+        "published_at": "vor 2 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwalt / erfahrenenen Rechtsanwaltsanwärter (w/m/d) (Regulatorisches) Bankenrecht /Kapitalmarktrecht l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unsere Klientin ist eine international ausgezeichnete Wirtschaftskanzlei mit exzellenter Reputation – bekannt für ihre internationale Tätigkeit im Bereich Bank- und Finanzdienstleistung. Die Kanzlei ve lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unsere Klientin ist eine international ausgezeichnete Wirtschaftskanzlei mit exzellenter Reputation – bekannt für ihre internationale Tätigkeit im Bereich Bank- und Finanzdienstleistung. Die Kanzlei ve mehr vor 1 Tag",
+        "snippet": "Rechtsanwalt / erfahrenenen Rechtsanwaltsanwärter (w/m/d) (Regulatorisches) Bankenrecht /Kapitalmarktrecht l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unsere Klientin ist eine international ausgezeichnete Wirtschaftskanzlei mit exzellenter Reputation – bekannt für ihre internationale Tätigkeit im Bereich Bank- und Finanzdienstleistung. Die Kanzlei ve lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unsere Klientin ist eine international ausgezeichnete Wirtschaftskanzlei mit exzellenter Reputation – bekannt für ihre internationale Tätigkeit im Bereich Bank- und Finanzdienstleistung. Die Kanzlei ve mehr vor 2 Tagen",
         "first_seen": "2026-07-29T16:37:27.029091Z",
-        "fingerprint": "da135eedbc5b561094c037ef8b02077e39b795f1e2a447f570a31065629dbbd5"
+        "fingerprint": "6292afd87d5f1337726073ad69b3192d49c3a8add48b5fa1610180c0bd91da61"
       },
       {
         "id": "stepstone:985843",
@@ -1447,11 +1409,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-1010-Wien-Bischof-Zorn-Partner-Rechtsanwaelte-GmbH--996409-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 14 Stunden",
-        "department": "Schnelle Bewerbung, NEU",
-        "snippet": "Rechtsanwaltsanwärter/-in Bischof Zorn + Partner Rechtsanwälte GmbH 1010 Wien Schnelle Bewerbung Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T mehr vor 14 Stunden NEU",
+        "published_at": "vor 1 Tag",
+        "department": "Schnelle Bewerbung",
+        "snippet": "Rechtsanwaltsanwärter/-in Bischof Zorn + Partner Rechtsanwälte GmbH 1010 Wien Schnelle Bewerbung Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T mehr vor 1 Tag",
         "first_seen": "2026-08-07T08:09:31.554703Z",
-        "fingerprint": "ae5c7b669b3170ce823e77de6cd69eb3bbbfd906743c9d71adf9ec07f4a6d1df"
+        "fingerprint": "77720c04f8d5af4471395f05e171c4ce5b2a2f4d3d1ace04724cad53072da1c1"
       },
       {
         "id": "stepstone:993277",
@@ -1469,21 +1431,6 @@
         "fingerprint": "bcbb708ecdba0792157e24e0d9b7ad420e5507ea885bd6a881a4c5e2b49312f0"
       },
       {
-        "id": "stepstone:992718",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW",
-        "company": "Iro&Partners Personal- u.ManagementberatungsgmbH Zentrale Salzburg",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Arbeitsrecht-w-m-d-Kinner-Korenjak-LAW-Wien-IroPartners-Personal-u-ManagementberatungsgmbH-Zentrale-Salzburg--992718-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "vor 1 Woche",
-        "department": "Schnelle Bewerbung",
-        "snippet": "Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Iro&Partners Personal- u.ManagementberatungsgmbH Zentrale Salzburg Wien Schnelle Bewerbung Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Kinner Korenjak LAW ist eine anerkannte, stetig wachsende Kanzlei für Arbeitsrecht mit Sitz in 1010 Wien. Zu unseren Mandant:innen zählen inländische und internationale Unternehmen sowie Führungskräfte. Zur Verstärkung unseres T Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Kinner Korenjak LAW ist eine anerkannte, stetig wachsende Kanzlei für Arbeitsrecht mit Sitz in 1010 Wien. Zu unseren Mandant:innen zählen inländische und internationale Unternehmen sowie Führungskräfte. Zur Verstärkung unseres T mehr vor 1 Woche",
-        "first_seen": "2026-07-14T21:11:21.667881Z",
-        "fingerprint": "e5c46ac6db7211a4d9b68744ed700def9e9cda41b957b1be6b4a870a6d186f59"
-      },
-      {
         "id": "stepstone:977608",
         "source": "stepstone",
         "title": "Rechtsanwaltsanwärter:innen im Bereich International Arbitration",
@@ -1492,11 +1439,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-innen-im-Bereich-International-Arbitration-Wien-Vavrovsky-Heine-Marth-Rechtsanwaelte-GmbH--977608-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 1 Tag",
+        "published_at": "vor 2 Tagen",
         "department": "Schnelle Bewerbung",
-        "snippet": "Rechtsanwaltsanwärter:innen im Bereich International Arbitration Vavrovsky Heine Marth Rechtsanwälte GmbH Wien Schnelle Bewerbung Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs. Wir sind schwerpunktmäßig in den Bereichen Dispute Resolution und Real Estate tätig. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung vor allem auch ein positive Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs. Wir sind schwerpunktmäßig in den Bereichen Dispute Resolution und Real Estate tätig. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung vor allem auch ein positive mehr vor 1 Tag",
+        "snippet": "Rechtsanwaltsanwärter:innen im Bereich International Arbitration Vavrovsky Heine Marth Rechtsanwälte GmbH Wien Schnelle Bewerbung Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs. Wir sind schwerpunktmäßig in den Bereichen Dispute Resolution und Real Estate tätig. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung vor allem auch ein positive Vavrovsky Heine Marth ist eine der führenden Wirtschaftskanzleien Österreichs. Wir sind schwerpunktmäßig in den Bereichen Dispute Resolution und Real Estate tätig. In unserer täglichen Praxis zählen für uns neben höchster Qualität, Professionalität und Serviceorientierung vor allem auch ein positive mehr vor 2 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "7d2395af0fbf78b577109b30a4fe16642e75779bef0168a388fb37a32d3ec009"
+        "fingerprint": "b488cc03b9dc7a3514cf7b65df732f933374dd81484a79320915d6e62b32d411"
       },
       {
         "id": "stepstone:982028",
@@ -1507,11 +1454,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-w-m-d-mit-gesellschaftsrechtlicher-Expertise-Wien-l-m-executive-search-consulting-gmbh--982028-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 3 Tagen",
+        "published_at": "vor 4 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech mehr vor 3 Tagen",
+        "snippet": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech mehr vor 4 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "7c77132c53a1c62a1dcd7282fcdedbd0c1da0e2a84c0e16c8d7f7130e752031b"
+        "fingerprint": "9fb8e95233a7be5ad9b062d50d0c32d0d616c3d99f16d909f684c12a40cc98af"
       },
       {
         "id": "stepstone:945281",
@@ -1559,6 +1506,21 @@
         "fingerprint": "08d951f46aeee55485afb90cc26dd68bef747dc475c0c4d986b22b1127f2f161"
       },
       {
+        "id": "stepstone:992718",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW",
+        "company": "Iro&Partners Personal- u.ManagementberatungsgmbH Zentrale Salzburg",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Arbeitsrecht-w-m-d-Kinner-Korenjak-LAW-Wien-IroPartners-Personal-u-ManagementberatungsgmbH-Zentrale-Salzburg--992718-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "vor 1 Woche",
+        "department": "Schnelle Bewerbung",
+        "snippet": "Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Iro&Partners Personal- u.ManagementberatungsgmbH Zentrale Salzburg Wien Schnelle Bewerbung Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Kinner Korenjak LAW ist eine anerkannte, stetig wachsende Kanzlei für Arbeitsrecht mit Sitz in 1010 Wien. Zu unseren Mandant:innen zählen inländische und internationale Unternehmen sowie Führungskräfte. Zur Verstärkung unseres T Rechtsanwaltsanwärter:in Arbeitsrecht (w/m/d) | Kinner Korenjak LAW Kinner Korenjak LAW ist eine anerkannte, stetig wachsende Kanzlei für Arbeitsrecht mit Sitz in 1010 Wien. Zu unseren Mandant:innen zählen inländische und internationale Unternehmen sowie Führungskräfte. Zur Verstärkung unseres T mehr vor 1 Woche",
+        "first_seen": "2026-07-14T21:11:21.667881Z",
+        "fingerprint": "e5c46ac6db7211a4d9b68744ed700def9e9cda41b957b1be6b4a870a6d186f59"
+      },
+      {
         "id": "stepstone:994936",
         "source": "stepstone",
         "title": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht",
@@ -1567,11 +1529,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-m-w-d-im-Immobilienrecht-Prozessrecht-Wien-l-m-executive-search-consulting-gmbh--994936-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 2 Tagen",
+        "published_at": "vor 3 Tagen",
         "department": null,
-        "snippet": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht l & m executive search & consulting gmbh Wien Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges mehr vor 2 Tagen",
+        "snippet": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht l & m executive search & consulting gmbh Wien Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges mehr vor 3 Tagen",
         "first_seen": "2026-07-28T23:27:24.331085Z",
-        "fingerprint": "dd540c5d40b857f0dc6c8cb5e1c491935e91222445bd060ac7af45dbc2a2e92b"
+        "fingerprint": "4202d5d338dbd7b82eaef9345fa2e0985930aadf1b4184f142c00a91caca9e75"
       },
       {
         "id": "stepstone:995512",
@@ -1582,11 +1544,26 @@
         "url": "https://www.stepstone.at/stellenangebote--Consultant-PR-Kommunikation-Social-Media-Eventmanagement-Wien-KRAFTKINZ-Holding-GmbH--995512-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 6 Tagen",
+        "published_at": "vor 1 Woche",
         "department": "Schnelle Bewerbung",
-        "snippet": "Consultant: PR, Kommunikation, Social Media & Eventmanagement KRAFTKINZ Holding GmbH Wien Schnelle Bewerbung Die KRAFTKINZ Powergroup GmbH mit Sitz in Wien sucht erfahrene Verstärkung für unser Team im Bereich PR, Kommunikation, Social Media & Eventmanagement. Wir setzen auf Strategie- und Kommunikation, sind sehr engagiert – mit Fokus auf Payment, Nachhaltigkeit und Unternehmenspositionierung. Damit s Die KRAFTKINZ Powergroup GmbH mit Sitz in Wien sucht erfahrene Verstärkung für unser Team im Bereich PR, Kommunikation, Social Media & Eventmanagement. Wir setzen auf Strategie- und Kommunikation, sind sehr engagiert – mit Fokus auf Payment, Nachhaltigkeit und Unternehmenspositionierung. Damit s mehr vor 6 Tagen",
+        "snippet": "Consultant: PR, Kommunikation, Social Media & Eventmanagement KRAFTKINZ Holding GmbH Wien Schnelle Bewerbung Die KRAFTKINZ Powergroup GmbH mit Sitz in Wien sucht erfahrene Verstärkung für unser Team im Bereich PR, Kommunikation, Social Media & Eventmanagement. Wir setzen auf Strategie- und Kommunikation, sind sehr engagiert – mit Fokus auf Payment, Nachhaltigkeit und Unternehmenspositionierung. Damit s Die KRAFTKINZ Powergroup GmbH mit Sitz in Wien sucht erfahrene Verstärkung für unser Team im Bereich PR, Kommunikation, Social Media & Eventmanagement. Wir setzen auf Strategie- und Kommunikation, sind sehr engagiert – mit Fokus auf Payment, Nachhaltigkeit und Unternehmenspositionierung. Damit s mehr vor 1 Woche",
         "first_seen": "2026-07-31T15:35:33.400804Z",
-        "fingerprint": "f55146557bd6c3e2d42df03beaba0c82cb5d2a8d06a01f1aa971b189c23d890b"
+        "fingerprint": "525be01a3013cd07d3149e67e9d769af59f13a39b0a7fe56217c8d203535f457"
+      },
+      {
+        "id": "stepstone:990196",
+        "source": "stepstone",
+        "title": "Legal Counsel (m/w/d)",
+        "company": "Axians ICT Austria GmbH",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Axians-ICT-Austria-GmbH--990196-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "vor 1 Woche",
+        "department": "Teilweise Home-Office",
+        "snippet": "Legal Counsel (m/w/d) Axians ICT Austria GmbH Wien Teilweise Home-Office Axians ICT Austria GmbH arbeitet in strategischen Partnerschaften in der IT-Dienstleistung mit über 30 Jahren Erfahrung. Mit unseren Business und Service Units unterstützen wir Unternehmen aller Größen und aus allen Branchen dabei ideenreiche IT-Lösungen und Geschäftsmodelle zu realisieren. Somit er Axians ICT Austria GmbH arbeitet in strategischen Partnerschaften in der IT-Dienstleistung mit über 30 Jahren Erfahrung. Mit unseren Business und Service Units unterstützen wir Unternehmen aller Größen und aus allen Branchen dabei ideenreiche IT-Lösungen und Geschäftsmodelle zu realisieren. Somit er mehr vor 1 Woche",
+        "first_seen": "2026-06-30T12:22:21.686649Z",
+        "fingerprint": "0c66c87fff4aa79ba1a02d4f1eb934315368e3279e7efd7ab67ef4098f376823"
       },
       {
         "id": "stepstone:992618",
@@ -1687,11 +1664,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Senior-Accountant-Buchhaltung-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--981381-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 4 Stunden",
+        "published_at": "vor 18 Stunden",
         "department": "Teilweise Home-Office, NEU",
-        "snippet": "Senior Accountant/Buchhaltung (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 4 Stunden NEU",
+        "snippet": "Senior Accountant/Buchhaltung (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 18 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "b79c11eeeae01d327c51851c35601bf4670fcae94ccc59993d11c02e94087171"
+        "fingerprint": "1c1e022b1045a1a1b3eb75a6a3fe8c9556a0a80c1b8834d264ed009c99d51737"
       },
       {
         "id": "stepstone:968445",
@@ -1717,11 +1694,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Mitarbeiterin-im-Forderungs-und-Auftragsmanagement-m-w-d-Unternehmenszentrale-BampF-Wien-BF-Wien-Bestattung-Friedhoefe-GmbH--987361-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 1 Woche",
+        "published_at": "vor 2 Wochen",
         "department": "Teilweise Home-Office",
-        "snippet": "Mitarbeiterin im Forderungs- und Auftragsmanagement (m/w/d) B&F Wien - Bestattung & Friedhöfe GmbH Unternehmenszentrale B&F Wien Teilweise Home-Office Bestattung und Friedhöfe GmbH verantwortet die strategische und administrative Führung der zugehörigen Unternehmen (Bestattung, Friedhöfe, Bestattungsservice, Tierfriedhof) und ist verlässlicher Partner bei der Bewältigung sensibler Herausforderungen. Bestattung und Friedhöfe GmbH verantwortet die strategische und administrative Führung der zugehörigen Unternehmen (Bestattung, Friedhöfe, Bestattungsservice, Tierfriedhof) und ist verlässlicher Partner bei der Bewältigung sensibler Herausforderungen. mehr vor 1 Woche",
+        "snippet": "Mitarbeiterin im Forderungs- und Auftragsmanagement (m/w/d) B&F Wien - Bestattung & Friedhöfe GmbH Unternehmenszentrale B&F Wien Teilweise Home-Office Bestattung und Friedhöfe GmbH verantwortet die strategische und administrative Führung der zugehörigen Unternehmen (Bestattung, Friedhöfe, Bestattungsservice, Tierfriedhof) und ist verlässlicher Partner bei der Bewältigung sensibler Herausforderungen. Bestattung und Friedhöfe GmbH verantwortet die strategische und administrative Führung der zugehörigen Unternehmen (Bestattung, Friedhöfe, Bestattungsservice, Tierfriedhof) und ist verlässlicher Partner bei der Bewältigung sensibler Herausforderungen. mehr vor 2 Wochen",
         "first_seen": "2026-07-24T15:04:22.076391Z",
-        "fingerprint": "543972348406e3c9a6989c127ddea470ee80e5f4e797c7f8a35b6277d226da27"
+        "fingerprint": "ad396f72c0420a476a5a5ea5071cb66a2160eb596b43c1a1a1dde48b9bdb199c"
       },
       {
         "id": "stepstone:978610",
@@ -1908,6 +1885,7 @@
       "stepstone:989038",
       "stepstone:989494",
       "stepstone:989509",
+      "stepstone:990196",
       "stepstone:990738",
       "stepstone:991399",
       "stepstone:991754",
