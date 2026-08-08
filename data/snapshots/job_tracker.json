@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T07:32:39.206712Z",
+  "timestamp": "2026-08-08T08:19:04.969472Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-08T07:32:39.206712Z",
+        "last_success": "2026-08-08T08:19:04.969472Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-08T07:32:39.206712Z",
+        "last_success": "2026-08-08T08:19:04.969472Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-08T07:32:39.206712Z",
+        "last_success": "2026-08-08T08:19:04.969472Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-08T07:32:39.206712Z",
+        "last_success": "2026-08-08T08:19:04.969472Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-08T07:32:39.206712Z",
+        "last_success": "2026-08-08T08:19:04.969472Z",
         "last_error": null,
         "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-08T07:32:39.206712Z",
-        "last_error": null,
-        "count": 35
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 30
       }
     },
     "jobs": [
@@ -770,10 +770,10 @@
         "url": "https://www.karriere.at/jobs/7854395",
         "salary": "ab 3.575,31 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Arbeits- und insolvenzrechtliche Beurteilung von Ansprüchen, Rasches und serviceorientiertes Ermitteln und Entscheiden im rechtlichen Rahmen, Erstellung von Bescheiden betreffend Gewährung bzw...",
         "first_seen": "2026-07-07T13:29:53.215549Z",
-        "fingerprint": "bea0ab2e46ba4cb6d1a749d9ffade4e56c808be2b04feef761e9b2c6431bad28"
+        "fingerprint": "658e6fd0c2a7f4ac83c101fefe1a31678e2ccd95e21ce5852830df19628b3113"
       },
       {
         "id": "karriere_at:7804418",
