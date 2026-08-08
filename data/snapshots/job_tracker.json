@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T23:52:44.912222Z",
+  "timestamp": "2026-08-08T02:17:23.661318Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-07T23:52:44.912222Z",
+        "last_success": "2026-08-08T02:17:23.661318Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
         "last_success": "2026-08-07T23:52:44.912222Z",
-        "last_error": null,
+        "last_error": "UNIQA RSS error: URL error: timed out",
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-07T23:52:44.912222Z",
+        "last_success": "2026-08-08T02:17:23.661318Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-07T23:52:44.912222Z",
+        "last_success": "2026-08-08T02:17:23.661318Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-07T23:52:44.912222Z",
+        "last_success": "2026-08-08T02:17:23.661318Z",
         "last_error": null,
-        "count": 61
+        "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-07T23:52:44.912222Z",
-        "last_error": null,
-        "count": 35
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 30
       }
     },
     "jobs": [
@@ -306,6 +306,16 @@
         "fingerprint": "433d402208215da7fcfd33bf2c2bd537bc757985745a9a95381a2fe143ad1de0"
       },
       {
+        "id": "lawfinder:cmj04jl730000ky04wn76iggw",
+        "source": "lawfinder",
+        "title": "Assistenz der Geschäftsführung (m/w/d) in Vollzeit",
+        "company": "ADOLF WEBER AUSTRIA GmbH",
+        "location": "Wien",
+        "url": "https://www.lawfinder.at/jobs/cmj04jl730000ky04wn76iggw",
+        "first_seen": "2026-07-10T15:08:54.549445Z",
+        "fingerprint": "6d48837e02508b924500c9af26466e6bf8b783ee3e52ef363fc24aa5d40bc7f6"
+      },
+      {
         "id": "lawfinder:cmiytj1h00000lb04qm3rr7w6",
         "source": "lawfinder",
         "title": "Assistenz der Geschäftsführung (m/w/d) in Teilzeit (25-30 Std/Woche)",
@@ -324,16 +334,6 @@
         "url": "https://www.lawfinder.at/jobs/cmmnclx3q000004joqfgyuu0k",
         "first_seen": "2026-07-10T15:08:54.549445Z",
         "fingerprint": "ad1a8cc3bdab7c23f73a2f581ca9cb7b581e69396dc8379d85620a776e6c7bec"
-      },
-      {
-        "id": "lawfinder:cmj04jl730000ky04wn76iggw",
-        "source": "lawfinder",
-        "title": "Assistenz der Geschäftsführung (m/w/d) in Vollzeit",
-        "company": "ADOLF WEBER AUSTRIA GmbH",
-        "location": "Wien",
-        "url": "https://www.lawfinder.at/jobs/cmj04jl730000ky04wn76iggw",
-        "first_seen": "2026-07-10T15:08:54.549445Z",
-        "fingerprint": "6d48837e02508b924500c9af26466e6bf8b783ee3e52ef363fc24aa5d40bc7f6"
       },
       {
         "id": "lawfinder:cmmd8odci0000i904sr2a7875",
@@ -438,6 +438,20 @@
         "snippet": null,
         "first_seen": "2026-07-10T08:45:47.820748Z",
         "fingerprint": "f02a57f8541f0bee044441ce43bce30f1fc19da37add8f37bfd5f959748d59f6"
+      },
+      {
+        "id": "karriere_at:10028134",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter:in im Bereich Bank- und Kapitalmarktrecht (w/m/d)",
+        "company": "DORDA Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10028134",
+        "salary": "4.300 € – 4.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-30T11:42:39.752850Z",
+        "fingerprint": "7f73292e45696036757dee848eefc92806e04edaa07ba8763b7633faabe5b64b"
       },
       {
         "id": "karriere_at:10028990",
@@ -578,34 +592,6 @@
         "snippet": null,
         "first_seen": "2026-07-23T16:12:04.483078Z",
         "fingerprint": "a8f47adeb053d984276af2735130c783ab97be52b1f95c7115097582e37f13ea"
-      },
-      {
-        "id": "karriere_at:10028134",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter:in im Bereich Bank- und Kapitalmarktrecht (w/m/d)",
-        "company": "DORDA Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10028134",
-        "salary": "4.300 € – 4.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "30.7.2026",
-        "snippet": null,
-        "first_seen": "2026-07-30T11:42:39.752850Z",
-        "fingerprint": "1f4a0eba438912d924844770e9fd215de9c1041ff7df72a6fcf6490fd2d59cdf"
-      },
-      {
-        "id": "karriere_at:7821314",
-        "source": "karriere_at",
-        "title": "Legal AI Workflow Specialist (w/m/d)",
-        "company": "lawyers & more executive search & consulting",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7821314",
-        "salary": "ab 70.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Ihre Aufgaben: Sie begleiten das Sales-Team bei strategisch wichtigen Kunden im Segment größerer Beratungsunternehmen, Rechtsabteilungen und juristischer Organisationen. Sie sprechen mit relevanten...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "fc34dd7cb2a903b87872115f06ef201e999fd20d0db9f22728d7ee0aeb17a0ad"
       },
       {
         "id": "karriere_at:7851566",
