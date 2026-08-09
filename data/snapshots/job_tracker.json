@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-09T08:05:02.692318Z",
+  "timestamp": "2026-08-09T09:00:04.584580Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-09T08:05:02.692318Z",
+        "last_success": "2026-08-09T09:00:04.584580Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-09T08:05:02.692318Z",
+        "last_success": "2026-08-09T09:00:04.584580Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-09T08:05:02.692318Z",
+        "last_success": "2026-08-09T09:00:04.584580Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-09T08:05:02.692318Z",
+        "last_success": "2026-08-09T09:00:04.584580Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-09T08:05:02.692318Z",
+        "last_success": "2026-08-09T09:00:04.584580Z",
         "last_error": null,
         "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-09T08:05:02.692318Z",
-        "last_error": null,
-        "count": 33
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 28
       }
     },
     "jobs": [
@@ -462,10 +462,10 @@
         "url": "https://www.karriere.at/jobs/10028990",
         "salary": "ab 2.700 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-07T09:28:00.453961Z",
-        "fingerprint": "66c5e6edfb13e04c5b09883081a4e90f8895650dd1a07184f83cd539b0e124e4"
+        "fingerprint": "caa05401d3e47915bae9e05d4764425180c46acab0c6aa77800b70891db964a8"
       },
       {
         "id": "karriere_at:10028867",
