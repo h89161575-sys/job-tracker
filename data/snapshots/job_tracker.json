@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T06:05:31.843286Z",
+  "timestamp": "2026-08-10T08:02:02.511215Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-10T06:05:31.843286Z",
+        "last_success": "2026-08-10T08:02:02.511215Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-10T06:05:31.843286Z",
+        "last_success": "2026-08-10T08:02:02.511215Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-10T06:05:31.843286Z",
+        "last_success": "2026-08-10T08:02:02.511215Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-10T06:05:31.843286Z",
+        "last_success": "2026-08-10T08:02:02.511215Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-10T06:05:31.843286Z",
+        "last_success": "2026-08-10T08:02:02.511215Z",
         "last_error": null,
-        "count": 60
+        "count": 61
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-09T22:14:38.914561Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 27
       }
     },
@@ -490,10 +490,10 @@
         "url": "https://www.karriere.at/jobs/10028644",
         "salary": "ab 48.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-05T07:20:49.171539Z",
-        "fingerprint": "b686de7cc0a86748d23b47ef4fdeea156d00ca7aa39cae9887b28119bd9b6926"
+        "fingerprint": "861af803a39f2957934bb50a5f4631e6bacab941127c71e0f07aa97de07fa97f"
       },
       {
         "id": "karriere_at:10027709",
@@ -826,10 +826,10 @@
         "url": "https://www.karriere.at/jobs/7854395",
         "salary": "ab 3.575,31 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Arbeits- und insolvenzrechtliche Beurteilung von Ansprüchen, Rasches und serviceorientiertes Ermitteln und Entscheiden im rechtlichen Rahmen, Erstellung von Bescheiden betreffend Gewährung bzw...",
         "first_seen": "2026-07-07T13:29:53.215549Z",
-        "fingerprint": "556121b9ef09a001236d62d1fc83fa683e4dfca363f6bd4cd984e17170ca78a5"
+        "fingerprint": "090849634bfe0251644a749add476c9936ea8465180cf99a27398ef14280fa21"
       },
       {
         "id": "karriere_at:7804418",
@@ -998,6 +998,20 @@
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Bearbeitung abwechslungsreicher steuerlicher Fragestellungen in spezialisierten Tax-Teams, etwa in den Bereichen internationales Steuerrecht, Verrechnungspreise, Transaktionen...",
         "first_seen": "2026-07-22T07:26:46.145818Z",
         "fingerprint": "cfc9c0eff33455a5e56d2697f0415be9b527dd9bf127478e2be073496455d168"
+      },
+      {
+        "id": "karriere_at:7857572",
+        "source": "karriere_at",
+        "title": "Senior Associate Tax Litigation | Juristische:r Mitarbeiter:in (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7857572",
+        "salary": "ab 2.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Associate Tax Litigation | Juristische:r Mitarbeiter:in (m/w/d) Mitarbeiter:in im Expert:innenteam für Finanzstraf- und Verfahrensrecht, mehr über diesen Bereich findest...",
+        "first_seen": "2026-08-10T08:02:10.111811Z",
+        "fingerprint": "9359768ed89e6fe42f38250f25de0f0d329045ff3fa1fba7201b7c13936b6ee0"
       },
       {
         "id": "karriere_at:7663257",
@@ -1785,6 +1799,7 @@
       "karriere_at:7854056",
       "karriere_at:7854395",
       "karriere_at:7854545",
+      "karriere_at:7857572",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
