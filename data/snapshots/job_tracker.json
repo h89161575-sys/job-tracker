@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-09T23:41:44.728252Z",
+  "timestamp": "2026-08-10T00:39:10.510602Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-09T23:41:44.728252Z",
+        "last_success": "2026-08-10T00:39:10.510602Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-09T23:41:44.728252Z",
+        "last_success": "2026-08-10T00:39:10.510602Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-09T23:41:44.728252Z",
+        "last_success": "2026-08-10T00:39:10.510602Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-09T23:41:44.728252Z",
+        "last_success": "2026-08-10T00:39:10.510602Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-09T23:41:44.728252Z",
+        "last_success": "2026-08-10T00:39:10.510602Z",
         "last_error": null,
         "count": 60
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-09T22:14:38.914561Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 27
       }
     },
@@ -306,6 +306,16 @@
         "fingerprint": "433d402208215da7fcfd33bf2c2bd537bc757985745a9a95381a2fe143ad1de0"
       },
       {
+        "id": "lawfinder:cmmnclx3q000004joqfgyuu0k",
+        "source": "lawfinder",
+        "title": "Senior Tax Manager:in - Tax Reporting and Transfer Pricing",
+        "company": "Vienna Insurance Group",
+        "location": "Wien",
+        "url": "https://www.lawfinder.at/jobs/cmmnclx3q000004joqfgyuu0k",
+        "first_seen": "2026-07-10T15:08:54.549445Z",
+        "fingerprint": "ad1a8cc3bdab7c23f73a2f581ca9cb7b581e69396dc8379d85620a776e6c7bec"
+      },
+      {
         "id": "lawfinder:cmj04jl730000ky04wn76iggw",
         "source": "lawfinder",
         "title": "Assistenz der Geschäftsführung (m/w/d) in Vollzeit",
@@ -324,16 +334,6 @@
         "url": "https://www.lawfinder.at/jobs/cmiytj1h00000lb04qm3rr7w6",
         "first_seen": "2026-07-10T15:08:54.549445Z",
         "fingerprint": "f60200a9d2b70e7370a223a77704c3adc92f4b41e36971de66fd0cb6cab8990a"
-      },
-      {
-        "id": "lawfinder:cmmnclx3q000004joqfgyuu0k",
-        "source": "lawfinder",
-        "title": "Senior Tax Manager:in - Tax Reporting and Transfer Pricing",
-        "company": "Vienna Insurance Group",
-        "location": "Wien",
-        "url": "https://www.lawfinder.at/jobs/cmmnclx3q000004joqfgyuu0k",
-        "first_seen": "2026-07-10T15:08:54.549445Z",
-        "fingerprint": "ad1a8cc3bdab7c23f73a2f581ca9cb7b581e69396dc8379d85620a776e6c7bec"
       },
       {
         "id": "lawfinder:cmmd8odci0000i904sr2a7875",
