@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T06:40:06.444146Z",
+  "timestamp": "2026-08-11T07:58:53.548592Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-11T06:40:06.444146Z",
+        "last_success": "2026-08-11T07:58:53.548592Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-11T05:40:30.459874Z",
-        "last_error": "UNIQA RSS error: URL error: timed out",
+        "last_success": "2026-08-11T07:58:53.548592Z",
+        "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-11T06:40:06.444146Z",
+        "last_success": "2026-08-11T07:58:53.548592Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-11T06:40:06.444146Z",
+        "last_success": "2026-08-11T07:58:53.548592Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-11T06:40:06.444146Z",
+        "last_success": "2026-08-11T07:58:53.548592Z",
         "last_error": null,
         "count": 62
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-11T05:40:30.459874Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 25
       }
     },
@@ -532,10 +532,10 @@
         "url": "https://www.karriere.at/jobs/10028644",
         "salary": "ab 48.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-05T07:20:49.171539Z",
-        "fingerprint": "861af803a39f2957934bb50a5f4631e6bacab941127c71e0f07aa97de07fa97f"
+        "fingerprint": "d2e4ee0b29f480996112c69eefca1ad77b281a59a378758607cc5f54ff2a624e"
       },
       {
         "id": "karriere_at:10027709",
@@ -608,6 +608,20 @@
         "fingerprint": "9c887495df4249f7c2f9d51f869de450ad4857c8dd714c9e870c6dcacc35d31d"
       },
       {
+        "id": "karriere_at:7858319",
+        "source": "karriere_at",
+        "title": "Legal Assistant (m|f|x) - Rechtsanwaltsassistent:in",
+        "company": "Schönherr Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7858319",
+        "salary": "2.400 € – 4.000 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
+        "first_seen": "2026-08-11T07:59:00.356475Z",
+        "fingerprint": "4008b3d9ce1db9577ff0b29dbc264dcd2854ff7232e9f3f99cd329eca2637b88"
+      },
+      {
         "id": "karriere_at:7849607",
         "source": "karriere_at",
         "title": "Senior Legal Counsel (m/w/d)",
@@ -670,12 +684,12 @@
         "company": "Bundesrechenzentrum GmbH",
         "location": "Wien",
         "url": "https://www.karriere.at/jobs/7850915",
-        "salary": "ab 66.806,88 € jährlich",
+        "salary": "ab 69.011,60 € jährlich",
         "employment_type": "Vollzeit",
         "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Ansprechperson für Vertrags- und IP- Recht mit Schwerpunkt auf Software- und Hardware sowie IT-Dienstleistungen, Betreuung von Kundenaccounts in rechtlichen Angelegenheiten und Begleitung der...",
         "first_seen": "2026-07-27T15:08:46.560804Z",
-        "fingerprint": "0b0d293d6f4a194037abd5504fb80e7685de47898669878c49c98af6c45d8ece"
+        "fingerprint": "2f0d17b171a32105d38547e27c707ad3d854eacccb82589796d4919c4d0e2144"
       },
       {
         "id": "karriere_at:7844024",
@@ -882,10 +896,10 @@
         "url": "https://www.karriere.at/jobs/7854395",
         "salary": "ab 3.575,31 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "3.8.2026",
         "snippet": "Ihre Aufgaben: Arbeits- und insolvenzrechtliche Beurteilung von Ansprüchen, Rasches und serviceorientiertes Ermitteln und Entscheiden im rechtlichen Rahmen, Erstellung von Bescheiden betreffend Gewährung bzw...",
         "first_seen": "2026-07-07T13:29:53.215549Z",
-        "fingerprint": "090849634bfe0251644a749add476c9936ea8465180cf99a27398ef14280fa21"
+        "fingerprint": "a6052269759e408c975b3da039f770ac61060f9aa9a63321ea9381a558ded2b3"
       },
       {
         "id": "karriere_at:7850282",
@@ -1787,6 +1801,7 @@
       "karriere_at:7854545",
       "karriere_at:7857572",
       "karriere_at:7857845",
+      "karriere_at:7858319",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
