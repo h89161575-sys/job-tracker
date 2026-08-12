@@ -1,48 +1,48 @@
 {
-  "timestamp": "2026-08-12T04:29:26.587916Z",
+  "timestamp": "2026-08-12T06:02:46.583007Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": "JusJobs returned 0 jobs after previously returning 17; preserving the prior baseline",
+        "last_error": "JusJobs response contained no recognizable result count or job links",
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-12T04:29:26.587916Z",
+        "last_success": "2026-08-12T06:02:46.583007Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-12T04:29:26.587916Z",
+        "last_success": "2026-08-12T06:02:46.583007Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-12T04:29:26.587916Z",
+        "last_success": "2026-08-12T06:02:46.583007Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-12T04:29:26.587916Z",
+        "last_success": "2026-08-12T06:02:46.583007Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-12T04:29:26.587916Z",
+        "last_success": "2026-08-12T06:02:46.583007Z",
         "last_error": null,
-        "count": 62
+        "count": 63
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-11T23:21:10.078716Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75000 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
         "count": 24
       }
     },
@@ -704,6 +704,20 @@
         "snippet": "Ihre Aufgaben: Rechtliche Begleitung von Kapitalmarktprojekten, Unterstützung in der Kapitalmarktcompliance und -kommunikation, Verstärkung im Bereich Compliance/Governance, Koordinierung des Beteiligungsmanagements...",
         "first_seen": "2026-07-14T06:30:38.747341Z",
         "fingerprint": "9dbb609bb4207b82707fde4c2c3eaad16308bfe35deb431050f871b9824601b9"
+      },
+      {
+        "id": "karriere_at:7858625",
+        "source": "karriere_at",
+        "title": "Senior Rechtsanwaltsanwärter:in | Anwält:in für den Bereich Capital Markets, Banking & Finance",
+        "company": "Schönherr Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7858625",
+        "salary": "ab 6.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
+        "first_seen": "2026-08-12T06:02:52.754971Z",
+        "fingerprint": "92fe046fa6fff09ba614fe111354e48fd05cc7bb7fc5362b7bad5fc23e1d7be0"
       },
       {
         "id": "karriere_at:7845209",
@@ -1788,6 +1802,7 @@
       "karriere_at:7857845",
       "karriere_at:7858319",
       "karriere_at:7858520",
+      "karriere_at:7858625",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
