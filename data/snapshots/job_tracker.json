@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-08-12T06:02:46.583007Z",
+  "timestamp": "2026-08-12T07:46:59.189565Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": "JusJobs response contained no recognizable result count or job links",
+        "last_error": "JusJobs returned 0 jobs after previously returning 17; preserving the prior baseline",
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-12T06:02:46.583007Z",
+        "last_success": "2026-08-12T07:46:59.189565Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-12T06:02:46.583007Z",
+        "last_success": "2026-08-12T07:46:59.189565Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-12T06:02:46.583007Z",
+        "last_success": "2026-08-12T07:46:59.189565Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-12T06:02:46.583007Z",
+        "last_success": "2026-08-12T07:46:59.189565Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-12T06:02:46.583007Z",
+        "last_success": "2026-08-12T07:46:59.189565Z",
         "last_error": null,
         "count": 63
       },
@@ -532,10 +532,10 @@
         "url": "https://www.karriere.at/jobs/10028644",
         "salary": "ab 48.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-05T07:20:49.171539Z",
-        "fingerprint": "d2e4ee0b29f480996112c69eefca1ad77b281a59a378758607cc5f54ff2a624e"
+        "fingerprint": "ae845e69c216f0ece8ed77e7f300dd2bae12c925bbea50eb7a1d0bf120ee8cd9"
       },
       {
         "id": "karriere_at:10027709",
