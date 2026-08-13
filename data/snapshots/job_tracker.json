@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T09:21:35.001621Z",
+  "timestamp": "2026-08-13T10:34:34.092997Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-13T09:21:35.001621Z",
+        "last_success": "2026-08-13T10:34:34.092997Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-13T09:21:35.001621Z",
+        "last_success": "2026-08-13T10:34:34.092997Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-13T09:21:35.001621Z",
+        "last_success": "2026-08-13T10:34:34.092997Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-13T09:21:35.001621Z",
+        "last_success": "2026-08-13T10:34:34.092997Z",
         "last_error": null,
         "count": 7
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-13T09:21:35.001621Z",
+        "last_success": "2026-08-13T10:34:34.092997Z",
         "last_error": null,
         "count": 64
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-13T09:21:35.001621Z",
-        "last_error": null,
-        "count": 30
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "count": 25
       }
     },
     "jobs": [
@@ -436,20 +436,6 @@
         "fingerprint": "2f0a8b80d113c9478a8f0ea3f64ddbda2317601bac782e0035f87eca4a611fd9"
       },
       {
-        "id": "karriere_at:7849607",
-        "source": "karriere_at",
-        "title": "Senior Legal Counsel (m/w/d)",
-        "company": "Kommunalkredit Austria AG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7849607",
-        "salary": "80.000 € – 90.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Ihre Aufgaben: Sie beraten und unterstützen die Fachabteilungen und Beteiligungen der Bank bei rechtlichen Fragestellungen (Corporate Inhouse) und bearbeiten unterschiedlichste Fragestellungen im Zivil-...",
-        "first_seen": "2026-07-23T12:00:35.888489Z",
-        "fingerprint": "3a448dc17a5974703c7b67fa7c071935f8cabdf522b345977c8b9be827806b85"
-      },
-      {
         "id": "karriere_at:7804418",
         "source": "karriere_at",
         "title": "Jurist (w/m/d)",
@@ -476,6 +462,20 @@
         "snippet": null,
         "first_seen": "2026-08-07T09:28:00.453961Z",
         "fingerprint": "a0b784ace95ec52dff4d7d1f4cc1f9941066e03b1e7a63b5a2e884d3fd54e685"
+      },
+      {
+        "id": "karriere_at:7849607",
+        "source": "karriere_at",
+        "title": "Senior Legal Counsel (m/w/d)",
+        "company": "Kommunalkredit Austria AG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7849607",
+        "salary": "80.000 € – 90.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Ihre Aufgaben: Sie beraten und unterstützen die Fachabteilungen und Beteiligungen der Bank bei rechtlichen Fragestellungen (Corporate Inhouse) und bearbeiten unterschiedlichste Fragestellungen im Zivil-...",
+        "first_seen": "2026-07-23T12:00:35.888489Z",
+        "fingerprint": "3a448dc17a5974703c7b67fa7c071935f8cabdf522b345977c8b9be827806b85"
       },
       {
         "id": "karriere_at:10029477",
@@ -598,10 +598,10 @@
         "url": "https://www.karriere.at/jobs/10028867",
         "salary": "ab 3.599,53 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-06T10:15:37.840805Z",
-        "fingerprint": "afdb84c6d820c64e74661581ee391058d45efb189bf36a65f5590bf09d378e6b"
+        "fingerprint": "ad07abe117938976a973736fed5d23b12c2533d010522d259f22cf7407ca3653"
       },
       {
         "id": "karriere_at:10028644",
