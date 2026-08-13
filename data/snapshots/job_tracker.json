@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T06:07:42.981770Z",
+  "timestamp": "2026-08-13T07:58:10.053148Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-13T06:07:42.981770Z",
+        "last_success": "2026-08-13T07:58:10.053148Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-13T06:07:42.981770Z",
+        "last_success": "2026-08-13T07:58:10.053148Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-13T06:07:42.981770Z",
+        "last_success": "2026-08-13T07:58:10.053148Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-13T06:07:42.981770Z",
+        "last_success": "2026-08-13T07:58:10.053148Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-13T06:07:42.981770Z",
+        "last_success": "2026-08-13T07:58:10.053148Z",
         "last_error": null,
-        "count": 62
+        "count": 64
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-13T02:41:28.919551Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 25
+        "last_success": "2026-08-13T07:58:10.053148Z",
+        "last_error": null,
+        "count": 30
       }
     },
     "jobs": [
@@ -426,18 +426,18 @@
         "fingerprint": "f4d8488b76d20d9817a3ea197abe36d68a2859cdf728c5b0e9079af1790afba6"
       },
       {
-        "id": "karriere_at:10028990",
+        "id": "karriere_at:7804418",
         "source": "karriere_at",
-        "title": "Assistent:in in der Rechtsabteilung (m/w/d)",
-        "company": "Österreichische Notariatskammer",
+        "title": "Jurist (w/m/d)",
+        "company": "EuroTeleSites",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10028990",
-        "salary": "ab 2.700 € monatlich",
+        "url": "https://www.karriere.at/jobs/7804418",
+        "salary": "ab 3.107 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-08-07T09:28:00.453961Z",
-        "fingerprint": "1c649ce86ad16f66d4976e415cea29aaf7b4d7b9eceea8b0d74823e722f9badf"
+        "published_at": "vor 2 Tagen veröffentlicht",
+        "snippet": "Jurist (w/m/d) Wien, Lassallestraße 9 Jetzt bewerben Wir sind viel mehr als nur ein Funkturmunternehmen. Als unabhängiger Betreiber von Mobilfunkinfrastruktur gestalten wir...",
+        "first_seen": "2026-06-18T12:19:34.302256Z",
+        "fingerprint": "2ccfc6431ab667238ecf7b06d9e37b31564105f9fadb52b0f35a31a05560fd09"
       },
       {
         "id": "karriere_at:7849607",
@@ -454,18 +454,32 @@
         "fingerprint": "3a448dc17a5974703c7b67fa7c071935f8cabdf522b345977c8b9be827806b85"
       },
       {
-        "id": "karriere_at:7804418",
+        "id": "karriere_at:10028990",
         "source": "karriere_at",
-        "title": "Jurist (w/m/d)",
-        "company": "EuroTeleSites",
+        "title": "Assistent:in in der Rechtsabteilung (m/w/d)",
+        "company": "Österreichische Notariatskammer",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7804418",
-        "salary": "ab 3.107 € monatlich",
+        "url": "https://www.karriere.at/jobs/10028990",
+        "salary": "ab 2.700 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": "Jurist (w/m/d) Wien, Lassallestraße 9 Jetzt bewerben Wir sind viel mehr als nur ein Funkturmunternehmen. Als unabhängiger Betreiber von Mobilfunkinfrastruktur gestalten wir...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "2ccfc6431ab667238ecf7b06d9e37b31564105f9fadb52b0f35a31a05560fd09"
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-07T09:28:00.453961Z",
+        "fingerprint": "1c649ce86ad16f66d4976e415cea29aaf7b4d7b9eceea8b0d74823e722f9badf"
+      },
+      {
+        "id": "karriere_at:10029477",
+        "source": "karriere_at",
+        "title": "Unternehmensjurist:in (m/w/d)",
+        "company": "Verkehrsverbund Ost-Region (VOR) Gesellschaft m.b.H.",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10029477",
+        "salary": "ab 46.871 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-13T07:58:14.386351Z",
+        "fingerprint": "4ec358323985bb4874544e65ee78b189f7b92ccfe0f4a72ff07f9a0b3d99311c"
       },
       {
         "id": "karriere_at:10028461",
@@ -588,10 +602,10 @@
         "url": "https://www.karriere.at/jobs/10028644",
         "salary": "ab 48.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "5.8.2026",
         "snippet": null,
         "first_seen": "2026-08-05T07:20:49.171539Z",
-        "fingerprint": "ae845e69c216f0ece8ed77e7f300dd2bae12c925bbea50eb7a1d0bf120ee8cd9"
+        "fingerprint": "8bc438899f62c9e983436c6d74f85416484578aa78baeb72b535effd95e0d55e"
       },
       {
         "id": "karriere_at:10027709",
@@ -658,10 +672,10 @@
         "url": "https://www.karriere.at/jobs/7858319",
         "salary": "2.400 € – 4.000 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-08-11T07:59:00.356475Z",
-        "fingerprint": "010541ba9a932cd43c62fa532b9b37dce9ab7af751705adb9826ab9b8f8eca9a"
+        "fingerprint": "e5942ceb867f449379722b75263525dacdaae88663eb09fe2a031fc95f58d0c2"
       },
       {
         "id": "karriere_at:7852397",
@@ -718,6 +732,20 @@
         "snippet": "Ihre Aufgaben: Ansprechperson für Vertrags- und IP- Recht mit Schwerpunkt auf Software- und Hardware sowie IT-Dienstleistungen, Betreuung von Kundenaccounts in rechtlichen Angelegenheiten und Begleitung der...",
         "first_seen": "2026-07-27T15:08:46.560804Z",
         "fingerprint": "c18bb176215556f8e90d5f797a039c6fad8c8685ce7118fe2dbed93e7d25b332"
+      },
+      {
+        "id": "karriere_at:7859371",
+        "source": "karriere_at",
+        "title": "Expert*in für Vertragsrecht - IT-Dienstleistungen",
+        "company": "Eblinger & Partner",
+        "location": "Wien Nord, Langenzersdorf",
+        "url": "https://www.karriere.at/jobs/7859371",
+        "salary": "ab 55.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Ihre Aufgaben: Rechtliche Beratung des Managements und interner Stakeholder, insbesondere im Gesellschafts-, Unternehmens- und Vertragsrecht, Erstellung, Prüfung sowie Verwaltung nationaler und internationaler...",
+        "first_seen": "2026-08-13T07:58:14.386351Z",
+        "fingerprint": "a4ea6bba0263eada2bfb572cac4fbb3fcc9bc7adda2109e2ace85d556b07934d"
       },
       {
         "id": "karriere_at:7854056",
@@ -1721,6 +1749,7 @@
       "karriere_at:10028867",
       "karriere_at:10028990",
       "karriere_at:10029166",
+      "karriere_at:10029477",
       "karriere_at:7663251",
       "karriere_at:7663254",
       "karriere_at:7663257",
@@ -1804,6 +1833,7 @@
       "karriere_at:7858319",
       "karriere_at:7858520",
       "karriere_at:7858625",
+      "karriere_at:7859371",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
