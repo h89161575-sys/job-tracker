@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-12T23:54:29.839812Z",
+  "timestamp": "2026-08-13T02:41:28.919551Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-12T23:54:29.839812Z",
+        "last_success": "2026-08-13T02:41:28.919551Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-12T23:54:29.839812Z",
+        "last_success": "2026-08-13T02:41:28.919551Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-12T23:54:29.839812Z",
+        "last_success": "2026-08-13T02:41:28.919551Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-12T23:54:29.839812Z",
+        "last_success": "2026-08-13T02:41:28.919551Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-12T23:54:29.839812Z",
+        "last_success": "2026-08-13T02:41:28.919551Z",
         "last_error": null,
         "count": 62
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-12T22:56:15.842045Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 24
+        "last_success": "2026-08-13T02:41:28.919551Z",
+        "last_error": null,
+        "count": 30
       }
     },
     "jobs": [
@@ -468,6 +468,34 @@
         "fingerprint": "9230637dd72041159f72b7c2422f03758f77fb786d8f02a53a7a866547c9b179"
       },
       {
+        "id": "karriere_at:10028461",
+        "source": "karriere_at",
+        "title": "IT-affine/r Unternehmensjurist:in (m/w/d)",
+        "company": "Sportsbook Software GmbH",
+        "location": "Wien 22. Bezirk (Donaustadt)",
+        "url": "https://www.karriere.at/jobs/10028461",
+        "salary": "ab 70.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-04T18:19:39.603160Z",
+        "fingerprint": "3b6d04949dd3a5d0c13d38a4721f6c24eab8e7d6b5cfe217f7165bb024f76ae7"
+      },
+      {
+        "id": "karriere_at:10026561",
+        "source": "karriere_at",
+        "title": "Legal Officer (w/m/d)",
+        "company": "Bechtle Austria GmbH",
+        "location": "Traun, Wien, Wiener Neudorf",
+        "url": "https://www.karriere.at/jobs/10026561",
+        "salary": "ab 70.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-16T07:06:38.089637Z",
+        "fingerprint": "ca0b8e4313ad1b44e949487d2e459448e4ca8d4066a1e96275c0cc4f91bfb5c6"
+      },
+      {
         "id": "karriere_at:10023528",
         "source": "karriere_at",
         "title": "Unternehmensjurist (m/w/d)",
@@ -606,34 +634,6 @@
         "snippet": null,
         "first_seen": "2026-07-16T11:20:32.476615Z",
         "fingerprint": "2e8cd1543fa1f44f3825bf0e24f6b59ac6682826f432a7034695133390b341d9"
-      },
-      {
-        "id": "karriere_at:10026561",
-        "source": "karriere_at",
-        "title": "Legal Officer (w/m/d)",
-        "company": "Bechtle Austria GmbH",
-        "location": "Traun, Wien, Wiener Neudorf",
-        "url": "https://www.karriere.at/jobs/10026561",
-        "salary": "ab 70.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "4.8.2026",
-        "snippet": null,
-        "first_seen": "2026-07-16T07:06:38.089637Z",
-        "fingerprint": "fcfd5eea61ca86d0fa2e128345b1af90660b164c62af50b268961efa63befbb7"
-      },
-      {
-        "id": "karriere_at:10028461",
-        "source": "karriere_at",
-        "title": "IT-affine/r Unternehmensjurist:in (m/w/d)",
-        "company": "Sportsbook Software GmbH",
-        "location": "Wien 22. Bezirk (Donaustadt)",
-        "url": "https://www.karriere.at/jobs/10028461",
-        "salary": "ab 70.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "3.8.2026",
-        "snippet": null,
-        "first_seen": "2026-08-04T18:19:39.603160Z",
-        "fingerprint": "f23309bfbd6ec27d5c7e58e97e4a19d20ffcd2de1770b411dc427d6ebe64a7c1"
       },
       {
         "id": "karriere_at:7858319",
@@ -1294,6 +1294,21 @@
         "fingerprint": "f69f2874652dc2dd344132228cdb3299fb44b32f598f8babebacf6d3c6c87e00"
       },
       {
+        "id": "stepstone:997275",
+        "source": "stepstone",
+        "title": "Jurist:in in der Abteilung Gesundheitssystem, Prävention und Versorgung (GPV)",
+        "company": "Dachverband der Sozialversicherungsträger",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Jurist-in-in-der-Abteilung-Gesundheitssystem-Praevention-und-Versorgung-GPV-Wien-Dachverband-der-Sozialversicherungstraeger--997275-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "vor 59 Minuten",
+        "department": "Teilweise Home-Office, NEU",
+        "snippet": "Jurist:in in der Abteilung Gesundheitssystem, Prävention und Versorgung (GPV) Dachverband der Sozialversicherungsträger Wien Teilweise Home-Office Der Dachverband der Sozialversicherungsträger mit Sitz in Wien nimmt die allgemeinen und gesamtwirtschaftlichen Interessen der Sozialversicherungsträger wahr. Er koordiniert die Vollziehungsfähigkeit und die trägerübergreifende Verwaltung, entsendet Vertreterinnen und Vertreter in verschiedenste Gre Der Dachverband der Sozialversicherungsträger mit Sitz in Wien nimmt die allgemeinen und gesamtwirtschaftlichen Interessen der Sozialversicherungsträger wahr. Er koordiniert die Vollziehungsfähigkeit und die trägerübergreifende Verwaltung, entsendet Vertreterinnen und Vertreter in verschiedenste Gre mehr vor 59 Minuten NEU",
+        "first_seen": "2026-08-13T02:41:39.432450Z",
+        "fingerprint": "9ed39ca83acb13886ab7028fc96c396c5ba9f9bce040e85c275752bf82e65c35"
+      },
+      {
         "id": "stepstone:996435",
         "source": "stepstone",
         "title": "Jurist:in - Insolvenzreferent/in (m/w/d) Wien",
@@ -1332,11 +1347,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Junior-Legal-Counsel-Unternehmensjurist-Junior-m-w-d-Wien-Roxcel-Holding-GmbH--996041-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 9 Stunden",
+        "published_at": "vor 23 Stunden",
         "department": "NEU",
-        "snippet": "Junior Legal Counsel / Unternehmensjurist (Junior) (m/w/d) Roxcel Holding GmbH Wien Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel / Unternehmensjurist (Junior) sind Sie Teil der Group Legal Abteilung und arbeiten eng mit dem G Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel / Unternehmensjurist (Junior) sind Sie Teil der Group Legal Abteilung und arbeiten eng mit dem G mehr vor 9 Stunden NEU",
+        "snippet": "Junior Legal Counsel / Unternehmensjurist (Junior) (m/w/d) Roxcel Holding GmbH Wien Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel / Unternehmensjurist (Junior) sind Sie Teil der Group Legal Abteilung und arbeiten eng mit dem G Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel / Unternehmensjurist (Junior) sind Sie Teil der Group Legal Abteilung und arbeiten eng mit dem G mehr vor 23 Stunden NEU",
         "first_seen": "2026-08-05T21:22:28.870558Z",
-        "fingerprint": "df4f3962cbb9be5b028fbf3f2d57d399ec4172e1dc1753513bd0a025e17a3839"
+        "fingerprint": "879d4c0fecea930a825460349f3c744c263953354ae8a74d8d18ae7e2ab66156"
       },
       {
         "id": "stepstone:981820",
@@ -1384,6 +1399,21 @@
         "fingerprint": "54ab39eacacb17100848930475e0ab8ab79f59134bbadedaf249b8c28db005ce"
       },
       {
+        "id": "stepstone:945281",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Real Estate Transactions (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Real-Estate-Transactions-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--945281-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "vor 9 Stunden",
+        "department": "Teilweise Home-Office, NEU",
+        "snippet": "Rechtsanwaltsanwärter:in Real Estate Transactions (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run mehr vor 9 Stunden NEU",
+        "first_seen": "2026-07-04T08:13:32.144750Z",
+        "fingerprint": "e6002a437f5e5f291a2082cd86a8b6486dbcbb1d77145c85397652b23097d0fd"
+      },
+      {
         "id": "stepstone:934778",
         "source": "stepstone",
         "title": "Rechtsanwält:in Corporate Restructuring (d/f/m)",
@@ -1422,11 +1452,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-w-m-d-mit-gesellschaftsrechtlicher-Expertise-Wien-l-m-executive-search-consulting-gmbh--982028-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 1 Tag",
+        "published_at": "vor 2 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech mehr vor 1 Tag",
+        "snippet": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise l & m executive search & consulting gmbh Wien Teilweise Home-Office lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech mehr vor 2 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "23353952bc319d986949594d9c58cec7ceffb05cbe01339994b41805159e38d9"
+        "fingerprint": "5ec0e6c481067a5fa56b334a625c0018351c4456b066039c743b0ff366c9c32e"
       },
       {
         "id": "stepstone:976441",
@@ -1467,26 +1497,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-1010-Wien-Bischof-Zorn-Partner-Rechtsanwaelte-GmbH--996409-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 5 Tagen",
+        "published_at": "vor 6 Tagen",
         "department": "Schnelle Bewerbung",
-        "snippet": "Rechtsanwaltsanwärter/-in Bischof Zorn + Partner Rechtsanwälte GmbH 1010 Wien Schnelle Bewerbung Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T mehr vor 5 Tagen",
+        "snippet": "Rechtsanwaltsanwärter/-in Bischof Zorn + Partner Rechtsanwälte GmbH 1010 Wien Schnelle Bewerbung Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T mehr vor 6 Tagen",
         "first_seen": "2026-08-07T08:09:31.554703Z",
-        "fingerprint": "787d1ab3a84ce65a45a4db047532097c7917597a0e9f4fd96e1cfa847c56db16"
-      },
-      {
-        "id": "stepstone:945281",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Real Estate Transactions (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Real-Estate-Transactions-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--945281-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "vor 1 Woche",
-        "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwaltsanwärter:in Real Estate Transactions (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run mehr vor 1 Woche",
-        "first_seen": "2026-07-04T08:13:32.144750Z",
-        "fingerprint": "f793abf066843560b7d0c1273b3f631f26bd9f71f31cd5261d8032ee1447b2aa"
+        "fingerprint": "b33242294e8d97acd223e26b96983bee7799145d38545f6d0daac8fb2d6a153b"
       },
       {
         "id": "stepstone:994936",
@@ -1497,11 +1512,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-m-w-d-im-Immobilienrecht-Prozessrecht-Wien-l-m-executive-search-consulting-gmbh--994936-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 14 Stunden",
-        "department": "NEU",
-        "snippet": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht l & m executive search & consulting gmbh Wien Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges mehr vor 14 Stunden NEU",
+        "published_at": "vor 1 Tag",
+        "department": null,
+        "snippet": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht l & m executive search & consulting gmbh Wien Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges mehr vor 1 Tag",
         "first_seen": "2026-07-28T23:27:24.331085Z",
-        "fingerprint": "8045c4c7d62fff2f79832994fc870ea725b17b7d6b98a78dc46219bc971f0e45"
+        "fingerprint": "a8b03f2015f66c4e67abef96239320f2dc15047c2af1f1e886a3dc2067ac5212"
       },
       {
         "id": "stepstone:989494",
@@ -1512,11 +1527,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsschutzexpert-in-Wien-Gewerkschaft-Vida--989494-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 2 Tagen",
+        "published_at": "vor 3 Tagen",
         "department": "Schnelle Bewerbung",
-        "snippet": "Rechtsschutzexpert:in Gewerkschaft Vida Wien Schnelle Bewerbung Die Gewerkschaft vida setzt sich mit Leidenschaft für die Rechte und Interessen von Arbeitnehmer:innen ein. vida sucht Rechtsschutzexpert:in Die Gewerkschaft vida setzt sich mit Leidenschaft für die Rechte und Interessen von Arbeitnehmer:innen ein. vida sucht Rechtsschutzexpert:in mehr vor 2 Tagen",
+        "snippet": "Rechtsschutzexpert:in Gewerkschaft Vida Wien Schnelle Bewerbung Die Gewerkschaft vida setzt sich mit Leidenschaft für die Rechte und Interessen von Arbeitnehmer:innen ein. vida sucht Rechtsschutzexpert:in Die Gewerkschaft vida setzt sich mit Leidenschaft für die Rechte und Interessen von Arbeitnehmer:innen ein. vida sucht Rechtsschutzexpert:in mehr vor 3 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "b3c77863d6d5d3b64ce74ae2d8bdc0a416e4b3cf08965b9ef5fd6a19318cb9bd"
+        "fingerprint": "af29fc20da0c641e78e25fd48521e53068abb3a07ad5016374ede733bcd3b58a"
       },
       {
         "id": "stepstone:995373",
