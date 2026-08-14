@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-14T08:52:05.720433Z",
+  "timestamp": "2026-08-14T09:56:42.234715Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-14T08:52:05.720433Z",
+        "last_success": "2026-08-14T09:56:42.234715Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
         "last_success": "2026-08-14T08:52:05.720433Z",
-        "last_error": null,
+        "last_error": "UNIQA RSS error: URL error: timed out",
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-14T08:52:05.720433Z",
+        "last_success": "2026-08-14T09:56:42.234715Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-14T08:52:05.720433Z",
+        "last_success": "2026-08-14T09:56:42.234715Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-14T08:52:05.720433Z",
+        "last_success": "2026-08-14T09:56:42.234715Z",
         "last_error": null,
         "count": 62
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-14T04:30:48.710618Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 24
+        "last_success": "2026-08-14T09:56:42.234715Z",
+        "last_error": null,
+        "count": 29
       }
     },
     "jobs": [
@@ -588,10 +588,10 @@
         "url": "https://www.karriere.at/jobs/10028867",
         "salary": "ab 3.599,53 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "6.8.2026",
         "snippet": null,
         "first_seen": "2026-08-06T10:15:37.840805Z",
-        "fingerprint": "ad07abe117938976a973736fed5d23b12c2533d010522d259f22cf7407ca3653"
+        "fingerprint": "31510ec32f58a7c5239c8550195e59ba86abd4d419d3499c91ec98fbfb87d755"
       },
       {
         "id": "karriere_at:10028644",
@@ -1302,11 +1302,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Juristin-w-m-d-Wien-Aerztekammer-fuer-Wien--992085-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 10 Stunden",
+        "published_at": "vor 2 Stunden",
         "department": "Schnelle Bewerbung, NEU",
-        "snippet": "Jurist*in (w/m/d) Ärztekammer für Wien Wien Schnelle Bewerbung Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi mehr vor 10 Stunden NEU",
+        "snippet": "Jurist*in (w/m/d) Ärztekammer für Wien Wien Schnelle Bewerbung Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi mehr vor 2 Stunden NEU",
         "first_seen": "2026-07-09T22:06:32.958030Z",
-        "fingerprint": "d580c297a7855b0ff533f51c23bbc165b1abdac0e8dcfe0569151a64b7e6e6b9"
+        "fingerprint": "f0ecdba90b856fecfd1dfe830a3567dc1fad54ca2597ed6ab38adfea34678d59"
       },
       {
         "id": "stepstone:997275",
@@ -1362,11 +1362,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Restrukturierung-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934776-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 1 Tag",
-        "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwaltsanwärter:in Restrukturierung (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 1 Tag",
+        "published_at": "vor 17 Stunden",
+        "department": "Teilweise Home-Office, NEU",
+        "snippet": "Rechtsanwaltsanwärter:in Restrukturierung (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 17 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "2f67ce73c535db7433935a7e02fbb2967c1224916ba3f7c35707685828344c49"
+        "fingerprint": "cc6145c50b4c44b940f6f8d91d9e9ef9c2f52ee5818455cd0a91274205edbb12"
       },
       {
         "id": "stepstone:934778",
@@ -1377,11 +1377,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Corporate-Restructuring-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934778-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 1 Tag",
-        "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwält:in Corporate Restructuring (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 1 Tag",
+        "published_at": "vor 18 Stunden",
+        "department": "Teilweise Home-Office, NEU",
+        "snippet": "Rechtsanwält:in Corporate Restructuring (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 18 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "15bca5370f5b640dbdbd88425c223790b48877eeeb04d0dad1d3109e8ceafc45"
+        "fingerprint": "068e31a01b969364a29dab3d74f7cc5fc1891d6eadfe12452a68ac7569e2ec77"
       },
       {
         "id": "stepstone:995186",
@@ -1422,11 +1422,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-1010-Wien-Bischof-Zorn-Partner-Rechtsanwaelte-GmbH--996409-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 10 Stunden",
+        "published_at": "vor 2 Stunden",
         "department": "Schnelle Bewerbung, NEU",
-        "snippet": "Rechtsanwaltsanwärter/-in Bischof Zorn + Partner Rechtsanwälte GmbH 1010 Wien Schnelle Bewerbung Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T mehr vor 10 Stunden NEU",
+        "snippet": "Rechtsanwaltsanwärter/-in Bischof Zorn + Partner Rechtsanwälte GmbH 1010 Wien Schnelle Bewerbung Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T Als eine seit mehr als 25 Jahren erfolgreich tätige Rechtsanwaltskanzlei beraten wir in enger Zusammenarbeit mit einer Steuerberatungskanzlei Mandanten in allen wirtschaftsrechtlichen Angelegenheiten, mit Schwerpunkten im Immobilien- und Gesellschaftsrecht sowie Bau(prozess)recht. Als Teil unseres T mehr vor 2 Stunden NEU",
         "first_seen": "2026-08-07T08:09:31.554703Z",
-        "fingerprint": "a4d72dc45c80a114a304bbd528338f966ea9038ebbeab2e5c24dde055ed1c0d1"
+        "fingerprint": "1b17d7fe0d38c7df6471094c26eac563af4e06d4adbfdc93ee6e0c0a9b201e54"
       },
       {
         "id": "stepstone:992718",
@@ -1452,11 +1452,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Real-Estate-Transactions-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--945281-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 2 Tagen",
+        "published_at": "vor 1 Tag",
         "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwaltsanwärter:in Real Estate Transactions (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run mehr vor 2 Tagen",
+        "snippet": "Rechtsanwaltsanwärter:in Real Estate Transactions (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run mehr vor 1 Tag",
         "first_seen": "2026-07-04T08:13:32.144750Z",
-        "fingerprint": "2a4bfc9d72224bf0ceb560cdfb99226d3d078c1ad982d79ad3df7714ef5c7b18"
+        "fingerprint": "512b9e97bfdd804e71243ade868e1f9471f04b2e105b4ab985fcabe0d29349d9"
       },
       {
         "id": "stepstone:981820",
@@ -1467,11 +1467,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Zivilrecht-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--981820-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 3 Tagen",
+        "published_at": "vor 2 Tagen",
         "department": null,
-        "snippet": "Rechtsanwaltsanwärter:in Zivilrecht (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 3 Tagen",
+        "snippet": "Rechtsanwaltsanwärter:in Zivilrecht (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 2 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "5dd57cf414b0ba3e52ddb850d38338ffeb213cbadfb3b282a16be0171826cb34"
+        "fingerprint": "ad9dd0dea52248f706b77c444d2f9ddd6776be6e0de5fc36e7d76672c0743f34"
       },
       {
         "id": "stepstone:982028",
@@ -1497,11 +1497,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 6 Tagen",
+        "published_at": "vor 5 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 6 Tagen",
+        "snippet": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 5 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "b390bded6256687a81fa6e7a2d32b8a74614f61564fff9d136724ffe83bd32f6"
+        "fingerprint": "2d61b4e3f7048d2e862440d9e380353510a5ddc68efb587c5f9d9fbd1ca826a5"
       },
       {
         "id": "stepstone:993277",
@@ -1602,11 +1602,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Anwaltsassistent-in-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947468-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 5 Tagen",
+        "published_at": "vor 4 Tagen",
         "department": "Teilweise Home-Office",
-        "snippet": "Anwaltsassistent:in (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 5 Tagen",
+        "snippet": "Anwaltsassistent:in (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 4 Tagen",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "42c4a05bf0fe8502fb8bfc24a2299dddf3f050622c622149f09f0637f36c4076"
+        "fingerprint": "3d64a4391442705a38e7a0cdeea8725f3b3f6ddbff8494e9c9ddc6008298eb86"
       },
       {
         "id": "stepstone:947469",
@@ -1632,11 +1632,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Wirtschaftsingenieur-Ingenieur-Betriebswirt-m-w-d-als-Kundenberater-in-im-Vertriebsinnen-und-Aussendienst-Wien-Oesterreich-Intermas-Austria-Gesellschaft-m-b-H--968445-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 1 Tag",
-        "department": null,
-        "snippet": "Wirtschaftsingenieur / Ingenieur / Betriebswirt (m/w/d) als Kundenberater/in im Vertriebsinnen- und Außendienst Intermas Austria Gesellschaft m.b.H. Wien, Österreich Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. vor 1 Tag",
+        "published_at": "vor 17 Stunden",
+        "department": "NEU",
+        "snippet": "Wirtschaftsingenieur / Ingenieur / Betriebswirt (m/w/d) als Kundenberater/in im Vertriebsinnen- und Außendienst Intermas Austria Gesellschaft m.b.H. Wien, Österreich Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. Für unsere Tochtergesellschaft in Wien suchen wir Sie zum nächstmöglichen Termin. vor 17 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "f1633b96c6483f723c06ab5b24639b6857670c68f77783a0aab626f1e24f0893"
+        "fingerprint": "488823a23e837ba78bcf9d4d4b9e2152a210e122c99fa0d0c12da575607a911a"
       },
       {
         "id": "stepstone:978610",
