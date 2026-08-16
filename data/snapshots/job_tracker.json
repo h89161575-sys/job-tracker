@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-08-16T01:54:25.614273Z",
+  "timestamp": "2026-08-16T03:09:09.933040Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": "JusJobs returned 0 jobs after previously returning 17; preserving the prior baseline",
+        "last_error": "JusJobs rendered 4 result card(s) at offset 0 but parsed 0 unique job link(s)",
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-16T01:54:25.614273Z",
+        "last_success": "2026-08-16T03:09:09.933040Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-16T01:54:25.614273Z",
+        "last_success": "2026-08-16T03:09:09.933040Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-16T01:54:25.614273Z",
+        "last_success": "2026-08-16T03:09:09.933040Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-16T01:54:25.614273Z",
+        "last_success": "2026-08-16T03:09:09.933040Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-16T01:54:25.614273Z",
+        "last_success": "2026-08-16T03:09:09.933040Z",
         "last_error": null,
         "count": 61
       },
@@ -282,6 +282,18 @@
         "fingerprint": "0e712b328e6f9e565d4a60f702d4815c5459a34cca7428216bfcfb26c773d076"
       },
       {
+        "id": "uniqa:ce0314c94d8ce3fb",
+        "source": "uniqa",
+        "title": "Jurist:in Betrug & Regress",
+        "company": "UNIQA",
+        "location": "Wien, AT",
+        "url": "https://careers.uniqagroup.com/job/Wien-Juristin-Betrug-&-Regress/1366158433/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+        "published_at": "Sun, 16 Aug 2026 2:00:00 GMT",
+        "snippet": "Competencies: Arbeitet mit anderen zusammen; Effektive Lösungen finden; Kundenorientierung Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein besseres Leben. Wir nutzen unsere individuellen Fähigkeiten, um zusammen eine bessere Zukunft zu gestalten. Erzähle uns von deinen Stärken und bewirb dich bei der RSG - Risiko Service und Sachverständigen GmbH , der Sachverständigengesellschaft der UNIQA, als Jurist:in Betrug & Regress Das erwartet dich: Eigenverantwortliche Bearbeitung von Betrugsverdachts- und Regressfällen inklusive rechtlicher und technischer Prüfung von Schadenfällen (z. B. auf Regress- und",
+        "first_seen": "2026-07-17T15:50:10.201473Z",
+        "fingerprint": "d0e003d59e38b79a0f188d61d99c56a3fa677bc1d2eaaeb46712935ce9ff7275"
+      },
+      {
         "id": "uniqa:85274a4a8c59d054",
         "source": "uniqa",
         "title": "Schadenreferent:in / Jurist:in KFZ Schaden (Wien/Linz)",
@@ -292,18 +304,6 @@
         "snippet": "Competencies: Arbeitet mit anderen zusammen; Effektive Lösungen finden; Handlungsorientiert; Kundenorientierung Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein besseres Leben. Wir nutzen unsere individuellen Fähigkeiten, um zusammen eine bessere Zukunft zu gestalten. Erzähle uns von deinen Stärken und bewirb dich als Schadenreferent:in / Jurist:in KFZ Schaden (Wien/Linz) Das erwartet dich: Eigenständige Regulierung von KFZ Schadensfällen Einholung und Prüfung von Sachverständigengutachten Korrespondenz und Verhandlung mit Kund:innen, Anspruchsstellern und Rechtsanwält:innen Ermittlung und Auszahlung",
         "first_seen": "2026-07-23T12:00:34.873261Z",
         "fingerprint": "0f013516420ff2f151e0a8944942d2b821971dabc6e8d6bf63ee070182411f10"
-      },
-      {
-        "id": "uniqa:ce0314c94d8ce3fb",
-        "source": "uniqa",
-        "title": "Jurist:in Betrug & Regress",
-        "company": "UNIQA",
-        "location": "Wien, AT",
-        "url": "https://careers.uniqagroup.com/job/Wien-Juristin-Betrug-&-Regress/1366158433/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
-        "published_at": "Sat, 18 Jul 2026 2:00:00 GMT",
-        "snippet": "Competencies: Arbeitet mit anderen zusammen; Effektive Lösungen finden; Kundenorientierung Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein besseres Leben. Wir nutzen unsere individuellen Fähigkeiten, um zusammen eine bessere Zukunft zu gestalten. Erzähle uns von deinen Stärken und bewirb dich bei der RSG - Risiko Service und Sachverständigen GmbH , der Sachverständigengesellschaft der UNIQA, als Jurist:in Betrug & Regress Das erwartet dich: Eigenverantwortliche Bearbeitung von Betrugsverdachts- und Regressfällen inklusive rechtlicher und technischer Prüfung von Schadenfällen (z. B. auf Regress- und",
-        "first_seen": "2026-07-17T15:50:10.201473Z",
-        "fingerprint": "433d402208215da7fcfd33bf2c2bd537bc757985745a9a95381a2fe143ad1de0"
       },
       {
         "id": "lawfinder:cmmnclx3q000004joqfgyuu0k",
