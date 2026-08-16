@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-16T12:10:24.004959Z",
+  "timestamp": "2026-08-16T13:05:07.121271Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,31 +11,31 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-16T12:10:24.004959Z",
+        "last_success": "2026-08-16T13:05:07.121271Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-16T12:10:24.004959Z",
+        "last_success": "2026-08-16T13:05:07.121271Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-16T12:10:24.004959Z",
+        "last_success": "2026-08-16T13:05:07.121271Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-16T12:10:24.004959Z",
+        "last_success": "2026-08-16T13:05:07.121271Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-16T12:10:24.004959Z",
+        "last_success": "2026-08-16T13:05:07.121271Z",
         "last_error": null,
         "count": 61
       },
@@ -366,16 +366,6 @@
         "fingerprint": "563402fb5926690cbcc073303834c82b85e75fe2c706763caa9a34c989a23bf1"
       },
       {
-        "id": "derstandard:a328019f-0787-3ac7-99f5-0e2788ea0ef1",
-        "source": "derstandard",
-        "title": "Senior Associate Tax Litigation | Juristische:r Mitarbeiter:in (m/w/d)",
-        "company": "BDO Austria GmbH",
-        "location": "1100 Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/a328019f-0787-3ac7-99f5-0e2788ea0ef1",
-        "first_seen": "2026-08-10T13:38:07.124294Z",
-        "fingerprint": "4c98ef107b2665c916a4a049376b4328ffef088a3bb3d736294139fae2825149"
-      },
-      {
         "id": "derstandard:946f2e3e-9f35-3f24-bbc0-d1fc87e1d6e2",
         "source": "derstandard",
         "title": "Juristische Assistenz und Datenschutz-Koordinator (m/w/d)",
@@ -384,6 +374,16 @@
         "url": "https://jobs.derstandard.at/job/946f2e3e-9f35-3f24-bbc0-d1fc87e1d6e2",
         "first_seen": "2026-06-23T17:42:30.077945Z",
         "fingerprint": "9e6dfe61cbf0d399d67128813ec270f7aaa9f012756bc08b1c75d35d7821bcf9"
+      },
+      {
+        "id": "derstandard:a328019f-0787-3ac7-99f5-0e2788ea0ef1",
+        "source": "derstandard",
+        "title": "Senior Associate Tax Litigation | Juristische:r Mitarbeiter:in (m/w/d)",
+        "company": "BDO Austria GmbH",
+        "location": "1100 Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/a328019f-0787-3ac7-99f5-0e2788ea0ef1",
+        "first_seen": "2026-08-10T13:38:07.124294Z",
+        "fingerprint": "4c98ef107b2665c916a4a049376b4328ffef088a3bb3d736294139fae2825149"
       },
       {
         "id": "derstandard:8f1ba88f-9a44-3649-aee7-467c9c481a60",
@@ -426,20 +426,6 @@
         "fingerprint": "f4d8488b76d20d9817a3ea197abe36d68a2859cdf728c5b0e9079af1790afba6"
       },
       {
-        "id": "karriere_at:7858520",
-        "source": "karriere_at",
-        "title": "Jurist im Underwriting (m/w/d)",
-        "company": "ERGO Versicherung AG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7858520",
-        "salary": "ab 46.944,38 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Ihre Aufgaben: Prüfung und Entscheidung von komplexeren Neu- und Änderungsanträgen (insbesondere außertariflichen Einzelverträgen und von Sonderengagements) Teilnahme an Kundengesprächen...",
-        "first_seen": "2026-08-11T13:36:23.770452Z",
-        "fingerprint": "f620e82a4daf2dd16a9fee6ab6a4ce3f0a36cf8e2bfa9e665fd6eac77764cf22"
-      },
-      {
         "id": "karriere_at:10025968",
         "source": "karriere_at",
         "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
@@ -452,6 +438,20 @@
         "snippet": null,
         "first_seen": "2026-07-10T08:45:47.820748Z",
         "fingerprint": "f02a57f8541f0bee044441ce43bce30f1fc19da37add8f37bfd5f959748d59f6"
+      },
+      {
+        "id": "karriere_at:7858520",
+        "source": "karriere_at",
+        "title": "Jurist im Underwriting (m/w/d)",
+        "company": "ERGO Versicherung AG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7858520",
+        "salary": "ab 46.944,38 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Ihre Aufgaben: Prüfung und Entscheidung von komplexeren Neu- und Änderungsanträgen (insbesondere außertariflichen Einzelverträgen und von Sonderengagements) Teilnahme an Kundengesprächen...",
+        "first_seen": "2026-08-11T13:36:23.770452Z",
+        "fingerprint": "f620e82a4daf2dd16a9fee6ab6a4ce3f0a36cf8e2bfa9e665fd6eac77764cf22"
       },
       {
         "id": "karriere_at:10028867",
@@ -616,10 +616,10 @@
         "url": "https://www.karriere.at/jobs/10029166",
         "salary": "ab 35.000 € jährlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-10T13:38:07.125430Z",
-        "fingerprint": "ae9e37f825e26913db2086881ca30a73e5874b99210f96b9e3284fc124b969f1"
+        "fingerprint": "ba7f280e043e240bf212e852c76443118f1cc0bc8cf6b6e01f551b004441ffee"
       },
       {
         "id": "karriere_at:10028134",
