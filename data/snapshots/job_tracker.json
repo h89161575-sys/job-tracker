@@ -1,41 +1,41 @@
 {
-  "timestamp": "2026-08-16T23:01:38.418727Z",
+  "timestamp": "2026-08-16T23:30:39.074728Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": "JusJobs response contained no recognizable result count or job links",
+        "last_error": "JusJobs returned 0 jobs after previously returning 17; preserving the prior baseline",
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-16T23:01:38.418727Z",
+        "last_success": "2026-08-16T23:30:39.074728Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-16T23:01:38.418727Z",
+        "last_success": "2026-08-16T23:30:39.074728Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-16T23:01:38.418727Z",
+        "last_success": "2026-08-16T23:30:39.074728Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-16T23:01:38.418727Z",
+        "last_success": "2026-08-16T23:30:39.074728Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-16T23:01:38.418727Z",
+        "last_success": "2026-08-16T23:30:39.074728Z",
         "last_error": null,
         "count": 60
       },
