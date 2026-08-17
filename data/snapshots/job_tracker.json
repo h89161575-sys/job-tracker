@@ -1,48 +1,48 @@
 {
-  "timestamp": "2026-08-17T22:08:57.030459Z",
+  "timestamp": "2026-08-17T22:44:59.094829Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": "JusJobs fetch error: HTTP 500: \u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000\u0003�Wmo�6\u0010�+��e\u0003�W;v\u001cX\u0001���ZtX�f(��8�'�6E\n$\u0015���\u0003%{�\u001d'3��\u0018�/6x�{�;ޑw�����W�ݽ!������\u0012��`�P�q\u000b4F��\"���\b�f^�\u0003�J0\u001f��A��*�wb\u0005\u0015�������\u0005�i�P�<h\u0005we��A0\f��\u0005\u0011J8\u00012�\f$��\u0005�`#��z\u00144\u0016M�\u0002*1W��H��Ġ̃ڠ��\u0003\u00026\u000f,3�v\u0001)б",
+        "last_error": "JusJobs returned 0 jobs after previously returning 17; preserving the prior baseline",
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-17T22:08:57.030459Z",
+        "last_success": "2026-08-17T22:44:59.094829Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-17T22:08:57.030459Z",
+        "last_success": "2026-08-17T22:44:59.094829Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-17T22:08:57.030459Z",
+        "last_success": "2026-08-17T22:44:59.094829Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-17T22:08:57.030459Z",
+        "last_success": "2026-08-17T22:44:59.094829Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-17T22:08:57.030459Z",
+        "last_success": "2026-08-17T22:44:59.094829Z",
         "last_error": null,
         "count": 59
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-17T19:46:37.329423Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75000 milliseconds with 0 bytes received",
         "count": 23
       }
     },
@@ -426,18 +426,18 @@
         "fingerprint": "f4d8488b76d20d9817a3ea197abe36d68a2859cdf728c5b0e9079af1790afba6"
       },
       {
-        "id": "karriere_at:10025968",
+        "id": "karriere_at:10029477",
         "source": "karriere_at",
-        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
-        "company": "Kommunalkredit Public Consulting GmbH",
-        "location": "Wien 19. Bezirk (Döbling)",
-        "url": "https://www.karriere.at/jobs/10025968",
-        "salary": "ab 3.599,52 € monatlich",
+        "title": "Unternehmensjurist:in (m/w/d)",
+        "company": "Verkehrsverbund Ost-Region (VOR) Gesellschaft m.b.H.",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10029477",
+        "salary": "ab 46.871 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
-        "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "d42bdf2ccb3ba3054b1ccd50ae0e4bab835f9bda343b54432b42f6d9f7d7a306"
+        "first_seen": "2026-08-13T07:58:14.386351Z",
+        "fingerprint": "e9ee60b52d576aab556e2df42580c28acbce2b947fe3f7cf0b06048008bb9d8e"
       },
       {
         "id": "karriere_at:10028867",
@@ -524,20 +524,6 @@
         "fingerprint": "0726b8bbc7a671b6708a257eaceae899116c01ee943356edadbcd82d36dafd83"
       },
       {
-        "id": "karriere_at:10029477",
-        "source": "karriere_at",
-        "title": "Unternehmensjurist:in (m/w/d)",
-        "company": "Verkehrsverbund Ost-Region (VOR) Gesellschaft m.b.H.",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10029477",
-        "salary": "ab 46.871 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-08-13T07:58:14.386351Z",
-        "fingerprint": "e9ee60b52d576aab556e2df42580c28acbce2b947fe3f7cf0b06048008bb9d8e"
-      },
-      {
         "id": "karriere_at:10028461",
         "source": "karriere_at",
         "title": "IT-affine/r Unternehmensjurist:in (m/w/d)",
@@ -578,6 +564,20 @@
         "snippet": null,
         "first_seen": "2026-07-23T16:12:04.483078Z",
         "fingerprint": "44745238b2f2b0710984cfc0d6413cc0428db17846051bfc436b442aad817301"
+      },
+      {
+        "id": "karriere_at:10025968",
+        "source": "karriere_at",
+        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
+        "company": "Kommunalkredit Public Consulting GmbH",
+        "location": "Wien 19. Bezirk (Döbling)",
+        "url": "https://www.karriere.at/jobs/10025968",
+        "salary": "ab 3.599,52 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 7 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-10T08:45:47.820748Z",
+        "fingerprint": "d42bdf2ccb3ba3054b1ccd50ae0e4bab835f9bda343b54432b42f6d9f7d7a306"
       },
       {
         "id": "karriere_at:10029166",
