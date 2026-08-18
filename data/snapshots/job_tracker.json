@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T15:52:13.613730Z",
+  "timestamp": "2026-08-18T16:26:36.391459Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,38 +11,38 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-18T15:52:13.613730Z",
+        "last_success": "2026-08-18T16:26:36.391459Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-18T15:52:13.613730Z",
+        "last_success": "2026-08-18T16:26:36.391459Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-18T15:52:13.613730Z",
+        "last_success": "2026-08-18T16:26:36.391459Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-18T15:16:58.167488Z",
-        "last_error": "Der Standard error: HTTP 403: \u001f�\b\u0000\u0000\u0000\u0000\u0000\u0000��Z[�۶\u0015~ϯ8a���\u0015A�\")J�v��S;3v�����o \t��!�\u0003B�u'����\u0003}�S��:\u0000I����{�;�����|�\u0003h��>�y����\u0000�Z��o��\u00038\u0011��J�}�ʺ�\u0006`^P��\u0006�|E\u0015�� ��ja���_��\u0002�?)Ȋ.�\r�۪�ʂ�\u0014�\n���,U�\"�\u001b�P�tF�\u0004S�p�N\b�\u000b��\u0003�Z�pڴ\u0001\u001e�?�\u0016@\\�욽e\"�A\\ʔJ",
+        "last_success": "2026-08-18T16:26:36.391459Z",
+        "last_error": null,
         "count": 7
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-18T15:52:13.613730Z",
+        "last_success": "2026-08-18T16:26:36.391459Z",
         "last_error": null,
         "count": 63
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-18T14:47:24.578702Z",
-        "last_error": "StepStone fetch error: HTTP 403: <HTML><HEAD>\n<TITLE>Access Denied</TITLE>\n</HEAD><BODY>\n<H1>Access Denied</H1>\n \nYou don't have permission to access \"http&#58;&#47;&#47;www&#46;stepstone&#46;at&#47;jobs&#47;jurist&#47;in&#45;wien&#6; curl fallback: curl exit 22: curl: (22) The requested URL returned error: 403",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 23
       }
     },
