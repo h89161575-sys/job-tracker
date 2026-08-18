@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T02:03:35.122483Z",
+  "timestamp": "2026-08-18T03:05:44.142324Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-18T02:03:35.122483Z",
+        "last_success": "2026-08-18T03:05:44.142324Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-18T02:03:35.122483Z",
+        "last_success": "2026-08-18T03:05:44.142324Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-18T02:03:35.122483Z",
+        "last_success": "2026-08-18T03:05:44.142324Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-18T02:03:35.122483Z",
+        "last_success": "2026-08-18T03:05:44.142324Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-18T02:03:35.122483Z",
+        "last_success": "2026-08-18T03:05:44.142324Z",
         "last_error": null,
         "count": 59
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-18T02:03:35.122483Z",
-        "last_error": null,
-        "count": 28
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75000 milliseconds with 0 bytes received",
+        "count": 23
       }
     },
     "jobs": [
@@ -282,6 +282,18 @@
         "fingerprint": "0e712b328e6f9e565d4a60f702d4815c5459a34cca7428216bfcfb26c773d076"
       },
       {
+        "id": "uniqa:85274a4a8c59d054",
+        "source": "uniqa",
+        "title": "Schadenreferent:in / Jurist:in KFZ Schaden (Wien/Linz)",
+        "company": "UNIQA",
+        "location": "Wien/Linz",
+        "url": "https://careers.uniqagroup.com/job/Wien-Schadenreferentin-Juristin-KFZ-Schaden-%28WienLinz%29/1416771033/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+        "published_at": "Tue, 18 Aug 2026 2:00:00 GMT",
+        "snippet": "Competencies: Arbeitet mit anderen zusammen; Effektive Lösungen finden; Handlungsorientiert; Kundenorientierung Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein besseres Leben. Wir nutzen unsere individuellen Fähigkeiten, um zusammen eine bessere Zukunft zu gestalten. Erzähle uns von deinen Stärken und bewirb dich als Schadenreferent:in / Jurist:in KFZ Schaden (Wien/Linz) Das erwartet dich: Eigenständige Regulierung von KFZ Schadensfällen Einholung und Prüfung von Sachverständigengutachten Korrespondenz und Verhandlung mit Kund:innen, Anspruchsstellern und Rechtsanwält:innen Ermittlung und Auszahlung",
+        "first_seen": "2026-07-23T12:00:34.873261Z",
+        "fingerprint": "8ec294d8dbc04f1567ac04d5d1c4f4f9e2adc4620fcf4dd46b08b90d2aa41ff4"
+      },
+      {
         "id": "uniqa:ce0314c94d8ce3fb",
         "source": "uniqa",
         "title": "Jurist:in Betrug & Regress",
@@ -292,18 +304,6 @@
         "snippet": "Competencies: Arbeitet mit anderen zusammen; Effektive Lösungen finden; Kundenorientierung Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein besseres Leben. Wir nutzen unsere individuellen Fähigkeiten, um zusammen eine bessere Zukunft zu gestalten. Erzähle uns von deinen Stärken und bewirb dich bei der RSG - Risiko Service und Sachverständigen GmbH , der Sachverständigengesellschaft der UNIQA, als Jurist:in Betrug & Regress Das erwartet dich: Eigenverantwortliche Bearbeitung von Betrugsverdachts- und Regressfällen inklusive rechtlicher und technischer Prüfung von Schadenfällen (z. B. auf Regress- und",
         "first_seen": "2026-07-17T15:50:10.201473Z",
         "fingerprint": "d0e003d59e38b79a0f188d61d99c56a3fa677bc1d2eaaeb46712935ce9ff7275"
-      },
-      {
-        "id": "uniqa:85274a4a8c59d054",
-        "source": "uniqa",
-        "title": "Schadenreferent:in / Jurist:in KFZ Schaden (Wien/Linz)",
-        "company": "UNIQA",
-        "location": "Wien/Linz",
-        "url": "https://careers.uniqagroup.com/job/Wien-Schadenreferentin-Juristin-KFZ-Schaden-%28WienLinz%29/1416771033/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
-        "published_at": "Mon, 20 Jul 2026 0:00:00 GMT",
-        "snippet": "Competencies: Arbeitet mit anderen zusammen; Effektive Lösungen finden; Handlungsorientiert; Kundenorientierung Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein besseres Leben. Wir nutzen unsere individuellen Fähigkeiten, um zusammen eine bessere Zukunft zu gestalten. Erzähle uns von deinen Stärken und bewirb dich als Schadenreferent:in / Jurist:in KFZ Schaden (Wien/Linz) Das erwartet dich: Eigenständige Regulierung von KFZ Schadensfällen Einholung und Prüfung von Sachverständigengutachten Korrespondenz und Verhandlung mit Kund:innen, Anspruchsstellern und Rechtsanwält:innen Ermittlung und Auszahlung",
-        "first_seen": "2026-07-23T12:00:34.873261Z",
-        "fingerprint": "0f013516420ff2f151e0a8944942d2b821971dabc6e8d6bf63ee070182411f10"
       },
       {
         "id": "lawfinder:cmmnclx3q000004joqfgyuu0k",
