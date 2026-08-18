@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-08-18T13:13:53.874592Z",
+  "timestamp": "2026-08-18T14:01:05.142057Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": "JusJobs rendered 4 result card(s) at offset 0 but parsed 0 unique job link(s)",
+        "last_error": "JusJobs returned 0 jobs after previously returning 17; preserving the prior baseline",
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-18T13:13:53.874592Z",
+        "last_success": "2026-08-18T14:01:05.142057Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-18T13:13:53.874592Z",
+        "last_success": "2026-08-18T14:01:05.142057Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-18T13:13:53.874592Z",
+        "last_success": "2026-08-18T14:01:05.142057Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-18T13:13:53.874592Z",
+        "last_success": "2026-08-18T14:01:05.142057Z",
         "last_error": null,
         "count": 7
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-18T13:13:53.874592Z",
+        "last_success": "2026-08-18T14:01:05.142057Z",
         "last_error": null,
-        "count": 61
+        "count": 62
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-18T13:13:53.874592Z",
-        "last_error": null,
-        "count": 28
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 23
       }
     },
     "jobs": [
@@ -630,6 +630,20 @@
         "snippet": null,
         "first_seen": "2026-08-10T13:38:07.125430Z",
         "fingerprint": "16a26cb7af9000023be70225f73f8c9ae5308b81299b5613aafa24490d383098"
+      },
+      {
+        "id": "karriere_at:7861780",
+        "source": "karriere_at",
+        "title": "Senior Legal Expert (w/m/d) Industrieunternehmen",
+        "company": "Michael Page International Austria GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7861780",
+        "salary": "ab 80.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Legal Expert (w/m/d) Industrieunternehmen I Wien Referenz-Nr.: JN -082026-7084760 Ort: Vienna Anstellungsart: Permanent Firmenprofil Unser Kunde ist eine international erfolgreiche...",
+        "first_seen": "2026-08-18T14:01:11.184747Z",
+        "fingerprint": "253bd4f72ad5ca4975e02c08549f9e0451fc0a50252033fae04f40b28f25cc57"
       },
       {
         "id": "karriere_at:7852397",
@@ -1783,6 +1797,7 @@
       "karriere_at:7860781",
       "karriere_at:7860784",
       "karriere_at:7861537",
+      "karriere_at:7861780",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
