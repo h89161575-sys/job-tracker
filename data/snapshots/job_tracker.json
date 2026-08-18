@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T10:41:41.972851Z",
+  "timestamp": "2026-08-18T11:12:12.282424Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-18T10:41:41.972851Z",
+        "last_success": "2026-08-18T11:12:12.282424Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-18T10:41:41.972851Z",
+        "last_success": "2026-08-18T11:12:12.282424Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-18T10:41:41.972851Z",
+        "last_success": "2026-08-18T11:12:12.282424Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-18T10:41:41.972851Z",
+        "last_success": "2026-08-18T11:12:12.282424Z",
         "last_error": null,
-        "count": 6
+        "count": 7
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-18T10:41:41.972851Z",
+        "last_success": "2026-08-18T11:12:12.282424Z",
         "last_error": null,
         "count": 61
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-18T09:24:51.409307Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 23
+        "last_success": "2026-08-18T11:12:12.282424Z",
+        "last_error": null,
+        "count": 28
       }
     },
     "jobs": [
@@ -426,6 +426,16 @@
         "fingerprint": "f4d8488b76d20d9817a3ea197abe36d68a2859cdf728c5b0e9079af1790afba6"
       },
       {
+        "id": "derstandard:bf69b400-5e8d-3e05-973e-b3cea79add1d",
+        "source": "derstandard",
+        "title": "Senior Associate Tax (m/w/d)",
+        "company": "Grant Thornton Austria Holding GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/bf69b400-5e8d-3e05-973e-b3cea79add1d",
+        "first_seen": "2026-08-18T11:12:16.447037Z",
+        "fingerprint": "2f0a8b80d113c9478a8f0ea3f64ddbda2317601bac782e0035f87eca4a611fd9"
+      },
+      {
         "id": "karriere_at:10029477",
         "source": "karriere_at",
         "title": "Unternehmensjurist:in (m/w/d)",
@@ -720,18 +730,18 @@
         "fingerprint": "d4a25b4a35075a8fbbda352372fcca5bcd14e7fa54fab5433f6c0fd8103ce6a3"
       },
       {
-        "id": "karriere_at:7804418",
+        "id": "karriere_at:7861537",
         "source": "karriere_at",
-        "title": "Jurist (w/m/d)",
-        "company": "EuroTeleSites",
+        "title": "Senior Rechtsanwaltsanwärter:in | Anwält:in im Bereich EU & Competition",
+        "company": "Schönherr Rechtsanwälte GmbH",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7804418",
-        "salary": "ab 3.107 € monatlich",
+        "url": "https://www.karriere.at/jobs/7861537",
+        "salary": "ab 6.000 € monatlich",
         "employment_type": "Vollzeit",
         "published_at": "Heute veröffentlicht",
-        "snippet": "Jurist (w/m/d) Wien, Lassallestraße 9 Jetzt bewerben Wir sind viel mehr als nur ein Funkturmunternehmen. Als unabhängiger Betreiber von Mobilfunkinfrastruktur gestalten wir...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "be04d73498c6646b3449b253e5511274bfdcafc27b846e6deeb6d80a4e86f09d"
+        "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
+        "first_seen": "2026-08-18T11:12:16.448759Z",
+        "fingerprint": "b263f18a3f5309d7a2a63ba69f33d2f5745008a5e0883cce3454255e5c4dacd8"
       },
       {
         "id": "karriere_at:7851650",
@@ -840,10 +850,10 @@
         "url": "https://www.karriere.at/jobs/7859749",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Senior Consultant/ Manager:in (all genders) I Fokus M&A Tax, Konzernsteuerrecht und Internationales Steuerrecht Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung...",
         "first_seen": "2026-08-13T14:04:57.492839Z",
-        "fingerprint": "1314fda18a6a35ab6b49e472245145f8278f4c9bca19cfd353c3951c43333d8d"
+        "fingerprint": "b3e2739f51d04db1debda1185acba29ba5b32aec72bb2b83c7e31596a8aa12bf"
       },
       {
         "id": "karriere_at:7859371",
@@ -1772,6 +1782,7 @@
       "karriere_at:7860778",
       "karriere_at:7860781",
       "karriere_at:7860784",
+      "karriere_at:7861537",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
