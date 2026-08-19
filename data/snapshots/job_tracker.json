@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T10:41:28.228228Z",
+  "timestamp": "2026-08-19T11:11:28.472210Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-19T10:41:28.228228Z",
+        "last_success": "2026-08-19T11:11:28.472210Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-19T10:41:28.228228Z",
+        "last_success": "2026-08-19T11:11:28.472210Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-19T10:41:28.228228Z",
+        "last_success": "2026-08-19T11:11:28.472210Z",
         "last_error": null,
-        "count": 8
+        "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-19T10:41:28.228228Z",
+        "last_success": "2026-08-19T11:11:28.472210Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-19T10:41:28.228228Z",
+        "last_success": "2026-08-19T11:11:28.472210Z",
         "last_error": null,
         "count": 63
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-19T06:18:58.649074Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
-        "count": 23
+        "last_success": "2026-08-19T11:11:28.472210Z",
+        "last_error": null,
+        "count": 28
       }
     },
     "jobs": [
@@ -324,6 +324,36 @@
         "url": "https://www.lawfinder.at/jobs/cmszye4xu000104kwbytizqf8",
         "first_seen": "2026-08-19T10:41:32.426401Z",
         "fingerprint": "71e63a244fd6450c5f5170eba429cdcd3dc481387ce92ff2f6b6020eddc74794"
+      },
+      {
+        "id": "lawfinder:cmszypu5x000204kw9yfp0l4z",
+        "source": "lawfinder",
+        "title": "Referent:in für rechtliche Angelegenheiten in der Abteilung IV/E1 - Legistik, EU und internationale Angelegenheiten Eisenbahnen",
+        "company": "Bundesministerium für Innovation, Mobilität und Infrastruktur",
+        "location": "Wien",
+        "url": "https://www.lawfinder.at/jobs/cmszypu5x000204kw9yfp0l4z",
+        "first_seen": "2026-08-19T11:11:32.761539Z",
+        "fingerprint": "69f735c6a0964eb69bb18dce25318a2737ba4175c16d8582831493138b22c770"
+      },
+      {
+        "id": "lawfinder:cmszywsft000304kw0wn783ti",
+        "source": "lawfinder",
+        "title": "Juristische:r Verwaltungspraktikant:in - Abteilung I/Präs. 15 - Informationsfreiheitsrecht und Verwaltungsmanagement",
+        "company": "Bundesministerium für Innovation, Mobilität und Infrastruktur",
+        "location": "Wien",
+        "url": "https://www.lawfinder.at/jobs/cmszywsft000304kw0wn783ti",
+        "first_seen": "2026-08-19T11:11:32.761539Z",
+        "fingerprint": "e2a24df08bc793050ebb00c76089ccd15ec76034048fbdfe7ea08f6ea5526d02"
+      },
+      {
+        "id": "lawfinder:cmszz3skv000404kwntklw6k6",
+        "source": "lawfinder",
+        "title": "Jurist/-in in der Fallabteilung B der Bundeswettbewerbsbehörde",
+        "company": "Bundesministerium für Wirtschaft, Energie und Tourismus",
+        "location": "Wien",
+        "url": "https://www.lawfinder.at/jobs/cmszz3skv000404kwntklw6k6",
+        "first_seen": "2026-08-19T11:11:32.761539Z",
+        "fingerprint": "6964153d38a5f74b3e3f02f09a4c5ea22cbfb3c7a179ec5132147db9ab9e38c8"
       },
       {
         "id": "lawfinder:cmmnclx3q000004joqfgyuu0k",
@@ -944,10 +974,10 @@
         "url": "https://www.karriere.at/jobs/7859749",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Senior Consultant/ Manager:in (all genders) I Fokus M&A Tax, Konzernsteuerrecht und Internationales Steuerrecht Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung...",
         "first_seen": "2026-08-13T14:04:57.492839Z",
-        "fingerprint": "b3e2739f51d04db1debda1185acba29ba5b32aec72bb2b83c7e31596a8aa12bf"
+        "fingerprint": "aa27210dd41848efc4ab8e91302f7817f19f9733c2f38cedf9b75106fac19b16"
       },
       {
         "id": "karriere_at:7859371",
@@ -1381,11 +1411,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "vor 12 Stunden",
+        "published_at": "vor 13 Stunden",
         "department": "Teilweise Home-Office, NEU",
-        "snippet": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 12 Stunden NEU",
+        "snippet": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m) Fellner Wratzfeld & Partner Rechtsanwälte Wien Teilweise Home-Office Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita mehr vor 13 Stunden NEU",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "2b3c770e197206f002db1f362901472615cabe103237a6355705e6e04431d575"
+        "fingerprint": "122322ba401977551df90400d17f6eecdf01c51a6408790e34b07a4d50c043bc"
       },
       {
         "id": "stepstone:934778",
@@ -1561,11 +1591,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-m-w-d-im-Immobilienrecht-Prozessrecht-Wien-l-m-executive-search-consulting-gmbh--994936-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "vor 2 Stunden",
+        "published_at": "vor 3 Stunden",
         "department": "NEU",
-        "snippet": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht l & m executive search & consulting gmbh Wien Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges mehr vor 2 Stunden NEU",
+        "snippet": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht l & m executive search & consulting gmbh Wien Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges mehr vor 3 Stunden NEU",
         "first_seen": "2026-07-28T23:27:24.331085Z",
-        "fingerprint": "c07a7f9ce4dd8eeb7d85250e399261aa1d6328f9c0084f16b685de503170958d"
+        "fingerprint": "2cd2414ee31244433a4f2ad54978b8775ea7762def95d162f0614e9cf8586827"
       },
       {
         "id": "stepstone:995512",
@@ -1837,6 +1867,9 @@
       "lawfinder:cmrltpnok000004jth1a5bsnv",
       "lawfinder:cmszy33wi000004kw0vpkonj7",
       "lawfinder:cmszye4xu000104kwbytizqf8",
+      "lawfinder:cmszypu5x000204kw9yfp0l4z",
+      "lawfinder:cmszywsft000304kw0wn783ti",
+      "lawfinder:cmszz3skv000404kwntklw6k6",
       "stepstone:633580",
       "stepstone:929613",
       "stepstone:934776",
