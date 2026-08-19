@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-08-19T01:49:22.616384Z",
+  "timestamp": "2026-08-19T02:48:17.295987Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": "JusJobs rendered 1 result card(s) at offset 0 but parsed 0 unique job link(s)",
+        "last_error": "JusJobs returned 0 jobs after previously returning 17; preserving the prior baseline",
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-19T01:49:22.616384Z",
+        "last_success": "2026-08-19T02:48:17.295987Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-19T01:49:22.616384Z",
+        "last_success": "2026-08-19T02:48:17.295987Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-19T01:49:22.616384Z",
+        "last_success": "2026-08-19T02:48:17.295987Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-19T01:49:22.616384Z",
+        "last_success": "2026-08-19T02:48:17.295987Z",
         "last_error": null,
         "count": 7
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-19T01:49:22.616384Z",
+        "last_success": "2026-08-19T02:48:17.295987Z",
         "last_error": null,
         "count": 63
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-18T21:55:48.308533Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
-        "count": 23
+        "last_success": "2026-08-19T02:48:17.295987Z",
+        "last_error": null,
+        "count": 28
       }
     },
     "jobs": [
