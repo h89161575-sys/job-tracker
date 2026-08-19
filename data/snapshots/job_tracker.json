@@ -1,48 +1,48 @@
 {
-  "timestamp": "2026-08-18T23:54:21.006990Z",
+  "timestamp": "2026-08-19T01:49:22.616384Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-07-12T12:43:46.649737Z",
-        "last_error": "JusJobs returned 0 jobs after previously returning 17; preserving the prior baseline",
+        "last_error": "JusJobs rendered 1 result card(s) at offset 0 but parsed 0 unique job link(s)",
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-18T23:54:21.006990Z",
+        "last_success": "2026-08-19T01:49:22.616384Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-18T23:54:21.006990Z",
+        "last_success": "2026-08-19T01:49:22.616384Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-18T23:54:21.006990Z",
+        "last_success": "2026-08-19T01:49:22.616384Z",
         "last_error": null,
         "count": 6
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-18T23:54:21.006990Z",
+        "last_success": "2026-08-19T01:49:22.616384Z",
         "last_error": null,
         "count": 7
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-18T23:54:21.006990Z",
+        "last_success": "2026-08-19T01:49:22.616384Z",
         "last_error": null,
         "count": 63
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-18T21:55:48.308533Z",
-        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75002 milliseconds with 0 bytes received",
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
         "count": 23
       }
     },
@@ -450,6 +450,20 @@
         "fingerprint": "3e51957480b3c83c525cd56e91abc55ad8a85ac12c1625f488ddda3a20941f8c"
       },
       {
+        "id": "karriere_at:10025968",
+        "source": "karriere_at",
+        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
+        "company": "Kommunalkredit Public Consulting GmbH",
+        "location": "Wien 19. Bezirk (Döbling)",
+        "url": "https://www.karriere.at/jobs/10025968",
+        "salary": "ab 3.599,52 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-07-10T08:45:47.820748Z",
+        "fingerprint": "bde68f24efb5e911ebd8e42c6b4022bad92aaa2f63aae45337733472cc7dfb0f"
+      },
+      {
         "id": "karriere_at:10030019",
         "source": "karriere_at",
         "title": "Jurist:in / Verfahrensmanager:in (m/w/d) – Legal Tech",
@@ -616,20 +630,6 @@
         "snippet": null,
         "first_seen": "2026-07-23T16:12:04.483078Z",
         "fingerprint": "0f7b265f7585b8fe00b71d6c3a018891aa6cab6395d385e8f1725362272f00db"
-      },
-      {
-        "id": "karriere_at:10025968",
-        "source": "karriere_at",
-        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
-        "company": "Kommunalkredit Public Consulting GmbH",
-        "location": "Wien 19. Bezirk (Döbling)",
-        "url": "https://www.karriere.at/jobs/10025968",
-        "salary": "ab 3.599,52 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "11.8.2026",
-        "snippet": null,
-        "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "c6a01aab000dc56c2e5609c958c3fd9348bc6a291e002171e9f5f5fe92f125a4"
       },
       {
         "id": "karriere_at:10029166",
