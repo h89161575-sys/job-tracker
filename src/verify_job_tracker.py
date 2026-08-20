@@ -95,12 +95,14 @@ def test_jusjobs_parser():
 def test_jusjobs_stale_advertised_count_is_only_a_warning():
     html = """
     <div id="jobSearchResults">
+      <div class="jobAgentHint whiteBg">Job-Agent aktivieren</div>
       <span id="number">2</span>
-      <div class="row jobResult">
+      <div class="row jobResult" id="jobResult-1507775">
         <h4><a href="/job/1507775">Legal Counsel</a></h4>
       </div>
+      <div class="row jobResult gjt-ctaRow">Weitere Treffer nach dem Login</div>
     </div>
-    <div class="col p-0 whiteBg"></div>
+    <div class="col p-0 whiteBg" id="ExtendedJobResultsFallBack"></div>
     """
     original_fetch = job_tracker_module.fetch_url
     calls = []
@@ -118,13 +120,15 @@ def test_jusjobs_stale_advertised_count_is_only_a_warning():
 def test_jusjobs_unparsed_rendered_card_is_an_error():
     html = """
     <div id="jobSearchResults">
+      <div class="jobAgentHint whiteBg">Job-Agent aktivieren</div>
       <span id="number">2</span>
-      <div class="row jobResult">
+      <div class="row jobResult" id="jobResult-1507775">
         <h4><a href="/job/1507775">Legal Counsel</a></h4>
       </div>
-      <div class="row jobResult"><h4>Broken result without a link</h4></div>
+      <div class="row jobResult" id="jobResult-1507776"><h4>Broken result without a link</h4></div>
+      <div class="row jobResult gjt-ctaRow">Weitere Treffer nach dem Login</div>
     </div>
-    <div class="col p-0 whiteBg"></div>
+    <div class="col p-0 whiteBg" id="ExtendedJobResultsFallBack"></div>
     """
     original_fetch = job_tracker_module.fetch_url
     try:
@@ -161,10 +165,116 @@ def test_erste_bank_filter():
             "location": ["Wiener Neustadt"],
             "discipline_items": ["Legal / Compliance / Audit"],
         },
+        {
+            "id": "4",
+            "external_title": "Group Audit Specialist",
+            "legal_entity_name": "Erste Bank",
+            "location": ["Wien"],
+            "discipline_items": ["Audit"],
+        },
+        {
+            "id": "5",
+            "external_title": "IT Specialist",
+            "legal_entity_name": "Erste Bank",
+            "location": ["Wien"],
+            "discipline_items": ["IT"],
+        },
     ]
     jobs = filter_erste_bank_jobs(raw_jobs, "2026-06-18T00:00:00Z")
-    assert_equal(len(jobs), 1, "erste filter count")
-    assert_equal(jobs[0]["id"], "erste_bank:1", "erste id")
+    assert_equal([job["id"] for job in jobs], ["erste_bank:1", "erste_bank:4"], "erste filter ids")
+
+
+def test_erste_bank_catalog_validation():
+    original_discovery = job_tracker_module.discover_sparkasse_joblist_api
+    original_fetch = job_tracker_module.fetch_url
+    try:
+        job_tracker_module.discover_sparkasse_joblist_api = lambda: (
+            "https://example.invalid/jobs",
+            {},
+            "/job-detail",
+        )
+        job_tracker_module.fetch_url = lambda _url, **_kwargs: ({"data": []}, None)
+        _jobs, empty_errors = job_tracker_module.fetch_erste_bank_jobs()
+
+        job_tracker_module.fetch_url = lambda _url, **_kwargs: (
+            {"data": [{"id": "1", "external_title": "Unexpected schema"}]},
+            None,
+        )
+        _jobs, schema_errors = job_tracker_module.fetch_erste_bank_jobs()
+
+        job_tracker_module.fetch_url = lambda _url, **_kwargs: (
+            {
+                "data": [
+                    {
+                        "id": "2",
+                        "external_title": "Internal Revision",
+                        "location": ["Wien"],
+                        "discipline_items": ["Internal Revision"],
+                    },
+                    {
+                        "id": "3",
+                        "external_title": "Engineering",
+                        "location": ["Graz"],
+                        "discipline_items": ["Engineering"],
+                    },
+                ]
+            },
+            None,
+        )
+        _jobs, taxonomy_errors = job_tracker_module.fetch_erste_bank_jobs()
+
+        job_tracker_module.fetch_url = lambda _url, **_kwargs: (
+            {
+                "data": [
+                    {
+                        "external_title": "Audit Specialist without ID",
+                        "location": ["Wien"],
+                        "discipline_items": ["Audit"],
+                    }
+                ]
+            },
+            None,
+        )
+        _jobs, missing_id_errors = job_tracker_module.fetch_erste_bank_jobs()
+
+        job_tracker_module.fetch_url = lambda _url, **_kwargs: (
+            {
+                "data": [
+                    {
+                        "id": "4",
+                        "external_title": "IT Specialist",
+                        "location": ["Wien"],
+                        "discipline_items": ["IT"],
+                    },
+                    {
+                        "id": "5",
+                        "external_title": "Audit Specialist",
+                        "location": ["Graz"],
+                        "discipline": ["Audit"],
+                    },
+                ]
+            },
+            None,
+        )
+        legitimate_empty_jobs, legitimate_empty_errors = (
+            job_tracker_module.fetch_erste_bank_jobs()
+        )
+    finally:
+        job_tracker_module.discover_sparkasse_joblist_api = original_discovery
+        job_tracker_module.fetch_url = original_fetch
+
+    assert_true(any("no raw jobs" in error for error in empty_errors), "empty Erste catalog rejected")
+    assert_true(any("missing location or discipline" in error for error in schema_errors), "Erste schema drift rejected")
+    assert_true(
+        any("no longer exposes" in error for error in taxonomy_errors),
+        "Erste taxonomy drift rejected",
+    )
+    assert_true(
+        any("without an ID" in error for error in missing_id_errors),
+        "matching Erste row without stable ID rejected",
+    )
+    assert_equal(legitimate_empty_jobs, [], "valid empty Erste result has no jobs")
+    assert_equal(legitimate_empty_errors, [], "valid empty Erste result is authoritative")
 
 
 def test_uniqa_rss_filter():
@@ -284,6 +394,417 @@ def test_stepstone_html_filter():
     assert_equal(jobs[0]["salary"], "EUR 4.000 brutto", "stepstone salary")
     assert_true("Schnelle Bewerbung" in (jobs[0].get("department") or ""), "stepstone labels")
     assert_true(warnings and "non-Wien" in warnings[0], "stepstone non-wien warning")
+
+
+def test_stepstone_api_filter():
+    payload = {
+        "items": [
+            {
+                "id": 1001,
+                "section": "main",
+                "title": "Legal Counsel | Wien",
+                "companyName": "Erste Firma GmbH",
+                "location": "Wien",
+                "url": "/stellenangebote--Legal-Counsel-Wien--1001-inline.html?rltr=tracking",
+                "datePosted": "2026-08-20T08:00:00+02:00",
+                "salary": "EUR 4.000 brutto",
+                "workFromHome": "2",
+                "labels": [{"text": "Vollzeit"}],
+                "topLabels": ["Schnelle Bewerbung"],
+                "textSnippet": "Juristische Beratung",
+            },
+            {
+                "id": 1002,
+                "section": "semantic",
+                "title": "Compliance Jurist:in",
+                "companyName": "Zweite Firma AG",
+                "location": "1030 Wien",
+                "url": "/stellenangebote--Compliance-Jurist-Wien--1002-inline.html",
+                "datePosted": "2026-08-19T08:00:00+02:00",
+                "salary": None,
+                "workFromHome": "0",
+                "labels": [],
+                "topLabels": [],
+                "textSnippet": "Compliance",
+            },
+            {
+                "id": 1003,
+                "section": "regional",
+                "title": "Legal Counsel",
+                "companyName": "Dritte Firma KG",
+                "location": "Wiener Neustadt",
+                "url": "/stellenangebote--Legal-Counsel-Wiener-Neustadt--1003-inline.html",
+                "datePosted": "2026-08-18T08:00:00+02:00",
+                "salary": None,
+                "workFromHome": "0",
+                "labels": [],
+                "topLabels": [],
+                "textSnippet": "Legal",
+            },
+            {
+                "id": 1004,
+                "section": "recommended",
+                "title": "Unrelated recommendation",
+                "companyName": "Vierte Firma GmbH",
+                "location": "Wien",
+                "url": "/stellenangebote--Recommendation-Wien--1004-inline.html",
+                "datePosted": "2026-08-18T08:00:00+02:00",
+                "salary": None,
+                "workFromHome": "0",
+                "labels": [],
+                "topLabels": [],
+                "textSnippet": "Unrelated",
+            },
+        ]
+    }
+    jobs, warnings = job_tracker_module.parse_stepstone_jobs_from_api(
+        payload,
+        "2026-08-20T08:00:00Z",
+    )
+    assert_equal(
+        [job["id"] for job in jobs],
+        ["stepstone:1001", "stepstone:1002"],
+        "StepStone API Wien IDs",
+    )
+    assert_equal(jobs[0]["title"], "Legal Counsel", "StepStone API title cleanup")
+    assert_equal(
+        jobs[0]["url"],
+        "https://www.stepstone.at/stellenangebote--Legal-Counsel-Wien--1001-inline.html",
+        "StepStone API tracking query removed",
+    )
+    assert_true("Home Office" in (jobs[0].get("department") or ""), "StepStone API home office")
+    assert_true(warnings and "non-Wien" in warnings[0], "StepStone API non-Wien warning")
+    assert_true(
+        any("non-search-result" in warning for warning in warnings),
+        "StepStone API recommendation warning",
+    )
+
+
+def test_stepstone_api_uses_second_first_party_host():
+    calls = []
+    valid_empty_page = {
+        "items": [],
+        "meta": {"total": 0},
+        "unifiedPagination": {"links": {"next": ""}},
+    }
+    original_fetch = job_tracker_module.fetch_url
+    try:
+        def fake_fetch(url, **kwargs):
+            calls.append((url, kwargs))
+            if url == job_tracker_module.STEPSTONE_API_URLS[0]:
+                return None, "TimeoutError: primary timed out"
+            return valid_empty_page, None
+
+        job_tracker_module.fetch_url = fake_fetch
+        data, error = job_tracker_module.fetch_stepstone_api_page(
+            job_tracker_module.STEPSTONE_SEARCH_URL,
+            "2f4d4654-3e8d-4c29-84b1-42a6c4ac6e30",
+        )
+    finally:
+        job_tracker_module.fetch_url = original_fetch
+
+    assert_equal(error, None, "StepStone second API host error")
+    assert_equal(data, valid_empty_page, "StepStone second API host response")
+    assert_equal(
+        [call[0] for call in calls],
+        list(job_tracker_module.STEPSTONE_API_URLS),
+        "StepStone API host order",
+    )
+    assert_equal(
+        calls[1][1]["json_body"]["userData"]["userHashId"],
+        "2f4d4654-3e8d-4c29-84b1-42a6c4ac6e30",
+        "StepStone API UUID retained",
+    )
+    assert_true(
+        all(call[1].get("accept") == "application/json" for call in calls),
+        "StepStone API requests exact JSON responses",
+    )
+
+
+def test_stepstone_api_invalid_structure_uses_second_first_party_host():
+    calls = []
+    valid_empty_page = {
+        "items": [],
+        "meta": {"total": 0},
+        "unifiedPagination": {"links": {"next": ""}},
+    }
+    original_fetch = job_tracker_module.fetch_url
+    try:
+        def fake_fetch(url, **kwargs):
+            calls.append(url)
+            if url == job_tracker_module.STEPSTONE_API_URLS[0]:
+                return {"error": "temporary upstream response"}, None
+            return valid_empty_page, None
+
+        job_tracker_module.fetch_url = fake_fetch
+        data, error = job_tracker_module.fetch_stepstone_api_page(
+            job_tracker_module.STEPSTONE_SEARCH_URL,
+            "2f4d4654-3e8d-4c29-84b1-42a6c4ac6e30",
+        )
+    finally:
+        job_tracker_module.fetch_url = original_fetch
+
+    assert_equal(error, None, "StepStone invalid primary structure fallback error")
+    assert_equal(data, valid_empty_page, "StepStone invalid primary structure fallback")
+    assert_equal(calls, list(job_tracker_module.STEPSTONE_API_URLS), "StepStone invalid primary host order")
+
+
+def test_stepstone_api_paginates_and_retains_job_ids():
+    first_page = {
+        "items": [
+            {
+                "id": 1001,
+                "title": "Legal Counsel",
+                "companyName": "Erste Firma GmbH",
+                "location": "Wien",
+                "url": "/stellenangebote--Legal-Counsel-Wien--1001-inline.html",
+            },
+            {
+                "id": 1003,
+                "title": "Legal Counsel",
+                "companyName": "Dritte Firma KG",
+                "location": "Wiener Neustadt",
+                "url": "/stellenangebote--Legal-Counsel-Wiener-Neustadt--1003-inline.html",
+            },
+        ],
+        "meta": {"total": 3},
+        "unifiedPagination": {
+            "links": {"next": "https://www.stepstone.at/jobs/jurist/in-wien?page=2"}
+        },
+    }
+    second_page = {
+        "items": [
+            {
+                "id": 1002,
+                "title": "Compliance Jurist:in",
+                "companyName": "Zweite Firma AG",
+                "location": "1030 Wien",
+                "url": "/stellenangebote--Compliance-Jurist-Wien--1002-inline.html",
+            }
+        ],
+        "meta": {"total": 3},
+        "unifiedPagination": {"links": {"next": ""}},
+    }
+    calls = []
+    original_fetch = job_tracker_module.fetch_url
+    try:
+        def fake_fetch(url, **kwargs):
+            calls.append((url, kwargs))
+            page_url = kwargs["json_body"]["url"]
+            if page_url == job_tracker_module.STEPSTONE_SEARCH_URL:
+                return first_page, None
+            if page_url == "https://www.stepstone.at/jobs/jurist/in-wien?page=2":
+                return second_page, None
+            return None, f"unexpected page URL: {page_url}"
+
+        job_tracker_module.fetch_url = fake_fetch
+        jobs, errors = job_tracker_module._fetch_stepstone_jobs_from_api()
+    finally:
+        job_tracker_module.fetch_url = original_fetch
+
+    assert_equal(errors, [], "StepStone API pagination errors")
+    assert_equal(
+        [job["id"] for job in jobs],
+        ["stepstone:1001", "stepstone:1002"],
+        "StepStone API paginated Wien IDs",
+    )
+    hashes = {
+        call[1]["json_body"]["userData"]["userHashId"]
+        for call in calls
+    }
+    assert_equal(len(hashes), 1, "StepStone API reuses one UUID across pages")
+    user_hash = next(iter(hashes))
+    assert_equal(str(job_tracker_module.uuid.UUID(user_hash)), user_hash, "StepStone API UUID is valid")
+
+
+def test_stepstone_api_failure_uses_html_fallback():
+    fallback_job = sample_job("1001", source="stepstone")
+    original_api = job_tracker_module._fetch_stepstone_jobs_from_api
+    original_html = job_tracker_module._fetch_stepstone_jobs_from_html
+    try:
+        job_tracker_module._fetch_stepstone_jobs_from_api = (
+            lambda: ([], ["API timeout"])
+        )
+        job_tracker_module._fetch_stepstone_jobs_from_html = (
+            lambda: ([fallback_job], [])
+        )
+        jobs, errors = job_tracker_module.fetch_stepstone_jobs()
+    finally:
+        job_tracker_module._fetch_stepstone_jobs_from_api = original_api
+        job_tracker_module._fetch_stepstone_jobs_from_html = original_html
+
+    assert_equal(errors, [], "StepStone HTML fallback errors")
+    assert_equal([job["id"] for job in jobs], ["stepstone:1001"], "StepStone HTML fallback job")
+
+
+def test_stepstone_fetch_uses_direct_fast_path():
+    calls = []
+    original_fetch = job_tracker_module.fetch_url
+    try:
+        def fake_fetch(url, **kwargs):
+            calls.append((url, kwargs))
+            return "<html>direct</html>", None
+
+        job_tracker_module.fetch_url = fake_fetch
+        html, error = job_tracker_module.fetch_stepstone_page(
+            job_tracker_module.STEPSTONE_SEARCH_URL
+        )
+    finally:
+        job_tracker_module.fetch_url = original_fetch
+
+    assert_equal(html, "<html>direct</html>", "StepStone direct response")
+    assert_equal(error, None, "StepStone direct error")
+    assert_equal(len(calls), 1, "StepStone direct call count")
+    assert_equal(calls[0][0], job_tracker_module.STEPSTONE_SEARCH_URL, "StepStone direct URL")
+    assert_equal(
+        calls[0][1].get("timeout_seconds"),
+        job_tracker_module.STEPSTONE_DIRECT_TIMEOUT_SECONDS,
+        "StepStone direct timeout",
+    )
+
+
+def test_stepstone_html_fetch_falls_back_to_curl():
+    direct_calls = []
+    curl_calls = []
+    original_fetch = job_tracker_module.fetch_url
+    original_curl = job_tracker_module.fetch_url_with_curl
+    try:
+        def fake_fetch(url, **kwargs):
+            direct_calls.append((url, kwargs))
+            return None, "TimeoutError: direct timed out"
+
+        def fake_curl(url, **kwargs):
+            curl_calls.append((url, kwargs))
+            return "<html>curl</html>", None
+
+        job_tracker_module.fetch_url = fake_fetch
+        job_tracker_module.fetch_url_with_curl = fake_curl
+        html, error = job_tracker_module.fetch_stepstone_page(
+            job_tracker_module.STEPSTONE_SEARCH_URL
+        )
+    finally:
+        job_tracker_module.fetch_url = original_fetch
+        job_tracker_module.fetch_url_with_curl = original_curl
+
+    assert_equal(html, "<html>curl</html>", "StepStone curl response")
+    assert_equal(error, None, "StepStone curl error")
+    assert_equal(len(direct_calls), 1, "StepStone direct call count")
+    assert_equal(len(curl_calls), 1, "StepStone curl call count")
+    assert_equal(
+        curl_calls[0][1].get("timeout_seconds"),
+        job_tracker_module.STEPSTONE_CURL_TIMEOUT_SECONDS,
+        "StepStone curl timeout",
+    )
+
+
+def test_stepstone_html_fetch_reports_direct_and_curl_errors():
+    original_fetch = job_tracker_module.fetch_url
+    original_curl = job_tracker_module.fetch_url_with_curl
+    try:
+        def fake_fetch(url, **kwargs):
+            return None, "TimeoutError: direct timed out"
+
+        job_tracker_module.fetch_url = fake_fetch
+        job_tracker_module.fetch_url_with_curl = (
+            lambda _url, **_kwargs: (None, "curl exit 28")
+        )
+        html, error = job_tracker_module.fetch_stepstone_page(
+            job_tracker_module.STEPSTONE_SEARCH_URL
+        )
+    finally:
+        job_tracker_module.fetch_url = original_fetch
+        job_tracker_module.fetch_url_with_curl = original_curl
+
+    assert_equal(html, None, "StepStone combined failure response")
+    assert_true("direct timed out" in (error or ""), "StepStone direct failure retained")
+    assert_true("curl exit 28" in (error or ""), "StepStone curl failure retained")
+
+
+def test_stepstone_fetch_paginates_and_retains_job_ids():
+    first_page = """
+    <html>
+      <head><link rel="next" href="/jobs/jurist/in-wien?page=2" /></head>
+      <body>
+        <p>3 Stellenangebote</p>
+        <article id="job-item-1001" data-at="job-item">
+          <a data-at="job-item-title" href="/stellenangebote--Legal-Counsel-Wien--1001-inline.html">Legal Counsel</a>
+          <span data-at="job-item-company-name">Erste Firma GmbH</span>
+          <span data-at="job-item-location">Wien</span>
+        </article>
+      </body>
+    </html>
+    """
+    second_page = """
+    <html>
+      <body>
+        <article id="job-item-1002" data-at="job-item">
+          <a data-at="job-item-title" href="/stellenangebote--Compliance-Jurist-Wien--1002-inline.html">Compliance Jurist:in</a>
+          <span data-at="job-item-company-name">Zweite Firma AG</span>
+          <span data-at="job-item-location">1030 Wien</span>
+        </article>
+        <article id="job-item-1003" data-at="job-item">
+          <a data-at="job-item-title" href="/stellenangebote--Legal-Counsel-Wiener-Neustadt--1003-inline.html">Legal Counsel</a>
+          <span data-at="job-item-company-name">Dritte Firma KG</span>
+          <span data-at="job-item-location">Wiener Neustadt</span>
+        </article>
+      </body>
+    </html>
+    """
+    calls = []
+    original_fetch_page = job_tracker_module.fetch_stepstone_page
+    try:
+        def fake_fetch_page(url):
+            calls.append(url)
+            if url == job_tracker_module.STEPSTONE_SEARCH_URL:
+                return first_page, None
+            if url == "https://www.stepstone.at/jobs/jurist/in-wien?page=2":
+                return second_page, None
+            return None, f"unexpected URL: {url}"
+
+        job_tracker_module.fetch_stepstone_page = fake_fetch_page
+        jobs, errors = job_tracker_module._fetch_stepstone_jobs_from_html()
+    finally:
+        job_tracker_module.fetch_stepstone_page = original_fetch_page
+
+    assert_equal(errors, [], "StepStone pagination errors")
+    assert_equal(
+        [job["id"] for job in jobs],
+        ["stepstone:1001", "stepstone:1002"],
+        "StepStone paginated Wien IDs",
+    )
+    assert_equal(
+        calls,
+        [
+            job_tracker_module.STEPSTONE_SEARCH_URL,
+            "https://www.stepstone.at/jobs/jurist/in-wien?page=2",
+        ],
+        "StepStone pagination URLs",
+    )
+
+
+def test_stepstone_html_rejects_incomplete_results():
+    cards = "".join(
+        f"""
+        <article id="job-item-{1000 + index}" data-at="job-item">
+          <a data-at="job-item-title" href="/stellenangebote--Legal-Counsel-Wien--{1000 + index}-inline.html">Legal Counsel</a>
+          <span data-at="job-item-company-name">Firma {index}</span>
+          <span data-at="job-item-location">Wien</span>
+        </article>
+        """
+        for index in range(24)
+    )
+    incomplete_page = f"<html><body><p>30 Stellenangebote</p>{cards}</body></html>"
+    original_fetch_page = job_tracker_module.fetch_stepstone_page
+    try:
+        job_tracker_module.fetch_stepstone_page = lambda _url: (incomplete_page, None)
+        _jobs, errors = job_tracker_module._fetch_stepstone_jobs_from_html()
+    finally:
+        job_tracker_module.fetch_stepstone_page = original_fetch_page
+
+    assert_true(
+        any("appears incomplete" in error for error in errors),
+        "StepStone incomplete HTML is rejected at the former 80 percent boundary",
+    )
 
 
 def test_lawfinder_next_flight_parser():
@@ -712,6 +1233,35 @@ def test_empty_success_preserves_previous_source_state():
         assert_equal([job["id"] for job in failed.all_jobs], ["jusjobs:1"], "empty result preserves baseline")
 
 
+def test_erste_bank_authoritative_empty_clears_active_job_but_keeps_seen_id():
+    with tempfile.TemporaryDirectory() as tmp:
+        first_job = sample_job("1", source="erste_bank")
+        run_job_tracker(
+            source_names=["erste_bank"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers={"erste_bank": lambda: ([first_job], [])},
+        )
+        empty = run_job_tracker(
+            source_names=["erste_bank"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers={"erste_bank": lambda: ([], [])},
+        )
+        assert_true(empty.healthy, "authoritative empty Erste result is healthy")
+        assert_equal(empty.all_jobs, [], "closed Erste job removed from active jobs")
+        assert_equal(empty.sources["erste_bank"]["count"], 0, "Erste source records zero active jobs")
+        assert_true("erste_bank:1" in empty.snapshot["data"]["seen_ids"], "closed Erste id remains seen")
+
+        reappeared = run_job_tracker(
+            source_names=["erste_bank"],
+            snapshot_dir=tmp,
+            notify=False,
+            fetchers={"erste_bank": lambda: ([first_job], [])},
+        )
+        assert_equal(reappeared.new_jobs, [], "reappearing Erste id is not alerted again")
+
+
 def test_partial_source_failure_still_delivers_other_source_jobs():
     with tempfile.TemporaryDirectory() as tmp:
         current = {
@@ -811,9 +1361,20 @@ def run_tests():
         test_jusjobs_stale_advertised_count_is_only_a_warning,
         test_jusjobs_unparsed_rendered_card_is_an_error,
         test_erste_bank_filter,
+        test_erste_bank_catalog_validation,
         test_uniqa_rss_filter,
         test_karriere_at_state_filter,
         test_stepstone_html_filter,
+        test_stepstone_api_filter,
+        test_stepstone_api_uses_second_first_party_host,
+        test_stepstone_api_invalid_structure_uses_second_first_party_host,
+        test_stepstone_api_paginates_and_retains_job_ids,
+        test_stepstone_api_failure_uses_html_fallback,
+        test_stepstone_fetch_uses_direct_fast_path,
+        test_stepstone_html_fetch_falls_back_to_curl,
+        test_stepstone_html_fetch_reports_direct_and_curl_errors,
+        test_stepstone_fetch_paginates_and_retains_job_ids,
+        test_stepstone_html_rejects_incomplete_results,
         test_lawfinder_next_flight_parser,
         test_compare_new_jobs,
         test_cross_source_dedupe_same_position,
@@ -826,6 +1387,7 @@ def run_tests():
         test_failed_notification_is_retried_from_outbox,
         test_subset_run_preserves_other_sources,
         test_empty_success_preserves_previous_source_state,
+        test_erste_bank_authoritative_empty_clears_active_job_but_keeps_seen_id,
         test_partial_source_failure_still_delivers_other_source_jobs,
         test_all_sources_failed_is_fatal,
         test_seen_ids_suppress_reappearing_jobs,

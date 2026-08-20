@@ -9,6 +9,7 @@ import subprocess
 import urllib.error
 import urllib.parse
 import urllib.request
+import uuid
 import xml.etree.ElementTree as ET
 import zlib
 from dataclasses import dataclass
@@ -72,9 +73,15 @@ KARRIERE_LOAD_MORE_PARAMS = (
 )
 STEPSTONE_BASE_URL = "https://www.stepstone.at/"
 STEPSTONE_SEARCH_URL = "https://www.stepstone.at/jobs/jurist/in-wien?page=1"
-STEPSTONE_TIMEOUT_SECONDS = 30
-STEPSTONE_CURL_TIMEOUT_SECONDS = 75
-STEPSTONE_FETCH_ATTEMPTS = 1
+STEPSTONE_API_URLS = (
+    "https://www.stepstone.at/public-api/resultlist/unifiedResultlist",
+    "https://www.stepstone.de/public-api/resultlist/unifiedResultlist",
+)
+STEPSTONE_API_TIMEOUT_SECONDS = 12
+STEPSTONE_DIRECT_TIMEOUT_SECONDS = 25
+STEPSTONE_CURL_TIMEOUT_SECONDS = 35
+STEPSTONE_SITE_ID = 255
+STEPSTONE_SEARCH_RESULT_SECTIONS = {"main", "semantic", "regional"}
 
 DEFAULT_SOURCE_NAMES = (
     "jusjobs",
@@ -105,6 +112,7 @@ class SourceConfig:
     label: str
     fetcher: Fetcher
     default_enabled: bool = True
+    allow_empty_results: bool = False
 
 
 @dataclass
@@ -471,6 +479,7 @@ def fetch_url(
     *,
     headers: Optional[Dict[str, str]] = None,
     is_json: bool = False,
+    json_body: Optional[Any] = None,
     accept: Optional[str] = None,
     timeout_seconds: int = REQUEST_TIMEOUT_SECONDS,
 ) -> Tuple[Optional[Any], Optional[str]]:
@@ -483,9 +492,18 @@ def fetch_url(
     }
     if headers:
         request_headers.update(headers)
+    request_body: Optional[bytes] = None
+    if json_body is not None:
+        request_headers.setdefault("Content-Type", "application/json")
+        request_body = json.dumps(json_body).encode("utf-8")
 
     try:
-        req = urllib.request.Request(url, headers=request_headers)
+        req = urllib.request.Request(
+            url,
+            data=request_body,
+            headers=request_headers,
+            method="POST" if request_body is not None else "GET",
+        )
         context = _ssl_context()
         if context is None:
             response_cm = urllib.request.urlopen(req, timeout=timeout_seconds)
@@ -624,15 +642,25 @@ def _extract_jusjobs_expected_count(html: str) -> Optional[int]:
     return None
 
 
-def _count_jusjobs_result_cards(html: str) -> int:
-    result_html = _extract_between_markers(
+def _extract_jusjobs_results_html(html: str) -> str:
+    """Return only the public result column, ignoring other white cards inside it."""
+    return _extract_between_markers(
         html.replace("<!-- -->", ""),
         r'id=["\']jobSearchResults["\']',
-        r'<div[^>]+class=["\'][^"\']*\bwhiteBg\b',
+        (
+            r'<div[^>]+(?:'
+            r'id=["\']ExtendedJobResultsFallBack["\']'
+            r'|class=["\'][^"\']*\bcol\b[^"\']*\bp-0\b[^"\']*\bwhiteBg\b[^"\']*["\']'
+            r')'
+        ),
     )
+
+
+def _count_jusjobs_result_cards(html: str) -> int:
+    result_html = _extract_jusjobs_results_html(html)
     return len(
         re.findall(
-            r'<div[^>]+class=["\'][^"\']*\bjobResult\b[^"\']*["\']',
+            r'<div[^>]+id=["\']jobResult-\d+["\'][^>]*>',
             result_html,
             re.IGNORECASE,
         )
@@ -642,11 +670,7 @@ def _count_jusjobs_result_cards(html: str) -> int:
 def parse_jusjobs_jobs_from_html(html: str, fetched_at: Optional[str] = None) -> Tuple[List[Dict[str, Any]], List[str]]:
     fetched_at = fetched_at or utc_now()
     warnings: List[str] = []
-    result_html = _extract_between_markers(
-        html.replace("<!-- -->", ""),
-        r'id=["\']jobSearchResults["\']',
-        r'<div[^>]+class=["\'][^"\']*\bwhiteBg\b',
-    )
+    result_html = _extract_jusjobs_results_html(html)
 
     link_matches = list(re.finditer(r'href=["\'](/job/(\d+))["\']', result_html, re.IGNORECASE))
     jobs: List[Dict[str, Any]] = []
@@ -834,7 +858,13 @@ def _discipline_is_legal_compliance_audit(disciplines: Any) -> bool:
         disciplines = [disciplines]
     if not isinstance(disciplines, list):
         return False
-    return any(normalize_text(item).casefold() == "legal / compliance / audit" for item in disciplines)
+    accepted = {
+        "legal / compliance / audit",
+        "legal",
+        "compliance",
+        "audit",
+    }
+    return any(normalize_text(item).casefold() in accepted for item in disciplines)
 
 
 def filter_erste_bank_jobs(
@@ -847,7 +877,8 @@ def filter_erste_bank_jobs(
     for raw in raw_jobs:
         if not _location_is_wien(raw.get("location")):
             continue
-        if not _discipline_is_legal_compliance_audit(raw.get("discipline_items")):
+        disciplines = raw.get("discipline_items") or raw.get("discipline")
+        if not _discipline_is_legal_compliance_audit(disciplines):
             continue
 
         raw_id = normalize_text(raw.get("id"))
@@ -882,7 +913,38 @@ def fetch_erste_bank_jobs() -> FetchResult:
         return [], [f"Erste Bank API error: {err}"]
     if not isinstance(data, dict) or not isinstance(data.get("data"), list):
         return [], ["Erste Bank API returned an unexpected response structure"]
-    return filter_erste_bank_jobs(data["data"], detail_path=detail_path), []
+    raw_jobs = data["data"]
+    if not raw_jobs:
+        return [], ["Erste Bank API returned no raw jobs"]
+    if not any(
+        isinstance(raw, dict)
+        and "location" in raw
+        and ("discipline_items" in raw or "discipline" in raw)
+        for raw in raw_jobs
+    ):
+        return [], ["Erste Bank API jobs are missing location or discipline fields"]
+    if not any(
+        isinstance(raw, dict)
+        and _discipline_is_legal_compliance_audit(
+            raw.get("discipline_items") or raw.get("discipline")
+        )
+        for raw in raw_jobs
+    ):
+        return [], [
+            "Erste Bank API catalog no longer exposes a known "
+            "Legal / Compliance / Audit discipline"
+        ]
+    if any(
+        isinstance(raw, dict)
+        and _location_is_wien(raw.get("location"))
+        and _discipline_is_legal_compliance_audit(
+            raw.get("discipline_items") or raw.get("discipline")
+        )
+        and not normalize_text(raw.get("id"))
+        for raw in raw_jobs
+    ):
+        return [], ["Erste Bank API returned a matching Wien job without an ID"]
+    return filter_erste_bank_jobs(raw_jobs, detail_path=detail_path), []
 
 
 def _find_xml_text(item: ET.Element, name: str) -> str:
@@ -1464,30 +1526,274 @@ def parse_stepstone_jobs_from_html(html: str, fetched_at: Optional[str] = None) 
     return dedupe_jobs(jobs), warnings
 
 
-def fetch_stepstone_page(url: str) -> Tuple[Optional[str], Optional[str]]:
-    last_error: Optional[str] = None
-    for attempt in range(1, STEPSTONE_FETCH_ATTEMPTS + 1):
-        html, err = fetch_url(url, timeout_seconds=STEPSTONE_TIMEOUT_SECONDS)
-        if not err and html:
-            return html, None
-        last_error = err or "empty response"
-        if attempt < STEPSTONE_FETCH_ATTEMPTS:
-            print(f"[jobs][warn] StepStone fetch attempt {attempt} failed, retrying: {last_error}")
+def _stepstone_html_card_keys(html: str) -> set[str]:
+    parser = StepstoneJobCardParser()
+    parser.feed(html or "")
+    keys: set[str] = set()
+    for card in parser.cards:
+        raw_id = normalize_text(card.get("id"))
+        url = _absolute_url(STEPSTONE_BASE_URL, normalize_text(card.get("url")))
+        key = raw_id or url
+        if key:
+            keys.add(key)
+    return keys
 
-    print(f"[jobs][warn] StepStone urllib fetch failed, trying curl fallback: {last_error}")
+
+def _stepstone_api_label_text(value: Any) -> str:
+    if isinstance(value, dict):
+        for key in ("text", "label", "name", "value"):
+            text = normalize_text(value.get(key))
+            if text:
+                return text
+        return ""
+    return normalize_text(value)
+
+
+def _format_stepstone_api_salary(raw: Dict[str, Any]) -> Optional[str]:
+    salary = normalize_text(raw.get("salary"))
+    if salary:
+        return salary
+
+    unified = raw.get("unifiedSalary")
+    if not isinstance(unified, dict):
+        return None
+    minimum = unified.get("min") or unified.get("minimum")
+    maximum = unified.get("max") or unified.get("maximum")
+    currency = normalize_text(unified.get("currency")) or "EUR"
+    period = normalize_text(unified.get("period") or unified.get("salaryType"))
+    if minimum is None and maximum is None:
+        return None
+    if minimum is not None and maximum is not None:
+        amount = f"{currency} {minimum} - {maximum}"
+    else:
+        amount = f"{currency} {minimum if minimum is not None else maximum}"
+    return normalize_text(f"{amount} {period}")
+
+
+def parse_stepstone_jobs_from_api(
+    payload: Dict[str, Any],
+    fetched_at: Optional[str] = None,
+) -> Tuple[List[Dict[str, Any]], List[str]]:
+    fetched_at = fetched_at or utc_now()
+    items = payload.get("items") if isinstance(payload, dict) else None
+    if not isinstance(items, list):
+        return [], ["StepStone API response is missing its items list"]
+
+    warnings: List[str] = []
+    jobs: List[Dict[str, Any]] = []
+    skipped_non_wien = 0
+    skipped_non_result = 0
+    for raw in items:
+        if not isinstance(raw, dict):
+            continue
+        section = normalize_text(raw.get("section")).casefold()
+        if section and section not in STEPSTONE_SEARCH_RESULT_SECTIONS:
+            skipped_non_result += 1
+            continue
+        location = normalize_text(raw.get("location"))
+        if not _is_stepstone_wien_location(location):
+            skipped_non_wien += 1
+            continue
+
+        raw_id = normalize_text(raw.get("id"))
+        title = _clean_stepstone_title(normalize_text(raw.get("title")))
+        url = _absolute_url(STEPSTONE_BASE_URL, normalize_text(raw.get("url")))
+        parsed_url = urllib.parse.urlsplit(url)
+        clean_url = urllib.parse.urlunsplit(
+            (parsed_url.scheme, parsed_url.netloc, parsed_url.path, "", "")
+        )
+
+        label_values: List[str] = []
+        for key in ("labels", "topLabels"):
+            values = raw.get(key)
+            if not isinstance(values, list):
+                continue
+            for value in values:
+                label = _stepstone_api_label_text(value)
+                if label and label not in label_values:
+                    label_values.append(label)
+        if (
+            normalize_text(raw.get("workFromHome")) not in {"", "0"}
+            and "Home Office" not in label_values
+        ):
+            label_values.append("Home Office")
+
+        snippet = normalize_text(raw.get("textSnippet"))
+        searchable_text = normalize_text(
+            " ".join([title, snippet, *label_values])
+        )
+        jobs.append(
+            finalize_job(
+                {
+                    "id": f"stepstone:{raw_id}",
+                    "source": "stepstone",
+                    "title": title,
+                    "company": raw.get("companyName") or "Unbekannt",
+                    "location": location,
+                    "url": clean_url,
+                    "salary": _format_stepstone_api_salary(raw),
+                    "employment_type": _extract_stepstone_employment_type(searchable_text),
+                    "published_at": raw.get("datePosted"),
+                    "department": ", ".join(label_values) or None,
+                    "snippet": snippet,
+                    "first_seen": fetched_at,
+                },
+                fetched_at,
+            )
+        )
+
+    if skipped_non_wien:
+        warnings.append(f"StepStone API skipped {skipped_non_wien} non-Wien job(s)")
+    if skipped_non_result:
+        warnings.append(
+            f"StepStone API skipped {skipped_non_result} non-search-result job(s)"
+        )
+    return dedupe_jobs(jobs), warnings
+
+
+def _stepstone_api_payload(url: str, user_hash_id: str) -> Dict[str, Any]:
+    return {
+        "url": url,
+        "lang": "de",
+        "siteId": STEPSTONE_SITE_ID,
+        "userData": {
+            "isUserLoggedIn": False,
+            "candidateId": None,
+            "userHashId": user_hash_id,
+        },
+        "isNonEUUser": False,
+        "isBotCrawler": False,
+        "metadata": {
+            "referer": "",
+            "userAgent": REQUEST_USER_AGENT,
+            "isMobileApp": False,
+        },
+        "uiLanguage": "de",
+        "fields": [],
+    }
+
+
+def fetch_stepstone_api_page(
+    url: str,
+    user_hash_id: str,
+) -> Tuple[Optional[Dict[str, Any]], Optional[str]]:
+    errors: List[str] = []
+    payload = _stepstone_api_payload(url, user_hash_id)
+    for endpoint in STEPSTONE_API_URLS:
+        data, err = fetch_url(
+            endpoint,
+            is_json=True,
+            json_body=payload,
+            accept="application/json",
+            timeout_seconds=STEPSTONE_API_TIMEOUT_SECONDS,
+        )
+        if (
+            not err
+            and isinstance(data, dict)
+            and isinstance(data.get("items"), list)
+            and isinstance(data.get("meta"), dict)
+            and isinstance(data.get("unifiedPagination"), dict)
+        ):
+            return data, None
+        host = urllib.parse.urlsplit(endpoint).netloc
+        errors.append(f"{host}: {err or 'unexpected response structure'}")
+    return None, "; ".join(errors)
+
+
+def _fetch_stepstone_jobs_from_api() -> FetchResult:
+    fetched_at = utc_now()
+    user_hash_id = str(uuid.uuid4())
+    jobs: List[Dict[str, Any]] = []
+    warnings: List[str] = []
+    seen_page_urls: set[str] = set()
+    raw_ids: set[str] = set()
+    url: Optional[str] = STEPSTONE_SEARCH_URL
+    expected_count: Optional[int] = None
+
+    for _page in range(MAX_PAGES_PER_SOURCE):
+        if not url or url in seen_page_urls:
+            break
+        seen_page_urls.add(url)
+
+        data, err = fetch_stepstone_api_page(url, user_hash_id)
+        if err or not isinstance(data, dict):
+            return [], [f"StepStone API fetch error for {url}: {err or 'empty response'}"]
+        items = data.get("items")
+        meta = data.get("meta")
+        pagination = data.get("unifiedPagination")
+        if not isinstance(items, list) or not isinstance(meta, dict) or not isinstance(pagination, dict):
+            return [], ["StepStone API returned an unexpected response structure"]
+        if any(
+            not isinstance(item, dict)
+            or not normalize_text(item.get("id"))
+            or not normalize_text(item.get("title"))
+            or not normalize_text(item.get("location"))
+            or not normalize_text(item.get("url"))
+            for item in items
+        ):
+            return [], ["StepStone API returned an incomplete job item"]
+
+        if expected_count is None:
+            try:
+                expected_count = int(meta.get("total"))
+            except (TypeError, ValueError):
+                return [], ["StepStone API response is missing its total result count"]
+
+        page_raw_ids = {normalize_text(item.get("id")) for item in items}
+        before_raw_count = len(raw_ids)
+        raw_ids.update(page_raw_ids)
+        page_jobs, page_warnings = parse_stepstone_jobs_from_api(data, fetched_at)
+        warnings.extend(page_warnings)
+        jobs.extend(page_jobs)
+        jobs = dedupe_jobs(jobs)
+
+        links = pagination.get("links")
+        next_url = normalize_text(links.get("next")) if isinstance(links, dict) else ""
+        if not next_url:
+            break
+        if len(raw_ids) == before_raw_count:
+            return [], [f"StepStone API pagination page did not add new job IDs: {url}"]
+        url = _absolute_url(STEPSTONE_BASE_URL, next_url)
+
+    if expected_count is not None and len(raw_ids) != expected_count:
+        return [], [
+            f"StepStone API expected {expected_count} raw result(s) but fetched "
+            f"{len(raw_ids)} unique job ID(s)"
+        ]
+    if expected_count and not jobs:
+        return [], [f"StepStone API returned {expected_count} result(s) but retained no Wien jobs"]
+    for warning in warnings:
+        print(f"[jobs][warn] {warning}")
+    return dedupe_jobs(jobs), []
+
+
+def fetch_stepstone_page(url: str) -> Tuple[Optional[str], Optional[str]]:
+    html, direct_err = fetch_url(
+        url,
+        timeout_seconds=STEPSTONE_DIRECT_TIMEOUT_SECONDS,
+    )
+    if not direct_err and html:
+        return html, None
+
+    direct_error = direct_err or "empty response"
+    print(
+        "[jobs][warn] StepStone direct HTML fetch failed, trying curl: "
+        f"{direct_error}"
+    )
     html, curl_err = fetch_url_with_curl(
         url,
         timeout_seconds=STEPSTONE_CURL_TIMEOUT_SECONDS,
     )
     if not curl_err and html:
         return html, None
-    return None, f"{last_error}; curl fallback: {curl_err or 'empty response'}"
+    return None, f"{direct_error}; curl fallback: {curl_err or 'empty response'}"
 
 
-def fetch_stepstone_jobs() -> FetchResult:
+def _fetch_stepstone_jobs_from_html() -> FetchResult:
     fetched_at = utc_now()
     warnings: List[str] = []
     jobs: List[Dict[str, Any]] = []
+    raw_card_keys: set[str] = set()
     seen_page_urls: set[str] = set()
     url: Optional[str] = STEPSTONE_SEARCH_URL
     expected_count: Optional[int] = None
@@ -1508,24 +1814,34 @@ def fetch_stepstone_jobs() -> FetchResult:
         if expected_count is None:
             expected_count = _extract_stepstone_expected_count(html)
 
+        before_raw_count = len(raw_card_keys)
+        raw_card_keys.update(_stepstone_html_card_keys(html))
         page_jobs, page_warnings = parse_stepstone_jobs_from_html(html, fetched_at)
         warnings.extend(page_warnings)
 
-        before_count = len(dedupe_jobs(jobs))
         jobs.extend(page_jobs)
         jobs = dedupe_jobs(jobs)
-        after_count = len(jobs)
 
         next_url = _extract_stepstone_next_url(html)
         if not next_url:
             break
-        if after_count == before_count:
-            return jobs, [f"StepStone pagination page did not add new job IDs: {url}"]
+        if len(raw_card_keys) == before_raw_count:
+            return jobs, [f"StepStone pagination page did not add new raw job IDs: {url}"]
         url = next_url
 
+    raw_count = len(raw_card_keys)
+    if expected_count is not None and raw_count != expected_count:
+        warnings.append(
+            f"StepStone expected {expected_count} result(s) but parsed {raw_count} raw job card(s)"
+        )
+        if raw_count < expected_count:
+            return jobs, [
+                f"StepStone HTML result appears incomplete: expected {expected_count} "
+                f"result(s), parsed only {raw_count} raw job card(s)"
+            ]
     if expected_count is not None and len(jobs) != expected_count:
         warnings.append(
-            f"StepStone expected {expected_count} result(s) but retained {len(jobs)} Wien job card(s)"
+            f"StepStone retained {len(jobs)} Wien job card(s) from {raw_count} raw result(s)"
         )
     for warning in warnings:
         print(f"[jobs][warn] {warning}")
@@ -1534,10 +1850,34 @@ def fetch_stepstone_jobs() -> FetchResult:
     return dedupe_jobs(jobs), []
 
 
+def fetch_stepstone_jobs() -> FetchResult:
+    api_jobs, api_errors = _fetch_stepstone_jobs_from_api()
+    if not api_errors:
+        return api_jobs, []
+
+    print(
+        "[jobs][warn] StepStone first-party API failed, trying HTML fallback: "
+        f"{' | '.join(api_errors)}"
+    )
+    html_jobs, html_errors = _fetch_stepstone_jobs_from_html()
+    if not html_errors:
+        return html_jobs, []
+    return [], [
+        "StepStone API and HTML fallback failed: "
+        f"{' | '.join(api_errors)}; {' | '.join(html_errors)}"
+    ]
+
+
 def build_source_registry(fetchers: Optional[Dict[str, Fetcher]] = None) -> Dict[str, SourceConfig]:
     registry = {
         "jusjobs": SourceConfig("jusjobs", "JusJobs", fetch_jusjobs_jobs, True),
-        "erste_bank": SourceConfig("erste_bank", "Erste Bank / Sparkasse", fetch_erste_bank_jobs, True),
+        "erste_bank": SourceConfig(
+            "erste_bank",
+            "Erste Bank / Sparkasse",
+            fetch_erste_bank_jobs,
+            default_enabled=True,
+            allow_empty_results=True,
+        ),
         "uniqa": SourceConfig("uniqa", "UNIQA", fetch_uniqa_jobs, True),
         "lawfinder": SourceConfig("lawfinder", "LawFinder", fetch_lawfinder_jobs, True),
         "derstandard": SourceConfig("derstandard", "DER STANDARD Jobs", fetch_derstandard_jobs, True),
@@ -1552,6 +1892,7 @@ def build_source_registry(fetchers: Optional[Dict[str, Fetcher]] = None) -> Dict
                 label=current.label if current else name,
                 fetcher=fetcher,
                 default_enabled=current.default_enabled if current else True,
+                allow_empty_results=current.allow_empty_results if current else False,
             )
     return registry
 
@@ -1701,7 +2042,12 @@ def run_job_tracker(
             previous_count = int(previous_count or 0)
         except (TypeError, ValueError):
             previous_count = len(old_source_jobs)
-        if not errors and not jobs and (old_source_jobs or previous_count > 0):
+        if (
+            not errors
+            and not jobs
+            and not source.allow_empty_results
+            and (old_source_jobs or previous_count > 0)
+        ):
             errors = [
                 f"{source.label} returned 0 jobs after previously returning "
                 f"{max(previous_count, len(old_source_jobs))}; preserving the prior baseline"
