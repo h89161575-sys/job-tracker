@@ -1,49 +1,49 @@
 {
-  "timestamp": "2026-08-20T12:00:49.086597Z",
+  "timestamp": "2026-08-20T13:07:28.704587Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-08-20T12:00:49.086597Z",
+        "last_success": "2026-08-20T13:07:28.704587Z",
         "last_error": null,
-        "count": 23
+        "count": 24
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-20T12:00:49.086597Z",
+        "last_success": "2026-08-20T13:07:28.704587Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-20T12:00:49.086597Z",
+        "last_success": "2026-08-20T13:07:28.704587Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-20T12:00:49.086597Z",
+        "last_success": "2026-08-20T13:07:28.704587Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-20T12:00:49.086597Z",
+        "last_success": "2026-08-20T13:07:28.704587Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-20T12:00:49.086597Z",
+        "last_success": "2026-08-20T13:07:28.704587Z",
         "last_error": null,
-        "count": 63
+        "count": 64
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-20T12:00:49.086597Z",
+        "last_success": "2026-08-20T13:07:28.704587Z",
         "last_error": null,
-        "count": 28
+        "count": 27
       }
     },
     "jobs": [
@@ -256,6 +256,19 @@
         "fingerprint": "4ff6a5b339c19cfb0a3e16bd201a5acaf3c398c3931fc0197dcb2490c1033b6a"
       },
       {
+        "id": "jusjobs:1926975",
+        "source": "jusjobs",
+        "title": "Verwaltungspraktikum Juristischer Fachdienst",
+        "company": "Bundesministerium für Justiz",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1926975",
+        "salary": "€ 3.635",
+        "employment_type": "Vollzeit",
+        "snippet": "Verwaltungspraktikum im juristischen Fachdienst bei der Datenschutzbehörde in Wien mit Schwerpunkt Datenschutzrecht und Verwaltungsverfahren.",
+        "first_seen": "2026-08-20T13:07:28.704925Z",
+        "fingerprint": "3ece1ca23abd738f74824a8af25797b572409258999f9731a2ae703f6147acae"
+      },
+      {
         "id": "jusjobs:1926977",
         "source": "jusjobs",
         "title": "Verwaltungspraktikantin / Verwaltungspraktikant",
@@ -263,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1926977",
         "salary": "€ 3.635",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Befristetes Verwaltungspraktikum bei der Generalprokuratur beim Obersten Gerichtshof in Wien für Absolventinnen und Absolventen der Rechtswissenschaften.",
         "first_seen": "2026-08-20T12:00:49.087018Z",
-        "fingerprint": "0771689715232192d22a57a403ab8b4d5cea308519a923d64048b25aa0386205"
+        "fingerprint": "0d329bb7cd90b87a700c2e3c6d3070cee5427e27d824a34d774c1c68d3121b7d"
       },
       {
         "id": "jusjobs:1923751",
@@ -606,6 +619,20 @@
         "snippet": null,
         "first_seen": "2026-08-19T14:01:53.765722Z",
         "fingerprint": "556f7da27d034898291e57a95b2befb36bb2cb2e3ea75072f59209d9665cffbd"
+      },
+      {
+        "id": "karriere_at:10030275",
+        "source": "karriere_at",
+        "title": "Mitarbeiter:in der Rechtsabteilung",
+        "company": "VBV",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10030275",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-20T13:07:36.835374Z",
+        "fingerprint": "fb7cc52ddb2321c3fc8d7ca24443b44dafb2bf4538544b4582fd255342ce19ea"
       },
       {
         "id": "karriere_at:10029477",
@@ -1844,6 +1871,7 @@
       "karriere_at:10029477",
       "karriere_at:10029897",
       "karriere_at:10030019",
+      "karriere_at:10030275",
       "karriere_at:7663251",
       "karriere_at:7663254",
       "karriere_at:7663257",
