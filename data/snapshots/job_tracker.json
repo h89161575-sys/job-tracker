@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-08-20T23:12:28.809533Z",
+  "timestamp": "2026-08-20T23:44:44.088026Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-08-20T23:12:28.809533Z",
+        "last_success": "2026-08-20T23:44:44.088026Z",
         "last_error": null,
         "count": 24
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-20T23:12:28.809533Z",
+        "last_success": "2026-08-20T23:44:44.088026Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-20T23:12:28.809533Z",
+        "last_success": "2026-08-20T23:44:44.088026Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-20T23:12:28.809533Z",
+        "last_success": "2026-08-20T23:44:44.088026Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-20T23:12:28.809533Z",
+        "last_success": "2026-08-20T23:44:44.088026Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-20T23:12:28.809533Z",
+        "last_success": "2026-08-20T23:44:44.088026Z",
         "last_error": null,
         "count": 64
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-20T23:12:28.809533Z",
+        "last_success": "2026-08-20T23:44:44.088026Z",
         "last_error": null,
         "count": 27
       }
@@ -563,6 +563,16 @@
         "fingerprint": "cf6e2bfb4f03d772ef56b863346615c02f097031a96ff672087707b2fa6c92e1"
       },
       {
+        "id": "derstandard:6a05a551-9465-31c4-b400-9381281e82ca",
+        "source": "derstandard",
+        "title": "Ermittler:in (all genders) Marktmissbrauchsaufsicht Crypto Assets",
+        "company": "Finanzmarktaufsicht (FMA)",
+        "location": "Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/6a05a551-9465-31c4-b400-9381281e82ca",
+        "first_seen": "2026-08-20T23:44:52.768075Z",
+        "fingerprint": "f6ca9930fce96220dabda3e5837731753435a198eb36d37809e7a346a160ba72"
+      },
+      {
         "id": "derstandard:493881e6-0fb9-314e-8516-5e773697b397",
         "source": "derstandard",
         "title": "Manager:in Tax/ Steuerberater:in (m/w/d)",
@@ -583,14 +593,18 @@
         "fingerprint": "f4d8488b76d20d9817a3ea197abe36d68a2859cdf728c5b0e9079af1790afba6"
       },
       {
-        "id": "derstandard:bf69b400-5e8d-3e05-973e-b3cea79add1d",
-        "source": "derstandard",
-        "title": "Senior Associate Tax (m/w/d)",
-        "company": "Grant Thornton Austria Holding GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
-        "location": "Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/bf69b400-5e8d-3e05-973e-b3cea79add1d",
-        "first_seen": "2026-08-20T22:39:54.313141Z",
-        "fingerprint": "2f0a8b80d113c9478a8f0ea3f64ddbda2317601bac782e0035f87eca4a611fd9"
+        "id": "karriere_at:7849607",
+        "source": "karriere_at",
+        "title": "Senior Legal Counsel (m/w/d)",
+        "company": "Kommunalkredit Austria AG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7849607",
+        "salary": "80.000 € – 90.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Ihre Aufgaben: Sie beraten und unterstützen die Fachabteilungen und Beteiligungen der Bank bei rechtlichen Fragestellungen (Corporate Inhouse) und bearbeiten unterschiedlichste Fragestellungen im Zivil-...",
+        "first_seen": "2026-07-23T12:00:35.888489Z",
+        "fingerprint": "3a448dc17a5974703c7b67fa7c071935f8cabdf522b345977c8b9be827806b85"
       },
       {
         "id": "karriere_at:10028990",
@@ -605,20 +619,6 @@
         "snippet": null,
         "first_seen": "2026-08-07T09:28:00.453961Z",
         "fingerprint": "ae545b03c590717a02bb93c9bb4fba679fe39653618614a03eeb85299ca20de9"
-      },
-      {
-        "id": "karriere_at:7849607",
-        "source": "karriere_at",
-        "title": "Senior Legal Counsel (m/w/d)",
-        "company": "Kommunalkredit Austria AG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7849607",
-        "salary": "80.000 € – 90.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Ihre Aufgaben: Sie beraten und unterstützen die Fachabteilungen und Beteiligungen der Bank bei rechtlichen Fragestellungen (Corporate Inhouse) und bearbeiten unterschiedlichste Fragestellungen im Zivil-...",
-        "first_seen": "2026-07-23T12:00:35.888489Z",
-        "fingerprint": "3a448dc17a5974703c7b67fa7c071935f8cabdf522b345977c8b9be827806b85"
       },
       {
         "id": "karriere_at:10028263",
