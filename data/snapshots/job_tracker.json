@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T10:15:25.449658Z",
+  "timestamp": "2026-08-20T10:52:11.013346Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -17,33 +17,33 @@
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-20T10:15:25.449658Z",
+        "last_success": "2026-08-20T10:52:11.013346Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-20T10:15:25.449658Z",
+        "last_success": "2026-08-20T10:52:11.013346Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-20T10:15:25.449658Z",
+        "last_success": "2026-08-20T10:52:11.013346Z",
         "last_error": null,
         "count": 7
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-20T10:15:25.449658Z",
+        "last_success": "2026-08-20T10:52:11.013346Z",
         "last_error": null,
         "count": 63
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-20T10:15:25.449658Z",
-        "last_error": null,
-        "count": 29
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 25
       }
     },
     "jobs": [
@@ -928,10 +928,10 @@
         "url": "https://www.karriere.at/jobs/7861537",
         "salary": "ab 6.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-08-18T11:12:16.448759Z",
-        "fingerprint": "862e0e817dc2e971d7fb8e6e01b1640d6c9159c28fd6a49b53b8ebae24849480"
+        "fingerprint": "62674e40c5bf8e5dcc66602ffef5c11f65ddd957f2c14d1bebda05f85eaa0b94"
       },
       {
         "id": "karriere_at:7847546",
@@ -1026,10 +1026,10 @@
         "url": "https://www.karriere.at/jobs/7859749",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Senior Consultant/ Manager:in (all genders) I Fokus M&A Tax, Konzernsteuerrecht und Internationales Steuerrecht Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung...",
         "first_seen": "2026-08-13T14:04:57.492839Z",
-        "fingerprint": "aa27210dd41848efc4ab8e91302f7817f19f9733c2f38cedf9b75106fac19b16"
+        "fingerprint": "1d1224b028cb00374840566bb4f667abd9bd461aa9f5f6e2672372e37957816f"
       },
       {
         "id": "karriere_at:7859371",
