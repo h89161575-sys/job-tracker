@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T05:53:43.846789Z",
+  "timestamp": "2026-08-20T07:01:49.907074Z",
   "data": {
     "schema_version": 3,
     "sources": {
@@ -11,39 +11,39 @@
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-20T05:53:43.846789Z",
+        "last_success": "2026-08-20T07:01:49.907074Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-20T05:53:43.846789Z",
+        "last_success": "2026-08-20T07:01:49.907074Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-20T05:53:43.846789Z",
+        "last_success": "2026-08-20T07:01:49.907074Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-20T05:53:43.846789Z",
+        "last_success": "2026-08-20T07:01:49.907074Z",
         "last_error": null,
-        "count": 7
+        "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-20T05:53:43.846789Z",
+        "last_success": "2026-08-20T07:01:49.907074Z",
         "last_error": null,
         "count": 63
       },
       "stepstone": {
         "label": "StepStone",
         "last_success": "2026-08-20T05:53:43.846789Z",
-        "last_error": null,
-        "count": 29
+        "last_error": "StepStone fetch error: TimeoutError: The read operation timed out; curl fallback: curl exit 28: curl: (28) Operation timed out after 75001 milliseconds with 0 bytes received",
+        "count": 25
       }
     },
     "jobs": [
@@ -416,16 +416,6 @@
         "fingerprint": "563402fb5926690cbcc073303834c82b85e75fe2c706763caa9a34c989a23bf1"
       },
       {
-        "id": "derstandard:946f2e3e-9f35-3f24-bbc0-d1fc87e1d6e2",
-        "source": "derstandard",
-        "title": "Juristische Assistenz und Datenschutz-Koordinator (m/w/d)",
-        "company": "GMS GOURMET GmbH",
-        "location": "1230 Wien",
-        "url": "https://jobs.derstandard.at/job/946f2e3e-9f35-3f24-bbc0-d1fc87e1d6e2",
-        "first_seen": "2026-06-23T17:42:30.077945Z",
-        "fingerprint": "9e6dfe61cbf0d399d67128813ec270f7aaa9f012756bc08b1c75d35d7821bcf9"
-      },
-      {
         "id": "derstandard:a328019f-0787-3ac7-99f5-0e2788ea0ef1",
         "source": "derstandard",
         "title": "Senior Associate Tax Litigation | Juristische:r Mitarbeiter:in (m/w/d)",
@@ -436,6 +426,16 @@
         "fingerprint": "4c98ef107b2665c916a4a049376b4328ffef088a3bb3d736294139fae2825149"
       },
       {
+        "id": "derstandard:946f2e3e-9f35-3f24-bbc0-d1fc87e1d6e2",
+        "source": "derstandard",
+        "title": "Juristische Assistenz und Datenschutz-Koordinator (m/w/d)",
+        "company": "GMS GOURMET GmbH",
+        "location": "1230 Wien",
+        "url": "https://jobs.derstandard.at/job/946f2e3e-9f35-3f24-bbc0-d1fc87e1d6e2",
+        "first_seen": "2026-06-23T17:42:30.077945Z",
+        "fingerprint": "9e6dfe61cbf0d399d67128813ec270f7aaa9f012756bc08b1c75d35d7821bcf9"
+      },
+      {
         "id": "derstandard:8f1ba88f-9a44-3649-aee7-467c9c481a60",
         "source": "derstandard",
         "title": "Berufsanwärter:innen",
@@ -444,16 +444,6 @@
         "url": "https://jobs.derstandard.at/job/8f1ba88f-9a44-3649-aee7-467c9c481a60",
         "first_seen": "2026-06-18T11:48:53.539163Z",
         "fingerprint": "cf6e2bfb4f03d772ef56b863346615c02f097031a96ff672087707b2fa6c92e1"
-      },
-      {
-        "id": "derstandard:6a05a551-9465-31c4-b400-9381281e82ca",
-        "source": "derstandard",
-        "title": "Ermittler:in (all genders) Marktmissbrauchsaufsicht Crypto Assets",
-        "company": "Finanzmarktaufsicht (FMA)",
-        "location": "Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/6a05a551-9465-31c4-b400-9381281e82ca",
-        "first_seen": "2026-08-17T13:57:01.886521Z",
-        "fingerprint": "f6ca9930fce96220dabda3e5837731753435a198eb36d37809e7a346a160ba72"
       },
       {
         "id": "derstandard:493881e6-0fb9-314e-8516-5e773697b397",
@@ -984,10 +974,10 @@
         "url": "https://www.karriere.at/jobs/7860778",
         "salary": "ab 5.300 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Steuerliche Begleitung nationaler und internationaler Transaktionen von der Analyse potenzieller Risiken über die Strukturierung bis hin zur Umsetzung maßgeschneiderter...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "b1482f6baee629f02265c27c276c9f0c870ec143cee60ed87d5ebbab039fd3e0"
+        "fingerprint": "48fb1b66ac7b2fec95076512757f2c32d7f6312efcbe691204c0e83df7afdaae"
       },
       {
         "id": "karriere_at:7860712",
@@ -998,10 +988,10 @@
         "url": "https://www.karriere.at/jobs/7860712",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 5-köpfige Team rund um Andreas Lopatka-Sint...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "a2964d7982125aac72f132a314dbd5a1456f5414aa7eaf6ca9ce08fb64558ffa"
+        "fingerprint": "9e37b7d8bae235118ea87a423f31b7eb6484f7f70fb04b397f71c59c6d709eda"
       },
       {
         "id": "karriere_at:7850675",
@@ -1180,10 +1170,10 @@
         "url": "https://www.karriere.at/jobs/7860784",
         "salary": "3.100 € – 4.200 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Entwicklung ganzheitlicher Lösungen an der Schnittstelle von Recht, Wirtschaft und Strategie im internationalen Steuerumfeld, Erstellung fundierter Stellungnahmen, Gutachten...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "bbaf281b01f493425381d12a5c71b6ecc180320328cc806677db962c7de5c90f"
+        "fingerprint": "f805700785f697d836bb8b6370744bb77e14325c0a33fdbfa2270580b556aef8"
       },
       {
         "id": "karriere_at:7860781",
@@ -1194,10 +1184,10 @@
         "url": "https://www.karriere.at/jobs/7860781",
         "salary": "3.100 € – 5.900 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Beratung zu grenzübergreifenden Steuerfragen mit Fokus auf Doppelbesteuerungsabkommen, Quellensteuerentlastungen und internationale Steuerplanung, Strukturierung von...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "1bf8ea5b65a7bdd3a6d77688a357f0d644e68873ca90e800b191f6352fb9f722"
+        "fingerprint": "67d91fb5361fce8bf3c240f94e407f91099b03dee4bcf0f83789611f7dc4dc3d"
       },
       {
         "id": "karriere_at:7860775",
@@ -1208,10 +1198,10 @@
         "url": "https://www.karriere.at/jobs/7860775",
         "salary": "ab 5.300 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Mitarbeit an innovativen Beratungsprojekten mit Übernahme von Verantwortung sowie aktivem Beitrag zum Wissensaustausch und Knowledge-Management innerhalb des Teams,...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "1bbbe7879f481d753da68e6b2793749c009fbff729b6621b21ee7cfc10b09f65"
+        "fingerprint": "83a926bb34530775410114571fcdd324a525124fc08f0fdde0f1661e5e340aae"
       },
       {
         "id": "karriere_at:7860772",
@@ -1222,10 +1212,10 @@
         "url": "https://www.karriere.at/jobs/7860772",
         "salary": "3.100 € – 5.300 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Bearbeitung abwechslungsreicher steuerlicher Fragestellungen in spezialisierten Tax-Teams, etwa in den Bereichen internationales Steuerrecht, Verrechnungspreise, Transaktionen...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "b27db21e868545c46fc4f734db496ea5d38cb665fb70a1ceec535681abcf5248"
+        "fingerprint": "df37044b94ace8a1dea5ff6ea4a80f24e1d747f4eb0893868ea261e01d0f1bc9"
       },
       {
         "id": "karriere_at:7860763",
@@ -1236,10 +1226,10 @@
         "url": "https://www.karriere.at/jobs/7860763",
         "salary": "ab 3.750 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Beratung nationaler und internationaler Kund:innen zu Zoll-, Verbrauchsteuer- und Umweltabgaben entlang der gesamten Produktions- und Supply-Chain, Analyse, Optimierung und...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "716531a6fff3dff557844a4975761426034c40ee934f3ad4d763997426376d87"
+        "fingerprint": "e7fd0a01d7932f0570d2cb4f80e44175c9a9eb211036a8498947c2051cf0666c"
       },
       {
         "id": "karriere_at:7845815",
