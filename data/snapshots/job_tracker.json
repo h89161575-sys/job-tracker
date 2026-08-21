@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-08-21T10:53:06.827570Z",
+  "timestamp": "2026-08-21T11:36:13.913216Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
         "last_success": "2026-08-21T10:53:06.827570Z",
-        "last_error": null,
+        "last_error": "JusJobs response contained no recognizable result count or job links",
         "count": 21
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-21T10:53:06.827570Z",
+        "last_success": "2026-08-21T11:36:13.913216Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-21T10:53:06.827570Z",
+        "last_success": "2026-08-21T11:36:13.913216Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-21T10:53:06.827570Z",
+        "last_success": "2026-08-21T11:36:13.913216Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-21T10:53:06.827570Z",
+        "last_success": "2026-08-21T11:36:13.913216Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-21T10:53:06.827570Z",
+        "last_success": "2026-08-21T11:36:13.913216Z",
         "last_error": null,
-        "count": 64
+        "count": 65
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-21T10:53:06.827570Z",
+        "last_success": "2026-08-21T11:36:13.913216Z",
         "last_error": null,
         "count": 28
       }
@@ -554,20 +554,6 @@
         "fingerprint": "2f0a8b80d113c9478a8f0ea3f64ddbda2317601bac782e0035f87eca4a611fd9"
       },
       {
-        "id": "karriere_at:7849607",
-        "source": "karriere_at",
-        "title": "Senior Legal Counsel (m/w/d)",
-        "company": "Kommunalkredit Austria AG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7849607",
-        "salary": "80.000 € – 90.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": "Ihre Aufgaben: Sie beraten und unterstützen die Fachabteilungen und Beteiligungen der Bank bei rechtlichen Fragestellungen (Corporate Inhouse) und bearbeiten unterschiedlichste Fragestellungen im Zivil-...",
-        "first_seen": "2026-07-23T12:00:35.888489Z",
-        "fingerprint": "949b2feb62e98f0e2468d11809452c5691a18c87d504c4be3d82b23b34ef0d58"
-      },
-      {
         "id": "karriere_at:10028990",
         "source": "karriere_at",
         "title": "Assistent:in in der Rechtsabteilung (m/w/d)",
@@ -580,6 +566,20 @@
         "snippet": null,
         "first_seen": "2026-08-07T09:28:00.453961Z",
         "fingerprint": "ae545b03c590717a02bb93c9bb4fba679fe39653618614a03eeb85299ca20de9"
+      },
+      {
+        "id": "karriere_at:7849607",
+        "source": "karriere_at",
+        "title": "Senior Legal Counsel (m/w/d)",
+        "company": "Kommunalkredit Austria AG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7849607",
+        "salary": "80.000 € – 90.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": "Ihre Aufgaben: Sie beraten und unterstützen die Fachabteilungen und Beteiligungen der Bank bei rechtlichen Fragestellungen (Corporate Inhouse) und bearbeiten unterschiedlichste Fragestellungen im Zivil-...",
+        "first_seen": "2026-07-23T12:00:35.888489Z",
+        "fingerprint": "949b2feb62e98f0e2468d11809452c5691a18c87d504c4be3d82b23b34ef0d58"
       },
       {
         "id": "karriere_at:10028263",
@@ -874,6 +874,20 @@
         "snippet": "Ihre Aufgaben: Eigenverantwortliche rechtliche Begleitung von Kapitalmarkttransaktionen sowie laufenden kapitalmarktrechtlichen Fragestellungen, Beratung und Unterstützung in sämtlichen Bereichen der...",
         "first_seen": "2026-07-14T06:30:38.747341Z",
         "fingerprint": "1cafa0d0a0e138a7e77b684ccd60024917acdc6a56a528091989ccec7103c3fe"
+      },
+      {
+        "id": "karriere_at:7863577",
+        "source": "karriere_at",
+        "title": "Rechtsanwalt Kartell-/ Wettbewerbs-/ Beihilferecht (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7863577",
+        "salary": null,
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Make your way to the top. Rechtsanwalt Kartell-/ Wettbewerbs-/ Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges Honorar entsprechend...",
+        "first_seen": "2026-08-21T11:36:20.091505Z",
+        "fingerprint": "0c3632f50205a96fed243dc8a03c8f5d2bf3f868a5cdf4493641d8ed6b2e8e9c"
       },
       {
         "id": "karriere_at:7854395",
@@ -1958,6 +1972,7 @@
       "karriere_at:7860784",
       "karriere_at:7861537",
       "karriere_at:7861780",
+      "karriere_at:7863577",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
