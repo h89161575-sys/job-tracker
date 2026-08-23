@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-08-23T08:13:02.943053Z",
+  "timestamp": "2026-08-23T08:52:55.301017Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-08-23T08:13:02.943053Z",
+        "last_success": "2026-08-23T08:52:55.301017Z",
         "last_error": null,
-        "count": 17
+        "count": 20
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-23T08:13:02.943053Z",
+        "last_success": "2026-08-23T08:52:55.301017Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-23T08:13:02.943053Z",
+        "last_success": "2026-08-23T08:52:55.301017Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-23T08:13:02.943053Z",
+        "last_success": "2026-08-23T08:52:55.301017Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-23T08:13:02.943053Z",
+        "last_success": "2026-08-23T08:52:55.301017Z",
         "last_error": null,
         "count": 7
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-23T08:13:02.943053Z",
+        "last_success": "2026-08-23T08:52:55.301017Z",
         "last_error": null,
         "count": 64
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-23T08:13:02.943053Z",
+        "last_success": "2026-08-23T08:52:55.301017Z",
         "last_error": null,
         "count": 28
       }
@@ -256,17 +256,56 @@
         "fingerprint": "4ff6a5b339c19cfb0a3e16bd201a5acaf3c398c3931fc0197dcb2490c1033b6a"
       },
       {
-        "id": "jusjobs:1926977",
+        "id": "jusjobs:1926975",
         "source": "jusjobs",
-        "title": "Verwaltungspraktikantin / Verwaltungspraktikant",
+        "title": "Verwaltungspraktikum Juristischer Fachdienst",
         "company": "Bundesministerium für Justiz",
         "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1926977",
+        "url": "https://www.jusjobs.at/job/1926975",
         "salary": "€ 3.635",
         "employment_type": "Vollzeit",
-        "snippet": "Befristetes Verwaltungspraktikum bei der Generalprokuratur beim Obersten Gerichtshof in Wien für Absolventinnen und Absolventen der Rechtswissenschaften.",
-        "first_seen": "2026-08-23T06:57:04.291391Z",
-        "fingerprint": "0771689715232192d22a57a403ab8b4d5cea308519a923d64048b25aa0386205"
+        "snippet": "Verwaltungspraktikum im juristischen Fachdienst bei der Datenschutzbehörde in Wien mit Schwerpunkt Datenschutzrecht und Verwaltungsverfahren.",
+        "first_seen": "2026-08-23T08:52:55.301452Z",
+        "fingerprint": "3ece1ca23abd738f74824a8af25797b572409258999f9731a2ae703f6147acae"
+      },
+      {
+        "id": "jusjobs:1923751",
+        "source": "jusjobs",
+        "title": "Jurist_in im Bereich Personal",
+        "company": "AMS Österreich",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1923751",
+        "salary": "€ 3.663",
+        "employment_type": "Vollzeit",
+        "snippet": "HR Jurist_in für arbeits- und sozialrechtliche Beratung sowie rechtskonforme Umsetzung personalrelevanter Maßnahmen beim AMS NÖ in Wien.",
+        "first_seen": "2026-08-23T08:52:55.301452Z",
+        "fingerprint": "f24c671903d02ac752329e98211536178b9c5d43e45c450ff83d5f037db2fe3f"
+      },
+      {
+        "id": "jusjobs:1235995",
+        "source": "jusjobs",
+        "title": "RECHTSANWALTSANWÄRTER*IN Vollzeit (m/w/x) und/oder JURIST*IN Vollzeit/Teilzeit (m/w/x)",
+        "company": "Jaufer Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1235995",
+        "salary": "€ 3.000",
+        "employment_type": "Vollzeit",
+        "snippet": "Aufgaben ▪ Projektbezogene Einbindung in unsere spannenden Mandate ▪ Umfassende juristische Unterstützung unserer Rechtsanwält*innen ▪ Nach einer Einarbeitungsphase…",
+        "first_seen": "2026-08-23T08:52:55.301452Z",
+        "fingerprint": "605ac7bdec378a7677b2c9e0fe35c16ce1221091386bdf09dd871c262dbd07ac"
+      },
+      {
+        "id": "jusjobs:1842991",
+        "source": "jusjobs",
+        "title": "Juristin / Jurist (m/w/d)",
+        "company": "Niederösterreichische Verkehrsorganisationsges.m.b.H. (NÖVOG)",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1842991",
+        "salary": "€ 3.273",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristische Vollzeitstelle bei der NÖVOG in Wien mit Schwerpunkt Vergaberecht, Vertragsrecht und Unternehmensbetreuung.",
+        "first_seen": "2026-08-23T08:52:55.301452Z",
+        "fingerprint": "e102d95360cbd0a61309fbd527ebf8566987e5d0608e7efcd79d7ba5f3d277cd"
       },
       {
         "id": "erste_bank:33950",
