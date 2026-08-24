@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-08-24T13:26:11.787966Z",
+  "timestamp": "2026-08-24T14:22:12.317234Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-08-24T13:26:11.787966Z",
+        "last_success": "2026-08-24T14:22:12.317234Z",
         "last_error": null,
         "count": 20
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-24T13:26:11.787966Z",
+        "last_success": "2026-08-24T14:22:12.317234Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
         "last_success": "2026-08-24T13:26:11.787966Z",
-        "last_error": null,
+        "last_error": "UNIQA RSS error: URL error: timed out",
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-24T13:26:11.787966Z",
+        "last_success": "2026-08-24T14:22:12.317234Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-24T13:26:11.787966Z",
+        "last_success": "2026-08-24T14:22:12.317234Z",
         "last_error": null,
         "count": 7
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-24T13:26:11.787966Z",
+        "last_success": "2026-08-24T14:22:12.317234Z",
         "last_error": null,
-        "count": 65
+        "count": 66
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-24T13:26:11.787966Z",
+        "last_success": "2026-08-24T14:22:12.317234Z",
         "last_error": null,
         "count": 28
       }
@@ -551,18 +551,18 @@
         "fingerprint": "2f0a8b80d113c9478a8f0ea3f64ddbda2317601bac782e0035f87eca4a611fd9"
       },
       {
-        "id": "karriere_at:7858520",
+        "id": "karriere_at:10025968",
         "source": "karriere_at",
-        "title": "Jurist im Underwriting (m/w/d)",
-        "company": "ERGO Versicherung AG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7858520",
-        "salary": "ab 46.944,38 € jährlich",
+        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
+        "company": "Kommunalkredit Public Consulting GmbH",
+        "location": "Wien 19. Bezirk (Döbling)",
+        "url": "https://www.karriere.at/jobs/10025968",
+        "salary": "ab 3.599,52 € monatlich",
         "employment_type": "Vollzeit",
         "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Ihre Aufgaben: Prüfung und Entscheidung von komplexeren Neu- und Änderungsanträgen (insbesondere außertariflichen Einzelverträgen und von Sonderengagements) Teilnahme an Kundengesprächen...",
-        "first_seen": "2026-08-11T13:36:23.770452Z",
-        "fingerprint": "f620e82a4daf2dd16a9fee6ab6a4ce3f0a36cf8e2bfa9e665fd6eac77764cf22"
+        "snippet": null,
+        "first_seen": "2026-07-10T08:45:47.820748Z",
+        "fingerprint": "f02a57f8541f0bee044441ce43bce30f1fc19da37add8f37bfd5f959748d59f6"
       },
       {
         "id": "karriere_at:10030019",
@@ -579,18 +579,18 @@
         "fingerprint": "e17d9fad8bbc0e5101880411d8c08e2169021356215e7bf61d6981252df80792"
       },
       {
-        "id": "karriere_at:10025968",
+        "id": "karriere_at:7858520",
         "source": "karriere_at",
-        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
-        "company": "Kommunalkredit Public Consulting GmbH",
-        "location": "Wien 19. Bezirk (Döbling)",
-        "url": "https://www.karriere.at/jobs/10025968",
-        "salary": "ab 3.599,52 € monatlich",
+        "title": "Jurist im Underwriting (m/w/d)",
+        "company": "ERGO Versicherung AG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7858520",
+        "salary": "ab 46.944,38 € jährlich",
         "employment_type": "Vollzeit",
         "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "f02a57f8541f0bee044441ce43bce30f1fc19da37add8f37bfd5f959748d59f6"
+        "snippet": "Ihre Aufgaben: Prüfung und Entscheidung von komplexeren Neu- und Änderungsanträgen (insbesondere außertariflichen Einzelverträgen und von Sonderengagements) Teilnahme an Kundengesprächen...",
+        "first_seen": "2026-08-11T13:36:23.770452Z",
+        "fingerprint": "f620e82a4daf2dd16a9fee6ab6a4ce3f0a36cf8e2bfa9e665fd6eac77764cf22"
       },
       {
         "id": "karriere_at:10028263",
@@ -601,10 +601,10 @@
         "url": "https://www.karriere.at/jobs/10028263",
         "salary": "ab 53.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-19T14:01:53.765722Z",
-        "fingerprint": "0dc96effc34ac70a60fb0782ba1a49882ea0ed06efda476ee54906b519942116"
+        "fingerprint": "762736b2b82f077bb350933e6861714e4382fdbeab4b3e8a905728d6d7dd63f6"
       },
       {
         "id": "karriere_at:10030525",
@@ -853,10 +853,10 @@
         "url": "https://www.karriere.at/jobs/7861780",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Senior Legal Expert (w/m/d) Industrieunternehmen I Wien Referenz-Nr.: JN -082026-7084760 Ort: Vienna Anstellungsart: Permanent Firmenprofil Unser Kunde ist eine international erfolgreiche...",
         "first_seen": "2026-08-18T14:01:11.184747Z",
-        "fingerprint": "6d9b06863c1d06b35cc3e27dad30d778acc847c4f9ece7dd32bf71053f56abf0"
+        "fingerprint": "7e04851a353d88c9c8a181495e8a8ff1719cd6b72869a6777660c9f91ba18aef"
       },
       {
         "id": "karriere_at:7852397",
@@ -885,6 +885,20 @@
         "snippet": "Ihre Aufgaben: Vielseitig wie der Handel, Sie steuern zentrale Themen im Datenschutz- und Vertragsrecht, entwickeln klare Leitlinien und stellen deren wirksame Umsetzung im jö Bonus Club sicher. In dieser...",
         "first_seen": "2026-06-29T09:57:01.141761Z",
         "fingerprint": "6c32bf4fbd1d3d9c213dc18f98d2f9214dc30aae5dd93af9779b7f5f57fd29e0"
+      },
+      {
+        "id": "karriere_at:7864495",
+        "source": "karriere_at",
+        "title": "Fachbereichsleiter*in Recht",
+        "company": "Stadt Wien – Wiener Wohnen Kundenservice GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7864495",
+        "salary": "ab 80.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Deine Aufgaben: Du übernimmst die fachliche, personelle und wirtschaftliche Führung des Fachbereichs Recht und entwickelst diesen mit Weitblick und Entscheidungsstärke gemeinsam mit deinem Team strategisch...",
+        "first_seen": "2026-08-24T14:22:48.476674Z",
+        "fingerprint": "2cebed7f043dd46a00e0f4e484a40376ce88a5086934beff4b2520595cf3db62"
       },
       {
         "id": "karriere_at:7864186",
@@ -1988,6 +2002,7 @@
       "karriere_at:7861780",
       "karriere_at:7863577",
       "karriere_at:7864186",
+      "karriere_at:7864495",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
