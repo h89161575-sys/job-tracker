@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-08-25T13:24:25.279910Z",
+  "timestamp": "2026-08-25T14:24:37.665583Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-08-25T13:24:25.279910Z",
+        "last_success": "2026-08-25T14:24:37.665583Z",
         "last_error": null,
-        "count": 22
+        "count": 23
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-25T13:24:25.279910Z",
+        "last_success": "2026-08-25T14:24:37.665583Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-25T13:24:25.279910Z",
+        "last_success": "2026-08-25T14:24:37.665583Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-25T13:24:25.279910Z",
+        "last_success": "2026-08-25T14:24:37.665583Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-25T13:24:25.279910Z",
+        "last_success": "2026-08-25T14:24:37.665583Z",
         "last_error": null,
-        "count": 7
+        "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-25T13:24:25.279910Z",
+        "last_success": "2026-08-25T14:24:37.665583Z",
         "last_error": null,
         "count": 65
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-25T13:24:25.279910Z",
+        "last_success": "2026-08-25T14:24:37.665583Z",
         "last_error": null,
         "count": 29
       }
@@ -178,6 +178,19 @@
         "fingerprint": "d7e918d0a33da9a5f00f32913efb8a23ab7c4f8e0b39f71b22a377ca762a2200"
       },
       {
+        "id": "jusjobs:1845743",
+        "source": "jusjobs",
+        "title": "Expert*in für Schutzrechte und Verwertung",
+        "company": "Hochschule für Angewandte Wissenschaften Campus Wien",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1845743",
+        "salary": "€ 3.765",
+        "employment_type": "Vollzeit",
+        "snippet": "Expert*in für Schutzrechte und Verwertung an der Hochschule Campus Wien mit Fokus auf IPR, Patent- und Lizenzmanagement sowie Technologietransfer.",
+        "first_seen": "2026-08-25T14:24:37.666034Z",
+        "fingerprint": "ad0047f41aa64f850d8168594522878adb845238ed4b2dfed4e45e62d8db6163"
+      },
+      {
         "id": "jusjobs:1893243",
         "source": "jusjobs",
         "title": "Jurist:in Betrug & Regress",
@@ -263,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1971751",
         "salary": "€ 3.928",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Expert*in für Vertragsrecht für ein IT-Dienstleistungsunternehmen in Wien Nord / Langenzersdorf mit Schwerpunkt Vertragsrecht, Gesellschaftsrecht, Unternehmensrecht und Compliance.",
         "first_seen": "2026-08-20T11:01:03.062870Z",
-        "fingerprint": "121cd329fa94a024fccd62af8f151d374fc47b26241dad03f3b022413b627267"
+        "fingerprint": "24e6dcb572deb691c2bd66088828e63ff475260881d4e225c42e151500a635c8"
       },
       {
         "id": "jusjobs:1928151",
@@ -276,10 +289,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1928151",
         "salary": "€ 3.800",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Aufgabengebiet in einem international tätigen Familienunternehmen Möglichkeit, sich fachlich breit zu entwickeln und verschiedene Geschäftsbereiche kennenzulernen Enge…",
         "first_seen": "2026-07-28T12:27:04.652167Z",
-        "fingerprint": "9425125548c2d30ba89ca713f90db290848bdba464a3af91a8d49721ce48dab1"
+        "fingerprint": "5c67d4ae92cec592cf46f7fb3d8bb61a95cdb4ef84e6259338f52148448e0792"
       },
       {
         "id": "jusjobs:1927333",
@@ -557,16 +570,6 @@
         "fingerprint": "d968927ad012eeddc7dd63e8bff779a4eb829ab38ad20e9c78f765ddeeb74a40"
       },
       {
-        "id": "derstandard:2d18c2d0-d700-325e-b60c-18d6ea6250f1",
-        "source": "derstandard",
-        "title": "(Senior) Associate Tax mit Fokus Immobilien (m/w/d)",
-        "company": "BDO Austria GmbH",
-        "location": "1100 Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/2d18c2d0-d700-325e-b60c-18d6ea6250f1",
-        "first_seen": "2026-07-29T10:15:21.631173Z",
-        "fingerprint": "f4d8488b76d20d9817a3ea197abe36d68a2859cdf728c5b0e9079af1790afba6"
-      },
-      {
         "id": "derstandard:bf69b400-5e8d-3e05-973e-b3cea79add1d",
         "source": "derstandard",
         "title": "Senior Associate Tax (m/w/d)",
@@ -613,10 +616,10 @@
         "url": "https://www.karriere.at/jobs/10028263",
         "salary": "ab 53.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-19T14:01:53.765722Z",
-        "fingerprint": "762736b2b82f077bb350933e6861714e4382fdbeab4b3e8a905728d6d7dd63f6"
+        "fingerprint": "cfd97053ec7217ba3521b1a519045dc811d559db5cbad7ed3da7e01d693e1da8"
       },
       {
         "id": "karriere_at:10030019",
@@ -851,10 +854,10 @@
         "url": "https://www.karriere.at/jobs/7861780",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Senior Legal Expert (w/m/d) Industrieunternehmen I Wien Referenz-Nr.: JN -082026-7084760 Ort: Vienna Anstellungsart: Permanent Firmenprofil Unser Kunde ist eine international erfolgreiche...",
         "first_seen": "2026-08-18T14:01:11.184747Z",
-        "fingerprint": "7e04851a353d88c9c8a181495e8a8ff1719cd6b72869a6777660c9f91ba18aef"
+        "fingerprint": "dc6f08cb928c94ac727da4a26beb39d6ea9dcf65294aaa7223013cf070195d7f"
       },
       {
         "id": "karriere_at:7852397",
@@ -887,16 +890,16 @@
       {
         "id": "karriere_at:7864495",
         "source": "karriere_at",
-        "title": "Fachbereichsleiter*in Recht",
+        "title": "Leitung Fachbereich Recht",
         "company": "Stadt Wien – Wiener Wohnen Kundenservice GmbH",
         "location": "Wien",
         "url": "https://www.karriere.at/jobs/7864495",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
         "published_at": "Gestern veröffentlicht",
-        "snippet": "Deine Aufgaben: Du übernimmst die fachliche, personelle und wirtschaftliche Führung des Fachbereichs Recht und entwickelst diesen mit Weitblick und Entscheidungsstärke gemeinsam mit deinem Team strategisch...",
+        "snippet": "Deine Aufgaben: Du übernimmst die fachliche, personelle und wirtschaftliche Führung des Fachbereichs Recht und entwickelst diesen mit Weitblick und Entscheidungsstärke gemeinsam mit deinem Team der Jurist＊innen...",
         "first_seen": "2026-08-24T14:22:48.476674Z",
-        "fingerprint": "648f26cd548658b5bc3438fae39059b3c5e0311bcf63790e92ab69da4118ecc3"
+        "fingerprint": "3fc09ba66c64abd2fd5d6012179527503ef7a9f9ad0407b928a2a2f024b56c17"
       },
       {
         "id": "karriere_at:7864186",
@@ -1498,11 +1501,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Junior-Legal-Counsel-Unternehmensjurist-Junior-m-w-d-Wien-Roxcel-Holding-GmbH--996041-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-08-18T16:02:06+02:00",
+        "published_at": "2026-08-25T16:02:01+02:00",
         "department": null,
         "snippet": "Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel / Unternehmensjurist (Junior) sind Sie Teil der Group Legal Abteilung und arbeiten eng mit dem G",
         "first_seen": "2026-08-05T21:22:28.870558Z",
-        "fingerprint": "028c930a6472db5fbe163d00ce9bf66566de49dc36a9810a90a78bb5a32f8ac5"
+        "fingerprint": "825d226b9afdae4d7595778d46889615ed79baed3e423bb1d02aaca6e9766752"
       },
       {
         "id": "stepstone:995186",
