@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-08-24T23:41:29.775769Z",
+  "timestamp": "2026-08-25T00:24:40.423300Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-08-24T23:41:29.775769Z",
+        "last_success": "2026-08-25T00:24:40.423300Z",
         "last_error": null,
-        "count": 17
+        "count": 20
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-24T23:41:29.775769Z",
+        "last_success": "2026-08-25T00:24:40.423300Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-24T23:41:29.775769Z",
+        "last_success": "2026-08-25T00:24:40.423300Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-24T23:41:29.775769Z",
+        "last_success": "2026-08-25T00:24:40.423300Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-24T23:41:29.775769Z",
+        "last_success": "2026-08-25T00:24:40.423300Z",
         "last_error": null,
         "count": 7
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-24T23:41:29.775769Z",
+        "last_success": "2026-08-25T00:24:40.423300Z",
         "last_error": null,
         "count": 65
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-24T23:41:29.775769Z",
+        "last_success": "2026-08-25T00:24:40.423300Z",
         "last_error": null,
         "count": 28
       }
@@ -267,6 +267,45 @@
         "snippet": "Tenure-Track-Stelle an der BOKU Wien im Öffentlichen Recht mit Schwerpunkt Umwelt- und Klimaschutzrecht, 40 Wochenstunden, ab 01.03.2027.",
         "first_seen": "2026-08-20T11:01:03.062870Z",
         "fingerprint": "4ff6a5b339c19cfb0a3e16bd201a5acaf3c398c3931fc0197dcb2490c1033b6a"
+      },
+      {
+        "id": "jusjobs:1926975",
+        "source": "jusjobs",
+        "title": "Verwaltungspraktikum Juristischer Fachdienst",
+        "company": "Bundesministerium für Justiz",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1926975",
+        "salary": "€ 3.635",
+        "employment_type": "Praktikum",
+        "snippet": "Verwaltungspraktikum im juristischen Fachdienst bei der Datenschutzbehörde in Wien mit Schwerpunkt Datenschutzrecht und Verwaltungsverfahren.",
+        "first_seen": "2026-08-25T00:24:40.423731Z",
+        "fingerprint": "33ff385e5b0d1d07501095f61ac8844366c1c0d0b7cba2f5f5951fcc0caaba46"
+      },
+      {
+        "id": "jusjobs:1926977",
+        "source": "jusjobs",
+        "title": "Verwaltungspraktikantin / Verwaltungspraktikant",
+        "company": "Bundesministerium für Justiz",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1926977",
+        "salary": "€ 3.635",
+        "employment_type": "Vollzeit",
+        "snippet": "Befristetes Verwaltungspraktikum bei der Generalprokuratur beim Obersten Gerichtshof in Wien für Absolventinnen und Absolventen der Rechtswissenschaften.",
+        "first_seen": "2026-08-25T00:24:40.423731Z",
+        "fingerprint": "0771689715232192d22a57a403ab8b4d5cea308519a923d64048b25aa0386205"
+      },
+      {
+        "id": "jusjobs:1923751",
+        "source": "jusjobs",
+        "title": "Jurist_in im Bereich Personal",
+        "company": "AMS Österreich",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1923751",
+        "salary": "€ 3.663",
+        "employment_type": "Vollzeit",
+        "snippet": "HR Jurist_in für arbeits- und sozialrechtliche Beratung sowie rechtskonforme Umsetzung personalrelevanter Maßnahmen beim AMS NÖ in Wien.",
+        "first_seen": "2026-08-25T00:24:40.423731Z",
+        "fingerprint": "f24c671903d02ac752329e98211536178b9c5d43e45c450ff83d5f037db2fe3f"
       },
       {
         "id": "erste_bank:33950",
@@ -512,20 +551,6 @@
         "fingerprint": "2f0a8b80d113c9478a8f0ea3f64ddbda2317601bac782e0035f87eca4a611fd9"
       },
       {
-        "id": "karriere_at:10030275",
-        "source": "karriere_at",
-        "title": "Mitarbeiter:in der Rechtsabteilung",
-        "company": "VBV",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10030275",
-        "salary": "ab 3.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-08-20T13:07:36.835374Z",
-        "fingerprint": "1256520da744eaae71e3cea6490f9cfe0c313abd2afffe4dc5e9efe969910c80"
-      },
-      {
         "id": "karriere_at:10025968",
         "source": "karriere_at",
         "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
@@ -540,6 +565,20 @@
         "fingerprint": "ac48b62ed391d1b3188208d6c2b6381e7d52fdc79f58b532e4e8cfe87864d693"
       },
       {
+        "id": "karriere_at:10030275",
+        "source": "karriere_at",
+        "title": "Mitarbeiter:in der Rechtsabteilung",
+        "company": "VBV",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10030275",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 4 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-20T13:07:36.835374Z",
+        "fingerprint": "1256520da744eaae71e3cea6490f9cfe0c313abd2afffe4dc5e9efe969910c80"
+      },
+      {
         "id": "karriere_at:10028263",
         "source": "karriere_at",
         "title": "Wirtschaftsakademiker:in/ Jurist:in – Unternehmensrecht & Rechnungslegung (m/w/d)",
@@ -552,6 +591,34 @@
         "snippet": null,
         "first_seen": "2026-08-19T14:01:53.765722Z",
         "fingerprint": "762736b2b82f077bb350933e6861714e4382fdbeab4b3e8a905728d6d7dd63f6"
+      },
+      {
+        "id": "karriere_at:10030019",
+        "source": "karriere_at",
+        "title": "Jurist:in / Verfahrensmanager:in (m/w/d) – Legal Tech",
+        "company": "Jufina Prozessfinanzierung (JUNO Finanz AG)",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10030019",
+        "salary": "ab 4.500 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-18T14:47:29.691635Z",
+        "fingerprint": "7689f7a24a1e2464febca32b58ea7f41558798063d752a807b9b1b8d37e7273b"
+      },
+      {
+        "id": "karriere_at:10028644",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter:in im Bereich Corporate / M&A",
+        "company": "Forvis Mazars",
+        "location": "Wien 2. Bezirk (Leopoldstadt)",
+        "url": "https://www.karriere.at/jobs/10028644",
+        "salary": "ab 48.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-05T07:20:49.171539Z",
+        "fingerprint": "4be6bffb4c787ac414ed0e5cd0f8e9ccc080df2d5d41869d5e1e2ea3d72d5f88"
       },
       {
         "id": "karriere_at:10030525",
@@ -666,20 +733,6 @@
         "fingerprint": "3e51957480b3c83c525cd56e91abc55ad8a85ac12c1625f488ddda3a20941f8c"
       },
       {
-        "id": "karriere_at:10030019",
-        "source": "karriere_at",
-        "title": "Jurist:in / Verfahrensmanager:in (m/w/d) – Legal Tech",
-        "company": "Jufina Prozessfinanzierung (JUNO Finanz AG)",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10030019",
-        "salary": "ab 4.500 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-08-18T14:47:29.691635Z",
-        "fingerprint": "7f05612ae00d0b909b51e4bc4a32b44a142357b7e1b14d0e82c898241d098449"
-      },
-      {
         "id": "karriere_at:10029897",
         "source": "karriere_at",
         "title": "Legal Counsel (w/m/d)",
@@ -706,20 +759,6 @@
         "snippet": null,
         "first_seen": "2026-07-30T11:42:39.752850Z",
         "fingerprint": "e142a1832e17b5af57f8595c9daf75452abaac0f3696725aab502c698e5f175d"
-      },
-      {
-        "id": "karriere_at:10028644",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter:in im Bereich Corporate / M&A",
-        "company": "Forvis Mazars",
-        "location": "Wien 2. Bezirk (Leopoldstadt)",
-        "url": "https://www.karriere.at/jobs/10028644",
-        "salary": "ab 48.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "15.8.2026",
-        "snippet": null,
-        "first_seen": "2026-08-05T07:20:49.171539Z",
-        "fingerprint": "7986a638b4d2fff06211827259ad74689330acb2d1832091ddd9e36bd92d1c35"
       },
       {
         "id": "karriere_at:10029166",
