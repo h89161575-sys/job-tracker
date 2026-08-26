@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-08-26T06:22:14.601280Z",
+  "timestamp": "2026-08-26T07:29:04.107652Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-08-26T06:22:14.601280Z",
+        "last_success": "2026-08-26T07:29:04.107652Z",
         "last_error": null,
         "count": 24
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-26T06:22:14.601280Z",
+        "last_success": "2026-08-26T07:29:04.107652Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-26T06:22:14.601280Z",
+        "last_success": "2026-08-26T07:29:04.107652Z",
         "last_error": null,
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-26T06:22:14.601280Z",
+        "last_success": "2026-08-26T07:29:04.107652Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-26T06:22:14.601280Z",
+        "last_success": "2026-08-26T07:29:04.107652Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-26T06:22:14.601280Z",
+        "last_success": "2026-08-26T07:29:04.107652Z",
         "last_error": null,
         "count": 65
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-26T06:22:14.601280Z",
+        "last_success": "2026-08-26T07:29:04.107652Z",
         "last_error": null,
         "count": 29
       }
@@ -583,20 +583,6 @@
         "fingerprint": "2f0a8b80d113c9478a8f0ea3f64ddbda2317601bac782e0035f87eca4a611fd9"
       },
       {
-        "id": "karriere_at:10030275",
-        "source": "karriere_at",
-        "title": "Mitarbeiter:in der Rechtsabteilung",
-        "company": "VBV",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10030275",
-        "salary": "ab 3.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-08-20T13:07:36.835374Z",
-        "fingerprint": "b69eb470ca837b4b32b634aa2ec6381b69169214d2f8b21f88bd610c785d1972"
-      },
-      {
         "id": "karriere_at:10029477",
         "source": "karriere_at",
         "title": "Unternehmensjurist:in (m/w/d)",
@@ -609,6 +595,20 @@
         "snippet": null,
         "first_seen": "2026-08-13T07:58:14.386351Z",
         "fingerprint": "877f862036ff5aef69ec59cc06e573396f33b8081605c23ea88572755ba27173"
+      },
+      {
+        "id": "karriere_at:10030275",
+        "source": "karriere_at",
+        "title": "Mitarbeiter:in der Rechtsabteilung",
+        "company": "VBV",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10030275",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-20T13:07:36.835374Z",
+        "fingerprint": "b69eb470ca837b4b32b634aa2ec6381b69169214d2f8b21f88bd610c785d1972"
       },
       {
         "id": "karriere_at:10028263",
@@ -1751,6 +1751,21 @@
         "fingerprint": "321d796d58cb0b169d6ad7b895f248ac80c73c1759d7b927dc057dc0ffc714d5"
       },
       {
+        "id": "stepstone:947469",
+        "source": "stepstone",
+        "title": "Mitarbeiter:in Abendsekretariat/-empfang (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Mitarbeiter-in-Abendsekretariat-empfang-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947469-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-08-26T07:16:10+02:00",
+        "department": null,
+        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
+        "first_seen": "2026-08-06T10:15:43.316515Z",
+        "fingerprint": "dae0140e9a1ac40cedadb92945c9be74b19f0a969439497ce8808d6fc68df2e9"
+      },
+      {
         "id": "stepstone:947468",
         "source": "stepstone",
         "title": "Anwaltsassistent:in (d/f/m)",
@@ -1764,21 +1779,6 @@
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
         "fingerprint": "02a56c5f2fe44d9bed178d0971f5bfa90a13c061fa6146dc998607f316902647"
-      },
-      {
-        "id": "stepstone:947469",
-        "source": "stepstone",
-        "title": "Mitarbeiter:in Abendsekretariat/-empfang (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Mitarbeiter-in-Abendsekretariat-empfang-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947469-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-08-16T08:09:19+02:00",
-        "department": null,
-        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
-        "first_seen": "2026-08-06T10:15:43.316515Z",
-        "fingerprint": "2e770bf72c0f901c1e84419146cbfda0ff01208f788f7fc7ed635a28d8943ad6"
       },
       {
         "id": "stepstone:998065",
