@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-08-26T19:16:27.327460Z",
+  "timestamp": "2026-08-26T22:20:46.150133Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-08-26T16:56:21.307875Z",
-        "last_error": "JusJobs response contained no recognizable result count or job links",
-        "count": 21
+        "last_success": "2026-08-26T22:20:46.150133Z",
+        "last_error": null,
+        "count": 20
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-26T19:16:27.327460Z",
+        "last_success": "2026-08-26T22:20:46.150133Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-26T19:16:27.327460Z",
+        "last_success": "2026-08-26T22:20:46.150133Z",
         "last_error": null,
         "count": 2
       },
@@ -29,19 +29,19 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-26T19:16:27.327460Z",
+        "last_success": "2026-08-26T22:20:46.150133Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-26T19:16:27.327460Z",
+        "last_success": "2026-08-26T22:20:46.150133Z",
         "last_error": null,
         "count": 64
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-26T19:16:27.327460Z",
+        "last_success": "2026-08-26T22:20:46.150133Z",
         "last_error": null,
         "count": 28
       }
@@ -217,19 +217,6 @@
         "fingerprint": "ad0047f41aa64f850d8168594522878adb845238ed4b2dfed4e45e62d8db6163"
       },
       {
-        "id": "jusjobs:1893243",
-        "source": "jusjobs",
-        "title": "Jurist:in Betrug & Regress",
-        "company": "UNIQA Insurance Group AG",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1893243",
-        "salary": "€ 4.285",
-        "employment_type": "Vollzeit",
-        "snippet": "Juristische Position im Bereich Betrug und Regress mit Fokus auf Versicherungs-, Schaden- und Schadenersatzrecht in Wien.",
-        "first_seen": "2026-07-20T07:48:38.987255Z",
-        "fingerprint": "3d4c27052bd50bdddb84a43d601ea9525203de350575ed7eddb6332e998c8440"
-      },
-      {
         "id": "jusjobs:1910177",
         "source": "jusjobs",
         "title": "Schadenreferent:in / Jurist:in KFZ Schaden (Wien/Linz)",
@@ -276,10 +263,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1800973",
         "salary": "€ 3.635",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Vollzeitstelle in Wien für juristische Mitarbeit in Beratung, Unterstützung und Öffentlichkeitsarbeit im Bereich Gleichbehandlung und Antidiskriminierung.",
         "first_seen": "2026-08-26T02:11:50.363202Z",
-        "fingerprint": "1fece387e29ecb70f03bf4dcc201928ec84e8f24f362c54f7812a4138b3d0d5f"
+        "fingerprint": "cb80a547c6babaa8fad2106202a0c35a62727d846aa09f5d25beb51ca064d148"
       },
       {
         "id": "jusjobs:1971751",
@@ -289,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1971751",
         "salary": "€ 3.928",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Expert*in für Vertragsrecht für ein IT-Dienstleistungsunternehmen in Wien Nord / Langenzersdorf mit Schwerpunkt Vertragsrecht, Gesellschaftsrecht, Unternehmensrecht und Compliance.",
         "first_seen": "2026-08-26T02:11:50.363202Z",
-        "fingerprint": "121cd329fa94a024fccd62af8f151d374fc47b26241dad03f3b022413b627267"
+        "fingerprint": "24e6dcb572deb691c2bd66088828e63ff475260881d4e225c42e151500a635c8"
       },
       {
         "id": "jusjobs:1928151",
@@ -542,24 +529,10 @@
         "url": "https://www.karriere.at/jobs/10029477",
         "salary": "ab 46.871 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-13T07:58:14.386351Z",
-        "fingerprint": "877f862036ff5aef69ec59cc06e573396f33b8081605c23ea88572755ba27173"
-      },
-      {
-        "id": "karriere_at:10030275",
-        "source": "karriere_at",
-        "title": "Mitarbeiter:in der Rechtsabteilung",
-        "company": "VBV",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10030275",
-        "salary": "ab 3.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-08-20T13:07:36.835374Z",
-        "fingerprint": "6fbb667628a77d4e96632b347d0b039a03ffd29e91fc015963d05e12191a4ff2"
+        "fingerprint": "ae8a59d1d916a1e46fc5039d77dec4bb9831bb47c40d5cc6d56663d90815c22d"
       },
       {
         "id": "karriere_at:10028263",
@@ -584,10 +557,10 @@
         "url": "https://www.karriere.at/jobs/10030019",
         "salary": "ab 4.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-18T14:47:29.691635Z",
-        "fingerprint": "d5cb3644573ffbcfd4bf88858165c7a4c7df3074b033a711e174c9b123c9e2e2"
+        "fingerprint": "08d1e220099134b528f2aa392180542033a8763b13352a341cbaf90be7bf13da"
       },
       {
         "id": "karriere_at:10028644",
@@ -598,10 +571,10 @@
         "url": "https://www.karriere.at/jobs/10028644",
         "salary": "ab 48.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-05T07:20:49.171539Z",
-        "fingerprint": "ddefee2307ad37e1d882d43f651e19a6db5fcb54f2948daba6f645fc0ceb36b5"
+        "fingerprint": "45375c3369d1478a3ac39b387907b4a8e3f25b3dff4104fb7e89e1ca6c73a601"
       },
       {
         "id": "karriere_at:10030525",
@@ -626,10 +599,10 @@
         "url": "https://www.karriere.at/jobs/10027709",
         "salary": "ab 47.446 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-27T15:08:46.560804Z",
-        "fingerprint": "bc3a8033f8216913171eda9dce6c7339f2c4d41a8bac2329f6a88a6a62e34215"
+        "fingerprint": "c6b6cede5b7efa2bf223d07330ba7eddc75666c3f1ca99e2a92e63216b6b69bb"
       },
       {
         "id": "karriere_at:10026661",
@@ -640,10 +613,10 @@
         "url": "https://www.karriere.at/jobs/10026661",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-16T11:20:32.476615Z",
-        "fingerprint": "93cb0811857518e3cc750813f32ff62ae46af67ee7cb3fccce9dca50ba7fa6b9"
+        "fingerprint": "36682c6932c307bf82e29d5b3f599fa05d5f628422ee5f9eb79d2a23abe7f328"
       },
       {
         "id": "karriere_at:10028461",
@@ -654,10 +627,10 @@
         "url": "https://www.karriere.at/jobs/10028461",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-04T18:19:39.603160Z",
-        "fingerprint": "eac62e46d2f83bd6ed66f7bff899650b455ff9c183528f3594f24466f8684922"
+        "fingerprint": "0b22dec3297b2b8410936b4e2188d5fb59425dd99a9d03c49827c9fb85579997"
       },
       {
         "id": "karriere_at:10027642",
@@ -668,10 +641,10 @@
         "url": "https://www.karriere.at/jobs/10027642",
         "salary": "ab 48.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-27T08:43:23.853673Z",
-        "fingerprint": "ff2bfdd3d075a342e94eda17dd2cbf58955b3d18af7707e6af957e40361f7316"
+        "fingerprint": "878284a35b8eb3ee6e22b85513046d56033a4191910e3edced35363fed997072"
       },
       {
         "id": "karriere_at:10028990",
@@ -682,10 +655,10 @@
         "url": "https://www.karriere.at/jobs/10028990",
         "salary": "ab 2.700 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-08-07T09:28:00.453961Z",
-        "fingerprint": "e03fe110eaed7d9c0c3cc46a4de9420db32dbaa2c25481855047284ea45caebe"
+        "fingerprint": "1c649ce86ad16f66d4976e415cea29aaf7b4d7b9eceea8b0d74823e722f9badf"
       },
       {
         "id": "karriere_at:10026561",
@@ -696,10 +669,24 @@
         "url": "https://www.karriere.at/jobs/10026561",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": null,
         "first_seen": "2026-07-16T07:06:38.089637Z",
-        "fingerprint": "c600e47a6289c2053c9a511e556a0d26a4955abfc44250b6ac7bcd88b12a2397"
+        "fingerprint": "dd40cccbbfc3b81024d7cd7426c48d272cb2d58f45326c7908ae52b9f561f10d"
+      },
+      {
+        "id": "karriere_at:10030275",
+        "source": "karriere_at",
+        "title": "Mitarbeiter:in der Rechtsabteilung",
+        "company": "VBV",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10030275",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-20T13:07:36.835374Z",
+        "fingerprint": "6fbb667628a77d4e96632b347d0b039a03ffd29e91fc015963d05e12191a4ff2"
       },
       {
         "id": "karriere_at:10025968",
@@ -710,10 +697,10 @@
         "url": "https://www.karriere.at/jobs/10025968",
         "salary": "ab 3.599,52 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "19.8.2026",
         "snippet": null,
         "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "d42bdf2ccb3ba3054b1ccd50ae0e4bab835f9bda343b54432b42f6d9f7d7a306"
+        "fingerprint": "e51a32f3d24f7ee8f0e47fc38f332ad3a2a1a9f591dda6a5a0dd7b94c3d581ae"
       },
       {
         "id": "karriere_at:10029897",
@@ -766,10 +753,10 @@
         "url": "https://www.karriere.at/jobs/7834001",
         "salary": "ab 60.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Vielseitig wie der Handel, Sie steuern zentrale Themen im Datenschutz- und Vertragsrecht, entwickeln klare Leitlinien und stellen deren wirksame Umsetzung im jö Bonus Club sicher. In dieser...",
         "first_seen": "2026-06-29T09:57:01.141761Z",
-        "fingerprint": "ebd15eeff599f755e19add55c95ae2ee4f47e6be89b2d8ba9b262b86d036d26e"
+        "fingerprint": "69cafa1439d1f128c86211e81cd8728c1aba0e5af6ef28c3734077083ea14b9f"
       },
       {
         "id": "karriere_at:7844024",
@@ -850,10 +837,10 @@
         "url": "https://www.karriere.at/jobs/7858520",
         "salary": "ab 46.944,38 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Prüfung und Entscheidung von komplexeren Neu- und Änderungsanträgen (insbesondere außertariflichen Einzelverträgen und von Sonderengagements) Teilnahme an Kundengesprächen...",
         "first_seen": "2026-08-11T13:36:23.770452Z",
-        "fingerprint": "a5fb03c15f5224ffebd4b0b61f1b6357bf9c64bb1664876d4519f7174d0bc227"
+        "fingerprint": "ec6605a4ca9232d9ba3b82d57bc6d745760e89de6b6613736b81236e8799a8c8"
       },
       {
         "id": "karriere_at:7860778",
@@ -864,10 +851,10 @@
         "url": "https://www.karriere.at/jobs/7860778",
         "salary": "ab 5.300 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Steuerliche Begleitung nationaler und internationaler Transaktionen von der Analyse potenzieller Risiken über die Strukturierung bis hin zur Umsetzung maßgeschneiderter...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "dbe82308685ecd7ecb4965f52be3f48a918062ac797d538a4e69a3a54c96320d"
+        "fingerprint": "d43fd186416abd70415928aa39439e0e16c75fdb4d2e90c23bf256afa132ad0d"
       },
       {
         "id": "karriere_at:7864495",
@@ -1080,6 +1067,20 @@
         "fingerprint": "9fce4787c56f3227ccaaced136280a70832b763a39beb5daddc1b8b1c5abfa64"
       },
       {
+        "id": "karriere_at:7846877",
+        "source": "karriere_at",
+        "title": "Jurist:in Betrug & Regress",
+        "company": "UNIQA Insurance Group AG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7846877",
+        "salary": "ab 60.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "18.8.2026",
+        "snippet": "Jurist:in Betrug & Regress Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein...",
+        "first_seen": "2026-07-20T07:48:38.987255Z",
+        "fingerprint": "69d2cddaceaddb7809597ebc46603ea4a5ea9082bb5f58d59de2d2fe834ea3bd"
+      },
+      {
         "id": "karriere_at:7860712",
         "source": "karriere_at",
         "title": "Rechtsanwält:in im Bereich Öffentliches Recht | Schwerpunkt Vergaberecht",
@@ -1116,10 +1117,10 @@
         "url": "https://www.karriere.at/jobs/7865707",
         "salary": "ab 60.900 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Deine Aufgaben: Bei uns im Team: Unterstützung der Projektleitung im Bereich Anti Financial Crime inklusive Übernahme von diversen Aufgaben im Lead innerhalb des Projekts, Unterstützung iZm den AML-Package...",
         "first_seen": "2026-08-26T12:38:27.618142Z",
-        "fingerprint": "006c80ea7c1570f3cd4bd5c3901f152936a1909674bec7ab5dbfca9ee287dc32"
+        "fingerprint": "06d80de67e2db69fedac8a8753a93398a5842cbf2ef3a40b21d185f19f162199"
       },
       {
         "id": "karriere_at:7860775",
@@ -1130,10 +1131,10 @@
         "url": "https://www.karriere.at/jobs/7860775",
         "salary": "ab 5.300 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Mitarbeit an innovativen Beratungsprojekten mit Übernahme von Verantwortung sowie aktivem Beitrag zum Wissensaustausch und Knowledge-Management innerhalb des Teams,...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "8bcd86d3f5802ab622807b5dba4089d3dc8fd639cf52db43dc0d321cbea4cf02"
+        "fingerprint": "1c497fcead5e8fe9a49b77e9151b083c7404977d7af039e827f3513bb0b28a9b"
       },
       {
         "id": "karriere_at:7816349",
@@ -1144,10 +1145,10 @@
         "url": "https://www.karriere.at/jobs/7816349",
         "salary": "ab 42.840 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "(Junior) Consultant (all genders) Banking Advisory / Regulatory Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der führende...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "0190ce1ef7f883ed49af3a1f803233f71f1a27188de2a5465a73645f8db6ffb8"
+        "fingerprint": "7c25896b26a4200965d40ee128f71882bd8e98c1a0717462c963c752bcadc406"
       },
       {
         "id": "karriere_at:7816346",
@@ -1158,10 +1159,10 @@
         "url": "https://www.karriere.at/jobs/7816346",
         "salary": "ab 42.840 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "(Junior) Consultant (all genders) Advisory/Governance, Risk & Internal Controls Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "fb1ade22734653900a902a0d2916fab3604e08a67319d7aefd34c05975c3f959"
+        "fingerprint": "53b24a7ae23536ce5ea72d5504cbb60598857cc3af3d7b87e6b0c7a21f625007"
       },
       {
         "id": "karriere_at:7663254",
