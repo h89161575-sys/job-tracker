@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-08-26T10:01:34.206709Z",
+  "timestamp": "2026-08-26T10:48:14.565129Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-08-26T10:01:34.206709Z",
+        "last_success": "2026-08-26T10:48:14.565129Z",
         "last_error": null,
         "count": 24
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-26T10:01:34.206709Z",
+        "last_success": "2026-08-26T10:48:14.565129Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
         "last_success": "2026-08-26T10:01:34.206709Z",
-        "last_error": null,
+        "last_error": "UNIQA RSS error: URL error: timed out",
         "count": 2
       },
       "lawfinder": {
         "label": "LawFinder",
-        "last_success": "2026-08-26T10:01:34.206709Z",
+        "last_success": "2026-08-26T10:48:14.565129Z",
         "last_error": null,
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-26T10:01:34.206709Z",
+        "last_success": "2026-08-26T10:48:14.565129Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-26T10:01:34.206709Z",
+        "last_success": "2026-08-26T10:48:14.565129Z",
         "last_error": null,
         "count": 65
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-26T10:01:34.206709Z",
+        "last_success": "2026-08-26T10:48:14.565129Z",
         "last_error": null,
         "count": 29
       }
@@ -334,19 +334,6 @@
         "fingerprint": "4ff6a5b339c19cfb0a3e16bd201a5acaf3c398c3931fc0197dcb2490c1033b6a"
       },
       {
-        "id": "jusjobs:1926975",
-        "source": "jusjobs",
-        "title": "Verwaltungspraktikum Juristischer Fachdienst",
-        "company": "Bundesministerium für Justiz",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1926975",
-        "salary": "€ 3.635",
-        "employment_type": "Vollzeit",
-        "snippet": "Verwaltungspraktikum im juristischen Fachdienst bei der Datenschutzbehörde in Wien mit Schwerpunkt Datenschutzrecht und Verwaltungsverfahren.",
-        "first_seen": "2026-08-26T02:11:50.363202Z",
-        "fingerprint": "3ece1ca23abd738f74824a8af25797b572409258999f9731a2ae703f6147acae"
-      },
-      {
         "id": "jusjobs:1926977",
         "source": "jusjobs",
         "title": "Verwaltungspraktikantin / Verwaltungspraktikant",
@@ -358,6 +345,19 @@
         "snippet": "Befristetes Verwaltungspraktikum bei der Generalprokuratur beim Obersten Gerichtshof in Wien für Absolventinnen und Absolventen der Rechtswissenschaften.",
         "first_seen": "2026-08-26T02:11:50.363202Z",
         "fingerprint": "0771689715232192d22a57a403ab8b4d5cea308519a923d64048b25aa0386205"
+      },
+      {
+        "id": "jusjobs:1926975",
+        "source": "jusjobs",
+        "title": "Verwaltungspraktikum Juristischer Fachdienst",
+        "company": "Bundesministerium für Justiz",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1926975",
+        "salary": "€ 3.635",
+        "employment_type": "Vollzeit",
+        "snippet": "Verwaltungspraktikum im juristischen Fachdienst bei der Datenschutzbehörde in Wien mit Schwerpunkt Datenschutzrecht und Verwaltungsverfahren.",
+        "first_seen": "2026-08-26T02:11:50.363202Z",
+        "fingerprint": "3ece1ca23abd738f74824a8af25797b572409258999f9731a2ae703f6147acae"
       },
       {
         "id": "erste_bank:33950",
@@ -583,20 +583,6 @@
         "fingerprint": "2f0a8b80d113c9478a8f0ea3f64ddbda2317601bac782e0035f87eca4a611fd9"
       },
       {
-        "id": "karriere_at:10029477",
-        "source": "karriere_at",
-        "title": "Unternehmensjurist:in (m/w/d)",
-        "company": "Verkehrsverbund Ost-Region (VOR) Gesellschaft m.b.H.",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10029477",
-        "salary": "ab 46.871 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-08-13T07:58:14.386351Z",
-        "fingerprint": "877f862036ff5aef69ec59cc06e573396f33b8081605c23ea88572755ba27173"
-      },
-      {
         "id": "karriere_at:10030275",
         "source": "karriere_at",
         "title": "Mitarbeiter:in der Rechtsabteilung",
@@ -609,6 +595,20 @@
         "snippet": null,
         "first_seen": "2026-08-20T13:07:36.835374Z",
         "fingerprint": "b69eb470ca837b4b32b634aa2ec6381b69169214d2f8b21f88bd610c785d1972"
+      },
+      {
+        "id": "karriere_at:10029477",
+        "source": "karriere_at",
+        "title": "Unternehmensjurist:in (m/w/d)",
+        "company": "Verkehrsverbund Ost-Region (VOR) Gesellschaft m.b.H.",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10029477",
+        "salary": "ab 46.871 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-08-13T07:58:14.386351Z",
+        "fingerprint": "877f862036ff5aef69ec59cc06e573396f33b8081605c23ea88572755ba27173"
       },
       {
         "id": "karriere_at:10028263",
@@ -941,10 +941,10 @@
         "url": "https://www.karriere.at/jobs/7864186",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Make your way to the top. Rechtsanwalt Kartell-/ Wettbewerbs-/ Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges Honorar entsprechend...",
         "first_seen": "2026-08-24T11:39:03.001566Z",
-        "fingerprint": "581a93332605b9eb8667657575a53de7163cafb505bd55d103128ca9772870fe"
+        "fingerprint": "649f8410dc84d0b8e4bc76d217984a5df519f75298c28c866f1f522520bff0ec"
       },
       {
         "id": "karriere_at:7859749",
@@ -1109,10 +1109,10 @@
         "url": "https://www.karriere.at/jobs/7861537",
         "salary": "ab 6.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "18.8.2026",
         "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
         "first_seen": "2026-08-18T11:12:16.448759Z",
-        "fingerprint": "5ba539fd586ad46c3543f972103fd40960bf553d0a390d729b6f7dea905ac88f"
+        "fingerprint": "1b744ee00cf91423694246f4eca1764da08e015d456756a68c723c114f2898dc"
       },
       {
         "id": "karriere_at:7847546",
@@ -1451,6 +1451,21 @@
         "fingerprint": "597222afcd905786b139cd2c71ef9148a6a86c6aec1f0c7bd797f36dc67f8232"
       },
       {
+        "id": "stepstone:990472",
+        "source": "stepstone",
+        "title": "Jurist (w/m/d) - Digitale Rechtsthemen & Datenschutz",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Jurist-w-m-d-Digitale-Rechtsthemen-Datenschutz-Wien-l-m-executive-search-consulting-gmbh--990472-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-08-26T12:02:02+02:00",
+        "department": null,
+        "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte österreichische Bank mit internationaler Ausrichtung und starkem Fokus auf digitale Weiterentwicklung und regulatorische Exzellenz. Die Rechtsabteilung versteht sich als i",
+        "first_seen": "2026-07-01T08:44:47.186813Z",
+        "fingerprint": "30602a4d8a1f961d2bbed69112f562138efd6c1e530e436c2f7910dcac7cbefd"
+      },
+      {
         "id": "stepstone:996435",
         "source": "stepstone",
         "title": "Jurist:in - Insolvenzreferent/in (m/w/d) Wien",
@@ -1464,21 +1479,6 @@
         "snippet": "Der AKV EUROPA zählt zu den führenden österreichischen Gläubigerschutzverbänden und verbindet langjährige Erfahrung mit moderner Dienstleistung. Wir betreuen unsere Mitglieder und Mandant:innen erfolgreich in den Bereichen Insolvenz, Inkasso, Auskunft, Treuhand und Beratung.",
         "first_seen": "2026-08-07T08:09:31.554703Z",
         "fingerprint": "2cd1496e77decca8346359e03aae26417fa8180286728191dccab6d5b3e2f2ad"
-      },
-      {
-        "id": "stepstone:990472",
-        "source": "stepstone",
-        "title": "Jurist (w/m/d) - Digitale Rechtsthemen & Datenschutz",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Jurist-w-m-d-Digitale-Rechtsthemen-Datenschutz-Wien-l-m-executive-search-consulting-gmbh--990472-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-08-19T12:02:02+02:00",
-        "department": null,
-        "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte österreichische Bank mit internationaler Ausrichtung und starkem Fokus auf digitale Weiterentwicklung und regulatorische Exzellenz. Die Rechtsabteilung versteht sich als i",
-        "first_seen": "2026-07-01T08:44:47.186813Z",
-        "fingerprint": "8fd44e0c8aaba085b23a77147bd808a56fe10294b3d471e08677558677dda270"
       },
       {
         "id": "stepstone:999199",
