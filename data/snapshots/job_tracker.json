@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-08-29T10:17:42.991204Z",
+  "timestamp": "2026-08-29T15:07:50.940310Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-08-29T10:17:42.991204Z",
+        "last_success": "2026-08-29T15:07:50.940310Z",
         "last_error": null,
         "count": 23
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-08-29T10:17:42.991204Z",
+        "last_success": "2026-08-29T15:07:50.940310Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-08-29T10:17:42.991204Z",
+        "last_success": "2026-08-29T15:07:50.940310Z",
         "last_error": null,
         "count": 2
       },
@@ -29,21 +29,21 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-08-29T10:17:42.991204Z",
+        "last_success": "2026-08-29T15:07:50.940310Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-08-29T10:17:42.991204Z",
+        "last_success": "2026-08-29T15:07:50.940310Z",
         "last_error": null,
         "count": 66
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-08-29T10:17:42.991204Z",
+        "last_success": "2026-08-29T15:07:50.940310Z",
         "last_error": null,
-        "count": 27
+        "count": 29
       }
     },
     "jobs": [
@@ -139,6 +139,19 @@
         "fingerprint": "e6023a4e75e84abfd6d432905d9b21f71fbb278dad090e317d6d057ddddeafa9"
       },
       {
+        "id": "jusjobs:1765222",
+        "source": "jusjobs",
+        "title": "Schadenreferent:in/ Jurist:in Haftpflichtschaden",
+        "company": "UNIQA Insurance Group AG",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1765222",
+        "salary": "€ 3.500",
+        "employment_type": "Vollzeit",
+        "snippet": "UNIQA sucht eine:n Schadenreferent:in/ Jurist:in Haftpflichtschaden für die Regulierung allgemeiner Haftpflichtansprüche in Salzburg und Wien.",
+        "first_seen": "2026-07-02T06:08:07.645199Z",
+        "fingerprint": "71556249affcda4f2e64293653943da5c126efedab02b83199b2a474c866fd17"
+      },
+      {
         "id": "jusjobs:2011537",
         "source": "jusjobs",
         "title": "Legal Expert im Gesundheitsservice (m/w/d)",
@@ -150,19 +163,6 @@
         "snippet": "Aufgabenbereich: In der abwechslungsreichen Aufgabe als Jurist:in der Abteilung Gesundheitsservice der SVS-Hauptstelle betreuen Sie eigenständig Themenbereiche der…",
         "first_seen": "2026-08-29T10:17:42.991673Z",
         "fingerprint": "cb4d39239373435e98f644bc3c9de76184ed32a2eb28d12bea650ac7a2906de1"
-      },
-      {
-        "id": "jusjobs:1765222",
-        "source": "jusjobs",
-        "title": "Schadenreferent:in/ Jurist:in Haftpflichtschaden",
-        "company": "UNIQA Insurance Group AG",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1765222",
-        "salary": "€ 3.500",
-        "employment_type": "Vollzeit",
-        "snippet": "Wir erwarten uns: Juristische Ausbildung, sowie Fachwissen in der Sachversicherung von Vorteil Selbstständige Arbeitsweise Gute EDV-Anwenderkenntnisse Verhandlungsgeschick…",
-        "first_seen": "2026-07-02T06:08:07.645199Z",
-        "fingerprint": "71556249affcda4f2e64293653943da5c126efedab02b83199b2a474c866fd17"
       },
       {
         "id": "jusjobs:1800973",
@@ -592,10 +592,10 @@
         "url": "https://www.karriere.at/jobs/7864495",
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Du übernimmst die fachliche, personelle und wirtschaftliche Führung des Fachbereichs Recht und entwickelst diesen mit Weitblick und Entscheidungsstärke gemeinsam mit deinem Team der Jurist＊innen...",
         "first_seen": "2026-08-24T14:22:48.476674Z",
-        "fingerprint": "dcb30354e339f99cac4b53cc6ad2d56d5b3c3ccc622515891ab8d933a26aae03"
+        "fingerprint": "5f20a5e7955e15c6fcb5a2ec097d1470a354b2dd17bea21999b1ceddf2f36b8a"
       },
       {
         "id": "karriere_at:10028990",
@@ -858,10 +858,10 @@
         "url": "https://www.karriere.at/jobs/7866433",
         "salary": "ab 55.881 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabenbereich: In der abwechslungsreichen Aufgabe als Jurist:in der Abteilung Gesundheitsservice der SVS-Hauptstelle betreuen Sie eigenständig Themenbereiche der Krankenversicherung durch die Gestaltung von fachlichen...",
         "first_seen": "2026-08-27T14:36:58.651561Z",
-        "fingerprint": "cbe631136fb023b855ca77665df151431cf8bfeadd8970336fecb7ada34b64b3"
+        "fingerprint": "5fd009df20c2f92c2a924dbb6c1e18fd82baec3a6d8a763c1d8facab0d4c8be7"
       },
       {
         "id": "karriere_at:7852397",
@@ -1320,10 +1320,10 @@
         "url": "https://www.karriere.at/jobs/7865707",
         "salary": "ab 60.900 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Bei uns im Team: Unterstützung der Projektleitung im Bereich Anti Financial Crime inklusive Übernahme von diversen Aufgaben im Lead innerhalb des Projekts, Unterstützung iZm den AML-Package...",
         "first_seen": "2026-08-26T12:38:27.618142Z",
-        "fingerprint": "d6ff0558aeffc2cf9721d142f6511e49815682d81c601519aa3753bf7319754c"
+        "fingerprint": "86ae2b0a58833ea7e900c198ca9ace8a47b10dd757417427bdffb2cb12c292d2"
       },
       {
         "id": "karriere_at:7860775",
@@ -1752,6 +1752,36 @@
         "fingerprint": "321d796d58cb0b169d6ad7b895f248ac80c73c1759d7b927dc057dc0ffc714d5"
       },
       {
+        "id": "stepstone:999951",
+        "source": "stepstone",
+        "title": "Rechtsanwältin:Rechtsanwalt - IT-Recht",
+        "company": "Schiefer Rechtsanwälte GmbH",
+        "location": "Vienna",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-IT-Recht-Vienna-Schiefer-Rechtsanwaelte-GmbH--999951-inline.html",
+        "salary": null,
+        "employment_type": "Vollzeit",
+        "published_at": "2026-08-29T15:39:14+02:00",
+        "department": null,
+        "snippet": "Think new. Recht neu denken. Wien I Vollzeit I sofort Schiefer Rechtsanwälte sucht Verstärkung. Die digitale Welt verändert sich – und mit ihr die Fragen, die Unternehmen heute rechtlich bewegen. Bei Schiefer Rechtsanwälte denken wir Recht neu: Wir verbinden juristische Präzision mit technologischem",
+        "first_seen": "2026-08-29T15:08:06.875363Z",
+        "fingerprint": "fcd00b246b88ec44cf14f4f2cc01f952d376845ad7afceb79bf3b8afa67dfdaf"
+      },
+      {
+        "id": "stepstone:999948",
+        "source": "stepstone",
+        "title": "Rechtsanwältin:Rechtsanwalt - Baurecht",
+        "company": "Schiefer Rechtsanwälte GmbH",
+        "location": "Vienna",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-Baurecht-Vienna-Schiefer-Rechtsanwaelte-GmbH--999948-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-08-29T03:05:23+02:00",
+        "department": null,
+        "snippet": "Schiefer Rechtsanwälte sucht einen Mitgestalter. Die Zukunft wird gebaut. Von Menschen, Unternehmen und Projekten, die neue Maßstäbe setzen. Bei Schiefer Rechtsanwälte beraten wir Mandanten dort, wo Recht, Wirtschaft und Realisierung zusammenkommen. Wir begleiten anspruchsvolle Bau- und Immobilie",
+        "first_seen": "2026-08-29T15:08:06.875363Z",
+        "fingerprint": "4eff2bc5a38ac1d2a25e41c6b61b9e1dde8dd218fc1fff836e779d4d410c299f"
+      },
+      {
         "id": "stepstone:947468",
         "source": "stepstone",
         "title": "Anwaltsassistent:in (d/f/m)",
@@ -2107,6 +2137,8 @@
       "stepstone:998065",
       "stepstone:998620",
       "stepstone:999199",
+      "stepstone:999948",
+      "stepstone:999951",
       "uniqa:85274a4a8c59d054",
       "uniqa:a05dd3e6998adebb",
       "uniqa:ce0314c94d8ce3fb"
