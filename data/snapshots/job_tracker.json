@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-02T06:07:41.686404Z",
+  "timestamp": "2026-09-02T11:29:27.426551Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-09-02T06:07:41.686404Z",
+        "last_success": "2026-09-02T11:29:27.426551Z",
         "last_error": null,
-        "count": 17
+        "count": 18
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-09-02T06:07:41.686404Z",
+        "last_success": "2026-09-02T11:29:27.426551Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-09-02T06:07:41.686404Z",
+        "last_success": "2026-09-02T11:29:27.426551Z",
         "last_error": null,
         "count": 2
       },
@@ -29,24 +29,37 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-09-02T06:07:41.686404Z",
+        "last_success": "2026-09-02T11:29:27.426551Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-09-02T06:07:41.686404Z",
+        "last_success": "2026-09-02T11:29:27.426551Z",
         "last_error": null,
-        "count": 66
+        "count": 65
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-09-02T06:07:41.686404Z",
+        "last_success": "2026-09-02T11:29:27.426551Z",
         "last_error": null,
-        "count": 29
+        "count": 30
       }
     },
     "jobs": [
+      {
+        "id": "jusjobs:2023661",
+        "source": "jusjobs",
+        "title": "Wissenschaftliche*r Mitarbeiter*in - Tax Management",
+        "company": "Hochschule für Angewandte Wissenschaften Campus Wien",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/2023661",
+        "salary": "€ 3.404",
+        "employment_type": "Praktikum",
+        "snippet": "Teilzeit‑Position (20h) als wissenschaftliche/r Mitarbeiter/in Tax Management in Wien mit Fokus auf (Umsatz‑)Steuerrecht, Digitalisierung (ViDA, DRR, E‑Invoicing) und Tax…",
+        "first_seen": "2026-09-02T11:29:27.426978Z",
+        "fingerprint": "656857caa4d95371ad774de81524670b236ce52b4522c5fd26a5c6a521087c83"
+      },
       {
         "id": "jusjobs:1979873",
         "source": "jusjobs",
@@ -55,10 +68,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1979873",
         "salary": "€ 4.063",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Junior Product Owner für Anwendungen im Umfeld der österreichischen Justiz mit Schwerpunkt Konzeption, Analyse und agile Weiterentwicklung der Verfahrensautomation Justiz.",
         "first_seen": "2026-08-20T11:01:03.062870Z",
-        "fingerprint": "de405c41e0a7c171959e12b271d0e6adfc8a671a48701e9337819fe4fd98cf59"
+        "fingerprint": "a1e1992aabbde6382754f2983d6baa057ae4e14458f1fb73bf7f17715ea724ad"
       },
       {
         "id": "jusjobs:1979851",
@@ -124,6 +137,19 @@
         "snippet": "Die BVAEB sucht eine:n Jurist:Juristin in Wien. Standort: Wien, AT, 1080. Wochenstunden: 40.",
         "first_seen": "2026-08-21T13:57:04.751316Z",
         "fingerprint": "9cd1a6b494cf0a60628c9cb5ce21088aacadcef7f2f8fab0c5836ec350970ad2"
+      },
+      {
+        "id": "jusjobs:2026447",
+        "source": "jusjobs",
+        "title": "Legal Counsel, EU Employment Law (Platform Workers) Vienna, Austria Full-time",
+        "company": "Mjam GmbH",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/2026447",
+        "salary": "€ 5.714",
+        "employment_type": "Vollzeit",
+        "snippet": "Qualifications Fully qualified employment lawyer in an EU jurisdiction, with extensive experience in employment law, including at least 3 years in a law firm environment and a…",
+        "first_seen": "2026-09-02T11:29:27.426978Z",
+        "fingerprint": "6ceb24b547d6cefc4259517099091736fc8f68cd5f0949c078b6f9697a2cec71"
       },
       {
         "id": "jusjobs:1797737",
@@ -250,23 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1842991",
         "salary": "€ 3.273",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Juristische Vollzeitstelle bei der NÖVOG in Wien mit Schwerpunkt Vergaberecht, Vertragsrecht und Unternehmensbetreuung.",
         "first_seen": "2026-09-01T00:08:24.876920Z",
-        "fingerprint": "e102d95360cbd0a61309fbd527ebf8566987e5d0608e7efcd79d7ba5f3d277cd"
-      },
-      {
-        "id": "jusjobs:1845743",
-        "source": "jusjobs",
-        "title": "Expert*in für Schutzrechte und Verwertung",
-        "company": "Hochschule für Angewandte Wissenschaften Campus Wien",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1845743",
-        "salary": "€ 3.765",
-        "employment_type": "Vollzeit",
-        "snippet": "Expert*in für Schutzrechte und Verwertung an der Hochschule Campus Wien mit Fokus auf IPR, Patent- und Lizenzmanagement sowie Technologietransfer.",
-        "first_seen": "2026-09-01T00:08:24.876920Z",
-        "fingerprint": "ad0047f41aa64f850d8168594522878adb845238ed4b2dfed4e45e62d8db6163"
+        "fingerprint": "38164445f06287b74d7786c9ca3c915c5984c978b59a048238d55b9320d6cb85"
       },
       {
         "id": "erste_bank:33950",
@@ -492,20 +505,6 @@
         "fingerprint": "35dd05f7bd17a1fc30c4690dae81a55a414c9eae4e567af3dbbc3a8742ec4fa9"
       },
       {
-        "id": "karriere_at:10025968",
-        "source": "karriere_at",
-        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
-        "company": "Kommunalkredit Public Consulting GmbH",
-        "location": "Wien 19. Bezirk (Döbling)",
-        "url": "https://www.karriere.at/jobs/10025968",
-        "salary": "ab 3.599,52 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": "Begleitung der Weiterentwicklung interner Prozesse der Förderungsabwicklung im Bereich Klima & Umwelt. Mitwirkung bei der Gestaltung rechtlicher Anforderungen und Unterstützung der Prozesssteuerung. Mehrjährige Erfahrung in juristischer Arbeit ist erforderlich. Beitrag zum Klimaschutz und Nachhaltigkeit.",
-        "first_seen": "2026-07-10T08:45:47.820748Z",
-        "fingerprint": "ac48b62ed391d1b3188208d6c2b6381e7d52fdc79f58b532e4e8cfe87864d693"
-      },
-      {
         "id": "karriere_at:10030275",
         "source": "karriere_at",
         "title": "Mitarbeiter:in der Rechtsabteilung",
@@ -518,6 +517,20 @@
         "snippet": "Prüfung von Finanzprodukten und Due Diligence, gesellschaftsrechtliche Betreuung von Investments sowie regulatorische Überwachung. Abgeschlossenes Jurastudium und erste Berufserfahrung erforderlich. Weiterbildungsmöglichkeiten und flexible Arbeitszeiten.",
         "first_seen": "2026-08-20T13:07:36.835374Z",
         "fingerprint": "b69eb470ca837b4b32b634aa2ec6381b69169214d2f8b21f88bd610c785d1972"
+      },
+      {
+        "id": "karriere_at:10025968",
+        "source": "karriere_at",
+        "title": "Expert:in (m/w/d) mit juristischem Hintergrund (EU-/Öffentliches Recht) im Förderungsmanagement",
+        "company": "Kommunalkredit Public Consulting GmbH",
+        "location": "Wien 19. Bezirk (Döbling)",
+        "url": "https://www.karriere.at/jobs/10025968",
+        "salary": "ab 3.599,52 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": "Begleitung der Weiterentwicklung interner Prozesse der Förderungsabwicklung im Bereich Klima & Umwelt. Mitwirkung bei der Gestaltung rechtlicher Anforderungen und Unterstützung der Prozesssteuerung. Mehrjährige Erfahrung in juristischer Arbeit ist erforderlich. Beitrag zum Klimaschutz und Nachhaltigkeit.",
+        "first_seen": "2026-07-10T08:45:47.820748Z",
+        "fingerprint": "ac48b62ed391d1b3188208d6c2b6381e7d52fdc79f58b532e4e8cfe87864d693"
       },
       {
         "id": "karriere_at:10028263",
@@ -584,10 +597,10 @@
         "url": "https://www.karriere.at/jobs/10031218",
         "salary": "ab 44.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
         "first_seen": "2026-08-31T15:02:20.466416Z",
-        "fingerprint": "3b51aab4b316c07ff4517fcd9e3960965e1c616223bafb04355bcf2fdcbdc403"
+        "fingerprint": "5bd0eb59f0198cf9bf33ae1eb755324a7895362f3746f6b045d3b9255214aa2d"
       },
       {
         "id": "karriere_at:10026561",
@@ -786,20 +799,6 @@
         "fingerprint": "40de37feaa84b7b0015213472b9f1694f54d1fff7e9defc73f07d7ff15dad880"
       },
       {
-        "id": "karriere_at:7858319",
-        "source": "karriere_at",
-        "title": "Legal Assistant (m|f|x) - Rechtsanwaltsassistent:in",
-        "company": "Schönherr Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7858319",
-        "salary": "2.400 € – 4.000 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
-        "first_seen": "2026-08-11T07:59:00.356475Z",
-        "fingerprint": "745d8a60ffce82ab13a054475171eb5de45f82a33a270bd8d5f3301d313c92b7"
-      },
-      {
         "id": "karriere_at:7866433",
         "source": "karriere_at",
         "title": "Legal Expert im Gesundheitsservice (m/w/d)",
@@ -808,10 +807,10 @@
         "url": "https://www.karriere.at/jobs/7866433",
         "salary": "ab 55.881 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabenbereich: In der abwechslungsreichen Aufgabe als Jurist:in der Abteilung Gesundheitsservice der SVS-Hauptstelle betreuen Sie eigenständig Themenbereiche der Krankenversicherung durch die Gestaltung von fachlichen...",
         "first_seen": "2026-08-27T14:36:58.651561Z",
-        "fingerprint": "d72f2a3adadca790804249c50754866cf0e102a773a78e5072136d300f087395"
+        "fingerprint": "0d2927273b5f458c0f96379c5423951fc73d4b336e16d6c745409e72e76b91e0"
       },
       {
         "id": "karriere_at:7852397",
@@ -840,6 +839,20 @@
         "snippet": "Senior Legal Expert (w/m/d) Industrieunternehmen I Wien Referenz-Nr.: JN -082026-7084760 Ort: Vienna Anstellungsart: Permanent Firmenprofil Unser Kunde ist eine international erfolgreiche...",
         "first_seen": "2026-08-18T14:01:11.184747Z",
         "fingerprint": "fc6f004bf37de2016561cd88b9a1023c2f9e577ca79b03c1ea62c05ba72c2cae"
+      },
+      {
+        "id": "karriere_at:7869583",
+        "source": "karriere_at",
+        "title": "Juristin (w/m/d) Arbeitsrecht - Arbeitszeitrecht und betriebsverfassungsrechtliches Arbeitsrecht",
+        "company": "Wiener Linien",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7869583",
+        "salary": "ab 4.628,49 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Juristin (w/m/d) Arbeitsrecht, Arbeitszeitrecht und betriebsverfassungsrechtliches Arbeitsrecht Teil- oder Vollzeit (30-37,5 Stunden/Woche) Jetzt bewerben Ob im Fahrdienst, in den Werkstätten...",
+        "first_seen": "2026-09-02T11:29:35.915194Z",
+        "fingerprint": "bb9742a34d31abec075eaf9072f3d907701fcf439843003d6b26efcc0f56f484"
       },
       {
         "id": "karriere_at:7858520",
@@ -952,20 +965,6 @@
         "snippet": "Ihr Aufgabenbereich: Bearbeitung von Themen aus den Bereichen des Gesellschaftsrechts, Gemeinnützigkeitsrechts, Hochschulrechts, Vergaberechts und Vertragsrechts, Erstellung, Prüfung und Kommentierung von Verträgen...",
         "first_seen": "2026-08-03T08:39:52.634951Z",
         "fingerprint": "c3052d57c2c0dde56540f46a356851ce65f348f8627e41bc10bacf37009a96d7"
-      },
-      {
-        "id": "karriere_at:7858625",
-        "source": "karriere_at",
-        "title": "Senior Rechtsanwaltsanwärter:in | Anwält:in für den Bereich Capital Markets, Banking & Finance",
-        "company": "Schönherr Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7858625",
-        "salary": "ab 6.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": "Schönherr ist eine führende europäische Full-Service-Rechtsanwaltskanzlei mit starker Präsenz in Zentral- und Osteuropa (CEE). Mit 16 Büros in 15 Ländern...",
-        "first_seen": "2026-08-12T06:02:52.754971Z",
-        "fingerprint": "4559a79f37ec4ffa904376e1007e62cf32092543b5f34481ccfd4164df1d6957"
       },
       {
         "id": "karriere_at:7836770",
@@ -1186,10 +1185,10 @@
         "url": "https://www.karriere.at/jobs/7867303",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "(Senior) Associate, Konzernsteuerrecht und Umgründungen (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Durchführung juristischer...",
         "first_seen": "2026-08-28T11:17:28.767920Z",
-        "fingerprint": "409792d143c3e987123e21890dcccc17f7530b6a20d392600a0969ad78b2cd17"
+        "fingerprint": "5051d972263dc524408c41d5b101224e9836a8598f94f3a16e25089f23a75a08"
       },
       {
         "id": "karriere_at:7857572",
@@ -1326,10 +1325,10 @@
         "url": "https://www.karriere.at/jobs/7865707",
         "salary": "ab 60.900 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Bei uns im Team: Unterstützung der Projektleitung im Bereich Anti Financial Crime inklusive Übernahme von diversen Aufgaben im Lead innerhalb des Projekts, Unterstützung iZm den AML-Package...",
         "first_seen": "2026-08-26T12:38:27.618142Z",
-        "fingerprint": "03bd4e24ceff22dbc6ca02aace9c7a2c5598322fc50716221d3bdf796aefdbe7"
+        "fingerprint": "dd81b9b376b8c5d494d2ae7d5c900bc684bef0079c3abb451663cf0386a1029a"
       },
       {
         "id": "karriere_at:7860775",
@@ -1733,19 +1732,19 @@
         "fingerprint": "49ed0ef55e744ebdf27f43f658256802c06a9b658f3b8351b08a6c2d57329b81"
       },
       {
-        "id": "stepstone:947469",
+        "id": "stepstone:1000490",
         "source": "stepstone",
-        "title": "Mitarbeiter:in Abendsekretariat/-empfang (d/f/m)",
+        "title": "Head of IT (d/f/m)",
         "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
         "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Mitarbeiter-in-Abendsekretariat-empfang-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947469-inline.html",
+        "url": "https://www.stepstone.at/stellenangebote--Head-of-IT-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--1000490-inline.html",
         "salary": null,
-        "employment_type": null,
-        "published_at": "2026-08-26T07:34:59+02:00",
-        "department": null,
-        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
-        "first_seen": "2026-08-06T10:15:43.316515Z",
-        "fingerprint": "c521dcd734d20a19588dd372d48908020c19337eb8cbaf58e0bd1c40662d8b44"
+        "employment_type": "Home Office",
+        "published_at": "2026-09-02T07:13:41+02:00",
+        "department": "Home Office",
+        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mi",
+        "first_seen": "2026-09-02T11:29:43.350159Z",
+        "fingerprint": "d4e503d37346eba2255b3f60b159b3e302d7f442a7e16e9a2a309eb570f1551e"
       },
       {
         "id": "stepstone:968445",
@@ -1776,6 +1775,21 @@
         "snippet": "Rechtsanwaltsassistent:in (m/w/d) Vollzeit Unser Unternehmen Rechtsanwaltsassistent:in (m/w/d) Vollzeit Sie haben auch Freude am Erfolg und wollen sich einer mittelständischen Rechtsanwaltskanzlei mit mehr als 50-jähriger Erfahrung anschließen? Dann bewerben Sie sich noch heute bei uns als Assistenz",
         "first_seen": "2026-08-19T15:16:40.110603Z",
         "fingerprint": "ada952ad1841e897fe66a2d50260f91794616be9dc9f5c7c768f2a1445a53f7a"
+      },
+      {
+        "id": "stepstone:1000569",
+        "source": "stepstone",
+        "title": "Senior / Expert-Mitarbeiter (w/m/d) in der Forschungsabteilung Unfallprävention",
+        "company": "Kuratorium für Verkehrssicherheit Wien",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Senior-Expert-Mitarbeiter-w-m-d-in-der-Forschungsabteilung-Unfallpraevention-Wien-Kuratorium-fuer-Verkehrssicherheit-Wien--1000569-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-09-02T11:33:54+02:00",
+        "department": "Home Office",
+        "snippet": "Die Aufgabe des KFV ist es, das Unfallgeschehen zu Hause, in der Freizeit und beim Sport in Österreich zu reduzieren und sich für die Sicherheit und das Wohlbefinden der österreichischen Bevölkerung einzusetzen. Unser Bereich Haushalt, Freizeit, Sportsicherheit ist auf der Suche nach einem",
+        "first_seen": "2026-09-02T11:29:43.350159Z",
+        "fingerprint": "bbf3a211a05e75482a289d6adb0dbd7a5d31e0093bfae9be9d5c48bc15b3d7d5"
       },
       {
         "id": "stepstone:978610",
@@ -1872,6 +1886,8 @@
       "jusjobs:2006971",
       "jusjobs:2008875",
       "jusjobs:2011537",
+      "jusjobs:2023661",
+      "jusjobs:2026447",
       "jusjobs:432457",
       "jusjobs:712767",
       "jusjobs:970720",
@@ -2007,6 +2023,7 @@
       "karriere_at:7868155",
       "karriere_at:7868509",
       "karriere_at:7868527",
+      "karriere_at:7869583",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
@@ -2025,6 +2042,8 @@
       "lawfinder:cmszywsft000304kw0wn783ti",
       "lawfinder:cmszz3skv000404kwntklw6k6",
       "stepstone:1000149",
+      "stepstone:1000490",
+      "stepstone:1000569",
       "stepstone:633580",
       "stepstone:929613",
       "stepstone:934776",
