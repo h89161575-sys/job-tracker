@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-03T18:47:00.034751Z",
+  "timestamp": "2026-09-03T21:26:02.116465Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-09-03T18:47:00.034751Z",
+        "last_success": "2026-09-03T21:26:02.116465Z",
         "last_error": null,
-        "count": 20
+        "count": 21
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-09-03T18:47:00.034751Z",
+        "last_success": "2026-09-03T21:26:02.116465Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-09-03T18:47:00.034751Z",
+        "last_success": "2026-09-03T21:26:02.116465Z",
         "last_error": null,
         "count": 3
       },
@@ -29,19 +29,19 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-09-03T18:47:00.034751Z",
+        "last_success": "2026-09-03T21:26:02.116465Z",
         "last_error": null,
-        "count": 5
+        "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-09-03T18:47:00.034751Z",
+        "last_success": "2026-09-03T21:26:02.116465Z",
         "last_error": null,
         "count": 70
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-09-03T18:47:00.034751Z",
+        "last_success": "2026-09-03T21:26:02.116465Z",
         "last_error": null,
         "count": 31
       }
@@ -137,6 +137,19 @@
         "snippet": "Die BVAEB sucht eine:n Jurist:Juristin in Wien. Standort: Wien, AT, 1080. Wochenstunden: 40.",
         "first_seen": "2026-08-21T13:57:04.751316Z",
         "fingerprint": "9cd1a6b494cf0a60628c9cb5ce21088aacadcef7f2f8fab0c5836ec350970ad2"
+      },
+      {
+        "id": "jusjobs:1995949",
+        "source": "jusjobs",
+        "title": "Jurist*in (w/m/d)",
+        "company": "immOH! Energie und Gebäudemanagement GmbH",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1995949",
+        "salary": "€ 3.415",
+        "employment_type": "Vollzeit",
+        "snippet": "Juristische In-House-Position bei immOH! in Wien mit Schwerpunkt Vertragsrecht, Gesellschaftsrecht, Compliance und Datenschutz.",
+        "first_seen": "2026-09-03T21:26:02.116802Z",
+        "fingerprint": "2d3e56dfa56922b905e25a8f496f20d62726447b73cf4463a8c0c1a2106c21f2"
       },
       {
         "id": "jusjobs:2003243",
@@ -263,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1927333",
         "salary": "€ 5.014",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Tenure-Track-Stelle an der BOKU Wien im Öffentlichen Recht mit Schwerpunkt Umwelt- und Klimaschutzrecht, 40 Wochenstunden, ab 01.03.2027.",
         "first_seen": "2026-08-26T02:11:50.363202Z",
-        "fingerprint": "4ff6a5b339c19cfb0a3e16bd201a5acaf3c398c3931fc0197dcb2490c1033b6a"
+        "fingerprint": "1b6d707b5efef663b6d1c86d73234a7db2e3d22c5a2105ce376f143316b0785b"
       },
       {
         "id": "jusjobs:1923751",
@@ -276,10 +289,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1923751",
         "salary": "€ 3.663",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "HR Jurist_in für arbeits- und sozialrechtliche Beratung sowie rechtskonforme Umsetzung personalrelevanter Maßnahmen beim AMS NÖ in Wien.",
         "first_seen": "2026-09-01T00:08:24.876920Z",
-        "fingerprint": "8b1469ba7f8356b019e548e60db4fb0f60877ed69c8135afb963aab0054ca748"
+        "fingerprint": "f24c671903d02ac752329e98211536178b9c5d43e45c450ff83d5f037db2fe3f"
       },
       {
         "id": "jusjobs:1235995",
@@ -503,16 +516,6 @@
         "fingerprint": "4c98ef107b2665c916a4a049376b4328ffef088a3bb3d736294139fae2825149"
       },
       {
-        "id": "derstandard:6a05a551-9465-31c4-b400-9381281e82ca",
-        "source": "derstandard",
-        "title": "Ermittler:in (all genders) Marktmissbrauchsaufsicht Crypto Assets",
-        "company": "Finanzmarktaufsicht (FMA)",
-        "location": "Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/6a05a551-9465-31c4-b400-9381281e82ca",
-        "first_seen": "2026-09-03T18:47:09.692679Z",
-        "fingerprint": "f6ca9930fce96220dabda3e5837731753435a198eb36d37809e7a346a160ba72"
-      },
-      {
         "id": "derstandard:493881e6-0fb9-314e-8516-5e773697b397",
         "source": "derstandard",
         "title": "Manager:in Tax/ Steuerberater:in (m/w/d)",
@@ -543,20 +546,6 @@
         "fingerprint": "35dd05f7bd17a1fc30c4690dae81a55a414c9eae4e567af3dbbc3a8742ec4fa9"
       },
       {
-        "id": "karriere_at:10029477",
-        "source": "karriere_at",
-        "title": "Unternehmensjurist:in (m/w/d)",
-        "company": "Verkehrsverbund Ost-Region (VOR) Gesellschaft m.b.H.",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10029477",
-        "salary": "ab 46.871 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
-        "snippet": "Rechtliche Betreuung in Vergaberecht, Datenschutz und KI-VO. Vorbereitung und Durchführung öffentlicher Ausschreibungen nach BVergG. Erstellung und Prüfung von Verträgen. Mehrjährige Berufserfahrung in Rechtsabteilung/Kanzlei. Bis zu 40% Homeoffice möglich.",
-        "first_seen": "2026-08-13T07:58:14.386351Z",
-        "fingerprint": "ae8a59d1d916a1e46fc5039d77dec4bb9831bb47c40d5cc6d56663d90815c22d"
-      },
-      {
         "id": "karriere_at:10030275",
         "source": "karriere_at",
         "title": "Mitarbeiter:in der Rechtsabteilung",
@@ -569,6 +558,20 @@
         "snippet": "Prüfung von Finanzprodukten und Due Diligence, gesellschaftsrechtliche Betreuung von Investments sowie regulatorische Überwachung. Abgeschlossenes Jurastudium und erste Berufserfahrung erforderlich. Weiterbildungsmöglichkeiten und flexible Arbeitszeiten.",
         "first_seen": "2026-08-20T13:07:36.835374Z",
         "fingerprint": "6fbb667628a77d4e96632b347d0b039a03ffd29e91fc015963d05e12191a4ff2"
+      },
+      {
+        "id": "karriere_at:10029477",
+        "source": "karriere_at",
+        "title": "Unternehmensjurist:in (m/w/d)",
+        "company": "Verkehrsverbund Ost-Region (VOR) Gesellschaft m.b.H.",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10029477",
+        "salary": "ab 46.871 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 7 Tagen veröffentlicht",
+        "snippet": "Rechtliche Betreuung in Vergaberecht, Datenschutz und KI-VO. Vorbereitung und Durchführung öffentlicher Ausschreibungen nach BVergG. Erstellung und Prüfung von Verträgen. Mehrjährige Berufserfahrung in Rechtsabteilung/Kanzlei. Bis zu 40% Homeoffice möglich.",
+        "first_seen": "2026-08-13T07:58:14.386351Z",
+        "fingerprint": "ae8a59d1d916a1e46fc5039d77dec4bb9831bb47c40d5cc6d56663d90815c22d"
       },
       {
         "id": "karriere_at:10028263",
@@ -1578,11 +1581,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Dispute-Resolution-Litigation-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--929613-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-01T00:20:10+02:00",
+        "published_at": "2026-09-01T00:05:42+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "0d17a97918c10bd2d4c95c3cb78d00dac712af3b39b1fede18cdd6a8fa82e053"
+        "fingerprint": "ffad19879a47f7a974a89f37a0afec493c4a644b244afe4cf2a6e0162227aff8"
       },
       {
         "id": "stepstone:976441",
@@ -1593,11 +1596,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-08-28T00:17:34+02:00",
+        "published_at": "2026-08-28T00:20:24+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "64233f0430765203cbd9849f952222fc491b2142e91214ee44ec147a9af2c164"
+        "fingerprint": "64b33b04ce27de0836f106d42f2335d9e40fd1c7ab4870691102835fb6de0f57"
       },
       {
         "id": "stepstone:996409",
@@ -1630,6 +1633,21 @@
         "fingerprint": "d8885c722f74fa677643bdd3bb7162713c65b185a2b4f02ac9599c03b0d7ff7f"
       },
       {
+        "id": "stepstone:945281",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Real Estate Transactions (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Real-Estate-Transactions-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--945281-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-09-02T00:36:23+02:00",
+        "department": "Home Office",
+        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run",
+        "first_seen": "2026-07-04T08:13:32.144750Z",
+        "fingerprint": "b36fa0be8b931866801e3584be7b4052cd03d815a1e0af73cd1b29b73f4da5fc"
+      },
+      {
         "id": "stepstone:934778",
         "source": "stepstone",
         "title": "Rechtsanwält:in Corporate Restructuring (d/f/m)",
@@ -1638,11 +1656,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Corporate-Restructuring-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934778-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-02T00:27:05+02:00",
+        "published_at": "2026-09-02T00:06:28+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "ba31915754e4b1ff7059dccac8202913b7a8b76c20ce92f248577cf0b055f4ef"
+        "fingerprint": "c197affaa39a1da653e903a041a094b821e71cc94baeb90cba860a5e57b9c5aa"
       },
       {
         "id": "stepstone:934776",
@@ -1653,26 +1671,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Restrukturierung-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934776-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-02T00:38:29+02:00",
+        "published_at": "2026-09-02T00:12:42+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "2a06069843fa9b9bc9131bef764d08b51eb8050d96f219e4d6e65194fabcdc85"
-      },
-      {
-        "id": "stepstone:945281",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Real Estate Transactions (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Real-Estate-Transactions-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--945281-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-09-02T00:30:23+02:00",
-        "department": "Home Office",
-        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run",
-        "first_seen": "2026-07-04T08:13:32.144750Z",
-        "fingerprint": "c30c434dc29468ae15834beb0db2196fd095803ce0c0ef8e613cbd2938a09725"
+        "fingerprint": "672080f1fdf38611e4fd65704ef2980f349e8c266fa41e9fe6801fef249bd5fa"
       },
       {
         "id": "stepstone:1000149",
@@ -1698,11 +1701,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Zivilrecht-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--981820-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-08-31T00:51:16+02:00",
+        "published_at": "2026-08-31T00:32:45+02:00",
         "department": null,
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "9421a6d8a091f12724aea45a7d00f007bb2d6795c666e4fc8159b6a616651355"
+        "fingerprint": "cd68e7ad78d9418d662a5fab4a5e0514ff51938a856494c5bcfaa1edcc65f03d"
       },
       {
         "id": "stepstone:982028",
@@ -1863,11 +1866,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Anwaltsassistent-in-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947468-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-08-29T00:50:59+02:00",
+        "published_at": "2026-08-29T00:09:37+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "50f2287c393098b6a8c14442078db03dff555000ff3b84aa238592e24f9a121a"
+        "fingerprint": "515d73f7d5c5d913766e78658503497a13d5769389c8df957d8c36145143ca8e"
       },
       {
         "id": "stepstone:1000490",
@@ -1878,11 +1881,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Head-of-IT-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--1000490-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-02T01:44:29+02:00",
+        "published_at": "2026-09-02T02:40:43+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mi",
         "first_seen": "2026-09-02T11:29:43.350159Z",
-        "fingerprint": "ef8614d9de215ecb6884442529a0073ee7a2a9ab8bbbb62a6f3d806683f075f0"
+        "fingerprint": "0ea16a94371b9088bcd0e83f662c51614bb48d3929fb9225390d8c285ac617bb"
       },
       {
         "id": "stepstone:998065",
@@ -2020,6 +2023,7 @@
       "jusjobs:1979873",
       "jusjobs:1979947",
       "jusjobs:1995277",
+      "jusjobs:1995949",
       "jusjobs:1998503",
       "jusjobs:2002989",
       "jusjobs:2003243",
