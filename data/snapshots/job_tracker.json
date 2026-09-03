@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-09-03T06:27:47.657995Z",
+  "timestamp": "2026-09-03T11:41:00.897592Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-09-03T06:27:47.657995Z",
+        "last_success": "2026-09-03T11:41:00.897592Z",
         "last_error": null,
         "count": 17
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-09-03T06:27:47.657995Z",
+        "last_success": "2026-09-03T11:41:00.897592Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-09-03T06:27:47.657995Z",
+        "last_success": "2026-09-03T11:41:00.897592Z",
         "last_error": null,
-        "count": 2
+        "count": 3
       },
       "lawfinder": {
         "label": "LawFinder",
@@ -29,36 +29,36 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-09-03T06:27:47.657995Z",
+        "last_success": "2026-09-03T11:41:00.897592Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-09-03T06:27:47.657995Z",
+        "last_success": "2026-09-03T11:41:00.897592Z",
         "last_error": null,
-        "count": 64
+        "count": 69
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-09-03T06:27:47.657995Z",
+        "last_success": "2026-09-03T11:41:00.897592Z",
         "last_error": null,
-        "count": 31
+        "count": 30
       }
     },
     "jobs": [
       {
-        "id": "jusjobs:2023661",
+        "id": "jusjobs:1979851",
         "source": "jusjobs",
-        "title": "Wissenschaftliche*r Mitarbeiter*in - Tax Management",
-        "company": "Hochschule für Angewandte Wissenschaften Campus Wien",
+        "title": "Junior Product Owner (w/m/d) Justiz 3.0",
+        "company": "Bundesrechenzentrum GmbH",
         "location": "Wien",
-        "url": "https://www.jusjobs.at/job/2023661",
-        "salary": "€ 3.404",
+        "url": "https://www.jusjobs.at/job/1979851",
+        "salary": "€ 4.063",
         "employment_type": "Praktikum",
-        "snippet": "Teilzeit‑Position (20h) als wissenschaftliche/r Mitarbeiter/in Tax Management in Wien mit Fokus auf (Umsatz‑)Steuerrecht, Digitalisierung (ViDA, DRR, E‑Invoicing) und Tax…",
-        "first_seen": "2026-09-02T11:29:27.426978Z",
-        "fingerprint": "656857caa4d95371ad774de81524670b236ce52b4522c5fd26a5c6a521087c83"
+        "snippet": "Junior Product Owner für Anwendungen im Umfeld der österreichischen Justiz mit Schwerpunkt Konzeption, Analyse und agile Weiterentwicklung von Justiz 3.0 Anwendungen.",
+        "first_seen": "2026-08-20T11:01:03.062870Z",
+        "fingerprint": "29fbbfb8fe1c661f8576aa041dcfa4b35fe5143ff1f0c097abeaa0ea2470096d"
       },
       {
         "id": "jusjobs:1979873",
@@ -74,17 +74,17 @@
         "fingerprint": "a1e1992aabbde6382754f2983d6baa057ae4e14458f1fb73bf7f17715ea724ad"
       },
       {
-        "id": "jusjobs:1979851",
+        "id": "jusjobs:2023661",
         "source": "jusjobs",
-        "title": "Junior Product Owner (w/m/d) Justiz 3.0",
-        "company": "Bundesrechenzentrum GmbH",
+        "title": "Wissenschaftliche*r Mitarbeiter*in - Tax Management",
+        "company": "Hochschule für Angewandte Wissenschaften Campus Wien",
         "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1979851",
-        "salary": "€ 4.063",
-        "employment_type": "Vollzeit",
-        "snippet": "Junior Product Owner für Anwendungen im Umfeld der österreichischen Justiz mit Schwerpunkt Konzeption, Analyse und agile Weiterentwicklung von Justiz 3.0 Anwendungen.",
-        "first_seen": "2026-08-20T11:01:03.062870Z",
-        "fingerprint": "5cf1733bea50b5b2bfccf569936868f74577b523fa968a3b9db113d2f014e0ed"
+        "url": "https://www.jusjobs.at/job/2023661",
+        "salary": "€ 3.404",
+        "employment_type": "Teilzeit",
+        "snippet": "Teilzeit‑Position (20h) als wissenschaftliche/r Mitarbeiter/in Tax Management in Wien mit Fokus auf (Umsatz‑)Steuerrecht, Digitalisierung (ViDA, DRR, E‑Invoicing) und Tax…",
+        "first_seen": "2026-09-02T11:29:27.426978Z",
+        "fingerprint": "44a8e64c2ccf7f23991e2ba0bc15d0d312b5234f6b798e77b0c0e61037e35d03"
       },
       {
         "id": "jusjobs:1976115",
@@ -332,6 +332,18 @@
         "fingerprint": "d0e003d59e38b79a0f188d61d99c56a3fa677bc1d2eaaeb46712935ce9ff7275"
       },
       {
+        "id": "uniqa:a05dd3e6998adebb",
+        "source": "uniqa",
+        "title": "Jurist:in Compliance",
+        "company": "UNIQA",
+        "location": "Wien, AT",
+        "url": "https://careers.uniqagroup.com/job/Wien-Juristin-Compliance/1412519833/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+        "published_at": "Tue, 07 Jul 2026 0:00:00 GMT",
+        "snippet": "Competencies: Handlungsorientiert; Arbeitet mit anderen zusammen; Effektive Lösungen finden; Verantwortungsbewusst handeln Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein besseres Leben. Wir nutzen unsere individuellen Fähigkeiten, um zusammen eine bessere Zukunft zu gestalten. Erzähle uns von deinen Stärken und bewirb dich als Jurist:in Compliance Das erwartet dich: Policy-Management innerhalb der UNIQA Group Erstellen und laufende Aktualisierung von Compliance-Regelwerken Selbständiges Konzipieren und Abhalten von Compliance Schulungen Planung, Durchführung und Nachbearbeitung von Compliance Prüfu",
+        "first_seen": "2026-09-03T11:41:05.056443Z",
+        "fingerprint": "335705cdae5e12440d98d4a8acfe5a7accb5c519a34048ff2cf0804345b835a0"
+      },
+      {
         "id": "lawfinder:cmszy33wi000004kw0vpkonj7",
         "source": "lawfinder",
         "title": "Interessent:innensuche- Zwei Teamassistent:innen bei der WKStA",
@@ -492,20 +504,6 @@
         "fingerprint": "35dd05f7bd17a1fc30c4690dae81a55a414c9eae4e567af3dbbc3a8742ec4fa9"
       },
       {
-        "id": "karriere_at:10030275",
-        "source": "karriere_at",
-        "title": "Mitarbeiter:in der Rechtsabteilung",
-        "company": "VBV",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10030275",
-        "salary": "ab 3.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": "Prüfung von Finanzprodukten und Due Diligence, gesellschaftsrechtliche Betreuung von Investments sowie regulatorische Überwachung. Abgeschlossenes Jurastudium und erste Berufserfahrung erforderlich. Weiterbildungsmöglichkeiten und flexible Arbeitszeiten.",
-        "first_seen": "2026-08-20T13:07:36.835374Z",
-        "fingerprint": "6fbb667628a77d4e96632b347d0b039a03ffd29e91fc015963d05e12191a4ff2"
-      },
-      {
         "id": "karriere_at:10029477",
         "source": "karriere_at",
         "title": "Unternehmensjurist:in (m/w/d)",
@@ -520,6 +518,20 @@
         "fingerprint": "ae8a59d1d916a1e46fc5039d77dec4bb9831bb47c40d5cc6d56663d90815c22d"
       },
       {
+        "id": "karriere_at:10030275",
+        "source": "karriere_at",
+        "title": "Mitarbeiter:in der Rechtsabteilung",
+        "company": "VBV",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10030275",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": "Prüfung von Finanzprodukten und Due Diligence, gesellschaftsrechtliche Betreuung von Investments sowie regulatorische Überwachung. Abgeschlossenes Jurastudium und erste Berufserfahrung erforderlich. Weiterbildungsmöglichkeiten und flexible Arbeitszeiten.",
+        "first_seen": "2026-08-20T13:07:36.835374Z",
+        "fingerprint": "6fbb667628a77d4e96632b347d0b039a03ffd29e91fc015963d05e12191a4ff2"
+      },
+      {
         "id": "karriere_at:10028263",
         "source": "karriere_at",
         "title": "Wirtschaftsakademiker:in/ Jurist:in – Unternehmensrecht & Rechnungslegung (m/w/d)",
@@ -532,6 +544,20 @@
         "snippet": "Aufbereitung aktueller Themen im Unternehmensrecht, Rechnungslegung und Abschlussprüfung. Organisation von Arbeitsgruppen, Mitwirkung an Stellungnahmen. Studium im Bereich Wirtschaftsrecht oder BWL mit Schwerpunkt Accounting/Tax erforderlich. Zusammenarbeit mit Expert:innen.",
         "first_seen": "2026-08-19T14:01:53.765722Z",
         "fingerprint": "cfd97053ec7217ba3521b1a519045dc811d559db5cbad7ed3da7e01d693e1da8"
+      },
+      {
+        "id": "karriere_at:10031774",
+        "source": "karriere_at",
+        "title": "Junior Legal Counsel (m/w/d)",
+        "company": "Kontron AG",
+        "location": "Wien 12. Bezirk (Meidling)",
+        "url": "https://www.karriere.at/jobs/10031774",
+        "salary": "ab 35.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Beratung in Zivil-, Vertrags-, Wirtschafts- und Gesellschaftsrecht. Unterstützung bei der Administration des Compliance Management Systems. Durchführung von KYC-Checks. Verhandlungssichere Deutsch- und sehr gute Englischkenntnisse. Flexible Arbeitszeiten und Home-Office.",
+        "first_seen": "2026-09-03T11:41:06.512169Z",
+        "fingerprint": "e69a384d54aa29980e7f6ef39a45e0cc093994f0e419be5a49d6207158357c3b"
       },
       {
         "id": "karriere_at:10030525",
@@ -654,10 +680,10 @@
         "url": "https://www.karriere.at/jobs/10031218",
         "salary": "ab 44.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
         "first_seen": "2026-08-31T15:02:20.466416Z",
-        "fingerprint": "5bd0eb59f0198cf9bf33ae1eb755324a7895362f3746f6b045d3b9255214aa2d"
+        "fingerprint": "eeed040dad2cd1ad5694b3674aa0eda494ea46284241fc319f5e253e0d77aa0c"
       },
       {
         "id": "karriere_at:10026561",
@@ -744,20 +770,6 @@
         "fingerprint": "e142a1832e17b5af57f8595c9daf75452abaac0f3696725aab502c698e5f175d"
       },
       {
-        "id": "karriere_at:7844024",
-        "source": "karriere_at",
-        "title": "Corporate legal counsel (all genders)",
-        "company": "CA Immobilien Anlagen AG",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7844024",
-        "salary": "ab 80.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Ihre Aufgaben: Eigenverantwortliche rechtliche Begleitung von Kapitalmarkttransaktionen sowie laufenden kapitalmarktrechtlichen Fragestellungen, Beratung und Unterstützung in sämtlichen Bereichen der...",
-        "first_seen": "2026-07-14T06:30:38.747341Z",
-        "fingerprint": "13f0b441d754258be7c7b9107aacbd5b50e5bd87d160b3aaa2f0b276d6f0eb8f"
-      },
-      {
         "id": "karriere_at:7867615",
         "source": "karriere_at",
         "title": "Legal Counsel (m/w/x)",
@@ -794,10 +806,10 @@
         "url": "https://www.karriere.at/jobs/7866433",
         "salary": "ab 55.881 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabenbereich: In der abwechslungsreichen Aufgabe als Jurist:in der Abteilung Gesundheitsservice der SVS-Hauptstelle betreuen Sie eigenständig Themenbereiche der Krankenversicherung durch die Gestaltung von fachlichen...",
         "first_seen": "2026-08-27T14:36:58.651561Z",
-        "fingerprint": "0d2927273b5f458c0f96379c5423951fc73d4b336e16d6c745409e72e76b91e0"
+        "fingerprint": "43842d951197678061e00a9b388070f3b039fd1dec0ed03f00b3c839b85caeda"
       },
       {
         "id": "karriere_at:7852397",
@@ -826,6 +838,62 @@
         "snippet": "Senior Legal Expert (w/m/d) Industrieunternehmen I Wien Referenz-Nr.: JN -082026-7084760 Ort: Vienna Anstellungsart: Permanent Firmenprofil Unser Kunde ist eine international erfolgreiche...",
         "first_seen": "2026-08-18T14:01:11.184747Z",
         "fingerprint": "fc6f004bf37de2016561cd88b9a1023c2f9e577ca79b03c1ea62c05ba72c2cae"
+      },
+      {
+        "id": "karriere_at:7870492",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter Procurement/Vergaberecht (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7870492",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Make your way to the top. Rechtsanwaltsanwärter Procurement/Vergaberecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply...",
+        "first_seen": "2026-09-03T11:41:06.512169Z",
+        "fingerprint": "530e4c8ce4438508703eafb028961f00f23a9acb56c8addd9f9dd3543c933860"
+      },
+      {
+        "id": "karriere_at:7870489",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter Kartell-/Wettbewerbs-/Beihilferecht (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7870489",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Make your way to the top. Rechtsanwaltsanwärter Kartell-/Wettbewerbs-/Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt...",
+        "first_seen": "2026-09-03T11:41:06.512169Z",
+        "fingerprint": "62431e6f4c6eb85f6ed0eebc590885067fe29add9026eb83010aaa7b7fdea6dd"
+      },
+      {
+        "id": "karriere_at:7870486",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter Disputes (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7870486",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Make your way to the top. Rechtsanwaltsanwärter Disputes (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply Now! Wir suchen...",
+        "first_seen": "2026-09-03T11:41:06.512169Z",
+        "fingerprint": "71e666732ae4ad77ebb6cdc9b74b0bc407e7e8e5a8030aae0385fd33c6bb755e"
+      },
+      {
+        "id": "karriere_at:7870483",
+        "source": "karriere_at",
+        "title": "Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7870483",
+        "salary": null,
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
+        "first_seen": "2026-09-03T11:41:06.512169Z",
+        "fingerprint": "0513b15ceb693d4aa7a93fe83a44af071727f03f97056797ff8154e9472b3fda"
       },
       {
         "id": "karriere_at:7869583",
@@ -878,10 +946,10 @@
         "url": "https://www.karriere.at/jobs/7868527",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Rechtsanwält:in oder Rechtsanwaltsanwärter:in für Datenschutzrecht/ IT all genders Standort(e): Wien ﹟teamKPMGLaw: Persönlichkeiten, die mit Leidenschaft...",
         "first_seen": "2026-09-01T10:17:24.367617Z",
-        "fingerprint": "ae081848a16d3ee07697cf78ae39b18fd4f79b9a31437005d8513dfbf8326de1"
+        "fingerprint": "f2e0e1e1caf7e54ca375bb45702d40a0c6ee8636d6b1a90f33d63aa8b1084b51"
       },
       {
         "id": "karriere_at:7868509",
@@ -892,10 +960,10 @@
         "url": "https://www.karriere.at/jobs/7868509",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Direkter Mandantenkontakt, spannende Projekte und ein Team, das Zusammenarbeit, Eigenverantwortung und Weiterentwicklung großschreibt. Zur Verstärkung unseres Teams suchen wir ab...",
         "first_seen": "2026-09-01T10:17:24.367617Z",
-        "fingerprint": "f1817b08089be04de8b694c7fce22e544b7ac54f2f44c1cc23ab3e3dd1873ff5"
+        "fingerprint": "c91a6baaae39bb0c21795aba9e6b36230766fb5fb0da2807757458d5781cd8c6"
       },
       {
         "id": "karriere_at:7864495",
@@ -1066,6 +1134,20 @@
         "fingerprint": "3117466f02689732dc5b32c311535ee157c30db066b14a5d7dabd75e6ca46e72"
       },
       {
+        "id": "karriere_at:10031733",
+        "source": "karriere_at",
+        "title": "Team Assistent:in ab 30 Stunden",
+        "company": "Pitkowitz Foerster Rechtsanwälte GmbH",
+        "location": "Wien Innenstadt",
+        "url": "https://www.karriere.at/jobs/10031733",
+        "salary": "3.200 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Administrative und organisatorische Unterstützung, Vertragshandling, Honorarnoten und Kostenverzeichnisse erstellen. Kaufmännische Ausbildung, HAK, HAS, AHS oder vergleichbar, erste Erfahrung in Anwaltskanzlei. Homeoffice nach Vereinbarung.",
+        "first_seen": "2026-09-03T11:41:06.512169Z",
+        "fingerprint": "bff1dddc88ec2b790b14f55bf06daeb2ce15f480fb293b12e5af935f40443ba0"
+      },
+      {
         "id": "karriere_at:7663254",
         "source": "karriere_at",
         "title": "(Senior) Manager:in Tax/ Steuerberater:in - International Tax/ Transfer Pricing (m/w/d)",
@@ -1186,10 +1268,10 @@
         "url": "https://www.karriere.at/jobs/7867303",
         "salary": "ab 3.100 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "(Senior) Associate, Konzernsteuerrecht und Umgründungen (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Durchführung juristischer...",
         "first_seen": "2026-08-28T11:17:28.767920Z",
-        "fingerprint": "5051d972263dc524408c41d5b101224e9836a8598f94f3a16e25089f23a75a08"
+        "fingerprint": "a0a91fc07cd29f805ebc0263011f87b83d7900da1d9b854511cc17cac995ad8b"
       },
       {
         "id": "karriere_at:7857572",
@@ -1326,10 +1408,10 @@
         "url": "https://www.karriere.at/jobs/7865707",
         "salary": "ab 60.900 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "26.8.2026",
         "snippet": "Deine Aufgaben: Bei uns im Team: Unterstützung der Projektleitung im Bereich Anti Financial Crime inklusive Übernahme von diversen Aufgaben im Lead innerhalb des Projekts, Unterstützung iZm den AML-Package...",
         "first_seen": "2026-08-26T12:38:27.618142Z",
-        "fingerprint": "dd81b9b376b8c5d494d2ae7d5c900bc684bef0079c3abb451663cf0386a1029a"
+        "fingerprint": "470ae3e1cebe8e23e52a11ea498d51dfb4f642b1c8488fd69cc29d553787fce0"
       },
       {
         "id": "karriere_at:7860775",
@@ -1443,11 +1525,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Dispute-Resolution-Litigation-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--929613-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-01T00:48:26+02:00",
+        "published_at": "2026-09-01T00:04:19+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "15770cffdbdd10b2308db8bf88a845aff9618e7a612d079035bf20feb853203b"
+        "fingerprint": "2cfe7143e273be1e3726336f54bcc68b116794b44160956dadb3fb622571ea88"
       },
       {
         "id": "stepstone:976441",
@@ -1458,11 +1540,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-08-28T00:42:40+02:00",
+        "published_at": "2026-08-28T00:08:27+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "5870746ecf78453b6c842e4653a89cdba1a3a02a4a717adfb202e3a115c71213"
+        "fingerprint": "bf70ffc02602d48455d9d249b8a9bf79a550f66557a6acc42829787a03bb3daf"
       },
       {
         "id": "stepstone:934778",
@@ -1473,26 +1555,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Corporate-Restructuring-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934778-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-02T00:09:07+02:00",
+        "published_at": "2026-09-02T00:55:59+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "7156390bd0afd293c141d7112065716de16dafa49f65cfc67cf0ef063b2c298a"
-      },
-      {
-        "id": "stepstone:945281",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Real Estate Transactions (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Real-Estate-Transactions-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--945281-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-09-02T00:25:49+02:00",
-        "department": "Home Office",
-        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run",
-        "first_seen": "2026-07-04T08:13:32.144750Z",
-        "fingerprint": "e8801550611626446fddfb37d58017d897af09d4d83fc60fe2308c8faa9a2b92"
+        "fingerprint": "fa0bc323bf246524fdb301c9cba8d7f1173d381d57460fc975f4baac34ec38fb"
       },
       {
         "id": "stepstone:934776",
@@ -1503,11 +1570,26 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Restrukturierung-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934776-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-02T00:10:54+02:00",
+        "published_at": "2026-09-02T00:54:02+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "cdf58b7c52648079163f62b930172713a629089f6134097cf403cc5560aed20e"
+        "fingerprint": "62642c0dae12f924760d01c8e7bb9fb8cab3319972d21718206f0015bac705c0"
+      },
+      {
+        "id": "stepstone:945281",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Real Estate Transactions (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Real-Estate-Transactions-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--945281-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-09-02T00:36:18+02:00",
+        "department": "Home Office",
+        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run",
+        "first_seen": "2026-07-04T08:13:32.144750Z",
+        "fingerprint": "9da13a2d07aecd00ae9e977e68bd44d4663648e3adc2e9c36e16c73708aa6d08"
       },
       {
         "id": "stepstone:1000149",
@@ -1533,11 +1615,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Zivilrecht-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--981820-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-08-31T00:16:21+02:00",
+        "published_at": "2026-08-31T00:28:03+02:00",
         "department": null,
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "6bab7624d0037cbed6d0da311e36fd500e75201c67815f43f2953753241859ec"
+        "fingerprint": "b2832eb58b998849b6b1b142f031066efa01c3f0be27fb94eb769ab79ca895a0"
       },
       {
         "id": "stepstone:982028",
@@ -1713,11 +1795,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Anwaltsassistent-in-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947468-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-08-29T00:22:45+02:00",
+        "published_at": "2026-08-29T00:54:49+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "1a8a7efc672c7419dbe9682604d5badf4c909fda015137676094f94fe38a0266"
+        "fingerprint": "931a3d5244de5286e4062e45d317ddf102ec030b7a2ceea6f957883af612ddaa"
       },
       {
         "id": "stepstone:1000490",
@@ -1728,11 +1810,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Head-of-IT-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--1000490-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-02T00:08:44+02:00",
+        "published_at": "2026-09-02T04:50:26+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mi",
         "first_seen": "2026-09-02T11:29:43.350159Z",
-        "fingerprint": "f15fb8ed5196e111284cc05c863e514fa71b688c0768c7fa718d76f6c13d9af1"
+        "fingerprint": "c79008e15eed0a759f05427d6c0fe849bc8b1989e07a1fac2427f50244f163e4"
       },
       {
         "id": "stepstone:998065",
@@ -1906,6 +1988,8 @@
       "karriere_at:10030949",
       "karriere_at:10031128",
       "karriere_at:10031218",
+      "karriere_at:10031733",
+      "karriere_at:10031774",
       "karriere_at:7663251",
       "karriere_at:7663254",
       "karriere_at:7663257",
@@ -2012,6 +2096,10 @@
       "karriere_at:7868509",
       "karriere_at:7868527",
       "karriere_at:7869583",
+      "karriere_at:7870483",
+      "karriere_at:7870486",
+      "karriere_at:7870489",
+      "karriere_at:7870492",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
