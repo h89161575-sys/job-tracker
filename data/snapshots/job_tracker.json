@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-07T06:12:12.665868Z",
+  "timestamp": "2026-09-07T12:47:13.767870Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-09-07T06:12:12.665868Z",
+        "last_success": "2026-09-07T12:47:13.767870Z",
         "last_error": null,
-        "count": 18
+        "count": 19
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-09-07T06:12:12.665868Z",
+        "last_success": "2026-09-07T12:47:13.767870Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-09-07T06:12:12.665868Z",
+        "last_success": "2026-09-07T12:47:13.767870Z",
         "last_error": null,
         "count": 3
       },
@@ -29,19 +29,19 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-09-07T06:12:12.665868Z",
+        "last_success": "2026-09-07T12:47:13.767870Z",
         "last_error": null,
-        "count": 5
+        "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-09-07T06:12:12.665868Z",
+        "last_success": "2026-09-07T12:47:13.767870Z",
         "last_error": null,
-        "count": 72
+        "count": 73
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-09-07T06:12:12.665868Z",
+        "last_success": "2026-09-07T12:47:13.767870Z",
         "last_error": null,
         "count": 30
       }
@@ -124,6 +124,19 @@
         "snippet": "Die Wien Holding GmbH sucht eine*n Jurist*in (m/w/d) in Vollzeit am Standort Universitätsstraße 11, 1010 Wien. Schwerpunkt sind rechtliche Beratung, Vergabeverfahren, Verträge und…",
         "first_seen": "2026-08-06T10:15:37.840805Z",
         "fingerprint": "ddd05057f84bcfea28cd4273cb8b2e8c7276e702122d8d8e396f425e103ba4e6"
+      },
+      {
+        "id": "jusjobs:2043725",
+        "source": "jusjobs",
+        "title": "Wissenschaftliche Mitarbeiter:innen",
+        "company": "Verwaltungsgerichtshof Wien",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/2043725",
+        "salary": "€ 3.838",
+        "employment_type": "Vollzeit",
+        "snippet": "Wissenschaftliche Mitarbeit beim Verwaltungsgerichtshof in Wien mit Schwerpunkt Entscheidungsentwürfe, Judikaturdokumentation und Rechtsauskünfte.",
+        "first_seen": "2026-09-07T12:47:13.768264Z",
+        "fingerprint": "4b95fb559147c87060d9e2f698253d8c4570b66d4af4b1ea9fa6391a504f2f14"
       },
       {
         "id": "jusjobs:2035235",
@@ -263,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1235995",
         "salary": "€ 3.000",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Aufgaben ▪ Projektbezogene Einbindung in unsere spannenden Mandate ▪ Umfassende juristische Unterstützung unserer Rechtsanwält*innen ▪ Nach einer Einarbeitungsphase…",
         "first_seen": "2026-09-01T00:08:24.876920Z",
-        "fingerprint": "605ac7bdec378a7677b2c9e0fe35c16ce1221091386bdf09dd871c262dbd07ac"
+        "fingerprint": "4477386fd9077ea07948e3fdfd6bfd8511f1e2a33a961b2052f310878d6597dd"
       },
       {
         "id": "jusjobs:1842991",
@@ -276,10 +289,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1842991",
         "salary": "€ 3.273",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Juristische Vollzeitstelle bei der NÖVOG in Wien mit Schwerpunkt Vergaberecht, Vertragsrecht und Unternehmensbetreuung.",
         "first_seen": "2026-09-01T00:08:24.876920Z",
-        "fingerprint": "38164445f06287b74d7786c9ca3c915c5984c978b59a048238d55b9320d6cb85"
+        "fingerprint": "e102d95360cbd0a61309fbd527ebf8566987e5d0608e7efcd79d7ba5f3d277cd"
       },
       {
         "id": "erste_bank:33950",
@@ -477,16 +490,6 @@
         "fingerprint": "4c98ef107b2665c916a4a049376b4328ffef088a3bb3d736294139fae2825149"
       },
       {
-        "id": "derstandard:6a05a551-9465-31c4-b400-9381281e82ca",
-        "source": "derstandard",
-        "title": "Ermittler:in (all genders) Marktmissbrauchsaufsicht Crypto Assets",
-        "company": "Finanzmarktaufsicht (FMA)",
-        "location": "Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/6a05a551-9465-31c4-b400-9381281e82ca",
-        "first_seen": "2026-09-04T06:09:06.729804Z",
-        "fingerprint": "f6ca9930fce96220dabda3e5837731753435a198eb36d37809e7a346a160ba72"
-      },
-      {
         "id": "derstandard:493881e6-0fb9-314e-8516-5e773697b397",
         "source": "derstandard",
         "title": "Manager:in Tax/ Steuerberater:in (m/w/d)",
@@ -595,10 +598,10 @@
         "url": "https://www.karriere.at/jobs/10031913",
         "salary": "3.600 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Aufbereitung und Analyse von Verträgen, Erstellung von Schriftsätzen und Rechtsgutachten. Sehr gute Deutsch- und Englischkenntnisse erforderlich. Direkter Mandantenkontakt.",
         "first_seen": "2026-09-04T11:29:22.602912Z",
-        "fingerprint": "af411be0964445d26bc74da6ae3f3878f6bef5c58772eabde3f641b82527432e"
+        "fingerprint": "b16f15c69944db852f289622cb784a6c32c8259fe3cc483fc2f4815bb71a2ac9"
       },
       {
         "id": "karriere_at:10030275",
@@ -637,10 +640,10 @@
         "url": "https://www.karriere.at/jobs/10031774",
         "salary": "ab 35.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Beratung in Zivil-, Vertrags-, Wirtschafts- und Gesellschaftsrecht. Unterstützung bei der Administration des Compliance Management Systems. Durchführung von KYC-Checks. Verhandlungssichere Deutsch- und sehr gute Englischkenntnisse. Flexible Arbeitszeiten und Home-Office.",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "ecb20e07a4c1963a98d9fb69ee381b32ff348d92bd7f70fa0838606c2f9c7d14"
+        "fingerprint": "5e017cbd2b27bdec6c5270857f5fae012c43306ccb637ded3ff77147ea95a034"
       },
       {
         "id": "karriere_at:10030525",
@@ -763,10 +766,10 @@
         "url": "https://www.karriere.at/jobs/10031218",
         "salary": "ab 44.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
         "first_seen": "2026-08-31T15:02:20.466416Z",
-        "fingerprint": "62b5dc5777b149f95e26e575f856028dd389af954347c9ca8d4ec872300e89ca"
+        "fingerprint": "2a137dad34cf31cad018b37a81e1237f26c4d2d57e6d4b51041f5f06b37f51d0"
       },
       {
         "id": "karriere_at:10026561",
@@ -923,6 +926,20 @@
         "fingerprint": "43030e2c441137a249d9f1390bfc8159bc038d11cc85a8dfe3f9ee8b95b83791"
       },
       {
+        "id": "karriere_at:7871470",
+        "source": "karriere_at",
+        "title": "Jurist:in mit Schwerpunkt \"Auslagerungs-, Drittparteien- und Vertragsmanagement\" (w/m/d)",
+        "company": "Raiffeisen Niederösterreich-Wien",
+        "location": "1020 Wien",
+        "url": "https://www.karriere.at/jobs/7871470",
+        "salary": "ab 4.285,71 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Jurist:in mit Schwerpunkt \"Auslagerungs-, Drittparteien- und Vertragsmanagement\" (w/m/d) Bereich \"Recht\" 1020 Wien, Anstellungsart: Vollzeit Sie möchten Ihre Fachkompetenz in einem...",
+        "first_seen": "2026-09-07T12:47:23.253175Z",
+        "fingerprint": "c504216daa365454ee0554df6e2ad7b99025b67f61baacefa5eb0a7709e062ba"
+      },
+      {
         "id": "karriere_at:7850675",
         "source": "karriere_at",
         "title": "Senior Rechtsanwaltsanwärter:in|Anwält:in im Bereich Öffentliches Wirtschaftsrecht mit Schwerpunkt Umweltrecht & Klimaschutz (m|f|x)",
@@ -1001,10 +1018,10 @@
         "url": "https://www.karriere.at/jobs/7870492",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Make your way to the top. Rechtsanwaltsanwärter Procurement/Vergaberecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "b7678cd9eb8a8d3376e59294ae75e18af7760c1c97c5da7cb966a963f53d0ca4"
+        "fingerprint": "3c49aee0ac9b544331507fe2a57ec57b027efa1f80d2515ac83a138854f11c52"
       },
       {
         "id": "karriere_at:7870489",
@@ -1015,10 +1032,10 @@
         "url": "https://www.karriere.at/jobs/7870489",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Make your way to the top. Rechtsanwaltsanwärter Kartell-/Wettbewerbs-/Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "86b5be7c83a574d4d10e09fd694717e2f78f5755b1f1b61d1dfd96ba4c8a1e42"
+        "fingerprint": "b0ec4f627b07279a0a97d163030943f13e5bf05728e136df5027862e96860eaa"
       },
       {
         "id": "karriere_at:7870486",
@@ -1029,10 +1046,10 @@
         "url": "https://www.karriere.at/jobs/7870486",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Make your way to the top. Rechtsanwaltsanwärter Disputes (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply Now! Wir suchen...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "2bb61b2a67659a4ee53429b5c8482faef4b04a3f07c7b72e8532baf1961ca874"
+        "fingerprint": "a09037eb8ed96b793906ea64ae477b5f1c5157ac9d45800b3ad43b749efff23d"
       },
       {
         "id": "karriere_at:7870483",
@@ -1043,10 +1060,10 @@
         "url": "https://www.karriere.at/jobs/7870483",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "905fab1bfda0ef486041885eb4eedb47bcc12556f539c6846e6e43d4ea972d53"
+        "fingerprint": "51f293063bf02c2a811c54f6be0e105ac162818bb2536522ab0e189984ffa7ad"
       },
       {
         "id": "karriere_at:7869583",
@@ -1057,10 +1074,10 @@
         "url": "https://www.karriere.at/jobs/7869583",
         "salary": "ab 4.628,49 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Juristin (w/m/d) Arbeitsrecht, Arbeitszeitrecht und betriebsverfassungsrechtliches Arbeitsrecht Teil- oder Vollzeit (30-37,5 Stunden/Woche) Jetzt bewerben Ob im Fahrdienst, in den Werkstätten...",
         "first_seen": "2026-09-02T11:29:35.915194Z",
-        "fingerprint": "e030793a29aeacc1d1d34d1a3848a44159f83432055f8891190934b3c0d5f420"
+        "fingerprint": "263cf16ab1a8e068f4056fd2a62a7cda74e2ef0a3c4d1d80d64bc2e89411e6ab"
       },
       {
         "id": "karriere_at:7858520",
@@ -1099,10 +1116,10 @@
         "url": "https://www.karriere.at/jobs/7868527",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Rechtsanwält:in oder Rechtsanwaltsanwärter:in für Datenschutzrecht/ IT all genders Standort(e): Wien ﹟teamKPMGLaw: Persönlichkeiten, die mit Leidenschaft...",
         "first_seen": "2026-09-01T10:17:24.367617Z",
-        "fingerprint": "4689087a4a562a7ef73f7d04c4db44399d4ca2e64eb444c1c68606f3ba34b699"
+        "fingerprint": "a5b0f1fa456328033f1d266a687372d4fae794e2992fe64e96a66735c4851c61"
       },
       {
         "id": "karriere_at:7868509",
@@ -1113,10 +1130,10 @@
         "url": "https://www.karriere.at/jobs/7868509",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Direkter Mandantenkontakt, spannende Projekte und ein Team, das Zusammenarbeit, Eigenverantwortung und Weiterentwicklung großschreibt. Zur Verstärkung unseres Teams suchen wir ab...",
         "first_seen": "2026-09-01T10:17:24.367617Z",
-        "fingerprint": "9fd4a9c8263db6faf9227fa7d453c20ef80f12aeefe99b19c9f7356477ac2ce8"
+        "fingerprint": "29c2a0e213be1692bd2d042848196fdbc25e3ada062a81fe48c081bfd19bfd92"
       },
       {
         "id": "karriere_at:7864495",
@@ -1393,10 +1410,10 @@
         "url": "https://www.karriere.at/jobs/10031733",
         "salary": "3.200 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Administrative und organisatorische Unterstützung, Vertragshandling, Honorarnoten und Kostenverzeichnisse erstellen. Kaufmännische Ausbildung, HAK, HAS, AHS oder vergleichbar, erste Erfahrung in Anwaltskanzlei. Homeoffice nach Vereinbarung.",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "e878c48dc9b8665139994e76e8e90912170e6f2f7d30b8473c0fe1d7c3edef62"
+        "fingerprint": "a0532642a50fa07a0807e94a989caf7918a840a68c3be5ca7dc078f5254143b2"
       },
       {
         "id": "karriere_at:7663254",
@@ -1587,6 +1604,21 @@
         "fingerprint": "5b10523ac526ee593d35b938c9fcfd9ea78480f1b1592e0ed080b8ac1b4d37f4"
       },
       {
+        "id": "stepstone:982028",
+        "source": "stepstone",
+        "title": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-w-m-d-mit-gesellschaftsrechtlicher-Expertise-Wien-l-m-executive-search-consulting-gmbh--982028-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-09-07T09:02:05+02:00",
+        "department": "Home Office",
+        "snippet": "lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech",
+        "first_seen": "2026-06-30T20:54:00.747169Z",
+        "fingerprint": "06e884e82066999c75d11d2b7ebfd4be59b852ee8bf87db56cc35a15b59911d4"
+      },
+      {
         "id": "stepstone:996409",
         "source": "stepstone",
         "title": "Rechtsanwaltsanwärter/-in",
@@ -1690,21 +1722,6 @@
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
         "fingerprint": "6fe7bb7f10442d00ff9b8faf108da1a6cb296181a0e7c27065d92be06f3b99ee"
-      },
-      {
-        "id": "stepstone:982028",
-        "source": "stepstone",
-        "title": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-w-m-d-mit-gesellschaftsrechtlicher-Expertise-Wien-l-m-executive-search-consulting-gmbh--982028-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-08-31T09:02:03+02:00",
-        "department": "Home Office",
-        "snippet": "lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "b62140066af63c00a7d6c61da20a084a7f9e7c8a679cc6cb0ff44df182810677"
       },
       {
         "id": "stepstone:995373",
@@ -2019,6 +2036,7 @@
       "jusjobs:2026447",
       "jusjobs:2028657",
       "jusjobs:2035235",
+      "jusjobs:2043725",
       "jusjobs:432457",
       "jusjobs:712767",
       "jusjobs:970720",
@@ -2163,6 +2181,7 @@
       "karriere_at:7870489",
       "karriere_at:7870492",
       "karriere_at:7870900",
+      "karriere_at:7871470",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
