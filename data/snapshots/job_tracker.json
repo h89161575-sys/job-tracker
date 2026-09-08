@@ -1,47 +1,47 @@
 {
-  "timestamp": "2026-09-08T06:30:51.565023Z",
+  "timestamp": "2026-09-08T11:42:59.945600Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-09-08T06:30:51.565023Z",
+        "last_success": "2026-09-08T11:42:59.945600Z",
         "last_error": null,
         "count": 21
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-09-08T06:30:51.565023Z",
+        "last_success": "2026-09-08T11:42:59.945600Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-09-08T01:29:30.384509Z",
-        "last_error": "UNIQA RSS error: URL error: timed out",
+        "last_success": "2026-09-08T11:42:59.945600Z",
+        "last_error": null,
         "count": 3
       },
       "lawfinder": {
         "label": "LawFinder",
         "last_success": "2026-08-26T16:03:34.510268Z",
-        "last_error": "LawFinder found 38 Next.js flight chunk(s) but no parseable job list",
+        "last_error": "LawFinder found 39 Next.js flight chunk(s) but no parseable job list",
         "count": 11
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-09-08T06:30:51.565023Z",
+        "last_success": "2026-09-08T11:42:59.945600Z",
         "last_error": null,
         "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-09-08T06:30:51.565023Z",
+        "last_success": "2026-09-08T11:42:59.945600Z",
         "last_error": null,
-        "count": 71
+        "count": 72
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-09-08T06:30:51.565023Z",
+        "last_success": "2026-09-08T11:42:59.945600Z",
         "last_error": null,
         "count": 30
       }
@@ -584,20 +584,6 @@
         "fingerprint": "eac863b84b21c0e94865e204586db1ea3dda5a2136977e83615f0665a91136ec"
       },
       {
-        "id": "karriere_at:10031128",
-        "source": "karriere_at",
-        "title": "Jurist:in Vergabe- und Vertragsrecht w/m/d",
-        "company": "GeoSphere Austria - Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie",
-        "location": "Wien 19. Bezirk (Döbling)",
-        "url": "https://www.karriere.at/jobs/10031128",
-        "salary": "ab 59.255 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Rechtliche Begleitung von Vergabeverfahren, Prüfung und Verhandlung von Verträgen sowie Beratung in vergabe- und vertragsrechtlichen Fragestellungen. Mindestens 3 Jahre Berufserfahrung im Vergabe- und Vertragsrecht erforderlich. Flexible Arbeitszeitgestaltung und Homeoffice-Möglichkeiten werden geboten.",
-        "first_seen": "2026-08-28T21:27:38.197292Z",
-        "fingerprint": "739782b7ce95c22a605cd7c60f35593b31fda143242b98eff94d3905ce07549c"
-      },
-      {
         "id": "karriere_at:10029897",
         "source": "karriere_at",
         "title": "Legal Counsel (w/m/d)",
@@ -626,6 +612,132 @@
         "fingerprint": "ebe2128977526a6cc356101624d31157d929b466f42bb0247049ede0b64bd815"
       },
       {
+        "id": "karriere_at:10030275",
+        "source": "karriere_at",
+        "title": "Mitarbeiter:in der Rechtsabteilung",
+        "company": "VBV",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10030275",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 4 Tagen veröffentlicht",
+        "snippet": "Prüfung von Finanzprodukten und Due Diligence, gesellschaftsrechtliche Betreuung von Investments sowie regulatorische Überwachung. Abgeschlossenes Jurastudium und erste Berufserfahrung erforderlich. Weiterbildungsmöglichkeiten und flexible Arbeitszeiten.",
+        "first_seen": "2026-08-20T13:07:36.835374Z",
+        "fingerprint": "1256520da744eaae71e3cea6490f9cfe0c313abd2afffe4dc5e9efe969910c80"
+      },
+      {
+        "id": "karriere_at:10031774",
+        "source": "karriere_at",
+        "title": "Junior Legal Counsel (m/w/d)",
+        "company": "Kontron AG",
+        "location": "Wien 12. Bezirk (Meidling)",
+        "url": "https://www.karriere.at/jobs/10031774",
+        "salary": "ab 35.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Beratung in Zivil-, Vertrags-, Wirtschafts- und Gesellschaftsrecht. Unterstützung bei der Administration des Compliance Management Systems. Durchführung von KYC-Checks. Verhandlungssichere Deutsch- und sehr gute Englischkenntnisse. Flexible Arbeitszeiten und Home-Office.",
+        "first_seen": "2026-09-03T11:41:06.512169Z",
+        "fingerprint": "7422fc3fe1ebcd167447e1684eed5a5f6b1432f04c7d0479cb51898d1b083ac9"
+      },
+      {
+        "id": "karriere_at:10030525",
+        "source": "karriere_at",
+        "title": "Junior Legal Specialist (m/w/d)",
+        "company": "ATP Planungs- und Beteiligungs AG",
+        "location": "Wien 3. Bezirk (Landstraße)",
+        "url": "https://www.karriere.at/jobs/10030525",
+        "salary": "ab 3.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Unterstützung bei Vertragsprüfung und rechtlicher Beratung im Bau-, Planungs- und Projektumfeld. Recherche im Werkvertragsrecht und Vergaberecht. Sehr gute Deutsch- und Englischkenntnisse erforderlich. Frühe Eigenverantwortung und Weiterentwicklungsperspektive.",
+        "first_seen": "2026-08-24T09:27:45.271039Z",
+        "fingerprint": "5c76343fc2b527d9377e7e93011804410448812dcbe08964a72f86e5c4017763"
+      },
+      {
+        "id": "karriere_at:10026661",
+        "source": "karriere_at",
+        "title": "Legal Manager (m/w/d)",
+        "company": "Arbeitgeber verdeckt",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10026661",
+        "salary": "ab 70.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Rechtliche Betreuung von Planungsgesellschaften in Österreich, Prüfung und Gestaltung von Gesamtplanungs-, Planungs- und Projektverträgen. Praktische Erfahrung in der Vertragsgestaltung im Bau- und Planungsumfeld. Flexible Arbeitszeiten und Home-Office.",
+        "first_seen": "2026-07-16T11:20:32.476615Z",
+        "fingerprint": "e1907462c8aa2e16a1a22cd4fbda34ebc5428d538e8652957f9add5105d299e8"
+      },
+      {
+        "id": "karriere_at:10031218",
+        "source": "karriere_at",
+        "title": "Senior Legal Assistant (m/f/d)",
+        "company": "Valneva Austria GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10031218",
+        "salary": "ab 44.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "31.8.2026",
+        "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
+        "first_seen": "2026-08-31T15:02:20.466416Z",
+        "fingerprint": "3778e5bc7a3a29eb99f6ff6eeee97ad97d32ec2390c346ac078191bd5d3c73f2"
+      },
+      {
+        "id": "karriere_at:10026561",
+        "source": "karriere_at",
+        "title": "Legal Officer (w/m/d)",
+        "company": "Bechtle Austria GmbH",
+        "location": "Traun, Wien, Wiener Neudorf",
+        "url": "https://www.karriere.at/jobs/10026561",
+        "salary": "ab 70.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "31.8.2026",
+        "snippet": "Beratung der Geschäftsführung in rechtlichen Fragestellungen, Vertragsprüfung und -verhandlung. Studium der Rechtswissenschaften ist erforderlich. Flexible Arbeitszeiten und Home Office sind ein Vorteil.",
+        "first_seen": "2026-07-16T07:06:38.089637Z",
+        "fingerprint": "486b6afde8449c0cbc592acf29a59596caadfa1bab2783d92faa71de0b34abe1"
+      },
+      {
+        "id": "karriere_at:10032173",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) Immobilienrecht",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10032173",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Erstellung von Verträgen, Gutachten und Schriftsätzen im Immobilienrecht. Sehr gute Englischkenntnisse sind erforderlich. Bietet breiten Tätigkeitsbereich in internationalem Umfeld mit komplexen Aufgabenstellungen.",
+        "first_seen": "2026-09-08T11:43:08.137305Z",
+        "fingerprint": "619cfd2ceb9cbb364ae784c24e31609e8e7ddd9677239ca8178a27c73ef77b7d"
+      },
+      {
+        "id": "karriere_at:10032139",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d)",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10032139",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Rechtsberatung nationaler/internationaler Mandanten, Start-ups, Investoren, Private Clients, Stiftungen, M&A, Corporate Clients. Gesellschaftsrecht, Umgründungsrecht. Voraussetzung: Rechtsanwaltsprüfung, exzellente Englischkenntnisse. Attraktive Entwicklungsmöglichkeiten.",
+        "first_seen": "2026-09-08T11:43:08.137305Z",
+        "fingerprint": "81f63b5699a1d394a1a39aa00b9b47c01cd1ae1ce1ad50ba45d4a2d914e85508"
+      },
+      {
+        "id": "karriere_at:10031128",
+        "source": "karriere_at",
+        "title": "Jurist:in Vergabe- und Vertragsrecht w/m/d",
+        "company": "GeoSphere Austria - Bundesanstalt für Geologie, Geophysik, Klimatologie und Meteorologie",
+        "location": "Wien 19. Bezirk (Döbling)",
+        "url": "https://www.karriere.at/jobs/10031128",
+        "salary": "ab 59.255 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Gestern veröffentlicht",
+        "snippet": "Rechtliche Begleitung von Vergabeverfahren, Prüfung und Verhandlung von Verträgen sowie Beratung in vergabe- und vertragsrechtlichen Fragestellungen. Mindestens 3 Jahre Berufserfahrung im Vergabe- und Vertragsrecht erforderlich. Flexible Arbeitszeitgestaltung und Homeoffice-Möglichkeiten werden geboten.",
+        "first_seen": "2026-08-28T21:27:38.197292Z",
+        "fingerprint": "739782b7ce95c22a605cd7c60f35593b31fda143242b98eff94d3905ce07549c"
+      },
+      {
         "id": "karriere_at:10028134",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter:in im Bereich Bank- und Kapitalmarktrecht (w/m/d)",
@@ -648,24 +760,10 @@
         "url": "https://www.karriere.at/jobs/10031913",
         "salary": "3.600 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Aufbereitung und Analyse von Verträgen, Erstellung von Schriftsätzen und Rechtsgutachten. Sehr gute Deutsch- und Englischkenntnisse erforderlich. Direkter Mandantenkontakt.",
         "first_seen": "2026-09-04T11:29:22.602912Z",
-        "fingerprint": "b16f15c69944db852f289622cb784a6c32c8259fe3cc483fc2f4815bb71a2ac9"
-      },
-      {
-        "id": "karriere_at:10030275",
-        "source": "karriere_at",
-        "title": "Mitarbeiter:in der Rechtsabteilung",
-        "company": "VBV",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10030275",
-        "salary": "ab 3.800 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Prüfung von Finanzprodukten und Due Diligence, gesellschaftsrechtliche Betreuung von Investments sowie regulatorische Überwachung. Abgeschlossenes Jurastudium und erste Berufserfahrung erforderlich. Weiterbildungsmöglichkeiten und flexible Arbeitszeiten.",
-        "first_seen": "2026-08-20T13:07:36.835374Z",
-        "fingerprint": "1256520da744eaae71e3cea6490f9cfe0c313abd2afffe4dc5e9efe969910c80"
+        "fingerprint": "5f658e8bb22ee410c3cb2fe5437f900d020bfda0864812764d808a84126dc08b"
       },
       {
         "id": "karriere_at:10029477",
@@ -682,34 +780,6 @@
         "fingerprint": "e9ee60b52d576aab556e2df42580c28acbce2b947fe3f7cf0b06048008bb9d8e"
       },
       {
-        "id": "karriere_at:10031774",
-        "source": "karriere_at",
-        "title": "Junior Legal Counsel (m/w/d)",
-        "company": "Kontron AG",
-        "location": "Wien 12. Bezirk (Meidling)",
-        "url": "https://www.karriere.at/jobs/10031774",
-        "salary": "ab 35.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Beratung in Zivil-, Vertrags-, Wirtschafts- und Gesellschaftsrecht. Unterstützung bei der Administration des Compliance Management Systems. Durchführung von KYC-Checks. Verhandlungssichere Deutsch- und sehr gute Englischkenntnisse. Flexible Arbeitszeiten und Home-Office.",
-        "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "5e017cbd2b27bdec6c5270857f5fae012c43306ccb637ded3ff77147ea95a034"
-      },
-      {
-        "id": "karriere_at:10030525",
-        "source": "karriere_at",
-        "title": "Junior Legal Specialist (m/w/d)",
-        "company": "ATP Planungs- und Beteiligungs AG",
-        "location": "Wien 3. Bezirk (Landstraße)",
-        "url": "https://www.karriere.at/jobs/10030525",
-        "salary": "ab 3.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Unterstützung bei Vertragsprüfung und rechtlicher Beratung im Bau-, Planungs- und Projektumfeld. Recherche im Werkvertragsrecht und Vergaberecht. Sehr gute Deutsch- und Englischkenntnisse erforderlich. Frühe Eigenverantwortung und Weiterentwicklungsperspektive.",
-        "first_seen": "2026-08-24T09:27:45.271039Z",
-        "fingerprint": "5c76343fc2b527d9377e7e93011804410448812dcbe08964a72f86e5c4017763"
-      },
-      {
         "id": "karriere_at:10028644",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter:in im Bereich Corporate / M&A",
@@ -722,34 +792,6 @@
         "snippet": "Umfassende Beratung im Gesellschaftsrecht und bei M&A-Transaktionen. Erstellung und Verhandlung gesellschaftsrechtlicher Dokumente. Fließende Deutsch- und Englischkenntnisse sind erforderlich. Möglichkeit zur eigenverantwortlichen Mandatsbearbeitung mit direktem Mandantenkontakt.",
         "first_seen": "2026-08-05T07:20:49.171539Z",
         "fingerprint": "861af803a39f2957934bb50a5f4631e6bacab941127c71e0f07aa97de07fa97f"
-      },
-      {
-        "id": "karriere_at:10027709",
-        "source": "karriere_at",
-        "title": "Jurist:in Digitale Dienste (m/w/d)",
-        "company": "Rundfunk und Telekom Regulierungs-GmbH (RTR)",
-        "location": "Wien 6. Bezirk (Mariahilf)",
-        "url": "https://www.karriere.at/jobs/10027709",
-        "salary": "ab 47.446 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Bearbeitung von Fragestellungen des Digital Services Act und komplexen Verwaltungsverfahren. Abgeschlossenes Studium der Rechtswissenschaften erforderlich. Möglichkeit zur Mitgestaltung eines zukunftsorientierten Umfelds mit Weiterbildung.",
-        "first_seen": "2026-07-27T15:08:46.560804Z",
-        "fingerprint": "fbba415a7496d5b647dd1426a09e70f1763b1879088c442bb9f56397dfd566cc"
-      },
-      {
-        "id": "karriere_at:10026661",
-        "source": "karriere_at",
-        "title": "Legal Manager (m/w/d)",
-        "company": "Arbeitgeber verdeckt",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10026661",
-        "salary": "ab 70.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Rechtliche Betreuung von Planungsgesellschaften in Österreich, Prüfung und Gestaltung von Gesamtplanungs-, Planungs- und Projektverträgen. Praktische Erfahrung in der Vertragsgestaltung im Bau- und Planungsumfeld. Flexible Arbeitszeiten und Home-Office.",
-        "first_seen": "2026-07-16T11:20:32.476615Z",
-        "fingerprint": "e1907462c8aa2e16a1a22cd4fbda34ebc5428d538e8652957f9add5105d299e8"
       },
       {
         "id": "karriere_at:10028461",
@@ -778,34 +820,6 @@
         "snippet": "Beratung von Mandanten im Kartellrecht, Erstellung von Rechtsgutachten und Stellungnahmen. 1-2 Jahre Berufserfahrung im Kartellrecht wünschenswert. Ausgezeichnete Deutsch- und Englischkenntnisse. Flexible Arbeitszeiten und Homeoffice.",
         "first_seen": "2026-07-27T08:43:23.853673Z",
         "fingerprint": "d7f4e091b476e0f92c918e1ccedf75cdc8ddfb9860d9dc1a88843a3aac513c4b"
-      },
-      {
-        "id": "karriere_at:10031218",
-        "source": "karriere_at",
-        "title": "Senior Legal Assistant (m/f/d)",
-        "company": "Valneva Austria GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10031218",
-        "salary": "ab 44.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
-        "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
-        "first_seen": "2026-08-31T15:02:20.466416Z",
-        "fingerprint": "2a137dad34cf31cad018b37a81e1237f26c4d2d57e6d4b51041f5f06b37f51d0"
-      },
-      {
-        "id": "karriere_at:10026561",
-        "source": "karriere_at",
-        "title": "Legal Officer (w/m/d)",
-        "company": "Bechtle Austria GmbH",
-        "location": "Traun, Wien, Wiener Neudorf",
-        "url": "https://www.karriere.at/jobs/10026561",
-        "salary": "ab 70.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "31.8.2026",
-        "snippet": "Beratung der Geschäftsführung in rechtlichen Fragestellungen, Vertragsprüfung und -verhandlung. Studium der Rechtswissenschaften ist erforderlich. Flexible Arbeitszeiten und Home Office sind ein Vorteil.",
-        "first_seen": "2026-07-16T07:06:38.089637Z",
-        "fingerprint": "486b6afde8449c0cbc592acf29a59596caadfa1bab2783d92faa71de0b34abe1"
       },
       {
         "id": "karriere_at:10029166",
@@ -1040,10 +1054,10 @@
         "url": "https://www.karriere.at/jobs/7870492",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Make your way to the top. Rechtsanwaltsanwärter Procurement/Vergaberecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "3c49aee0ac9b544331507fe2a57ec57b027efa1f80d2515ac83a138854f11c52"
+        "fingerprint": "a747c5a9d1e869a76a741e3bb1aa7c2d37882e5c0a68ab93564bed7cc3251894"
       },
       {
         "id": "karriere_at:7870489",
@@ -1054,10 +1068,10 @@
         "url": "https://www.karriere.at/jobs/7870489",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Make your way to the top. Rechtsanwaltsanwärter Kartell-/Wettbewerbs-/Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "b0ec4f627b07279a0a97d163030943f13e5bf05728e136df5027862e96860eaa"
+        "fingerprint": "0ff1432833d1982580a3ca6eaafde67c67357d01d3499be496a7366844ddc700"
       },
       {
         "id": "karriere_at:7870486",
@@ -1068,10 +1082,10 @@
         "url": "https://www.karriere.at/jobs/7870486",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Make your way to the top. Rechtsanwaltsanwärter Disputes (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply Now! Wir suchen...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "a09037eb8ed96b793906ea64ae477b5f1c5157ac9d45800b3ad43b749efff23d"
+        "fingerprint": "0e6a12b53fc47949604060fc872443cd3aafce4a71adaa6aec9ded08801c15d0"
       },
       {
         "id": "karriere_at:7870483",
@@ -1082,10 +1096,10 @@
         "url": "https://www.karriere.at/jobs/7870483",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "51f293063bf02c2a811c54f6be0e105ac162818bb2536522ab0e189984ffa7ad"
+        "fingerprint": "c48a1f12e1dd8b3a81c8d3bbd20bb738d1b2d0cde4c031671179fac70c895e9a"
       },
       {
         "id": "karriere_at:7869583",
@@ -1096,10 +1110,10 @@
         "url": "https://www.karriere.at/jobs/7869583",
         "salary": "ab 4.628,49 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Juristin (w/m/d) Arbeitsrecht, Arbeitszeitrecht und betriebsverfassungsrechtliches Arbeitsrecht Teil- oder Vollzeit (30-37,5 Stunden/Woche) Jetzt bewerben Ob im Fahrdienst, in den Werkstätten...",
         "first_seen": "2026-09-02T11:29:35.915194Z",
-        "fingerprint": "263cf16ab1a8e068f4056fd2a62a7cda74e2ef0a3c4d1d80d64bc2e89411e6ab"
+        "fingerprint": "5e2ce62f7c5fad64be1902362d5418b698609a92d473e4cf4894c27cddff8b20"
       },
       {
         "id": "karriere_at:7858520",
@@ -1138,10 +1152,10 @@
         "url": "https://www.karriere.at/jobs/7868527",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Rechtsanwält:in oder Rechtsanwaltsanwärter:in für Datenschutzrecht/ IT all genders Standort(e): Wien ﹟teamKPMGLaw: Persönlichkeiten, die mit Leidenschaft...",
         "first_seen": "2026-09-01T10:17:24.367617Z",
-        "fingerprint": "a5b0f1fa456328033f1d266a687372d4fae794e2992fe64e96a66735c4851c61"
+        "fingerprint": "aa7c2d154998e76f4d650403c1af0ca017b7835c7fe6909fb3c18b7412cdb746"
       },
       {
         "id": "karriere_at:7868509",
@@ -1152,10 +1166,10 @@
         "url": "https://www.karriere.at/jobs/7868509",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Direkter Mandantenkontakt, spannende Projekte und ein Team, das Zusammenarbeit, Eigenverantwortung und Weiterentwicklung großschreibt. Zur Verstärkung unseres Teams suchen wir ab...",
         "first_seen": "2026-09-01T10:17:24.367617Z",
-        "fingerprint": "29c2a0e213be1692bd2d042848196fdbc25e3ada062a81fe48c081bfd19bfd92"
+        "fingerprint": "0e87584d6d2319619340d933e42ac0e57bbedb06907d7439d6ad173f6142c502"
       },
       {
         "id": "karriere_at:7864495",
@@ -1432,10 +1446,10 @@
         "url": "https://www.karriere.at/jobs/10031733",
         "salary": "3.200 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Administrative und organisatorische Unterstützung, Vertragshandling, Honorarnoten und Kostenverzeichnisse erstellen. Kaufmännische Ausbildung, HAK, HAS, AHS oder vergleichbar, erste Erfahrung in Anwaltskanzlei. Homeoffice nach Vereinbarung.",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "a0532642a50fa07a0807e94a989caf7918a840a68c3be5ca7dc078f5254143b2"
+        "fingerprint": "65424cff48cf068bd02c9dcde871b3577aa82d13bbc89597314b2e5675be4af6"
       },
       {
         "id": "karriere_at:7663254",
@@ -1545,11 +1559,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Juristin-mit-Schwerpunkt-Arbeits-und-Sozialrecht-Vollzeit-Wien-Haeuser-zum-Leben--999199-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Home Office",
-        "published_at": "2026-09-01T12:02:02+02:00",
+        "published_at": "2026-09-08T12:02:03+02:00",
         "department": "Home Office",
         "snippet": "Die Häuser zum Leben sind Österreichs Marktführer in der Senior*innenbetreuung. Rund 5.000 Mitarbeiter*innen aus über 80 Berufen betreiben mit viel Herz und Kompetenz unsere 30 Häuser zum Leben sowie 135 Pensionist*innenklubs für die Stadt Wien. Der Bereich Human Resources ist nicht nur für das Rec",
         "first_seen": "2026-08-25T09:47:50.484894Z",
-        "fingerprint": "f579d50c51b2883a5951b702848289522ede39f28990e0106e617e009e70a94a"
+        "fingerprint": "f1167ad02b275760b2546f0a9ced410b18afa97f85954c8457dc730274ccf60f"
       },
       {
         "id": "stepstone:976441",
@@ -1732,6 +1746,21 @@
         "fingerprint": "e808e8735492a481e3bc722a9605bbd49044881b538d3fab58a89b3222064096"
       },
       {
+        "id": "stepstone:994936",
+        "source": "stepstone",
+        "title": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-m-w-d-im-Immobilienrecht-Prozessrecht-Wien-l-m-executive-search-consulting-gmbh--994936-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-09-08T11:02:03+02:00",
+        "department": null,
+        "snippet": "Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges",
+        "first_seen": "2026-07-28T23:27:24.331085Z",
+        "fingerprint": "f7f374c2d61cad50eb1c975345fdfbf6665874d666e14631e4624ae61a4d36e0"
+      },
+      {
         "id": "stepstone:995373",
         "source": "stepstone",
         "title": "Rechtsanwaltsassistent:in (m/w/d) | FSM Rechtsanwälte",
@@ -1805,21 +1834,6 @@
         "snippet": "Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel sind Sie in unserem Finanz-Team eingegliedert und arbeiten eng mit dem Riskmanagement-Team zusam",
         "first_seen": "2026-09-02T15:16:05.898527Z",
         "fingerprint": "a72d967e1624d75372b1bb00b78ae44df8984ef4ada6be9ebfe4efb95fe5e12a"
-      },
-      {
-        "id": "stepstone:994936",
-        "source": "stepstone",
-        "title": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-m-w-d-im-Immobilienrecht-Prozessrecht-Wien-l-m-executive-search-consulting-gmbh--994936-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-09-01T11:02:03+02:00",
-        "department": null,
-        "snippet": "Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges",
-        "first_seen": "2026-07-28T23:27:24.331085Z",
-        "fingerprint": "3c14e141f1165a7e0e94b9ccc7ad0c307d99489673a8ac66da5352e3e9b5dbce"
       },
       {
         "id": "stepstone:995512",
@@ -2078,6 +2092,8 @@
       "karriere_at:10031733",
       "karriere_at:10031774",
       "karriere_at:10031913",
+      "karriere_at:10032139",
+      "karriere_at:10032173",
       "karriere_at:7663251",
       "karriere_at:7663254",
       "karriere_at:7663257",
