@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-10T09:37:48.417472Z",
+  "timestamp": "2026-09-10T13:53:30.386075Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-09-10T09:37:48.417472Z",
+        "last_success": "2026-09-10T13:53:30.386075Z",
         "last_error": null,
         "count": 21
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-09-10T09:37:48.417472Z",
+        "last_success": "2026-09-10T13:53:30.386075Z",
         "last_error": null,
         "count": 0
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-09-10T09:37:48.417472Z",
+        "last_success": "2026-09-10T13:53:30.386075Z",
         "last_error": null,
         "count": 3
       },
@@ -29,36 +29,36 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-09-10T09:37:48.417472Z",
+        "last_success": "2026-09-10T13:53:30.386075Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-09-10T09:37:48.417472Z",
+        "last_success": "2026-09-10T13:53:30.386075Z",
         "last_error": null,
-        "count": 72
+        "count": 73
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-09-10T09:37:48.417472Z",
+        "last_success": "2026-09-10T13:53:30.386075Z",
         "last_error": null,
         "count": 32
       }
     },
     "jobs": [
       {
-        "id": "jusjobs:432457",
+        "id": "jusjobs:2057651",
         "source": "jusjobs",
-        "title": "Jurist*in (m/w/d)",
-        "company": "Wien Holding GmbH",
+        "title": "Expert*in für Schutzrechte und Verwertung",
+        "company": "Hochschule für Angewandte Wissenschaften Campus Wien",
         "location": "Wien",
-        "url": "https://www.jusjobs.at/job/432457",
-        "salary": "€ 3.600",
+        "url": "https://www.jusjobs.at/job/2057651",
+        "salary": "€ 3.765",
         "employment_type": "Praktikum",
-        "snippet": "Die Wien Holding GmbH sucht eine*n Jurist*in (m/w/d) in Vollzeit am Standort Universitätsstraße 11, 1010 Wien. Schwerpunkt sind rechtliche Beratung, Vergabeverfahren, Verträge und…",
-        "first_seen": "2026-08-06T10:15:37.840805Z",
-        "fingerprint": "7a46c0db3c6a6c219fd85560ae45e9956344de1c78d41fffb9e205ec4769f718"
+        "snippet": "Rechtsnahe IP-Expert*in (Patente, Lizenzen, Technologietransfer) für die Forschungs- und Projektekoordination der Hochschule Campus Wien in Wien (Vollzeit, ab 1.10.2026).",
+        "first_seen": "2026-09-10T13:53:30.386412Z",
+        "fingerprint": "c37cf428e01db4ace6ae037ae1fcfc818aa90f2a34d9128bb9aa9da6610f7322"
       },
       {
         "id": "jusjobs:2023661",
@@ -555,6 +555,34 @@
         "fingerprint": "0dc96effc34ac70a60fb0782ba1a49882ea0ed06efda476ee54906b519942116"
       },
       {
+        "id": "karriere_at:10031218",
+        "source": "karriere_at",
+        "title": "Senior Legal Assistant (m/f/d)",
+        "company": "Valneva Austria GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10031218",
+        "salary": "ab 44.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
+        "first_seen": "2026-08-31T15:02:20.466416Z",
+        "fingerprint": "31f6287e2679edb547c067b0ff20ded626fd073816ba276f44507525c0eed8c1"
+      },
+      {
+        "id": "karriere_at:10030019",
+        "source": "karriere_at",
+        "title": "Jurist:in / Verfahrensmanager:in (m/w/d) – Legal Tech",
+        "company": "Jufina Prozessfinanzierung (JUNO Finanz AG)",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10030019",
+        "salary": "ab 4.500 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Leitung der Kreditbearbeitung, Überwachung der KI-Software zur Vertragsprüfung, rechtliche Beratung des Vertriebs. Abgeschlossenes Studium der Rechtswissenschaften und Team-/Koordinationsfähigkeit sind erforderlich. Wachstumsbranche abseits klassischer juristischer Laufbahnen.",
+        "first_seen": "2026-08-18T14:47:29.691635Z",
+        "fingerprint": "7689f7a24a1e2464febca32b58ea7f41558798063d752a807b9b1b8d37e7273b"
+      },
+      {
         "id": "karriere_at:10026561",
         "source": "karriere_at",
         "title": "Legal Officer (w/m/d)",
@@ -605,10 +633,10 @@
         "url": "https://www.karriere.at/jobs/10031774",
         "salary": "ab 35.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Beratung in Zivil-, Vertrags-, Wirtschafts- und Gesellschaftsrecht. Unterstützung bei der Administration des Compliance Management Systems. Durchführung von KYC-Checks. Verhandlungssichere Deutsch- und sehr gute Englischkenntnisse. Flexible Arbeitszeiten und Home-Office.",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "e1055d4ce8e8905974f284da5efe8087595fbc0c17da1d8923f4c145320becf2"
+        "fingerprint": "b2db26d43c781d0d87bb73803a7bdae3f4b415f2dd060e1f6e795aa911c4503f"
       },
       {
         "id": "karriere_at:10030525",
@@ -639,32 +667,32 @@
         "fingerprint": "1205dc9fd45e4cba31bcc35d15568a01733b967d65fdbd024699da28a5046450"
       },
       {
-        "id": "karriere_at:10030019",
+        "id": "karriere_at:10032509",
         "source": "karriere_at",
-        "title": "Jurist:in / Verfahrensmanager:in (m/w/d) – Legal Tech",
-        "company": "Jufina Prozessfinanzierung (JUNO Finanz AG)",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10030019",
-        "salary": "ab 4.500 € monatlich",
+        "title": "Wirtschaftsjurist:in (m/w/d)",
+        "company": "Wiener Börse AG",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10032509",
+        "salary": "ab 55.720 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "2.9.2026",
-        "snippet": "Leitung der Kreditbearbeitung, Überwachung der KI-Software zur Vertragsprüfung, rechtliche Beratung des Vertriebs. Abgeschlossenes Studium der Rechtswissenschaften und Team-/Koordinationsfähigkeit sind erforderlich. Wachstumsbranche abseits klassischer juristischer Laufbahnen.",
-        "first_seen": "2026-08-18T14:47:29.691635Z",
-        "fingerprint": "78e3b7a22dc79a84f29eccf20cfbdf202ab063919fd5c3291bc26e624d5e68cb"
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Juristische Recherchen und Marktüberwachung, Mitwirkung bei Prüfung von Angebotsunterlagen. Abgeschlossenes Studium der Rechtswissenschaften oder Wirtschaftsrecht. Sehr gute Kenntnisse im Gesellschafts- und Kapitalmarktrecht. Einblicke in die Praxis börsennotierter Unternehmen.",
+        "first_seen": "2026-09-10T13:53:39.551225Z",
+        "fingerprint": "3b1b056cb384fa0d87244a4ddca3bacac85ad692e71f3705dc684626b77c9296"
       },
       {
-        "id": "karriere_at:10031218",
+        "id": "karriere_at:10032483",
         "source": "karriere_at",
-        "title": "Senior Legal Assistant (m/f/d)",
-        "company": "Valneva Austria GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10031218",
-        "salary": "ab 44.000 € jährlich",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) Wettbewerbsrecht",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10032483",
+        "salary": "ab 4.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "31.8.2026",
-        "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
-        "first_seen": "2026-08-31T15:02:20.466416Z",
-        "fingerprint": "3778e5bc7a3a29eb99f6ff6eeee97ad97d32ec2390c346ac078191bd5d3c73f2"
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Verfassen von Memoranden, Rechtsgutachten und Berichten. Erstellung von Schriftsätzen. Mitarbeit bei Kartellrechtsverfahren. EU-beihilferechtliche Beratung. Ausgezeichnete Englischkenntnisse sind Voraussetzung. Exzellente Entwicklungsmöglichkeiten.",
+        "first_seen": "2026-09-10T13:53:39.551225Z",
+        "fingerprint": "007fd7764d146297ada3275f6247ed8fddf627f44c70ea4027aab4e12a863c40"
       },
       {
         "id": "karriere_at:10032220",
@@ -675,10 +703,10 @@
         "url": "https://www.karriere.at/jobs/10032220",
         "salary": "ab 60.074 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Führung von Verwaltungsverfahren im Telekommunikationsrecht, insbesondere Infrastrukturrechte. Abgeschlossenes Studium der Rechtswissenschaften erforderlich. Kontinuierliche Weiterbildungsmöglichkeiten und persönliche Entwicklung werden geboten.",
         "first_seen": "2026-09-08T15:23:15.944482Z",
-        "fingerprint": "e289b254993572ab54e43941317e267f85ba34de4ef3bd09e4fd120e6cc57e5b"
+        "fingerprint": "99a1eec65812c5410e9b12ffa19b84fdead8aeb323b7f85573111d37aa951f4d"
       },
       {
         "id": "karriere_at:10032173",
@@ -697,7 +725,7 @@
       {
         "id": "karriere_at:10032139",
         "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d)",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) Corporate / M&A",
         "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
         "location": "Wien",
         "url": "https://www.karriere.at/jobs/10032139",
@@ -706,7 +734,7 @@
         "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Rechtsberatung nationaler/internationaler Mandanten, Start-ups, Investoren, Private Clients, Stiftungen, M&A, Corporate Clients. Gesellschaftsrecht, Umgründungsrecht. Voraussetzung: Rechtsanwaltsprüfung, exzellente Englischkenntnisse. Attraktive Entwicklungsmöglichkeiten.",
         "first_seen": "2026-09-08T11:43:08.137305Z",
-        "fingerprint": "d90001a1088818a87398f65f72d27974ef9c3c54944544c6e77a900bca20f2fc"
+        "fingerprint": "4dfe1f598a35e5588f57d22f4886f258e3cbbb9effe0ba12f8ffb30cfcec7e13"
       },
       {
         "id": "karriere_at:10031128",
@@ -1151,10 +1179,10 @@
         "url": "https://www.karriere.at/jobs/7869583",
         "salary": "ab 4.628,49 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "2.9.2026",
         "snippet": "Juristin (w/m/d) Arbeitsrecht, Arbeitszeitrecht und betriebsverfassungsrechtliches Arbeitsrecht Teil- oder Vollzeit (30-37,5 Stunden/Woche) Jetzt bewerben Ob im Fahrdienst, in den Werkstätten...",
         "first_seen": "2026-09-02T11:29:35.915194Z",
-        "fingerprint": "08f8c1f00646382d679082f27848cbfae87b488f42b57c23dd2769439cd939d7"
+        "fingerprint": "0d8bccb573edc4a1621cbaa95b56ceb06fa57028411113f53f74435d3bcb720d"
       },
       {
         "id": "karriere_at:7859371",
@@ -1754,12 +1782,12 @@
         "location": "Wien",
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-m-w-d-FSM-Rechtsanwaelte-Wien-IroPartners-Personal-u-ManagementberatungsgmbH-Zentrale-Salzburg--995373-inline.html",
         "salary": null,
-        "employment_type": "Teilzeit",
-        "published_at": "2026-08-29T07:27:52+02:00",
+        "employment_type": "Vollzeit",
+        "published_at": "2026-08-29T10:51:59+02:00",
         "department": "Schnelle Bewerbung",
-        "snippet": "Rechtsanwaltsassistent:in (m/w/d) | FSM Rechtsanwälte ab sofort | Teilzeit (20 Stunden) | Standort 1080 Wien Wer wir sind FSM ist eine junge, dynamische Rechtsanwaltskanzlei in 1080 Wien. Gegründet im Jahr 2017 betreuen wir seither Mandantinnen und Mandanten in den Bereichen Vergabe-, Immobilien",
+        "snippet": "Rechtsanwaltsassistent:in (m/w/d) | FSM Rechtsanwälte ab sofort | Vollzeit | Standort 1080 Wien Wer wir sind FSM ist eine junge, dynamische Rechtsanwaltskanzlei in 1080 Wien. Gegründet im Jahr 2017 betreuen wir seither Mandantinnen und Mandanten in den Bereichen Vergabe-, Immobilien-, Unternehme",
         "first_seen": "2026-07-31T15:35:33.400804Z",
-        "fingerprint": "2237612a17d16890cc98fe22193e825ca2ea1c92075e5f5a2a6447e0eb604d65"
+        "fingerprint": "7f8a248c85d89807a19d225d3c42e248b6176e41b751857580f1274310f4cc35"
       },
       {
         "id": "stepstone:993277",
@@ -1897,6 +1925,21 @@
         "fingerprint": "dc568d9b226705f327a00742c79d2266eea2916b5f9fdda1749ca47bc17ee19c"
       },
       {
+        "id": "stepstone:1002054",
+        "source": "stepstone",
+        "title": "Mitarbeiter:in Forderungsmanagement (m/w/d)",
+        "company": "Wolfgang Denzel Auto AG",
+        "location": "DENZEL Zentrale Bereiche - Wien Erdberg",
+        "url": "https://www.stepstone.at/stellenangebote--Mitarbeiter-in-Forderungsmanagement-m-w-d-DENZEL-Zentrale-Bereiche-Wien-Erdberg-Wolfgang-Denzel-Auto-AG--1002054-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-09-10T12:18:24+02:00",
+        "department": null,
+        "snippet": "Sie sind kommunikativ, durchsetzungsstark und arbeiten gerne strukturiert? Perfekt! Wir, die Denzel Gruppe, suchen für unsere Zentrale am Standort Wien Erdberg Verstärkung für unser Team im Forderungsmanagement. Wir freuen uns darauf, Sie persönlich kennenzulernen!",
+        "first_seen": "2026-09-10T13:53:46.308007Z",
+        "fingerprint": "825215f6daa2fdfe928b0123684ae9d0d0a5a08ba1f043170c9f46b1bb2a65ea"
+      },
+      {
         "id": "stepstone:1001468",
         "source": "stepstone",
         "title": "Rechtsanwaltsassistent/in für 30 - 40 Wochenstunden",
@@ -1910,21 +1953,6 @@
         "snippet": "Wir beraten Klienten (Unternehmen und Privatpersonen) mit den Tätigkeitsschwerpunkten Insolvenzrecht, Immobilienrecht, Vertragsrecht, Unternehmensrecht, Zivilrecht und Familienrecht. Zur Verstärkung unseres Teams suchen wir eine/n Rechtsanwaltsassistent/in für 30 - 40 Wochenstunden",
         "first_seen": "2026-09-09T06:46:17.882071Z",
         "fingerprint": "9ce8da3507fcc06c79cc7b28087790f172a04103afbc8e1cf456d2c6ad9513da"
-      },
-      {
-        "id": "stepstone:998065",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsassistent:in (m/w/d)",
-        "company": "BLS Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-m-w-d-Wien-BLS-Rechtsanwaelte-GmbH--998065-inline.html",
-        "salary": null,
-        "employment_type": "Vollzeit, Home Office",
-        "published_at": "2026-09-02T05:23:41+02:00",
-        "department": "Home Office",
-        "snippet": "Rechtsanwaltsassistent:in (m/w/d) Vollzeit Unser Unternehmen Rechtsanwaltsassistent:in (m/w/d) Vollzeit Sie haben auch Freude am Erfolg und wollen sich einer mittelständischen Rechtsanwaltskanzlei mit mehr als 50-jähriger Erfahrung anschließen? Dann bewerben Sie sich noch heute bei uns als Assistenz",
-        "first_seen": "2026-08-19T15:16:40.110603Z",
-        "fingerprint": "907dec4fed74e54e32e71929d14cbd27b1d06a3bc90a5fbaaf4280e9ce9e2bac"
       },
       {
         "id": "stepstone:968445",
@@ -2063,6 +2091,7 @@
       "jusjobs:2035235",
       "jusjobs:2043725",
       "jusjobs:2052423",
+      "jusjobs:2057651",
       "jusjobs:432457",
       "jusjobs:712767",
       "jusjobs:970720",
@@ -2099,6 +2128,8 @@
       "karriere_at:10032139",
       "karriere_at:10032173",
       "karriere_at:10032220",
+      "karriere_at:10032483",
+      "karriere_at:10032509",
       "karriere_at:7663251",
       "karriere_at:7663254",
       "karriere_at:7663257",
@@ -2235,6 +2266,7 @@
       "stepstone:1000831",
       "stepstone:1001468",
       "stepstone:1001730",
+      "stepstone:1002054",
       "stepstone:633580",
       "stepstone:929613",
       "stepstone:934776",
