@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-11T05:11:24.028081Z",
+  "timestamp": "2026-09-11T09:50:33.882989Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-09-11T05:11:24.028081Z",
+        "last_success": "2026-09-11T09:50:33.882989Z",
         "last_error": null,
-        "count": 20
+        "count": 19
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-09-11T05:11:24.028081Z",
+        "last_success": "2026-09-11T09:50:33.882989Z",
         "last_error": null,
-        "count": 0
+        "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-09-11T05:11:24.028081Z",
+        "last_success": "2026-09-11T09:50:33.882989Z",
         "last_error": null,
         "count": 3
       },
@@ -29,19 +29,19 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-09-11T05:11:24.028081Z",
+        "last_success": "2026-09-11T09:50:33.882989Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-09-11T05:11:24.028081Z",
+        "last_success": "2026-09-11T09:50:33.882989Z",
         "last_error": null,
         "count": 73
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-09-11T05:11:24.028081Z",
+        "last_success": "2026-09-11T09:50:33.882989Z",
         "last_error": null,
         "count": 31
       }
@@ -165,19 +165,6 @@
         "fingerprint": "5c67d4ae92cec592cf46f7fb3d8bb61a95cdb4ef84e6259338f52148448e0792"
       },
       {
-        "id": "jusjobs:1927333",
-        "source": "jusjobs",
-        "title": "Laufbahnstelle gem. § 99 Abs. 5 UG (Tenure-Track) im Fachgebiet Öffentliches Recht mit Schwerpunkt Umwelt- und Klimaschutzrecht",
-        "company": "BOKU Wien",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1927333",
-        "salary": "€ 5.014",
-        "employment_type": "Vollzeit",
-        "snippet": "Tenure-Track-Stelle an der BOKU Wien im Öffentlichen Recht mit Schwerpunkt Umwelt- und Klimaschutzrecht, 40 Wochenstunden, ab 01.03.2027.",
-        "first_seen": "2026-08-26T02:11:50.363202Z",
-        "fingerprint": "4ff6a5b339c19cfb0a3e16bd201a5acaf3c398c3931fc0197dcb2490c1033b6a"
-      },
-      {
         "id": "jusjobs:1923751",
         "source": "jusjobs",
         "title": "Jurist_in im Bereich Personal",
@@ -276,10 +263,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1797737",
         "salary": "€ 3.635",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Befristetes Verwaltungspraktikum in Wien für Absolvent:innen der Rechtswissenschaften mit Schwerpunkt Verbraucherrecht, Rechtsdurchsetzung und Verbraucherpolitik.",
         "first_seen": "2026-08-20T11:01:03.062870Z",
-        "fingerprint": "163ca8566a6b99530a3f38dee73ce71038563fd4b4d6e40ad9f770d6aef63368"
+        "fingerprint": "8e1e452255ef7252cdbe5985c5a53d843c0ad1f284b3dd267a356c560f2abddb"
       },
       {
         "id": "jusjobs:1979947",
@@ -289,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1979947",
         "salary": "€ 3.375",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Legal-&-Compliance-Position bei der Raiffeisen Immobilien KAG in Wien mit Fokus auf investment- und unternehmensrechtliche Vorschriften, Beteiligungsverwaltung und…",
         "first_seen": "2026-08-30T17:37:28.908663Z",
-        "fingerprint": "976881cb5aaee3c7e30342b9680a28fdfa1386fbbb18ce946d63f5ab432b9453"
+        "fingerprint": "431f7975b00270985b57d9bf150a808922bd8fb7edfaeeb17ddd568be9011010"
       },
       {
         "id": "jusjobs:2011537",
@@ -306,6 +293,19 @@
         "snippet": "Aufgabenbereich: In der abwechslungsreichen Aufgabe als Jurist:in der Abteilung Gesundheitsservice der SVS-Hauptstelle betreuen Sie eigenständig Themenbereiche der…",
         "first_seen": "2026-08-29T10:17:42.991673Z",
         "fingerprint": "cb4d39239373435e98f644bc3c9de76184ed32a2eb28d12bea650ac7a2906de1"
+      },
+      {
+        "id": "erste_bank:34294",
+        "source": "erste_bank",
+        "title": "Internship Markets Compliance Support Officer",
+        "company": "Erste Group Bank AG",
+        "location": "Wien",
+        "url": "https://www.sparkasse.at/erstebank/karriere-spk/job-detail/internship-markets-compliance-support-officer/34294",
+        "employment_type": "Teilzeit",
+        "department": "Group Markets Compliance",
+        "published_at": "11.09.2026",
+        "first_seen": "2026-09-11T09:50:39.213754Z",
+        "fingerprint": "9b97e868411eead91d7e38f88ae42e3f14b8f6f4ffb99dcbb9b7a2674e056050"
       },
       {
         "id": "uniqa:a05dd3e6998adebb",
@@ -544,16 +544,16 @@
       {
         "id": "karriere_at:10028263",
         "source": "karriere_at",
-        "title": "Wirtschaftsakademiker:in/ Jurist:in – Unternehmensrecht & Rechnungslegung (m/w/d)",
+        "title": "Fachkoordinator:in (m/w/d) Unternehmensrecht & Rechnungslegung",
         "company": "Kammer der Steuerberater:innen und Wirtschaftsprüfer:innen",
         "location": "Wien",
         "url": "https://www.karriere.at/jobs/10028263",
         "salary": "ab 53.000 € jährlich",
         "employment_type": "Vollzeit",
         "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Aufbereitung aktueller Themen im Unternehmensrecht, Rechnungslegung und Abschlussprüfung. Organisation von Arbeitsgruppen, Mitwirkung an Stellungnahmen. Studium im Bereich Wirtschaftsrecht oder BWL mit Schwerpunkt Accounting/Tax erforderlich. Zusammenarbeit mit Expert:innen.",
+        "snippet": "Aufbereitung von Fachthemen im Unternehmensrecht und Rechnungslegung. Organisation und Begleitung von Arbeitsgruppen. Abgeschlossenes Studium (Uni/FH) und erste Erfahrung als Berufsanwärter:in (Steuerberatung/Wirtschaftsprüfung) oder einschlägige Erfahrung in Rechnungslegung/Unternehmensrecht. Zusammenarbeit mit anerkannten Expert:innen.",
         "first_seen": "2026-08-19T14:01:53.765722Z",
-        "fingerprint": "762736b2b82f077bb350933e6861714e4382fdbeab4b3e8a905728d6d7dd63f6"
+        "fingerprint": "33d49b320e0c1c7029c2e0e0a7e29deadc1a30cdf4236aeec15458df94a3c7c2"
       },
       {
         "id": "karriere_at:10031218",
@@ -732,10 +732,10 @@
         "url": "https://www.karriere.at/jobs/10032173",
         "salary": "ab 4.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Erstellung von Verträgen, Gutachten und Schriftsätzen im Immobilienrecht. Sehr gute Englischkenntnisse sind erforderlich. Bietet breiten Tätigkeitsbereich in internationalem Umfeld mit komplexen Aufgabenstellungen.",
         "first_seen": "2026-09-08T11:43:08.137305Z",
-        "fingerprint": "1970a4a9b77d7955f4f51626ff67e834afd0612c701dab8077ceebb61224a49e"
+        "fingerprint": "ada1faa2b5c2ff72fe5201ecca9b51290bf9db62286b7571fd40b1be0f225137"
       },
       {
         "id": "karriere_at:10032139",
@@ -746,10 +746,10 @@
         "url": "https://www.karriere.at/jobs/10032139",
         "salary": "ab 4.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Rechtsberatung nationaler/internationaler Mandanten, Start-ups, Investoren, Private Clients, Stiftungen, M&A, Corporate Clients. Gesellschaftsrecht, Umgründungsrecht. Voraussetzung: Rechtsanwaltsprüfung, exzellente Englischkenntnisse. Attraktive Entwicklungsmöglichkeiten.",
         "first_seen": "2026-09-08T11:43:08.137305Z",
-        "fingerprint": "4dfe1f598a35e5588f57d22f4886f258e3cbbb9effe0ba12f8ffb30cfcec7e13"
+        "fingerprint": "f4a6899ea78b47a84d9fa5d81053d9bd8a5d998db4119cc8ae6b81596f475e24"
       },
       {
         "id": "karriere_at:10031128",
@@ -788,10 +788,10 @@
         "url": "https://www.karriere.at/jobs/10031913",
         "salary": "3.600 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Aufbereitung und Analyse von Verträgen, Erstellung von Schriftsätzen und Rechtsgutachten. Sehr gute Deutsch- und Englischkenntnisse erforderlich. Direkter Mandantenkontakt.",
         "first_seen": "2026-09-04T11:29:22.602912Z",
-        "fingerprint": "bd2b81dda351ac590d51e5c64a8e9ecd6eb7efd641c918cf46ad26fc0bccc335"
+        "fingerprint": "a56e236c14f8fc2982cdda1689ef9d29fed1dbe080dac38861caead4e0dd063e"
       },
       {
         "id": "karriere_at:10028644",
@@ -1180,10 +1180,10 @@
         "url": "https://www.karriere.at/jobs/7870492",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "3.9.2026",
         "snippet": "Make your way to the top. Rechtsanwaltsanwärter Procurement/Vergaberecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "ce6088745e054b33b926cc91232e1a02ecba712d7a8905dec0b73d4221e09720"
+        "fingerprint": "3f352d89421aa4028d88e906e599db38b1fd1d07e275c9568f2226a8f19217f0"
       },
       {
         "id": "karriere_at:7870489",
@@ -1194,10 +1194,10 @@
         "url": "https://www.karriere.at/jobs/7870489",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "3.9.2026",
         "snippet": "Make your way to the top. Rechtsanwaltsanwärter Kartell-/Wettbewerbs-/Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "6df7d64b610a8dfd4a46c773e9fa53d8d7ec5d008ae504d009a2455c94b2cf6e"
+        "fingerprint": "90cf3330883f05a86aedc603ed96ea33ae8503af15d115ddfba207ce73cb6d09"
       },
       {
         "id": "karriere_at:7870486",
@@ -1208,10 +1208,10 @@
         "url": "https://www.karriere.at/jobs/7870486",
         "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "3.9.2026",
         "snippet": "Make your way to the top. Rechtsanwaltsanwärter Disputes (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply Now! Wir suchen...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "e77e27c9d01da00a84aba8de09cad45ab2a60a5483d6417aaf56f928c10b20d8"
+        "fingerprint": "11236a8a7a527e61b325a5f1214a7e55989eca9bea095aa09d51217d6638977c"
       },
       {
         "id": "karriere_at:7870483",
@@ -1222,10 +1222,10 @@
         "url": "https://www.karriere.at/jobs/7870483",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "3.9.2026",
         "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "62f3ca2b965427d24fde09c615fe6d13d78e7ec50e82249ab6474e45fc8fec7c"
+        "fingerprint": "092088991b02eddf043acd296d1c511ca8138e11674fe4df63384bd05f4bef2b"
       },
       {
         "id": "karriere_at:7663272",
@@ -1460,10 +1460,10 @@
         "url": "https://www.karriere.at/jobs/10031733",
         "salary": "3.200 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "3.9.2026",
         "snippet": "Administrative und organisatorische Unterstützung, Vertragshandling, Honorarnoten und Kostenverzeichnisse erstellen. Kaufmännische Ausbildung, HAK, HAS, AHS oder vergleichbar, erste Erfahrung in Anwaltskanzlei. Homeoffice nach Vereinbarung.",
         "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "40bef6d706bd22f48297b47696cd8e5d4b168b2b2c799ae13736f008105a384a"
+        "fingerprint": "2e4234a85c3b9f61bb11ac971bb82f8918e0e56a7fdbb2f7051fe08b7803f84a"
       },
       {
         "id": "karriere_at:7663254",
@@ -1582,21 +1582,6 @@
         "fingerprint": "30694456f5312750b6113c6032e63e25b17e360768a5f02e533763572fbbd0a5"
       },
       {
-        "id": "stepstone:976441",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-09-07T00:25:47+02:00",
-        "department": "Home Office",
-        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "9c2d963cd086781eecccd5bc57025cd5ce28fcf90249b5196c56780acd404f88"
-      },
-      {
         "id": "stepstone:981820",
         "source": "stepstone",
         "title": "Rechtsanwaltsanwärter:in Zivilrecht (d/f/m)",
@@ -1655,6 +1640,21 @@
         "snippet": "Schwerpunkt Vergaberecht | Vollzeit | Wien | ab sofort bzw nach Vereinbarung Vergaberecht ist unsere Leidenschaft. Vielleicht auch bald Ihre? Jedes Jahr werden in Österreich rund EUR 67 Mrd über öffentliche Aufträge vergeben: Die Bandbreite der Ausschreibungen reicht vom Bau eines Krankenhaus",
         "first_seen": "2026-08-31T15:02:26.319689Z",
         "fingerprint": "c0a4a585ed369beaa7ee3a66640a3dc21e01228512db2c900300874572a99061"
+      },
+      {
+        "id": "stepstone:976441",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-09-07T00:25:47+02:00",
+        "department": "Home Office",
+        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
+        "first_seen": "2026-06-30T20:54:00.747169Z",
+        "fingerprint": "9c2d963cd086781eecccd5bc57025cd5ce28fcf90249b5196c56780acd404f88"
       },
       {
         "id": "stepstone:982028",
@@ -1815,11 +1815,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--998620-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-09-05T05:00:16+02:00",
+        "published_at": "2026-09-05T10:57:08+02:00",
         "department": null,
         "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
         "first_seen": "2026-08-21T08:53:58.901646Z",
-        "fingerprint": "2123364850bf0d183fa201c10e33b64b6b3fff9f1563257cfdb1e171e9f14ab8"
+        "fingerprint": "6de27125f7177dc75d5f0dd1585a7bc1dc7c904ba0764b0ca69d4497bc751f2a"
       },
       {
         "id": "stepstone:995512",
@@ -1905,11 +1905,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Mitarbeiter-in-Forderungsmanagement-m-w-d-DENZEL-Zentrale-Bereiche-Wien-Erdberg-Wolfgang-Denzel-Auto-AG--1002054-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-10T09:23:44+02:00",
+        "published_at": "2026-09-10T13:49:54+02:00",
         "department": "Schnelle Bewerbung, Home Office",
-        "snippet": "Sie sind kommunikativ, durchsetzungsstark und arbeiten gerne strukturiert? Perfekt! Wir, die Denzel Gruppe, suchen für unsere Zentrale am Standort Wien Erdberg Verstärkung für unser Team im Forderungsmanagement. Wir freuen uns darauf, Sie persönlich kennenzulernen!",
+        "snippet": "Die DENZEL Gruppe steht seit 90 Jahren für Automotivkompetenz, unternehmerische Innovation und Wachstum. Durch die vielen Geschäftsbereiche innerhalb der DENZEL Gruppe können wir unbegrenzte Karrieremöglichkeiten in ganz Österreich anbieten. Sei es im Retail, mit unseren 21 Retailstandorten und 18 V",
         "first_seen": "2026-09-10T13:53:46.308007Z",
-        "fingerprint": "60bf2c6f3a1e0c4e330beed2eec35aa234e7febd25b30b7530bafd782bd347d0"
+        "fingerprint": "d442850f198441d2f9f1ae3553a2f5e918fdca3271c3ca2752611286fb7aba9d"
       },
       {
         "id": "stepstone:1001468",
@@ -1993,6 +1993,7 @@
       "erste_bank:33808",
       "erste_bank:33949",
       "erste_bank:33950",
+      "erste_bank:34294",
       "jusjobs:1171941",
       "jusjobs:1235995",
       "jusjobs:1625057",
