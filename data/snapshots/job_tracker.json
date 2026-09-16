@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-16T10:04:33.270205Z",
+  "timestamp": "2026-09-16T14:55:45.832286Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-09-16T10:04:33.270205Z",
+        "last_success": "2026-09-16T14:55:45.832286Z",
         "last_error": null,
-        "count": 22
+        "count": 23
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-09-16T10:04:33.270205Z",
+        "last_success": "2026-09-16T14:55:45.832286Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-09-16T10:04:33.270205Z",
+        "last_success": "2026-09-16T14:55:45.832286Z",
         "last_error": null,
         "count": 3
       },
@@ -29,19 +29,19 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-09-16T10:04:33.270205Z",
+        "last_success": "2026-09-16T14:55:45.832286Z",
         "last_error": null,
-        "count": 5
+        "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-09-16T10:04:33.270205Z",
+        "last_success": "2026-09-16T14:55:45.832286Z",
         "last_error": null,
-        "count": 69
+        "count": 68
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-09-16T10:04:33.270205Z",
+        "last_success": "2026-09-16T14:55:45.832286Z",
         "last_error": null,
         "count": 29
       }
@@ -150,6 +150,19 @@
         "snippet": "Junior Product Owner für Anwendungen im Umfeld der österreichischen Justiz mit Schwerpunkt Konzeption, Analyse und agile Weiterentwicklung der Verfahrensautomation Justiz.",
         "first_seen": "2026-08-20T11:01:03.062870Z",
         "fingerprint": "a1e1992aabbde6382754f2983d6baa057ae4e14458f1fb73bf7f17715ea724ad"
+      },
+      {
+        "id": "jusjobs:2078941",
+        "source": "jusjobs",
+        "title": "Neu Risikomanager*in und IKS-Verantwortliche*r (m/w/d) Full-time",
+        "company": "immOH! Energie und Gebäudemanagement GmbH",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/2078941",
+        "salary": "€ 3.893",
+        "employment_type": "Vollzeit",
+        "snippet": "Anforderungen. Schnittstelle zur Konzernmutter: Du arbeitest eng mit unserer Konzernmutter zusammen, um sicherzustellen, dass konzernweite Vorgaben und Richtlinien für…",
+        "first_seen": "2026-09-16T14:55:45.832777Z",
+        "fingerprint": "6eea56b6179e783ccdb307c85c0b574f8812e0e1bb5e4cd102ab7c79248df6cf"
       },
       {
         "id": "jusjobs:2075215",
@@ -263,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/2052423",
         "salary": "€ 3.500",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Aufgaben Rechtliche Beratung und Unterstützung der Fachabteilungen in wohn- und zivilrechtlichen Fragestellungen Erstellung, Prüfung und Weiterentwicklung von Verträgen und…",
         "first_seen": "2026-09-09T11:58:56.245028Z",
-        "fingerprint": "e2c25708628942be52971c656df7c18c1c5ca5880271fc7003d4388a0e29a7b2"
+        "fingerprint": "6bd858ea13cdb0bb7fb52a712aab0c5a02b318d3c6256815f7ee475e04c84749"
       },
       {
         "id": "jusjobs:1235995",
@@ -276,10 +289,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1235995",
         "salary": "€ 3.000",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Aufgaben ▪ Projektbezogene Einbindung in unsere spannenden Mandate ▪ Umfassende juristische Unterstützung unserer Rechtsanwält*innen ▪ Nach einer Einarbeitungsphase…",
         "first_seen": "2026-09-01T00:08:24.876920Z",
-        "fingerprint": "4477386fd9077ea07948e3fdfd6bfd8511f1e2a33a961b2052f310878d6597dd"
+        "fingerprint": "605ac7bdec378a7677b2c9e0fe35c16ce1221091386bdf09dd871c262dbd07ac"
       },
       {
         "id": "jusjobs:2043725",
@@ -513,6 +526,16 @@
         "fingerprint": "6a521fc9c538d8d8d1d55c0aafa9c1f5f3933e63d4883c7f4df8f8a161eec2d9"
       },
       {
+        "id": "derstandard:e92b6f70-bf03-3917-aa0a-9e6a1331a5aa",
+        "source": "derstandard",
+        "title": "Rechtsanwält:in oder Rechtsanwaltsanwärter:in für Arbeitsrecht",
+        "company": "KPMG Österreich",
+        "location": "1090 Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/e92b6f70-bf03-3917-aa0a-9e6a1331a5aa",
+        "first_seen": "2026-09-16T14:55:53.408369Z",
+        "fingerprint": "4c98cdd400b0ab82ad4b2d5031df82f44fdb21e6a2bdbb3905900e29c3194ea3"
+      },
+      {
         "id": "derstandard:493881e6-0fb9-314e-8516-5e773697b397",
         "source": "derstandard",
         "title": "Manager:in Tax/ Steuerberater:in (m/w/d)",
@@ -543,34 +566,6 @@
         "fingerprint": "82bd183d92c86b4f7e8b7c7ea519d4caf92e5dc8b8cd2b4b10ea06d27cbe71a8"
       },
       {
-        "id": "karriere_at:10032483",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) Wettbewerbsrecht",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10032483",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Verfassen von Memoranden, Rechtsgutachten und Berichten. Erstellung von Schriftsätzen. Mitarbeit bei Kartellrechtsverfahren. EU-beihilferechtliche Beratung. Ausgezeichnete Englischkenntnisse sind Voraussetzung. Exzellente Entwicklungsmöglichkeiten.",
-        "first_seen": "2026-09-10T13:53:39.551225Z",
-        "fingerprint": "9ed9bbb18d04deccf3c21c6f1a1b86f5f76dc5392f8b5ac242cf4be46a732cb7"
-      },
-      {
-        "id": "karriere_at:10032509",
-        "source": "karriere_at",
-        "title": "Wirtschaftsjurist:in (m/w/d)",
-        "company": "Wiener Börse AG",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10032509",
-        "salary": "ab 55.720 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Juristische Recherchen und Marktüberwachung, Mitwirkung bei Prüfung von Angebotsunterlagen. Abgeschlossenes Studium der Rechtswissenschaften oder Wirtschaftsrecht. Sehr gute Kenntnisse im Gesellschafts- und Kapitalmarktrecht. Einblicke in die Praxis börsennotierter Unternehmen.",
-        "first_seen": "2026-09-10T13:53:39.551225Z",
-        "fingerprint": "a3b89671a54689a595c18b86c395fc869298292fd471780cd6371ae0382af3f0"
-      },
-      {
         "id": "karriere_at:10030019",
         "source": "karriere_at",
         "title": "Jurist:in / Verfahrensmanager:in (m/w/d) – Legal Tech",
@@ -585,6 +580,34 @@
         "fingerprint": "7f05612ae00d0b909b51e4bc4a32b44a142357b7e1b14d0e82c898241d098449"
       },
       {
+        "id": "karriere_at:10032509",
+        "source": "karriere_at",
+        "title": "Wirtschaftsjurist:in (m/w/d)",
+        "company": "Wiener Börse AG",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10032509",
+        "salary": "ab 55.720 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": "Juristische Recherchen und Marktüberwachung, Mitwirkung bei Prüfung von Angebotsunterlagen. Abgeschlossenes Studium der Rechtswissenschaften oder Wirtschaftsrecht. Sehr gute Kenntnisse im Gesellschafts- und Kapitalmarktrecht. Einblicke in die Praxis börsennotierter Unternehmen.",
+        "first_seen": "2026-09-10T13:53:39.551225Z",
+        "fingerprint": "38513f1bb36e4d49e264abe062da6ef5fc5df5185c9ee80074911ffcc1365122"
+      },
+      {
+        "id": "karriere_at:10032483",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) Wettbewerbsrecht",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10032483",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": "Verfassen von Memoranden, Rechtsgutachten und Berichten. Erstellung von Schriftsätzen. Mitarbeit bei Kartellrechtsverfahren. EU-beihilferechtliche Beratung. Ausgezeichnete Englischkenntnisse sind Voraussetzung. Exzellente Entwicklungsmöglichkeiten.",
+        "first_seen": "2026-09-10T13:53:39.551225Z",
+        "fingerprint": "b40795c3e247cc2d214cab7bc17fb2f898d61b69ecf4ad955bd5ee9e3a36ae98"
+      },
+      {
         "id": "karriere_at:10028263",
         "source": "karriere_at",
         "title": "Fachkoordinator:in (m/w/d) Unternehmensrecht & Rechnungslegung",
@@ -597,20 +620,6 @@
         "snippet": "Aufbereitung von Fachthemen im Unternehmensrecht und Rechnungslegung. Organisation und Begleitung von Arbeitsgruppen. Abgeschlossenes Studium (Uni/FH) und erste Erfahrung als Berufsanwärter:in (Steuerberatung/Wirtschaftsprüfung) oder einschlägige Erfahrung in Rechnungslegung/Unternehmensrecht. Zusammenarbeit mit anerkannten Expert:innen.",
         "first_seen": "2026-08-19T14:01:53.765722Z",
         "fingerprint": "d25dcd616451dd789c03d4fdbd715cb6ddece32df088a56b1149ffd3918ec055"
-      },
-      {
-        "id": "karriere_at:10028990",
-        "source": "karriere_at",
-        "title": "Assistent:in in der Rechtsabteilung (m/w/d)",
-        "company": "Österreichische Notariatskammer",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10028990",
-        "salary": "ab 2.700 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": "Unterstützung von Jurist:innen bei Berichten, Fristenverwaltung und Korrespondenz. Abgeschlossene Schulausbildung oder Lehre zur Rechtskanzleiassistent:in erforderlich. Kostenlose interne Weiterbildungen.",
-        "first_seen": "2026-08-07T09:28:00.453961Z",
-        "fingerprint": "caa05401d3e47915bae9e05d4764425180c46acab0c6aa77800b70891db964a8"
       },
       {
         "id": "karriere_at:10031774",
@@ -667,6 +676,20 @@
         "snippet": "Rechtliche Betreuung des operativen Geschäfts, Vertragsprüfung und -erstellung. Erforderlich: Abgeschlossenes Studium der Rechtswissenschaften in Österreich, betriebswirtschaftliche Grundkenntnisse und Erfahrung mit KI-Tools. Vorteil: Sinnstiftende Tätigkeit in einem innovativen Unternehmen.",
         "first_seen": "2026-08-18T10:01:21.124068Z",
         "fingerprint": "d379ee0a6380a410697ac42c91ec7104dd863d0f742e21410e6f1ae75af060b2"
+      },
+      {
+        "id": "karriere_at:10032942",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter:in",
+        "company": "Forvis Mazars",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10032942",
+        "salary": "ab 55.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Beratung nationaler/internationaler Mandanten in Zivil-/Unternehmensrecht, Analyse von Verfahren, Erstellung von Gutachten. 2-4 Jahre Berufserfahrung im Bereich Dispute Resolution erforderlich. Flexible Arbeitszeiten und Homeoffice werden geboten.",
+        "first_seen": "2026-09-16T14:55:53.410663Z",
+        "fingerprint": "df4a27cbbd9b4a7854c66cc29c4a005ede9d9d1366a716929aa483533798ea51"
       },
       {
         "id": "karriere_at:10032173",
@@ -775,10 +798,10 @@
         "url": "https://www.karriere.at/jobs/10032220",
         "salary": "ab 60.074 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "8.9.2026",
         "snippet": "Führung von Verwaltungsverfahren im Telekommunikationsrecht, insbesondere Infrastrukturrechte. Abgeschlossenes Studium der Rechtswissenschaften erforderlich. Kontinuierliche Weiterbildungsmöglichkeiten und persönliche Entwicklung werden geboten.",
         "first_seen": "2026-09-08T15:23:15.944482Z",
-        "fingerprint": "c10aedcaec3ac08f0dec8f2a72e730d6510a20d89f107bcaa0c6337e07afa340"
+        "fingerprint": "9cc7a54ff424ee591cecaa77c80683f13ba794505604576c957f261e5fb6d066"
       },
       {
         "id": "karriere_at:10031128",
@@ -933,20 +956,6 @@
         "snippet": "Jurist:in Betrug & Regress Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein...",
         "first_seen": "2026-07-20T07:48:38.987255Z",
         "fingerprint": "995564d4deffe14cd4749fbebf94e93e9f0c9821118171dd5996f51823fe4cfe"
-      },
-      {
-        "id": "karriere_at:7832501",
-        "source": "karriere_at",
-        "title": "Jurist:in mit Schwerpunkt IT-Vertragsrecht",
-        "company": "ÖBB-Konzern",
-        "location": "Wien 2. Bezirk (Leopoldstadt)",
-        "url": "https://www.karriere.at/jobs/7832501",
-        "salary": "ab 56.854 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
-        "snippet": "Jetzt bewerben Jurist:in mit Schwerpunkt IT-Vertragsrecht ÖBB-BCC GmbH Wien-Leopoldstadt, Wien, 1020, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req25594 Wir möchten neue Wege...",
-        "first_seen": "2026-06-24T15:14:16.915261Z",
-        "fingerprint": "43030e2c441137a249d9f1390bfc8159bc038d11cc85a8dfe3f9ee8b95b83791"
       },
       {
         "id": "karriere_at:7876708",
@@ -1706,6 +1715,21 @@
         "fingerprint": "0d73659d56c4fc1ac2061ffab07e584035ef49e6f369fec0cddd87604af6ec41"
       },
       {
+        "id": "stepstone:1000603",
+        "source": "stepstone",
+        "title": "Junior Legal Counsel (m/w/d)",
+        "company": "ROXCEL Trading GmbH",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Junior-Legal-Counsel-m-w-d-Wien-ROXCEL-Trading-GmbH--1000603-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-09-16T16:02:02+02:00",
+        "department": null,
+        "snippet": "Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel sind Sie in unserem Finanz-Team eingegliedert und arbeiten eng mit dem Riskmanagement-Team zusam",
+        "first_seen": "2026-09-02T15:16:05.898527Z",
+        "fingerprint": "4483ad27b1c889ef456caa14d9aebe7af58658b82bb8d9bc3c11f719f81d2844"
+      },
+      {
         "id": "stepstone:994936",
         "source": "stepstone",
         "title": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht",
@@ -1734,21 +1758,6 @@
         "snippet": "Die KRAFTKINZ Powergroup GmbH mit Sitz in Wien sucht erfahrene Verstärkung für unser Team im Bereich PR, Kommunikation, Social Media & Eventmanagement. Wir setzen auf Strategie- und Kommunikation, sind sehr engagiert – mit Fokus auf Payment, Nachhaltigkeit und Unternehmenspositionierung. Damit s",
         "first_seen": "2026-07-31T15:35:33.400804Z",
         "fingerprint": "fac566e403354d87dbf65c45017f3a437e3491f2bdaefa74617c54618e597433"
-      },
-      {
-        "id": "stepstone:1000603",
-        "source": "stepstone",
-        "title": "Junior Legal Counsel (m/w/d)",
-        "company": "ROXCEL Trading GmbH",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Junior-Legal-Counsel-m-w-d-Wien-ROXCEL-Trading-GmbH--1000603-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-09-09T16:02:01+02:00",
-        "department": null,
-        "snippet": "Wir sind eine erfolgreiche Unternehmensgruppe, die als internationales Handelshaus weltweit tätig ist und sind führender Exporthandelspartner in der Papier- und Kartonindustrie. Als Junior Legal Counsel sind Sie in unserem Finanz-Team eingegliedert und arbeiten eng mit dem Riskmanagement-Team zusam",
-        "first_seen": "2026-09-02T15:16:05.898527Z",
-        "fingerprint": "e4cf3a51a0f70517529bb1a930ba10a1309df79c17fec2d599eb2f8086d209a3"
       },
       {
         "id": "stepstone:998620",
@@ -1916,6 +1925,7 @@
       "derstandard:a328019f-0787-3ac7-99f5-0e2788ea0ef1",
       "derstandard:beba0bc1-b0b5-3c6b-97e1-eed8e00fa1ff",
       "derstandard:bf69b400-5e8d-3e05-973e-b3cea79add1d",
+      "derstandard:e92b6f70-bf03-3917-aa0a-9e6a1331a5aa",
       "derstandard:f9351baf-d587-3a65-a827-7bd585e06f79",
       "erste_bank:33517",
       "erste_bank:33549",
@@ -1999,6 +2009,7 @@
       "jusjobs:2067058",
       "jusjobs:2070361",
       "jusjobs:2075215",
+      "jusjobs:2078941",
       "jusjobs:432457",
       "jusjobs:712767",
       "jusjobs:970720",
@@ -2037,6 +2048,7 @@
       "karriere_at:10032220",
       "karriere_at:10032483",
       "karriere_at:10032509",
+      "karriere_at:10032942",
       "karriere_at:7663251",
       "karriere_at:7663254",
       "karriere_at:7663257",
