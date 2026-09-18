@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-18T06:43:03.355762Z",
+  "timestamp": "2026-09-18T11:54:06.133394Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-09-18T06:43:03.355762Z",
+        "last_success": "2026-09-18T11:54:06.133394Z",
         "last_error": null,
         "count": 24
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-09-18T06:43:03.355762Z",
+        "last_success": "2026-09-18T11:54:06.133394Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-09-18T06:43:03.355762Z",
+        "last_success": "2026-09-18T11:54:06.133394Z",
         "last_error": null,
         "count": 2
       },
@@ -29,21 +29,21 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-09-18T06:43:03.355762Z",
+        "last_success": "2026-09-18T11:54:06.133394Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-09-18T06:43:03.355762Z",
+        "last_success": "2026-09-18T11:54:06.133394Z",
         "last_error": null,
         "count": 67
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-09-18T06:43:03.355762Z",
+        "last_success": "2026-09-18T11:54:06.133394Z",
         "last_error": null,
-        "count": 29
+        "count": 32
       }
     },
     "jobs": [
@@ -139,19 +139,6 @@
         "fingerprint": "e22c2f28aad48ba93f2a70026490e3e94de88fbf939606420dc0541ff70eab63"
       },
       {
-        "id": "jusjobs:1998503",
-        "source": "jusjobs",
-        "title": "Jurist:Juristin",
-        "company": "Versicherungsanstalt öffentlich Bediensteter, Eisenbahnen und Bergbau",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1998503",
-        "salary": "€ 3.891",
-        "employment_type": "Vollzeit",
-        "snippet": "Die BVAEB sucht eine:n Jurist:Juristin in Wien. Standort: Wien, AT, 1080. Wochenstunden: 40.",
-        "first_seen": "2026-08-21T13:57:04.751316Z",
-        "fingerprint": "9cd1a6b494cf0a60628c9cb5ce21088aacadcef7f2f8fab0c5836ec350970ad2"
-      },
-      {
         "id": "jusjobs:2003243",
         "source": "jusjobs",
         "title": "Jurist*in mit Schwerpunkt Arbeits- und Sozialrecht",
@@ -176,6 +163,19 @@
         "snippet": "Juristische Vollzeitposition bei Wien Energie mit Fokus auf M&A, Unternehmensrecht, Vertragsrecht und Compliance.",
         "first_seen": "2026-09-03T18:47:00.035224Z",
         "fingerprint": "30e32be4be077cb16e9f33a5f0fb8a9ff6011271726eaa28790b1e7128d5d56f"
+      },
+      {
+        "id": "jusjobs:1897279",
+        "source": "jusjobs",
+        "title": "Expert*in für Compliance und Unternehmensrecht (w/m/d)",
+        "company": "Kuratorium für Psychosoziale Dienste Wien",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1897279",
+        "salary": "€ 4.920",
+        "employment_type": "Vollzeit",
+        "snippet": "Anforderungen in Prozesse zu übersetzen Freundlichkeit, Geduld und Freude am Austausch mit Menschen verschiedener Berufsgruppen Ausgezeichnete Deutschkenntnisse in Wort und…",
+        "first_seen": "2026-09-18T11:54:06.133863Z",
+        "fingerprint": "78ced57697e6420b7aa76195deb3db84d399a4a1fdd70907db2d63d0f5c4e80c"
       },
       {
         "id": "jusjobs:2079823",
@@ -507,16 +507,6 @@
         "fingerprint": "563402fb5926690cbcc073303834c82b85e75fe2c706763caa9a34c989a23bf1"
       },
       {
-        "id": "derstandard:9ce0f78c-4c08-3f49-b326-2fa6f5794235",
-        "source": "derstandard",
-        "title": "Jurist:in mit Schwerpunkt \"Auslagerungs-, Drittparteien- und Vertragsmanagement\" (w/m/d)",
-        "company": "Raiffeisenlandesbank NÖ-Wien AG",
-        "location": "Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/9ce0f78c-4c08-3f49-b326-2fa6f5794235",
-        "first_seen": "2026-09-09T16:33:43.307515Z",
-        "fingerprint": "6a521fc9c538d8d8d1d55c0aafa9c1f5f3933e63d4883c7f4df8f8a161eec2d9"
-      },
-      {
         "id": "derstandard:a328019f-0787-3ac7-99f5-0e2788ea0ef1",
         "source": "derstandard",
         "title": "Senior Associate Tax Litigation | Juristische:r Mitarbeiter:in (m/w/d)",
@@ -525,6 +515,16 @@
         "url": "https://jobs.derstandard.at/job/a328019f-0787-3ac7-99f5-0e2788ea0ef1",
         "first_seen": "2026-08-10T13:38:07.124294Z",
         "fingerprint": "4c98ef107b2665c916a4a049376b4328ffef088a3bb3d736294139fae2825149"
+      },
+      {
+        "id": "derstandard:9ce0f78c-4c08-3f49-b326-2fa6f5794235",
+        "source": "derstandard",
+        "title": "Jurist:in mit Schwerpunkt \"Auslagerungs-, Drittparteien- und Vertragsmanagement\" (w/m/d)",
+        "company": "Raiffeisenlandesbank NÖ-Wien AG",
+        "location": "Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/9ce0f78c-4c08-3f49-b326-2fa6f5794235",
+        "first_seen": "2026-09-09T16:33:43.307515Z",
+        "fingerprint": "6a521fc9c538d8d8d1d55c0aafa9c1f5f3933e63d4883c7f4df8f8a161eec2d9"
       },
       {
         "id": "derstandard:493881e6-0fb9-314e-8516-5e773697b397",
@@ -695,10 +695,10 @@
         "url": "https://www.karriere.at/jobs/10032942",
         "salary": "ab 55.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Beratung nationaler/internationaler Mandanten in Zivil-/Unternehmensrecht, Analyse von Verfahren, Erstellung von Gutachten. 2-4 Jahre Berufserfahrung im Bereich Dispute Resolution erforderlich. Flexible Arbeitszeiten und Homeoffice werden geboten.",
         "first_seen": "2026-09-16T14:55:53.410663Z",
-        "fingerprint": "6c48c762a95d49bd8f29fcc73190109e92e2ce92e0a9671c2d65939c240b0224"
+        "fingerprint": "b5c643a84355cedf10ef00ded65a1a0401cf5cae2e254d6341c25c1a9d352cae"
       },
       {
         "id": "karriere_at:10032173",
@@ -989,10 +989,10 @@
         "url": "https://www.karriere.at/jobs/7876708",
         "salary": "ab 5.028,44 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Das geprägt ist durch Teamgeist, Offenheit, Wertschätzung und Kollegialität. Als Teil eines Klimakonzerns ist uns Nachhaltigkeit wichtig, gute öffentliche Anbindung in die...",
         "first_seen": "2026-09-15T15:05:35.409732Z",
-        "fingerprint": "0b38abb265c138988ce4e0f7b20961df45b0d7a584c295dfee67cdab663d57d4"
+        "fingerprint": "1a7f3a54462a6c1457b7be7ec82e8e67c2eee7974f2dc584eb6d6b553cdf55a0"
       },
       {
         "id": "karriere_at:7871470",
@@ -1532,6 +1532,51 @@
         "fingerprint": "c560059073f1dddc8330839e8895ee0d72c31ccc16b5560b48386a181a76a87e"
       },
       {
+        "id": "stepstone:1003621",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter / Rechtsanwalt (w/m/d) Nachhaltigkeitsrecht, Öffentliches Recht, Vergaberecht",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-Rechtsanwalt-w-m-d-Nachhaltigkeitsrecht-Oeffentliches-Recht-Vergaberecht-Wien-l-m-executive-search-consulting-gmbh--1003621-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-09-18T11:02:08+02:00",
+        "department": null,
+        "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Sie wollen die Weichen für eine erfolgreiche Karriere stellen? Für eine bekannte Größe in Wien suchen wir engagierte und motivierte Rechtsanwaltsanwärter (m/w/d) mit Interesse an den Fachbereichen an der",
+        "first_seen": "2026-09-18T11:54:23.056158Z",
+        "fingerprint": "531ee7bd74873dc1434a6d177625acaf0c41b3d009cd519db5022dba6b200d14"
+      },
+      {
+        "id": "stepstone:1003623",
+        "source": "stepstone",
+        "title": "Rechtsanwalt (w/m/d) White Collar Crime & Dispute Resolution",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-w-m-d-White-Collar-Crime-Dispute-Resolution-Wien-l-m-executive-search-consulting-gmbh--1003623-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-09-18T11:13:00+02:00",
+        "department": null,
+        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unser Kunde zählt zu den führenden, international renommierten Wirtschaftskanzleien Österreichs und ist insbesondere im Bereich Wirtschaftsstrafrecht und Dispute Resolution als Top-Tier-Adresse etablie",
+        "first_seen": "2026-09-18T11:54:23.056158Z",
+        "fingerprint": "42b1935f778fa0253d4f914da7227bd7b47eb2d0b7bbbecbb83274b9f75e6e02"
+      },
+      {
+        "id": "stepstone:1003622",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in im Bereich Litigation & Arbitration",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-im-Bereich-Litigation-Arbitration-Wien-l-m-executive-search-consulting-gmbh--1003622-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-09-18T11:05:36+02:00",
+        "department": null,
+        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Exzellente Ausbildung trifft auf internationale Fälle. Für Persönlichkeiten mit Format. Unser Kunde ist eine international anerkannte Wirtschaftskanzlei mit Sitz im Herzen der Wiener Innenstadt – beka",
+        "first_seen": "2026-09-18T11:54:23.056158Z",
+        "fingerprint": "6a5852b2c52ce6ba796cbeb189af67888829654b6c2733e167190cfaa1c0aecb"
+      },
+      {
         "id": "stepstone:996409",
         "source": "stepstone",
         "title": "Rechtsanwaltsanwärter/-in",
@@ -1735,11 +1780,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--998620-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-09-05T07:53:56+02:00",
+        "published_at": "2026-09-05T09:01:51+02:00",
         "department": null,
         "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
         "first_seen": "2026-08-21T08:53:58.901646Z",
-        "fingerprint": "9cbb5ef3c0314075e3329b115ac3a982b105b8975948e53b4246387abd111b1a"
+        "fingerprint": "213383b637e52c992028696b4b5711fa1d63223145ed2c50d2130ae3296b155f"
       },
       {
         "id": "stepstone:999948",
@@ -2158,6 +2203,9 @@
       "stepstone:1001468",
       "stepstone:1001730",
       "stepstone:1002054",
+      "stepstone:1003621",
+      "stepstone:1003622",
+      "stepstone:1003623",
       "stepstone:633580",
       "stepstone:929613",
       "stepstone:934776",
