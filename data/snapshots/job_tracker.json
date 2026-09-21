@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-20T23:29:13.509145Z",
+  "timestamp": "2026-09-21T01:36:33.665675Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-09-20T23:29:13.509145Z",
+        "last_success": "2026-09-21T01:36:33.665675Z",
         "last_error": null,
         "count": 23
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-09-20T23:29:13.509145Z",
+        "last_success": "2026-09-21T01:36:33.665675Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-09-20T23:29:13.509145Z",
+        "last_success": "2026-09-21T01:36:33.665675Z",
         "last_error": null,
         "count": 2
       },
@@ -29,19 +29,19 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-09-20T23:29:13.509145Z",
+        "last_success": "2026-09-21T01:36:33.665675Z",
         "last_error": null,
         "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-09-20T23:29:13.509145Z",
+        "last_success": "2026-09-21T01:36:33.665675Z",
         "last_error": null,
-        "count": 67
+        "count": 66
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-09-20T23:29:13.509145Z",
+        "last_success": "2026-09-21T01:36:33.665675Z",
         "last_error": null,
         "count": 32
       }
@@ -494,16 +494,6 @@
         "fingerprint": "563402fb5926690cbcc073303834c82b85e75fe2c706763caa9a34c989a23bf1"
       },
       {
-        "id": "derstandard:a328019f-0787-3ac7-99f5-0e2788ea0ef1",
-        "source": "derstandard",
-        "title": "Senior Associate Tax Litigation | Juristische:r Mitarbeiter:in (m/w/d)",
-        "company": "BDO Austria GmbH",
-        "location": "1100 Wien, Home-Office",
-        "url": "https://jobs.derstandard.at/job/a328019f-0787-3ac7-99f5-0e2788ea0ef1",
-        "first_seen": "2026-08-10T13:38:07.124294Z",
-        "fingerprint": "4c98ef107b2665c916a4a049376b4328ffef088a3bb3d736294139fae2825149"
-      },
-      {
         "id": "derstandard:9ce0f78c-4c08-3f49-b326-2fa6f5794235",
         "source": "derstandard",
         "title": "Jurist:in mit Schwerpunkt \"Auslagerungs-, Drittparteien- und Vertragsmanagement\" (w/m/d)",
@@ -512,6 +502,16 @@
         "url": "https://jobs.derstandard.at/job/9ce0f78c-4c08-3f49-b326-2fa6f5794235",
         "first_seen": "2026-09-09T16:33:43.307515Z",
         "fingerprint": "6a521fc9c538d8d8d1d55c0aafa9c1f5f3933e63d4883c7f4df8f8a161eec2d9"
+      },
+      {
+        "id": "derstandard:a328019f-0787-3ac7-99f5-0e2788ea0ef1",
+        "source": "derstandard",
+        "title": "Senior Associate Tax Litigation | Juristische:r Mitarbeiter:in (m/w/d)",
+        "company": "BDO Austria GmbH",
+        "location": "1100 Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/a328019f-0787-3ac7-99f5-0e2788ea0ef1",
+        "first_seen": "2026-08-10T13:38:07.124294Z",
+        "fingerprint": "4c98ef107b2665c916a4a049376b4328ffef088a3bb3d736294139fae2825149"
       },
       {
         "id": "derstandard:493881e6-0fb9-314e-8516-5e773697b397",
@@ -646,6 +646,34 @@
         "fingerprint": "fd4fa913ead5c43366ed86d8de028b30d51d3309e02e77898c8e2970a60e9c84"
       },
       {
+        "id": "karriere_at:10028461",
+        "source": "karriere_at",
+        "title": "IT-affine/r Unternehmensjurist:in (m/w/d)",
+        "company": "Sportsbook Software GmbH",
+        "location": "Wien 22. Bezirk (Donaustadt)",
+        "url": "https://www.karriere.at/jobs/10028461",
+        "salary": "ab 70.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Rechtliche Beratung für IT- und Technologieprojekte im iGaming, Erstellung von IT-Verträgen, Kenntnisse im IT-Vertragsrecht und DSGVO. Fortbildungsmöglichkeiten.",
+        "first_seen": "2026-08-04T18:19:39.603160Z",
+        "fingerprint": "3b6d04949dd3a5d0c13d38a4721f6c24eab8e7d6b5cfe217f7165bb024f76ae7"
+      },
+      {
+        "id": "karriere_at:10027642",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter:in (all genders) im Kartellrecht",
+        "company": "Forvis Mazars",
+        "location": "Wien 2. Bezirk (Leopoldstadt)",
+        "url": "https://www.karriere.at/jobs/10027642",
+        "salary": "ab 48.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Beratung von Mandanten im Kartellrecht, Erstellung von Rechtsgutachten und Stellungnahmen. 1-2 Jahre Berufserfahrung im Kartellrecht wünschenswert. Ausgezeichnete Deutsch- und Englischkenntnisse. Flexible Arbeitszeiten und Homeoffice.",
+        "first_seen": "2026-07-27T08:43:23.853673Z",
+        "fingerprint": "6ae86d21163194a51e5198a8ae046b0e909306abac130609a4c5ef09357a5cce"
+      },
+      {
         "id": "karriere_at:10029477",
         "source": "karriere_at",
         "title": "Unternehmensjurist:in (m/w/d)",
@@ -756,34 +784,6 @@
         "snippet": "Umfassende Beratung im Gesellschaftsrecht und bei M&A-Transaktionen. Erstellung und Verhandlung gesellschaftsrechtlicher Dokumente. Fließende Deutsch- und Englischkenntnisse sind erforderlich. Möglichkeit zur eigenverantwortlichen Mandatsbearbeitung mit direktem Mandantenkontakt.",
         "first_seen": "2026-08-05T07:20:49.171539Z",
         "fingerprint": "a4d44a16d3fb4a24f1e8f276bd5eda6f97b5907594e20256203cb6d8fd027a36"
-      },
-      {
-        "id": "karriere_at:10028461",
-        "source": "karriere_at",
-        "title": "IT-affine/r Unternehmensjurist:in (m/w/d)",
-        "company": "Sportsbook Software GmbH",
-        "location": "Wien 22. Bezirk (Donaustadt)",
-        "url": "https://www.karriere.at/jobs/10028461",
-        "salary": "ab 70.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "12.9.2026",
-        "snippet": "Rechtliche Beratung für IT- und Technologieprojekte im iGaming, Erstellung von IT-Verträgen, Kenntnisse im IT-Vertragsrecht und DSGVO. Fortbildungsmöglichkeiten.",
-        "first_seen": "2026-08-04T18:19:39.603160Z",
-        "fingerprint": "216b88ec61aa4239892f26e3b91de70fa74ec09d2c073a33f9349c7bec6d3a07"
-      },
-      {
-        "id": "karriere_at:10027642",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter:in (all genders) im Kartellrecht",
-        "company": "Forvis Mazars",
-        "location": "Wien 2. Bezirk (Leopoldstadt)",
-        "url": "https://www.karriere.at/jobs/10027642",
-        "salary": "ab 48.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "11.9.2026",
-        "snippet": "Beratung von Mandanten im Kartellrecht, Erstellung von Rechtsgutachten und Stellungnahmen. 1-2 Jahre Berufserfahrung im Kartellrecht wünschenswert. Ausgezeichnete Deutsch- und Englischkenntnisse. Flexible Arbeitszeiten und Homeoffice.",
-        "first_seen": "2026-07-27T08:43:23.853673Z",
-        "fingerprint": "7bf38c851948caee1d02ba384f098e845dc6314198f8cd1b94b99b9a729df7ce"
       },
       {
         "id": "karriere_at:10031913",
@@ -1148,20 +1148,6 @@
         "snippet": "Juristin (w/m/d) Arbeitsrecht, Arbeitszeitrecht und betriebsverfassungsrechtliches Arbeitsrecht Teil- oder Vollzeit (30-37,5 Stunden/Woche) Jetzt bewerben Ob im Fahrdienst, in den Werkstätten...",
         "first_seen": "2026-09-02T11:29:35.915194Z",
         "fingerprint": "a0e97b3c12be7a85f590fd3ebbbe9be655aad6617086c0e28d548b19c2bfaf8d"
-      },
-      {
-        "id": "karriere_at:7848584",
-        "source": "karriere_at",
-        "title": "Berufsanwärter Fokus Gesundheitswesen (m/w/d)",
-        "company": "Ecovis Austria Wirtschaftsprüfungs- und Steuerberatungsgesellschaft m.b.H.",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7848584",
-        "salary": "ab 3.100 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
-        "snippet": "Deine Aufgaben: Du übernimmst die eigenständige Betreuung von Klienten vorwiegend aus dem Gesundheitsbereich. Du bist u.a. zuständig für die Betreuung von großen Gruppenpraxen und Primärversorgungszentren...",
-        "first_seen": "2026-07-22T07:26:46.145818Z",
-        "fingerprint": "6df9ef5f62eec47aeea6dc49612c92980df17dfd6d54d6b78c29718e78f58bcb"
       },
       {
         "id": "karriere_at:7663257",
