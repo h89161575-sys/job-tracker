@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-01T06:09:57.567544Z",
+  "timestamp": "2026-10-01T13:33:04.245653Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-10-01T06:09:57.567544Z",
+        "last_success": "2026-10-01T13:33:04.245653Z",
         "last_error": null,
         "count": 30
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-10-01T06:09:57.567544Z",
+        "last_success": "2026-10-01T13:33:04.245653Z",
         "last_error": null,
         "count": 1
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-10-01T06:09:57.567544Z",
+        "last_success": "2026-10-01T13:33:04.245653Z",
         "last_error": null,
         "count": 2
       },
@@ -29,24 +29,37 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-10-01T06:09:57.567544Z",
+        "last_success": "2026-10-01T13:33:04.245653Z",
         "last_error": null,
-        "count": 5
+        "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-10-01T06:09:57.567544Z",
+        "last_success": "2026-10-01T13:33:04.245653Z",
         "last_error": null,
-        "count": 65
+        "count": 64
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-10-01T06:09:57.567544Z",
+        "last_success": "2026-10-01T13:33:04.245653Z",
         "last_error": null,
-        "count": 34
+        "count": 35
       }
     },
     "jobs": [
+      {
+        "id": "jusjobs:1976115",
+        "source": "jusjobs",
+        "title": "Jurist:in in der Abteilung Gesundheitssystem, Prävention und Versorgung (GPV)",
+        "company": "Dachverband der Sozialversicherungsträger",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/1976115",
+        "salary": "€ 4.166",
+        "employment_type": "Praktikum",
+        "snippet": "Jurist:in für Gesundheits-, Sozialversicherungs- und Vertragspartnerangelegenheiten beim Dachverband der Sozialversicherungsträger in Wien.",
+        "first_seen": "2026-08-13T02:41:39.432450Z",
+        "fingerprint": "11e8898331a0401fcaf7db1a9cdb342dd7a4358eb957a00c88d323e97260e521"
+      },
       {
         "id": "jusjobs:1979851",
         "source": "jusjobs",
@@ -55,10 +68,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1979851",
         "salary": "€ 4.063",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Junior Product Owner für Anwendungen im Umfeld der österreichischen Justiz mit Schwerpunkt Konzeption, Analyse und agile Weiterentwicklung von Justiz 3.0 Anwendungen.",
         "first_seen": "2026-08-20T11:01:03.062870Z",
-        "fingerprint": "29fbbfb8fe1c661f8576aa041dcfa4b35fe5143ff1f0c097abeaa0ea2470096d"
+        "fingerprint": "5cf1733bea50b5b2bfccf569936868f74577b523fa968a3b9db113d2f014e0ed"
       },
       {
         "id": "jusjobs:2070361",
@@ -72,19 +85,6 @@
         "snippet": "Senior Rechtsanwaltsanwärter:in bzw. Anwält:in für EU- und Kartellrecht in Wien bei Schönherr.",
         "first_seen": "2026-08-18T11:12:16.448759Z",
         "fingerprint": "ebaa25eb858e43ee796e837ff6ad6da821074f7b7fdeb6f009d9bd73152482ab"
-      },
-      {
-        "id": "jusjobs:1976115",
-        "source": "jusjobs",
-        "title": "Jurist:in in der Abteilung Gesundheitssystem, Prävention und Versorgung (GPV)",
-        "company": "Dachverband der Sozialversicherungsträger",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1976115",
-        "salary": "€ 4.166",
-        "employment_type": "Vollzeit",
-        "snippet": "Jurist:in für Gesundheits-, Sozialversicherungs- und Vertragspartnerangelegenheiten beim Dachverband der Sozialversicherungsträger in Wien.",
-        "first_seen": "2026-08-13T02:41:39.432450Z",
-        "fingerprint": "ad265f015e5a3e5e96e260948daa1dff8994333bde788e36cebf315a74b83062"
       },
       {
         "id": "jusjobs:2057651",
@@ -595,6 +595,16 @@
         "fingerprint": "6d4f65c6401e12edaf551786bb3ed4d2f832fd652723f9d860dbe6dab90563a5"
       },
       {
+        "id": "derstandard:7f91dcf6-252d-3c09-ac27-cc4115882438",
+        "source": "derstandard",
+        "title": "Leitung Arbeitsrecht (w/m/d)",
+        "company": "Österreichische Post AG",
+        "location": "Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/7f91dcf6-252d-3c09-ac27-cc4115882438",
+        "first_seen": "2026-10-01T13:33:16.878785Z",
+        "fingerprint": "11f578dbb877a3802e61d481ad06052e6d0ca4e1d0e1c9593ad6201dc62526db"
+      },
+      {
         "id": "derstandard:e8db2d4a-dcc0-3869-a861-018003bd968d",
         "source": "derstandard",
         "title": "(Senior) Associate in der Steuerberatung mit Schwerpunkt Private Clients / Estate Planning",
@@ -625,20 +635,6 @@
         "fingerprint": "35dd05f7bd17a1fc30c4690dae81a55a414c9eae4e567af3dbbc3a8742ec4fa9"
       },
       {
-        "id": "karriere_at:10032483",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) Wettbewerbsrecht",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10032483",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Verfassen von Memoranden, Rechtsgutachten und Berichten. Erstellung von Schriftsätzen. Mitarbeit bei Kartellrechtsverfahren. EU-beihilferechtliche Beratung. Ausgezeichnete Englischkenntnisse sind Voraussetzung. Exzellente Entwicklungsmöglichkeiten.",
-        "first_seen": "2026-09-10T13:53:39.551225Z",
-        "fingerprint": "9ed9bbb18d04deccf3c21c6f1a1b86f5f76dc5392f8b5ac242cf4be46a732cb7"
-      },
-      {
         "id": "karriere_at:10032509",
         "source": "karriere_at",
         "title": "Wirtschaftsjurist:in (m/w/d)",
@@ -651,6 +647,20 @@
         "snippet": "Juristische Recherchen und Marktüberwachung, Mitwirkung bei Prüfung von Angebotsunterlagen. Abgeschlossenes Studium der Rechtswissenschaften oder Wirtschaftsrecht. Sehr gute Kenntnisse im Gesellschafts- und Kapitalmarktrecht. Einblicke in die Praxis börsennotierter Unternehmen.",
         "first_seen": "2026-09-10T13:53:39.551225Z",
         "fingerprint": "a3b89671a54689a595c18b86c395fc869298292fd471780cd6371ae0382af3f0"
+      },
+      {
+        "id": "karriere_at:10032483",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) Wettbewerbsrecht",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10032483",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Verfassen von Memoranden, Rechtsgutachten und Berichten. Erstellung von Schriftsätzen. Mitarbeit bei Kartellrechtsverfahren. EU-beihilferechtliche Beratung. Ausgezeichnete Englischkenntnisse sind Voraussetzung. Exzellente Entwicklungsmöglichkeiten.",
+        "first_seen": "2026-09-10T13:53:39.551225Z",
+        "fingerprint": "9ed9bbb18d04deccf3c21c6f1a1b86f5f76dc5392f8b5ac242cf4be46a732cb7"
       },
       {
         "id": "karriere_at:10028263",
@@ -801,24 +811,10 @@
         "url": "https://www.karriere.at/jobs/10034001",
         "salary": "ab 2.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Rechtswissenschaftliches Studium für Koordination rechtlicher Agenden, Erstellung von Rechtsgutachten und Vertragsverwaltung. Erfahrung im Datenschutzrecht von Vorteil. Verantwortungsvolle Tätigkeit.",
         "first_seen": "2026-09-28T17:03:55.353439Z",
-        "fingerprint": "4ad58e0b931980cabed69fba5bcac11dfe354f5360210aacc2d7f33cbc861e1d"
-      },
-      {
-        "id": "karriere_at:10029477",
-        "source": "karriere_at",
-        "title": "Unternehmensjurist:in (m/w/d)",
-        "company": "Verkehrsverbund Ost-Region (VOR) Gesellschaft m.b.H.",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10029477",
-        "salary": "ab 46.871 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Rechtliche Betreuung in Vergaberecht, Datenschutz und KI-VO. Vorbereitung und Durchführung öffentlicher Ausschreibungen nach BVergG. Erstellung und Prüfung von Verträgen. Mehrjährige Berufserfahrung in Rechtsabteilung/Kanzlei. Bis zu 40% Homeoffice möglich.",
-        "first_seen": "2026-08-13T07:58:14.386351Z",
-        "fingerprint": "e9ee60b52d576aab556e2df42580c28acbce2b947fe3f7cf0b06048008bb9d8e"
+        "fingerprint": "b66c1850c6cf76bb008224172f67c02ccbb17b53157ea10272c09cd5f5ffcc93"
       },
       {
         "id": "karriere_at:10032942",
@@ -973,6 +969,20 @@
         "snippet": "Where talented people are in good company Rechtsanwalt oder Steuerberater im Bereich Tax (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges...",
         "first_seen": "2026-09-03T11:41:06.512169Z",
         "fingerprint": "0513b15ceb693d4aa7a93fe83a44af071727f03f97056797ff8154e9472b3fda"
+      },
+      {
+        "id": "karriere_at:7885330",
+        "source": "karriere_at",
+        "title": "Jurist:in (w/m/x)",
+        "company": "IMV Immobilien Management GmbH",
+        "location": "1040 Wien",
+        "url": "https://www.karriere.at/jobs/7885330",
+        "salary": "ab 3.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Deine Aufgaben: Bearbeitung diverser Rechtsgeschäfte im Miet- und Wohnungseigentumrecht, Betreuung der von Anwälten geführten Mietzins- und Räumungsklagen, Durchführung von Schlichtungsstellenverfahren, Erstellung...",
+        "first_seen": "2026-10-01T13:33:16.880862Z",
+        "fingerprint": "d0a71e2087ac1ae8329271965b8d78e7987ccd70e7e3b9527e4019daca15c322"
       },
       {
         "id": "karriere_at:7868155",
@@ -1155,20 +1165,6 @@
         "snippet": "Ihre Aufgaben: Sie wirken in der Vertretung der österreichischen Interessen auf EU- und internationaler Ebene im Bereich Digitalisierung und E-Government mit und beteiligen sich aktiv an Verhandlungen von einschlägigen...",
         "first_seen": "2026-09-14T13:03:20.530807Z",
         "fingerprint": "4098b5834a60c291220dfb416cc81faffaa5a19881a74912e1ed849b87a50de0"
-      },
-      {
-        "id": "karriere_at:7860712",
-        "source": "karriere_at",
-        "title": "Rechtsanwält:in im Bereich Öffentliches Recht | Schwerpunkt Vergaberecht",
-        "company": "EY Law – Pelzmann Gall Größ Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7860712",
-        "salary": null,
-        "employment_type": "Vollzeit",
-        "published_at": "23.9.2026",
-        "snippet": "Rechtsanwält:in im Bereich Öffentliches Recht I Schwerpunkt Vergaberecht Wien | Vollzeit | ab sofort | EY Law Team & Umfeld Das 5-köpfige Team rund um Andreas Lopatka-Sint...",
-        "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "192ff9b4e9c8aa0a04970dc170d263d92b025fa2028f91b62062c99ab1eb7695"
       },
       {
         "id": "karriere_at:7880017",
@@ -1417,10 +1413,10 @@
         "url": "https://www.karriere.at/jobs/10033635",
         "salary": "ab 4.300 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "23.9.2026",
         "snippet": "Eigenverantwortliche risikobasierte Revisionsprüfungen mit Schwerpunkt Geldwäsche. Mindestens fünf Jahre Berufserfahrung im Bereich Wirtschaftsprüfung, Compliance oder Revision. Einblick in die Arbeit der Selbstverwaltung der Wiener Rechtsanwaltschaft.",
         "first_seen": "2026-09-23T17:19:10.927643Z",
-        "fingerprint": "d4567c31f24c00f73f846199ee4cb4175a2ed118c1f30482140c6b1ac5b2cc81"
+        "fingerprint": "73652a9c922e8995608c5a00dc0a5a9dfd920f62cc5a1e76260eadb98881f26a"
       },
       {
         "id": "karriere_at:7860775",
@@ -1531,11 +1527,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Juristin-Arbeitsrecht-Personal-m-w-d-1190-Wien-Caritas-der-Erzdioezese-Wien--1004739-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-24T03:19:21+02:00",
+        "published_at": "2026-09-24T03:08:59+02:00",
         "department": "Home Office",
         "snippet": "Du suchst eine juristische Schlüsselrolle mit Gestaltungsspielraum und echtem Mehrwert? Im HR-Team der Caritas der Erzdiözese Wien verbinden wir fundiertes Arbeitsrecht mit strategischer Personalarbeit. Bei uns bringst du deine arbeitsrechtliche Expertise dort ein, wo sie etwas bewegt. Zur Verstärku",
         "first_seen": "2026-09-24T12:20:03.576289Z",
-        "fingerprint": "367788f26ec43297328d9ecb76d0f2045b7132f260766640022e60cb5d1a7c15"
+        "fingerprint": "561e05181424a2e85697a12b68fd9f04082d8c8dcd1ebd3ae2279fc6e2f0bbe2"
       },
       {
         "id": "stepstone:1003623",
@@ -1853,6 +1849,21 @@
         "fingerprint": "1487da160ba8d4f1e119609ceeda9b9eb02ffcf18d4ca99e1ddce20d9066854b"
       },
       {
+        "id": "stepstone:1005782",
+        "source": "stepstone",
+        "title": "Assistenz (m/w/d) Unterstützung für das Team Recht (Vertragsrecht/Mietrecht)",
+        "company": "Supernova Invest GmbH",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Assistenz-m-w-d-Unterstuetzung-fuer-das-Team-Recht-Vertragsrecht-Mietrecht-Wien-Supernova-Invest-GmbH--1005782-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-01T02:32:32+02:00",
+        "department": null,
+        "snippet": "Sie sind organisiert, verlässlich und behalten auch dann den Überblick, wenn mehrere Themen gleichzeitig anstehen ? Dann freuen wir uns darauf, Sie kennenzulernen! Zur Verstärkung unseres Rechtsteams suchen wir eine engagierte Assistenz, die unsere Juristen im Bereich Vertrags- und Mietrecht im Arbe",
+        "first_seen": "2026-10-01T13:33:23.937464Z",
+        "fingerprint": "9d8469f9a62cbe2da3a4666a97b5d6df996d8828af42a8a54e19222c61a0d51a"
+      },
+      {
         "id": "stepstone:947468",
         "source": "stepstone",
         "title": "Anwaltsassistent:in (d/f/m)",
@@ -1866,6 +1877,21 @@
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
         "fingerprint": "68ff3e9d466693a00779e4197dfe21fc1d1147fcce196bb7ea8160c62d07f0fe"
+      },
+      {
+        "id": "stepstone:947469",
+        "source": "stepstone",
+        "title": "Mitarbeiter:in Abendsekretariat/-empfang (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Mitarbeiter-in-Abendsekretariat-empfang-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947469-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-08-26T03:17:51+02:00",
+        "department": null,
+        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mi",
+        "first_seen": "2026-10-01T13:33:23.937464Z",
+        "fingerprint": "0609e99de5125d8a97b08da4ad343649738e99417143083b3e8b2b4634d253da"
       },
       {
         "id": "stepstone:1000490",
@@ -1943,21 +1969,6 @@
         "fingerprint": "77c35720481239635ee16278cd0dc28f377bdb15828a748937d22c803e79d082"
       },
       {
-        "id": "stepstone:978610",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsassistent:in (w/m/x)",
-        "company": "Taylor Wessing Austria",
-        "location": "Vienna",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-w-m-x-Vienna-Taylor-Wessing-Austria--978610-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-09-20T00:20:35+02:00",
-        "department": "Home Office",
-        "snippet": "Taylor Wessing ist eine globale Anwaltssozietät, die den innovativsten Menschen und Unternehmen der Welt beratend zur Seite steht. Unsere 26 Offices in 16 Jurisdiktionen verbinden das Beste aus lokalem Business-, Industrie- und Kultur Know-how mit internationaler Erfahrung, um unseren Mandant:innen",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "ff00ac2a070039d0b141d89873e1ab94c2a94c976461d8744da1ab0c1ed704d7"
-      },
-      {
         "id": "stepstone:1000569",
         "source": "stepstone",
         "title": "Senior / Expert-Mitarbeiter (w/m/d) in der Forschungsabteilung Unfallprävention",
@@ -1966,11 +1977,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Senior-Expert-Mitarbeiter-w-m-d-in-der-Forschungsabteilung-Unfallpraevention-Wien-Kuratorium-fuer-Verkehrssicherheit-Wien--1000569-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-09-23T12:02:02+02:00",
+        "published_at": "2026-10-01T12:02:04+02:00",
         "department": "Home Office",
         "snippet": "Die Aufgabe des KFV ist es, das Unfallgeschehen zu Hause, in der Freizeit und beim Sport in Österreich zu reduzieren und sich für die Sicherheit und das Wohlbefinden der österreichischen Bevölkerung einzusetzen. Unser Bereich Haushalt, Freizeit, Sportsicherheit ist auf der Suche nach einem",
         "first_seen": "2026-09-02T11:29:43.350159Z",
-        "fingerprint": "2b0aebae33801b4f7355ca66321dc085b2cdda98ce7a3d8b47463ad9463ade05"
+        "fingerprint": "07dc7e32ab4eb7c21549bc616a55ecb6bb5ae789f17469131a1d04f93cfab62b"
       }
     ],
     "seen_ids": [
@@ -1980,6 +1991,7 @@
       "derstandard:32cbb839-aa9e-3566-8bd9-f869113832bf",
       "derstandard:493881e6-0fb9-314e-8516-5e773697b397",
       "derstandard:6a05a551-9465-31c4-b400-9381281e82ca",
+      "derstandard:7f91dcf6-252d-3c09-ac27-cc4115882438",
       "derstandard:8f1ba88f-9a44-3649-aee7-467c9c481a60",
       "derstandard:946f2e3e-9f35-3f24-bbc0-d1fc87e1d6e2",
       "derstandard:95688895-7734-3724-a843-557e8f37b042",
@@ -2261,6 +2273,7 @@
       "karriere_at:7880248",
       "karriere_at:7882012",
       "karriere_at:7883833",
+      "karriere_at:7885330",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
@@ -2293,6 +2306,7 @@
       "stepstone:1004739",
       "stepstone:1004857",
       "stepstone:1005379",
+      "stepstone:1005782",
       "stepstone:633580",
       "stepstone:929613",
       "stepstone:934776",
