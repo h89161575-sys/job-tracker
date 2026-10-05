@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-05T07:12:26.503100Z",
+  "timestamp": "2026-10-05T16:11:50.763676Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-10-05T07:12:26.503100Z",
+        "last_success": "2026-10-05T16:11:50.763676Z",
         "last_error": null,
         "count": 24
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-10-05T07:12:26.503100Z",
+        "last_success": "2026-10-05T16:11:50.763676Z",
         "last_error": null,
-        "count": 1
+        "count": 2
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-10-05T07:12:26.503100Z",
+        "last_success": "2026-10-05T16:11:50.763676Z",
         "last_error": null,
         "count": 2
       },
@@ -29,19 +29,19 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-10-05T07:12:26.503100Z",
+        "last_success": "2026-10-05T16:11:50.763676Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-10-05T07:12:26.503100Z",
+        "last_success": "2026-10-05T16:11:50.763676Z",
         "last_error": null,
         "count": 63
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-10-05T07:12:26.503100Z",
+        "last_success": "2026-10-05T16:11:50.763676Z",
         "last_error": null,
         "count": 36
       }
@@ -360,6 +360,19 @@
         "fingerprint": "013e14747ae186abc45e650e6cfc55d5cace3a431c05f88e6a037620033b4358"
       },
       {
+        "id": "erste_bank:34561",
+        "source": "erste_bank",
+        "title": "Rechtsexpert (w/m/d)",
+        "company": "Intermarket Bank AG",
+        "location": "Wien",
+        "url": "https://www.sparkasse.at/erstebank/karriere-spk/job-detail/rechtsexpert-w-m-d/34561",
+        "employment_type": "Vollzeit",
+        "department": "Recht & Operationales RM",
+        "published_at": "05.10.2026",
+        "first_seen": "2026-10-05T16:11:57.138026Z",
+        "fingerprint": "65edca232c47163ac60b8171aa5c1fcd84404d6f4af40243e2d17ad3834d9e46"
+      },
+      {
         "id": "erste_bank:34485",
         "source": "erste_bank",
         "title": "(FH-/Uni-) Internship, Legal Expert Non-Banking Legal (w/m/d)",
@@ -599,20 +612,6 @@
         "fingerprint": "5e017cbd2b27bdec6c5270857f5fae012c43306ccb637ded3ff77147ea95a034"
       },
       {
-        "id": "karriere_at:10031218",
-        "source": "karriere_at",
-        "title": "Senior Legal Assistant (m/f/d)",
-        "company": "Valneva Austria GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10031218",
-        "salary": "ab 44.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
-        "first_seen": "2026-08-31T15:02:20.466416Z",
-        "fingerprint": "8c0d47dde6e041b2cbe40a9087404dd67de12ceae1c9ca33200fa9470b087a8b"
-      },
-      {
         "id": "karriere_at:10029897",
         "source": "karriere_at",
         "title": "Legal Counsel (w/m/d)",
@@ -705,10 +704,10 @@
         "url": "https://www.karriere.at/jobs/10034351",
         "salary": "ab 5.309,60 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Rechtliche Beratung, Compliance, Arbeits- und Sozialrecht, Immobilienrecht, Baurecht. Mehrjährige Berufserfahrung als Jurist:in, idealerweise im Immobilienwesen. Langfristige Festanstellung.",
         "first_seen": "2026-09-30T15:52:38.184264Z",
-        "fingerprint": "f94e5f75b9f508bfbc2150f8c294e097ff5d660b4d711da99618a088757527aa"
+        "fingerprint": "374d320d2c993ad490248a2653de6747a84e36ac7e9a8326741220d1c5a6880c"
       },
       {
         "id": "karriere_at:10034253",
@@ -739,6 +738,20 @@
         "fingerprint": "30d16338a78a8d5ddedbe851b322c15ec3728081a776a637d3614da72cbe3f35"
       },
       {
+        "id": "karriere_at:10031218",
+        "source": "karriere_at",
+        "title": "Senior Legal Assistant (m/f/d)",
+        "company": "Valneva Austria GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10031218",
+        "salary": "ab 44.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
+        "first_seen": "2026-08-31T15:02:20.466416Z",
+        "fingerprint": "8c0d47dde6e041b2cbe40a9087404dd67de12ceae1c9ca33200fa9470b087a8b"
+      },
+      {
         "id": "karriere_at:10034001",
         "source": "karriere_at",
         "title": "Jurist/in",
@@ -747,10 +760,10 @@
         "url": "https://www.karriere.at/jobs/10034001",
         "salary": "ab 2.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Rechtswissenschaftliches Studium für Koordination rechtlicher Agenden, Erstellung von Rechtsgutachten und Vertragsverwaltung. Erfahrung im Datenschutzrecht von Vorteil. Verantwortungsvolle Tätigkeit.",
         "first_seen": "2026-09-28T17:03:55.353439Z",
-        "fingerprint": "f1558d3e95370336c377963d278e1b487951d81373541774868ecd9dd0a79b1e"
+        "fingerprint": "d40d0180c49f7dc40c2db3cb3a6f42f62fdaef1a14509260fa09cb3ca6db82e9"
       },
       {
         "id": "karriere_at:10032942",
@@ -817,10 +830,10 @@
         "url": "https://www.karriere.at/jobs/7887667",
         "salary": "ab 3.710,56 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Legal Counsel (m/w/d) Vollzeit Wien Die DenizBank AG, ein Mitglied der weltweit erfolgreichen DenizBank Financial Services Group und Emirates NBD, ist eine österreichische Universalbank...",
         "first_seen": "2026-10-02T15:06:04.115964Z",
-        "fingerprint": "496d537860aeaaec2b15cfccdd64869d34cdcfcde2612d79c59ee33839eac876"
+        "fingerprint": "e186c9836b0cc867a124d49d16b12d3385c91c8d29da98ddccd0e753b25ba9e2"
       },
       {
         "id": "karriere_at:7858319",
@@ -902,7 +915,7 @@
         "salary": "ab 80.000 € jährlich",
         "employment_type": "Vollzeit",
         "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": "Deine Aufgaben: Du übernimmst die fachliche, personelle und wirtschaftliche Führung des Fachbereichs Recht und entwickelst diesen mit Weitblick und Entscheidungsstärke gemeinsam mit deinem Team der Jurist＊innen...",
+        "snippet": "Deine Aufgaben: Du übernimmst die fachliche, personelle und wirtschaftliche Führung des Fachbereichs Recht und entwickelst diesen mit Weitblick und Entscheidungsstärke gemeinsam mit deinem Team...",
         "first_seen": "2026-08-24T14:22:48.476674Z",
         "fingerprint": "d0874b24b2992206b1c3ce02532dd32728511c12079ef88b9144983ba8212191"
       },
@@ -916,7 +929,7 @@
         "salary": "ab 56.894,32 € jährlich",
         "employment_type": "Vollzeit",
         "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": "Ihre Aufgaben: Sie wirken in der Vertretung der österreichischen Interessen auf EU- und internationaler Ebene im Bereich Digitalisierung und E-Government mit und beteiligen sich aktiv an Verhandlungen von einschlägigen...",
+        "snippet": "Ihre Aufgaben: Sie wirken in der Vertretung der österreichischen Interessen auf EU- und internationaler Ebene im Bereich Digitalisierung und E-Government mit und beteiligen sich aktiv an Verhandlungen von...",
         "first_seen": "2026-09-14T13:03:20.530807Z",
         "fingerprint": "1c0dc1aa36ac3543d5fda631d6582de79bd49f84f11467a3c0778ddb3a5e538d"
       },
@@ -1434,11 +1447,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Juristin-Arbeitsrecht-Personal-m-w-d-1190-Wien-Caritas-der-Erzdioezese-Wien--1006503-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-10-02T16:23:58+02:00",
+        "published_at": "2026-10-02T12:57:28+02:00",
         "department": "Home Office",
         "snippet": "Du suchst eine juristische Schlüsselrolle mit Gestaltungsspielraum und echtem Mehrwert? Im HR-Team der Caritas der Erzdiözese Wien verbinden wir fundiertes Arbeitsrecht mit strategischer Personalarbeit. Bei uns bringst du deine arbeitsrechtliche Expertise dort ein, wo sie etwas bewegt. Zur Verstärku",
         "first_seen": "2026-10-02T19:56:24.159435Z",
-        "fingerprint": "a5bff4b20f5be178348a5d29da63056f1cd092b81037c30964e29ef58f9f31e7"
+        "fingerprint": "f66370fe4df5dca9753dc41d68f3c5a57053159b23745d5e1762017307191053"
       },
       {
         "id": "stepstone:999199",
@@ -1529,6 +1542,21 @@
         "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Exzellente Ausbildung trifft auf internationale Fälle. Für Persönlichkeiten mit Format. Unser Kunde ist eine international anerkannte Wirtschaftskanzlei mit Sitz im Herzen der Wiener Innenstadt – beka",
         "first_seen": "2026-09-18T11:54:23.056158Z",
         "fingerprint": "e6d232ee7cbba8ac0d9d4313b5477c6a1c9574f1f1e9475707ef9e06e25051ce"
+      },
+      {
+        "id": "stepstone:995185",
+        "source": "stepstone",
+        "title": "Rechtsanwalt / erfahrenenen Rechtsanwaltsanwärter (w/m/d) (Regulatorisches) Bankenrecht /Kapitalmarktrecht",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-erfahrenenen-Rechtsanwaltsanwaerter-w-m-d-Regulatorisches-Bankenrecht-Kapitalmarktrecht-Wien-l-m-executive-search-consulting-gmbh--995185-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-09-28T09:03:45+02:00",
+        "department": "Home Office",
+        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unsere Klientin ist eine international ausgezeichnete Wirtschaftskanzlei mit exzellenter Reputation – bekannt für ihre internationale Tätigkeit im Bereich Bank- und Finanzdienstleistung. Die Kanzlei ve",
+        "first_seen": "2026-07-29T16:37:27.029091Z",
+        "fingerprint": "df154d36429ef6b4d3d6aa257ce72e1a13bb882fadbb3db858670e52349a3fd7"
       },
       {
         "id": "stepstone:994936",
@@ -1681,21 +1709,6 @@
         "fingerprint": "ef41604415b143b28bffb2f8cba490ef0f79bfd812d696e7309be6296cc97be4"
       },
       {
-        "id": "stepstone:995185",
-        "source": "stepstone",
-        "title": "Rechtsanwalt / erfahrenenen Rechtsanwaltsanwärter (w/m/d) (Regulatorisches) Bankenrecht /Kapitalmarktrecht",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-erfahrenenen-Rechtsanwaltsanwaerter-w-m-d-Regulatorisches-Bankenrecht-Kapitalmarktrecht-Wien-l-m-executive-search-consulting-gmbh--995185-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-09-28T09:03:45+02:00",
-        "department": "Home Office",
-        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unsere Klientin ist eine international ausgezeichnete Wirtschaftskanzlei mit exzellenter Reputation – bekannt für ihre internationale Tätigkeit im Bereich Bank- und Finanzdienstleistung. Die Kanzlei ve",
-        "first_seen": "2026-07-29T16:37:27.029091Z",
-        "fingerprint": "df154d36429ef6b4d3d6aa257ce72e1a13bb882fadbb3db858670e52349a3fd7"
-      },
-      {
         "id": "stepstone:995186",
         "source": "stepstone",
         "title": "Rechtsanwalt Transaktionen (w/m/d)",
@@ -1711,6 +1724,21 @@
         "fingerprint": "2205166ff014547afca7c0403e7f4de1f0a043938b4adb2763427fd232e98192"
       },
       {
+        "id": "stepstone:998620",
+        "source": "stepstone",
+        "title": "Legal Counsel (m/w/d)",
+        "company": "Iventa. The Human Management Group",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--998620-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-05T09:56:29+02:00",
+        "department": null,
+        "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
+        "first_seen": "2026-08-21T08:53:58.901646Z",
+        "fingerprint": "22b7b54f52a8c5b97add5adecb9a5f162df46eb4d66e741edfbb232f4bd21e6b"
+      },
+      {
         "id": "stepstone:1004857",
         "source": "stepstone",
         "title": "In-House Legal Counsel & Governance Officer (all genders)",
@@ -1724,21 +1752,6 @@
         "snippet": "Our client, Vienna International School – Austria, seeks a In-House Legal Counsel & Governance Officer (all genders) Full-time (38.5 hours/week) - as soon as possible Shape the Legal & Governance Landscape of a Leading International School Are you an experienced legal pr",
         "first_seen": "2026-09-25T13:02:05.352200Z",
         "fingerprint": "3b6fdce5dc722e766129224cf2c71b988eb816c2ae1ca87e354b5548bf0fdf18"
-      },
-      {
-        "id": "stepstone:998620",
-        "source": "stepstone",
-        "title": "Legal Counsel (m/w/d)",
-        "company": "Iventa. The Human Management Group",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--998620-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-09-20T08:04:45+02:00",
-        "department": null,
-        "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
-        "first_seen": "2026-08-21T08:53:58.901646Z",
-        "fingerprint": "88fd3d11390e63139d3976a8690c5fc8f4998409565d00557df4957b34b9ba28"
       },
       {
         "id": "stepstone:999948",
@@ -1949,6 +1962,7 @@
       "erste_bank:33950",
       "erste_bank:34294",
       "erste_bank:34485",
+      "erste_bank:34561",
       "jusjobs:1171941",
       "jusjobs:1235995",
       "jusjobs:1625057",
