@@ -1,25 +1,25 @@
 {
-  "timestamp": "2026-10-08T06:19:33.565598Z",
+  "timestamp": "2026-10-08T13:47:05.556218Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-10-08T06:19:33.565598Z",
+        "last_success": "2026-10-08T13:47:05.556218Z",
         "last_error": null,
         "count": 22
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-10-08T06:19:33.565598Z",
+        "last_success": "2026-10-08T13:47:05.556218Z",
         "last_error": null,
         "count": 2
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-10-08T06:19:33.565598Z",
+        "last_success": "2026-10-08T13:47:05.556218Z",
         "last_error": null,
-        "count": 2
+        "count": 3
       },
       "lawfinder": {
         "label": "LawFinder",
@@ -29,21 +29,21 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-10-08T06:19:33.565598Z",
+        "last_success": "2026-10-08T13:47:05.556218Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-10-08T06:19:33.565598Z",
+        "last_success": "2026-10-08T13:47:05.556218Z",
         "last_error": null,
-        "count": 66
+        "count": 64
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-10-08T06:19:33.565598Z",
+        "last_success": "2026-10-08T13:47:05.556218Z",
         "last_error": null,
-        "count": 35
+        "count": 36
       }
     },
     "jobs": [
@@ -358,6 +358,18 @@
         "published_at": "25.09.2026",
         "first_seen": "2026-09-25T17:55:41.490567Z",
         "fingerprint": "d8c7fefb704c3117d0ec06bccf0ab090f4b264c5859086d4dd90ec887e911e17"
+      },
+      {
+        "id": "uniqa:722821cd872a7445",
+        "source": "uniqa",
+        "title": "Jurist:in für Compliance & Regulatorik im Vertrieb (m/w/d) - Region Ost, West oder Süd",
+        "company": "UNIQA",
+        "location": "Wien, AT",
+        "url": "https://careers.uniqagroup.com/job/Wien-Juristin-f%C3%BCr-Compliance-&-Regulatorik-im-Vertrieb-%28mwd%29-Region-Ost%2C-West-oder-S%C3%BCd/1445257333/?feedId=null&utm_source=J2WRSS&utm_medium=rss&utm_campaign=J2W_RSS",
+        "published_at": "Wed, 07 Oct 2026 0:00:00 GMT",
+        "snippet": "Competencies: Effektive Lösungen finden; Eigenverantwortung fördern; Handlungsorientiert; Verantwortungsbewusst handeln Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein besseres Leben. Wir nutzen unsere individuellen Fähigkeiten, um zusammen eine bessere Zukunft zu gestalten. Erzähle uns von deinen Stärken und bewirb dich als Jurist:in für Compliance & Regulatorik im Vertrieb (m/w/d) - Region Ost, West oder Süd Gemeinsam besser leben bedeutet auch, regulatorische Anforderungen verständlich in die Praxis zu bringen. Für unsere Landesdirektionen schaffen wir daher eine neue regionale Ansprechfunktion f",
+        "first_seen": "2026-10-08T13:47:12.557616Z",
+        "fingerprint": "a2af94c7298f32e34f3f35e89f6e213c8e8c52f0746c1ff9978bdeb710694ebd"
       },
       {
         "id": "uniqa:85274a4a8c59d054",
@@ -684,20 +696,6 @@
         "fingerprint": "d393b6bd6c9460d3f542b50a0beaef150f27fbeba77c3f55c450961aa9f37d2f"
       },
       {
-        "id": "karriere_at:10028461",
-        "source": "karriere_at",
-        "title": "IT-affine/r Unternehmensjurist:in (m/w/d)",
-        "company": "Sportsbook Software GmbH",
-        "location": "Wien 22. Bezirk (Donaustadt)",
-        "url": "https://www.karriere.at/jobs/10028461",
-        "salary": "ab 70.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-10-06T16:14:34.995185Z",
-        "fingerprint": "7d57cdf53341efb8dc100af95e5e897237f050c66175e1a44dcc7f9c42cf0c55"
-      },
-      {
         "id": "karriere_at:10033232",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter:in (all genders) im Kartellrecht",
@@ -762,10 +760,10 @@
         "url": "https://www.karriere.at/jobs/10034351",
         "salary": "ab 5.309,60 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "30.9.2026",
         "snippet": "Rechtliche Beratung, Compliance, Arbeits- und Sozialrecht, Immobilienrecht, Baurecht. Mehrjährige Berufserfahrung als Jurist:in, idealerweise im Immobilienwesen. Langfristige Festanstellung.",
         "first_seen": "2026-09-30T15:52:38.184264Z",
-        "fingerprint": "17d51e8a0e5130841741c240d2edb64aae297d2b75c5fa27bb283e979d6f1f5c"
+        "fingerprint": "aa612c625cbab01a88a78704ab6b26c1ae0847b5ed9d0cd81aa375af90187baa"
       },
       {
         "id": "karriere_at:10034253",
@@ -776,10 +774,10 @@
         "url": "https://www.karriere.at/jobs/10034253",
         "salary": "ab 4.126 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "30.9.2026",
         "snippet": "Beratung zu Vertrags- und Gesellschaftsrecht, Erstellung und Verhandlung von Verträgen sowie Recherchen zu Rechtsthemen. Mehrjährige Berufserfahrung in relevanten Rechtsbereichen ist erforderlich. Bietet Unterstützung bei persönlicher und beruflicher Entwicklung.",
         "first_seen": "2026-09-30T08:58:47.786998Z",
-        "fingerprint": "e48c1b899b6f4f932f595aed6aac6640758fc5818fcbecb039fd5329f8ed4915"
+        "fingerprint": "b327b66d63fbfbfda10c80e03265b24e4e79931ea5b5a88eda47194f95ea3521"
       },
       {
         "id": "karriere_at:10031218",
@@ -810,20 +808,6 @@
         "fingerprint": "3f2932756c3941188288d4e0b9941f75432a996ea447046e4a43c40f2d45e9bf"
       },
       {
-        "id": "karriere_at:7889881",
-        "source": "karriere_at",
-        "title": "Junior Content Quality Manager (w/m/d) – Legal & Data Protection",
-        "company": "kununu Austria GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7889881",
-        "salary": "34.000 € – 38.000 € jährlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
-        "snippet": "Deine Aufgaben: Bearbeitung von Anfragen von Nutzer: innen und Unternehmen im Ticket-System. Prüfung neu eingehender Bewertungen und anderer nutzergenerierter Inhalte anhand gesetzlicher Vorgaben und der...",
-        "first_seen": "2026-10-06T16:14:34.995185Z",
-        "fingerprint": "4111d0ad497b3bb2922335f2a7fa6c19e71b470827f2c848e0f49b5879362d5a"
-      },
-      {
         "id": "karriere_at:7876978",
         "source": "karriere_at",
         "title": "Senior Legal Counsel Technology & AI / IT Law (m/w/x)",
@@ -846,10 +830,10 @@
         "url": "https://www.karriere.at/jobs/7887667",
         "salary": "ab 3.710,56 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Legal Counsel (m/w/d) Vollzeit Wien Die DenizBank AG, ein Mitglied der weltweit erfolgreichen DenizBank Financial Services Group und Emirates NBD, ist eine österreichische Universalbank...",
         "first_seen": "2026-10-02T15:06:04.115964Z",
-        "fingerprint": "6309a8c61504c5ddbf6f219d9ded41ff2c12eee6ed4a4db25f1a1c68c2807ac8"
+        "fingerprint": "7e6a53c87beda45537fdb04cda6440ca78617568931f5b0b05dc55658e8e90f0"
       },
       {
         "id": "karriere_at:7858319",
@@ -1440,19 +1424,19 @@
         "fingerprint": "50ac4beb433e23726582ab18130d6e72e2c3695f56a4c2eb44174f75fa7fb189"
       },
       {
-        "id": "stepstone:999199",
+        "id": "stepstone:992085",
         "source": "stepstone",
-        "title": "Jurist*in mit Schwerpunkt Arbeits- und Sozialrecht (Vollzeit)",
-        "company": "Häuser zum Leben",
+        "title": "Jurist*in (w/m/d)",
+        "company": "Ärztekammer für Wien",
         "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Juristin-mit-Schwerpunkt-Arbeits-und-Sozialrecht-Vollzeit-Wien-Haeuser-zum-Leben--999199-inline.html",
+        "url": "https://www.stepstone.at/stellenangebote--Juristin-w-m-d-Wien-Aerztekammer-fuer-Wien--992085-inline.html",
         "salary": null,
-        "employment_type": "Vollzeit, Home Office",
-        "published_at": "2026-10-06T12:02:02+02:00",
-        "department": "Home Office",
-        "snippet": "Die Häuser zum Leben sind Österreichs Marktführer in der Senior*innenbetreuung. Rund 5.000 Mitarbeiter*innen aus über 80 Berufen betreiben mit viel Herz und Kompetenz unsere 30 Häuser zum Leben sowie 135 Pensionist*innenklubs für die Stadt Wien. Der Bereich Human Resources ist nicht nur für das Rec",
-        "first_seen": "2026-08-25T09:47:50.484894Z",
-        "fingerprint": "a430d42b86f7707098d2a39e3b16b76d45e84c7e4b2cf2055c64395187eaaf09"
+        "employment_type": null,
+        "published_at": "2026-10-08T14:41:00+02:00",
+        "department": "Schnelle Bewerbung",
+        "snippet": "Wir vertreten dynamisch die Interessen aller Wiener Ärzt*innen und sichern ihre Zukunft! Wir nutzen alle Herausforderungen zur Gestaltung der Zukunft und übernehmen die Themenführerschaft im Gesundheitsbereich. Ärzt*innen sowie Mitarbeiter*innen wirken dabei entschlossen zusammen. Die ärztliche Ethi",
+        "first_seen": "2026-10-08T13:47:21.722523Z",
+        "fingerprint": "4ee077d3a338e4b0ac6c61968d4ff0ac7895c086322cdaec41db328cc0140672"
       },
       {
         "id": "stepstone:1006503",
@@ -1463,11 +1447,56 @@
         "url": "https://www.stepstone.at/stellenangebote--Juristin-Arbeitsrecht-Personal-m-w-d-1190-Wien-Caritas-der-Erzdioezese-Wien--1006503-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-10-02T00:15:50+02:00",
+        "published_at": "2026-10-02T20:31:15+02:00",
         "department": "Home Office",
         "snippet": "Du suchst eine juristische Schlüsselrolle mit Gestaltungsspielraum und echtem Mehrwert? Im HR-Team der Caritas der Erzdiözese Wien verbinden wir fundiertes Arbeitsrecht mit strategischer Personalarbeit. Bei uns bringst du deine arbeitsrechtliche Expertise dort ein, wo sie etwas bewegt. Zur Verstärku",
         "first_seen": "2026-10-02T19:56:24.159435Z",
-        "fingerprint": "1bac4e38eee5f8fa5a3b30e7e51630e1cb6927a2c4a95ff675c9b5d0e6063375"
+        "fingerprint": "9053d6ee7693f6eb6eb00b618dd4400d68df613a74c56cf09869ca4597b5ebb4"
+      },
+      {
+        "id": "stepstone:1003623",
+        "source": "stepstone",
+        "title": "Rechtsanwalt (w/m/d) White Collar Crime & Dispute Resolution",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-w-m-d-White-Collar-Crime-Dispute-Resolution-Wien-l-m-executive-search-consulting-gmbh--1003623-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-08T12:02:03+02:00",
+        "department": null,
+        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unser Kunde zählt zu den führenden, international renommierten Wirtschaftskanzleien Österreichs und ist insbesondere im Bereich Wirtschaftsstrafrecht und Dispute Resolution als Top-Tier-Adresse etablie",
+        "first_seen": "2026-09-18T11:54:23.056158Z",
+        "fingerprint": "997293dc03b56e652d5a3ba612fb8c67006c4a9e331eb3517b0b28f27f053024"
+      },
+      {
+        "id": "stepstone:1003622",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in im Bereich Litigation & Arbitration",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-im-Bereich-Litigation-Arbitration-Wien-l-m-executive-search-consulting-gmbh--1003622-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-08T12:02:03+02:00",
+        "department": null,
+        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Exzellente Ausbildung trifft auf internationale Fälle. Für Persönlichkeiten mit Format. Unser Kunde ist eine international anerkannte Wirtschaftskanzlei mit Sitz im Herzen der Wiener Innenstadt – beka",
+        "first_seen": "2026-09-18T11:54:23.056158Z",
+        "fingerprint": "e30de85dd7093eaa366224a48dc7974fd8913c20c10e4cdb5c0b354db372d1c1"
+      },
+      {
+        "id": "stepstone:995185",
+        "source": "stepstone",
+        "title": "Rechtsanwalt / erfahrenenen Rechtsanwaltsanwärter (w/m/d) (Regulatorisches) Bankenrecht /Kapitalmarktrecht",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-erfahrenenen-Rechtsanwaltsanwaerter-w-m-d-Regulatorisches-Bankenrecht-Kapitalmarktrecht-Wien-l-m-executive-search-consulting-gmbh--995185-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-10-08T10:02:02+02:00",
+        "department": "Home Office",
+        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unsere Klientin ist eine international ausgezeichnete Wirtschaftskanzlei mit exzellenter Reputation – bekannt für ihre internationale Tätigkeit im Bereich Bank- und Finanzdienstleistung. Die Kanzlei ve",
+        "first_seen": "2026-07-29T16:37:27.029091Z",
+        "fingerprint": "a5d512940055295f3563a600ffd6d82d5bc14166bb3f0b1733abb58293ef8d19"
       },
       {
         "id": "stepstone:934776",
@@ -1485,21 +1514,6 @@
         "fingerprint": "3674a7dd2216977c37f89f4bf236f5b15ad017bca025aacad21f03970819d58c"
       },
       {
-        "id": "stepstone:929613",
-        "source": "stepstone",
-        "title": "Rechtsanwält:in Dispute Resolution / Litigation (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Dispute-Resolution-Litigation-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--929613-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-10-02T00:53:26+02:00",
-        "department": "Home Office",
-        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "847967dd33d8b02ebe4b443227a8ab4f3176cd785aeb912d21f522e8086ccc03"
-      },
-      {
         "id": "stepstone:982028",
         "source": "stepstone",
         "title": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise",
@@ -1513,6 +1527,36 @@
         "snippet": "lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech",
         "first_seen": "2026-06-30T20:54:00.747169Z",
         "fingerprint": "88d43a016f574a5a90cef32c6179e1d5360ee98ccf86807ca30bc0511bb8f389"
+      },
+      {
+        "id": "stepstone:1003621",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter / Rechtsanwalt (w/m/d) Nachhaltigkeitsrecht, Öffentliches Recht, Vergaberecht",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-Rechtsanwalt-w-m-d-Nachhaltigkeitsrecht-Oeffentliches-Recht-Vergaberecht-Wien-l-m-executive-search-consulting-gmbh--1003621-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-08T11:02:04+02:00",
+        "department": null,
+        "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Sie wollen die Weichen für eine erfolgreiche Karriere stellen? Für eine bekannte Größe in Wien suchen wir engagierte und motivierte Rechtsanwaltsanwärter (m/w/d) mit Interesse an den Fachbereichen an der",
+        "first_seen": "2026-09-18T11:54:23.056158Z",
+        "fingerprint": "070f239d1967bad59551ae6869f575805ebb272130a7657ef1e0f24d4ba95a44"
+      },
+      {
+        "id": "stepstone:995186",
+        "source": "stepstone",
+        "title": "Rechtsanwalt Transaktionen (w/m/d)",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-Transaktionen-w-m-d-Wien-l-m-executive-search-consulting-gmbh--995186-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-08T10:02:02+02:00",
+        "department": null,
+        "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Wir verstärken aktuell eine renommierte Wiener Anwaltskanzlei, die für exzellente Beratung im Bereich M&A und Gesellschaftsrecht steht. Auf Basis einer gewachsenen Sozietätsstruktur werden hier kompl",
+        "first_seen": "2026-07-29T16:37:27.029091Z",
+        "fingerprint": "f6cca8fefeb3247f320c62751d0ff852d2c476d79c69beec8db6f85b6188b2d8"
       },
       {
         "id": "stepstone:976441",
@@ -1530,51 +1574,6 @@
         "fingerprint": "d2607c32d04f7ac0ad16a4a25f41b1e3fe0dcaccbe77aca41284c2a2fffc6c8a"
       },
       {
-        "id": "stepstone:1003623",
-        "source": "stepstone",
-        "title": "Rechtsanwalt (w/m/d) White Collar Crime & Dispute Resolution",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-w-m-d-White-Collar-Crime-Dispute-Resolution-Wien-l-m-executive-search-consulting-gmbh--1003623-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-09-28T12:02:05+02:00",
-        "department": null,
-        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unser Kunde zählt zu den führenden, international renommierten Wirtschaftskanzleien Österreichs und ist insbesondere im Bereich Wirtschaftsstrafrecht und Dispute Resolution als Top-Tier-Adresse etablie",
-        "first_seen": "2026-09-18T11:54:23.056158Z",
-        "fingerprint": "e9fcf601e908956212a6e59561e927b7cbfa48fbf8b0422b578bb2aef46d80f1"
-      },
-      {
-        "id": "stepstone:1003622",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in im Bereich Litigation & Arbitration",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-im-Bereich-Litigation-Arbitration-Wien-l-m-executive-search-consulting-gmbh--1003622-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-09-28T12:02:05+02:00",
-        "department": null,
-        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Exzellente Ausbildung trifft auf internationale Fälle. Für Persönlichkeiten mit Format. Unser Kunde ist eine international anerkannte Wirtschaftskanzlei mit Sitz im Herzen der Wiener Innenstadt – beka",
-        "first_seen": "2026-09-18T11:54:23.056158Z",
-        "fingerprint": "e6d232ee7cbba8ac0d9d4313b5477c6a1c9574f1f1e9475707ef9e06e25051ce"
-      },
-      {
-        "id": "stepstone:995185",
-        "source": "stepstone",
-        "title": "Rechtsanwalt / erfahrenenen Rechtsanwaltsanwärter (w/m/d) (Regulatorisches) Bankenrecht /Kapitalmarktrecht",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-erfahrenenen-Rechtsanwaltsanwaerter-w-m-d-Regulatorisches-Bankenrecht-Kapitalmarktrecht-Wien-l-m-executive-search-consulting-gmbh--995185-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-09-28T09:03:45+02:00",
-        "department": "Home Office",
-        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unsere Klientin ist eine international ausgezeichnete Wirtschaftskanzlei mit exzellenter Reputation – bekannt für ihre internationale Tätigkeit im Bereich Bank- und Finanzdienstleistung. Die Kanzlei ve",
-        "first_seen": "2026-07-29T16:37:27.029091Z",
-        "fingerprint": "df154d36429ef6b4d3d6aa257ce72e1a13bb882fadbb3db858670e52349a3fd7"
-      },
-      {
         "id": "stepstone:1006852",
         "source": "stepstone",
         "title": "Juristische:r Mitarbeiter:in / Inhouse Legal Counsel (m/w/d) - Teilzeit 20-30 Stunden",
@@ -1588,21 +1587,6 @@
         "snippet": "Wir unterstützen Unternehmen im B2B-Umfeld mit Softwarelösungen ausgewählter Partner sowie Services rund um SIAM und ITSM. Für die weitere Professionalisierung unseres Unternehmens suchen wir eine engagierte juristische Persönlichkeit, die uns bei vertraglichen und allgemeinen rechtlichen Fragestell",
         "first_seen": "2026-10-06T09:23:30.053231Z",
         "fingerprint": "b83cbc7b57794355a90b3ff28487c4845697a6190054edfed89e8c2d601c7db7"
-      },
-      {
-        "id": "stepstone:994936",
-        "source": "stepstone",
-        "title": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-m-w-d-im-Immobilienrecht-Prozessrecht-Wien-l-m-executive-search-consulting-gmbh--994936-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-10-05T09:02:01+02:00",
-        "department": null,
-        "snippet": "Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges",
-        "first_seen": "2026-07-28T23:27:24.331085Z",
-        "fingerprint": "b4de1a10026675ed9ab9e6103fa9b40aa64b90414d819ea936fec736bcba5870"
       },
       {
         "id": "stepstone:1000831",
@@ -1633,6 +1617,21 @@
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
         "fingerprint": "021e10c40eca7a499f06243993305f589bb76442bf502b55ae7b8255474d6121"
+      },
+      {
+        "id": "stepstone:929613",
+        "source": "stepstone",
+        "title": "Rechtsanwält:in Dispute Resolution / Litigation (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Dispute-Resolution-Litigation-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--929613-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-10-02T00:53:26+02:00",
+        "department": "Home Office",
+        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
+        "first_seen": "2026-06-30T20:54:00.747169Z",
+        "fingerprint": "847967dd33d8b02ebe4b443227a8ab4f3176cd785aeb912d21f522e8086ccc03"
       },
       {
         "id": "stepstone:981820",
@@ -1695,36 +1694,6 @@
         "fingerprint": "6f13fac4beec0290d6d9457b4974481f5deab249e7caf8f780a52e4d648784b5"
       },
       {
-        "id": "stepstone:1003621",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter / Rechtsanwalt (w/m/d) Nachhaltigkeitsrecht, Öffentliches Recht, Vergaberecht",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-Rechtsanwalt-w-m-d-Nachhaltigkeitsrecht-Oeffentliches-Recht-Vergaberecht-Wien-l-m-executive-search-consulting-gmbh--1003621-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-09-28T11:02:06+02:00",
-        "department": null,
-        "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Sie wollen die Weichen für eine erfolgreiche Karriere stellen? Für eine bekannte Größe in Wien suchen wir engagierte und motivierte Rechtsanwaltsanwärter (m/w/d) mit Interesse an den Fachbereichen an der",
-        "first_seen": "2026-09-18T11:54:23.056158Z",
-        "fingerprint": "ef41604415b143b28bffb2f8cba490ef0f79bfd812d696e7309be6296cc97be4"
-      },
-      {
-        "id": "stepstone:995186",
-        "source": "stepstone",
-        "title": "Rechtsanwalt Transaktionen (w/m/d)",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-Transaktionen-w-m-d-Wien-l-m-executive-search-consulting-gmbh--995186-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-09-28T09:03:00+02:00",
-        "department": null,
-        "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Wir verstärken aktuell eine renommierte Wiener Anwaltskanzlei, die für exzellente Beratung im Bereich M&A und Gesellschaftsrecht steht. Auf Basis einer gewachsenen Sozietätsstruktur werden hier kompl",
-        "first_seen": "2026-07-29T16:37:27.029091Z",
-        "fingerprint": "2205166ff014547afca7c0403e7f4de1f0a043938b4adb2763427fd232e98192"
-      },
-      {
         "id": "stepstone:998620",
         "source": "stepstone",
         "title": "Legal Counsel (m/w/d)",
@@ -1733,11 +1702,26 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--998620-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-10-05T01:31:46+02:00",
+        "published_at": "2026-10-05T09:50:22+02:00",
         "department": null,
         "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
         "first_seen": "2026-08-21T08:53:58.901646Z",
-        "fingerprint": "a78ea538eda047e6bc894cc660165ad2b8f6a3920e01d69ff95884b3eb34012b"
+        "fingerprint": "33c7426486248eac8de2f0ca25f99df1cd280ccf8ff68879a8d0d456f0494c4a"
+      },
+      {
+        "id": "stepstone:994936",
+        "source": "stepstone",
+        "title": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-m-w-d-im-Immobilienrecht-Prozessrecht-Wien-l-m-executive-search-consulting-gmbh--994936-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-05T09:02:01+02:00",
+        "department": null,
+        "snippet": "Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges",
+        "first_seen": "2026-07-28T23:27:24.331085Z",
+        "fingerprint": "b4de1a10026675ed9ab9e6103fa9b40aa64b90414d819ea936fec736bcba5870"
       },
       {
         "id": "stepstone:1004857",
@@ -1873,6 +1857,21 @@
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mi",
         "first_seen": "2026-09-02T11:29:43.350159Z",
         "fingerprint": "c447467d399c45dffd738d7ed943a5b3de28f07374313134234734eab299c31a"
+      },
+      {
+        "id": "stepstone:1007359",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsassistent:in / Kanzleiassistent:in (m/w/d)",
+        "company": "Schmidt Pirker Podoschek Rechtsanwälte OG",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-Kanzleiassistent-in-m-w-d-Wien-Schmidt-Pirker-Podoschek-Rechtsanwaelte-OG--1007359-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-08T11:04:02+02:00",
+        "department": "Schnelle Bewerbung",
+        "snippet": "Verantwortung übernehmen. Im Team ankommen. Gemeinsam den Kanzleialltag gestalten. Sie organisieren gerne, arbeiten genau und behalten auch dann den Überblick, wenn mehrere Dinge gleichzeitig passieren? Dann könnten Sie gut zu uns passen. Wir sind Schmidt Pirker Podoschek Rechtsanwälte (SPP), eine",
+        "first_seen": "2026-10-08T13:47:21.722523Z",
+        "fingerprint": "feb7ec7201ccffc6a93b8f535dffbd6c02eeb46ece05e86718997af8851a2b1f"
       },
       {
         "id": "stepstone:1004571",
@@ -2271,6 +2270,7 @@
       "stepstone:1006503",
       "stepstone:1006852",
       "stepstone:1006897",
+      "stepstone:1007359",
       "stepstone:633580",
       "stepstone:929613",
       "stepstone:934776",
@@ -2330,6 +2330,7 @@
       "stepstone:999199",
       "stepstone:999948",
       "stepstone:999951",
+      "uniqa:722821cd872a7445",
       "uniqa:85274a4a8c59d054",
       "uniqa:a05dd3e6998adebb",
       "uniqa:ce0314c94d8ce3fb"
