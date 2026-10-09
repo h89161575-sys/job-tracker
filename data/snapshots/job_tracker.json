@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-09T06:00:30.152837Z",
+  "timestamp": "2026-10-09T13:08:16.492194Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-10-09T06:00:30.152837Z",
+        "last_success": "2026-10-09T13:08:16.492194Z",
         "last_error": null,
-        "count": 20
+        "count": 19
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-10-09T06:00:30.152837Z",
+        "last_success": "2026-10-09T13:08:16.492194Z",
         "last_error": null,
-        "count": 2
+        "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-10-09T06:00:30.152837Z",
+        "last_success": "2026-10-09T13:08:16.492194Z",
         "last_error": null,
         "count": 3
       },
@@ -29,19 +29,19 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-10-09T06:00:30.152837Z",
+        "last_success": "2026-10-09T13:08:16.492194Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-10-09T06:00:30.152837Z",
+        "last_success": "2026-10-09T13:08:16.492194Z",
         "last_error": null,
-        "count": 63
+        "count": 62
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-10-09T06:00:30.152837Z",
+        "last_success": "2026-10-09T13:08:16.492194Z",
         "last_error": null,
         "count": 36
       }
@@ -72,19 +72,6 @@
         "snippet": "Junior Product Owner für Anwendungen im Umfeld der österreichischen Justiz mit Schwerpunkt Konzeption, Analyse und agile Weiterentwicklung der Verfahrensautomation Justiz.",
         "first_seen": "2026-08-20T11:01:03.062870Z",
         "fingerprint": "a1e1992aabbde6382754f2983d6baa057ae4e14458f1fb73bf7f17715ea724ad"
-      },
-      {
-        "id": "jusjobs:1976115",
-        "source": "jusjobs",
-        "title": "Jurist:in in der Abteilung Gesundheitssystem, Prävention und Versorgung (GPV)",
-        "company": "Dachverband der Sozialversicherungsträger",
-        "location": "Wien",
-        "url": "https://www.jusjobs.at/job/1976115",
-        "salary": "€ 4.166",
-        "employment_type": "Vollzeit",
-        "snippet": "Jurist:in für Gesundheits-, Sozialversicherungs- und Vertragspartnerangelegenheiten beim Dachverband der Sozialversicherungsträger in Wien.",
-        "first_seen": "2026-08-13T02:41:39.432450Z",
-        "fingerprint": "ad265f015e5a3e5e96e260948daa1dff8994333bde788e36cebf315a74b83062"
       },
       {
         "id": "jusjobs:1979851",
@@ -276,10 +263,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/2127991",
         "salary": "€ 3.776",
-        "employment_type": "Praktikum",
+        "employment_type": "Teilzeit",
         "snippet": "Tätigkeiten in Forschung & Lehre. Ausführliche Beschreibung Mindestanforderungen: Abschluss eines rechtswissenschaftlichen Studiums mit deutlich überdurchschnittlichem Erfolg…",
         "first_seen": "2026-09-26T23:34:29.590370Z",
-        "fingerprint": "649bde91812f0194005c300e144a176f47f459fe5b0c60efbe35813b6968e51a"
+        "fingerprint": "41ebbea9cde83f7f43059c85a5672195e00df66cd22571747227a85639624e5a"
       },
       {
         "id": "jusjobs:2206485",
@@ -289,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/2206485",
         "salary": "€ 4.642",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Aufgabengebiet mit Gestaltungsspielraum, ein modernes und kollegiales Arbeitsumfeld und umfassende fachliche und persönliche Weiterbildungsmöglichkeiten. Darüber hinaus erwarten…",
         "first_seen": "2026-09-25T13:01:48.036176Z",
-        "fingerprint": "e69503e6132eae61e8db5b55041660965ead5613da5e8d4935a68958894ceec3"
+        "fingerprint": "43cd7d81319b379237e64d3fb1247fb033d4436e23d325c7ff51da734fd12c02"
       },
       {
         "id": "jusjobs:2202023",
@@ -306,6 +293,19 @@
         "snippet": "Aufgabengebiet mit Gestaltungsspielraum, ein modernes und kollegiales Arbeitsumfeld und umfassende fachliche und persönliche Weiterbildungsmöglichkeiten. Darüber hinaus erwarten…",
         "first_seen": "2026-09-25T07:41:48.892664Z",
         "fingerprint": "034e5dc61c99b7fa1812b06687faef56a963db80b6c7737b543395303d48c094"
+      },
+      {
+        "id": "erste_bank:34634",
+        "source": "erste_bank",
+        "title": "Compliance Officer (m/w/d)",
+        "company": "Erste Bank Oesterreich",
+        "location": "Wien",
+        "url": "https://www.sparkasse.at/erstebank/karriere-spk/job-detail/compliance-officer-m-w-d/34634",
+        "employment_type": "Vollzeit",
+        "department": "MiFID (IP) and IDD Compliance",
+        "published_at": "09.10.2026",
+        "first_seen": "2026-10-09T13:08:20.154451Z",
+        "fingerprint": "bdfaadb98a93051fcf3065a7958107c823e962ddfc376d6d21f974625ac06d47"
       },
       {
         "id": "erste_bank:34561",
@@ -530,20 +530,6 @@
         "fingerprint": "8c25cbc19d8bcf90ed6cedae30c102224a9d76ec323454d38f0ddc4726e3eb9e"
       },
       {
-        "id": "karriere_at:10032509",
-        "source": "karriere_at",
-        "title": "Wirtschaftsjurist:in (m/w/d)",
-        "company": "Wiener Börse AG",
-        "location": "Wien 1. Bezirk (Innere Stadt)",
-        "url": "https://www.karriere.at/jobs/10032509",
-        "salary": "ab 55.720 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Juristische Recherchen und Marktüberwachung, Mitwirkung bei Prüfung von Angebotsunterlagen. Abgeschlossenes Studium der Rechtswissenschaften oder Wirtschaftsrecht. Sehr gute Kenntnisse im Gesellschafts- und Kapitalmarktrecht. Einblicke in die Praxis börsennotierter Unternehmen.",
-        "first_seen": "2026-09-10T13:53:39.551225Z",
-        "fingerprint": "a3b89671a54689a595c18b86c395fc869298292fd471780cd6371ae0382af3f0"
-      },
-      {
         "id": "karriere_at:10032483",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter*in (m/w/d) Wettbewerbsrecht",
@@ -556,6 +542,20 @@
         "snippet": "Verfassen von Memoranden, Rechtsgutachten und Berichten. Erstellung von Schriftsätzen. Mitarbeit bei Kartellrechtsverfahren. EU-beihilferechtliche Beratung. Ausgezeichnete Englischkenntnisse sind Voraussetzung. Exzellente Entwicklungsmöglichkeiten.",
         "first_seen": "2026-09-10T13:53:39.551225Z",
         "fingerprint": "9ed9bbb18d04deccf3c21c6f1a1b86f5f76dc5392f8b5ac242cf4be46a732cb7"
+      },
+      {
+        "id": "karriere_at:10032509",
+        "source": "karriere_at",
+        "title": "Wirtschaftsjurist:in (m/w/d)",
+        "company": "Wiener Börse AG",
+        "location": "Wien 1. Bezirk (Innere Stadt)",
+        "url": "https://www.karriere.at/jobs/10032509",
+        "salary": "ab 55.720 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 5 Tagen veröffentlicht",
+        "snippet": "Juristische Recherchen und Marktüberwachung, Mitwirkung bei Prüfung von Angebotsunterlagen. Abgeschlossenes Studium der Rechtswissenschaften oder Wirtschaftsrecht. Sehr gute Kenntnisse im Gesellschafts- und Kapitalmarktrecht. Einblicke in die Praxis börsennotierter Unternehmen.",
+        "first_seen": "2026-09-10T13:53:39.551225Z",
+        "fingerprint": "a3b89671a54689a595c18b86c395fc869298292fd471780cd6371ae0382af3f0"
       },
       {
         "id": "karriere_at:10028263",
@@ -768,20 +768,6 @@
         "fingerprint": "ba65df09771244afca4f747a60c4b1a24b2771d8398929d69782ccacbe1fd641"
       },
       {
-        "id": "karriere_at:7876978",
-        "source": "karriere_at",
-        "title": "Senior Legal Counsel Technology & AI / IT Law (m/w/x)",
-        "company": "BearingPoint GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7876978",
-        "salary": "100.000 € – 120.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Deine Aufgaben: Du baust das internationale Technology Centre of Expertise auf, identifizierst technologische und regulatorische Trends und etablierst Standards, Prozesse sowie Best Practices für Technologie-...",
-        "first_seen": "2026-09-15T15:05:35.409732Z",
-        "fingerprint": "d06df6f9c085117b4c29df67900896b999f3d972454da8eba1f0c401d9c57e5b"
-      },
-      {
         "id": "karriere_at:7887667",
         "source": "karriere_at",
         "title": "Legal Counsel (m/w/d)",
@@ -790,10 +776,10 @@
         "url": "https://www.karriere.at/jobs/7887667",
         "salary": "ab 3.710,56 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Legal Counsel (m/w/d) Vollzeit Wien Die DenizBank AG, ein Mitglied der weltweit erfolgreichen DenizBank Financial Services Group und Emirates NBD, ist eine österreichische Universalbank...",
         "first_seen": "2026-10-02T15:06:04.115964Z",
-        "fingerprint": "7e6a53c87beda45537fdb04cda6440ca78617568931f5b0b05dc55658e8e90f0"
+        "fingerprint": "0f5c01203709972507a78b2e15149b3d1cf0987aad82dc6d1bc7768cbc2b5497"
       },
       {
         "id": "karriere_at:7858319",
@@ -850,6 +836,20 @@
         "snippet": "Ihre Aufgaben: Rechtliche Beratung des Managements und interner Stakeholder, insbesondere im Gesellschafts-, Unternehmens- und Vertragsrecht, Erstellung, Prüfung sowie Verwaltung nationaler und internationaler...",
         "first_seen": "2026-08-13T07:58:14.386351Z",
         "fingerprint": "a4ea6bba0263eada2bfb572cac4fbb3fcc9bc7adda2109e2ace85d556b07934d"
+      },
+      {
+        "id": "karriere_at:7891123",
+        "source": "karriere_at",
+        "title": "Jurist:in für Compliance & Regulatorik im Vertrieb (m/w/d) - Region Ost, West oder Süd",
+        "company": "UNIQA Insurance Group AG",
+        "location": "Wien, Innsbruck, Salzburg (Stadt), Linz, St. Pölten, Eisenstadt, Bregenz, Graz, Klagenfurt",
+        "url": "https://www.karriere.at/jobs/7891123",
+        "salary": "ab 51.358 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Jurist:in für Compliance & Regulatorik im Vertrieb (m/w/d) Region Ost, West oder Süd Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen...",
+        "first_seen": "2026-10-09T13:08:22.056428Z",
+        "fingerprint": "bbb5157b217f8d6189ecc4b5897094ae271e1100da690a02f4ab76c0d4ffbe48"
       },
       {
         "id": "karriere_at:7858520",
@@ -1060,20 +1060,6 @@
         "snippet": "Make your way to the top. Rechtsanwalt Kartell-/ Wettbewerbs-/ Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges Honorar entsprechend...",
         "first_seen": "2026-08-31T15:02:20.466416Z",
         "fingerprint": "f783502deefdc204acfb2ce6c2712bc9e55dbbc93f216f9acdaeff8e33cd580f"
-      },
-      {
-        "id": "karriere_at:7859749",
-        "source": "karriere_at",
-        "title": "Senior Consultant/ Manager:in (all genders) I Fokus M&A Tax, Konzernsteuerrecht und Internationales Steuerrecht",
-        "company": "Deloitte",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7859749",
-        "salary": "ab 77.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "30.9.2026",
-        "snippet": "Senior Consultant/ Manager:in (all genders) I Fokus M&A Tax, Konzernsteuerrecht und Internationales Steuerrecht Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung...",
-        "first_seen": "2026-08-13T14:04:57.492839Z",
-        "fingerprint": "f6473bdcf805220d89a0ada2f9ee8846e1388a7f71476a077b76af2c0f45b8b7"
       },
       {
         "id": "karriere_at:7868509",
@@ -1407,11 +1393,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Juristin-Arbeitsrecht-Personal-m-w-d-1190-Wien-Caritas-der-Erzdioezese-Wien--1006503-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-10-02T10:30:07+02:00",
+        "published_at": "2026-10-02T02:06:17+02:00",
         "department": "Home Office",
         "snippet": "Du suchst eine juristische Schlüsselrolle mit Gestaltungsspielraum und echtem Mehrwert? Im HR-Team der Caritas der Erzdiözese Wien verbinden wir fundiertes Arbeitsrecht mit strategischer Personalarbeit. Bei uns bringst du deine arbeitsrechtliche Expertise dort ein, wo sie etwas bewegt. Zur Verstärku",
         "first_seen": "2026-10-02T19:56:24.159435Z",
-        "fingerprint": "21e7bd814048e5e0e632cca2c21ba6da19f5e2d12a0f34143191f646bcb471b7"
+        "fingerprint": "531faaf94c25842e0d17c04ff12e66ae7abd91f05056fb70389b3946da43756c"
       },
       {
         "id": "stepstone:1003623",
@@ -1502,6 +1488,21 @@
         "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Sie wollen die Weichen für eine erfolgreiche Karriere stellen? Für eine bekannte Größe in Wien suchen wir engagierte und motivierte Rechtsanwaltsanwärter (m/w/d) mit Interesse an den Fachbereichen an der",
         "first_seen": "2026-09-18T11:54:23.056158Z",
         "fingerprint": "070f239d1967bad59551ae6869f575805ebb272130a7657ef1e0f24d4ba95a44"
+      },
+      {
+        "id": "stepstone:977427",
+        "source": "stepstone",
+        "title": "Arbeitsrechtsexperte (m/w/d)",
+        "company": "VERKEHRSBUERO HOLDING",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Arbeitsrechtsexperte-m-w-d-Wien-VERKEHRSBUERO-HOLDING--977427-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-02T10:30:35+02:00",
+        "department": null,
+        "snippet": "Das VERKEHRSBUERO ist Österreichs führende Tourismusgruppe mit den operativen Geschäftsbereichen VERKEHRSBUERO TRAVEL und VERKEHRSBUERO HOSPITALITY sowie dem Bereich der HOLDING, die als interner Partner für Steuerung und Services mit Expert:innen-Teams zur Verfügung steht. Als Te",
+        "first_seen": "2026-10-05T07:12:41.285448Z",
+        "fingerprint": "6f13fac4beec0290d6d9457b4974481f5deab249e7caf8f780a52e4d648784b5"
       },
       {
         "id": "stepstone:995186",
@@ -1639,21 +1640,6 @@
         "fingerprint": "14050f09717a444f2125542fd5be8d5e00a139fbd722e25defafd874ddda3063"
       },
       {
-        "id": "stepstone:977427",
-        "source": "stepstone",
-        "title": "Arbeitsrechtsexperte (m/w/d)",
-        "company": "VERKEHRSBUERO HOLDING",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Arbeitsrechtsexperte-m-w-d-Wien-VERKEHRSBUERO-HOLDING--977427-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-10-02T10:30:35+02:00",
-        "department": null,
-        "snippet": "Das VERKEHRSBUERO ist Österreichs führende Tourismusgruppe mit den operativen Geschäftsbereichen VERKEHRSBUERO TRAVEL und VERKEHRSBUERO HOSPITALITY sowie dem Bereich der HOLDING, die als interner Partner für Steuerung und Services mit Expert:innen-Teams zur Verfügung steht. Als Te",
-        "first_seen": "2026-10-05T07:12:41.285448Z",
-        "fingerprint": "6f13fac4beec0290d6d9457b4974481f5deab249e7caf8f780a52e4d648784b5"
-      },
-      {
         "id": "stepstone:998620",
         "source": "stepstone",
         "title": "Legal Counsel (m/w/d)",
@@ -1744,6 +1730,21 @@
         "fingerprint": "efb8c488a13f73a8da965d140101b8e4d5fedaae11fbd0cc0abb415a6228a561"
       },
       {
+        "id": "stepstone:1004972",
+        "source": "stepstone",
+        "title": "Senior Legal Counsel Technology & AI / IT Law (m/w/x)",
+        "company": "BearingPoint GmbH",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Senior-Legal-Counsel-Technology-AI-IT-Law-m-w-x-Wien-BearingPoint-GmbH--1004972-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-09-25T05:44:46+02:00",
+        "department": "Home Office",
+        "snippet": "BearingPoint ist eine unabhängige Management- und Technologieberatung mit europäischen Wurzeln und globaler Reichweite, die Unternehmen mithilfe moderner Technologien transformiert. Wir unterstützen Unternehmen bei der Transformation, indem wir fundiertes Branchenwissen mit starken Kompetenzen in St",
+        "first_seen": "2026-09-15T15:05:35.409732Z",
+        "fingerprint": "b352b4fb176548aa3dfe532050dc4b5523715121dca44fa63fc300ecba52e225"
+      },
+      {
         "id": "stepstone:947468",
         "source": "stepstone",
         "title": "Anwaltsassistent:in (d/f/m)",
@@ -1819,6 +1820,21 @@
         "fingerprint": "074c905ad85c8f79606966695dea2ff4986e4f30b548f12f26789803cf6c764c"
       },
       {
+        "id": "stepstone:1001468",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsassistent/in für 30 - 40 Wochenstunden",
+        "company": "Kanzlei Bachmann & Bachmann",
+        "location": "1010 Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-fuer-30-40-Wochenstunden-1010-Wien-Kanzlei-Bachmann-Bachmann--1001468-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-09T09:02:05+02:00",
+        "department": "Schnelle Bewerbung",
+        "snippet": "Wir beraten Klienten (Unternehmen und Privatpersonen) mit den Tätigkeitsschwerpunkten Insolvenzrecht, Immobilienrecht, Vertragsrecht, Unternehmensrecht, Zivilrecht und Familienrecht. Zur Verstärkung unseres Teams suchen wir eine/n Rechtsanwaltsassistent/in für 30 - 40 Wochenstunden",
+        "first_seen": "2026-09-09T06:46:17.882071Z",
+        "fingerprint": "b7bd337afc8089afe703730920917a4925732764f0930588e7c2665878b47556"
+      },
+      {
         "id": "stepstone:1002054",
         "source": "stepstone",
         "title": "Mitarbeiter:in Forderungsmanagement (m/w/d)",
@@ -1862,21 +1878,6 @@
         "snippet": "MTEL Austria ist ein Telekommunikationsanbieter in Österreich und bietet seinen Kunden moderne Lösungen rund um Mobilfunk, Internet und digitale Services. Als dynamisches Unternehmen verbinden wir Kundennähe mit kurzen Entscheidungswegen und viel Raum für Eigenverantwortung. Wir entwickeln uns kont",
         "first_seen": "2026-09-23T12:20:26.672424Z",
         "fingerprint": "5cd37f5836a5f27351b11343c694c8b60b39bcb3924f8c66524e69d446acc0e1"
-      },
-      {
-        "id": "stepstone:1001468",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsassistent/in für 30 - 40 Wochenstunden",
-        "company": "Kanzlei Bachmann & Bachmann",
-        "location": "1010 Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-fuer-30-40-Wochenstunden-1010-Wien-Kanzlei-Bachmann-Bachmann--1001468-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-09-29T09:02:05+02:00",
-        "department": "Schnelle Bewerbung",
-        "snippet": "Wir beraten Klienten (Unternehmen und Privatpersonen) mit den Tätigkeitsschwerpunkten Insolvenzrecht, Immobilienrecht, Vertragsrecht, Unternehmensrecht, Zivilrecht und Familienrecht. Zur Verstärkung unseres Teams suchen wir eine/n Rechtsanwaltsassistent/in für 30 - 40 Wochenstunden",
-        "first_seen": "2026-09-09T06:46:17.882071Z",
-        "fingerprint": "6b92a8e634a8bb4d4dca63c10dc8161412968326a05019ee42e58d769fc21494"
       },
       {
         "id": "stepstone:968445",
@@ -1924,6 +1925,7 @@
       "erste_bank:34294",
       "erste_bank:34485",
       "erste_bank:34561",
+      "erste_bank:34634",
       "jusjobs:1171941",
       "jusjobs:1235995",
       "jusjobs:1625057",
@@ -2193,6 +2195,7 @@
       "karriere_at:7889881",
       "karriere_at:7889902",
       "karriere_at:7890589",
+      "karriere_at:7891123",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
@@ -2224,6 +2227,7 @@
       "stepstone:1004571",
       "stepstone:1004739",
       "stepstone:1004857",
+      "stepstone:1004972",
       "stepstone:1005379",
       "stepstone:1005782",
       "stepstone:1006304",
