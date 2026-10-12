@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-12T02:29:43.341052Z",
+  "timestamp": "2026-10-12T09:42:36.171678Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-10-12T02:29:43.341052Z",
+        "last_success": "2026-10-12T09:42:36.171678Z",
         "last_error": null,
         "count": 18
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-10-12T02:29:43.341052Z",
+        "last_success": "2026-10-12T09:42:36.171678Z",
         "last_error": null,
         "count": 3
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-10-12T02:29:43.341052Z",
+        "last_success": "2026-10-12T09:42:36.171678Z",
         "last_error": null,
         "count": 3
       },
@@ -29,21 +29,21 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-10-12T02:29:43.341052Z",
+        "last_success": "2026-10-12T09:42:36.171678Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-10-12T02:29:43.341052Z",
+        "last_success": "2026-10-12T09:42:36.171678Z",
         "last_error": null,
-        "count": 60
+        "count": 74
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-10-12T02:29:43.341052Z",
+        "last_success": "2026-10-12T09:42:36.171678Z",
         "last_error": null,
-        "count": 36
+        "count": 37
       }
     },
     "jobs": [
@@ -755,6 +755,20 @@
         "fingerprint": "2833c6c57f7b55b1b21a99fc36d87e75b834be633195eb3ee78a558aa6806787"
       },
       {
+        "id": "karriere_at:7861780",
+        "source": "karriere_at",
+        "title": "Senior Legal Expert (w/m/d) Industrieunternehmen",
+        "company": "Michael Page International Austria GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7861780",
+        "salary": "ab 80.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Legal Expert (w/m/d) Industrieunternehmen I Wien Referenz-Nr.: JN -082026-7084760 Ort: Vienna Anstellungsart: Permanent Firmenprofil Unser Kunde ist eine international erfolgreiche...",
+        "first_seen": "2026-08-18T14:01:11.184747Z",
+        "fingerprint": "253bd4f72ad5ca4975e02c08549f9e0451fc0a50252033fae04f40b28f25cc57"
+      },
+      {
         "id": "karriere_at:7887667",
         "source": "karriere_at",
         "title": "Legal Counsel (m/w/d)",
@@ -769,18 +783,32 @@
         "fingerprint": "d00f52f4987b479c2336643b2278d03fa861be0c45cc53060c5ff4cfcbdaab4d"
       },
       {
-        "id": "karriere_at:7861780",
+        "id": "karriere_at:7870486",
         "source": "karriere_at",
-        "title": "Senior Legal Expert (w/m/d) Industrieunternehmen",
-        "company": "Michael Page International Austria GmbH",
+        "title": "Rechtsanwaltsanwärter Disputes (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7861780",
-        "salary": "ab 80.000 € jährlich",
+        "url": "https://www.karriere.at/jobs/7870486",
+        "salary": "ab 3.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "22.9.2026",
-        "snippet": "Senior Legal Expert (w/m/d) Industrieunternehmen I Wien Referenz-Nr.: JN -082026-7084760 Ort: Vienna Anstellungsart: Permanent Firmenprofil Unser Kunde ist eine international erfolgreiche...",
-        "first_seen": "2026-08-18T14:01:11.184747Z",
-        "fingerprint": "cef65c4652e5f4ded4bb7745e0d71b710d58570ebe78a6ebacb2b8f482ae5bed"
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Make your way to the top. Rechtsanwaltsanwärter Disputes (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply Now! Wir suchen...",
+        "first_seen": "2026-09-03T11:41:06.512169Z",
+        "fingerprint": "71e666732ae4ad77ebb6cdc9b74b0bc407e7e8e5a8030aae0385fd33c6bb755e"
+      },
+      {
+        "id": "karriere_at:7875511",
+        "source": "karriere_at",
+        "title": "Jurist:in (w/m/d) in der Sektion VII Digitalisierung und E-Government",
+        "company": "Bundesrechenzentrum GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7875511",
+        "salary": "ab 56.894,32 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Ihre Aufgaben: Sie wirken in der Vertretung der österreichischen Interessen auf EU- und internationaler Ebene im Bereich Digitalisierung und E-Government mit und beteiligen sich aktiv an Verhandlungen von...",
+        "first_seen": "2026-09-14T13:03:20.530807Z",
+        "fingerprint": "48254b2393d401e0055412a16bb8dcb6b96f9eecbb4b75dd2338b8d7a13f9786"
       },
       {
         "id": "karriere_at:7864495",
@@ -847,10 +875,10 @@
         "url": "https://www.karriere.at/jobs/7878967",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Wir sind die Österreichische Glasfaser-Infrastrukturgesellschaft (öGIG). Wir versorgen als Teil der Allianz-Gruppe Regionen in ganz Österreich mit Glasfaser-Infrastruktur...",
         "first_seen": "2026-09-21T07:10:44.304728Z",
-        "fingerprint": "7443cf1ba840ba098925da2c762fe284890a72d9ac17668b2d44f16a5a433319"
+        "fingerprint": "2821fe0214e5410d54811a4fd730a88a609d1122005e26ff37e15f9c8168cd42"
       },
       {
         "id": "karriere_at:7868509",
@@ -861,10 +889,10 @@
         "url": "https://www.karriere.at/jobs/7868509",
         "salary": "ab 3.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Direkter Mandantenkontakt, spannende Projekte und ein Team, das Zusammenarbeit, Eigenverantwortung und Weiterentwicklung großschreibt. Zur Verstärkung unseres Teams suchen wir ab...",
         "first_seen": "2026-09-01T10:17:24.367617Z",
-        "fingerprint": "f1817b08089be04de8b694c7fce22e544b7ac54f2f44c1cc23ab3e3dd1873ff5"
+        "fingerprint": "c91a6baaae39bb0c21795aba9e6b36230766fb5fb0da2807757458d5781cd8c6"
       },
       {
         "id": "karriere_at:7868155",
@@ -875,10 +903,10 @@
         "url": "https://www.karriere.at/jobs/7868155",
         "salary": null,
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Make your way to the top. Rechtsanwalt Kartell-/ Wettbewerbs-/ Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges Honorar entsprechend...",
         "first_seen": "2026-08-31T15:02:20.466416Z",
-        "fingerprint": "8d0fe5aa8a7e81bfaaf61e099c674ee39ee5c5da6a279863b9af077610667dc9"
+        "fingerprint": "89de3418a95ea7787da7d08f7f298b21b58c8599ff5759a48d5cc53823de947a"
       },
       {
         "id": "karriere_at:7885330",
@@ -889,10 +917,10 @@
         "url": "https://www.karriere.at/jobs/7885330",
         "salary": "ab 3.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 1 Tagen veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Bearbeitung diverser Rechtsgeschäfte im Miet- und Wohnungseigentumrecht, Betreuung der von Anwälten geführten Mietzins- und Räumungsklagen, Durchführung von Schlichtungsstellenverfahren, Erstellung...",
         "first_seen": "2026-10-01T13:33:16.880862Z",
-        "fingerprint": "46f78504940b44fd2d6e43e9fe7e283377b6d9642f9b0ecd1417700982448eb7"
+        "fingerprint": "bfff439845d52997c8a3a71f008ab301e559f09983dec76b3e3bc74af48feb4b"
       },
       {
         "id": "karriere_at:7883833",
@@ -903,10 +931,10 @@
         "url": "https://www.karriere.at/jobs/7883833",
         "salary": "ab 52.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Juristische Prüfung und Bewertung komplexer Sachverhalte sowie Entwicklung praxisorientierter Lösungen zur Umsetzung gesetzlicher und regulatorischer Vorgaben im Geschäftsalltag...",
         "first_seen": "2026-09-28T22:31:07.106066Z",
-        "fingerprint": "3744ff141b1888e4ea52db930bd40dc86da795ba4ec6b06a447da6fe4e745a10"
+        "fingerprint": "8e993d8ee117e466e845ca21663e0c4c76b772ce97eb23583d1c5227b62ab510"
       },
       {
         "id": "karriere_at:7859371",
@@ -917,10 +945,10 @@
         "url": "https://www.karriere.at/jobs/7859371",
         "salary": "ab 55.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Rechtliche Beratung des Managements und interner Stakeholder, insbesondere im Gesellschafts-, Unternehmens- und Vertragsrecht, Erstellung, Prüfung sowie Verwaltung nationaler und internationaler...",
         "first_seen": "2026-08-13T07:58:14.386351Z",
-        "fingerprint": "a8f73a54c92d91223a8590c252811168be46f0df975a88307280144c1a748b39"
+        "fingerprint": "c6bc852fe7cbdbaeef7fb22017b4e20197c29c93ca0961b8598e238f8e33905a"
       },
       {
         "id": "karriere_at:7891123",
@@ -959,10 +987,10 @@
         "url": "https://www.karriere.at/jobs/7847855",
         "salary": "ab 49.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Schadenreferent:in / Jurist:in KFZ Schaden (Wien/Linz) Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb...",
         "first_seen": "2026-08-18T06:26:07.230183Z",
-        "fingerprint": "cd60ffff6a7bd8a4d5c08db24629aaa0dd55e2ab659f05a26c43de8d48b4e1d5"
+        "fingerprint": "ff6d17d342099bba106eb7ac3602d433a1892c324f4917ee2dc5f6bb3c7d1317"
       },
       {
         "id": "karriere_at:7846877",
@@ -973,10 +1001,10 @@
         "url": "https://www.karriere.at/jobs/7846877",
         "salary": "ab 60.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Jurist:in Betrug & Regress Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft für ein...",
         "first_seen": "2026-07-20T07:48:38.987255Z",
-        "fingerprint": "936df16b6db2f62070ec96f8e110cc552626f000d4e65a1c7a838aa1d1e64c3d"
+        "fingerprint": "b968636901258b915fb7121b7723df0049305cf97410faf7e01dc5a7308e01c3"
       },
       {
         "id": "karriere_at:7882012",
@@ -987,10 +1015,10 @@
         "url": "https://www.karriere.at/jobs/7882012",
         "salary": "ab 50.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Ihre Aufgaben: Dich erwartet ein vielfältiger juristischer Tätigkeitsbereich mit Fokus auf Software- und IT-Recht, Du bist für die Erstellung, Prüfung und Verhandlung von Verträgen...",
         "first_seen": "2026-09-25T07:41:57.414768Z",
-        "fingerprint": "8d141dfe03a03e586fcff6ae89f92dcea8a227a69d42ded016c634e33ead8267"
+        "fingerprint": "0904cb4f083ab12f231f5682776cc71676423845e25dab9f289a95d4bc1b137b"
       },
       {
         "id": "karriere_at:7887961",
@@ -1015,38 +1043,332 @@
         "url": "https://www.karriere.at/jobs/7876708",
         "salary": "ab 5.028,44 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "4.10.2026",
         "snippet": "Ihre Aufgaben: Das geprägt ist durch Teamgeist, Offenheit, Wertschätzung und Kollegialität. Als Teil eines Klimakonzerns ist uns Nachhaltigkeit wichtig, gute öffentliche Anbindung in die...",
         "first_seen": "2026-09-15T15:05:35.409732Z",
-        "fingerprint": "3822fae93b50a59a007052674ed0b678a0e10afdf2116656efcbaa8ec36b6faa"
+        "fingerprint": "3d11f93fc4c2bf50443c74b84e8e3d11297564974ebce5598cd20cde2cbee131"
       },
       {
-        "id": "karriere_at:7875511",
+        "id": "karriere_at:7892956",
         "source": "karriere_at",
-        "title": "Jurist:in (w/m/d) in der Sektion VII Digitalisierung und E-Government",
-        "company": "Bundesrechenzentrum GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7875511",
-        "salary": "ab 56.894,32 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "3.10.2026",
-        "snippet": "Ihre Aufgaben: Sie wirken in der Vertretung der österreichischen Interessen auf EU- und internationaler Ebene im Bereich Digitalisierung und E-Government mit und beteiligen sich aktiv an Verhandlungen von...",
-        "first_seen": "2026-09-14T13:03:20.530807Z",
-        "fingerprint": "16cd496687eb5d8dc3dd4672ded2eb489581361dc25131b5490767028c749c2d"
+        "title": "Senior Associate Tax – Steuerberatung & Bilanzierung (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien, Linz, Bruck an der Leitha",
+        "url": "https://www.karriere.at/jobs/7892956",
+        "salary": "ab 3.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Associate Tax, Steuerberatung & Bilanzierung (m/w/d) ...mehr über diesen Bereich erfährst du hier GREAT, WENN DICH DIESE AUFGABEN FREUEN: Eigenverantwortliche Tätigkeiten...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "4564d8db0002d7077a099485d3075ba8dd6a1789347761cc38d2caa60701076d"
       },
       {
-        "id": "karriere_at:7870486",
+        "id": "karriere_at:7892950",
         "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter Disputes (m/w/d)",
-        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "title": "Senior Associate Steuerberatung – Corporate Tax & Transactions (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7870486",
-        "salary": "ab 3.800 € monatlich",
+        "url": "https://www.karriere.at/jobs/7892950",
+        "salary": "ab 3.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Associate Steuerberatung, Corporate Tax & Transactions (m/w/d) ...mehr über diesen Bereich erfährst du hier GREAT, WENN DICH DIESE AUFGABEN FREUEN: Du begleitest nationale...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "86bbd3441a6b1e3a2584cec71f23ce56f00896843609a0422e54fb6bca94b9cc"
+      },
+      {
+        "id": "karriere_at:7892947",
+        "source": "karriere_at",
+        "title": "Senior Associate Financial Services - Fokus Regulatory (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892947",
+        "salary": "ab 3.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Associate Financial Services, Fokus Regulatory (m/w/d) ...mehr über den Bereich erfährst du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Mitarbeit und zunehmend selbstständige...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "e5b8871806a9c9af2d358898feda82694d4329b970bbe378e2d78717f80e6f03"
+      },
+      {
+        "id": "karriere_at:7892944",
+        "source": "karriere_at",
+        "title": "Senior Associate Combined mit Fokus Audit (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892944",
+        "salary": "ab 3.700 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "2.10.2026",
-        "snippet": "Make your way to the top. Rechtsanwaltsanwärter Disputes (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply Now! Wir suchen...",
-        "first_seen": "2026-09-03T11:41:06.512169Z",
-        "fingerprint": "8cb9e65f43810c54dae7a4f277e8103799e1a76d5aacddca1b663764606033cb"
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Associate Combined mit Fokus Audit (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Abschlussprüfung und prüferische...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "02c76e1b02fd40d5c32cd24588c4417ca02be95e76fbd0e53685a527496a8647"
+      },
+      {
+        "id": "karriere_at:7892941",
+        "source": "karriere_at",
+        "title": "Senior Associate Combined Audit & Tax (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892941",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Associate Combined Audit & Tax (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Laufende steuerliche und betriebswirtschaftliche...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "e81eac707fa7f0f40620fa691939da77dbd5f7aa86f2cb6080cfc37cb196c16e"
+      },
+      {
+        "id": "karriere_at:7892935",
+        "source": "karriere_at",
+        "title": "Senior Associate Audit (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien, Linz",
+        "url": "https://www.karriere.at/jobs/7892935",
+        "salary": "ab 3.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Associate Audit (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Planung und Durchführung von Jahres- und Konzernabschlussprüfungen...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "f082030f161622e6ff4406b3c2f43c323cc778aec674dcd55f67f7f93557084a"
+      },
+      {
+        "id": "karriere_at:7892929",
+        "source": "karriere_at",
+        "title": "Senior Associate – Accounting Advisory & Implementation (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892929",
+        "salary": "ab 3.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Associate, Accounting Advisory & Implementation (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Eigenverantwortliche Bearbeitung...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "8bc3b6513cb073ec2d4fdc3c484c50a7959845d6584d6827328770ee6a7ff5fe"
+      },
+      {
+        "id": "karriere_at:7892926",
+        "source": "karriere_at",
+        "title": "Senior Associate - Internal Audit & Risk (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien, Linz",
+        "url": "https://www.karriere.at/jobs/7892926",
+        "salary": "ab 3.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Senior Associate, Internal Audit & Risk (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Mitwirkung bei Prüfungs- und Beratungsprojekten...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "a3ce22e7e5cc4700b81df9d247164570249db9ff0b7af57a7c30755a63e4e00d"
+      },
+      {
+        "id": "karriere_at:7892917",
+        "source": "karriere_at",
+        "title": "Manager:in Tax/ Steuerberater:in (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien, Linz, Bruck an der Leitha, Lustenau, Schlins",
+        "url": "https://www.karriere.at/jobs/7892917",
+        "salary": "ab 5.000 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Manager:in Tax/ Steuerberater:in (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Fundierte Beratung von nationalen und internationalen...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "1aed45864e0ef0f582414e6c8d6477b0f704858a0b3885d1fb2c43deabe70faa"
+      },
+      {
+        "id": "karriere_at:7892914",
+        "source": "karriere_at",
+        "title": "Manager:in Tax/ Steuerberater:in - Team Financial Services (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892914",
+        "salary": "ab 5.000 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Manager:in Tax/ Steuerberater:in, Team Financial Services (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Fundierte Beratung von nationalen...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "287fba17cec87bf5cdbb449a39d84aae7bad8cfdbdd7384575f6afb414f5230f"
+      },
+      {
+        "id": "karriere_at:7892911",
+        "source": "karriere_at",
+        "title": "Manager:in Tax - Fokus Energie- & Umweltsteuern (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892911",
+        "salary": "ab 5.000 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Manager:in Tax, Fokus Energie- & Umweltsteuern (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Laufende betriebswirtschaftliche und...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "88ed2640ce7aa01cfaa1286a40fa96c50ab198d8697248b95b864f50baafb3b4"
+      },
+      {
+        "id": "karriere_at:7892908",
+        "source": "karriere_at",
+        "title": "Manager:in Reporting Process Implementation Advisory (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892908",
+        "salary": "ab 5.000 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Manager:in Reporting Process Implementation Advisory (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Als Projektleiter:in verantwortest...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "7860ad3759ecf0be2ef34eedb4639e2c33ba5585761acc4123df381a99851d51"
+      },
+      {
+        "id": "karriere_at:7892905",
+        "source": "karriere_at",
+        "title": "Manager:in Financial Services - Fokus: Bankenprüfung (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892905",
+        "salary": "ab 5.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Manager:in Financial Services, Fokus: Bankenprüfung (m/w/d) ...mehr über diese Bereiche findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Durchführung von Jahresabschluss-...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "57f9720070cedf52b810bd941466e6617691de1b53467aa440257739ea0fcd0a"
+      },
+      {
+        "id": "karriere_at:7892902",
+        "source": "karriere_at",
+        "title": "Manager:in Combined Audit & Tax (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892902",
+        "salary": "ab 5.000 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Manager:in Combined Audit & Tax (m/w/d) ...mehr über diese Bereiche findest du unter Audit und Tax! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Prüfungsleitung von Jahresabschluss-...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "b70068c4cb0b256edc9ee89b765fdedc5e005d6d49197f07595dc5436354a62a"
+      },
+      {
+        "id": "karriere_at:7892866",
+        "source": "karriere_at",
+        "title": "Berufsanwärter:in in der Steuerberatung (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien, Graz, Schlins",
+        "url": "https://www.karriere.at/jobs/7892866",
+        "salary": "ab 3.100 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Berufsanwärter:in in der Steuerberatung (m/w/d) ..hier findest du nähere Infos zur Steuerberatung. GREAT, WENN DICH DIESE AUFGABEN FREUEN: Laufende steuerliche und betriebswirtschaftliche...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "026817c0f7667b59aee10f012947da9940fbbff2b08803f4c51d7de05274392d"
+      },
+      {
+        "id": "karriere_at:7892863",
+        "source": "karriere_at",
+        "title": "(Senior) Manager:in Tax/Steuerberater:in mit Fokus Immobilien (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892863",
+        "salary": "ab 5.000 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "(Senior) Manager:in Tax/Steuerberater:in mit Fokus Immobilien (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Fundierte Beratung von...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "a86a6e611d9de2b800318ffe72e6339ecb2e8dcf4f5356c3056e03691e68bbdc"
+      },
+      {
+        "id": "karriere_at:7892860",
+        "source": "karriere_at",
+        "title": "(Senior) Manager:in Tax/ Steuerberater:in - International Tax/ Transfer Pricing (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892860",
+        "salary": "ab 5.000 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "(Senior) Manager:in Tax/ Steuerberater:in, International Tax/ Transfer Pricing (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Beratungstätigkeiten...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "354f7e99dd06b5aa8b7d320426317bb4bcd9579eeb2e45b58088adf879d300e2"
+      },
+      {
+        "id": "karriere_at:7892851",
+        "source": "karriere_at",
+        "title": "(Senior) Associate Tax – Konzern- & Umgründungssteuerrecht (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892851",
+        "salary": "ab 3.100 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "(Senior) Associate Tax, Konzern- & Umgründungssteuerrecht (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Durchführung juristischer...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "34f4ee860141d090059c308b7bc200b08d22073e32050dac836a380fdbe4670b"
+      },
+      {
+        "id": "karriere_at:7892848",
+        "source": "karriere_at",
+        "title": "(Senior) Associate Tax – Arbeits-, Sozialversicherungs- & Lohnsteuerrecht (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892848",
+        "salary": "ab 3.100 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "(Senior) Associate Tax, Arbeits-, Sozialversicherungs- & Lohnsteuerrecht (m/w/d) Mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Laufende Betreuung...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "bb16e086d30e68c1d7bf2db12fd5a4017cb81d1a6d379d16ed60319106389f29"
+      },
+      {
+        "id": "karriere_at:7892842",
+        "source": "karriere_at",
+        "title": "(Junior) Associate Steuerberatung – Tax Allrounder:in (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien, Graz, Lustenau, Schlins",
+        "url": "https://www.karriere.at/jobs/7892842",
+        "salary": "ab 2.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "(Junior) Associate Steuerberatung, Tax Allrounder:in (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Mitarbeit in der steuerlichen...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "763be3bd8e2fac1dff74f0022d69e89413aca3fd680e34f66a8b1f59600fe026"
+      },
+      {
+        "id": "karriere_at:7892839",
+        "source": "karriere_at",
+        "title": "(Junior) Associate – Accounting Advisory & Implementation (m/w/d)",
+        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7892839",
+        "salary": "ab 2.700 € monatlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "(Junior) Associate, Accounting Advisory & Implementation (m/w/d) ...mehr über diesen Bereich findest du hier GREAT, WENN DICH DIESE AUFGABEN FREUEN: Du unterstützt bei Sonderfragen...",
+        "first_seen": "2026-10-12T09:42:46.046073Z",
+        "fingerprint": "465c0f5a8d0994b6b7411d0385d52a3add8114cd144047e9ced77df6ca7b691d"
+      },
+      {
+        "id": "karriere_at:7865707",
+        "source": "karriere_at",
+        "title": "Senior Associate (m/w/d) Anti Financial Crime",
+        "company": "PwC Österreich",
+        "location": "Vienna",
+        "url": "https://www.karriere.at/jobs/7865707",
+        "salary": "ab 60.900 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Deine Aufgaben: Bei uns im Team: Unterstützung der Projektleitung im Bereich Anti Financial Crime inklusive Übernahme von diversen Aufgaben im Lead innerhalb des Projekts, Unterstützung iZm den AML-Package...",
+        "first_seen": "2026-08-26T12:38:27.618142Z",
+        "fingerprint": "006c80ea7c1570f3cd4bd5c3901f152936a1909674bec7ab5dbfca9ee287dc32"
+      },
+      {
+        "id": "karriere_at:7860778",
+        "source": "karriere_at",
+        "title": "Tax Advisor | Steuerberater:in | International Tax & M&A",
+        "company": "EY Österreich",
+        "location": "Wien, Linz",
+        "url": "https://www.karriere.at/jobs/7860778",
+        "salary": "ab 74.200 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Deine Aufgaben: Verantwortlichkeiten, Steuerliche Begleitung nationaler und internationaler Transaktionen von der Analyse potenzieller Risiken über die Strukturierung bis hin zur Umsetzung maßgeschneiderter...",
+        "first_seen": "2026-08-17T07:12:25.718640Z",
+        "fingerprint": "0f18602d5a25e2b485f21000a711a561ada97d24dc28451157982407a784614e"
       },
       {
         "id": "karriere_at:7880248",
@@ -1077,20 +1399,6 @@
         "fingerprint": "6941e902bed39e2422de5a509cd2e71515e39f90e69829e1bcc8418d9f7923eb"
       },
       {
-        "id": "karriere_at:7663272",
-        "source": "karriere_at",
-        "title": "Berufsanwärter:in in der Steuerberatung (m/w/d)",
-        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
-        "location": "Wien, Graz, Schlins",
-        "url": "https://www.karriere.at/jobs/7663272",
-        "salary": "ab 3.100 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Berufsanwärter:in in der Steuerberatung (m/w/d) ..hier findest du nähere Infos zur Steuerberatung. GREAT, WENN DICH DIESE AUFGABEN FREUEN: Laufende steuerliche und betriebswirtschaftliche...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "7dc85b6408e0bad94be949dd94775eb1dc6c2437032a8b07aaa04ae5c271b064"
-      },
-      {
         "id": "karriere_at:7860775",
         "source": "karriere_at",
         "title": "Tax Advisor | Steuerberater:in",
@@ -1119,34 +1427,6 @@
         "fingerprint": "8967474dded9e5597445b6df6e1b7de869bed5bf83892b52dd79c5a90491f4fc"
       },
       {
-        "id": "karriere_at:7663323",
-        "source": "karriere_at",
-        "title": "Senior Associate Audit (m/w/d)",
-        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
-        "location": "Wien, Linz",
-        "url": "https://www.karriere.at/jobs/7663323",
-        "salary": "ab 3.700 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": "Senior Associate Audit (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Planung und Durchführung von Jahres- und Konzernabschlussprüfungen...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "c945298205aa20ce9d78a6aaee63d2cc550a2850b1640bbd5fa8cd5dffa80a75"
-      },
-      {
-        "id": "karriere_at:7663257",
-        "source": "karriere_at",
-        "title": "(Senior) Manager:in Tax/Steuerberater:in mit Fokus Immobilien (m/w/d)",
-        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7663257",
-        "salary": "ab 5.000 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "(Senior) Manager:in Tax/Steuerberater:in mit Fokus Immobilien (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Fundierte Beratung von...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "81305f698ead505df9c5aefede50a71d91fc7aa7e4b5cf17c27a67aec2cb7546"
-      },
-      {
         "id": "karriere_at:10030949",
         "source": "karriere_at",
         "title": "Notariatssachbearbeiter/in zur Verstärkung unseres Teams der Verlassenschaftsabteilung",
@@ -1169,10 +1449,10 @@
         "url": "https://www.karriere.at/jobs/7816376",
         "salary": "ab 49.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Associate Manager (all genders) Audit mit Fokus Private & Midmarket Wien, Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der führende...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "a3dbd4e07492da54101b595679d36942e53d9c624d37f855b96c8bc72c086afb"
+        "fingerprint": "08129054494229bbe93acdb0b7ca6ff89dbdeb1afc38a0919e966b71ad296d40"
       },
       {
         "id": "karriere_at:7816349",
@@ -1183,10 +1463,10 @@
         "url": "https://www.karriere.at/jobs/7816349",
         "salary": "ab 42.840 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "(Junior) Consultant (all genders) Banking Advisory / Regulatory Wien, Österreich Vollzeit Jetzt bewerben Unternehmensbeschreibung Deloitte Österreich ist der führende...",
         "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "d9153ebfdd2931f15a79b1e2a9896a4c6c2428c86fcb2f6de9f17777e03d34aa"
+        "fingerprint": "f280273106549e6575637a2bc62bc8928b74b665be542c0738b6a52bc1638611"
       },
       {
         "id": "karriere_at:7860784",
@@ -1197,10 +1477,10 @@
         "url": "https://www.karriere.at/jobs/7860784",
         "salary": "ab 43.400 € jährlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Entwicklung ganzheitlicher Lösungen an der Schnittstelle von Recht, Wirtschaft und Strategie im internationalen Steuerumfeld, Erstellung fundierter Stellungnahmen, Gutachten...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "358f0879bf7c1fd8150bbb41c1545db4fc54543a72a53e899af5498f4a150202"
+        "fingerprint": "35b06fb31a81b6700372a3184f4daf1d02e827e2052abb8a1216e517078c227d"
       },
       {
         "id": "karriere_at:7860781",
@@ -1211,38 +1491,10 @@
         "url": "https://www.karriere.at/jobs/7860781",
         "salary": "ab 74.200 € jährlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Beratung zu grenzübergreifenden Steuerfragen mit Fokus auf Doppelbesteuerungsabkommen, Quellensteuerentlastungen und internationale Steuerplanung, Strukturierung von...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "b474c0044aec1332419a5ae1631d326b44339b2288732bb0d6846726febe01de"
-      },
-      {
-        "id": "karriere_at:7867303",
-        "source": "karriere_at",
-        "title": "(Senior) Associate Tax – Konzern- & Umgründungssteuerrecht (m/w/d)",
-        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7867303",
-        "salary": "ab 3.100 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
-        "snippet": "(Senior) Associate Tax, Konzern- & Umgründungssteuerrecht (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Durchführung juristischer...",
-        "first_seen": "2026-08-28T11:17:28.767920Z",
-        "fingerprint": "412d94a93596b9a4fc5cc4b726c2e464b08a68ff567927627e3d05ef336ad607"
-      },
-      {
-        "id": "karriere_at:7663251",
-        "source": "karriere_at",
-        "title": "Senior Associate Tax – Steuerberatung & Bilanzierung (m/w/d)",
-        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
-        "location": "Wien, Linz, Bruck an der Leitha",
-        "url": "https://www.karriere.at/jobs/7663251",
-        "salary": "ab 3.700 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
-        "snippet": "Senior Associate Tax, Steuerberatung & Bilanzierung (m/w/d) ...mehr über diesen Bereich erfährst du hier GREAT, WENN DICH DIESE AUFGABEN FREUEN: Eigenverantwortliche Tätigkeiten...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "5424107703028d0c43b9042ccaae1b03e113f08c624fb0e65884e586cada6d5a"
+        "fingerprint": "2b5bc85199bdb9c9ce9dd09c8018127d27df150ea77ca30a16bda860f4e49f7b"
       },
       {
         "id": "karriere_at:7860772",
@@ -1273,60 +1525,19 @@
         "fingerprint": "ead2707b1ce0e0bbd69e127e85eda6c00f4c926fe22b4f3f002bb70139e474ba"
       },
       {
-        "id": "karriere_at:7865707",
-        "source": "karriere_at",
-        "title": "Senior Associate (m/w/d) Anti Financial Crime",
-        "company": "PwC Österreich",
-        "location": "Vienna",
-        "url": "https://www.karriere.at/jobs/7865707",
-        "salary": "ab 60.900 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "3.10.2026",
-        "snippet": "Deine Aufgaben: Bei uns im Team: Unterstützung der Projektleitung im Bereich Anti Financial Crime inklusive Übernahme von diversen Aufgaben im Lead innerhalb des Projekts, Unterstützung iZm den AML-Package...",
-        "first_seen": "2026-08-26T12:38:27.618142Z",
-        "fingerprint": "6e4bd1b46786a1667c711606a0a1ff29de0e2176793ba42e6fddac3b6388fe54"
-      },
-      {
-        "id": "karriere_at:7860778",
-        "source": "karriere_at",
-        "title": "Tax Advisor | Steuerberater:in | International Tax & M&A",
-        "company": "EY Österreich",
-        "location": "Wien, Linz",
-        "url": "https://www.karriere.at/jobs/7860778",
-        "salary": "ab 74.200 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "3.10.2026",
-        "snippet": "Deine Aufgaben: Verantwortlichkeiten, Steuerliche Begleitung nationaler und internationaler Transaktionen von der Analyse potenzieller Risiken über die Strukturierung bis hin zur Umsetzung maßgeschneiderter...",
-        "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "b32e4b5e826adc4c5f9a90569e9565852fc677be38ba02b21db7d1c6095258db"
-      },
-      {
-        "id": "karriere_at:7663254",
-        "source": "karriere_at",
-        "title": "(Senior) Manager:in Tax/ Steuerberater:in - International Tax/ Transfer Pricing (m/w/d)",
-        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
+        "id": "stepstone:1007932",
+        "source": "stepstone",
+        "title": "Jurist/in (m/w/d)",
+        "company": "Österreichische Ärztekammer",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7663254",
-        "salary": "ab 5.000 € monatlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "2.10.2026",
-        "snippet": "(Senior) Manager:in Tax/ Steuerberater:in, International Tax/ Transfer Pricing (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Beratungstätigkeiten...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "ceda2c3d4da133f85725654f6b5e02fb53481bff7f6f74b31b4869681e80926c"
-      },
-      {
-        "id": "karriere_at:7663329",
-        "source": "karriere_at",
-        "title": "Senior Associate Combined mit Fokus Audit (m/w/d)",
-        "company": "BDO Austria GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7663329",
-        "salary": "ab 3.700 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "2.10.2026",
-        "snippet": "Senior Associate Combined mit Fokus Audit (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Abschlussprüfung und prüferische...",
-        "first_seen": "2026-06-18T12:19:34.302256Z",
-        "fingerprint": "c1af0cbb853abe67f28286eaa12768288704ab90ef19ccdbd8704a4f08f6d6d5"
+        "url": "https://www.stepstone.at/stellenangebote--Jurist-in-m-w-d-Wien-Oesterreichische-Aerztekammer--1007932-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-10-12T09:20:31+02:00",
+        "department": "Home Office",
+        "snippet": "Die Österreichische Ärztekammer, als Körperschaft öffentlichen Rechts, ist die gesetzlich eingerichtete berufliche Interessenvertretung aller in Österreich tätigen Ärztinnen und Ärzte mit Sitz in Wien. Neben der Vertretung der gemeinsamen beruflichen, sozialen und wirtschaftlichen Interessen der Ärz",
+        "first_seen": "2026-10-12T09:42:53.734138Z",
+        "fingerprint": "f0be7b45444f5a3e5446c34e8b01317690815140ff1fbecb283937486f746aef"
       },
       {
         "id": "stepstone:992085",
@@ -1344,6 +1555,21 @@
         "fingerprint": "4ee077d3a338e4b0ac6c61968d4ff0ac7895c086322cdaec41db328cc0140672"
       },
       {
+        "id": "stepstone:1006503",
+        "source": "stepstone",
+        "title": "Jurist*in Arbeitsrecht & Personal (m/w/d)",
+        "company": "Caritas der Erzdiözese Wien",
+        "location": "1190 Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Juristin-Arbeitsrecht-Personal-m-w-d-1190-Wien-Caritas-der-Erzdioezese-Wien--1006503-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-10-02T18:19:08+02:00",
+        "department": "Home Office",
+        "snippet": "Du suchst eine juristische Schlüsselrolle mit Gestaltungsspielraum und echtem Mehrwert? Im HR-Team der Caritas der Erzdiözese Wien verbinden wir fundiertes Arbeitsrecht mit strategischer Personalarbeit. Bei uns bringst du deine arbeitsrechtliche Expertise dort ein, wo sie etwas bewegt. Zur Verstärku",
+        "first_seen": "2026-10-02T19:56:24.159435Z",
+        "fingerprint": "2936af9ea7c10fc1ea039b02ed7ce67cc23545e8dcde736b864affcc6a9a3694"
+      },
+      {
         "id": "stepstone:982028",
         "source": "stepstone",
         "title": "Rechtsanwalt (w/m/d) mit gesellschaftsrechtlicher Expertise",
@@ -1357,21 +1583,6 @@
         "snippet": "lawyers & more – wir suchen die besten Köpfe für die besten Arbeitgeber – heute und morgen. Unser Kunde ist eine etablierte, angesehene Rechtsanwaltskanzlei mit hervorragendem Ruf am (inter-)nationalen Markt. Zur Verstärkung des Teams und zur Weiterentwicklung des Fachbereichs Gesellschaftsrech",
         "first_seen": "2026-06-30T20:54:00.747169Z",
         "fingerprint": "4c0c9458ac033463cdd53b23cf30b2e259bcd67951ace21874d401e2e8c1dbbd"
-      },
-      {
-        "id": "stepstone:1006503",
-        "source": "stepstone",
-        "title": "Jurist*in Arbeitsrecht & Personal (m/w/d)",
-        "company": "Caritas der Erzdiözese Wien",
-        "location": "1190 Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Juristin-Arbeitsrecht-Personal-m-w-d-1190-Wien-Caritas-der-Erzdioezese-Wien--1006503-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-10-02T00:01:33+02:00",
-        "department": "Home Office",
-        "snippet": "Du suchst eine juristische Schlüsselrolle mit Gestaltungsspielraum und echtem Mehrwert? Im HR-Team der Caritas der Erzdiözese Wien verbinden wir fundiertes Arbeitsrecht mit strategischer Personalarbeit. Bei uns bringst du deine arbeitsrechtliche Expertise dort ein, wo sie etwas bewegt. Zur Verstärku",
-        "first_seen": "2026-10-02T19:56:24.159435Z",
-        "fingerprint": "51e26357030ef95ea769b7e69b78d9f0bd9608c4210a5cd6df8ea3afe95a27c5"
       },
       {
         "id": "stepstone:1003622",
@@ -1614,21 +1825,6 @@
         "fingerprint": "5f3921bf256e4505429b92d6dc56fa3d296139ba5616b9fd9ccca2616de42253"
       },
       {
-        "id": "stepstone:998620",
-        "source": "stepstone",
-        "title": "Legal Counsel (m/w/d)",
-        "company": "Iventa. The Human Management Group",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--998620-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-10-05T09:06:36+02:00",
-        "department": null,
-        "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
-        "first_seen": "2026-08-21T08:53:58.901646Z",
-        "fingerprint": "fd266b3b574bb8d775be101f01639402e6406ade29b37f219fe431f959e28a47"
-      },
-      {
         "id": "stepstone:994936",
         "source": "stepstone",
         "title": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht",
@@ -1642,6 +1838,21 @@
         "snippet": "Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges",
         "first_seen": "2026-07-28T23:27:24.331085Z",
         "fingerprint": "b4de1a10026675ed9ab9e6103fa9b40aa64b90414d819ea936fec736bcba5870"
+      },
+      {
+        "id": "stepstone:998620",
+        "source": "stepstone",
+        "title": "Legal Counsel (m/w/d)",
+        "company": "Iventa. The Human Management Group",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--998620-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-05T05:56:53+02:00",
+        "department": null,
+        "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
+        "first_seen": "2026-08-21T08:53:58.901646Z",
+        "fingerprint": "970f2b182038204e0d6ce3136ddef6adb541882541dd75d576f6eabc2e0379cd"
       },
       {
         "id": "stepstone:1006897",
@@ -1719,6 +1930,21 @@
         "fingerprint": "f5bfe3937acce7887a6c95879dc4f92a6a6d8736f6775268990b4e8b42909f63"
       },
       {
+        "id": "stepstone:1006304",
+        "source": "stepstone",
+        "title": "Rechtskanzleiassistent:in | Kanzleiorganisation",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtskanzleiassistent-in-Kanzleiorganisation-Wien-l-m-executive-search-consulting-gmbh--1006304-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-12T10:02:02+02:00",
+        "department": null,
+        "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine Wirtschaftskanzlei in Top-Lage der Wiener Innenstadt mit Schwerpunkt Liegenschafts- und Immobilienrecht. Zur Verstärkung des Teams suchen wir eine erfahrene Persönlichkeit",
+        "first_seen": "2026-10-02T08:43:14.377535Z",
+        "fingerprint": "ea1748a545da74907fcab8d70a864f2509264d18401df60aefc4b845c10fc022"
+      },
+      {
         "id": "stepstone:947469",
         "source": "stepstone",
         "title": "Mitarbeiter:in Abendsekretariat/-empfang (d/f/m)",
@@ -1749,21 +1975,6 @@
         "fingerprint": "855d5b3a6e5526e1295606eb615d8ef5c960f846ed5cbb984a0a987eeb96b59f"
       },
       {
-        "id": "stepstone:1006304",
-        "source": "stepstone",
-        "title": "Rechtskanzleiassistent:in | Kanzleiorganisation",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtskanzleiassistent-in-Kanzleiorganisation-Wien-l-m-executive-search-consulting-gmbh--1006304-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-10-02T09:30:29+02:00",
-        "department": null,
-        "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine Wirtschaftskanzlei in Top-Lage der Wiener Innenstadt mit Schwerpunkt Liegenschafts- und Immobilienrecht. Zur Verstärkung des Teams suchen wir eine erfahrene Persönlichkeit",
-        "first_seen": "2026-10-02T08:43:14.377535Z",
-        "fingerprint": "3677705235f21cca8b4e437bbbdf1ea7bb0d47c882ac088ae52dcf9b5067c9d1"
-      },
-      {
         "id": "stepstone:1000490",
         "source": "stepstone",
         "title": "Head of IT (d/f/m)",
@@ -1772,11 +1983,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Head-of-IT-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--1000490-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-10-02T00:00:26+02:00",
+        "published_at": "2026-10-12T04:52:25+02:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mi",
         "first_seen": "2026-09-02T11:29:43.350159Z",
-        "fingerprint": "917e066ebcbba971411fd6305d2d46d70550ec094441200c9d4802ed95275dcf"
+        "fingerprint": "af7ce361180a72be4fb848dfc6ca27356cfcbf5e7eccbac749d29d8e864603ab"
       },
       {
         "id": "stepstone:1001468",
@@ -2155,6 +2366,27 @@
       "karriere_at:7889902",
       "karriere_at:7890589",
       "karriere_at:7891123",
+      "karriere_at:7892839",
+      "karriere_at:7892842",
+      "karriere_at:7892848",
+      "karriere_at:7892851",
+      "karriere_at:7892860",
+      "karriere_at:7892863",
+      "karriere_at:7892866",
+      "karriere_at:7892902",
+      "karriere_at:7892905",
+      "karriere_at:7892908",
+      "karriere_at:7892911",
+      "karriere_at:7892914",
+      "karriere_at:7892917",
+      "karriere_at:7892926",
+      "karriere_at:7892929",
+      "karriere_at:7892935",
+      "karriere_at:7892941",
+      "karriere_at:7892944",
+      "karriere_at:7892947",
+      "karriere_at:7892950",
+      "karriere_at:7892956",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
@@ -2194,6 +2426,7 @@
       "stepstone:1006852",
       "stepstone:1006897",
       "stepstone:1007359",
+      "stepstone:1007932",
       "stepstone:633580",
       "stepstone:929613",
       "stepstone:934776",
