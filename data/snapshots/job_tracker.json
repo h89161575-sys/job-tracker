@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-20T18:41:46.195579Z",
+  "timestamp": "2026-10-20T21:56:32.073364Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-10-20T18:41:46.195579Z",
+        "last_success": "2026-10-20T21:56:32.073364Z",
         "last_error": null,
-        "count": 15
+        "count": 16
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-10-20T18:41:46.195579Z",
+        "last_success": "2026-10-20T21:56:32.073364Z",
         "last_error": null,
         "count": 4
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-10-20T18:41:46.195579Z",
+        "last_success": "2026-10-20T21:56:32.073364Z",
         "last_error": null,
         "count": 3
       },
@@ -29,24 +29,37 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-10-20T18:41:46.195579Z",
+        "last_success": "2026-10-20T21:56:32.073364Z",
         "last_error": null,
         "count": 6
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-10-20T18:41:46.195579Z",
+        "last_success": "2026-10-20T21:56:32.073364Z",
         "last_error": null,
         "count": 76
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-10-20T18:41:46.195579Z",
+        "last_success": "2026-10-20T21:56:32.073364Z",
         "last_error": null,
-        "count": 38
+        "count": 37
       }
     },
     "jobs": [
+      {
+        "id": "jusjobs:2709553",
+        "source": "jusjobs",
+        "title": "Jurist:in für die Abteilung für Rechtspolitik",
+        "company": "Wirtschaftskammer Österreich",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/2709553",
+        "salary": "€ 4.714",
+        "employment_type": "Praktikum",
+        "snippet": "Wir bieten Ihnen: Mentoring: strukturiertes Onboarding und persönliche:r Mentor:in Teamspirit: erfahrenes und kollegiales Team, um entsprechenden Erfahrungsaustausch und…",
+        "first_seen": "2026-10-20T21:56:32.073706Z",
+        "fingerprint": "8213f6c9b44084cd3292d395cd8dab6ab61104254bab6d658fe981c251e8ae50"
+      },
       {
         "id": "jusjobs:1979873",
         "source": "jusjobs",
@@ -55,10 +68,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/1979873",
         "salary": "€ 4.063",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Junior Product Owner für Anwendungen im Umfeld der österreichischen Justiz mit Schwerpunkt Konzeption, Analyse und agile Weiterentwicklung der Verfahrensautomation Justiz.",
         "first_seen": "2026-08-20T11:01:03.062870Z",
-        "fingerprint": "de405c41e0a7c171959e12b271d0e6adfc8a671a48701e9337819fe4fd98cf59"
+        "fingerprint": "a1e1992aabbde6382754f2983d6baa057ae4e14458f1fb73bf7f17715ea724ad"
       },
       {
         "id": "jusjobs:1979851",
@@ -533,6 +546,20 @@
         "fingerprint": "e69a384d54aa29980e7f6ef39a45e0cc093994f0e419be5a49d6207158357c3b"
       },
       {
+        "id": "karriere_at:10031218",
+        "source": "karriere_at",
+        "title": "Senior Legal Assistant (m/f/d)",
+        "company": "Valneva Austria GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10031218",
+        "salary": "ab 44.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 2 Tagen veröffentlicht",
+        "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
+        "first_seen": "2026-08-31T15:02:20.466416Z",
+        "fingerprint": "5bd0eb59f0198cf9bf33ae1eb755324a7895362f3746f6b045d3b9255214aa2d"
+      },
+      {
         "id": "karriere_at:10034351",
         "source": "karriere_at",
         "title": "Jurist:in Stabstelle Recht (m/w/d)",
@@ -601,20 +628,6 @@
         "snippet": "Rechtswissenschaftliches Studium für Koordination rechtlicher Agenden, Erstellung von Rechtsgutachten und Vertragsverwaltung. Erfahrung im Datenschutzrecht von Vorteil. Verantwortungsvolle Tätigkeit.",
         "first_seen": "2026-09-28T17:03:55.353439Z",
         "fingerprint": "4ad58e0b931980cabed69fba5bcac11dfe354f5360210aacc2d7f33cbc861e1d"
-      },
-      {
-        "id": "karriere_at:10031218",
-        "source": "karriere_at",
-        "title": "Senior Legal Assistant (m/f/d)",
-        "company": "Valneva Austria GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10031218",
-        "salary": "ab 44.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": "Verwaltung von Verträgen, Erstellung juristischer Dokumente in Englisch und Deutsch, Unterstützung von Vertrags- und Schulungsprozessen. Mindestens zwei Jahre Erfahrung als Rechtsassistent oder Paralegal erforderlich. Fließende Englisch- und Deutschkenntnisse sind ein Muss.",
-        "first_seen": "2026-08-31T15:02:20.466416Z",
-        "fingerprint": "5bd0eb59f0198cf9bf33ae1eb755324a7895362f3746f6b045d3b9255214aa2d"
       },
       {
         "id": "karriere_at:10036233",
@@ -1579,11 +1592,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Juristin-Arbeitsrecht-Personal-m-w-d-1190-Wien-Caritas-der-Erzdioezese-Wien--1006503-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-10-17T01:13:28+02:00",
+        "published_at": "2026-10-17T10:21:57+02:00",
         "department": "Home Office",
         "snippet": "Starkes Sparring: Du arbeitest eng auf Augenhöhe mit unserer erfahrenen Arbeitsrechtsjuristin zusammen – ihr vertretet und unterstützt euch wechselseitig im Tagesgeschäft. Strategische Beratung: Enger Austausch mit der Leiterin Human Relations bei der juristischen Ausgestaltung organisatorischer Th",
         "first_seen": "2026-10-02T19:56:24.159435Z",
-        "fingerprint": "c79e6b9ba7791f0b8257b9f8d1269526a48ddf670e6cdbcfaea64e8787ee50cf"
+        "fingerprint": "ae9f78364d2df3d82061830ea8d374af9f4d94a18ace9379849ac82def4838cd"
       },
       {
         "id": "stepstone:1003622",
@@ -1676,21 +1689,6 @@
         "fingerprint": "c986cb007e040a43bf4542c1cb54a80330c01d594a53c0ad7cff353f51691273"
       },
       {
-        "id": "stepstone:995185",
-        "source": "stepstone",
-        "title": "Rechtsanwalt / erfahrenenen Rechtsanwaltsanwärter (w/m/d) (Regulatorisches) Bankenrecht /Kapitalmarktrecht",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-erfahrenenen-Rechtsanwaltsanwaerter-w-m-d-Regulatorisches-Bankenrecht-Kapitalmarktrecht-Wien-l-m-executive-search-consulting-gmbh--995185-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-10-18T10:02:02+02:00",
-        "department": "Home Office",
-        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unsere Klientin ist eine international ausgezeichnete Wirtschaftskanzlei mit exzellenter Reputation – bekannt für ihre internationale Tätigkeit im Bereich Bank- und Finanzdienstleistung. Die Kanzlei ve",
-        "first_seen": "2026-07-29T16:37:27.029091Z",
-        "fingerprint": "c99ee40674b044b0cf34159076c1633b2b9e3c586846c29b6f768e767d845fa2"
-      },
-      {
         "id": "stepstone:995186",
         "source": "stepstone",
         "title": "Rechtsanwalt Transaktionen (w/m/d)",
@@ -1704,6 +1702,21 @@
         "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Wir verstärken aktuell eine renommierte Wiener Anwaltskanzlei, die für exzellente Beratung im Bereich M&A und Gesellschaftsrecht steht. Auf Basis einer gewachsenen Sozietätsstruktur werden hier kompl",
         "first_seen": "2026-07-29T16:37:27.029091Z",
         "fingerprint": "3e322bf6c992b652872b5891a6601dde9c1da557b06d6f85f0020280141d2bc8"
+      },
+      {
+        "id": "stepstone:995185",
+        "source": "stepstone",
+        "title": "Rechtsanwalt / erfahrenenen Rechtsanwaltsanwärter (w/m/d) (Regulatorisches) Bankenrecht /Kapitalmarktrecht",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwalt-erfahrenenen-Rechtsanwaltsanwaerter-w-m-d-Regulatorisches-Bankenrecht-Kapitalmarktrecht-Wien-l-m-executive-search-consulting-gmbh--995185-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-10-18T10:02:02+02:00",
+        "department": "Home Office",
+        "snippet": "lawyers & more – wir suchen die besten Köpfe – für den besten Arbeitgeber – heute und morgen. Unsere Klientin ist eine international ausgezeichnete Wirtschaftskanzlei mit exzellenter Reputation – bekannt für ihre internationale Tätigkeit im Bereich Bank- und Finanzdienstleistung. Die Kanzlei ve",
+        "first_seen": "2026-07-29T16:37:27.029091Z",
+        "fingerprint": "c99ee40674b044b0cf34159076c1633b2b9e3c586846c29b6f768e767d845fa2"
       },
       {
         "id": "stepstone:1000149",
@@ -1869,21 +1882,6 @@
         "snippet": "Our client, Vienna International School – Austria, seeks a In-House Legal Counsel & Governance Officer (all genders) Full-time (38.5 hours/week) - as soon as possible Shape the Legal & Governance Landscape of a Leading International School Are you an experienced legal pr",
         "first_seen": "2026-09-25T13:02:05.352200Z",
         "fingerprint": "537e595e878c3a1d51e2ccfad6b7ab477940814f9d0315492df006a3bb85a867"
-      },
-      {
-        "id": "stepstone:998620",
-        "source": "stepstone",
-        "title": "Legal Counsel (m/w/d)",
-        "company": "Iventa. The Human Management Group",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--998620-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-10-05T07:57:20+02:00",
-        "department": null,
-        "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
-        "first_seen": "2026-08-21T08:53:58.901646Z",
-        "fingerprint": "78ec29b686123ddf307c801bdd8c6d6eef97c054d2e69c48100a0ad96b3dfb97"
       },
       {
         "id": "stepstone:999951",
@@ -2226,6 +2224,7 @@
       "jusjobs:2207269",
       "jusjobs:2207317",
       "jusjobs:2222909",
+      "jusjobs:2709553",
       "jusjobs:432457",
       "jusjobs:712767",
       "jusjobs:970720",
