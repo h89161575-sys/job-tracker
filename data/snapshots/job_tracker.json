@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-11-06T20:50:34.038224Z",
+  "timestamp": "2026-11-07T00:31:37.927631Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-11-06T20:50:34.038224Z",
+        "last_success": "2026-11-07T00:31:37.927631Z",
         "last_error": null,
         "count": 20
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-11-06T20:50:34.038224Z",
+        "last_success": "2026-11-07T00:31:37.927631Z",
         "last_error": null,
         "count": 5
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-11-06T20:50:34.038224Z",
+        "last_success": "2026-11-07T00:31:37.927631Z",
         "last_error": null,
         "count": 1
       },
@@ -30,20 +30,20 @@
       "derstandard": {
         "label": "DER STANDARD Jobs",
         "last_success": "2026-11-06T20:50:34.038224Z",
-        "last_error": null,
-        "count": 3
+        "last_error": "DER STANDARD Jobs returned 0 jobs after previously returning 3; preserving the prior baseline",
+        "count": 1
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-11-06T20:50:34.038224Z",
+        "last_success": "2026-11-07T00:31:37.927631Z",
         "last_error": null,
-        "count": 73
+        "count": 71
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-11-06T20:50:34.038224Z",
+        "last_success": "2026-11-07T00:31:37.927631Z",
         "last_error": null,
-        "count": 40
+        "count": 41
       }
     },
     "jobs": [
@@ -505,20 +505,6 @@
         "fingerprint": "4d21f3fd885b799d3e7e5a318bc41946b1c70b52003bd95e230bc74e2f1f4e7d"
       },
       {
-        "id": "karriere_at:7895941",
-        "source": "karriere_at",
-        "title": "Jurist*in - Fachbereich Recht",
-        "company": "Stadt Wien – Wiener Wohnen Kundenservice GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7895941",
-        "salary": "ab 61.578 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Ihre Aufgaben: Als eine der zentralen Ansprechpersonen für rechtliche Belange beraten Sie das Unternehmen in unterschiedlichsten juristischen Fragestellungen. Die Beratung in zivil-, bau- und liegenschaftsrechtlichen...",
-        "first_seen": "2026-10-16T09:56:30.668073Z",
-        "fingerprint": "82636aa9467f0eb8f2ab6b4daceddebc6d901837c421ae6461ed36a973252b00"
-      },
-      {
         "id": "karriere_at:10036425",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter:in im Bereich IP/IT/Datenschutz (w/m/d",
@@ -527,10 +513,10 @@
         "url": "https://www.karriere.at/jobs/10036425",
         "salary": "4.300 € – 4.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Beratung zu AI, E-Commerce, Digitalisierung und New Tech. Unterstützung im Datenschutz, insbesondere bei Data Breaches. Vorbereitung von Gerichts- und Behördenverhandlungen. Ausgezeichnete Deutsch- und Englischkenntnisse. Weiterbildungsmöglichkeiten.",
         "first_seen": "2026-10-19T15:01:03.627689Z",
-        "fingerprint": "6d172ab8301f290d117798b499768f11c2dbeb94f3e3df235dfdb02546be9bbe"
+        "fingerprint": "840b43b161c2662b530f2007c8c068b539cd982a3d904c6648e9777ebafdec72"
       },
       {
         "id": "karriere_at:10038193",
@@ -541,10 +527,10 @@
         "url": "https://www.karriere.at/jobs/10038193",
         "salary": "3.700,72 € – 4.395,64 € monatlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 1 Tagen veröffentlicht",
         "snippet": "Rechtliche Beratung von Geschäftsführung und Fachabteilungen, Erstellung und Prüfung von Verträgen sowie Sicherstellung der Compliance. Mehrjährige Berufserfahrung als Jurist*in erforderlich. Umfangreiche Vorteile und Benefits.",
         "first_seen": "2026-11-05T11:38:58.672591Z",
-        "fingerprint": "da6e0741e826b8db10746b73bd764b638ba211c293abb09ca5253d2480a561c3"
+        "fingerprint": "8e28f6433bbd2d91d14a4c3a5b332577c16b387584f47358eb80361dfb433aeb"
       },
       {
         "id": "karriere_at:10037165",
@@ -555,10 +541,10 @@
         "url": "https://www.karriere.at/jobs/10037165",
         "salary": "ab 4.500 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Vorbereitung von Rechtsdokumenten, Prozessführung und Begleitung bei Umstrukturierungen. Mindestens ein Jahr Erfahrung im Arbeitsrecht erforderlich. Ausgezeichnete Englischkenntnisse sind Voraussetzung. Bietet Entwicklungsmöglichkeiten und Mitarbeit an internationalen Mandaten.",
         "first_seen": "2026-10-27T12:27:44.865234Z",
-        "fingerprint": "5742f771de5ba0b570b610d8599b0725664f9954f96b4034e51a3b03b8cc59ca"
+        "fingerprint": "ea207d02f75303c70662bb33b4e7c44d8f49125f08d2145ace7a5529f03e4337"
       },
       {
         "id": "karriere_at:10032483",
@@ -569,10 +555,10 @@
         "url": "https://www.karriere.at/jobs/10032483",
         "salary": "ab 4.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
+        "published_at": "vor 3 Tagen veröffentlicht",
         "snippet": "Verfassen von Memoranden, Rechtsgutachten und Berichten. Erstellung von Schriftsätzen. Mitarbeit bei Kartellrechtsverfahren. EU-beihilferechtliche Beratung. Ausgezeichnete Englischkenntnisse sind Voraussetzung. Exzellente Entwicklungsmöglichkeiten.",
         "first_seen": "2026-09-10T13:53:39.551225Z",
-        "fingerprint": "c589e52dc39db024767fdc29837c4a0b23327ff713810c11aa448c2ae27fdf26"
+        "fingerprint": "92edf1d505929db70c5372958f6de74674a9a875c63a198e81c628813dbf49b9"
       },
       {
         "id": "karriere_at:10036233",
@@ -583,10 +569,10 @@
         "url": "https://www.karriere.at/jobs/10036233",
         "salary": "ab 35.000 € jährlich",
         "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Telefonische Kundenunterstützung bei der ADVOKAT-Anwaltssoftware. Untersuchung und Lösung von Kundenproblemen. Idealerweise Erfahrung mit ADVOKAT. Umfangreiche Einschulung und Weiterbildungsmöglichkeiten.",
         "first_seen": "2026-10-16T09:56:30.668073Z",
-        "fingerprint": "515a33c2788e3f5c48651b5edb052f11dd36b8f15d71e21bdb8ca972e0431697"
+        "fingerprint": "506668f975761c36ac6a0f6a11ffe287c22eff6d94e059d3f9136ebba4569c70"
       },
       {
         "id": "karriere_at:10036191",
@@ -597,10 +583,10 @@
         "url": "https://www.karriere.at/jobs/10036191",
         "salary": "4.300 € – 4.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Juristische Recherche, Schriftsatzverfassung und Beratung in Schieds- und Gerichtsverfahren. Ausgezeichnete Deutsch- und Englischkenntnisse sind erforderlich. 20 Tage Prüfungsurlaub für die RAP-Vorbereitung werden geboten.",
         "first_seen": "2026-10-15T15:20:41.393002Z",
-        "fingerprint": "1434c4136a40217be12e5df36097f557dae13da988a137a688df136583baf4b6"
+        "fingerprint": "87ec3f2be56574f97c91b29ad1d3ec9fd09716cef58cad6d542cee1599101d17"
       },
       {
         "id": "karriere_at:10032942",
@@ -611,10 +597,10 @@
         "url": "https://www.karriere.at/jobs/10032942",
         "salary": "ab 55.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Beratung nationaler/internationaler Mandanten in Zivil-/Unternehmensrecht, Analyse von Verfahren, Erstellung von Gutachten. 2-4 Jahre Berufserfahrung im Bereich Dispute Resolution erforderlich. Flexible Arbeitszeiten und Homeoffice werden geboten.",
         "first_seen": "2026-09-16T14:55:53.410663Z",
-        "fingerprint": "760286bd90ef4081f62d89e09ea66f9c45a6007bb562ffd046cb8458a1006833"
+        "fingerprint": "37780062cf9cdcf9cf4f873e940d05d6c89daaddf50df177f4ee975de9c88e53"
       },
       {
         "id": "karriere_at:10033978",
@@ -625,24 +611,10 @@
         "url": "https://www.karriere.at/jobs/10033978",
         "salary": "ab 48.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Umfassende Beratung im Gesellschaftsrecht und bei M&A-Transaktionen. Erstellung und Verhandlung gesellschaftsrechtlicher Dokumente. Exzellente Deutsch- und Englischkenntnisse erforderlich. Flexible Arbeitszeiten und Homeoffice möglich.",
         "first_seen": "2026-10-03T23:55:05.742181Z",
-        "fingerprint": "98db08d9b0562670f6ca707d6d68c033211dd05d8897dbeca121d2106dad08ed"
-      },
-      {
-        "id": "karriere_at:10032139",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) Corporate / M&A",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10032139",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Rechtsberatung nationaler/internationaler Mandanten, M&A Transaktionen, Corporate Clients. Abgeschlossenes Studium Rechtswissenschaften/Wirtschaftsrecht, exzellente Englischkenntnisse. Entwicklungsmöglichkeiten.",
-        "first_seen": "2026-09-08T11:43:08.137305Z",
-        "fingerprint": "35e7dac044af147a7c203070f87a54a985907a5da56719b70e1414e9cfeb10c5"
+        "fingerprint": "f2087aeb05ae59c6d09b372b72660dc2ec7ec991d9cd4805478d7118f54c30f4"
       },
       {
         "id": "karriere_at:10027709",
@@ -653,10 +625,10 @@
         "url": "https://www.karriere.at/jobs/10027709",
         "salary": "ab 47.446 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Bearbeitung von Fragestellungen des Digital Services Act und komplexen Verwaltungsverfahren. Abgeschlossenes Studium der Rechtswissenschaften erforderlich. Möglichkeit zur Mitgestaltung eines zukunftsorientierten Umfelds mit Weiterbildung.",
         "first_seen": "2026-10-12T19:24:28.564724Z",
-        "fingerprint": "fbba415a7496d5b647dd1426a09e70f1763b1879088c442bb9f56397dfd566cc"
+        "fingerprint": "7cff42897e177c550ee2c6cf57d0815eee890c6eb957ad84895dba78d3dd5bca"
       },
       {
         "id": "karriere_at:10036699",
@@ -667,24 +639,10 @@
         "url": "https://www.karriere.at/jobs/10036699",
         "salary": "ab 3.599,53 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Laufende rechtliche Beratung, Vertragsgestaltung und Datenschutzbegleitung. Mindestens 3-5 Jahre Berufserfahrung im Wirtschaftsrecht und Datenschutz sind erforderlich. Vertiefung und Erweiterung juristischen und wirtschaftlichen Wissens.",
         "first_seen": "2026-10-21T10:19:21.070128Z",
-        "fingerprint": "b4df9ca3094aff00df9917065d931874685e43db3113de8d26d613359d8e8c19"
-      },
-      {
-        "id": "karriere_at:10032173",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) Immobilienrecht",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10032173",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
-        "snippet": "Erstellung von Verträgen, Gutachten und Schriftsätzen im Immobilienrecht. Sehr gute Englischkenntnisse sind erforderlich. Bietet breiten Tätigkeitsbereich in internationalem Umfeld mit komplexen Aufgabenstellungen.",
-        "first_seen": "2026-09-08T11:43:08.137305Z",
-        "fingerprint": "8c5cd24b5e11769925e6e30ae4f66b18b45cf779a6bdc132e66b7407ee8cd79e"
+        "fingerprint": "6c9a515df20d907722a8d257bcd5934faf276ddbbaf0bb2b0f99faf9cf840b65"
       },
       {
         "id": "karriere_at:10034351",
@@ -695,10 +653,10 @@
         "url": "https://www.karriere.at/jobs/10034351",
         "salary": "ab 5.309,60 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "30.10.2026",
         "snippet": "Rechtliche Beratung, Compliance, Arbeits- und Sozialrecht, Immobilienrecht, Baurecht. Mehrjährige Berufserfahrung als Jurist:in, idealerweise im Immobilienwesen. Langfristige Festanstellung.",
         "first_seen": "2026-09-30T15:52:38.184264Z",
-        "fingerprint": "17d51e8a0e5130841741c240d2edb64aae297d2b75c5fa27bb283e979d6f1f5c"
+        "fingerprint": "d749e67e140969b4b13cfba6e7e8042e04dd7a9b82cf3d70c2187df7ab2aa6cb"
       },
       {
         "id": "karriere_at:10037352",
@@ -723,10 +681,10 @@
         "url": "https://www.karriere.at/jobs/7899430",
         "salary": "ab 60.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Prüfung, Gestaltung und Verhandlung von IT-Projekt-, Dienstleistungs- und Lieferverträgen mit Kunden, Lieferanten und Herstellern in deutscher und englischer Sprache, Gemeinsame Ausarbeitung...",
         "first_seen": "2026-10-22T16:05:43.338198Z",
-        "fingerprint": "454ad614c08881b2b5b4df66a136076c3e366d523fa968b8963c6ca43405ba91"
+        "fingerprint": "214f2e0810d2c9b80f883d1b21c405a3f1f33f9539e1af49ea258fb6ada2d1f3"
       },
       {
         "id": "karriere_at:7905509",
@@ -737,10 +695,10 @@
         "url": "https://www.karriere.at/jobs/7905509",
         "salary": "ab 36.400 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Deine Aufgaben: Bei uns im Team: Berate Engagement Teams und den Einkauf zu vertragsrechtlichen Fragestellungen, insbesondere zu Haftung, Gewährleistung, Schadenersatz, Vertragsstrafen und Allgemeinen Geschäftsbedingungen...",
         "first_seen": "2026-11-05T11:38:58.672591Z",
-        "fingerprint": "f02c136f855bc41135b3319accc38437ac5384b97e2f23b00fd35c58d4b67683"
+        "fingerprint": "07d01c1c409b8d69f74e435bd873055276b4ef37d548ab39903a2169ce03de72"
       },
       {
         "id": "karriere_at:7893319",
@@ -797,6 +755,20 @@
         "snippet": "Ihr Aufgabenbereich: Beratung in datenschutzrechtlichen Fragen und Koordinierung datenschutzrechtlicher Themen, Unterstützung des Managements, wissenschaftliches Arbeiten an sozialversicherungsrechtlichen Fragestellungen...",
         "first_seen": "2026-10-28T14:28:22.685663Z",
         "fingerprint": "c075bd2749f6142aa0a871db027283418c9cb934eb03af4ecd4d8877d21d821e"
+      },
+      {
+        "id": "karriere_at:7895941",
+        "source": "karriere_at",
+        "title": "Jurist*in - Fachbereich Recht",
+        "company": "Stadt Wien – Wiener Wohnen Kundenservice GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7895941",
+        "salary": "ab 61.578 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 1 Tagen veröffentlicht",
+        "snippet": "Ihre Aufgaben: Als eine der zentralen Ansprechpersonen für rechtliche Belange beraten Sie das Unternehmen in unterschiedlichsten juristischen Fragestellungen. Die Beratung in zivil-, bau- und liegenschaftsrechtlichen...",
+        "first_seen": "2026-10-16T09:56:30.668073Z",
+        "fingerprint": "1c5d51b20f5f02e86fd6db5b9c55f96894c95850d778c26effee939c24dfbe5e"
       },
       {
         "id": "karriere_at:7905098",
@@ -1059,10 +1031,10 @@
         "url": "https://www.karriere.at/jobs/7860784",
         "salary": "ab 43.400 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Deine Aufgaben: Verantwortlichkeiten, Entwicklung ganzheitlicher Lösungen an der Schnittstelle von Recht, Wirtschaft und Strategie im internationalen Steuerumfeld, Erstellung fundierter Stellungnahmen, Gutachten...",
         "first_seen": "2026-08-17T07:12:25.718640Z",
-        "fingerprint": "a68368da271bd7b334418e7c92ae48475952618415ce82abfa733d27f403d3e1"
+        "fingerprint": "a4c71b691fd9a30c396c25ca2eddc9abc75d4a7f815f70ab1fe9a8b5c822e0b8"
       },
       {
         "id": "karriere_at:7906157",
@@ -1073,10 +1045,10 @@
         "url": "https://www.karriere.at/jobs/7906157",
         "salary": "ab 45.500 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
+        "published_at": "Gestern veröffentlicht",
         "snippet": "Ihre Aufgaben: Mitarbeit bei nationalen und internationalen M&A, Valuation, Due Diligence bzw. Restrukturierungs Projekten unserer Kunden im Deals & Strategy, Mitwirkung bei strategischen (Portfolio-)Überlegungen...",
         "first_seen": "2026-11-06T14:57:37.257744Z",
-        "fingerprint": "6af7de028fbea2c37232101279e74d1ef11247705a40acbaae9582e35b72ebb7"
+        "fingerprint": "49033e4e86026f8cdc3c52c3afa4604ba045bd0a06134538e38950d4e39a95dd"
       },
       {
         "id": "karriere_at:7892935",
@@ -1367,10 +1339,10 @@
         "url": "https://www.karriere.at/jobs/10033635",
         "salary": "ab 4.300 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Eigenverantwortliche risikobasierte Revisionsprüfungen mit Schwerpunkt Geldwäsche. Mindestens fünf Jahre Berufserfahrung im Bereich Wirtschaftsprüfung, Compliance oder Revision. Einblick in die Arbeit der Selbstverwaltung der Wiener Rechtsanwaltschaft.",
         "first_seen": "2026-09-23T17:19:10.927643Z",
-        "fingerprint": "2f8142076b7c91cec4ae3c3f8c23dca866a55c881d1ed644cab18bea8fa290f2"
+        "fingerprint": "d4567c31f24c00f73f846199ee4cb4175a2ed118c1f30482140c6b1ac5b2cc81"
       },
       {
         "id": "karriere_at:7880248",
@@ -1648,6 +1620,36 @@
         "fingerprint": "27d2cf9289cf9fe6272f13b371e6addbd4613dd5ebeaf4b85c9366a16f311d82"
       },
       {
+        "id": "stepstone:976441",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-11-07T00:38:19+01:00",
+        "department": "Home Office",
+        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
+        "first_seen": "2026-06-30T20:54:00.747169Z",
+        "fingerprint": "94031436b7d400cee3111f380108d4ee8b8d62092469863f0a6abe8d70f1ac4b"
+      },
+      {
+        "id": "stepstone:1014036",
+        "source": "stepstone",
+        "title": "Fachexpert:in in der Interessenvertretung für Rechtsberatung auf Bulgarisch (all genders) mit Erfahrung in Teilzeit von 20 Wochenstunden",
+        "company": "Österreichischer Gewerkschaftsbund",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Fachexpert-in-in-der-Interessenvertretung-fuer-Rechtsberatung-auf-Bulgarisch-all-genders-mit-Erfahrung-in-Teilzeit-von-20-Wochenstunden-Wien-Oesterreichischer-Gewerkschaftsbund--1014036-inline.html",
+        "salary": null,
+        "employment_type": "Teilzeit, Home Office",
+        "published_at": "2026-11-07T00:01:06+01:00",
+        "department": "Home Office",
+        "snippet": "Der Österreichische Gewerkschaftsbund (ÖGB) ist eine überparteiliche Interessenvertretung unselbstständiger Erwerbstätiger mit 1,2 Mio. Mitgliedern. Wir vertreten die Interessen aller Arbeitnehmer:innen gegenüber Arbeitgebern, Staat und Parteien. Dabei arbeiten wir mit aller Kraft dafür, dass alle M",
+        "first_seen": "2026-11-07T00:31:49.035784Z",
+        "fingerprint": "39932b853e9c3a63d658eaf34139873aa2d2ecf0a7821155529fab6512a1737c"
+      },
+      {
         "id": "stepstone:934778",
         "source": "stepstone",
         "title": "Rechtsanwält:in Corporate Restructuring (d/f/m)",
@@ -1766,21 +1768,6 @@
         "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
         "first_seen": "2026-10-22T11:44:12.376639Z",
         "fingerprint": "b118cea01bf155d02faac2614841e9256ba7d9f6b944218c93877cc10ac3888c"
-      },
-      {
-        "id": "stepstone:976441",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-10-28T00:39:46+01:00",
-        "department": "Home Office",
-        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "ad52ae6ef8f478be6b731b1dcc828785f73805142be38531fa54b390984e0c6f"
       },
       {
         "id": "stepstone:1003623",
@@ -2526,6 +2513,7 @@
       "stepstone:1012865",
       "stepstone:1013244",
       "stepstone:1013777",
+      "stepstone:1014036",
       "stepstone:1014064",
       "stepstone:1014083",
       "stepstone:633580",
