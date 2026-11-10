@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-11-10T11:42:38.923524Z",
+  "timestamp": "2026-11-10T18:54:37.897206Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-11-10T11:42:38.923524Z",
+        "last_success": "2026-11-10T18:54:37.897206Z",
         "last_error": null,
-        "count": 18
+        "count": 19
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-11-10T11:42:38.923524Z",
+        "last_success": "2026-11-10T18:54:37.897206Z",
         "last_error": null,
         "count": 5
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-11-10T11:42:38.923524Z",
+        "last_success": "2026-11-10T18:54:37.897206Z",
         "last_error": null,
         "count": 1
       },
@@ -29,21 +29,21 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-11-10T11:42:38.923524Z",
+        "last_success": "2026-11-10T18:54:37.897206Z",
         "last_error": null,
-        "count": 4
+        "count": 5
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-11-10T11:42:38.923524Z",
+        "last_success": "2026-11-10T18:54:37.897206Z",
         "last_error": null,
-        "count": 70
+        "count": 69
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-11-10T11:42:38.923524Z",
+        "last_success": "2026-11-10T18:54:37.897206Z",
         "last_error": null,
-        "count": 36
+        "count": 38
       }
     },
     "jobs": [
@@ -217,6 +217,19 @@
         "fingerprint": "56689b572845b8fc485f10b9733f9e32be499b1abd774cc0fe54f59ac3ce66b3"
       },
       {
+        "id": "jusjobs:2708911",
+        "source": "jusjobs",
+        "title": "Jurist:in für die Abteilung für Rechtspolitik",
+        "company": "WKO – WIFI",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/2708911",
+        "salary": "€ 4.714",
+        "employment_type": "Vollzeit",
+        "snippet": "Wir bieten Ihnen: Mentoring: strukturiertes Onboarding und persönliche:r Mentor:in Teamspirit: erfahrenes und kollegiales Team, um entsprechenden Erfahrungsaustausch und…",
+        "first_seen": "2026-11-10T18:54:37.897573Z",
+        "fingerprint": "008ad8c449ff722d762536feebed3ed30ecf2d2e14ab2daac7251005f2b7acb7"
+      },
+      {
         "id": "jusjobs:2011471",
         "source": "jusjobs",
         "title": "Transaktionsjurist:in (w/m/d) mit Fokus auf Projekt-, und Auslandsgeschäft",
@@ -263,10 +276,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/2548321",
         "salary": "€ 56,000.",
-        "employment_type": "Vollzeit",
+        "employment_type": "Praktikum",
         "snippet": "Aufgabengebiet Weihnachtsüberraschung Wertschätzendes Umfeld For this position, we offer a gross annual salary starting at € 56,000. Depending on your qualifications and…",
         "first_seen": "2026-10-23T17:03:52.502461Z",
-        "fingerprint": "fe5eafdfd7853a86c1466a1659ad9515bb062d5b4ebf427c99fdbef0ce6e33c2"
+        "fingerprint": "3e35793c993f7c18971e89005b2ddfd90dc1b2a908da3e3657cdee78e1d2c894"
       },
       {
         "id": "jusjobs:2465769",
@@ -276,10 +289,10 @@
         "location": "Wien",
         "url": "https://www.jusjobs.at/job/2465769",
         "salary": "€ 3.000",
-        "employment_type": "Praktikum",
+        "employment_type": "Vollzeit",
         "snippet": "Aufgaben Bearbeitung diverser Rechtsgeschäfte im Miet- und Wohnungseigentumrecht Betreuung der von Anwälten geführten Mietzins- und Räumungsklagen Durchführung von…",
         "first_seen": "2026-10-01T13:33:16.880862Z",
-        "fingerprint": "18dcacb29e07fd84502653762e1b8b953350889b64e758176ee96f90dc242eee"
+        "fingerprint": "08d6e119dc455d05d9499cb250aa461ee922b2bc70de2b31b38de01aa9ce5072"
       },
       {
         "id": "erste_bank:34936",
@@ -479,6 +492,16 @@
         "fingerprint": "4d21f3fd885b799d3e7e5a318bc41946b1c70b52003bd95e230bc74e2f1f4e7d"
       },
       {
+        "id": "derstandard:3e71d35a-b93f-3add-b2e0-213984293f0c",
+        "source": "derstandard",
+        "title": "Anwält:in im Bereich Banking, Finance & Capital Markets",
+        "company": "Schönherr Rechtsanwälte GmbH",
+        "location": "Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/3e71d35a-b93f-3add-b2e0-213984293f0c",
+        "first_seen": "2026-11-10T18:54:45.214513Z",
+        "fingerprint": "c13821257945a9e433503cacade7e3bba0e733dabef887834354157df38997bb"
+      },
+      {
         "id": "derstandard:5412f64a-ac4f-38a5-a39b-f3a8429d9726",
         "source": "derstandard",
         "title": "Bid Manager (m,w,d)",
@@ -657,20 +680,6 @@
         "fingerprint": "5b4e7198cb928667508fc407724513bd132a14a4261e740b8d9758a4cd11d32f"
       },
       {
-        "id": "karriere_at:10033978",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter:in im Bereich Corporate / M&A",
-        "company": "Forvis Mazars",
-        "location": "Wien 2. Bezirk (Leopoldstadt)",
-        "url": "https://www.karriere.at/jobs/10033978",
-        "salary": "ab 48.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "1.11.2026",
-        "snippet": "Umfassende Beratung im Gesellschaftsrecht und bei M&A-Transaktionen. Erstellung und Verhandlung gesellschaftsrechtlicher Dokumente. Exzellente Deutsch- und Englischkenntnisse erforderlich. Flexible Arbeitszeiten und Homeoffice möglich.",
-        "first_seen": "2026-10-03T23:55:05.742181Z",
-        "fingerprint": "a9142986ce725e1df2dddadec433d2a3ec4a8d71b0e18c3a3a48adbb462bb9f4"
-      },
-      {
         "id": "karriere_at:10027709",
         "source": "karriere_at",
         "title": "Jurist:in Digitale Dienste (m/w/d)",
@@ -741,6 +750,20 @@
         "fingerprint": "8ba9a053e6dae9bc67306c33a638eccdd46d0ff5722a276a7b8b8c46e3919203"
       },
       {
+        "id": "karriere_at:7905098",
+        "source": "karriere_at",
+        "title": "Leiter*in Rechtsabteilung",
+        "company": "Stadt Wien – Wiener Wohnen Kundenservice GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7905098",
+        "salary": "ab 80.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 6 Tagen veröffentlicht",
+        "snippet": "Deine Aufgaben: Du übernimmst die fachliche, personelle und wirtschaftliche Führung des Fachbereichs Recht und entwickelst diesen gemeinsam mit deinem Team der Jurist＊innen strategisch und operativ weiter...",
+        "first_seen": "2026-11-04T17:57:16.087215Z",
+        "fingerprint": "7a7af1ebc48218ee6cef61494001bca77a4c8eac3a5753cfd7ef0678b0d6c9fc"
+      },
+      {
         "id": "karriere_at:7875511",
         "source": "karriere_at",
         "title": "Jurist:in / EU-Expert:in (w/m/d) in der Sektion VII Digitalisierung und E-Government",
@@ -781,20 +804,6 @@
         "snippet": "Make your way to the top. Rechtsanwalt Kartell-/ Wettbewerbs-/ Beihilferecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: Leistungsabhängiges Honorar entsprechend...",
         "first_seen": "2026-10-30T14:29:28.134607Z",
         "fingerprint": "329b67c745d5e52e867862f24dc0107cf12b69ae1cce3c8f095f006dbb7166e3"
-      },
-      {
-        "id": "karriere_at:7897237",
-        "source": "karriere_at",
-        "title": "Jurist:in Vergaberecht im strategischen Einkauf (Vollzeit/Teilzeit) – Karenzvertretung bis März 2029",
-        "company": "ÖBB-Konzern",
-        "location": "Wien 2. Bezirk (Leopoldstadt)",
-        "url": "https://www.karriere.at/jobs/7897237",
-        "salary": "ab 55.307 € jährlich",
-        "employment_type": "Vollzeit, Teilzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Jetzt bewerben Jurist:in Vergaberecht im strategischen Einkauf (Vollzeit/Teilzeit) Karenzvertretung bis März 2029 ÖBB-Infrastruktur AG Wien-Leopoldstadt, Wien, 1020, AUT Normalarbeitszeit...",
-        "first_seen": "2026-10-20T09:40:37.359882Z",
-        "fingerprint": "a80484fb09bd33f86bc8fafd3018a7f0ac5dc7b3919ee9e1a537bc50b47e0032"
       },
       {
         "id": "karriere_at:7898080",
@@ -921,20 +930,6 @@
         "snippet": "Ihre Aufgaben: Als eine der zentralen Ansprechpersonen für rechtliche Belange beraten Sie das Unternehmen in unterschiedlichsten juristischen Fragestellungen. Die Beratung in zivil-, bau- und liegenschaftsrechtlichen...",
         "first_seen": "2026-10-16T09:56:30.668073Z",
         "fingerprint": "51502591e9b5a6f724619fd6cd51dd2bddb1065942f7836b155687a9a69acbcd"
-      },
-      {
-        "id": "karriere_at:7905098",
-        "source": "karriere_at",
-        "title": "Leitung Recht",
-        "company": "Stadt Wien – Wiener Wohnen Kundenservice GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7905098",
-        "salary": "ab 80.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
-        "snippet": "Deine Aufgaben: Du übernimmst die fachliche, personelle und wirtschaftliche Führung des Fachbereichs Recht und entwickelst diesen gemeinsam mit deinem Team der Jurist＊innen strategisch und operativ weiter...",
-        "first_seen": "2026-11-04T17:57:16.087215Z",
-        "fingerprint": "df7c574e6112309a9649f8bae32e442fee1ae28f6c959a3df88147349353db3b"
       },
       {
         "id": "karriere_at:7859012",
@@ -1479,11 +1474,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Jurist-w-m-d-Wien-Buchhaltungsagentur-des-Bundes-Anstalt-oeffentlichen-Rechtes--1012865-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-10-30T01:58:49+01:00",
+        "published_at": "2026-10-30T08:36:42+01:00",
         "department": null,
         "snippet": "In dieser Position unterstützen Sie unser Team bei der Umsetzung eines neuen gesetzlichen bzw. regulatorischen Rahmens. Dabei fungieren wir als zentrale Schnittstelle für Unternehmen, die gesetzlich vorgesehene Informationen an uns übermitteln. Sie sorgen gemeinsam mit unserem Team dafür, dass die g",
         "first_seen": "2026-10-30T19:40:17.972954Z",
-        "fingerprint": "380534833236e71857b90506e9699a68f45ff775acb53a014102861515a1350c"
+        "fingerprint": "2738c17c2e0cc5766d8d967f5348dd9d6b5ac52640a3c5cbd5ac1664c8850f0d"
       },
       {
         "id": "stepstone:1012187",
@@ -1539,11 +1534,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Real-Estate-Transactions-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--945281-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-11-02T00:24:08+01:00",
+        "published_at": "2026-11-02T00:01:29+01:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit run",
         "first_seen": "2026-07-04T08:13:32.144750Z",
-        "fingerprint": "a81351755879db17b0a0d23116ff6b7edae88ba43f05d1f81455bbec24148659"
+        "fingerprint": "cf2dd2954eaad9caf6efb919446adda3b56957526d7f69fb2d02d1df1547b8f0"
       },
       {
         "id": "stepstone:929613",
@@ -1554,11 +1549,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Dispute-Resolution-Litigation-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--929613-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-11-01T00:11:04+01:00",
+        "published_at": "2026-11-01T00:38:02+01:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "1143d27108220acbd33bc4f1a6b2d460c93fb3152ebb96bf5ec51a54f1d1b866"
+        "fingerprint": "c9ecbfb685ff638d89979fd8ba3886031f9ec25ae4c63837f31c3de11f6a77a4"
       },
       {
         "id": "stepstone:1003621",
@@ -1606,6 +1601,21 @@
         "fingerprint": "d7091b09a8ddf786084ed5d0aad60c86bcaec82faff6c899cf4b019dbc527f6a"
       },
       {
+        "id": "stepstone:976441",
+        "source": "stepstone",
+        "title": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m)",
+        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
+        "salary": null,
+        "employment_type": "Home Office",
+        "published_at": "2026-11-07T00:13:42+01:00",
+        "department": "Home Office",
+        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
+        "first_seen": "2026-06-30T20:54:00.747169Z",
+        "fingerprint": "1540905bee441701e1adf21895619565faef508520a99419a3e38510bc2e33ef"
+      },
+      {
         "id": "stepstone:995185",
         "source": "stepstone",
         "title": "Rechtsanwalt / erfahrenenen Rechtsanwaltsanwärter (w/m/d) (Regulatorisches) Bankenrecht /Kapitalmarktrecht",
@@ -1634,21 +1644,6 @@
         "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Wir verstärken aktuell eine renommierte Wiener Anwaltskanzlei, die für exzellente Beratung im Bereich M&A und Gesellschaftsrecht steht. Auf Basis einer gewachsenen Sozietätsstruktur werden hier kompl",
         "first_seen": "2026-07-29T16:37:27.029091Z",
         "fingerprint": "742db7a82e485235ebf29753ca88c65cf2aa503feb0d9001a9dd218907216e01"
-      },
-      {
-        "id": "stepstone:976441",
-        "source": "stepstone",
-        "title": "Rechtsanwaltsanwärter:in Corporate / M&A (d/f/m)",
-        "company": "Fellner Wratzfeld & Partner Rechtsanwälte",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Corporate-MA-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--976441-inline.html",
-        "salary": null,
-        "employment_type": "Home Office",
-        "published_at": "2026-11-07T00:15:50+01:00",
-        "department": "Home Office",
-        "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
-        "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "2a236bb6da8657077eb4bebf8467293a07e67ab76c0d80e67ff5e1af4b523e65"
       },
       {
         "id": "stepstone:1011395",
@@ -1689,11 +1684,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaelt-in-Corporate-Restructuring-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934778-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-11-02T00:49:54+01:00",
+        "published_at": "2026-11-02T00:54:11+01:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "2ec29be8b85cd2e803ae4670e4d04d7f77d7b81fac177cd0a38f52120d1d4e07"
+        "fingerprint": "8c9634607c090937e7b0679c82f10beb73af9f645972bac5fc2f3cb67e7c6730"
       },
       {
         "id": "stepstone:934776",
@@ -1704,11 +1699,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsanwaerter-in-Restrukturierung-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--934776-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-11-02T00:54:14+01:00",
+        "published_at": "2026-11-02T00:02:04+01:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "fd170251bac734d061e17c7279239dd514175583d814a1ba68fec14b4cfc604c"
+        "fingerprint": "045616667d9baf54b1cc072500cbbd6ab8d8083d52c495aca8306f0f95ec5bd3"
       },
       {
         "id": "stepstone:1010410",
@@ -1749,11 +1744,11 @@
         "url": "https://www.stepstone.at/stellenangebote--In-House-Legal-Counsel-Governance-Officer-all-genders-Wien-PMC-International-GmbH--1004857-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-11-08T00:28:14+01:00",
+        "published_at": "2026-11-08T06:09:13+01:00",
         "department": null,
         "snippet": "Our client, Vienna International School – Austria, seeks a In-House Legal Counsel & Governance Officer (all genders) Full-time (38.5 hours/week) - as soon as possible Shape the Legal & Governance Landscape of a Leading International School Are you an experienced legal pr",
         "first_seen": "2026-09-25T13:02:05.352200Z",
-        "fingerprint": "1b1c4041d64871ee9abb9d2e3684f943cb2fcbee6352bbc155de81c01234e051"
+        "fingerprint": "964af2c016e8a1680ba9dd0a6bc9c9a426b48dfb0f32a3bd688b0894d24b2bfb"
       },
       {
         "id": "stepstone:1012176",
@@ -1779,11 +1774,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--1011146-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-11-06T05:36:04+01:00",
+        "published_at": "2026-11-06T06:28:05+01:00",
         "department": null,
         "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
         "first_seen": "2026-10-22T11:44:12.376639Z",
-        "fingerprint": "fe498c50da48859b1dbb29a45da14e18be57d0eef5ff5e80b350cbd477077898"
+        "fingerprint": "c68f8165997dc35e0ad9398fa20e32a725342e8c6df8527d8585ef7fe18631dd"
       },
       {
         "id": "stepstone:1014083",
@@ -1794,11 +1789,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Senior-Digital-Media-Consultant-Paid-Social-Client-Strategy-d-w-m-Wien-LPdigital-Personalberatung-GmbH--1014083-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-11-05T09:39:24+01:00",
+        "published_at": "2026-11-05T00:50:58+01:00",
         "department": "Schnelle Bewerbung, Home Office",
         "snippet": "Für unseren Kunden, eine international vernetzte Mediaagentur in Wien, suchen wir eine erfahrene Beratungspersönlichkeit mit digitalem Schwerpunkt. In dieser Position verbindest du Kundenführung, Mediastrategie und Paid-Social-Know-how und arbeitest eng mit spezialisierten Fachbereichen zusammen.",
         "first_seen": "2026-11-05T11:39:06.727786Z",
-        "fingerprint": "c0259bef419760dc10d0862a2aba15fd06a5d3fecfe0d3b2883dfb047a6e6b83"
+        "fingerprint": "0e6818b815983ae90ed5a87851fcee52de055c7a48e564db310c4ce65a5b2d40"
       },
       {
         "id": "stepstone:994936",
@@ -1824,11 +1819,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Juristische-r-Mitarbeiter-in-w-m-x-im-Arbeitsrecht-Vienna-Taylor-Wessing-Austria--1006897-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-11-05T06:43:03+01:00",
+        "published_at": "2026-11-05T02:08:58+01:00",
         "department": null,
         "snippet": "Taylor Wessing ist eine globale Anwaltssozietät, die den innovativsten Menschen und Unternehmen der Welt beratend zur Seite steht. Unsere 16 Offices in 11 Jurisdiktionen verbinden das Beste aus lokalem Business-, Industrie- und Kultur Know-how mit internationaler Erfahrung, um unseren Mandant:innen",
         "first_seen": "2026-11-01T15:03:29.092706Z",
-        "fingerprint": "d7b09a33a9e0379723bcd9cd1da3d5d5a13a1c9d74a3248f4eb209f436160a6c"
+        "fingerprint": "2f8603fe18161e475da993d273ae1403043dbe9f8142b234500d5a244213e688"
       },
       {
         "id": "stepstone:1004972",
@@ -1839,11 +1834,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Senior-Legal-Counsel-Technology-AI-IT-Law-m-w-x-Wien-BearingPoint-GmbH--1004972-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-11-09T03:29:32+01:00",
+        "published_at": "2026-11-09T09:49:12+01:00",
         "department": "Home Office",
         "snippet": "BearingPoint ist eine unabhängige Management- und Technologieberatung mit europäischen Wurzeln und globaler Reichweite, die Unternehmen mithilfe moderner Technologien transformiert. Wir unterstützen Unternehmen bei der Transformation, indem wir fundiertes Branchenwissen mit starken Kompetenzen in St",
         "first_seen": "2026-09-15T15:05:35.409732Z",
-        "fingerprint": "ca136ed7393820b32539870a543e96dcf0c661ed6917bd80fbea45c7e810378c"
+        "fingerprint": "c98e997585b3def54fa8147668e03821f3c802ef81532311be845d37cdaa52b3"
       },
       {
         "id": "stepstone:947468",
@@ -1854,11 +1849,26 @@
         "url": "https://www.stepstone.at/stellenangebote--Anwaltsassistent-in-d-f-m-Wien-Fellner-Wratzfeld-Partner-Rechtsanwaelte--947468-inline.html",
         "salary": null,
         "employment_type": "Home Office",
-        "published_at": "2026-11-09T00:57:17+01:00",
+        "published_at": "2026-11-09T00:50:03+01:00",
         "department": "Home Office",
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
-        "fingerprint": "91c594f00b5f963a4c2969daa103e31f257930b52cbc24b31377511f5bdd6827"
+        "fingerprint": "d96dd9e9574fc1f1bef678f890f413e4846566520cfa234e6306d82965c34c06"
+      },
+      {
+        "id": "stepstone:1005782",
+        "source": "stepstone",
+        "title": "Assistenz (m/w/d) Unterstützung für das Team Recht (Vertragsrecht/Mietrecht)",
+        "company": "Supernova Invest GmbH",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Assistenz-m-w-d-Unterstuetzung-fuer-das-Team-Recht-Vertragsrecht-Mietrecht-Wien-Supernova-Invest-GmbH--1005782-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-10-31T09:22:08+01:00",
+        "department": null,
+        "snippet": "Sie sind organisiert, verlässlich und behalten auch dann den Überblick, wenn mehrere Themen gleichzeitig anstehen ? Dann freuen wir uns darauf, Sie kennenzulernen! Zur Verstärkung unseres Rechtsteams suchen wir eine engagierte Assistenz, die unsere Juristen im Bereich Vertrags- und Mietrecht im Arbe",
+        "first_seen": "2026-10-01T13:33:23.937464Z",
+        "fingerprint": "9058cd92da31bfd8e649679be838df661724ee9073c993a612de8ebec9a43f0e"
       },
       {
         "id": "stepstone:1013244",
@@ -1876,34 +1886,34 @@
         "fingerprint": "86ec217b5acb5d3e8f66937ef56e56c713b5a3133d8ca54ac296d1ab35124b68"
       },
       {
-        "id": "stepstone:1005782",
+        "id": "stepstone:1006304",
         "source": "stepstone",
-        "title": "Assistenz (m/w/d) Unterstützung für das Team Recht (Vertragsrecht/Mietrecht)",
-        "company": "Supernova Invest GmbH",
+        "title": "Rechtskanzleiassistent:in | Kanzleiorganisation",
+        "company": "l & m executive search & consulting gmbh",
         "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Assistenz-m-w-d-Unterstuetzung-fuer-das-Team-Recht-Vertragsrecht-Mietrecht-Wien-Supernova-Invest-GmbH--1005782-inline.html",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtskanzleiassistent-in-Kanzleiorganisation-Wien-l-m-executive-search-consulting-gmbh--1006304-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-10-31T01:44:31+01:00",
+        "published_at": "2026-11-01T10:02:02+01:00",
         "department": null,
-        "snippet": "Sie sind organisiert, verlässlich und behalten auch dann den Überblick, wenn mehrere Themen gleichzeitig anstehen ? Dann freuen wir uns darauf, Sie kennenzulernen! Zur Verstärkung unseres Rechtsteams suchen wir eine engagierte Assistenz, die unsere Juristen im Bereich Vertrags- und Mietrecht im Arbe",
-        "first_seen": "2026-10-01T13:33:23.937464Z",
-        "fingerprint": "576f7a7028db439d02b9160b5586852df900df4b818f9a00e59958e5c7eafbd8"
+        "snippet": "lawyers & more – wir suchen die besten Köpfe für den besten Arbeitgeber – heute und morgen. Unsere Auftraggeberin ist eine Wirtschaftskanzlei in Top-Lage der Wiener Innenstadt mit Schwerpunkt Liegenschafts- und Immobilienrecht. Zur Verstärkung des Teams suchen wir eine erfahrene Persönlichkeit",
+        "first_seen": "2026-11-10T18:54:51.148162Z",
+        "fingerprint": "886af12237a792295ed0965faf37b04ea933daecb1c4dbcfb75caf738362901f"
       },
       {
-        "id": "stepstone:1010468",
+        "id": "stepstone:1001005",
         "source": "stepstone",
-        "title": "Maklerbetreuer - Außendienst (m/w/d) für die Gebiete Salzburg-Oberösterreich sowie Tirol-Vorarlberg",
-        "company": "ARAG SE - Direktion für Österreich",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Maklerbetreuer-Aussendienst-m-w-d-fuer-die-Gebiete-Salzburg-Oberoesterreich-sowie-Tirol-Vorarlberg-Wien-ARAG-SE-Direktion-fuer-Oesterreich--1010468-inline.html",
+        "title": "Business Development Trainee (w/m/x) / Teilzeit (20 Wochenstunden)",
+        "company": "Taylor Wessing Austria",
+        "location": "Vienna",
+        "url": "https://www.stepstone.at/stellenangebote--Business-Development-Trainee-w-m-x-Teilzeit-20-Wochenstunden-Vienna-Taylor-Wessing-Austria--1001005-inline.html",
         "salary": null,
-        "employment_type": null,
-        "published_at": "2026-11-09T15:02:02+01:00",
-        "department": "Schnelle Bewerbung",
-        "snippet": "Wir sind ein internationales Unternehmen in Familienbesitz. Als größter Rechtsschutzspezialist Österreichs ist es unser Ziel, allen den Zugang zum Recht zu ermöglichen. Da für ARAG die Vereinbarkeit von Beruf und Familie einen besonders hohen Stellenwert hat, freuen wir uns, dass ARAG als fami",
-        "first_seen": "2026-11-01T19:36:38.701474Z",
-        "fingerprint": "d7999d57a6a7b1e18a2b812f146fbaecaa064a7da6cefc16c1b59c0e1206bee8"
+        "employment_type": "Teilzeit",
+        "published_at": "2026-11-04T00:16:27+01:00",
+        "department": null,
+        "snippet": "Taylor Wessing ist eine globale Anwaltssozietät, die den innovativsten Menschen und Unternehmen der Welt beratend zur Seite steht. Unsere 16 Offices in 11 Jurisdiktionen verbinden das Beste aus lokalem Business-, Industrie- und Kultur Know-how mit internationaler Erfahrung, um unseren Mandant:innen",
+        "first_seen": "2026-11-10T18:54:51.148162Z",
+        "fingerprint": "53b3add8dcb12a441aed0fe1e5953c7b0dc5748c8c4dfb6b4353bd6936fd8e9f"
       },
       {
         "id": "stepstone:1011482",
@@ -1914,11 +1924,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Psychiatrische-r-Chefaerztin-bzw-Chefarzt-fuer-den-Straf-und-Massnahmenvollzug-Wien-ISG-Personalmanagement-GmbH--1011482-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-11-07T00:22:18+01:00",
+        "published_at": "2026-11-07T07:03:11+01:00",
         "department": null,
         "snippet": "Psychiatrische:r Chefärztin bzw. Chefarzt für den Straf- und Maßnahmenvollzug für den Straf- und Maßnahmenvollzug Bundesministerium für Justiz (1070 Wien, Museumstraße 7) Gesucht wird eine Chefärztin bzw. ein Chefarzt für die psychiatrische Versorgu",
         "first_seen": "2026-10-23T17:04:07.818457Z",
-        "fingerprint": "0d3e2d0b3ee657dcb68091f473d8d0b9941ac3f1303da22ebbf19e5008549f90"
+        "fingerprint": "8b1ef7a9e3fe664390cc3ebcf59b5e586ca9de667a9c9f393f4cc455094b1161"
       },
       {
         "id": "stepstone:1001468",
@@ -1959,11 +1969,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaltsassistent-in-m-w-d-Wien-BLS-Rechtsanwaelte-GmbH--1014064-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Home Office",
-        "published_at": "2026-11-05T06:39:43+01:00",
+        "published_at": "2026-11-05T06:27:47+01:00",
         "department": "Home Office",
         "snippet": "Rechtsanwaltsassistent:in (m/w/d) Vollzeit Sie haben auch Freude am Erfolg und möchten sich einer mittelständischen Rechtsanwaltskanzlei mit mehr als 50-jähriger Erfahrung anschließen? Dann bewerben Sie sich noch heute bei uns als Rechtsanwaltsassistent:in!",
         "first_seen": "2026-11-05T11:39:06.727786Z",
-        "fingerprint": "4fb070265f4afd28849d9d934ddaa68870657dfed2d3aa8cbe973ed769b86afc"
+        "fingerprint": "b348ab4c94bb33b01b93b88779b4df1d3227dcdc62f820aea247c1143d55c040"
       }
     ],
     "seen_ids": [
@@ -1971,6 +1981,7 @@
       "derstandard:1c3288ca-3174-33f0-a29c-773e674044d6",
       "derstandard:2d18c2d0-d700-325e-b60c-18d6ea6250f1",
       "derstandard:32cbb839-aa9e-3566-8bd9-f869113832bf",
+      "derstandard:3e71d35a-b93f-3add-b2e0-213984293f0c",
       "derstandard:493881e6-0fb9-314e-8516-5e773697b397",
       "derstandard:52acbc99-e8c1-35eb-af2a-e8fab70050e7",
       "derstandard:5412f64a-ac4f-38a5-a39b-f3a8429d9726",
@@ -2108,6 +2119,7 @@
       "jusjobs:2548733",
       "jusjobs:2549203",
       "jusjobs:2627400",
+      "jusjobs:2708911",
       "jusjobs:2709553",
       "jusjobs:2720025",
       "jusjobs:2720895",
