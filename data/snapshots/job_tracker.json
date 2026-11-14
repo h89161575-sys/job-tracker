@@ -1,24 +1,24 @@
 {
-  "timestamp": "2026-11-13T20:00:10.612436Z",
+  "timestamp": "2026-11-14T00:51:26.098898Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-11-13T20:00:10.612436Z",
+        "last_success": "2026-11-14T00:51:26.098898Z",
         "last_error": null,
         "count": 15
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-11-13T20:00:10.612436Z",
+        "last_success": "2026-11-14T00:51:26.098898Z",
         "last_error": null,
         "count": 5
       },
       "uniqa": {
         "label": "UNIQA",
         "last_success": "2026-11-13T20:00:10.612436Z",
-        "last_error": null,
+        "last_error": "UNIQA RSS error: HTTP 404: 404 error",
         "count": 2
       },
       "lawfinder": {
@@ -29,19 +29,19 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-11-13T20:00:10.612436Z",
+        "last_success": "2026-11-14T00:51:26.098898Z",
         "last_error": null,
         "count": 3
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-11-13T20:00:10.612436Z",
+        "last_success": "2026-11-14T00:51:26.098898Z",
         "last_error": null,
         "count": 65
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-11-13T20:00:10.612436Z",
+        "last_success": "2026-11-14T00:51:26.098898Z",
         "last_error": null,
         "count": 42
       }
@@ -472,102 +472,18 @@
         "fingerprint": "4fa7ef6b048cdd24383cedda3e7437dbda78c22cf3591a03a7693b88210f512a"
       },
       {
-        "id": "karriere_at:7859012",
+        "id": "karriere_at:7895941",
         "source": "karriere_at",
-        "title": "Jurist:in",
-        "company": "Raiffeisen Oberösterreich",
-        "location": "Linz, Salzburg (Stadt), Wien",
-        "url": "https://www.karriere.at/jobs/7859012",
-        "salary": "ab 60.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Jurist:in Spezialgebiet: Insolvenz/Verwertung oder Betreibung, Linz, Salzburg oder Wien, Vollzeit, ab sofort ÜBER UNS Als stärkste Regionalbank Österreichs setzt die...",
-        "first_seen": "2026-10-13T16:24:15.690471Z",
-        "fingerprint": "0c05a3625e3bd849602731379e4773aad188f6a348487ba27c8766c83eec3b41"
-      },
-      {
-        "id": "karriere_at:10039040",
-        "source": "karriere_at",
-        "title": "Legal Counsel",
-        "company": "\"RailNetEurope\" - Vereinigung zur Förderung des internationalen Verkehrs auf der Eisenbahninfrastruktur",
+        "title": "Jurist*in - Fachbereich Recht",
+        "company": "Stadt Wien – Wiener Wohnen Kundenservice GmbH",
         "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10039040",
-        "salary": "ab 50.000 € jährlich",
+        "url": "https://www.karriere.at/jobs/7895941",
+        "salary": "ab 61.578 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-11-12T18:25:54.746956Z",
-        "fingerprint": "1ede34feb0056bf8de628aa9e392db43377c43f47cbd728991cbc7335006a4eb"
-      },
-      {
-        "id": "karriere_at:10039075",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter:in – Arbeitsrecht (m|f|x)",
-        "company": "Schönherr Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10039075",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Heute veröffentlicht",
-        "snippet": null,
-        "first_seen": "2026-11-13T12:34:22.715739Z",
-        "fingerprint": "14efc94aaa28ffb02a16833bd7e97aed712872fa41f3c1533b5c6dfee993d365"
-      },
-      {
-        "id": "karriere_at:10037165",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Arbeitsrecht",
-        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10037165",
-        "salary": "ab 4.500 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Vorbereitung von Rechtsdokumenten, Prozessführung und Begleitung bei Umstrukturierungen. Mindestens ein Jahr Erfahrung im Arbeitsrecht erforderlich. Ausgezeichnete Englischkenntnisse sind Voraussetzung. Bietet Entwicklungsmöglichkeiten und Mitarbeit an internationalen Mandaten.",
-        "first_seen": "2026-10-27T12:27:44.865234Z",
-        "fingerprint": "9898f48f0efed729b961044377aa1cea6f60e6c79c217168fc072ca7cb4cc9e3"
-      },
-      {
-        "id": "karriere_at:10032942",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter:in",
-        "company": "Forvis Mazars",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10032942",
-        "salary": "ab 55.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Beratung nationaler/internationaler Mandanten in Zivil-/Unternehmensrecht, Analyse von Verfahren, Erstellung von Gutachten. 2-4 Jahre Berufserfahrung im Bereich Dispute Resolution erforderlich. Flexible Arbeitszeiten und Homeoffice werden geboten.",
-        "first_seen": "2026-09-16T14:55:53.410663Z",
-        "fingerprint": "032eb143e035eb623fc31459027b528424e21ee213e22670495bc37aadccfa1c"
-      },
-      {
-        "id": "karriere_at:10036699",
-        "source": "karriere_at",
-        "title": "Jurist*in (m/w/d) mit Schwerpunkt Wirtschaftsrecht & Datenschutz",
-        "company": "Wien Holding GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10036699",
-        "salary": "ab 3.599,53 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
-        "snippet": "Laufende rechtliche Beratung, Vertragsgestaltung und Datenschutzbegleitung. Mindestens 3-5 Jahre Berufserfahrung im Wirtschaftsrecht und Datenschutz sind erforderlich. Vertiefung und Erweiterung juristischen und wirtschaftlichen Wissens.",
-        "first_seen": "2026-10-21T10:19:21.070128Z",
-        "fingerprint": "9ee508966e062e445657ffe3dcec2b87d6e6f6c8fdd9434daa187d7d6b6fb961"
-      },
-      {
-        "id": "karriere_at:10038412",
-        "source": "karriere_at",
-        "title": "Jurist:in mit Schwerpunkt öffentliches Recht / Energierecht (m/w/d)",
-        "company": "E-Control",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10038412",
-        "salary": "ab 60.000 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
-        "snippet": "Bearbeitung von Themen des öffentlichen Rechts, insbesondere Energierecht. Mindestens dreijährige Berufserfahrung und abgeschlossenes Studium der Rechtswissenschaften erforderlich. Englischkenntnisse für Rechtstexte und Verfahrensdokumente sind ein Muss. Weiterentwicklungsmöglichkeiten werden geboten.",
-        "first_seen": "2026-11-09T10:26:39.142279Z",
-        "fingerprint": "1a7082d70c2e6e5b4d4675272cf0da2b6c52161d1c548f6271889d3af2781893"
+        "published_at": "vor 1 Tagen veröffentlicht",
+        "snippet": "Ihre Aufgaben: Als eine der zentralen Ansprechpersonen für rechtliche Belange beraten Sie das Unternehmen in unterschiedlichsten juristischen Fragestellungen. Die Beratung in zivil-, bau- und liegenschaftsrechtlichen...",
+        "first_seen": "2026-10-16T09:56:30.668073Z",
+        "fingerprint": "1c5d51b20f5f02e86fd6db5b9c55f96894c95850d778c26effee939c24dfbe5e"
       },
       {
         "id": "karriere_at:10038424",
@@ -584,6 +500,90 @@
         "fingerprint": "7e344f7d9d83dcd85229b1aa85aa53b664716f295edeba581ce372e86199f7a0"
       },
       {
+        "id": "karriere_at:10038412",
+        "source": "karriere_at",
+        "title": "Jurist:in mit Schwerpunkt öffentliches Recht / Energierecht (m/w/d)",
+        "company": "E-Control",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10038412",
+        "salary": "ab 60.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 4 Tagen veröffentlicht",
+        "snippet": "Bearbeitung von Themen des öffentlichen Rechts, insbesondere Energierecht. Mindestens dreijährige Berufserfahrung und abgeschlossenes Studium der Rechtswissenschaften erforderlich. Englischkenntnisse für Rechtstexte und Verfahrensdokumente sind ein Muss. Weiterentwicklungsmöglichkeiten werden geboten.",
+        "first_seen": "2026-11-09T10:26:39.142279Z",
+        "fingerprint": "1a7082d70c2e6e5b4d4675272cf0da2b6c52161d1c548f6271889d3af2781893"
+      },
+      {
+        "id": "karriere_at:10039040",
+        "source": "karriere_at",
+        "title": "Legal Counsel",
+        "company": "\"RailNetEurope\" - Vereinigung zur Förderung des internationalen Verkehrs auf der Eisenbahninfrastruktur",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10039040",
+        "salary": "ab 50.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 1 Tagen veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-11-12T18:25:54.746956Z",
+        "fingerprint": "a75e6bd563f7f943e3c4b4ca53c4d1286437607b07e7cacc15f34e35af607fe2"
+      },
+      {
+        "id": "karriere_at:10039075",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter:in – Arbeitsrecht (m|f|x)",
+        "company": "Schönherr Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10039075",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Gestern veröffentlicht",
+        "snippet": null,
+        "first_seen": "2026-11-13T12:34:22.715739Z",
+        "fingerprint": "5ecee6dea0d1b47f6a60919bb7ed7647ac53fffaa229e7bc894b3408c1e39f59"
+      },
+      {
+        "id": "karriere_at:10037165",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter*in (m/w/d) - Arbeitsrecht",
+        "company": "BINDER GRÖSSWANG Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10037165",
+        "salary": "ab 4.500 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 2 Tagen veröffentlicht",
+        "snippet": "Vorbereitung von Rechtsdokumenten, Prozessführung und Begleitung bei Umstrukturierungen. Mindestens ein Jahr Erfahrung im Arbeitsrecht erforderlich. Ausgezeichnete Englischkenntnisse sind Voraussetzung. Bietet Entwicklungsmöglichkeiten und Mitarbeit an internationalen Mandaten.",
+        "first_seen": "2026-10-27T12:27:44.865234Z",
+        "fingerprint": "5742f771de5ba0b570b610d8599b0725664f9954f96b4034e51a3b03b8cc59ca"
+      },
+      {
+        "id": "karriere_at:10032942",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter:in",
+        "company": "Forvis Mazars",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10032942",
+        "salary": "ab 55.000 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 2 Tagen veröffentlicht",
+        "snippet": "Beratung nationaler/internationaler Mandanten in Zivil-/Unternehmensrecht, Analyse von Verfahren, Erstellung von Gutachten. 2-4 Jahre Berufserfahrung im Bereich Dispute Resolution erforderlich. Flexible Arbeitszeiten und Homeoffice werden geboten.",
+        "first_seen": "2026-09-16T14:55:53.410663Z",
+        "fingerprint": "b5c643a84355cedf10ef00ded65a1a0401cf5cae2e254d6341c25c1a9d352cae"
+      },
+      {
+        "id": "karriere_at:10036699",
+        "source": "karriere_at",
+        "title": "Jurist*in (m/w/d) mit Schwerpunkt Wirtschaftsrecht & Datenschutz",
+        "company": "Wien Holding GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10036699",
+        "salary": "ab 3.599,53 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 4 Tagen veröffentlicht",
+        "snippet": "Laufende rechtliche Beratung, Vertragsgestaltung und Datenschutzbegleitung. Mindestens 3-5 Jahre Berufserfahrung im Wirtschaftsrecht und Datenschutz sind erforderlich. Vertiefung und Erweiterung juristischen und wirtschaftlichen Wissens.",
+        "first_seen": "2026-10-21T10:19:21.070128Z",
+        "fingerprint": "f32c7ea576339fc429fb690ec546685120609815dd94a19b3a5ee7e0d104df7c"
+      },
+      {
         "id": "karriere_at:10032139",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter*in (m/w/d) Corporate / M&A",
@@ -592,10 +592,10 @@
         "url": "https://www.karriere.at/jobs/10032139",
         "salary": "ab 4.000 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Rechtsberatung nationaler/internationaler Mandanten, M&A Transaktionen, Corporate Clients. Abgeschlossenes Studium Rechtswissenschaften/Wirtschaftsrecht, exzellente Englischkenntnisse. Entwicklungsmöglichkeiten.",
         "first_seen": "2026-11-09T10:26:39.142279Z",
-        "fingerprint": "9884093f2c2d500bc87412ecb44db502deb0abdfb24bdc749becef3490f453c1"
+        "fingerprint": "35e7dac044af147a7c203070f87a54a985907a5da56719b70e1414e9cfeb10c5"
       },
       {
         "id": "karriere_at:10034351",
@@ -606,10 +606,10 @@
         "url": "https://www.karriere.at/jobs/10034351",
         "salary": "ab 5.309,60 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 5 Tagen veröffentlicht",
+        "published_at": "vor 6 Tagen veröffentlicht",
         "snippet": "Rechtliche Beratung, Compliance, Arbeits- und Sozialrecht, Immobilienrecht, Baurecht. Mehrjährige Berufserfahrung als Jurist:in, idealerweise im Immobilienwesen. Langfristige Festanstellung.",
         "first_seen": "2026-09-30T15:52:38.184264Z",
-        "fingerprint": "374d320d2c993ad490248a2653de6747a84e36ac7e9a8326741220d1c5a6880c"
+        "fingerprint": "99d72a6a64edfe7ff4c78ab71afed7712871eba1c3d0e33540b907b6e5f31810"
       },
       {
         "id": "karriere_at:10037352",
@@ -620,10 +620,10 @@
         "url": "https://www.karriere.at/jobs/10037352",
         "salary": "ab 50.400 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Eigenständige Bearbeitung von Schadenfällen, Prüfung von Versicherungsverträgen und Kommunikation mit Beteiligten. Abgeschlossene Ausbildung im Versicherungsbereich oder Studium der Rechtswissenschaften erforderlich. Einsatz und Weiterentwicklung versicherungsfachlicher Kenntnisse.",
         "first_seen": "2026-10-28T14:28:22.685663Z",
-        "fingerprint": "296c83e4089e5ace13a443cbac2cfe2e7afe4f824905c02533593870978fca07"
+        "fingerprint": "e02588f29f2529f330c5d128724bf2544ad1c56c588ed514d88bea8c380326f7"
       },
       {
         "id": "karriere_at:10036425",
@@ -634,10 +634,10 @@
         "url": "https://www.karriere.at/jobs/10036425",
         "salary": "4.300 € – 4.800 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "6.11.2026",
         "snippet": "Beratung zu AI, E-Commerce, Digitalisierung und New Tech. Unterstützung im Datenschutz, insbesondere bei Data Breaches. Vorbereitung von Gerichts- und Behördenverhandlungen. Ausgezeichnete Deutsch- und Englischkenntnisse. Weiterbildungsmöglichkeiten.",
         "first_seen": "2026-10-19T15:01:03.627689Z",
-        "fingerprint": "68aaa3065b5a7460114d9d2f1458769e18cc6f3483bc3b0735fe31714f68dae3"
+        "fingerprint": "0c8e60d65652e5a4f28ec45d059c9bfad74b6ba4dfb6f6ce0e568389b6dd08b0"
       },
       {
         "id": "karriere_at:10038193",
@@ -676,10 +676,10 @@
         "url": "https://www.karriere.at/jobs/7908950",
         "salary": "ab 70.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
+        "published_at": "vor 2 Tagen veröffentlicht",
         "snippet": "Datenschutzexpert:in Legal & Compliance Als eine der führenden Versicherungen wissen wir, dass wir gemeinsam mehr bewegen können. Bei UNIQA sind wir deshalb die Gemeinschaft...",
         "first_seen": "2026-11-12T10:13:57.172902Z",
-        "fingerprint": "ce6d0479eb182e11f78845e440d2269d8324beb5437776ea8285d3f0e71ff4ff"
+        "fingerprint": "e72b6b87569dac07e2d871e7b0c32c8919dfc9db93d1b84f8981006304b52936"
       },
       {
         "id": "karriere_at:7905098",
@@ -766,18 +766,18 @@
         "fingerprint": "a5d7617934a4df9c12c4320fc491bfc95fe6e341949ee562a6592fa2faf93279"
       },
       {
-        "id": "karriere_at:7895941",
+        "id": "karriere_at:7859012",
         "source": "karriere_at",
-        "title": "Jurist*in - Fachbereich Recht",
-        "company": "Stadt Wien – Wiener Wohnen Kundenservice GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7895941",
-        "salary": "ab 61.578 € jährlich",
+        "title": "Jurist:in",
+        "company": "Raiffeisen Oberösterreich",
+        "location": "Linz, Salzburg (Stadt), Wien",
+        "url": "https://www.karriere.at/jobs/7859012",
+        "salary": "ab 60.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "Gestern veröffentlicht",
-        "snippet": "Ihre Aufgaben: Als eine der zentralen Ansprechpersonen für rechtliche Belange beraten Sie das Unternehmen in unterschiedlichsten juristischen Fragestellungen. Die Beratung in zivil-, bau- und liegenschaftsrechtlichen...",
-        "first_seen": "2026-10-16T09:56:30.668073Z",
-        "fingerprint": "82636aa9467f0eb8f2ab6b4daceddebc6d901837c421ae6461ed36a973252b00"
+        "published_at": "vor 1 Tagen veröffentlicht",
+        "snippet": "Jurist:in Spezialgebiet: Insolvenz/Verwertung oder Betreibung, Linz, Salzburg oder Wien, Vollzeit, ab sofort ÜBER UNS Als stärkste Regionalbank Österreichs setzt die...",
+        "first_seen": "2026-10-13T16:24:15.690471Z",
+        "fingerprint": "9450cea0028b1a439a3487f47cc2304a49a6177b7a889991c04d1934acc17de8"
       },
       {
         "id": "karriere_at:7908779",
@@ -858,10 +858,10 @@
         "url": "https://www.karriere.at/jobs/7906748",
         "salary": "ab 53.003,91 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 4 Tagen veröffentlicht",
+        "published_at": "vor 5 Tagen veröffentlicht",
         "snippet": "Jetzt bewerben Jurist:in Arbeitsrecht Prozessführung ÖBB-BCC GmbH Wien-Leopoldstadt, Wien, 1020, AUT Normalarbeitszeit Gleitzeit 38,5 Std. req26448 Wir möchten neue Wege...",
         "first_seen": "2026-11-09T10:26:39.142279Z",
-        "fingerprint": "af1ee2d4ad4afffd8b75e771be2314b36929940bf71bfefebad12a2eb113df53"
+        "fingerprint": "e7dc438fb18c0e595ec654ddf93046a23c58c2c14c8d481a066bfe4c77c30920"
       },
       {
         "id": "karriere_at:7878967",
@@ -1138,10 +1138,10 @@
         "url": "https://www.karriere.at/jobs/10033635",
         "salary": "ab 4.300 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Eigenverantwortliche risikobasierte Revisionsprüfungen mit Schwerpunkt Geldwäsche. Mindestens fünf Jahre Berufserfahrung im Bereich Wirtschaftsprüfung, Compliance oder Revision. Einblick in die Arbeit der Selbstverwaltung der Wiener Rechtsanwaltschaft.",
         "first_seen": "2026-09-23T17:19:10.927643Z",
-        "fingerprint": "d3d48932fae889bb13795c305a60339abc55eb3d514d6ac0a7f2b3bb31dd0d10"
+        "fingerprint": "a4dfa01e872184b39362590f071dad994863cf03a8fb2b68d8e3e29b29498415"
       },
       {
         "id": "karriere_at:7880248",
@@ -1348,10 +1348,10 @@
         "url": "https://www.karriere.at/jobs/7906157",
         "salary": "ab 45.500 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "6.11.2026",
         "snippet": "Ihre Aufgaben: Mitarbeit bei nationalen und internationalen M&A, Valuation, Due Diligence bzw. Restrukturierungs Projekten unserer Kunden im Deals & Strategy, Mitwirkung bei strategischen (Portfolio-)Überlegungen...",
         "first_seen": "2026-11-06T14:57:37.257744Z",
-        "fingerprint": "a955dcf62ffd1f9e6fde92a875c47ecc31d1fba0ce2cbe1909101e401408ff03"
+        "fingerprint": "139b8a778f707f8d6cc3285b761a9742c32a5504ff8eef7ea55176e076a54eb4"
       },
       {
         "id": "stepstone:1012187",
@@ -1737,11 +1737,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Counsel-m-w-d-Wien-Iventa-The-Human-Management-Group--1011146-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-11-06T04:49:52+01:00",
+        "published_at": "2026-11-06T07:59:10+01:00",
         "department": null,
         "snippet": "RP Global ist ein in Wien und Madrid ansässiger unabhängiger Stromentwickler und -erzeuger mit 40 Jahren Erfahrung im Bereich erneuerbare Energien. Als Entwickler, Investor und Betreiber fokussiert sich das Unternehmen auf Wasser-, Wind- und Solar-PV-Projekte in Europa und Südamerika. Die Zentrale i",
         "first_seen": "2026-10-22T11:44:12.376639Z",
-        "fingerprint": "1cd43cf6dd0cf9eaed0ee82fa86234dd5768adbc8e59df5f5b313f6112497d38"
+        "fingerprint": "a7406d48020fcfb9290e81b9d4eac811822dad24a887cec60affdb2b7cb93d96"
       },
       {
         "id": "stepstone:1014083",
@@ -1812,11 +1812,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Legal-Business-Partner-w-m-d-Wien-ISG-Personalmanagement-GmbH--1015335-inline.html",
         "salary": null,
         "employment_type": "Vollzeit, Home Office",
-        "published_at": "2026-11-11T00:09:22+01:00",
+        "published_at": "2026-11-11T05:42:32+01:00",
         "department": "Home Office",
         "snippet": "Legal Business Partner (w/m/d) Vollzeit | Wien | Hybrid Du bist ein absoluter Legal-Profi, der nicht nur Paragrafen wälzt, sondern unsere Teams als zentraler Sparringspartner aktiv berät und begleitet? Unser Kunde ist ein führender Anbieter im B2B-Software-Bereich mit Sitz in",
         "first_seen": "2026-11-11T14:07:40.140363Z",
-        "fingerprint": "87835ab0723d63d89afe334692a819791e1f786b1a974ec6b7c87d2e59ff51ae"
+        "fingerprint": "4b728f3091da1a2ff405613074171ffd80753849248d2989e07a52bbadcdd8f8"
       },
       {
         "id": "stepstone:947468",
@@ -1917,11 +1917,11 @@
         "url": "https://www.stepstone.at/stellenangebote--Psychiatrische-r-Chefaerztin-bzw-Chefarzt-fuer-den-Straf-und-Massnahmenvollzug-Wien-ISG-Personalmanagement-GmbH--1011482-inline.html",
         "salary": null,
         "employment_type": null,
-        "published_at": "2026-11-07T09:08:54+01:00",
+        "published_at": "2026-11-07T11:26:59+01:00",
         "department": null,
         "snippet": "Psychiatrische:r Chefärztin bzw. Chefarzt für den Straf- und Maßnahmenvollzug für den Straf- und Maßnahmenvollzug Bundesministerium für Justiz (1070 Wien, Museumstraße 7) Gesucht wird eine Chefärztin bzw. ein Chefarzt für die psychiatrische Versorgu",
         "first_seen": "2026-10-23T17:04:07.818457Z",
-        "fingerprint": "87187a76e3daa716c159c7df0ffc1177eddbef3848c29642558c68832e23a001"
+        "fingerprint": "f0f40216d9408ed6cdf455322fbdcba94088da4615e1d1d3a7debe0872ffb406"
       },
       {
         "id": "stepstone:1001468",
