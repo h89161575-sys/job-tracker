@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-11-21T23:28:16.426594Z",
+  "timestamp": "2026-11-22T03:27:35.768928Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-11-21T23:28:16.426594Z",
+        "last_success": "2026-11-22T03:27:35.768928Z",
         "last_error": null,
         "count": 9
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-11-21T23:28:16.426594Z",
+        "last_success": "2026-11-22T03:27:35.768928Z",
         "last_error": null,
         "count": 5
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-11-21T23:28:16.426594Z",
+        "last_success": "2026-11-22T03:27:35.768928Z",
         "last_error": null,
         "count": 2
       },
@@ -29,19 +29,19 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-11-21T23:28:16.426594Z",
+        "last_success": "2026-11-22T03:27:35.768928Z",
         "last_error": null,
-        "count": 2
+        "count": 3
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-11-21T23:28:16.426594Z",
+        "last_success": "2026-11-22T03:27:35.768928Z",
         "last_error": null,
         "count": 60
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-11-21T23:28:16.426594Z",
+        "last_success": "2026-11-22T03:27:35.768928Z",
         "last_error": null,
         "count": 34
       }
@@ -384,6 +384,16 @@
         "fingerprint": "c13821257945a9e433503cacade7e3bba0e733dabef887834354157df38997bb"
       },
       {
+        "id": "derstandard:5412f64a-ac4f-38a5-a39b-f3a8429d9726",
+        "source": "derstandard",
+        "title": "Bid Manager (m,w,d)",
+        "company": "ISG Personalmanagement GmbH",
+        "location": "1030 Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/5412f64a-ac4f-38a5-a39b-f3a8429d9726",
+        "first_seen": "2026-11-22T03:27:43.808473Z",
+        "fingerprint": "4fa7ef6b048cdd24383cedda3e7437dbda78c22cf3591a03a7693b88210f512a"
+      },
+      {
         "id": "karriere_at:10038424",
         "source": "karriere_at",
         "title": "Jurist:in mit Schwerpunkt öffentliches Recht, Energie- und Zivilrecht (m/w/d)",
@@ -398,20 +408,6 @@
         "fingerprint": "81def41ed857c6b6c64b7e08707563f89c43d06f6a5e0358c512b08a1d86fe79"
       },
       {
-        "id": "karriere_at:7895941",
-        "source": "karriere_at",
-        "title": "Jurist*in - Fachbereich Recht",
-        "company": "Stadt Wien – Wiener Wohnen Kundenservice GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/7895941",
-        "salary": "ab 61.578 € jährlich",
-        "employment_type": "Vollzeit",
-        "published_at": "vor 2 Tagen veröffentlicht",
-        "snippet": "Ihre Aufgaben: Als eine der zentralen Ansprechpersonen für rechtliche Belange beraten Sie das Unternehmen in unterschiedlichsten juristischen Fragestellungen. Die Beratung in zivil-, bau- und liegenschaftsrechtlichen...",
-        "first_seen": "2026-10-16T09:56:30.668073Z",
-        "fingerprint": "bac7b28b5a0152fa36af5d360e402fac926f8d9082b059ff3e3c62f5f06d361d"
-      },
-      {
         "id": "karriere_at:10038412",
         "source": "karriere_at",
         "title": "Jurist:in mit Schwerpunkt öffentliches Recht / Energierecht (m/w/d)",
@@ -424,6 +420,20 @@
         "snippet": "Bearbeitung von Themen des öffentlichen Rechts, insbesondere Energierecht. Direkter Kontakt mit Marktteilnehmern, Verfahrensführung und Erstellung von Schriftsätzen. Mindestens dreijährige Berufserfahrung im öffentlichen Recht erforderlich. Unterstützung bei fachlicher und persönlicher Weiterentwicklung.",
         "first_seen": "2026-11-09T10:26:39.142279Z",
         "fingerprint": "bf5e892b227a29e28d4680098c85f8959df9ec3ecc166508e8bfdb072161a1a3"
+      },
+      {
+        "id": "karriere_at:7895941",
+        "source": "karriere_at",
+        "title": "Jurist*in - Fachbereich Recht",
+        "company": "Stadt Wien – Wiener Wohnen Kundenservice GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7895941",
+        "salary": "ab 61.578 € jährlich",
+        "employment_type": "Vollzeit",
+        "published_at": "vor 2 Tagen veröffentlicht",
+        "snippet": "Ihre Aufgaben: Als eine der zentralen Ansprechpersonen für rechtliche Belange beraten Sie das Unternehmen in unterschiedlichsten juristischen Fragestellungen. Die Beratung in zivil-, bau- und liegenschaftsrechtlichen...",
+        "first_seen": "2026-10-16T09:56:30.668073Z",
+        "fingerprint": "bac7b28b5a0152fa36af5d360e402fac926f8d9082b059ff3e3c62f5f06d361d"
       },
       {
         "id": "karriere_at:10039040",
@@ -452,6 +462,20 @@
         "snippet": "Rechtsberatung für österreichische Projekte, von Flächensicherung bis Inbetriebnahme. Erstellung, Prüfung und Verhandlung von Verträgen (PPAs, Grundstückskauf). Mindestens 3 Jahre Berufserfahrung in Rechtsberatung oder Rechtsabteilung. Möglichkeit, an Transaktionen und Finanzierungen mitzuwirken.",
         "first_seen": "2026-11-17T19:55:26.430899Z",
         "fingerprint": "a9358c500a9d66dc6f21eaf46179c802b0703da9a809eae1f2bfda53505b50c8"
+      },
+      {
+        "id": "karriere_at:10039075",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter:in – Arbeitsrecht (m|f|x)",
+        "company": "Schönherr Rechtsanwälte GmbH",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/10039075",
+        "salary": "ab 4.000 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Beratung nationaler/internationaler Unternehmen im Arbeitsrecht, Prozessführung, M&A, Umstrukturierungen. KI-Tools im Mandatsgeschäft. Abgeschlossene Gerichtspraxis. Weiterbildungsmöglichkeiten.",
+        "first_seen": "2026-11-13T12:34:22.715739Z",
+        "fingerprint": "14efc94aaa28ffb02a16833bd7e97aed712872fa41f3c1533b5c6dfee993d365"
       },
       {
         "id": "karriere_at:10037165",
@@ -564,20 +588,6 @@
         "snippet": "Beratung nationaler/internationaler Mandanten in Zivil- und Unternehmensrecht, Analyse von Chancen/Risiken, Erstellung von Gutachten. 2-4 Jahre Berufserfahrung im Bereich Dispute Resolution erforderlich. Flexible Arbeitszeiten und Homeoffice.",
         "first_seen": "2026-11-14T23:10:25.961169Z",
         "fingerprint": "8036b45f0d93d06fc4853a3f98334dc553c5733994fd0e0094d9ffe4e967fad7"
-      },
-      {
-        "id": "karriere_at:10039075",
-        "source": "karriere_at",
-        "title": "Rechtsanwaltsanwärter:in – Arbeitsrecht (m|f|x)",
-        "company": "Schönherr Rechtsanwälte GmbH",
-        "location": "Wien",
-        "url": "https://www.karriere.at/jobs/10039075",
-        "salary": "ab 4.000 € monatlich",
-        "employment_type": "Vollzeit",
-        "published_at": "13.11.2026",
-        "snippet": "Beratung nationaler/internationaler Unternehmen im Arbeitsrecht, Prozessführung, M&A, Umstrukturierungen. KI-Tools im Mandatsgeschäft. Abgeschlossene Gerichtspraxis. Weiterbildungsmöglichkeiten.",
-        "first_seen": "2026-11-13T12:34:22.715739Z",
-        "fingerprint": "f9a0e69c1cb82be143e5366d2316873ab5a0677354dab98a4c6df4c5189aec9b"
       },
       {
         "id": "karriere_at:10038193",
