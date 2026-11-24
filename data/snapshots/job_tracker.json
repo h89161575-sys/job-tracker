@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-11-24T04:53:27.012715Z",
+  "timestamp": "2026-11-24T15:45:47.496912Z",
   "data": {
     "schema_version": 3,
     "sources": {
       "jusjobs": {
         "label": "JusJobs",
-        "last_success": "2026-11-24T04:53:27.012715Z",
+        "last_success": "2026-11-24T15:45:47.496912Z",
         "last_error": null,
-        "count": 9
+        "count": 10
       },
       "erste_bank": {
         "label": "Erste Bank / Sparkasse",
-        "last_success": "2026-11-24T04:53:27.012715Z",
+        "last_success": "2026-11-24T15:45:47.496912Z",
         "last_error": null,
-        "count": 5
+        "count": 4
       },
       "uniqa": {
         "label": "UNIQA",
-        "last_success": "2026-11-24T04:53:27.012715Z",
+        "last_success": "2026-11-24T15:45:47.496912Z",
         "last_error": null,
         "count": 2
       },
@@ -29,21 +29,21 @@
       },
       "derstandard": {
         "label": "DER STANDARD Jobs",
-        "last_success": "2026-11-24T04:53:27.012715Z",
+        "last_success": "2026-11-24T15:45:47.496912Z",
         "last_error": null,
-        "count": 3
+        "count": 4
       },
       "karriere_at": {
         "label": "karriere.at",
-        "last_success": "2026-11-24T04:53:27.012715Z",
+        "last_success": "2026-11-24T15:45:47.496912Z",
         "last_error": null,
-        "count": 61
+        "count": 63
       },
       "stepstone": {
         "label": "StepStone",
-        "last_success": "2026-11-24T04:53:27.012715Z",
+        "last_success": "2026-11-24T15:45:47.496912Z",
         "last_error": null,
-        "count": 30
+        "count": 29
       }
     },
     "jobs": [
@@ -98,6 +98,19 @@
         "snippet": "Qualifications Fully qualified employment lawyer in an EU jurisdiction, with extensive experience in employment law, including at least 3 years in a law firm environment and a…",
         "first_seen": "2026-09-23T20:32:21.832842Z",
         "fingerprint": "59a42b07d7032e36aea960a709f1f3cc9cd1be822b63f862b6f0cf16f3d42c82"
+      },
+      {
+        "id": "jusjobs:2789011",
+        "source": "jusjobs",
+        "title": "Legal Counsel - German speaking (f/m/d)",
+        "company": "Prewave GmbH",
+        "location": "Wien",
+        "url": "https://www.jusjobs.at/job/2789011",
+        "salary": "€ 4.285",
+        "employment_type": "Vollzeit",
+        "snippet": "requirements Deliver proactive, in-depth and business-focused commercial legal advice to teams across Prewave, so they can move fast with confidence Manage communication with…",
+        "first_seen": "2026-11-24T15:45:47.497243Z",
+        "fingerprint": "feb13587760041d60c3b37b5c081312cb9230c9d05af7dc044095605d7260919"
       },
       {
         "id": "jusjobs:2549203",
@@ -189,19 +202,6 @@
         "published_at": "06.11.2026",
         "first_seen": "2026-11-06T14:57:34.735814Z",
         "fingerprint": "a03763d38387c9164f406085a8a7ca8512d2a6b529654a638afe35f4d372e143"
-      },
-      {
-        "id": "erste_bank:34754",
-        "source": "erste_bank",
-        "title": "(FH-/Uni-) Internship, Corporate Governance & Legal Projects (w/m/d)",
-        "company": "Erste Group Bank AG",
-        "location": "Wien",
-        "url": "https://www.sparkasse.at/erstebank/karriere-spk/job-detail/fh-uni-internship-corporate-governance-legal-projects-w-m-d/34754",
-        "employment_type": "Teilzeit",
-        "department": "Group Secretariat and Legal",
-        "published_at": "19.10.2026",
-        "first_seen": "2026-10-19T07:41:31.878976Z",
-        "fingerprint": "74e39ab70a5487d677f02276c9e860eeb61d39964772a8c6f8d5b3eef9b7400b"
       },
       {
         "id": "erste_bank:34748",
@@ -394,6 +394,16 @@
         "fingerprint": "4fa7ef6b048cdd24383cedda3e7437dbda78c22cf3591a03a7693b88210f512a"
       },
       {
+        "id": "derstandard:16f16265-b462-3a52-b72d-9e3caad296d3",
+        "source": "derstandard",
+        "title": "Praktikum in der Rechtsabteilung (w/m/d)",
+        "company": "Oesterreichische Nationalbank",
+        "location": "Wien, Home-Office",
+        "url": "https://jobs.derstandard.at/job/16f16265-b462-3a52-b72d-9e3caad296d3",
+        "first_seen": "2026-11-24T15:45:56.949040Z",
+        "fingerprint": "c4eb58e8a1eb875cb623dacaed64a54560064057a858bd9844482f451675aa11"
+      },
+      {
         "id": "karriere_at:10032139",
         "source": "karriere_at",
         "title": "Rechtsanwaltsanwärter*in (m/w/d) Corporate / M&A",
@@ -430,10 +440,10 @@
         "url": "https://www.karriere.at/jobs/10039429",
         "salary": "ab 3.157,47 € monatlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 6 Tagen veröffentlicht",
+        "published_at": "vor 7 Tagen veröffentlicht",
         "snippet": "Rechtsberatung für österreichische Projekte, von Flächensicherung bis Inbetriebnahme. Erstellung, Prüfung und Verhandlung von Verträgen (PPAs, Grundstückskauf). Mindestens 3 Jahre Berufserfahrung in Rechtsberatung oder Rechtsabteilung. Möglichkeit, an Transaktionen und Finanzierungen mitzuwirken.",
         "first_seen": "2026-11-17T19:55:26.430899Z",
-        "fingerprint": "f107163a4405c4c44ded95f58e2c5b379a9c8ff7056f4214f6dc7972671e8fca"
+        "fingerprint": "9fceb8514696fdaeb9824f2dda4f248f680d0a32a7f0f557261c4706840bd6fe"
       },
       {
         "id": "karriere_at:10038473",
@@ -556,10 +566,10 @@
         "url": "https://www.karriere.at/jobs/10039124",
         "salary": "ab 48.000 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 7 Tagen veröffentlicht",
+        "published_at": "16.11.2026",
         "snippet": "Beratung nationaler/internationaler Mandanten im Energierecht, Erstellung von Analysen und Schriftsätzen. Abgeschlossenes Studium der Rechtswissenschaften, Gerichtspraxis und exzellente Deutsch-/Englischkenntnisse sind erforderlich. Flexible Arbeitszeiten und Homeoffice werden geboten.",
         "first_seen": "2026-11-16T09:30:58.568315Z",
-        "fingerprint": "a6b800192c6333413b7d38704c032df266f2d60ad71818125ac75526cdf271d1"
+        "fingerprint": "32cdc0be14c37e0bb8bb6cf7e68ec23dfe443ce50148cbdfa8d1cd0bdf18fa5c"
       },
       {
         "id": "karriere_at:10037352",
@@ -660,6 +670,20 @@
         "fingerprint": "12bb0e34b205b88b7d9dac24b79d74db1ede6bace44a8f61f0f601710a7e8c2e"
       },
       {
+        "id": "karriere_at:7914194",
+        "source": "karriere_at",
+        "title": "Rechtsanwaltsanwärter Procurement/Vergaberecht (m/w/d)",
+        "company": "Wolf Theiss Rechtsanwälte GmbH & Co KG",
+        "location": "Wien",
+        "url": "https://www.karriere.at/jobs/7914194",
+        "salary": "ab 3.800 € monatlich",
+        "employment_type": "Vollzeit",
+        "published_at": "Heute veröffentlicht",
+        "snippet": "Make your way to the top. Rechtsanwaltsanwärter Procurement/Vergaberecht (m/w/d) Location: Wien Position: Vollzeit, ab sofort Compensation: EUR 3.800,- brutto (All-in-Gehalt) Apply...",
+        "first_seen": "2026-11-24T15:45:56.949889Z",
+        "fingerprint": "0fa36e8e0f3aa0c226bc1cafafed349c324e3e0beeadfd7bf8104d10f32b736a"
+      },
+      {
         "id": "karriere_at:7913762",
         "source": "karriere_at",
         "title": "Jurist:in Arbeits- und Sozialrecht",
@@ -696,10 +720,10 @@
         "url": "https://www.karriere.at/jobs/7913207",
         "salary": "ab 82.069,12 € jährlich",
         "employment_type": "Vollzeit",
-        "published_at": "vor 3 Tagen veröffentlicht",
+        "published_at": "vor 4 Tagen veröffentlicht",
         "snippet": "Ihr Aufgabengebiet: Unterstützung und Beratung von Staatsanwältinnen:Staatsanwälten bei ihrer Ermittlungstätigkeit, Durchsicht, Analyse und Bewertung von Berichten der Finanzstrafbehörde und finanzstrafrechtlichen...",
         "first_seen": "2026-11-20T16:04:02.739346Z",
-        "fingerprint": "d4edf30d42936a614e6ae5d92298e6ac6b67561f1784d970c81d1ff8e364a16f"
+        "fingerprint": "70eb175ea98d38561cdfb53cad62bfe7838ed15be652008a3f62519e72547180"
       },
       {
         "id": "karriere_at:7859012",
@@ -868,6 +892,20 @@
         "snippet": "Manager:in Reporting Process Implementation Advisory (m/w/d) ...mehr über diesen Bereich findest du hier! GREAT, WENN DICH DIESE AUFGABEN FREUEN: Als Projektleiter:in verantwortest...",
         "first_seen": "2026-10-12T09:42:46.046073Z",
         "fingerprint": "38a2b296b21efb6dac980f932eca89e224ff2f110f345f490563e5f9a1a942c6"
+      },
+      {
+        "id": "karriere_at:7871059",
+        "source": "karriere_at",
+        "title": "(Senior) Consultant Tax | Berufsanwärter:in | Transfer Pricing",
+        "company": "EY Österreich",
+        "location": "Wien, Linz",
+        "url": "https://www.karriere.at/jobs/7871059",
+        "salary": "ab 43.400 € jährlich",
+        "employment_type": "Vollzeit, Teilzeit",
+        "published_at": "vor 3 Tagen veröffentlicht",
+        "snippet": "Deine Aufgaben: Verantwortlichkeiten, Begleitung nationaler und internationaler Konzerne bei steuerlichen Fragestellungen mit Schwerpunkt auf Verrechnungspreisen, Entwicklung und Umsetzung von Verrechnungspreislösungen...",
+        "first_seen": "2026-11-24T15:45:56.949889Z",
+        "fingerprint": "03025c2179d19d992d4cb1ab877d96cad26a82407112bddb732148d82f523202"
       },
       {
         "id": "karriere_at:7892956",
@@ -1490,6 +1528,21 @@
         "fingerprint": "a79087fa1f6aec97db549e97c6deec5b6b8314363fcfc0fe083653df16bdd73b"
       },
       {
+        "id": "stepstone:994936",
+        "source": "stepstone",
+        "title": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht",
+        "company": "l & m executive search & consulting gmbh",
+        "location": "Wien",
+        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-m-w-d-im-Immobilienrecht-Prozessrecht-Wien-l-m-executive-search-consulting-gmbh--994936-inline.html",
+        "salary": null,
+        "employment_type": null,
+        "published_at": "2026-11-24T16:14:41+01:00",
+        "department": null,
+        "snippet": "Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges",
+        "first_seen": "2026-07-28T23:27:24.331085Z",
+        "fingerprint": "2c8414db8ae83823230493ca8ed5ed78c784a1ca2419af994fdd81529556b759"
+      },
+      {
         "id": "stepstone:1014083",
         "source": "stepstone",
         "title": "Senior Digital Media Consultant - Paid Social & Client Strategy (d/w/m)",
@@ -1520,21 +1573,6 @@
         "fingerprint": "e7b036c317bdd700bafcdf307b038218856576cd2a1081299cc442413ae3500e"
       },
       {
-        "id": "stepstone:994936",
-        "source": "stepstone",
-        "title": "Rechtsanwältin / Rechtsanwalt (m/w/d) im Immobilienrecht & Prozessrecht",
-        "company": "l & m executive search & consulting gmbh",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Rechtsanwaeltin-Rechtsanwalt-m-w-d-im-Immobilienrecht-Prozessrecht-Wien-l-m-executive-search-consulting-gmbh--994936-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-11-14T09:02:02+01:00",
-        "department": null,
-        "snippet": "Die Kanzlei Unser Kunde ist eine etablierte, angesehene Wiener Rechtsanwaltskanzlei mit exzellentem Ruf und einem profilierten Tätigkeitsbereich u.a. im Immobilien- und Prozessrecht. Die Kanzlei berät ein hochwertiges Mandantenportfolio – von Immobilienentwicklern und Bauunternehmen über Wohnbauges",
-        "first_seen": "2026-07-28T23:27:24.331085Z",
-        "fingerprint": "48b11310fc9c08ba85cdf87a57f79a1ccd1a8264def509ed7bf7ea1a3eeb89e8"
-      },
-      {
         "id": "stepstone:1004972",
         "source": "stepstone",
         "title": "Senior Legal Counsel Technology & AI / IT Law (m/w/x)",
@@ -1563,21 +1601,6 @@
         "snippet": "Making it happen. That’s law. Shaping the future. That’s law. fwp. That’s law. Unsere tägliche Arbeit ist von Werten geprägt, die uns zu dem machen, was wir sind - eine der Top-Wirtschaftssozietäten in Österreich. Kompetenz, Teamgeist und Zielorientierung bilden unsere Eckpfeiler. Mit rund 140 Mita",
         "first_seen": "2026-06-30T20:54:00.747169Z",
         "fingerprint": "2dfcff480654870808f2c23c8dc5fe1645481ceb6a550cc8ddd3013f5ea9e336"
-      },
-      {
-        "id": "stepstone:1005782",
-        "source": "stepstone",
-        "title": "Assistenz (m/w/d) Unterstützung für das Team Recht (Vertragsrecht/Mietrecht)",
-        "company": "Supernova Invest GmbH",
-        "location": "Wien",
-        "url": "https://www.stepstone.at/stellenangebote--Assistenz-m-w-d-Unterstuetzung-fuer-das-Team-Recht-Vertragsrecht-Mietrecht-Wien-Supernova-Invest-GmbH--1005782-inline.html",
-        "salary": null,
-        "employment_type": null,
-        "published_at": "2026-11-15T06:35:34+01:00",
-        "department": null,
-        "snippet": "Sie sind organisiert, verlässlich und behalten auch dann den Überblick, wenn mehrere Themen gleichzeitig anstehen ? Dann freuen wir uns darauf, Sie kennenzulernen! Zur Verstärkung unseres Rechtsteams suchen wir eine engagierte Assistenz, die unsere Juristen im Bereich Vertrags- und Mietrecht im Arbe",
-        "first_seen": "2026-10-01T13:33:23.937464Z",
-        "fingerprint": "1faac65216a79a131844f4f0facb49f510fa98e08e84199213640703ab8939a0"
       },
       {
         "id": "stepstone:1015335",
@@ -1656,6 +1679,7 @@
       }
     ],
     "seen_ids": [
+      "derstandard:16f16265-b462-3a52-b72d-9e3caad296d3",
       "derstandard:193f60cb-c064-3c16-b209-4df6097d5e07",
       "derstandard:1c3288ca-3174-33f0-a29c-773e674044d6",
       "derstandard:2d18c2d0-d700-325e-b60c-18d6ea6250f1",
@@ -1806,6 +1830,7 @@
       "jusjobs:2720895",
       "jusjobs:2725709",
       "jusjobs:2749813",
+      "jusjobs:2789011",
       "jusjobs:432457",
       "jusjobs:712767",
       "jusjobs:970720",
@@ -1978,6 +2003,7 @@
       "karriere_at:7870489",
       "karriere_at:7870492",
       "karriere_at:7870900",
+      "karriere_at:7871059",
       "karriere_at:7871470",
       "karriere_at:7875511",
       "karriere_at:7876708",
@@ -2046,6 +2072,7 @@
       "karriere_at:7910072",
       "karriere_at:7913207",
       "karriere_at:7913762",
+      "karriere_at:7914194",
       "lawfinder:cmiytj1h00000lb04qm3rr7w6",
       "lawfinder:cmj04jl730000ky04wn76iggw",
       "lawfinder:cmkb568ry000104jmphy26lrd",
